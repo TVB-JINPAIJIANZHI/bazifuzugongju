@@ -169,13 +169,6 @@
             this.button35 = new System.Windows.Forms.Button();
             this.button36 = new System.Windows.Forms.Button();
             this.button37 = new System.Windows.Forms.Button();
-            this.button42 = new System.Windows.Forms.Button();
-            this.button43 = new System.Windows.Forms.Button();
-            this.button44 = new System.Windows.Forms.Button();
-            this.button45 = new System.Windows.Forms.Button();
-            this.button47 = new System.Windows.Forms.Button();
-            this.button48 = new System.Windows.Forms.Button();
-            this.button49 = new System.Windows.Forms.Button();
             this.button52 = new System.Windows.Forms.Button();
             this.button55 = new System.Windows.Forms.Button();
             this.button57 = new System.Windows.Forms.Button();
@@ -201,7 +194,6 @@
             this.linkLabeljy = new System.Windows.Forms.LinkLabel();
             this.button56 = new System.Windows.Forms.Button();
             this.linkLabel21 = new System.Windows.Forms.LinkLabel();
-            this.buttonlnqr = new System.Windows.Forms.Button();
             this.linkLabel25 = new System.Windows.Forms.LinkLabel();
             this.button59 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
@@ -1899,94 +1891,6 @@
             this.button37.UseVisualStyleBackColor = false;
             this.button37.Visible = false;
             // 
-            // button42
-            // 
-            this.button42.BackColor = System.Drawing.Color.Red;
-            this.button42.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button42.ForeColor = System.Drawing.Color.White;
-            this.button42.Location = new System.Drawing.Point(1653, 89);
-            this.button42.Name = "button42";
-            this.button42.Size = new System.Drawing.Size(239, 41);
-            this.button42.TabIndex = 154;
-            this.button42.Text = "地支六冲";
-            this.button42.UseVisualStyleBackColor = false;
-            this.button42.Visible = false;
-            // 
-            // button43
-            // 
-            this.button43.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button43.ForeColor = System.Drawing.Color.Sienna;
-            this.button43.Location = new System.Drawing.Point(1653, 42);
-            this.button43.Name = "button43";
-            this.button43.Size = new System.Drawing.Size(239, 41);
-            this.button43.TabIndex = 153;
-            this.button43.Text = "地支六合";
-            this.button43.UseVisualStyleBackColor = true;
-            this.button43.Visible = false;
-            // 
-            // button44
-            // 
-            this.button44.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button44.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button44.ForeColor = System.Drawing.Color.White;
-            this.button44.Location = new System.Drawing.Point(1408, 89);
-            this.button44.Name = "button44";
-            this.button44.Size = new System.Drawing.Size(239, 41);
-            this.button44.TabIndex = 152;
-            this.button44.Text = "天干冲";
-            this.button44.UseVisualStyleBackColor = false;
-            this.button44.Visible = false;
-            // 
-            // button45
-            // 
-            this.button45.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button45.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.button45.Location = new System.Drawing.Point(1408, 42);
-            this.button45.Name = "button45";
-            this.button45.Size = new System.Drawing.Size(239, 41);
-            this.button45.TabIndex = 151;
-            this.button45.Text = "天干五合";
-            this.button45.UseVisualStyleBackColor = true;
-            this.button45.Visible = false;
-            // 
-            // button47
-            // 
-            this.button47.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button47.ForeColor = System.Drawing.Color.BlueViolet;
-            this.button47.Location = new System.Drawing.Point(1163, 42);
-            this.button47.Name = "button47";
-            this.button47.Size = new System.Drawing.Size(239, 41);
-            this.button47.TabIndex = 149;
-            this.button47.Text = "地支三合";
-            this.button47.UseVisualStyleBackColor = true;
-            this.button47.Visible = false;
-            // 
-            // button48
-            // 
-            this.button48.BackColor = System.Drawing.Color.Red;
-            this.button48.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button48.ForeColor = System.Drawing.Color.White;
-            this.button48.Location = new System.Drawing.Point(1164, 89);
-            this.button48.Name = "button48";
-            this.button48.Size = new System.Drawing.Size(239, 41);
-            this.button48.TabIndex = 148;
-            this.button48.Text = "地支相刑";
-            this.button48.UseVisualStyleBackColor = false;
-            this.button48.Visible = false;
-            // 
-            // button49
-            // 
-            this.button49.BackColor = System.Drawing.Color.White;
-            this.button49.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button49.ForeColor = System.Drawing.Color.Red;
-            this.button49.Location = new System.Drawing.Point(918, 42);
-            this.button49.Name = "button49";
-            this.button49.Size = new System.Drawing.Size(239, 41);
-            this.button49.TabIndex = 147;
-            this.button49.Text = "地支三会";
-            this.button49.UseVisualStyleBackColor = false;
-            this.button49.Visible = false;
-            // 
             // button52
             // 
             this.button52.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -2213,7 +2117,7 @@
             // 
             // button54
             // 
-            this.button54.Location = new System.Drawing.Point(865, 95);
+            this.button54.Location = new System.Drawing.Point(990, -1);
             this.button54.Name = "button54";
             this.button54.Size = new System.Drawing.Size(40, 32);
             this.button54.TabIndex = 189;
@@ -2250,7 +2154,7 @@
             // 
             // button56
             // 
-            this.button56.Location = new System.Drawing.Point(822, 95);
+            this.button56.Location = new System.Drawing.Point(947, -1);
             this.button56.Name = "button56";
             this.button56.Size = new System.Drawing.Size(40, 32);
             this.button56.TabIndex = 192;
@@ -2271,19 +2175,6 @@
             this.linkLabel21.TabIndex = 193;
             this.linkLabel21.TabStop = true;
             this.linkLabel21.Text = "吉凶";
-            // 
-            // buttonlnqr
-            // 
-            this.buttonlnqr.BackColor = System.Drawing.Color.DarkGreen;
-            this.buttonlnqr.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.buttonlnqr.ForeColor = System.Drawing.Color.White;
-            this.buttonlnqr.Location = new System.Drawing.Point(918, 89);
-            this.buttonlnqr.Name = "buttonlnqr";
-            this.buttonlnqr.Size = new System.Drawing.Size(239, 41);
-            this.buttonlnqr.TabIndex = 194;
-            this.buttonlnqr.Text = "流年强弱";
-            this.buttonlnqr.UseVisualStyleBackColor = false;
-            this.buttonlnqr.Visible = false;
             // 
             // linkLabel25
             // 
@@ -2418,7 +2309,6 @@
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button59);
             this.Controls.Add(this.linkLabel25);
-            this.Controls.Add(this.buttonlnqr);
             this.Controls.Add(this.linkLabel21);
             this.Controls.Add(this.button56);
             this.Controls.Add(this.linkLabeljy);
@@ -2444,13 +2334,6 @@
             this.Controls.Add(this.button62);
             this.Controls.Add(this.button63);
             this.Controls.Add(this.button65);
-            this.Controls.Add(this.button42);
-            this.Controls.Add(this.button43);
-            this.Controls.Add(this.button44);
-            this.Controls.Add(this.button45);
-            this.Controls.Add(this.button47);
-            this.Controls.Add(this.button48);
-            this.Controls.Add(this.button49);
             this.Controls.Add(this.button34);
             this.Controls.Add(this.button35);
             this.Controls.Add(this.button36);
@@ -2746,13 +2629,6 @@
         private Button button35;
         private Button button36;
         private Button button37;
-        private Button button42;
-        private Button button43;
-        private Button button44;
-        private Button button45;
-        private Button button47;
-        private Button button48;
-        private Button button49;
         private Button button52;
         private Button button55;
         private Button button57;
@@ -2778,7 +2654,6 @@
         private LinkLabel linkLabeljy;
         private Button button56;
         private LinkLabel linkLabel21;
-        private Button buttonlnqr;
         private LinkLabel linkLabel25;
         private Button button59;
         private CheckBox checkBox1;
