@@ -101,7 +101,7 @@ namespace BaZiFuZuGongJu
         string 地支三会 = "地支三会局通常是指地支会合成为一季之气，也就是说：寅卯辰三会东方木局，巳午未三会南方火，申酉戌三会西方金，亥子丑三会北方水。\r\n\r\n地支三会局，其力量大于地支六合，三合局，半合局；地支三会局，有吉有凶，四柱本身可形成三会局，逢大运、流年也可形成三会局。\r\n\r\n八字中地支三会者命运如何\r\n\r\n1、吉神三会为大吉\r\n\r\n地支的特殊作用就是，当三种不同五行相遇的时候就会形成另一种五行气势，因此不好的五行就会变成好的能量场，会局的力量在任何五行的力量都要大，因此吉神会局大贵。\r\n\r\n2、忌神三会者为凶\r\n\r\n八字中有财星，地支会官杀局或者比劫局的时候财气就会泄尽；食伤旺的八字最怕有三会印星局势。\r\n\r\n什么是地支三会局\r\n\r\n寅卯辰三会东方木局、巳午未三会南方火局、申酉戍三会西方金局、亥子丑三会北方水局\r\n\r\n地支三会局主什么含义\r\n\r\n1、地支的三会局是主力量的表现\r\n\r\n会成后是一个五行太旺之势，一般正格的八字就容易太旺的意思，应该顺其势泄秀为上，而不能用克制之五行。\r\n\r\n2、三会局的力量方面比其他的六合，半合，三合等力量大\r\n\r\n故说三会局形成一般的情况就应该是这个五行旺而成势的时候了。\r\n\r\n3、三会局成立后吉凶的表现就会很明显\r\n\r\n特别是克制某五行受损最重，克制其会局的五行也损伤厉害。\r\n\r\n地支三会局的含义\r\n\r\n1、寅卯辰三会东方木局\r\n\r\n以木气主论性格，人际关系好，从事木火行业的较为多。\r\n\r\n2、巳午未三会南方火局\r\n\r\n以火之气来论性格，从事行业容易火土五行的居多。\r\n\r\n3、申酉戍三会西方金局\r\n\r\n以金之气来论性格，从事的行业为金水行业的局多。\r\n\r\n4、亥子丑三会北方水局\r\n\r\n以水之气来论性格，从事的行业以水木行业居多。\r\n\r\n三会局成立的条件\r\n\r\n1、化神临月令，化神以及合神都不能受伤。\r\n\r\n2、化神要透出天干并且旺相而不受制\r\n\r\n3、三字须相邻，并且得月令生扶\r\n\r\n4、三会局不得月令一般难以成化\r\n\r\n5、逢大运的出现也容易引化三会局\r\n\r\n6、逢流年加入，也能合化\r\n\r\n但要看大运的情况，还有命局的组合而定。\r\n\r\n地支三会局五行的关系\r\n\r\n1、寅卯辰三会木局\r\n\r\n在四柱、大运、流年中，只要有寅卯辰三个地支，为寅卯辰三会木局。在寅、卯、辰、未、亥、子六个月令中，三会木局为旺相（称之为三会局旺，下同）；在巳、午、申、酉、戌、丑六个月令中，三会木局为衰弱（称之为三会局衰，下同）。寅卯辰三会木局，表示寅卯木力量增加，辰土的性质不复存在而变化为木。若日主喜木，则代表日主运气好和身体健康的信息；若是日主忌木，则代表日主运气不好，且肝经、胆经、脾胃经、肾经等有疾。\r\n\r\n2、巳午未三会火局\r\n\r\n在四柱、大运、流年中，只要有巳午未三个地支，为巳午未三会火局。在寅、卯、巳、午、未、戌六个月令中，三会火局为旺相；在辰、申、酉、亥、子、丑六个月令中，三会火局为衰弱。巳午未三会火局，表示巳午火力量增加，未土的性质不复存在而变化为火。若日主喜火，则代表日主运气好和身体健康；若日主忌火，则代表日主运气不好，且肝胆经、肺经、脾胃经、肾经等有病。\r\n\r\n3、申酉戌三会金局\r\n\r\n在四柱、大运、流年中，只要有申酉戌三个地支，为申酉戌三会金局。在辰、未、申、酉、戌、丑六个月令中，三会金局为旺相；在寅、卯、巳、午、亥、子六个月令中，三会金局为衰弱。申酉戌三会金局，表示申酉金力量增加，戌土的性质不复存在而变化为金。若日主喜金，则代表日主运气好，且身体健康；若日主忌金，则代表日主运气不好，且肝胆经、脾胃经、肺经等有疾。\r\n\r\n4、亥子丑三会水局\r\n\r\n在四柱、大运、流年中，只要有亥子丑三个地支，为亥子丑三会水局。在辰、申、酉、亥、子、丑六个月令中，三会水局为旺相；在寅、卯、巳、午、未、戌六个月令中，三会水局为衰弱。\r\n\r\n亥子丑三会水局，表示亥子水力量增加，丑土的性质不复存在而变化为水。若日主喜水，则代表日主运气好和身体健康的信息；若日主忌水，表示日主运气不好，或心经、肝胆经、脾胃经等有疾。\r\n\r\n地支三会局吉凶\r\n\r\n若日主的用神或喜神地支被三会为忌神或仇神五行，则日主就是凶的信息；若日主的忌神或仇神地支被三会为用神或喜神五行，则日主就是吉的信息。用神、喜神三会局旺则吉，用神、喜神三会局衰则凶；忌神、仇神三会局旺则凶，忌神、仇神三会局衰则吉。";
         string 地支三合 = "申子辰合水，申生长刚开始,到子水最帝旺,辰土墓.\r\n寅午戌合火，寅生长刚开始,到午火最帝旺,戌土墓.\r\n巳酉丑合金，巳生长刚开始,到酉金最帝旺,丑土墓.\r\n亥卯未合木，亥生长刚开始,到卯木最帝旺,未土墓\r\n三合条件\r\n三合局成化的条件：（1）、化神临月令（2）、化神，合神均不受伤（3）、三合局与六合局相见时，六合局让位于三合局，原命局中三合局已经成化，年运再出现其中其字为加合，以化神增力论。\r\n说明\r\n②三合局以旺支为主，即子午卯酉。三合局缺一支为半三合;三合局多一支则为增力，不作争合论;三合局缺一支，遇岁运填实所缺之支，也作合化论。\r\n\r\n　　③三合局合化后，三支均变成合化之五行，合成喜用神则吉，合成仇忌神则凶。\r\n\r\n　　④三合局的力量小于三会局的力量;生地半三合的力量，小于三合局的力量;墓地半三合的力量小于生地半三合的力量，但大于六合的力量。\r\n\r\n三、地支三合的八字命理特点\r\n凡六和四福入命，主人家描述姿美，神奇稳定，无比恶死，內心竖直，周璇便捷，聪明伶俐输通。如相生合者，举事多遂，更有福神往来，则福愈厚，一辈子辛集，多艺多才，言和貌悦，不较是是非非，福祸帮扶，人满为患见怜；如相冲合者，难事儿而易悦，多是定计，动多招损，更有凶神相兼，横事勾连，惊暴之灾，不至于深咎；死绝合者，主人家尤为未尝遂意，威风凛凛不大，精神实质俗陋，惹人鄙薄，志卑气窄，爱奸险小人恶谦谦君子，习下自贱，一辈子少得称怀；与建禄合者，多偏财、出现意外威望之福；正印贵人相助合，得天恩贵人相助提携之福；食神合，衣禄丰馀，饮食搭配厚给；大耗合，无文明礼貌，言情小说行浊，厚於贱货，侮慢谦谦君子；咸池并，奸恶通奸，欠佳受贿之旅；与官符并，多招形狱，词讼旁牵，暗昧是是非非；天上并，动无成实，贱货欺诒。妇女忌讳合中带煞，咸池玷行淫声，大耗必致淫奔，含有贵禄者，自贱而贵也。大率合吉神则吉，合凶煞则凶。\r\n\r\n四、地支三合局五行属性的旺衰规范和衰旺\r\n（一）、寅午戌合化火局\r\n在八字、好运、岁月中，要是有寅午戌3个十二地支，即是寅午戌四福火局。在寅、卯、巳、午、未、戌半年令中，四福火局即是旺相，（称作三合局旺，相同）；在辰、申、酉、亥、子、丑半年令中，四福火局即是衰微，（称作三合局衰，相同）。寅午戌四福火局，表达寅木、戌土的特性都荡然无存，午火的能量提升。若日主喜火，则意味着日主好运气和身心健康；若日主忌火，则意味着日主运气差，并且日主肝胆经、肺经、胃经等得病。\r\n\r\n（二）、亥卯未四福木局\r\n在八字、好运、岁月中，要是有亥卯未3个十二地支，即是亥卯未四福木局。在寅、卯、辰、未、亥、子半年令中，四福木局即是旺相；在巳、午、申、酉、戌、丑半年令中，四福木局即是衰微。亥卯未四福木局，表达亥水、未土的特性都荡然无存，卯木的能量提升。若日主喜木，则意味着日主好运气和身心健康的信息内容；若日主忌木，则意味着日主运气差，并且日主肝经、胆经、胃经、脾经等有疾。\r\n\r\n（三）、申子辰四福水局\r\n在八字、好运、岁月中，要是有申子辰3个十二地支，即是申子辰四福水局。在辰、申、酉、亥、子、丑半年令中，四福水局即是旺相；在寅、卯、巳、午、未、戌半年令中，四福水局即是衰微。申子辰四福水局，表达申金、辰土的特性都荡然无存，子水的能量提升。若四柱命理喜水，则意味着日主好运气和身心健康的信息内容；若四柱命理忌水，表达日主运气差，或心经、小肠经、胃经等有疾。\r\n\r\n（四）、巳酉丑三铝合金局\r\n在八字、好运、岁月中，要是有巳酉丑3个十二地支，即巳酉丑三铝合金局。在辰、未、申、酉、戌、丑半年令中，三铝合金局即是旺相；在寅、卯、巳、午、亥、子半年令中，三铝合金局即是衰微。巳酉丑三铝合金局，表达巳火、丑土的特性都荡然无存，酉金的能量提升。若日主喜金，则意味着日主好运气，并且身心健康；若日主忌金，则意味着日主运气差，并且日主心经、脾经、肺经等有疾。";
         string 天干五合 = "天干五合\r\n\r\n1、甲己合化土，为中正之合\r\n\r\n主安分守己，重信讲义。命局无他土，又带七杀，则缺乏情义，诡计多端，性刚。日干合己，遇乙木，妻财暗损。火，衣禄成空。金，贵显高门。土，家殷大富。水，平生发福。金，家徒四壁。火，禄享千钟。日干合甲，遇丁火，他人凌辱。木，自己遭遇。金，家殷大富。金，孤寒白屋。水，官职迁荣。\r\n\r\n2、乙庚合化金，主仁义之合\r\n\r\n刚柔兼备，重仁守义。有偏官或坐死绝等弱运者，反固执己见，轻仁寡义。日干合庚，遇丙火，蹇难。水，荣华。火，似春花之笑日。土，满堂金玉。金，若秋草逢霜。木，麻麦盈仓。日干合乙，遇辛金，暗损。火，相煎。火，如蛟龙得云雨。水，田园漂荡。水，财禄增减。土，不成巨富，逢壬水助方永保长年。\r\n\r\n3、丙辛合化水，主威严之合\r\n\r\n仪表威严，智力优秀。带七杀或座死绝者，反性酷无情，乖僻寡与。命逢支冲，合化之水，主性感纵欲。日干合辛，遇戊土，成名。木，官爵迁荣。水己土，家门显赫。水辰土，祸败。日干合丙，遇戊土庚金，功名。\r\n\r\n4、丁壬合化木，主仁寿之合\r\n\r\n心地仁慈，长命多寿。命若命局水过旺泄木，则为淫欲之合。座死绝者，酒色破家。日干合壬，遇丙火，历年安逸。金，一进优游，富贵双全。土，活计消遣。水，生涯寂寞。木重重，财禄无成。金叠叠，功名莫望。甲临辰，禄封双美。己共酉，亦禄封双美。日干合丁，遇甲木，多遭仆马。金，广置田庄。火，英雄豪杰。水，辛苦经商。土，佩印乘轩。土，漂蓬落魄。金，皓首无成。木，青年不遇。\r\n\r\n5、戊癸合化火，主无情之合\r\n\r\n相貌俊秀，薄情乏义。多抱玩世之心，女则多嫁俊夫。日干合癸，遇乙木，终能显达。水，独自丰隆。火，难寻福禄。金，易见亨通。土，妻子有损。金，谋略为拙。日干合戊，遇丙辛，一世多成败。己，历年劳心。火，仓库丰肥。金，田财殷实。木，官爵陆荣。水，财禄两全。金，财缘得失。土，仕途蹭蹬。\r\n\r\n天干五合婚姻\r\n\r\n天干五合对于婚姻的重要影响，通过对于天干五合男女双方的测算，能够对于运势或者性格方面进行一个匹配。就是说如果双方八字特别合的话，能够在事业和生活上更加的美好，这就是社会上常说的旺夫运或者旺财运。\r\n\r\n另外就是八字相合的话，对于家庭成员之间的相处也是有着很大影响的，通过一个人的八字能够看出他自身的命格以及与人相处时的特点。果八字好的话，在进行人际沟通等方面能够起到一个很好的效果。\r\n\r\n天干五合合化条件\r\n\r\n1、甲已合化土条件\r\n\r\n甲已合化土必须是辰、戌、丑、未、午月才化，干有戊字不化，为妒合。什么要辰、戌、丑、未、午才化呢？因为，甲已合土是否能化成土气，关键是月份，是否占月份的天时，辰、戌、丑、未都是土月，午月不是土月，但它能生土，所以也得土气。有戊字不化，为妒合。两兄弟同时争夺一美女，大家都争，所以难以化气。：己酉甲戌壬戌丁未，甲己合土化土气，因为在戌月出生。\r\n\r\n2、乙庚化金条件\r\n\r\n必须是巳、酉、丑、申月才化，有甲字不化，为妒合。意：根据实践，在巳月不能看成化气，因为火是金的克星，怎么能化气呢？这个观点与古籍上的不同。酉、丑、申能化，因为酉本身为金么，丑为金库。：庚辰乙亥乙未丙子，乙庚只合不化，因为在亥月，没有在酉、丑、申月。\r\n\r\n3、丙辛化水条件\r\n\r\n必须是申、子、辰、亥月才化，有丁字不化，为妒合。：辛酉丙申丁亥庚子，丙辛合水，丙辛合水不化，因为有丁字，妒合。\r\n\r\n4、丁壬化木条件\r\n\r\n必须是亥、卯、未、寅月才化，有丙字不化，为妒合。解和上面是一样的道理。：己酉甲戌，壬戌，丁未，丁壬合化木，化的原因是丁坐未，未虽为土，但它是木库。\r\n\r\n5、戊癸化火条件\r\n\r\n必须是寅、午、戌、巳月才化，有己字不化，为妒合。：戊午，癸亥，己亥，丙寅，戊癸合火，但不化，因为有己字不化，还有亥月不化。如果没有己字要考虑化气，因为戊坐午火为刃，午里面有己土。 ";
-        string 地支六合 = "十二支六合：\r\n\r\n子丑合化土，寅亥合化木，卯戌合化火，辰酉合化金，巳申合化水，午未合化土。\r\n\r\n十二地支六合详解\r\n1、子丑合详解\r\n子丑合土为克合，合中带克，半吉半凶。子为玄武，丑为贵神，子为水，丑为稀泥，这种合就是把水和稀泥合在一块，所以叫做泥合。\r\n玄武为暧昧之神，向贵神求合，主要目的，是未害子，求丑来护卫，玄武暧昧不净，代表一种阴暗之象，但是子合的同时会被丑克住，所以子水本身有损失，这代表一种不情愿的合。因此子丑合代表因小失大，和聚散不能自主之象。子水有暗昧的性质，同时玄武有贪淫之象，在年月，代表长辈中有不正之人，在日时同样如此。一般情况下有子丑合的人你断他是个因小失大的人通常不会错的。\r\n2、寅亥合详解\r\n寅亥合木为破合，主先破后合，带耗泄之气，也要分是寅来合亥，还是亥来合寅。同时寅亥也带破，这个合叫做破合。同时又叫义合，因为寅亥中都含甲木，为兄弟合作共同抵御外敌之象，因为义合，所以非常同心，又因为是破合，所以他也带有不好的象，一般在年柱出现，都会有英年早逝的祖辈和残疾之人。\r\n3、卯戌合详解\r\n卯戌合火为克合，合中带克，半吉；卯来合戌，戌有官；戌来合卯，卯要破财。卯戌合，叫做淫合，因为卯为花草，戌为火炉，合化火，其象意为卯木自焚。代表一种无控能力，意志不坚定，缺乏主见之象。在六合里面，卯戌合最能代表未婚同居。\r\n4、巳申合详解\r\n\r\n\r\n\r\n申合水为刑合，合中带刺，巳来合申，昼夜愁；申来合巳，财运到。\r\n巳申同时也是三刑中的一种，这个代表的意思跟寅亥合有点类似，合同时又刑，好中有坏，就好像矛盾夫妻，分开就思念，在一起又争吵。申为刀剑，巳为金的长生处，因此有火金铸剑之象，代表一种家里出武职的象。\r\n5、午未合详解\r\n午未合为争合，带争夺性质（午为太阳，未为太阴）。午来合未，争宠；未来合午，求人。\r\n午为炉火，未为碳，这种合叫做和合。代表一种光明燃烧之象，因此为人光明正大。同时午火为文印，在神将中代表公门和文笔，未为小吉，这代表家门中出文人之象。未又为少妇，还代表家门中出重婚之人。\r\n6、辰酉合详解\r\n辰酉合金为生合，合中带生，主全福；辰来合酉，龙凤呈祥；酉来合辰，要乱人伦。辰酉合，为融合。辰为天罡，贵人不临，酉为太阴，主阴私之事，这种合代表一种私下约定，女命在感情上一般是自由恋爱，在古代就说是容易私奔。辰为天罡主讼，酉为门户，这还代表着一种象，就是家有斗讼，展开来说就是有牢狱官非等\r\n十二地支合化原理\r\n十二地支在八字命理上的合化，必须有以下几个条件才能化。\r\n1、相合必须是紧贴之合\r\n这样，双方的合力大，才有可能变成另一种东西。\r\n\r\n\r\n\r\n2、被合化的五行必须无根\r\n被合化的五行在四柱中均无根无生无助，即没有帮助它的，它只好随合他的人而走。或者虽然有生有助有根，但这些生、助、根很弱而被刑冲去而不起作用。最低的限度也必须是在参与合化的两柱中无根无生无助，在其他柱中虽然有根、有生、有助，但线路上却帮不上忙，即没有生和帮的途径，这样才能被合化。\r\n3、化神在命局中旺相成势\r\n这样才能化得出来，例：甲己合化土，必须甲坐下无根无生，即不能是甲子、甲寅，己土坐下无木，即不是己卯，同时，甲的旁边不能有水生之，有木帮之，这样甲才能随已化土，如果命局中其他的柱有寅字或卯字，则要金来把寅卯克去，或火把寅卯化去；假如命局中其他柱有亥子壬癸水，则要有土把这些水挡住，让它们生不到木。但仅有此还不够，还要命局中土旺，才能化土，如果是甲申、己酉相合，虽然甲无根无生，但土不成势，甲己之合并不能化土，只能说由于相合而双方绊住，可能会两失其用。 ";
+        string 地支六合 = "十二支六合：\r\n\r\n子丑合化土，寅亥合化木，卯戌合化火，辰酉合化金，巳申合化水，午未合化土。\r\n\r\n十二地支六合详解\r\n1、子丑合详解\r\n子丑合土为克合，合中带克，半吉半凶。子为玄武，丑为贵神，子为水，丑为稀泥，这种合就是把水和稀泥合在一块，所以叫做泥合。\r\n玄武为暧昧之神，向贵神求合，主要目的，是未害子，求丑来护卫，玄武暧昧不净，代表一种阴暗之象，但是子合的同时会被丑克住，所以子水本身有损失，这代表一种不情愿的合。因此子丑合代表因小失大，和聚散不能自主之象。子水有暗昧的性质，同时玄武有贪淫之象，在年月，代表长辈中有不正之人，在日时同样如此。一般情况下有子丑合的人你断他是个因小失大的人通常不会错的。\r\n2、寅亥合详解\r\n寅亥合木为破合，主先破后合，带耗泄之气，也要分是寅来合亥，还是亥来合寅。同时寅亥也带破，这个合叫做破合。同时又叫义合，因为寅亥中都含甲木，为兄弟合作共同抵御外敌之象，因为义合，所以非常同心，又因为是破合，所以他也带有不好的象，一般在年柱出现，都会有英年早逝的祖辈和残疾之人。\r\n3、卯戌合详解\r\n卯戌合火为克合，合中带克，半吉；卯来合戌，戌有官；戌来合卯，卯要破财。卯戌合，叫做淫合，因为卯为花草，戌为火炉，合化火，其象意为卯木自焚。代表一种无控能力，意志不坚定，缺乏主见之象。在六合里面，卯戌合最能代表未婚同居。\r\n4、巳申合详解\r\n巳申合水为刑合，合中带刺，巳来合申，昼夜愁；申来合巳，财运到。\r\n巳申同时也是三刑中的一种，这个代表的意思跟寅亥合有点类似，合同时又刑，好中有坏，就好像矛盾夫妻，分开就思念，在一起又争吵。申为刀剑，巳为金的长生处，因此有火金铸剑之象，代表一种家里出武职的象。\r\n5、午未合详解\r\n午未合为争合，带争夺性质（午为太阳，未为太阴）。午来合未，争宠；未来合午，求人。\r\n午为炉火，未为碳，这种合叫做和合。代表一种光明燃烧之象，因此为人光明正大。同时午火为文印，在神将中代表公门和文笔，未为小吉，这代表家门中出文人之象。未又为少妇，还代表家门中出重婚之人。\r\n6、辰酉合详解\r\n辰酉合金为生合，合中带生，主全福；辰来合酉，龙凤呈祥；酉来合辰，要乱人伦。辰酉合，为融合。辰为天罡，贵人不临，酉为太阴，主阴私之事，这种合代表一种私下约定，女命在感情上一般是自由恋爱，在古代就说是容易私奔。辰为天罡主讼，酉为门户，这还代表着一种象，就是家有斗讼，展开来说就是有牢狱官非等\r\n\r\n\r\n十二地支合化原理\r\n十二地支在八字命理上的合化，必须有以下几个条件才能化。\r\n1、相合必须是紧贴之合\r\n这样，双方的合力大，才有可能变成另一种东西。\r\n2、被合化的五行必须无根\r\n被合化的五行在四柱中均无根无生无助，即没有帮助它的，它只好随合他的人而走。或者虽然有生有助有根，但这些生、助、根很弱而被刑冲去而不起作用。最低的限度也必须是在参与合化的两柱中无根无生无助，在其他柱中虽然有根、有生、有助，但线路上却帮不上忙，即没有生和帮的途径，这样才能被合化。\r\n3、化神在命局中旺相成势\r\n这样才能化得出来，例：甲己合化土，必须甲坐下无根无生，即不能是甲子、甲寅，己土坐下无木，即不是己卯，同时，甲的旁边不能有水生之，有木帮之，这样甲才能随已化土，如果命局中其他的柱有寅字或卯字，则要金来把寅卯克去，或火把寅卯化去；假如命局中其他柱有亥子壬癸水，则要有土把这些水挡住，让它们生不到木。但仅有此还不够，还要命局中土旺，才能化土，如果是甲申、己酉相合，虽然甲无根无生，但土不成势，甲己之合并不能化土，只能说由于相合而双方绊住，可能会两失其用。 ";
         string 半三合 = "1.半三合是天干地支，五行八卦中的说法，是用来算命，预测婚姻的\r\n\r\n2.半三合，必须要带子午卯酉，四正位之一。\r\n\r\n3.、地支相合相会 地支相合相会分三会、三合、半三合、六合几种情况。合化力对比：三会>三合>半三合>六合，这是在紧贴有力时，力量对比序，当三合、三会、六合同时出现首论三会，再论三合，其次论半三合，最后是六合。\r\n\r\n4.地支半三合\r\n\r\n亥卯合木，卯未合木\r\n\r\n巳酉合金，酉丑合金\r\n\r\n申子合水，子辰合水\r\n\r\n寅午合火，午戌合火\r\n\r\n地支半三合理同地支三合，不过因为三者没有汇全，所以其力量较三合要小一些。";
         string 拱合 = "地支三合局，分为三合、生地半合、墓地半合，最后还有个拱合。\r\n\r\n拱合是没有中神参与的，比如寅午戌三合火局，地支没有午火，只有寅戌，寅戌拱出了一个午火。\r\n\r\n同样，巳丑拱出酉金。申辰拱出子水。亥未拱出卯木。\r\n\r\n比如火局，当我们看见地支有寅戌两个字时，这时候就要想到地支还有另外一个看不见的地支，那就是午火。\r\n\r\n因此，在我们测算命局时，这个午火就要考虑进去。举个例子说明：\r\n\r\n比如地支有寅戌两个字，日主是丙火，则寅戌拱出了午火，午火是劫财。此时，如果地支还有个酉金财，则构成了劫财见财的作用方式。\r\n\r\n财在男命中还代表女性和老婆，寅戌拱出午火，劫财见财，则婚姻就有问题了，出现了隐患。\r\n\r\n这是拱出了害。也有一种情况，是拱出了贵，比如日主是癸水，地支有个寅木，则寅木是日主的伤官，同时，地支还有个寅戌，寅戌拱出了午火，午火是财，地支的寅木生午火，又构成了生地半合的财局，财旺了，这是拱出了贵。\r\n\r\n需要注意到是，拱合、半合，所形成事情不是很完整，也就是不是太真实。而三合六合，做作用的事情，是完整和真实的。";
         string 地支六冲 = "地支六冲\r\n\r\n子午相冲、卯酉相冲、寅申相冲、巳亥相冲、辰戌相冲、丑未相冲。\r\n\r\n子、丑、寅、卯、辰、巳、午、未、申、酉、戌、亥十二个地支，子、午、寅、申、辰、戌属阳，卯、酉、巳、亥、丑、未属阴。\r\n\r\n寅卯辰为东方木、巳午未为南方火、申酉戌为西方金、亥子丑为北方水、辰戌丑未为四季土。\r\n\r\n地支的方位图配以天干相冲的原理，可以发现：子午是相对冲的，卯酉是相对冲的，寅申是相对冲的，巳亥是相对冲的，辰戌时相对冲的，丑未是相对冲的。\r\n\r\n因为子午、卯酉、寅申、巳亥、辰戌、丑未六组相对冲的地支，就方位而言，都是两方相敌的（如卯在东，酉在西；午在南，子在北）；就五行而言，都是相克的（如子水克午火，酉金克卯木）；就阴阳而言，都是阳克阳（如寅为阳申也为阳）阴克阴（如卯为阴酉也为阴），阴阳不能配合，所以发生冲突。";
@@ -245,75 +245,6 @@ namespace BaZiFuZuGongJu
             //初始化计时器
             timer1.Enabled = true;timer1.Interval = 1000;
             //初始化控件
-            comboBoxmonth.Items.Add("01");
-            comboBoxmonth.Items.Add("02");
-            comboBoxmonth.Items.Add("03");
-            comboBoxmonth.Items.Add("04");
-            comboBoxmonth.Items.Add("05");
-            comboBoxmonth.Items.Add("06");
-            comboBoxmonth.Items.Add("07");
-            comboBoxmonth.Items.Add("08");
-            comboBoxmonth.Items.Add("09");
-            comboBoxmonth.Items.Add("10");
-            comboBoxmonth.Items.Add("11");
-            comboBoxmonth.Items.Add("12");
-
-            comboBoxday.Items.Add("01");
-            comboBoxday.Items.Add("02");
-            comboBoxday.Items.Add("03");
-            comboBoxday.Items.Add("04");
-            comboBoxday.Items.Add("05");
-            comboBoxday.Items.Add("06");
-            comboBoxday.Items.Add("07");
-            comboBoxday.Items.Add("08");
-            comboBoxday.Items.Add("09");
-            comboBoxday.Items.Add("10");
-            comboBoxday.Items.Add("11");
-            comboBoxday.Items.Add("12");
-            comboBoxday.Items.Add("13");
-            comboBoxday.Items.Add("14");
-            comboBoxday.Items.Add("15");
-            comboBoxday.Items.Add("16");
-            comboBoxday.Items.Add("17");
-            comboBoxday.Items.Add("18");
-            comboBoxday.Items.Add("19");
-            comboBoxday.Items.Add("20");
-            comboBoxday.Items.Add("21");
-            comboBoxday.Items.Add("22");
-            comboBoxday.Items.Add("23");
-            comboBoxday.Items.Add("24");
-            comboBoxday.Items.Add("25");
-            comboBoxday.Items.Add("26");
-            comboBoxday.Items.Add("27");
-            comboBoxday.Items.Add("28");
-            comboBoxday.Items.Add("29");
-            comboBoxday.Items.Add("30");
-            comboBoxday.Items.Add("31");
-
-            comboBoxhour.Items.Add("01");
-            comboBoxhour.Items.Add("02");
-            comboBoxhour.Items.Add("03");
-            comboBoxhour.Items.Add("04");
-            comboBoxhour.Items.Add("05");
-            comboBoxhour.Items.Add("06");
-            comboBoxhour.Items.Add("07");
-            comboBoxhour.Items.Add("08");
-            comboBoxhour.Items.Add("09");
-            comboBoxhour.Items.Add("10");
-            comboBoxhour.Items.Add("11");
-            comboBoxhour.Items.Add("12");
-            comboBoxhour.Items.Add("13");
-            comboBoxhour.Items.Add("14");
-            comboBoxhour.Items.Add("15");
-            comboBoxhour.Items.Add("16");
-            comboBoxhour.Items.Add("17");
-            comboBoxhour.Items.Add("18");
-            comboBoxhour.Items.Add("19");
-            comboBoxhour.Items.Add("20");
-            comboBoxhour.Items.Add("21");
-            comboBoxhour.Items.Add("22");
-            comboBoxhour.Items.Add("23");
-            comboBoxhour.Items.Add("00");
 
             comboBoxng.Items.Add("甲"); comboBoxyg.Items.Add("甲"); comboBoxrg.Items.Add("甲"); comboBoxsg.Items.Add("甲");
             comboBoxng.Items.Add("乙"); comboBoxyg.Items.Add("乙"); comboBoxrg.Items.Add("乙"); comboBoxsg.Items.Add("乙");
@@ -348,1344 +279,1275 @@ namespace BaZiFuZuGongJu
             string daytimestr = daytime.Substring(8, 2);
             string hourtimestr = daytime.Substring(11, 2);
 
-            textBoxyear.Text = yeartimestr;
-            comboBoxmonth.Text = mothtimestr;
-            comboBoxday.Text = daytimestr;
-            comboBoxhour.Text = hourtimestr;
-
             int yeartimeint = int.Parse(yeartimestr);
             int mothtimeint = int.Parse(mothtimestr);
             int daytimeint = int.Parse(daytimestr);
             int hourtimeint = int.Parse(hourtimestr);
 
-            //年干支
+            numericUpDownyear.Value = yeartimeint;
+            numericUpDownmonth.Value = mothtimeint;
+            numericUpDownday.Value = daytimeint;
+            numericUpDownhour.Value = hourtimeint;
 
-            int jz1984 = 1984;
-            int niangz = yeartimeint;
-            int niangz1 = 0;
-            int niangz2 = 0;
-            //计算与甲子日的差
-            if (mothtimeint==1)
+            //取得农历月份
+            DateTime shijian = new DateTime(yeartimeint, mothtimeint, daytimeint);
+            ChineseLunisolarCalendar nonglli = new ChineseLunisolarCalendar();
+            int month = nonglli.GetMonth(shijian);
+            //年干支
+            if (jia == jia)
             {
-                niangz -= 1;
-            }
-            if (mothtimeint == 2)
-            {
-                if (daytimeint <4)
+                int jz1984 = 1984;
+                int niangz = yeartimeint;
+                int niangz1 = 0;
+                int niangz2 = 0;
+
+
+                if (month == 12)
                 {
                     niangz -= 1;
                 }
-            }
-            if (niangz <= jz1984)
-            {
-                niangz1 += niangz - jz1984;
-            }
 
-            if (niangz > jz1984)
-            {
-                niangz1 += jz1984 - niangz;
-            }
+                if (niangz <= jz1984)
+                {
+                    niangz1 = jz1984 - niangz;
+                }
 
-            niangz2 += niangz1;
-            while (niangz2 > 60)
-            {
-                niangz2 += niangz1 - 60;
-            }
-            while (niangz2 < -60)
-            {
-                niangz2 += 60;
-            }
+                if (niangz > jz1984)
+                {
+                    niangz1 = niangz - jz1984;
+                }
 
-
-            //查六十甲子表
-            if (niangz2 == 0 || niangz2 == 60 || niangz2 == -60)
-            {
-                comboBoxng.Text = jia; comboBoxnz.Text = zii;
-            }
-            else if (niangz2 == 1 || niangz2 == -1)
-            {
-                comboBoxng.Text = yii; comboBoxnz.Text = chou;
-            }
-            else if (niangz2 == 2 || niangz2 == -2)
-            {
-                comboBoxng.Text = bing; comboBoxnz.Text = yin;
-            }
-            else if (niangz2 == 3 || niangz2 == -3)
-            {
-                comboBoxng.Text = ding; comboBoxnz.Text = mao;
-            }
-            else if (niangz2 == 4 || niangz2 == -4)
-            {
-                comboBoxng.Text = wuu; comboBoxnz.Text = chen;
-            }
-            else if (niangz2 == 5 || niangz2 == -5)
-            {
-                comboBoxng.Text = jii; comboBoxnz.Text = sii;
-            }
-            else if (niangz2 == 6 || niangz2 == -6)
-            {
-                comboBoxng.Text = geng; comboBoxnz.Text = wuma;
-            }
-            else if (niangz2 == 7 || niangz2 == -7)
-            {
-                comboBoxng.Text = xin; comboBoxnz.Text = wei;
-            }
-            else if (niangz2 == 8 || niangz2 == -8)
-            {
-                comboBoxng.Text = ren; comboBoxnz.Text = shen;
-            }
-            else if (niangz2 == 9 || niangz2 == -9)
-            {
-                comboBoxng.Text = gui; comboBoxnz.Text = you;
-            }
-            //2jz
-            else if (niangz2 == 10 || niangz2 == -10)
-            {
-                comboBoxng.Text = jia; comboBoxnz.Text = xuu;
-            }
-            else if (niangz2 == 11 || niangz2 == -11)
-            {
-                comboBoxng.Text = yii; comboBoxnz.Text = hai;
-            }
-            else if (niangz2 == 12 || niangz2 == -12)
-            {
-                comboBoxng.Text = bing; comboBoxnz.Text = zii;
-            }
-            else if (niangz2 == 13 || niangz2 == -13)
-            {
-                comboBoxng.Text = ding; comboBoxnz.Text = chou;
-            }
-            else if (niangz2 == 14 || niangz2 == -14)
-            {
-                comboBoxng.Text = wuu; comboBoxnz.Text = yin;
-            }
-            else if (niangz2 == 15 || niangz2 == -15)
-            {
-                comboBoxng.Text = jii; comboBoxnz.Text = mao;
-            }
-            else if (niangz2 == 16 || niangz2 == -16)
-            {
-                comboBoxng.Text = geng; comboBoxnz.Text = chen;
-            }
-            else if (niangz2 == 17 || niangz2 == -17)
-            {
-                comboBoxng.Text = xin; comboBoxnz.Text = sii;
-            }
-            else if (niangz2 == 18 || niangz2 == -18)
-            {
-                comboBoxng.Text = ren; comboBoxnz.Text = wuma;
-            }
-            else if (niangz2 == 19 || niangz2 == -19)
-            {
-                comboBoxng.Text = gui; comboBoxnz.Text = wei;
-            }
-            //3jz
-            else if (niangz2 == 20 || niangz2 == -20)
-            {
-                comboBoxng.Text = jia; comboBoxnz.Text = shen;
-            }
-            else if (niangz2 == 21 || niangz2 == -21)
-            {
-                comboBoxng.Text = yii; comboBoxnz.Text = you;
-            }
-            else if (niangz2 == 22 || niangz2 == -22)
-            {
-                comboBoxng.Text = bing; comboBoxnz.Text = xuu;
-            }
-            else if (niangz2 == 23 || niangz2 == -23)
-            {
-                comboBoxng.Text = ding; comboBoxnz.Text = hai;
-            }
-            else if (niangz2 == 24 || niangz2 == -24)
-            {
-                comboBoxng.Text = wuu; comboBoxnz.Text = zii;
-            }
-            else if (niangz2 == 25 || niangz2 == -25)
-            {
-                comboBoxng.Text = jii; comboBoxnz.Text = chou;
-            }
-            else if (niangz2 == 26 || niangz2 == -26)
-            {
-                comboBoxng.Text = geng; comboBoxnz.Text = yin;
-            }
-            else if (niangz2 == 27 || niangz2 == -27)
-            {
-                comboBoxng.Text = xin; comboBoxnz.Text = mao;
-            }
-            else if (niangz2 == 28 || niangz2 == -28)
-            {
-                comboBoxng.Text = ren; comboBoxnz.Text = chen;
-            }
-            else if (niangz2 == 29 || niangz2 == -29)
-            {
-                comboBoxng.Text = gui; comboBoxnz.Text = sii;
-            }
-            //4jz
-            else if (niangz2 == 30 || niangz2 == -30)
-            {
-                comboBoxng.Text = jia; comboBoxnz.Text = wuma;
-            }
-            else if (niangz2 == 31 || niangz2 == -31)
-            {
-                comboBoxng.Text = yii; comboBoxnz.Text = wei;
-            }
-            else if (niangz2 == 32 || niangz2 == -32)
-            {
-                comboBoxng.Text = bing; comboBoxnz.Text = shen;
-            }
-            else if (niangz2 == 33 || niangz2 == -33)
-            {
-                comboBoxng.Text = ding; comboBoxnz.Text = you;
-            }
-            else if (niangz2 == 34 || niangz2 == -34)
-            {
-                comboBoxng.Text = wuu; comboBoxnz.Text = xuu;
-            }
-            else if (niangz2 == 35 || niangz2 == -35)
-            {
-                comboBoxng.Text = jii; comboBoxnz.Text = hai;
-            }
-            else if (niangz2 == 36 || niangz2 == -36)
-            {
-                comboBoxng.Text = geng; comboBoxnz.Text = zii;
-            }
-            else if (niangz2 == 37 || niangz2 == -37)
-            {
-                comboBoxng.Text = xin; comboBoxnz.Text = chou;
-            }
-            else if (niangz2 == 38 || niangz2 == -38)
-            {
-                comboBoxng.Text = ren; comboBoxnz.Text = yin;
-            }
-            else if (niangz2 == 39 || niangz2 == -39)
-            {
-                comboBoxng.Text = gui; comboBoxnz.Text = mao;
-            }
-            //5jz
-            else if (niangz2 == 40 || niangz2 == -40)
-            {
-                comboBoxng.Text = jia; comboBoxnz.Text = chen;
-            }
-            else if (niangz2 == 41 || niangz2 == -41)
-            {
-                comboBoxng.Text = yii; comboBoxnz.Text = sii;
-            }
-            else if (niangz2 == 42 || niangz2 == -42)
-            {
-                comboBoxng.Text = bing; comboBoxnz.Text = wuma;
-            }
-            else if (niangz2 == 43 || niangz2 == -43)
-            {
-                comboBoxng.Text = ding; comboBoxnz.Text = wei;
-            }
-            else if (niangz2 == 44 || niangz2 == -44)
-            {
-                comboBoxng.Text = wuu; comboBoxnz.Text = shen;
-            }
-            else if (niangz2 == 45 || niangz2 == -45)
-            {
-                comboBoxng.Text = jii; comboBoxnz.Text = you;
-            }
-            else if (niangz2 == 46 || niangz2 == -46)
-            {
-                comboBoxng.Text = geng; comboBoxnz.Text = xuu;
-            }
-            else if (niangz2 == 47 || niangz2 == -47)
-            {
-                comboBoxng.Text = xin; comboBoxnz.Text = hai;
-            }
-            else if (niangz2 == 48 || niangz2 == -48)
-            {
-                comboBoxng.Text = ren; comboBoxnz.Text = zii;
-            }
-            else if (niangz2 == 49 || niangz2 == -49)
-            {
-                comboBoxng.Text = gui; comboBoxnz.Text = chou;
-            }
-            //6jz
-            else if (niangz2 == 50 || niangz2 == -50)
-            {
-                comboBoxng.Text = jia; comboBoxnz.Text = yin;
-            }
-            else if (niangz2 == 51 || niangz2 == -51)
-            {
-                comboBoxng.Text = yii; comboBoxnz.Text = mao;
-            }
-            else if (niangz2 == 52 || niangz2 == -52)
-            {
-                comboBoxng.Text = bing; comboBoxnz.Text = chen;
-            }
-            else if (niangz2 == 53 || niangz2 == -53)
-            {
-                comboBoxng.Text = ding; comboBoxnz.Text = sii;
-            }
-            else if (niangz2 == 54 || niangz2 == -54)
-            {
-                comboBoxng.Text = wuu; comboBoxnz.Text = wuma;
-            }
-            else if (niangz2 == 55 || niangz2 == -55)
-            {
-                comboBoxng.Text = jii; comboBoxnz.Text = wei;
-            }
-            else if (niangz2 == 56 || niangz2 == -56)
-            {
-                comboBoxng.Text = geng; comboBoxnz.Text = shen;
-            }
-            else if (niangz2 == 57 || niangz2 == -57)
-            {
-                comboBoxng.Text = xin; comboBoxnz.Text = you;
-            }
-            else if (niangz2 == 58 || niangz2 == -58)
-            {
-                comboBoxng.Text = ren; comboBoxnz.Text = xuu;
-            }
-            else if (niangz2 == 59 || niangz2 == -59)
-            {
-                comboBoxng.Text = gui; comboBoxnz.Text = hai;
-            }
+                niangz2 = niangz1;
+                while (niangz2 > 60)
+                {
+                    niangz2 -= 60;
+                }
+                while (niangz2 < 0)
+                {
+                    niangz2 += 60;
+                }
 
 
+                //查六十甲子表
+                if (niangz2 == 0 || niangz2 == 60 || niangz2 == -60)
+                {
+                    comboBoxng.Text = jia; comboBoxnz.Text = zii;
+                }
+                else if (niangz2 == 1 || niangz2 == -1)
+                {
+                    comboBoxng.Text = yii; comboBoxnz.Text = chou;
+                }
+                else if (niangz2 == 2 || niangz2 == -2)
+                {
+                    comboBoxng.Text = bing; comboBoxnz.Text = yin;
+                }
+                else if (niangz2 == 3 || niangz2 == -3)
+                {
+                    comboBoxng.Text = ding; comboBoxnz.Text = mao;
+                }
+                else if (niangz2 == 4 || niangz2 == -4)
+                {
+                    comboBoxng.Text = wuu; comboBoxnz.Text = chen;
+                }
+                else if (niangz2 == 5 || niangz2 == -5)
+                {
+                    comboBoxng.Text = jii; comboBoxnz.Text = sii;
+                }
+                else if (niangz2 == 6 || niangz2 == -6)
+                {
+                    comboBoxng.Text = geng; comboBoxnz.Text = wuma;
+                }
+                else if (niangz2 == 7 || niangz2 == -7)
+                {
+                    comboBoxng.Text = xin; comboBoxnz.Text = wei;
+                }
+                else if (niangz2 == 8 || niangz2 == -8)
+                {
+                    comboBoxng.Text = ren; comboBoxnz.Text = shen;
+                }
+                else if (niangz2 == 9 || niangz2 == -9)
+                {
+                    comboBoxng.Text = gui; comboBoxnz.Text = you;
+                }
+                //2jz
+                else if (niangz2 == 10 || niangz2 == -10)
+                {
+                    comboBoxng.Text = jia; comboBoxnz.Text = xuu;
+                }
+                else if (niangz2 == 11 || niangz2 == -11)
+                {
+                    comboBoxng.Text = yii; comboBoxnz.Text = hai;
+                }
+                else if (niangz2 == 12 || niangz2 == -12)
+                {
+                    comboBoxng.Text = bing; comboBoxnz.Text = zii;
+                }
+                else if (niangz2 == 13 || niangz2 == -13)
+                {
+                    comboBoxng.Text = ding; comboBoxnz.Text = chou;
+                }
+                else if (niangz2 == 14 || niangz2 == -14)
+                {
+                    comboBoxng.Text = wuu; comboBoxnz.Text = yin;
+                }
+                else if (niangz2 == 15 || niangz2 == -15)
+                {
+                    comboBoxng.Text = jii; comboBoxnz.Text = mao;
+                }
+                else if (niangz2 == 16 || niangz2 == -16)
+                {
+                    comboBoxng.Text = geng; comboBoxnz.Text = chen;
+                }
+                else if (niangz2 == 17 || niangz2 == -17)
+                {
+                    comboBoxng.Text = xin; comboBoxnz.Text = sii;
+                }
+                else if (niangz2 == 18 || niangz2 == -18)
+                {
+                    comboBoxng.Text = ren; comboBoxnz.Text = wuma;
+                }
+                else if (niangz2 == 19 || niangz2 == -19)
+                {
+                    comboBoxng.Text = gui; comboBoxnz.Text = wei;
+                }
+                //3jz
+                else if (niangz2 == 20 || niangz2 == -20)
+                {
+                    comboBoxng.Text = jia; comboBoxnz.Text = shen;
+                }
+                else if (niangz2 == 21 || niangz2 == -21)
+                {
+                    comboBoxng.Text = yii; comboBoxnz.Text = you;
+                }
+                else if (niangz2 == 22 || niangz2 == -22)
+                {
+                    comboBoxng.Text = bing; comboBoxnz.Text = xuu;
+                }
+                else if (niangz2 == 23 || niangz2 == -23)
+                {
+                    comboBoxng.Text = ding; comboBoxnz.Text = hai;
+                }
+                else if (niangz2 == 24 || niangz2 == -24)
+                {
+                    comboBoxng.Text = wuu; comboBoxnz.Text = zii;
+                }
+                else if (niangz2 == 25 || niangz2 == -25)
+                {
+                    comboBoxng.Text = jii; comboBoxnz.Text = chou;
+                }
+                else if (niangz2 == 26 || niangz2 == -26)
+                {
+                    comboBoxng.Text = geng; comboBoxnz.Text = yin;
+                }
+                else if (niangz2 == 27 || niangz2 == -27)
+                {
+                    comboBoxng.Text = xin; comboBoxnz.Text = mao;
+                }
+                else if (niangz2 == 28 || niangz2 == -28)
+                {
+                    comboBoxng.Text = ren; comboBoxnz.Text = chen;
+                }
+                else if (niangz2 == 29 || niangz2 == -29)
+                {
+                    comboBoxng.Text = gui; comboBoxnz.Text = sii;
+                }
+                //4jz
+                else if (niangz2 == 30 || niangz2 == -30)
+                {
+                    comboBoxng.Text = jia; comboBoxnz.Text = wuma;
+                }
+                else if (niangz2 == 31 || niangz2 == -31)
+                {
+                    comboBoxng.Text = yii; comboBoxnz.Text = wei;
+                }
+                else if (niangz2 == 32 || niangz2 == -32)
+                {
+                    comboBoxng.Text = bing; comboBoxnz.Text = shen;
+                }
+                else if (niangz2 == 33 || niangz2 == -33)
+                {
+                    comboBoxng.Text = ding; comboBoxnz.Text = you;
+                }
+                else if (niangz2 == 34 || niangz2 == -34)
+                {
+                    comboBoxng.Text = wuu; comboBoxnz.Text = xuu;
+                }
+                else if (niangz2 == 35 || niangz2 == -35)
+                {
+                    comboBoxng.Text = jii; comboBoxnz.Text = hai;
+                }
+                else if (niangz2 == 36 || niangz2 == -36)
+                {
+                    comboBoxng.Text = geng; comboBoxnz.Text = zii;
+                }
+                else if (niangz2 == 37 || niangz2 == -37)
+                {
+                    comboBoxng.Text = xin; comboBoxnz.Text = chou;
+                }
+                else if (niangz2 == 38 || niangz2 == -38)
+                {
+                    comboBoxng.Text = ren; comboBoxnz.Text = yin;
+                }
+                else if (niangz2 == 39 || niangz2 == -39)
+                {
+                    comboBoxng.Text = gui; comboBoxnz.Text = mao;
+                }
+                //5jz
+                else if (niangz2 == 40 || niangz2 == -40)
+                {
+                    comboBoxng.Text = jia; comboBoxnz.Text = chen;
+                }
+                else if (niangz2 == 41 || niangz2 == -41)
+                {
+                    comboBoxng.Text = yii; comboBoxnz.Text = sii;
+                }
+                else if (niangz2 == 42 || niangz2 == -42)
+                {
+                    comboBoxng.Text = bing; comboBoxnz.Text = wuma;
+                }
+                else if (niangz2 == 43 || niangz2 == -43)
+                {
+                    comboBoxng.Text = ding; comboBoxnz.Text = wei;
+                }
+                else if (niangz2 == 44 || niangz2 == -44)
+                {
+                    comboBoxng.Text = wuu; comboBoxnz.Text = shen;
+                }
+                else if (niangz2 == 45 || niangz2 == -45)
+                {
+                    comboBoxng.Text = jii; comboBoxnz.Text = you;
+                }
+                else if (niangz2 == 46 || niangz2 == -46)
+                {
+                    comboBoxng.Text = geng; comboBoxnz.Text = xuu;
+                }
+                else if (niangz2 == 47 || niangz2 == -47)
+                {
+                    comboBoxng.Text = xin; comboBoxnz.Text = hai;
+                }
+                else if (niangz2 == 48 || niangz2 == -48)
+                {
+                    comboBoxng.Text = ren; comboBoxnz.Text = zii;
+                }
+                else if (niangz2 == 49 || niangz2 == -49)
+                {
+                    comboBoxng.Text = gui; comboBoxnz.Text = chou;
+                }
+                //6jz
+                else if (niangz2 == 50 || niangz2 == -50)
+                {
+                    comboBoxng.Text = jia; comboBoxnz.Text = yin;
+                }
+                else if (niangz2 == 51 || niangz2 == -51)
+                {
+                    comboBoxng.Text = yii; comboBoxnz.Text = mao;
+                }
+                else if (niangz2 == 52 || niangz2 == -52)
+                {
+                    comboBoxng.Text = bing; comboBoxnz.Text = chen;
+                }
+                else if (niangz2 == 53 || niangz2 == -53)
+                {
+                    comboBoxng.Text = ding; comboBoxnz.Text = sii;
+                }
+                else if (niangz2 == 54 || niangz2 == -54)
+                {
+                    comboBoxng.Text = wuu; comboBoxnz.Text = wuma;
+                }
+                else if (niangz2 == 55 || niangz2 == -55)
+                {
+                    comboBoxng.Text = jii; comboBoxnz.Text = wei;
+                }
+                else if (niangz2 == 56 || niangz2 == -56)
+                {
+                    comboBoxng.Text = geng; comboBoxnz.Text = shen;
+                }
+                else if (niangz2 == 57 || niangz2 == -57)
+                {
+                    comboBoxng.Text = xin; comboBoxnz.Text = you;
+                }
+                else if (niangz2 == 58 || niangz2 == -58)
+                {
+                    comboBoxng.Text = ren; comboBoxnz.Text = xuu;
+                }
+                else if (niangz2 == 59 || niangz2 == -59)
+                {
+                    comboBoxng.Text = gui; comboBoxnz.Text = hai;
+                }
 
-
+            }
             //月干支
-            int moth = mothtimeint - 1;//公历的一月就是农历的二月
-            //000
-            if (mothtimeint == 2)
+            if (jia == jia)
             {
-                if (daytimeint < 4)
-                {
-                    moth -= 1;
-                }
-            }
-            if (mothtimeint == 3)
-            {
-                if (daytimeint < 6)
-                {
-                    moth -= 1;
-                }
-            }
-            if (mothtimeint == 4)
-            {
-                if (daytimeint < 5)
-                {
-                    moth -= 1;
-                }
-            }
-            if (mothtimeint == 5)
-            {
-                if (daytimeint < 6)
-                {
-                    moth -= 1;
-                }
-            }
-            if (mothtimeint == 6)
-            {
-                if (daytimeint < 6)
-                {
-                    moth -= 1;
-                }
-            }
-            if (mothtimeint == 7)
-            {
-                if (daytimeint < 7)
-                {
-                    moth -= 1;
-                }
-            }
-            if (mothtimeint == 8)
-            {
-                if (daytimeint < 8)
-                {
-                    moth -= 1;
-                }
-            }
-            if (mothtimeint == 9)
-            {
-                if (daytimeint < 8)
-                {
-                    moth -= 1;
-                }
-            }
-            if (mothtimeint == 10)
-            {
-                if (daytimeint < 9)
-                {
-                    moth -= 1;
-                }
-            }
-            if (mothtimeint == 11)
-            {
-                if (daytimeint < 7)
-                {
-                    moth -= 1;
-                }
-            }
-            if (mothtimeint == 12)
-            {
-                if (daytimeint < 7)
-                {
-                    moth -= 1;
-                }
-            }
-            if (mothtimeint == 1)
-            {
-                if (daytimeint < 6)
-                {
-                    moth -= 1;
-                }
-            }
 
+                //月支
 
+                if (month == 1)
+                {
+                    comboBoxyz.Text = yin;
+                }
+                if (month == 2)
+                {
+                    comboBoxyz.Text = mao;
+                }
+                if (month == 3)
+                {
+                    comboBoxyz.Text = chen;
+                }
+                if (month == 4)
+                {
+                    comboBoxyz.Text = sii;
+                }
+                if (month == 5)
+                {
+                    comboBoxyz.Text = wuma;
+                }
+                if (month == 6)
+                {
+                    comboBoxyz.Text = wei;
+                }
+                if (month == 7)
+                {
+                    comboBoxyz.Text = shen;
+                }
+                if (month == 8)
+                {
+                    comboBoxyz.Text = you;
+                }
+                if (month == 9)
+                {
+                    comboBoxyz.Text = xuu;
+                }
+                if (month == 10)
+                {
+                    comboBoxyz.Text = hai;
+                }
+                if (month == 11)
+                {
+                    comboBoxyz.Text = zii;
+                }
+                if (month == 12)
+                {
+                    comboBoxyz.Text = chou;
+                }
 
+                //月天干
+                if (comboBoxng.Text == jia || comboBoxng.Text == jii)
+                {
+                    if (comboBoxyz.Text == yin)
+                    {
+                        comboBoxyg.Text = bing;
+                    }
+                    if (comboBoxyz.Text == mao)
+                    {
+                        comboBoxyg.Text = ding;
+                    }
+                    if (comboBoxyz.Text == chen)
+                    {
+                        comboBoxyg.Text = wuu;
+                    }
+                    if (comboBoxyz.Text == sii)
+                    {
+                        comboBoxyg.Text = jii;
+                    }
+                    if (comboBoxyz.Text == wuma)
+                    {
+                        comboBoxyg.Text = geng;
+                    }
+                    if (comboBoxyz.Text == wei)
+                    {
+                        comboBoxyg.Text = xin;
+                    }
+                    if (comboBoxyz.Text == shen)
+                    {
+                        comboBoxyg.Text = ren;
+                    }
+                    if (comboBoxyz.Text == you)
+                    {
+                        comboBoxyg.Text = gui;
+                    }
+                    if (comboBoxyz.Text == xuu)
+                    {
+                        comboBoxyg.Text = jia;
+                    }
+                    if (comboBoxyz.Text == hai)
+                    {
+                        comboBoxyg.Text = yii;
+                    }
+                    if (comboBoxyz.Text == zii)
+                    {
+                        comboBoxyg.Text = bing;
+                    }
+                    if (comboBoxyz.Text == chou)
+                    {
+                        comboBoxyg.Text = ding;
+                    }
+                }
+                if (comboBoxng.Text == yii || comboBoxng.Text == geng)
+                {
+                    if (comboBoxyz.Text == yin)
+                    {
+                        comboBoxyg.Text = wuu;
+                    }
+                    if (comboBoxyz.Text == mao)
+                    {
+                        comboBoxyg.Text = jii;
+                    }
+                    if (comboBoxyz.Text == chen)
+                    {
+                        comboBoxyg.Text = geng;
+                    }
+                    if (comboBoxyz.Text == sii)
+                    {
+                        comboBoxyg.Text = xin;
+                    }
+                    if (comboBoxyz.Text == wuma)
+                    {
+                        comboBoxyg.Text = ren;
+                    }
+                    if (comboBoxyz.Text == wei)
+                    {
+                        comboBoxyg.Text = gui;
+                    }
+                    if (comboBoxyz.Text == shen)
+                    {
+                        comboBoxyg.Text = jia;
+                    }
+                    if (comboBoxyz.Text == you)
+                    {
+                        comboBoxyg.Text = yii;
+                    }
+                    if (comboBoxyz.Text == xuu)
+                    {
+                        comboBoxyg.Text = bing;
+                    }
+                    if (comboBoxyz.Text == hai)
+                    {
+                        comboBoxyg.Text = ding;
+                    }
+                    if (comboBoxyz.Text == zii)
+                    {
+                        comboBoxyg.Text = wuu;
+                    }
+                    if (comboBoxyz.Text == chou)
+                    {
+                        comboBoxyg.Text = jii;
+                    }
+                }
+                if (comboBoxng.Text == bing || comboBoxng.Text == xin)
+                {
+                    if (comboBoxyz.Text == yin)
+                    {
+                        comboBoxyg.Text = geng;
+                    }
+                    if (comboBoxyz.Text == mao)
+                    {
+                        comboBoxyg.Text = xin;
+                    }
+                    if (comboBoxyz.Text == chen)
+                    {
+                        comboBoxyg.Text = ren;
+                    }
+                    if (comboBoxyz.Text == sii)
+                    {
+                        comboBoxyg.Text = gui;
+                    }
+                    if (comboBoxyz.Text == wuma)
+                    {
+                        comboBoxyg.Text = jia;
+                    }
+                    if (comboBoxyz.Text == wei)
+                    {
+                        comboBoxyg.Text = yii;
+                    }
+                    if (comboBoxyz.Text == shen)
+                    {
+                        comboBoxyg.Text = bing;
+                    }
+                    if (comboBoxyz.Text == you)
+                    {
+                        comboBoxyg.Text = ding;
+                    }
+                    if (comboBoxyz.Text == xuu)
+                    {
+                        comboBoxyg.Text = wuu;
+                    }
+                    if (comboBoxyz.Text == hai)
+                    {
+                        comboBoxyg.Text = jii;
+                    }
+                    if (comboBoxyz.Text == zii)
+                    {
+                        comboBoxyg.Text = geng;
+                    }
+                    if (comboBoxyz.Text == chou)
+                    {
+                        comboBoxyg.Text = xin;
+                    }
+                }
+                if (comboBoxng.Text == ding || comboBoxng.Text == ren)
+                {
+                    if (comboBoxyz.Text == yin)
+                    {
+                        comboBoxyg.Text = ren;
+                    }
+                    if (comboBoxyz.Text == mao)
+                    {
+                        comboBoxyg.Text = gui;
+                    }
+                    if (comboBoxyz.Text == chen)
+                    {
+                        comboBoxyg.Text = jia;
+                    }
+                    if (comboBoxyz.Text == sii)
+                    {
+                        comboBoxyg.Text = yii;
+                    }
+                    if (comboBoxyz.Text == wuma)
+                    {
+                        comboBoxyg.Text = bing;
+                    }
+                    if (comboBoxyz.Text == wei)
+                    {
+                        comboBoxyg.Text = ding;
+                    }
+                    if (comboBoxyz.Text == shen)
+                    {
+                        comboBoxyg.Text = wuu;
+                    }
+                    if (comboBoxyz.Text == you)
+                    {
+                        comboBoxyg.Text = jii;
+                    }
+                    if (comboBoxyz.Text == xuu)
+                    {
+                        comboBoxyg.Text = geng;
+                    }
+                    if (comboBoxyz.Text == hai)
+                    {
+                        comboBoxyg.Text = xin;
+                    }
+                    if (comboBoxyz.Text == zii)
+                    {
+                        comboBoxyg.Text = ren;
+                    }
+                    if (comboBoxyz.Text == chou)
+                    {
+                        comboBoxyg.Text = gui;
+                    }
+                }
+                if (comboBoxng.Text == wuu || comboBoxng.Text == gui)
+                {
+                    if (comboBoxyz.Text == yin)
+                    {
+                        comboBoxyg.Text = jia;
+                    }
+                    if (comboBoxyz.Text == mao)
+                    {
+                        comboBoxyg.Text = yii;
+                    }
+                    if (comboBoxyz.Text == chen)
+                    {
+                        comboBoxyg.Text = bing;
+                    }
+                    if (comboBoxyz.Text == sii)
+                    {
+                        comboBoxyg.Text = ding;
+                    }
+                    if (comboBoxyz.Text == wuma)
+                    {
+                        comboBoxyg.Text = wuu;
+                    }
+                    if (comboBoxyz.Text == wei)
+                    {
+                        comboBoxyg.Text = jii;
+                    }
+                    if (comboBoxyz.Text == shen)
+                    {
+                        comboBoxyg.Text = geng;
+                    }
+                    if (comboBoxyz.Text == you)
+                    {
+                        comboBoxyg.Text = xin;
+                    }
+                    if (comboBoxyz.Text == xuu)
+                    {
+                        comboBoxyg.Text = ren;
+                    }
+                    if (comboBoxyz.Text == hai)
+                    {
+                        comboBoxyg.Text = gui;
+                    }
+                    if (comboBoxyz.Text == zii)
+                    {
+                        comboBoxyg.Text = jia;
+                    }
+                    if (comboBoxyz.Text == chou)
+                    {
+                        comboBoxyg.Text = yii;
+                    }
+                }
 
-
-
-            if (moth == 1)
-            {
-                comboBoxyz.Text = yin;
             }
-            if (moth == 2)
-            {
-                comboBoxyz.Text = mao;
-            }
-            if (moth == 3)
-            {
-                comboBoxyz.Text = chen;
-            }
-            if (moth == 4)
-            {
-                comboBoxyz.Text = sii;
-            }
-            if (moth == 5)
-            {
-                comboBoxyz.Text = wuma;
-            }
-            if (moth == 6)
-            {
-                comboBoxyz.Text = wei;
-            }
-            if (moth == 7)
-            {
-                comboBoxyz.Text = shen;
-            }
-            if (moth == 8)
-            {
-                comboBoxyz.Text = you;
-            }
-            if (moth == 9)
-            {
-                comboBoxyz.Text = xuu;
-            }
-            if (moth == 10)
-            {
-                comboBoxyz.Text = hai;
-            }
-            if (moth == 11)
-            {
-                comboBoxyz.Text = zii;
-            }
-            if (moth == 0)
-            {
-                comboBoxyz.Text = chou;
-            }
-
-            //月天干
-            if (comboBoxng.Text == jia || comboBoxng.Text == jii)
-            {
-                if (comboBoxyz.Text == yin)
-                {
-                    comboBoxyg.Text = bing;
-                }
-                if (comboBoxyz.Text == mao)
-                {
-                    comboBoxyg.Text = ding;
-                }
-                if (comboBoxyz.Text == chen)
-                {
-                    comboBoxyg.Text = wuu;
-                }
-                if (comboBoxyz.Text == sii)
-                {
-                    comboBoxyg.Text = jii;
-                }
-                if (comboBoxyz.Text == wuma)
-                {
-                    comboBoxyg.Text = geng;
-                }
-                if (comboBoxyz.Text == wei)
-                {
-                    comboBoxyg.Text = xin;
-                }
-                if (comboBoxyz.Text == shen)
-                {
-                    comboBoxyg.Text = ren;
-                }
-                if (comboBoxyz.Text == you)
-                {
-                    comboBoxyg.Text = gui;
-                }
-                if (comboBoxyz.Text == xuu)
-                {
-                    comboBoxyg.Text = jia;
-                }
-                if (comboBoxyz.Text == hai)
-                {
-                    comboBoxyg.Text = yii;
-                }
-                if (comboBoxyz.Text == zii)
-                {
-                    comboBoxyg.Text = bing;
-                }
-                if (comboBoxyz.Text == chou)
-                {
-                    comboBoxyg.Text = ding;
-                }
-            }
-            if (comboBoxng.Text == yii || comboBoxng.Text == geng)
-            {
-                if (comboBoxyz.Text == yin)
-                {
-                    comboBoxyg.Text = wuu;
-                }
-                if (comboBoxyz.Text == mao)
-                {
-                    comboBoxyg.Text = jii;
-                }
-                if (comboBoxyz.Text == chen)
-                {
-                    comboBoxyg.Text = geng;
-                }
-                if (comboBoxyz.Text == sii)
-                {
-                    comboBoxyg.Text = xin;
-                }
-                if (comboBoxyz.Text == wuma)
-                {
-                    comboBoxyg.Text = ren;
-                }
-                if (comboBoxyz.Text == wei)
-                {
-                    comboBoxyg.Text = gui;
-                }
-                if (comboBoxyz.Text == shen)
-                {
-                    comboBoxyg.Text = jia;
-                }
-                if (comboBoxyz.Text == you)
-                {
-                    comboBoxyg.Text = yii;
-                }
-                if (comboBoxyz.Text == xuu)
-                {
-                    comboBoxyg.Text = bing;
-                }
-                if (comboBoxyz.Text == hai)
-                {
-                    comboBoxyg.Text = ding;
-                }
-                if (comboBoxyz.Text == zii)
-                {
-                    comboBoxyg.Text = wuu;
-                }
-                if (comboBoxyz.Text == chou)
-                {
-                    comboBoxyg.Text = jii;
-                }
-            }
-            if (comboBoxng.Text == bing || comboBoxng.Text == xin)
-            {
-                if (comboBoxyz.Text == yin)
-                {
-                    comboBoxyg.Text = geng;
-                }
-                if (comboBoxyz.Text == mao)
-                {
-                    comboBoxyg.Text = xin;
-                }
-                if (comboBoxyz.Text == chen)
-                {
-                    comboBoxyg.Text = ren;
-                }
-                if (comboBoxyz.Text == sii)
-                {
-                    comboBoxyg.Text = gui;
-                }
-                if (comboBoxyz.Text == wuma)
-                {
-                    comboBoxyg.Text = jia;
-                }
-                if (comboBoxyz.Text == wei)
-                {
-                    comboBoxyg.Text = yii;
-                }
-                if (comboBoxyz.Text == shen)
-                {
-                    comboBoxyg.Text = bing;
-                }
-                if (comboBoxyz.Text == you)
-                {
-                    comboBoxyg.Text = ding;
-                }
-                if (comboBoxyz.Text == xuu)
-                {
-                    comboBoxyg.Text = wuu;
-                }
-                if (comboBoxyz.Text == hai)
-                {
-                    comboBoxyg.Text = jii;
-                }
-                if (comboBoxyz.Text == zii)
-                {
-                    comboBoxyg.Text = geng;
-                }
-                if (comboBoxyz.Text == chou)
-                {
-                    comboBoxyg.Text = xin;
-                }
-            }
-            if (comboBoxng.Text == ding || comboBoxng.Text == ren)
-            {
-                if (comboBoxyz.Text == yin)
-                {
-                    comboBoxyg.Text = ren;
-                }
-                if (comboBoxyz.Text == mao)
-                {
-                    comboBoxyg.Text = gui;
-                }
-                if (comboBoxyz.Text == chen)
-                {
-                    comboBoxyg.Text = jia;
-                }
-                if (comboBoxyz.Text == sii)
-                {
-                    comboBoxyg.Text = yii;
-                }
-                if (comboBoxyz.Text == wuma)
-                {
-                    comboBoxyg.Text = bing;
-                }
-                if (comboBoxyz.Text == wei)
-                {
-                    comboBoxyg.Text = ding;
-                }
-                if (comboBoxyz.Text == shen)
-                {
-                    comboBoxyg.Text = wuu;
-                }
-                if (comboBoxyz.Text == you)
-                {
-                    comboBoxyg.Text = jii;
-                }
-                if (comboBoxyz.Text == xuu)
-                {
-                    comboBoxyg.Text = geng;
-                }
-                if (comboBoxyz.Text == hai)
-                {
-                    comboBoxyg.Text = xin;
-                }
-                if (comboBoxyz.Text == zii)
-                {
-                    comboBoxyg.Text = ren;
-                }
-                if (comboBoxyz.Text == chou)
-                {
-                    comboBoxyg.Text = gui;
-                }
-            }
-            if (comboBoxng.Text == wuu || comboBoxng.Text == gui)
-            {
-                if (comboBoxyz.Text == yin)
-                {
-                    comboBoxyg.Text = jia;
-                }
-                if (comboBoxyz.Text == mao)
-                {
-                    comboBoxyg.Text = yii;
-                }
-                if (comboBoxyz.Text == chen)
-                {
-                    comboBoxyg.Text = bing;
-                }
-                if (comboBoxyz.Text == sii)
-                {
-                    comboBoxyg.Text = ding;
-                }
-                if (comboBoxyz.Text == wuma)
-                {
-                    comboBoxyg.Text = wuu;
-                }
-                if (comboBoxyz.Text == wei)
-                {
-                    comboBoxyg.Text = jii;
-                }
-                if (comboBoxyz.Text == shen)
-                {
-                    comboBoxyg.Text = geng;
-                }
-                if (comboBoxyz.Text == you)
-                {
-                    comboBoxyg.Text = xin;
-                }
-                if (comboBoxyz.Text == xuu)
-                {
-                    comboBoxyg.Text = ren;
-                }
-                if (comboBoxyz.Text == hai)
-                {
-                    comboBoxyg.Text = gui;
-                }
-                if (comboBoxyz.Text == zii)
-                {
-                    comboBoxyg.Text = jia;
-                }
-                if (comboBoxyz.Text == chou)
-                {
-                    comboBoxyg.Text = yii;
-                }
-            }
-
             //日干支
-            //计算过去了多少天
-            int yeartimeint2 = yeartimeint;
-            int yeartimeint3 = yeartimeint2 * 365;
-            int yeartimeint4 = 0;
-            int jz738906 = 738909;
-            //计算闰年
-            while (yeartimeint2 >= 4)
+            if (jia == jia)
             {
-                yeartimeint2 -= 4; yeartimeint4 += 1;
-            }
-            //一年中过去了多少天
-            int mothtimeint2 = mothtimeint;
-            if (mothtimeint == 1)
-            {
-                mothtimeint2 = 0;
-            }
-            else if (mothtimeint == 2)
-            {
-                mothtimeint2 = 31;
-            }
-            else if (mothtimeint == 3)
-            {
-                mothtimeint2 = 59;
-            }
-            else if (mothtimeint == 4)
-            {
-                mothtimeint2 = 90;
-            }
-            else if (mothtimeint == 5)
-            {
-                mothtimeint2 = 120;
-            }
-            else if (mothtimeint == 6)
-            {
-                mothtimeint2 = 151;
-            }
-            else if (mothtimeint == 7)
-            {
-                mothtimeint2 = 181;
-            }
-            else if (mothtimeint == 8)
-            {
-                mothtimeint2 = 212;
-            }
-            else if (mothtimeint == 9)
-            {
-                mothtimeint2 = 243;
-            }
-            else if (mothtimeint == 10)
-            {
-                mothtimeint2 = 273;
-            }
-            else if (mothtimeint == 11)
-            {
-                mothtimeint2 = 304;
-            }
-            else if (mothtimeint == 12)
-            {
-                mothtimeint2 = 334;
-            }
-            //把时间叠加
-            int jinrigzshu = yeartimeint3 + mothtimeint2 + daytimeint + yeartimeint4 + yeartimeint2;
-            int jinrigzshu1 = 0;
-            int jinrigzshu2 = 0;
-            //计算与甲子日的差
-            if (jinrigzshu < jz738906)
-            {
-                jinrigzshu1 += jinrigzshu - jz738906;
-            }
+                //计算过去了多少天
+                int yeartimeint2 = yeartimeint;
+                int yeartimeint3 = yeartimeint;
+                int yeartimeint4 = yeartimeint;
+                int guoquleduoshaotian = yeartimeint * 365;
+                int runnian = 0;
+                int zongtianshu = 738894;
 
-            if (jinrigzshu > jz738906)
-            {
-                jinrigzshu1 += jz738906 - jinrigzshu;
-            }
+                //计算闰年
+                while (yeartimeint2 >= 4)
+                {
+                    yeartimeint2 -= 4; runnian += 1;
+                }
+                while (yeartimeint3 >= 100)
+                {
+                    yeartimeint3 -= 100; runnian -= 1;
+                }
+                while (yeartimeint4 >= 400)
+                {
+                    yeartimeint4 -= 400; runnian += 1;
+                }
 
-            jinrigzshu2 += jinrigzshu1;
-            while (jinrigzshu2 > 60)
-            {
-                jinrigzshu2 += jinrigzshu1 - 60;
-            }
-            while (jinrigzshu2 < -60)
-            {
-                jinrigzshu2 += 60;
-            }
+                //一年中过去了多少天
+                int mothtimeint2 = mothtimeint;
+                if (mothtimeint == 1)
+                {
+                    mothtimeint2 = 0;
+                }
+                else if (mothtimeint == 2)
+                {
+                    mothtimeint2 = 31;
+                }
+                else if (mothtimeint == 3)
+                {
+                    mothtimeint2 = 59;
+                }
+                else if (mothtimeint == 4)
+                {
+                    mothtimeint2 = 90;
+                }
+                else if (mothtimeint == 5)
+                {
+                    mothtimeint2 = 120;
+                }
+                else if (mothtimeint == 6)
+                {
+                    mothtimeint2 = 151;
+                }
+                else if (mothtimeint == 7)
+                {
+                    mothtimeint2 = 181;
+                }
+                else if (mothtimeint == 8)
+                {
+                    mothtimeint2 = 212;
+                }
+                else if (mothtimeint == 9)
+                {
+                    mothtimeint2 = 243;
+                }
+                else if (mothtimeint == 10)
+                {
+                    mothtimeint2 = 273;
+                }
+                else if (mothtimeint == 11)
+                {
+                    mothtimeint2 = 304;
+                }
+                else if (mothtimeint == 12)
+                {
+                    mothtimeint2 = 334;
+                }
+                //把时间叠加
+                int jinrigzshu = guoquleduoshaotian + mothtimeint2 + daytimeint + runnian + yeartimeint2;
+                int jinrigzshu1 = 0;
+                int jinrigzshu2 = 0;
 
-            //查六十甲子表
-            if (jinrigzshu2 == 0 || jinrigzshu2 == 60 || jinrigzshu2 == -60)
-            {
-                comboBoxrg.Text = jia; comboBoxrz.Text = zii;
-            }
-            else if (jinrigzshu2 == 1 || jinrigzshu2 == -1)
-            {
-                comboBoxrg.Text = yii; comboBoxrz.Text = chou;
-            }
-            else if (jinrigzshu2 == 2 || jinrigzshu2 == -2)
-            {
-                comboBoxrg.Text = bing; comboBoxrz.Text = yin;
-            }
-            else if (jinrigzshu2 == 3 || jinrigzshu2 == -3)
-            {
-                comboBoxrg.Text = ding; comboBoxrz.Text = mao;
-            }
-            else if (jinrigzshu2 == 4 || jinrigzshu2 == -4)
-            {
-                comboBoxrg.Text = wuu; comboBoxrz.Text = chen;
-            }
-            else if (jinrigzshu2 == 5 || jinrigzshu2 == -5)
-            {
-                comboBoxrg.Text = jii; comboBoxrz.Text = sii;
-            }
-            else if (jinrigzshu2 == 6 || jinrigzshu2 == -6)
-            {
-                comboBoxrg.Text = geng; comboBoxrz.Text = wuma;
-            }
-            else if (jinrigzshu2 == 7 || jinrigzshu2 == -7)
-            {
-                comboBoxrg.Text = xin; comboBoxrz.Text = wei;
-            }
-            else if (jinrigzshu2 == 8 || jinrigzshu2 == -8)
-            {
-                comboBoxrg.Text = ren; comboBoxrz.Text = shen;
-            }
-            else if (jinrigzshu2 == 9 || jinrigzshu2 == -9)
-            {
-                comboBoxrg.Text = gui; comboBoxrz.Text = you;
-            }
-            //2jz
-            else if (jinrigzshu2 == 10 || jinrigzshu2 == -10)
-            {
-                comboBoxrg.Text = jia; comboBoxrz.Text = xuu;
-            }
-            else if (jinrigzshu2 == 11 || jinrigzshu2 == -11)
-            {
-                comboBoxrg.Text = yii; comboBoxrz.Text = hai;
-            }
-            else if (jinrigzshu2 == 12 || jinrigzshu2 == -12)
-            {
-                comboBoxrg.Text = bing; comboBoxrz.Text = zii;
-            }
-            else if (jinrigzshu2 == 13 || jinrigzshu2 == -13)
-            {
-                comboBoxrg.Text = ding; comboBoxrz.Text = chou;
-            }
-            else if (jinrigzshu2 == 14 || jinrigzshu2 == -14)
-            {
-                comboBoxrg.Text = wuu; comboBoxrz.Text = yin;
-            }
-            else if (jinrigzshu2 == 15 || jinrigzshu2 == -15)
-            {
-                comboBoxrg.Text = jii; comboBoxrz.Text = mao;
-            }
-            else if (jinrigzshu2 == 16 || jinrigzshu2 == -16)
-            {
-                comboBoxrg.Text = geng; comboBoxrz.Text = chen;
-            }
-            else if (jinrigzshu2 == 17 || jinrigzshu2 == -17)
-            {
-                comboBoxrg.Text = xin; comboBoxrz.Text = sii;
-            }
-            else if (jinrigzshu2 == 18 || jinrigzshu2 == -18)
-            {
-                comboBoxrg.Text = ren; comboBoxrz.Text = wuma;
-            }
-            else if (jinrigzshu2 == 19 || jinrigzshu2 == -19)
-            {
-                comboBoxrg.Text = gui; comboBoxrz.Text = wei;
-            }
-            //3jz
-            else if (jinrigzshu2 == 20 || jinrigzshu2 == -20)
-            {
-                comboBoxrg.Text = jia; comboBoxrz.Text = shen;
-            }
-            else if (jinrigzshu2 == 21 || jinrigzshu2 == -21)
-            {
-                comboBoxrg.Text = yii; comboBoxrz.Text = you;
-            }
-            else if (jinrigzshu2 == 22 || jinrigzshu2 == -22)
-            {
-                comboBoxrg.Text = bing; comboBoxrz.Text = xuu;
-            }
-            else if (jinrigzshu2 == 23 || jinrigzshu2 == -23)
-            {
-                comboBoxrg.Text = ding; comboBoxrz.Text = hai;
-            }
-            else if (jinrigzshu2 == 24 || jinrigzshu2 == -24)
-            {
-                comboBoxrg.Text = wuu; comboBoxrz.Text = zii;
-            }
-            else if (jinrigzshu2 == 25 || jinrigzshu2 == -25)
-            {
-                comboBoxrg.Text = jii; comboBoxrz.Text = chou;
-            }
-            else if (jinrigzshu2 == 26 || jinrigzshu2 == -26)
-            {
-                comboBoxrg.Text = geng; comboBoxrz.Text = yin;
-            }
-            else if (jinrigzshu2 == 27 || jinrigzshu2 == -27)
-            {
-                comboBoxrg.Text = xin; comboBoxrz.Text = mao;
-            }
-            else if (jinrigzshu2 == 28 || jinrigzshu2 == -28)
-            {
-                comboBoxrg.Text = ren; comboBoxrz.Text = chen;
-            }
-            else if (jinrigzshu2 == 29 || jinrigzshu2 == -29)
-            {
-                comboBoxrg.Text = gui; comboBoxrz.Text = sii;
-            }
-            //4jz
-            else if (jinrigzshu2 == 30 || jinrigzshu2 == -30)
-            {
-                comboBoxrg.Text = jia; comboBoxrz.Text = wuma;
-            }
-            else if (jinrigzshu2 == 31 || jinrigzshu2 == -31)
-            {
-                comboBoxrg.Text = yii; comboBoxrz.Text = wei;
-            }
-            else if (jinrigzshu2 == 32 || jinrigzshu2 == -32)
-            {
-                comboBoxrg.Text = bing; comboBoxrz.Text = shen;
-            }
-            else if (jinrigzshu2 == 33 || jinrigzshu2 == -33)
-            {
-                comboBoxrg.Text = ding; comboBoxrz.Text = you;
-            }
-            else if (jinrigzshu2 == 34 || jinrigzshu2 == -34)
-            {
-                comboBoxrg.Text = wuu; comboBoxrz.Text = xuu;
-            }
-            else if (jinrigzshu2 == 35 || jinrigzshu2 == -35)
-            {
-                comboBoxrg.Text = jii; comboBoxrz.Text = hai;
-            }
-            else if (jinrigzshu2 == 36 || jinrigzshu2 == -36)
-            {
-                comboBoxrg.Text = geng; comboBoxrz.Text = zii;
-            }
-            else if (jinrigzshu2 == 37 || jinrigzshu2 == -37)
-            {
-                comboBoxrg.Text = xin; comboBoxrz.Text = chou;
-            }
-            else if (jinrigzshu2 == 38 || jinrigzshu2 == -38)
-            {
-                comboBoxrg.Text = ren; comboBoxrz.Text = yin;
-            }
-            else if (jinrigzshu2 == 39 || jinrigzshu2 == -39)
-            {
-                comboBoxrg.Text = gui; comboBoxrz.Text = mao;
-            }
-            //5jz
-            else if (jinrigzshu2 == 40 || jinrigzshu2 == -40)
-            {
-                comboBoxrg.Text = jia; comboBoxrz.Text = chen;
-            }
-            else if (jinrigzshu2 == 41 || jinrigzshu2 == -41)
-            {
-                comboBoxrg.Text = yii; comboBoxrz.Text = sii;
-            }
-            else if (jinrigzshu2 == 42 || jinrigzshu2 == -42)
-            {
-                comboBoxrg.Text = bing; comboBoxrz.Text = wuma;
-            }
-            else if (jinrigzshu2 == 43 || jinrigzshu2 == -43)
-            {
-                comboBoxrg.Text = ding; comboBoxrz.Text = wei;
-            }
-            else if (jinrigzshu2 == 44 || jinrigzshu2 == -44)
-            {
-                comboBoxrg.Text = wuu; comboBoxrz.Text = shen;
-            }
-            else if (jinrigzshu2 == 45 || jinrigzshu2 == -45)
-            {
-                comboBoxrg.Text = jii; comboBoxrz.Text = you;
-            }
-            else if (jinrigzshu2 == 46 || jinrigzshu2 == -46)
-            {
-                comboBoxrg.Text = geng; comboBoxrz.Text = xuu;
-            }
-            else if (jinrigzshu2 == 47 || jinrigzshu2 == -47)
-            {
-                comboBoxrg.Text = xin; comboBoxrz.Text = hai;
-            }
-            else if (jinrigzshu2 == 48 || jinrigzshu2 == -48)
-            {
-                comboBoxrg.Text = ren; comboBoxrz.Text = zii;
-            }
-            else if (jinrigzshu2 == 49 || jinrigzshu2 == -49)
-            {
-                comboBoxrg.Text = gui; comboBoxrz.Text = chou;
-            }
-            //6jz
-            else if (jinrigzshu2 == 50 || jinrigzshu2 == -50)
-            {
-                comboBoxrg.Text = jia; comboBoxrz.Text = yin;
-            }
-            else if (jinrigzshu2 == 51 || jinrigzshu2 == -51)
-            {
-                comboBoxrg.Text = yii; comboBoxrz.Text = mao;
-            }
-            else if (jinrigzshu2 == 52 || jinrigzshu2 == -52)
-            {
-                comboBoxrg.Text = bing; comboBoxrz.Text = chen;
-            }
-            else if (jinrigzshu2 == 53 || jinrigzshu2 == -53)
-            {
-                comboBoxrg.Text = ding; comboBoxrz.Text = sii;
-            }
-            else if (jinrigzshu2 == 54 || jinrigzshu2 == -54)
-            {
-                comboBoxrg.Text = wuu; comboBoxrz.Text = wuma;
-            }
-            else if (jinrigzshu2 == 55 || jinrigzshu2 == -55)
-            {
-                comboBoxrg.Text = jii; comboBoxrz.Text = wei;
-            }
-            else if (jinrigzshu2 == 56 || jinrigzshu2 == -56)
-            {
-                comboBoxrg.Text = geng; comboBoxrz.Text = shen;
-            }
-            else if (jinrigzshu2 == 57 || jinrigzshu2 == -57)
-            {
-                comboBoxrg.Text = xin; comboBoxrz.Text = you;
-            }
-            else if (jinrigzshu2 == 58 || jinrigzshu2 == -58)
-            {
-                comboBoxrg.Text = ren; comboBoxrz.Text = xuu;
-            }
-            else if (jinrigzshu2 == 59 || jinrigzshu2 == -59)
-            {
-                comboBoxrg.Text = gui; comboBoxrz.Text = hai;
-            }
+                //计算与甲子日的差
+                if (jinrigzshu <= zongtianshu)
+                {
+                    jinrigzshu1 = zongtianshu - jinrigzshu;
+                }
 
+                if (jinrigzshu > zongtianshu)
+                {
+                    jinrigzshu1 = jinrigzshu - zongtianshu;
+                }
 
+                jinrigzshu2 = jinrigzshu1;
+                while (jinrigzshu2 > 60)
+                {
+                    jinrigzshu2 -= 60;
+                }
+                while (jinrigzshu2 < 0)
+                {
+                    jinrigzshu2 += 60;
+                }
+                
+                //查六十甲子表
+                if (jinrigzshu2 == 0 || jinrigzshu2 == 60 || jinrigzshu2 == -60)
+                {
+                    comboBoxrg.Text = jia; comboBoxrz.Text = zii;
+                }
+                else if (jinrigzshu2 == 1 || jinrigzshu2 == -1)
+                {
+                    comboBoxrg.Text = yii; comboBoxrz.Text = chou;
+                }
+                else if (jinrigzshu2 == 2 || jinrigzshu2 == -2)
+                {
+                    comboBoxrg.Text = bing; comboBoxrz.Text = yin;
+                }
+                else if (jinrigzshu2 == 3 || jinrigzshu2 == -3)
+                {
+                    comboBoxrg.Text = ding; comboBoxrz.Text = mao;
+                }
+                else if (jinrigzshu2 == 4 || jinrigzshu2 == -4)
+                {
+                    comboBoxrg.Text = wuu; comboBoxrz.Text = chen;
+                }
+                else if (jinrigzshu2 == 5 || jinrigzshu2 == -5)
+                {
+                    comboBoxrg.Text = jii; comboBoxrz.Text = sii;
+                }
+                else if (jinrigzshu2 == 6 || jinrigzshu2 == -6)
+                {
+                    comboBoxrg.Text = geng; comboBoxrz.Text = wuma;
+                }
+                else if (jinrigzshu2 == 7 || jinrigzshu2 == -7)
+                {
+                    comboBoxrg.Text = xin; comboBoxrz.Text = wei;
+                }
+                else if (jinrigzshu2 == 8 || jinrigzshu2 == -8)
+                {
+                    comboBoxrg.Text = ren; comboBoxrz.Text = shen;
+                }
+                else if (jinrigzshu2 == 9 || jinrigzshu2 == -9)
+                {
+                    comboBoxrg.Text = gui; comboBoxrz.Text = you;
+                }
+                //2jz
+                else if (jinrigzshu2 == 10 || jinrigzshu2 == -10)
+                {
+                    comboBoxrg.Text = jia; comboBoxrz.Text = xuu;
+                }
+                else if (jinrigzshu2 == 11 || jinrigzshu2 == -11)
+                {
+                    comboBoxrg.Text = yii; comboBoxrz.Text = hai;
+                }
+                else if (jinrigzshu2 == 12 || jinrigzshu2 == -12)
+                {
+                    comboBoxrg.Text = bing; comboBoxrz.Text = zii;
+                }
+                else if (jinrigzshu2 == 13 || jinrigzshu2 == -13)
+                {
+                    comboBoxrg.Text = ding; comboBoxrz.Text = chou;
+                }
+                else if (jinrigzshu2 == 14 || jinrigzshu2 == -14)
+                {
+                    comboBoxrg.Text = wuu; comboBoxrz.Text = yin;
+                }
+                else if (jinrigzshu2 == 15 || jinrigzshu2 == -15)
+                {
+                    comboBoxrg.Text = jii; comboBoxrz.Text = mao;
+                }
+                else if (jinrigzshu2 == 16 || jinrigzshu2 == -16)
+                {
+                    comboBoxrg.Text = geng; comboBoxrz.Text = chen;
+                }
+                else if (jinrigzshu2 == 17 || jinrigzshu2 == -17)
+                {
+                    comboBoxrg.Text = xin; comboBoxrz.Text = sii;
+                }
+                else if (jinrigzshu2 == 18 || jinrigzshu2 == -18)
+                {
+                    comboBoxrg.Text = ren; comboBoxrz.Text = wuma;
+                }
+                else if (jinrigzshu2 == 19 || jinrigzshu2 == -19)
+                {
+                    comboBoxrg.Text = gui; comboBoxrz.Text = wei;
+                }
+                //3jz
+                else if (jinrigzshu2 == 20 || jinrigzshu2 == -20)
+                {
+                    comboBoxrg.Text = jia; comboBoxrz.Text = shen;
+                }
+                else if (jinrigzshu2 == 21 || jinrigzshu2 == -21)
+                {
+                    comboBoxrg.Text = yii; comboBoxrz.Text = you;
+                }
+                else if (jinrigzshu2 == 22 || jinrigzshu2 == -22)
+                {
+                    comboBoxrg.Text = bing; comboBoxrz.Text = xuu;
+                }
+                else if (jinrigzshu2 == 23 || jinrigzshu2 == -23)
+                {
+                    comboBoxrg.Text = ding; comboBoxrz.Text = hai;
+                }
+                else if (jinrigzshu2 == 24 || jinrigzshu2 == -24)
+                {
+                    comboBoxrg.Text = wuu; comboBoxrz.Text = zii;
+                }
+                else if (jinrigzshu2 == 25 || jinrigzshu2 == -25)
+                {
+                    comboBoxrg.Text = jii; comboBoxrz.Text = chou;
+                }
+                else if (jinrigzshu2 == 26 || jinrigzshu2 == -26)
+                {
+                    comboBoxrg.Text = geng; comboBoxrz.Text = yin;
+                }
+                else if (jinrigzshu2 == 27 || jinrigzshu2 == -27)
+                {
+                    comboBoxrg.Text = xin; comboBoxrz.Text = mao;
+                }
+                else if (jinrigzshu2 == 28 || jinrigzshu2 == -28)
+                {
+                    comboBoxrg.Text = ren; comboBoxrz.Text = chen;
+                }
+                else if (jinrigzshu2 == 29 || jinrigzshu2 == -29)
+                {
+                    comboBoxrg.Text = gui; comboBoxrz.Text = sii;
+                }
+                //4jz
+                else if (jinrigzshu2 == 30 || jinrigzshu2 == -30)
+                {
+                    comboBoxrg.Text = jia; comboBoxrz.Text = wuma;
+                }
+                else if (jinrigzshu2 == 31 || jinrigzshu2 == -31)
+                {
+                    comboBoxrg.Text = yii; comboBoxrz.Text = wei;
+                }
+                else if (jinrigzshu2 == 32 || jinrigzshu2 == -32)
+                {
+                    comboBoxrg.Text = bing; comboBoxrz.Text = shen;
+                }
+                else if (jinrigzshu2 == 33 || jinrigzshu2 == -33)
+                {
+                    comboBoxrg.Text = ding; comboBoxrz.Text = you;
+                }
+                else if (jinrigzshu2 == 34 || jinrigzshu2 == -34)
+                {
+                    comboBoxrg.Text = wuu; comboBoxrz.Text = xuu;
+                }
+                else if (jinrigzshu2 == 35 || jinrigzshu2 == -35)
+                {
+                    comboBoxrg.Text = jii; comboBoxrz.Text = hai;
+                }
+                else if (jinrigzshu2 == 36 || jinrigzshu2 == -36)
+                {
+                    comboBoxrg.Text = geng; comboBoxrz.Text = zii;
+                }
+                else if (jinrigzshu2 == 37 || jinrigzshu2 == -37)
+                {
+                    comboBoxrg.Text = xin; comboBoxrz.Text = chou;
+                }
+                else if (jinrigzshu2 == 38 || jinrigzshu2 == -38)
+                {
+                    comboBoxrg.Text = ren; comboBoxrz.Text = yin;
+                }
+                else if (jinrigzshu2 == 39 || jinrigzshu2 == -39)
+                {
+                    comboBoxrg.Text = gui; comboBoxrz.Text = mao;
+                }
+                //5jz
+                else if (jinrigzshu2 == 40 || jinrigzshu2 == -40)
+                {
+                    comboBoxrg.Text = jia; comboBoxrz.Text = chen;
+                }
+                else if (jinrigzshu2 == 41 || jinrigzshu2 == -41)
+                {
+                    comboBoxrg.Text = yii; comboBoxrz.Text = sii;
+                }
+                else if (jinrigzshu2 == 42 || jinrigzshu2 == -42)
+                {
+                    comboBoxrg.Text = bing; comboBoxrz.Text = wuma;
+                }
+                else if (jinrigzshu2 == 43 || jinrigzshu2 == -43)
+                {
+                    comboBoxrg.Text = ding; comboBoxrz.Text = wei;
+                }
+                else if (jinrigzshu2 == 44 || jinrigzshu2 == -44)
+                {
+                    comboBoxrg.Text = wuu; comboBoxrz.Text = shen;
+                }
+                else if (jinrigzshu2 == 45 || jinrigzshu2 == -45)
+                {
+                    comboBoxrg.Text = jii; comboBoxrz.Text = you;
+                }
+                else if (jinrigzshu2 == 46 || jinrigzshu2 == -46)
+                {
+                    comboBoxrg.Text = geng; comboBoxrz.Text = xuu;
+                }
+                else if (jinrigzshu2 == 47 || jinrigzshu2 == -47)
+                {
+                    comboBoxrg.Text = xin; comboBoxrz.Text = hai;
+                }
+                else if (jinrigzshu2 == 48 || jinrigzshu2 == -48)
+                {
+                    comboBoxrg.Text = ren; comboBoxrz.Text = zii;
+                }
+                else if (jinrigzshu2 == 49 || jinrigzshu2 == -49)
+                {
+                    comboBoxrg.Text = gui; comboBoxrz.Text = chou;
+                }
+                //6jz
+                else if (jinrigzshu2 == 50 || jinrigzshu2 == -50)
+                {
+                    comboBoxrg.Text = jia; comboBoxrz.Text = yin;
+                }
+                else if (jinrigzshu2 == 51 || jinrigzshu2 == -51)
+                {
+                    comboBoxrg.Text = yii; comboBoxrz.Text = mao;
+                }
+                else if (jinrigzshu2 == 52 || jinrigzshu2 == -52)
+                {
+                    comboBoxrg.Text = bing; comboBoxrz.Text = chen;
+                }
+                else if (jinrigzshu2 == 53 || jinrigzshu2 == -53)
+                {
+                    comboBoxrg.Text = ding; comboBoxrz.Text = sii;
+                }
+                else if (jinrigzshu2 == 54 || jinrigzshu2 == -54)
+                {
+                    comboBoxrg.Text = wuu; comboBoxrz.Text = wuma;
+                }
+                else if (jinrigzshu2 == 55 || jinrigzshu2 == -55)
+                {
+                    comboBoxrg.Text = jii; comboBoxrz.Text = wei;
+                }
+                else if (jinrigzshu2 == 56 || jinrigzshu2 == -56)
+                {
+                    comboBoxrg.Text = geng; comboBoxrz.Text = shen;
+                }
+                else if (jinrigzshu2 == 57 || jinrigzshu2 == -57)
+                {
+                    comboBoxrg.Text = xin; comboBoxrz.Text = you;
+                }
+                else if (jinrigzshu2 == 58 || jinrigzshu2 == -58)
+                {
+                    comboBoxrg.Text = ren; comboBoxrz.Text = xuu;
+                }
+                else if (jinrigzshu2 == 59 || jinrigzshu2 == -59)
+                {
+                    comboBoxrg.Text = gui; comboBoxrz.Text = hai;
+                }
 
+            }
             //时干支
-            if (hourtimeint == 0 || hourtimeint == 23)
+            if (jia == jia)
             {
-                comboBoxsz.Text = zii;
-            }
-            if (hourtimeint == 1 || hourtimeint == 2)
-            {
-                comboBoxsz.Text = chou;
-            }
-            if (hourtimeint == 3 || hourtimeint == 4)
-            {
-                comboBoxsz.Text = yin;
-            }
-            if (hourtimeint == 5 || hourtimeint == 6)
-            {
-                comboBoxsz.Text = mao;
-            }
-            if (hourtimeint == 7 || hourtimeint == 8)
-            {
-                comboBoxsz.Text = chen;
-            }
-            if (hourtimeint == 9 || hourtimeint == 10)
-            {
-                comboBoxsz.Text = sii;
-            }
-            if (hourtimeint == 11 || hourtimeint == 12)
-            {
-                comboBoxsz.Text = wuma;
-            }
-            if (hourtimeint == 13 || hourtimeint == 14)
-            {
-                comboBoxsz.Text = wei;
-            }
-            if (hourtimeint == 15 || hourtimeint == 16)
-            {
-                comboBoxsz.Text = shen;
-            }
-            if (hourtimeint == 17 || hourtimeint == 18)
-            {
-                comboBoxsz.Text = you;
-            }
-            if (hourtimeint == 19 || hourtimeint == 20)
-            {
-                comboBoxsz.Text = xuu;
-            }
-            if (hourtimeint == 21 || hourtimeint == 22)
-            {
-                comboBoxsz.Text = hai;
+                if (hourtimeint == 0 || hourtimeint == 23)
+                {
+                    comboBoxsz.Text = zii;
+                }
+                if (hourtimeint == 1 || hourtimeint == 2)
+                {
+                    comboBoxsz.Text = chou;
+                }
+                if (hourtimeint == 3 || hourtimeint == 4)
+                {
+                    comboBoxsz.Text = yin;
+                }
+                if (hourtimeint == 5 || hourtimeint == 6)
+                {
+                    comboBoxsz.Text = mao;
+                }
+                if (hourtimeint == 7 || hourtimeint == 8)
+                {
+                    comboBoxsz.Text = chen;
+                }
+                if (hourtimeint == 9 || hourtimeint == 10)
+                {
+                    comboBoxsz.Text = sii;
+                }
+                if (hourtimeint == 11 || hourtimeint == 12)
+                {
+                    comboBoxsz.Text = wuma;
+                }
+                if (hourtimeint == 13 || hourtimeint == 14)
+                {
+                    comboBoxsz.Text = wei;
+                }
+                if (hourtimeint == 15 || hourtimeint == 16)
+                {
+                    comboBoxsz.Text = shen;
+                }
+                if (hourtimeint == 17 || hourtimeint == 18)
+                {
+                    comboBoxsz.Text = you;
+                }
+                if (hourtimeint == 19 || hourtimeint == 20)
+                {
+                    comboBoxsz.Text = xuu;
+                }
+                if (hourtimeint == 21 || hourtimeint == 22)
+                {
+                    comboBoxsz.Text = hai;
+                }
+
+                if (comboBoxrg.Text == jia || comboBoxrg.Text == jii)
+                {
+                    if (comboBoxsz.Text == zii)
+                    {
+                        comboBoxsg.Text = jia;
+                    }
+                    if (comboBoxsz.Text == chou)
+                    {
+                        comboBoxsg.Text = yii;
+                    }
+                    if (comboBoxsz.Text == yin)
+                    {
+                        comboBoxsg.Text = bing;
+                    }
+                    if (comboBoxsz.Text == mao)
+                    {
+                        comboBoxsg.Text = ding;
+                    }
+                    if (comboBoxsz.Text == chen)
+                    {
+                        comboBoxsg.Text = wuu;
+                    }
+                    if (comboBoxsz.Text == sii)
+                    {
+                        comboBoxsg.Text = jii;
+                    }
+                    if (comboBoxsz.Text == wuma)
+                    {
+                        comboBoxsg.Text = geng;
+                    }
+                    if (comboBoxsz.Text == wei)
+                    {
+                        comboBoxsg.Text = xin;
+                    }
+                    if (comboBoxsz.Text == shen)
+                    {
+                        comboBoxsg.Text = ren;
+                    }
+                    if (comboBoxsz.Text == you)
+                    {
+                        comboBoxsg.Text = gui;
+                    }
+                    if (comboBoxsz.Text == xuu)
+                    {
+                        comboBoxsg.Text = jia;
+                    }
+                    if (comboBoxsz.Text == hai)
+                    {
+                        comboBoxsg.Text = yii;
+                    }
+                }
+                if (comboBoxrg.Text == yii || comboBoxrg.Text == geng)
+                {
+                    if (comboBoxsz.Text == zii)
+                    {
+                        comboBoxsg.Text = bing;
+                    }
+                    if (comboBoxsz.Text == chou)
+                    {
+                        comboBoxsg.Text = ding;
+                    }
+                    if (comboBoxsz.Text == yin)
+                    {
+                        comboBoxsg.Text = wuu;
+                    }
+                    if (comboBoxsz.Text == mao)
+                    {
+                        comboBoxsg.Text = jii;
+                    }
+                    if (comboBoxsz.Text == chen)
+                    {
+                        comboBoxsg.Text = geng;
+                    }
+                    if (comboBoxsz.Text == sii)
+                    {
+                        comboBoxsg.Text = xin;
+                    }
+                    if (comboBoxsz.Text == wuma)
+                    {
+                        comboBoxsg.Text = ren;
+                    }
+                    if (comboBoxsz.Text == wei)
+                    {
+                        comboBoxsg.Text = gui;
+                    }
+                    if (comboBoxsz.Text == shen)
+                    {
+                        comboBoxsg.Text = jia;
+                    }
+                    if (comboBoxsz.Text == you)
+                    {
+                        comboBoxsg.Text = yii;
+                    }
+                    if (comboBoxsz.Text == xuu)
+                    {
+                        comboBoxsg.Text = bing;
+                    }
+                    if (comboBoxsz.Text == hai)
+                    {
+                        comboBoxsg.Text = ding;
+                    }
+                }
+                if (comboBoxrg.Text == bing || comboBoxrg.Text == xin)
+                {
+                    if (comboBoxsz.Text == zii)
+                    {
+                        comboBoxsg.Text = wuu;
+                    }
+                    if (comboBoxsz.Text == chou)
+                    {
+                        comboBoxsg.Text = jii;
+                    }
+                    if (comboBoxsz.Text == yin)
+                    {
+                        comboBoxsg.Text = geng;
+                    }
+                    if (comboBoxsz.Text == mao)
+                    {
+                        comboBoxsg.Text = xin;
+                    }
+                    if (comboBoxsz.Text == chen)
+                    {
+                        comboBoxsg.Text = ren;
+                    }
+                    if (comboBoxsz.Text == sii)
+                    {
+                        comboBoxsg.Text = gui;
+                    }
+                    if (comboBoxsz.Text == wuma)
+                    {
+                        comboBoxsg.Text = jia;
+                    }
+                    if (comboBoxsz.Text == wei)
+                    {
+                        comboBoxsg.Text = yii;
+                    }
+                    if (comboBoxsz.Text == shen)
+                    {
+                        comboBoxsg.Text = bing;
+                    }
+                    if (comboBoxsz.Text == you)
+                    {
+                        comboBoxsg.Text = ding;
+                    }
+                    if (comboBoxsz.Text == xuu)
+                    {
+                        comboBoxsg.Text = wuu;
+                    }
+                    if (comboBoxsz.Text == hai)
+                    {
+                        comboBoxsg.Text = jii;
+                    }
+                }
+                if (comboBoxrg.Text == ding || comboBoxrg.Text == ren)
+                {
+                    if (comboBoxsz.Text == zii)
+                    {
+                        comboBoxsg.Text = geng;
+                    }
+                    if (comboBoxsz.Text == chou)
+                    {
+                        comboBoxsg.Text = xin;
+                    }
+                    if (comboBoxsz.Text == yin)
+                    {
+                        comboBoxsg.Text = ren;
+                    }
+                    if (comboBoxsz.Text == mao)
+                    {
+                        comboBoxsg.Text = gui;
+                    }
+                    if (comboBoxsz.Text == chen)
+                    {
+                        comboBoxsg.Text = jia;
+                    }
+                    if (comboBoxsz.Text == sii)
+                    {
+                        comboBoxsg.Text = yii;
+                    }
+                    if (comboBoxsz.Text == wuma)
+                    {
+                        comboBoxsg.Text = bing;
+                    }
+                    if (comboBoxsz.Text == wei)
+                    {
+                        comboBoxsg.Text = ding;
+                    }
+                    if (comboBoxsz.Text == shen)
+                    {
+                        comboBoxsg.Text = wuu;
+                    }
+                    if (comboBoxsz.Text == you)
+                    {
+                        comboBoxsg.Text = jii;
+                    }
+                    if (comboBoxsz.Text == xuu)
+                    {
+                        comboBoxsg.Text = geng;
+                    }
+                    if (comboBoxsz.Text == hai)
+                    {
+                        comboBoxsg.Text = xin;
+                    }
+                }
+                if (comboBoxrg.Text == wuu || comboBoxrg.Text == gui)
+                {
+                    if (comboBoxsz.Text == zii)
+                    {
+                        comboBoxsg.Text = ren;
+                    }
+                    if (comboBoxsz.Text == chou)
+                    {
+                        comboBoxsg.Text = gui;
+                    }
+                    if (comboBoxsz.Text == yin)
+                    {
+                        comboBoxsg.Text = jia;
+                    }
+                    if (comboBoxsz.Text == mao)
+                    {
+                        comboBoxsg.Text = yii;
+                    }
+                    if (comboBoxsz.Text == chen)
+                    {
+                        comboBoxsg.Text = bing;
+                    }
+                    if (comboBoxsz.Text == sii)
+                    {
+                        comboBoxsg.Text = ding;
+                    }
+                    if (comboBoxsz.Text == wuma)
+                    {
+                        comboBoxsg.Text = wuu;
+                    }
+                    if (comboBoxsz.Text == wei)
+                    {
+                        comboBoxsg.Text = jii;
+                    }
+                    if (comboBoxsz.Text == shen)
+                    {
+                        comboBoxsg.Text = geng;
+                    }
+                    if (comboBoxsz.Text == you)
+                    {
+                        comboBoxsg.Text = xin;
+                    }
+                    if (comboBoxsz.Text == xuu)
+                    {
+                        comboBoxsg.Text = ren;
+                    }
+                    if (comboBoxsz.Text == hai)
+                    {
+                        comboBoxsg.Text = gui;
+                    }
+                }
+
             }
 
-            if (comboBoxrg.Text == jia || comboBoxrg.Text == jii)
-            {
-                if (comboBoxsz.Text == zii)
-                {
-                    comboBoxsg.Text = jia;
-                }
-                if (comboBoxsz.Text == chou)
-                {
-                    comboBoxsg.Text = yii;
-                }
-                if (comboBoxsz.Text == yin)
-                {
-                    comboBoxsg.Text = bing;
-                }
-                if (comboBoxsz.Text == mao)
-                {
-                    comboBoxsg.Text = ding;
-                }
-                if (comboBoxsz.Text == chen)
-                {
-                    comboBoxsg.Text = wuu;
-                }
-                if (comboBoxsz.Text == sii)
-                {
-                    comboBoxsg.Text = jii;
-                }
-                if (comboBoxsz.Text == wuma)
-                {
-                    comboBoxsg.Text = geng;
-                }
-                if (comboBoxsz.Text == wei)
-                {
-                    comboBoxsg.Text = xin;
-                }
-                if (comboBoxsz.Text == shen)
-                {
-                    comboBoxsg.Text = ren;
-                }
-                if (comboBoxsz.Text == you)
-                {
-                    comboBoxsg.Text = gui;
-                }
-                if (comboBoxsz.Text == xuu)
-                {
-                    comboBoxsg.Text = jia;
-                }
-                if (comboBoxsz.Text == hai)
-                {
-                    comboBoxsg.Text = yii;
-                }
-            }
-            if (comboBoxrg.Text == yii || comboBoxrg.Text == geng)
-            {
-                if (comboBoxsz.Text == zii)
-                {
-                    comboBoxsg.Text = bing;
-                }
-                if (comboBoxsz.Text == chou)
-                {
-                    comboBoxsg.Text = ding;
-                }
-                if (comboBoxsz.Text == yin)
-                {
-                    comboBoxsg.Text = wuu;
-                }
-                if (comboBoxsz.Text == mao)
-                {
-                    comboBoxsg.Text = jii;
-                }
-                if (comboBoxsz.Text == chen)
-                {
-                    comboBoxsg.Text = geng;
-                }
-                if (comboBoxsz.Text == sii)
-                {
-                    comboBoxsg.Text = xin;
-                }
-                if (comboBoxsz.Text == wuma)
-                {
-                    comboBoxsg.Text = ren;
-                }
-                if (comboBoxsz.Text == wei)
-                {
-                    comboBoxsg.Text = gui;
-                }
-                if (comboBoxsz.Text == shen)
-                {
-                    comboBoxsg.Text = jia;
-                }
-                if (comboBoxsz.Text == you)
-                {
-                    comboBoxsg.Text = yii;
-                }
-                if (comboBoxsz.Text == xuu)
-                {
-                    comboBoxsg.Text = bing;
-                }
-                if (comboBoxsz.Text == hai)
-                {
-                    comboBoxsg.Text = ding;
-                }
-            }
-            if (comboBoxrg.Text == bing || comboBoxrg.Text == xin)
-            {
-                if (comboBoxsz.Text == zii)
-                {
-                    comboBoxsg.Text = wuu;
-                }
-                if (comboBoxsz.Text == chou)
-                {
-                    comboBoxsg.Text = jii;
-                }
-                if (comboBoxsz.Text == yin)
-                {
-                    comboBoxsg.Text = geng;
-                }
-                if (comboBoxsz.Text == mao)
-                {
-                    comboBoxsg.Text = xin;
-                }
-                if (comboBoxsz.Text == chen)
-                {
-                    comboBoxsg.Text = ren;
-                }
-                if (comboBoxsz.Text == sii)
-                {
-                    comboBoxsg.Text = gui;
-                }
-                if (comboBoxsz.Text == wuma)
-                {
-                    comboBoxsg.Text = jia;
-                }
-                if (comboBoxsz.Text == wei)
-                {
-                    comboBoxsg.Text = yii;
-                }
-                if (comboBoxsz.Text == shen)
-                {
-                    comboBoxsg.Text = bing;
-                }
-                if (comboBoxsz.Text == you)
-                {
-                    comboBoxsg.Text = ding;
-                }
-                if (comboBoxsz.Text == xuu)
-                {
-                    comboBoxsg.Text = wuu;
-                }
-                if (comboBoxsz.Text == hai)
-                {
-                    comboBoxsg.Text = jii;
-                }
-            }
-            if (comboBoxrg.Text == ding || comboBoxrg.Text == ren)
-            {
-                if (comboBoxsz.Text == zii)
-                {
-                    comboBoxsg.Text = geng;
-                }
-                if (comboBoxsz.Text == chou)
-                {
-                    comboBoxsg.Text = xin;
-                }
-                if (comboBoxsz.Text == yin)
-                {
-                    comboBoxsg.Text = ren;
-                }
-                if (comboBoxsz.Text == mao)
-                {
-                    comboBoxsg.Text = gui;
-                }
-                if (comboBoxsz.Text == chen)
-                {
-                    comboBoxsg.Text = jia;
-                }
-                if (comboBoxsz.Text == sii)
-                {
-                    comboBoxsg.Text = yii;
-                }
-                if (comboBoxsz.Text == wuma)
-                {
-                    comboBoxsg.Text = bing;
-                }
-                if (comboBoxsz.Text == wei)
-                {
-                    comboBoxsg.Text = ding;
-                }
-                if (comboBoxsz.Text == shen)
-                {
-                    comboBoxsg.Text = wuu;
-                }
-                if (comboBoxsz.Text == you)
-                {
-                    comboBoxsg.Text = jii;
-                }
-                if (comboBoxsz.Text == xuu)
-                {
-                    comboBoxsg.Text = geng;
-                }
-                if (comboBoxsz.Text == hai)
-                {
-                    comboBoxsg.Text = xin;
-                }
-            }
-            if (comboBoxrg.Text == wuu || comboBoxrg.Text == gui)
-            {
-                if (comboBoxsz.Text == zii)
-                {
-                    comboBoxsg.Text = ren;
-                }
-                if (comboBoxsz.Text == chou)
-                {
-                    comboBoxsg.Text = gui;
-                }
-                if (comboBoxsz.Text == yin)
-                {
-                    comboBoxsg.Text = jia;
-                }
-                if (comboBoxsz.Text == mao)
-                {
-                    comboBoxsg.Text = yii;
-                }
-                if (comboBoxsz.Text == chen)
-                {
-                    comboBoxsg.Text = bing;
-                }
-                if (comboBoxsz.Text == sii)
-                {
-                    comboBoxsg.Text = ding;
-                }
-                if (comboBoxsz.Text == wuma)
-                {
-                    comboBoxsg.Text = wuu;
-                }
-                if (comboBoxsz.Text == wei)
-                {
-                    comboBoxsg.Text = jii;
-                }
-                if (comboBoxsz.Text == shen)
-                {
-                    comboBoxsg.Text = geng;
-                }
-                if (comboBoxsz.Text == you)
-                {
-                    comboBoxsg.Text = xin;
-                }
-                if (comboBoxsz.Text == xuu)
-                {
-                    comboBoxsg.Text = ren;
-                }
-                if (comboBoxsz.Text == hai)
-                {
-                    comboBoxsg.Text = gui;
-                }
-            }
 
             buttongz.Focus();
             buttongz_Click(this, new EventArgs());
@@ -21675,1812 +21537,6 @@ namespace BaZiFuZuGongJu
             {
                 wxmu += 1;
             }
-            //天干五合
-            
-            if (ntg != wuu && ytg != wuu && rtg != wuu && stg != wuu)
-            {
-                if (ntg == jia || ytg == jia || rtg == jia || stg == jia)
-                {
-                    if (ntg == jii || ytg == jii || rtg == jii || stg == jii)
-                    {
-                        if (ydz == chen || ydz == chou || ydz == xuu || ydz == wei || ydz == wuma)
-                        {
-                            buttondz6h.Text += "甲已合土"; wxtu += 1; buttondz6h.ForeColor = Color.Sienna; buttondz6h.BackColor = Color.White;
-                            if (wxtu < 2 && wxhuo < 1)
-                            {
-                                wxtu -= 1; buttondz6h.Text = "甲已化土减已";
-                            }
-                            if (wxmu < 2 && wxshui < 1)
-                            {
-                                wxmu -= 1; buttondz6h.Text = "甲已化土减甲";
-                            }
-                        }
-                    }
-                }
-            }
-            if (ntg != jia && ytg != jia && rtg != jia && stg != jia)
-            {
-                if (ntg == yii || ytg == yii || rtg == yii || stg == yii)
-                {
-                    if (ntg == geng || ytg == geng || rtg == geng || stg == geng)
-                    {
-                        if (ydz == sii || ydz == chou || ydz == you || ydz == shen)
-                        {
-                            buttondz6h.Text += "乙庚合金"; wxjin += 1; buttondz6h.ForeColor = Color.Gold; buttondz6h.BackColor = Color.Black;
-                            if (wxjin < 2 && wxtu < 1)
-                            {
-                                wxjin -= 1; buttondz6h.Text = "乙庚化金减庚";
-                            }
-                            if (wxmu < 2 && wxshui < 1)
-                            {
-                                wxmu -= 1; buttondz6h.Text = "乙庚化金减乙";
-                            }
-                        }
-                    }
-                }
-            }
-            if (ntg != ding && ytg != ding && rtg != ding && stg != ding)
-            {
-                if (ntg == bing || ytg == bing || rtg == bing || stg == bing)
-                {
-                    if (ntg == xin || ytg == xin || rtg == xin || stg == xin)
-                    {
-                        if (ydz == chen || ydz == shen || ydz == zii || ydz == hai)
-                        {
-                            buttondz6h.Text += "丙辛合水"; wxshui += 1; buttondz6h.ForeColor = Color.DodgerBlue; buttondz6h.BackColor = Color.White;
-                            if (wxhuo < 2 && wxmu < 1)
-                            {
-                                wxhuo -= 1; buttondz6h.Text = "丙辛化水减丙";
-                            }
-                            if (wxjin < 2 && wxtu < 1)
-                            {
-                                wxjin -= 1; buttondz6h.Text = "丙辛化水减辛";
-                            }
-                        }
-                    }
-                }
-            }
-            if (ntg != bing && ytg != bing && rtg != bing && stg != bing)
-            {
-                if (ntg == ding || ytg == ding || rtg == ding || stg == ding)
-                {
-                    if (ntg == ren || ytg == ren || rtg == ren || stg == ren)
-                    {
-                        if (ydz == hai || ydz == mao || ydz == wei || ydz == yin)
-                        {
-                            buttondz6h.Text += "丁壬合木"; wxmu += 1; buttondz6h.ForeColor = Color.Green; buttondz6h.BackColor = Color.White;
-                            if (wxhuo < 2 && wxmu < 1)
-                            {
-                                wxhuo -= 1; buttondz6h.Text = "丁壬化木减丁";
-                            }
-                            if (wxshui < 2 && wxjin < 1)
-                            {
-                                wxshui -= 1; buttondz6h.Text = "丁壬化木减壬";
-                            }
-                        }
-                    }
-                }
-            }
-            if (ntg != jii && ytg != jii && rtg != jii && stg != jii)
-            {
-                if (ntg == wuu || ytg == wuu || rtg == wuu || stg == wuu)
-                {
-                    if (ntg == gui || ytg == gui || rtg == gui || stg == gui)
-                    {
-                        if (ydz == yin || ydz == wuma || ydz == xuu || ydz == sii)
-                        {
-                            buttondz6h.Text += "戊癸合火"; wxhuo += 1; buttondz6h.ForeColor = Color.Red; buttondz6h.BackColor = Color.White;
-                            if (wxtu < 2 && wxhuo < 1)
-                            {
-                                wxtu -= 1; buttondz6h.Text = "戊癸化火减戊";
-                            }
-                            if (wxshui < 2 && wxjin < 1)
-                            {
-                                wxshui -= 1; buttondz6h.Text = "戊癸化火减癸";
-                            }
-                        }
-                    }
-                }
-            }
-            //地支六合
-            if (ndz == zii)
-            {
-                if (ydz == chou)
-                {
-                    wxtu += 1; buttondzxx.Text = "子丑合土"; buttondzxx.ForeColor = Color.Sienna; buttondzxx.BackColor = Color.White;
-                    if (wxtu < 2 && wxhuo < 1)
-                    {
-                        wxtu -= 1; wxjin -= 0.6; wxshui -= 0.3; buttondzxx.Text = "子丑化土减丑";
-                    }
-                    if (wxshui < 2 && wxjin < 1)
-                    {
-                        wxshui -= 1; buttondzxx.Text = "子丑化土减子";
-                    }
-                }
-            }
-            if (ydz == zii)
-            {
-                if (ndz == chou)
-                {
-                    wxtu += 1; buttondzxx.Text = "子丑合土"; buttondzxx.ForeColor = Color.Sienna; buttondzxx.BackColor = Color.White;
-                    if (wxtu < 2 && wxhuo < 1)
-                    {
-                        wxtu -= 1; wxjin -= 0.6; wxshui -= 0.3; buttondzxx.Text = "子丑化土减丑";
-                    }
-                    if (wxshui < 2 && wxjin < 1)
-                    {
-                        wxshui -= 1; buttondzxx.Text = "子丑化土减子";
-                    }
-                }
-            }
-            if (ydz == zii)
-            {
-                if (rdz == chou)
-                {
-                    wxtu += 1; buttondzxx.Text = "子丑合土"; buttondzxx.ForeColor = Color.Sienna; buttondzxx.BackColor = Color.White;
-                    if (wxtu < 2 && wxhuo < 1)
-                    {
-                        wxtu -= 1; wxjin -= 0.6; wxshui -= 0.3; buttondzxx.Text = "子丑化土减丑";
-                    }
-                    if (wxshui < 2 && wxjin < 1)
-                    {
-                        wxshui -= 1; buttondzxx.Text = "子丑化土减子";
-                    }
-                }
-            }
-            if (rdz == zii)
-            {
-                if (ydz == chou)
-                {
-                    wxtu += 1; buttondzxx.Text = "子丑合土"; buttondzxx.ForeColor = Color.Sienna; buttondzxx.BackColor = Color.White;
-                    if (wxtu < 2 && wxhuo < 1)
-                    {
-                        wxtu -= 1; wxjin -= 0.6; wxshui -= 0.3; buttondzxx.Text = "子丑化土减丑";
-                    }
-                    if (wxshui < 2 && wxjin < 1)
-                    {
-                        wxshui -= 1; buttondzxx.Text = "子丑化土减子";
-                    }
-                }
-            }
-            if (rdz == zii)
-            {
-                if (sdz == chou)
-                {
-                    wxtu += 1; buttondzxx.Text = "子丑合土"; buttondzxx.ForeColor = Color.Sienna; buttondzxx.BackColor = Color.White;
-                    if (wxtu < 2 && wxhuo < 1)
-                    {
-                        wxtu -= 1; wxjin -= 0.6; wxshui -= 0.3; buttondzxx.Text = "子丑化土减丑";
-                    }
-                    if (wxshui < 2 && wxjin < 1)
-                    {
-                        wxshui -= 1; buttondzxx.Text = "子丑化土减子";
-                    }
-                }
-            }
-            if (sdz == zii)
-            {
-                if (rdz == chou)
-                {
-                    wxtu += 1; buttondzxx.Text = "子丑合土"; buttondzxx.ForeColor = Color.Sienna; buttondzxx.BackColor = Color.White;
-                    if (wxtu < 2 && wxhuo < 1)
-                    {
-                        wxtu -= 1; wxjin -= 0.6; wxshui -= 0.3; buttondzxx.Text = "子丑化土减丑";
-                    }
-                    if (wxshui < 2 && wxjin < 1)
-                    {
-                        wxshui -= 1; buttondzxx.Text = "子丑化土减子";
-                    }
-                }
-            }
-
-            if (ndz == yin)
-            {
-                if (ydz == hai)
-                {
-                    wxmu += 1; buttondzxx.Text = "寅亥合木"; buttondzxx.ForeColor = Color.Green; buttondzxx.BackColor = Color.White;
-                    if (wxmu < 2 && wxshui < 1)
-                    {
-                        wxmu -= 1; wxhuo -= 0.6; wxtu -= 0.3; buttondzxx.Text = "寅亥化木减寅";
-                    }
-                    if (wxshui < 2 && wxjin < 1)
-                    {
-                        wxshui -= 1; wxmu -= 0.6; buttondzxx.Text = "寅亥化木减亥";
-                    }
-                }
-            }
-            if (ydz == yin)
-            {
-                if (ndz == hai)
-                {
-                    wxmu += 1; buttondzxx.Text = "寅亥合木"; buttondzxx.ForeColor = Color.Green; buttondzxx.BackColor = Color.White;
-                    if (wxmu < 2 && wxshui < 1)
-                    {
-                        wxmu -= 1; wxhuo -= 0.6; wxtu -= 0.3; buttondzxx.Text = "寅亥化木减寅";
-                    }
-                    if (wxshui < 2 && wxjin < 1)
-                    {
-                        wxshui -= 1; wxmu -= 0.6; buttondzxx.Text = "寅亥化木减亥";
-                    }
-                }
-            }
-            if (ydz == yin)
-            {
-                if (rdz == hai)
-                {
-                    wxmu += 1; buttondzxx.Text = "寅亥合木"; buttondzxx.ForeColor = Color.Green; buttondzxx.BackColor = Color.White;
-                    if (wxmu < 2 && wxshui < 1)
-                    {
-                        wxmu -= 1; wxhuo -= 0.6; wxtu -= 0.3; buttondzxx.Text = "寅亥化木减寅";
-                    }
-                    if (wxshui < 2 && wxjin < 1)
-                    {
-                        wxshui -= 1; wxmu -= 0.6; buttondzxx.Text = "寅亥化木减亥";
-                    }
-                }
-            }
-            if (rdz == yin)
-            {
-                if (ydz == hai)
-                {
-                    wxmu += 1; buttondzxx.Text = "寅亥合木"; buttondzxx.ForeColor = Color.Green; buttondzxx.BackColor = Color.White;
-                    if (wxmu < 2 && wxshui < 1)
-                    {
-                        wxmu -= 1; wxhuo -= 0.6; wxtu -= 0.3; buttondzxx.Text = "寅亥化木减寅";
-                    }
-                    if (wxshui < 2 && wxjin < 1)
-                    {
-                        wxshui -= 1; wxmu -= 0.6; buttondzxx.Text = "寅亥化木减亥";
-                    }
-                }
-            }
-            if (rdz == yin)
-            {
-                if (sdz == hai)
-                {
-                    wxmu += 1; buttondzxx.Text = "寅亥合木"; buttondzxx.ForeColor = Color.Green; buttondzxx.BackColor = Color.White;
-                    if (wxmu < 2 && wxshui < 1)
-                    {
-                        wxmu -= 1; wxhuo -= 0.6; wxtu -= 0.3; buttondzxx.Text = "寅亥化木减寅";
-                    }
-                    if (wxshui < 2 && wxjin < 1)
-                    {
-                        wxshui -= 1; wxmu -= 0.6; buttondzxx.Text = "寅亥化木减亥";
-                    }
-                }
-            }
-            if (sdz == yin)
-            {
-                if (rdz == hai)
-                {
-                    wxmu += 1; buttondzxx.Text = "寅亥合木"; buttondzxx.ForeColor = Color.Green; buttondzxx.BackColor = Color.White;
-                    if (wxmu < 2 && wxshui < 1)
-                    {
-                        wxmu -= 1; wxhuo -= 0.6; wxtu -= 0.3; buttondzxx.Text = "寅亥化木减寅";
-                    }
-                    if (wxshui < 2 && wxjin < 1)
-                    {
-                        wxshui -= 1; wxmu -= 0.6; buttondzxx.Text = "寅亥化木减亥";
-                    }
-                }
-            }
-
-            if (ndz == mao)
-            {
-                if (ydz == xuu)
-                {
-                    wxhuo += 1; buttondzxx.Text = "卯戌合火"; buttondzxx.ForeColor = Color.Red; buttondzxx.BackColor = Color.White;
-                    if (wxmu < 2 && wxshui < 1)
-                    {
-                        wxmu -= 1; buttondzxx.Text = "卯戌化火减卯";
-                    }
-                    if (wxtu < 2 && wxhuo < 1)
-                    {
-                        wxshui -= 1; wxjin -= 0.6; wxhuo -= 0.3; buttondzxx.Text = "卯戌化火减戌";
-                    }
-                }
-            }
-            if (ydz == mao)
-            {
-                if (ndz == xuu)
-                {
-                    wxhuo += 1; buttondzxx.Text = "卯戌合火"; buttondzxx.ForeColor = Color.Red; buttondzxx.BackColor = Color.White;
-                    if (wxmu < 2 && wxshui < 1)
-                    {
-                        wxmu -= 1; buttondzxx.Text = "卯戌化火减卯";
-                    }
-                    if (wxtu < 2 && wxhuo < 1)
-                    {
-                        wxshui -= 1; wxjin -= 0.6; wxhuo -= 0.3; buttondzxx.Text = "卯戌化火减戌";
-                    }
-                }
-            }
-            if (ydz == mao)
-            {
-                if (rdz == xuu)
-                {
-                    wxhuo += 1; buttondzxx.Text = "卯戌合火"; buttondzxx.ForeColor = Color.Red; buttondzxx.BackColor = Color.White;
-                    if (wxmu < 2 && wxshui < 1)
-                    {
-                        wxmu -= 1; buttondzxx.Text = "卯戌化火减卯";
-                    }
-                    if (wxtu < 2 && wxhuo < 1)
-                    {
-                        wxshui -= 1; wxjin -= 0.6; wxhuo -= 0.3; buttondzxx.Text = "卯戌化火减戌";
-                    }
-                }
-            }
-            if (rdz == mao)
-            {
-                if (ydz == xuu)
-                {
-                    wxhuo += 1; buttondzxx.Text = "卯戌合火"; buttondzxx.ForeColor = Color.Red; buttondzxx.BackColor = Color.White;
-                    if (wxmu < 2 && wxshui < 1)
-                    {
-                        wxmu -= 1; buttondzxx.Text = "卯戌化火减卯";
-                    }
-                    if (wxtu < 2 && wxhuo < 1)
-                    {
-                        wxshui -= 1; wxjin -= 0.6; wxhuo -= 0.3; buttondzxx.Text = "卯戌化火减戌";
-                    }
-                }
-            }
-            if (rdz == mao)
-            {
-                if (sdz == xuu)
-                {
-                    wxhuo += 1; buttondzxx.Text = "卯戌合火"; buttondzxx.ForeColor = Color.Red; buttondzxx.BackColor = Color.White;
-                    if (wxmu < 2 && wxshui < 1)
-                    {
-                        wxmu -= 1; buttondzxx.Text = "卯戌化火减卯";
-                    }
-                    if (wxtu < 2 && wxhuo < 1)
-                    {
-                        wxshui -= 1; wxjin -= 0.6; wxhuo -= 0.3; buttondzxx.Text = "卯戌化火减戌";
-                    }
-                }
-            }
-            if (sdz == mao)
-            {
-                if (rdz == xuu)
-                {
-                    wxhuo += 1; buttondzxx.Text = "卯戌合火"; buttondzxx.ForeColor = Color.Red; buttondzxx.BackColor = Color.White;
-                    if (wxmu < 2 && wxshui < 1)
-                    {
-                        wxmu -= 1; buttondzxx.Text = "卯戌化火减卯";
-                    }
-                    if (wxtu < 2 && wxhuo < 1)
-                    {
-                        wxshui -= 1; wxjin -= 0.6; wxhuo -= 0.3; buttondzxx.Text = "卯戌化火减戌";
-                    }
-                }
-            }
-
-            if (ndz == chen)
-            {
-                if (ydz == you)
-                {
-                    wxjin += 1; buttondzxx.Text = "辰酉合金"; buttondzxx.ForeColor = Color.Gold; buttondzxx.BackColor = Color.Black;
-                    if (wxjin < 2 && wxtu < 1)
-                    {
-                        wxjin -= 1; buttondzxx.Text = "辰酉化金减酉";
-                    }
-                    if (wxtu < 2 && wxhuo < 1)
-                    {
-                        wxtu -= 1; wxmu -= 0.6; wxshui -= 0.3; buttondzxx.Text = "辰酉化金减辰";
-                    }
-                }
-            }
-            if (ydz == chen)
-            {
-                if (ndz == you)
-                {
-                    wxjin += 1; buttondzxx.Text = "辰酉合金"; buttondzxx.ForeColor = Color.Gold; buttondzxx.BackColor = Color.Black;
-                    if (wxjin < 2 && wxtu < 1)
-                    {
-                        wxjin -= 1; buttondzxx.Text = "辰酉化金减酉";
-                    }
-                    if (wxtu < 2 && wxhuo < 1)
-                    {
-                        wxtu -= 1; wxmu -= 0.6; wxshui -= 0.3; buttondzxx.Text = "辰酉化金减辰";
-                    }
-                }
-            }
-            if (ydz == chen)
-            {
-                if (rdz == you)
-                {
-                    wxjin += 1; buttondzxx.Text = "辰酉合金"; buttondzxx.ForeColor = Color.Gold; buttondzxx.BackColor = Color.Black;
-                    if (wxjin < 2 && wxtu < 1)
-                    {
-                        wxjin -= 1; buttondzxx.Text = "辰酉化金减酉";
-                    }
-                    if (wxtu < 2 && wxhuo < 1)
-                    {
-                        wxtu -= 1; wxmu -= 0.6; wxshui -= 0.3; buttondzxx.Text = "辰酉化金减辰";
-                    }
-                }
-            }
-            if (rdz == chen)
-            {
-                if (ydz == you)
-                {
-                    wxjin += 1; buttondzxx.Text = "辰酉合金"; buttondzxx.ForeColor = Color.Gold; buttondzxx.BackColor = Color.Black;
-                    if (wxjin < 2 && wxtu < 1)
-                    {
-                        wxjin -= 1; buttondzxx.Text = "辰酉化金减酉";
-                    }
-                    if (wxtu < 2 && wxhuo < 1)
-                    {
-                        wxtu -= 1; wxmu -= 0.6; wxshui -= 0.3; buttondzxx.Text = "辰酉化金减辰";
-                    }
-                }
-            }
-            if (rdz == chen)
-            {
-                if (sdz == you)
-                {
-                    wxjin += 1; buttondzxx.Text = "辰酉合金"; buttondzxx.ForeColor = Color.Gold; buttondzxx.BackColor = Color.Black;
-                    if (wxjin < 2 && wxtu < 1)
-                    {
-                        wxjin -= 1; buttondzxx.Text = "辰酉化金减酉";
-                    }
-                    if (wxtu < 2 && wxhuo < 1)
-                    {
-                        wxtu -= 1; wxmu -= 0.6; wxshui -= 0.3; buttondzxx.Text = "辰酉化金减辰";
-                    }
-                }
-            }
-            if (sdz == chen)
-            {
-                if (rdz == you)
-                {
-                    wxjin += 1; buttondzxx.Text = "辰酉合金"; buttondzxx.ForeColor = Color.Gold; buttondzxx.BackColor = Color.Black;
-                    if (wxjin < 2 && wxtu < 1)
-                    {
-                        wxjin -= 1; buttondzxx.Text = "辰酉化金减酉";
-                    }
-                    if (wxtu < 2 && wxhuo < 1)
-                    {
-                        wxtu -= 1; wxmu -= 0.6; wxshui -= 0.3; buttondzxx.Text = "辰酉化金减辰";
-                    }
-                }
-            }
-
-            if (ndz == sii)
-            {
-                if (ydz == shen)
-                {
-                    wxshui += 1; buttondzxx.Text = "巳申合水"; buttondzxx.ForeColor = Color.DodgerBlue; buttondzxx.BackColor = Color.White;
-                    if (wxhuo < 2 && wxmu < 1)
-                    {
-                        wxhuo -= 1; wxtu -= 0.6; wxjin -= 0.3; buttondzxx.Text = "巳申化水减巳";
-                    }
-                    if (wxjin < 2 && wxtu < 1)
-                    {
-                        wxjin -= 1; wxshui -= 0.6; wxtu -= 0.3; buttondzxx.Text = "巳申化水减申";
-                    }
-                }
-            }
-            if (ydz == sii)
-            {
-                if (ndz == shen)
-                {
-                    wxshui += 1; buttondzxx.Text = "巳申合水"; buttondzxx.ForeColor = Color.DodgerBlue; buttondzxx.BackColor = Color.White;
-                    if (wxhuo < 2 && wxmu < 1)
-                    {
-                        wxhuo -= 1; wxtu -= 0.6; wxjin -= 0.3; buttondzxx.Text = "巳申化水减巳";
-                    }
-                    if (wxjin < 2 && wxtu < 1)
-                    {
-                        wxjin -= 1; wxshui -= 0.6; wxtu -= 0.3; buttondzxx.Text = "巳申化水减申";
-                    }
-                }
-            }
-            if (ydz == sii)
-            {
-                if (rdz == shen)
-                {
-                    wxshui += 1; buttondzxx.Text = "巳申合水"; buttondzxx.ForeColor = Color.DodgerBlue; buttondzxx.BackColor = Color.White;
-                    if (wxhuo < 2 && wxmu < 1)
-                    {
-                        wxhuo -= 1; wxtu -= 0.6; wxjin -= 0.3; buttondzxx.Text = "巳申化水减巳";
-                    }
-                    if (wxjin < 2 && wxtu < 1)
-                    {
-                        wxjin -= 1; wxshui -= 0.6; wxtu -= 0.3; buttondzxx.Text = "巳申化水减申";
-                    }
-                }
-            }
-            if (rdz == sii)
-            {
-                if (ydz == shen)
-                {
-                    wxshui += 1; buttondzxx.Text = "巳申合水"; buttondzxx.ForeColor = Color.DodgerBlue; buttondzxx.BackColor = Color.White;
-                    if (wxhuo < 2 && wxmu < 1)
-                    {
-                        wxhuo -= 1; wxtu -= 0.6; wxjin -= 0.3; buttondzxx.Text = "巳申化水减巳";
-                    }
-                    if (wxjin < 2 && wxtu < 1)
-                    {
-                        wxjin -= 1; wxshui -= 0.6; wxtu -= 0.3; buttondzxx.Text = "巳申化水减申";
-                    }
-                }
-            }
-            if (rdz == sii)
-            {
-                if (sdz == shen)
-                {
-                    wxshui += 1; buttondzxx.Text = "巳申合水"; buttondzxx.ForeColor = Color.DodgerBlue; buttondzxx.BackColor = Color.White;
-                    if (wxhuo < 2 && wxmu < 1)
-                    {
-                        wxhuo -= 1; wxtu -= 0.6; wxjin -= 0.3; buttondzxx.Text = "巳申化水减巳";
-                    }
-                    if (wxjin < 2 && wxtu < 1)
-                    {
-                        wxjin -= 1; wxshui -= 0.6; wxtu -= 0.3; buttondzxx.Text = "巳申化水减申";
-                    }
-                }
-            }
-            if (sdz == sii)
-            {
-                if (rdz == shen)
-                {
-                    wxshui += 1; buttondzxx.Text = "巳申合水"; buttondzxx.ForeColor = Color.DodgerBlue; buttondzxx.BackColor = Color.White;
-                    if (wxhuo < 2 && wxmu < 1)
-                    {
-                        wxhuo -= 1; wxtu -= 0.6; wxjin -= 0.3; buttondzxx.Text = "巳申化水减巳";
-                    }
-                    if (wxjin < 2 && wxtu < 1)
-                    {
-                        wxjin -= 1; wxshui -= 0.6; wxtu -= 0.3; buttondzxx.Text = "巳申化水减申";
-                    }
-                }
-            }
-
-            if (ndz == wuma)
-            {
-                if (ydz == wei)
-                {
-                    wxtu += 1; buttondzxx.Text = "午未合土"; buttondzxx.ForeColor = Color.Sienna; buttondzxx.BackColor = Color.White;
-                    if (wxhuo < 2 && wxmu < 1)
-                    {
-                        wxhuo -= 1; wxtu -= 0.6; buttondzxx.Text = "午未化土减午";
-                    }
-                    if (wxtu < 2 && wxhuo < 1)
-                    {
-                        wxtu -= 1; wxhuo -= 0.6; wxmu -= 0.3; buttondzxx.Text = "午未化土减未";
-                    }
-                }
-            }
-            if (ydz == wuma)
-            {
-                if (ndz == wei)
-                {
-                    wxtu += 1; buttondzxx.Text = "午未合土"; buttondzxx.ForeColor = Color.Sienna; buttondzxx.BackColor = Color.White;
-                    if (wxhuo < 2 && wxmu < 1)
-                    {
-                        wxhuo -= 1; wxtu -= 0.6; buttondzxx.Text = "午未化土减午";
-                    }
-                    if (wxtu < 2 && wxhuo < 1)
-                    {
-                        wxtu -= 1; wxhuo -= 0.6; wxmu -= 0.3; buttondzxx.Text = "午未化土减未";
-                    }
-                }
-            }
-            if (ydz == wuma)
-            {
-                if (rdz == wei)
-                {
-                    wxtu += 1; buttondzxx.Text = "午未合土"; buttondzxx.ForeColor = Color.Sienna; buttondzxx.BackColor = Color.White;
-                    if (wxhuo < 2 && wxmu < 1)
-                    {
-                        wxhuo -= 1; wxtu -= 0.6; buttondzxx.Text = "午未化土减午";
-                    }
-                    if (wxtu < 2 && wxhuo < 1)
-                    {
-                        wxtu -= 1; wxhuo -= 0.6; wxmu -= 0.3; buttondzxx.Text = "午未化土减未";
-                    }
-                }
-            }
-            if (rdz == wuma)
-            {
-                if (ydz == wei)
-                {
-                    wxtu += 1; buttondzxx.Text = "午未合土"; buttondzxx.ForeColor = Color.Sienna; buttondzxx.BackColor = Color.White;
-                    if (wxhuo < 2 && wxmu < 1)
-                    {
-                        wxhuo -= 1; wxtu -= 0.6; buttondzxx.Text = "午未化土减午";
-                    }
-                    if (wxtu < 2 && wxhuo < 1)
-                    {
-                        wxtu -= 1; wxhuo -= 0.6; wxmu -= 0.3; buttondzxx.Text = "午未化土减未";
-                    }
-                }
-            }
-            if (rdz == wuma)
-            {
-                if (sdz == wei)
-                {
-                    wxtu += 1; buttondzxx.Text = "午未合土"; buttondzxx.ForeColor = Color.Sienna; buttondzxx.BackColor = Color.White;
-                    if (wxhuo < 2 && wxmu < 1)
-                    {
-                        wxhuo -= 1; wxtu -= 0.6; buttondzxx.Text = "午未化土减午";
-                    }
-                    if (wxtu < 2 && wxhuo < 1)
-                    {
-                        wxtu -= 1; wxhuo -= 0.6; wxmu -= 0.3; buttondzxx.Text = "午未化土减未";
-                    }
-                }
-            }
-            if (sdz == wuma)
-            {
-                if (rdz == wei)
-                {
-                    wxtu += 1; buttondzxx.Text = "午未合土"; buttondzxx.ForeColor = Color.Sienna; buttondzxx.BackColor = Color.White;
-                    if (wxhuo < 2 && wxmu < 1)
-                    {
-                        wxhuo -= 1; wxtu -= 0.6; buttondzxx.Text = "午未化土减午";
-                    }
-                    if (wxtu < 2 && wxhuo < 1)
-                    {
-                        wxtu -= 1; wxhuo -= 0.6; wxmu -= 0.3; buttondzxx.Text = "午未化土减未";
-                    }
-                }
-            }
-
-            //地支三会
-            if (ydz == yin || ydz == mao || ydz == chen)
-            {
-                if (ndz == yin || ydz == yin || rdz == yin)
-                {
-                    if (ndz == mao || ydz == mao || rdz == mao)
-                    {
-                        if (ndz == chen || ydz == chen || rdz == chen)
-                        {
-                            if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
-                            {
-                                wxmu += 3; buttontgwh.Text = "寅卯辰三会木局"; buttontgwh.ForeColor = Color.Green; buttontgwh.BackColor = Color.White;
-                            }
-                        }
-                    }
-                }
-            }
-            if (ydz == yin || ydz == mao || ydz == chen)
-            {
-                if (sdz == yin || ydz == yin || rdz == yin)
-                {
-                    if (sdz == mao || ydz == mao || rdz == mao)
-                    {
-                        if (sdz == chen || ydz == chen || rdz == chen)
-                        {
-                            if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
-                            {
-                                wxmu += 3; buttontgwh.Text = "寅卯辰三会木局"; buttontgwh.ForeColor = Color.Green; buttontgwh.BackColor = Color.White;
-                            }
-                        }
-                    }
-                }
-            }
-            if (ydz == yin || ydz == mao)
-            {
-                if (ndz == yin || ydz == yin || rdz == yin)
-                {
-                    if (ndz == mao || ydz == mao || rdz == mao)
-                    {
-                        if (ndz == chen || rdz == chen)
-                        {
-                            if (buttondz6h.Text == "丁壬合木")
-                            {
-                                wxmu += 3; buttontgwh.Text = "寅卯辰三会木局"; buttontgwh.ForeColor = Color.Green; buttontgwh.BackColor = Color.White;
-                            }
-                        }
-                    }
-                }
-            }
-            if (ydz == yin || ydz == mao)
-            {
-                if (sdz == yin || ydz == yin || rdz == yin)
-                {
-                    if (sdz == mao || ydz == mao || rdz == mao)
-                    {
-                        if (sdz == chen || rdz == chen)
-                        {
-                            if (buttondz6h.Text == "丁壬合木")
-                            {
-                                wxmu += 3; buttontgwh.Text = "寅卯辰三会木局"; buttontgwh.ForeColor = Color.Green; buttontgwh.BackColor = Color.White;
-                            }
-                        }
-                    }
-                }
-            }
-
-            if (ydz == sii || ydz == wuma || ydz == wei)
-            {
-                if (ndz == sii || ydz == sii || rdz == sii)
-                {
-                    if (ndz == wuma || ydz == wuma || rdz == wuma)
-                    {
-                        if (ndz == wei || ydz == wei || rdz == wei)
-                        {
-                            if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
-                            {
-                                wxhuo += 3; buttontgwh.Text = "巳午未三会火局"; buttontgwh.ForeColor = Color.Red; buttontgwh.BackColor = Color.White;
-                            }
-                        }
-                    }
-                }
-            }
-            if (ydz == sii || ydz == wuma || ydz == wei)
-            {
-                if (sdz == sii || ydz == sii || rdz == sii)
-                {
-                    if (sdz == wuma || ydz == wuma || rdz == wuma)
-                    {
-                        if (sdz == wei || ydz == wei || rdz == wei)
-                        {
-                            if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
-                            {
-                                wxhuo += 3; buttontgwh.Text = "巳午未三会火局"; buttontgwh.ForeColor = Color.Red; buttontgwh.BackColor = Color.White;
-                            }
-                        }
-                    }
-                }
-            }
-            if (ydz == sii || ydz == wuma)
-            {
-                if (ndz == sii || ydz == sii || rdz == sii)
-                {
-                    if (ndz == wuma || ydz == wuma || rdz == wuma)
-                    {
-                        if (ndz == wei || rdz == wei)
-                        {
-                            if (buttondz6h.Text == "戊癸合火")
-                            {
-                                wxhuo += 3; buttontgwh.Text = "巳午未三会火局"; buttontgwh.ForeColor = Color.Red; buttontgwh.BackColor = Color.White;
-                            }
-                        }
-                    }
-                }
-            }
-            if (ydz == sii || ydz == wuma)
-            {
-                if (sdz == sii || ydz == sii || rdz == sii)
-                {
-                    if (sdz == wuma || ydz == wuma || rdz == wuma)
-                    {
-                        if (sdz == wei || rdz == wei)
-                        {
-                            if (buttondz6h.Text == "戊癸合火")
-                            {
-                                wxhuo += 3; buttontgwh.Text = "巳午未三会火局"; buttontgwh.ForeColor = Color.Red; buttontgwh.BackColor = Color.White;
-                            }
-                        }
-                    }
-                }
-            }
-
-            if (ydz == shen || ydz == you || ydz == xuu)
-            {
-                if (ndz == shen || ydz == shen || rdz == shen)
-                {
-                    if (ndz == you || ydz == you || rdz == you)
-                    {
-                        if (ndz == xuu || ydz == xuu || rdz == xuu)
-                        {
-                            if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
-                            {
-                                wxjin += 3; buttontgwh.Text = "申酉戌三会金局"; buttontgwh.ForeColor = Color.Gold; buttontgwh.BackColor = Color.Black;
-                            }
-                        }
-                    }
-                }
-            }
-            if (ydz == shen || ydz == you || ydz == xuu)
-            {
-                if (sdz == shen || ydz == shen || rdz == shen)
-                {
-                    if (sdz == you || ydz == you || rdz == you)
-                    {
-                        if (sdz == xuu || ydz == xuu || rdz == xuu)
-                        {
-                            if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
-                            {
-                                wxjin += 3; buttontgwh.Text = "申酉戌三会金局"; buttontgwh.ForeColor = Color.Gold; buttontgwh.BackColor = Color.Black;
-                            }
-                        }
-                    }
-                }
-            }
-            if (ydz == shen || ydz == you)
-            {
-                if (ndz == shen || ydz == shen || rdz == shen)
-                {
-                    if (ndz == you || ydz == you || rdz == you)
-                    {
-                        if (ndz == xuu || rdz == xuu)
-                        {
-                            if (buttondz6h.Text == "乙庚合金")
-                            {
-                                wxjin += 3; buttontgwh.Text = "申酉戌三会金局"; buttontgwh.ForeColor = Color.Gold; buttontgwh.BackColor = Color.Black;
-                            }
-                        }
-                    }
-                }
-            }
-            if (ydz == shen || ydz == you)
-            {
-                if (sdz == shen || ydz == shen || rdz == shen)
-                {
-                    if (sdz == you || ydz == you || rdz == you)
-                    {
-                        if (sdz == xuu || rdz == xuu)
-                        {
-                            if (buttondz6h.Text == "乙庚合金")
-                            {
-                                wxjin += 3; buttontgwh.Text = "申酉戌三会金局"; buttontgwh.ForeColor = Color.Gold; buttontgwh.BackColor = Color.Black;
-                            }
-                        }
-                    }
-                }
-            }
-
-            if (ydz == hai || ydz == zii || ydz == chou)
-            {
-                if (ndz == hai || ydz == hai || rdz == hai)
-                {
-                    if (ndz == zii || ydz == zii || rdz == zii)
-                    {
-                        if (ndz == chou || ydz == chou || rdz == chou)
-                        {
-                            if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
-                            {
-                                wxshui += 3; buttontgwh.Text = "亥子丑三会水局"; buttontgwh.ForeColor = Color.DodgerBlue; buttontgwh.BackColor = Color.White;
-                            }
-                        }
-                    }
-                }
-            }
-            if (ydz == hai || ydz == zii || ydz == chou)
-            {
-                if (sdz == hai || ydz == hai || rdz == hai)
-                {
-                    if (sdz == zii || ydz == zii || rdz == zii)
-                    {
-                        if (sdz == chou || ydz == chou || rdz == chou)
-                        {
-                            if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
-                            {
-                                wxshui += 3; buttontgwh.Text = "亥子丑三会水局"; buttontgwh.ForeColor = Color.DodgerBlue; buttontgwh.BackColor = Color.White;
-                            }
-                        }
-                    }
-                }
-            }
-            if (ydz == hai || ydz == zii)
-            {
-                if (ndz == hai || ydz == hai || rdz == hai)
-                {
-                    if (ndz == zii || ydz == zii || rdz == zii)
-                    {
-                        if (ndz == chou || rdz == chou)
-                        {
-                            if (buttondz6h.Text == "丙辛合水")
-                            {
-                                wxshui += 3; buttontgwh.Text = "亥子丑三会水局"; buttontgwh.ForeColor = Color.DodgerBlue; buttontgwh.BackColor = Color.White;
-                            }
-                        }
-                    }
-                }
-            }
-            if (ydz == hai || ydz == zii)
-            {
-                if (sdz == hai || ydz == hai || rdz == hai)
-                {
-                    if (sdz == zii || ydz == zii || rdz == zii)
-                    {
-                        if (sdz == chou || rdz == chou)
-                        {
-                            if (buttondz6h.Text == "丙辛合水")
-                            {
-                                wxshui += 3; buttontgwh.Text = "亥子丑三会水局"; buttontgwh.ForeColor = Color.DodgerBlue; buttontgwh.BackColor = Color.White;
-                            }
-                        }
-                    }
-                }
-            }
-            //地支三合
-            if (ydz == shen || ydz == zii || ydz == chen)
-            {
-                if (ndz == shen || ydz == shen || rdz == shen)
-                {
-                    if (ndz == zii || ydz == zii || rdz == zii)
-                    {
-                        if (ndz == chen || ydz == chen || rdz == chen)
-                        {
-                            if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
-                            {
-                                wxshui += 2; buttontg4c.Text = "申子辰三合水局"; buttontg4c.ForeColor = Color.DodgerBlue; buttontg4c.BackColor = Color.White;
-                            }
-                        }
-                    }
-                }
-            }
-            if (ydz == shen || ydz == zii || ydz == chen)
-            {
-                if (sdz == shen || ydz == shen || rdz == shen)
-                {
-                    if (sdz == zii || ydz == zii || rdz == zii)
-                    {
-                        if (sdz == chen || ydz == chen || rdz == chen)
-                        {
-                            if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
-                            {
-                                wxshui += 2; buttontg4c.Text = "申子辰三合水局"; buttontg4c.ForeColor = Color.DodgerBlue; buttontg4c.BackColor = Color.White;
-                            }
-                        }
-                    }
-                }
-            }
-            if (ydz == shen || ydz == zii)
-            {
-                if (ndz == shen || ydz == shen || rdz == shen)
-                {
-                    if (ndz == zii || ydz == zii || rdz == zii)
-                    {
-                        if (ndz == chen || ydz == chen || rdz == chen)
-                        {
-                            if (buttondz6h.Text == "丙辛合水")
-                            {
-                                wxshui += 2; buttontg4c.Text = "申子辰三合水局"; buttontg4c.ForeColor = Color.DodgerBlue; buttontg4c.BackColor = Color.White;
-                            }
-                        }
-                    }
-                }
-            }
-            if (ydz == shen || ydz == zii)
-            {
-                if (sdz == shen || ydz == shen || rdz == shen)
-                {
-                    if (sdz == zii || ydz == zii || rdz == zii)
-                    {
-                        if (sdz == chen || ydz == chen || rdz == chen)
-                        {
-                            if (buttondz6h.Text == "丙辛合水")
-                            {
-                                wxshui += 2; buttontg4c.Text = "申子辰三合水局"; buttontg4c.ForeColor = Color.DodgerBlue; buttontg4c.BackColor = Color.White;
-                            }
-                        }
-                    }
-                }
-            }
-
-            if (ydz == yin || ydz == wuma || ydz == xuu)
-            {
-                if (ndz == yin || ydz == yin || rdz == yin)
-                {
-                    if (ndz == wuma || ydz == wuma || rdz == wuma)
-                    {
-                        if (ndz == xuu || ydz == xuu || rdz == xuu)
-                        {
-                            if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
-                            {
-                                wxhuo += 2; buttontg4c.Text = "寅午戌三合火局"; buttontg4c.ForeColor = Color.Red; buttontg4c.BackColor = Color.White;
-                            }
-                        }
-                    }
-                }
-            }
-            if (ydz == yin || ydz == wuma || ydz == xuu)
-            {
-                if (sdz == yin || ydz == yin || rdz == yin)
-                {
-                    if (sdz == wuma || ydz == wuma || rdz == wuma)
-                    {
-                        if (sdz == xuu || ydz == xuu || rdz == xuu)
-                        {
-                            if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
-                            {
-                                wxhuo += 2; buttontg4c.Text = "寅午戌三合火局"; buttontg4c.ForeColor = Color.Red; buttontg4c.BackColor = Color.White;
-                            }
-                        }
-                    }
-                }
-            }
-            if (ydz == yin || ydz == wuma)
-            {
-                if (ndz == yin || ydz == yin || rdz == yin)
-                {
-                    if (ndz == wuma || ydz == wuma || rdz == wuma)
-                    {
-                        if (ndz == xuu || ydz == xuu || rdz == xuu)
-                        {
-                            if (buttondz6h.Text == "戊癸合火")
-                            {
-                                wxhuo += 2; buttontg4c.Text = "寅午戌三合火局"; buttontg4c.ForeColor = Color.Red; buttontg4c.BackColor = Color.White;
-                            }
-                        }
-                    }
-                }
-            }
-            if (ydz == yin || ydz == wuma)
-            {
-                if (sdz == yin || ydz == yin || rdz == yin)
-                {
-                    if (sdz == wuma || ydz == wuma || rdz == wuma)
-                    {
-                        if (sdz == xuu || ydz == xuu || rdz == xuu)
-                        {
-                            if (buttondz6h.Text == "戊癸合火")
-                            {
-                                wxhuo += 2; buttontg4c.Text = "寅午戌三合火局"; buttontg4c.ForeColor = Color.Red; buttontg4c.BackColor = Color.White;
-                            }
-                        }
-                    }
-                }
-            }
-
-            if (ydz == sii || ydz == you || ydz == chou)
-            {
-                if (ndz == sii || ydz == sii || rdz == sii)
-                {
-                    if (ndz == you || ydz == you || rdz == you)
-                    {
-                        if (ndz == chou || ydz == chou || rdz == chou)
-                        {
-                            if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
-                            {
-                                wxjin += 2; buttontg4c.Text = "巳酉丑三合金局"; buttontg4c.ForeColor = Color.Gold; buttontg4c.BackColor = Color.Black;
-                            }
-                        }
-                    }
-                }
-            }
-            if (ydz == sii || ydz == you || ydz == chou)
-            {
-                if (sdz == sii || ydz == sii || rdz == sii)
-                {
-                    if (sdz == you || ydz == you || rdz == you)
-                    {
-                        if (sdz == chou || ydz == chou || rdz == chou)
-                        {
-                            if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
-                            {
-                                wxjin += 2; buttontg4c.Text = "巳酉丑三合金局"; buttontg4c.ForeColor = Color.Gold; buttontg4c.BackColor = Color.Black;
-                            }
-                        }
-                    }
-                }
-            }
-            if (ydz == you)
-            {
-                if (ndz == sii || ydz == sii || rdz == sii)
-                {
-                    if (ndz == you || ydz == you || rdz == you)
-                    {
-                        if (ndz == chou || ydz == chou || rdz == chou)
-                        {
-                            if (buttondz6h.Text == "乙庚合金")
-                            {
-                                wxjin += 2; buttontg4c.Text = "巳酉丑三合金局"; buttontg4c.ForeColor = Color.Gold; buttontg4c.BackColor = Color.Black;
-                            }
-                        }
-                    }
-                }
-            }
-            if (ydz == you)
-            {
-                if (sdz == sii || ydz == sii || rdz == sii)
-                {
-                    if (sdz == you || ydz == you || rdz == you)
-                    {
-                        if (sdz == chou || ydz == chou || rdz == chou)
-                        {
-                            if (buttondz6h.Text == "乙庚合金")
-                            {
-                                wxjin += 2; buttontg4c.Text = "巳酉丑三合金局"; buttontg4c.ForeColor = Color.Gold; buttontg4c.BackColor = Color.Black;
-                            }
-                        }
-                    }
-                }
-            }
-
-            if (ydz == hai || ydz == mao || ydz == wei)
-            {
-                if (ndz == hai || ydz == hai || rdz == hai)
-                {
-                    if (ndz == mao || ydz == mao || rdz == mao)
-                    {
-                        if (ndz == wei || ydz == wei || rdz == wei)
-                        {
-                            if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
-                            {
-                                wxmu += 2; buttontg4c.Text = "亥卯未三合木局"; buttontg4c.ForeColor = Color.Green; buttontg4c.BackColor = Color.White;
-                            }
-                        }
-                    }
-                }
-            }
-            if (ydz == hai || ydz == mao || ydz == wei)
-            {
-                if (sdz == hai || ydz == hai || rdz == hai)
-                {
-                    if (sdz == mao || ydz == mao || rdz == mao)
-                    {
-                        if (sdz == wei || ydz == wei || rdz == wei)
-                        {
-                            if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
-                            {
-                                wxmu += 2; buttontg4c.Text = "亥卯未三合木局"; buttontg4c.ForeColor = Color.Green; buttontg4c.BackColor = Color.White;
-                            }
-                        }
-                    }
-                }
-            }
-            if (ydz == hai || ydz == mao)
-            {
-                if (ndz == hai || ydz == hai || rdz == hai)
-                {
-                    if (ndz == mao || ydz == mao || rdz == mao)
-                    {
-                        if (ndz == wei || ydz == wei || rdz == wei)
-                        {
-                            if (buttondz6h.Text == "丁壬合木")
-                            {
-                                wxmu += 2; buttontg4c.Text = "亥卯未三合木局"; buttontg4c.ForeColor = Color.Green; buttontg4c.BackColor = Color.White;
-                            }
-                        }
-                    }
-                }
-            }
-            if (ydz == hai || ydz == mao)
-            {
-                if (sdz == hai || ydz == hai || rdz == hai)
-                {
-                    if (sdz == mao || ydz == mao || rdz == mao)
-                    {
-                        if (sdz == wei || ydz == wei || rdz == wei)
-                        {
-                            if (buttondz6h.Text == "丁壬合木")
-                            {
-                                wxmu += 2; buttontg4c.Text = "亥卯未三合木局"; buttontg4c.ForeColor = Color.Green; buttontg4c.BackColor = Color.White;
-                            }
-                        }
-                    }
-                }
-            }
-            //半三合
-            if (ydz == shen || ydz == zii)
-            {
-                if (ndz == shen || ydz == shen || rdz == shen)
-                {
-                    if (ndz == zii || ydz == zii || rdz == zii)
-                    {
-                        if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
-                        {
-                            wxshui += 1.5; buttondz6p.Text = "申子半三合水"; buttondz6p.ForeColor = Color.DodgerBlue; buttondz6p.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == shen || ydz == zii)
-            {
-                if (sdz == shen || ydz == shen || rdz == shen)
-                {
-                    if (sdz == zii || ydz == zii || rdz == zii)
-                    {
-                        if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
-                        {
-                            wxshui += 1.5; buttondz6p.Text = "申子半三合水"; buttondz6p.ForeColor = Color.DodgerBlue; buttondz6p.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == shen || ydz == zii)
-            {
-                if (ndz == shen || ydz == shen || rdz == shen)
-                {
-                    if (ndz == zii || ydz == zii || rdz == zii)
-                    {
-                        if (buttondz6h.Text == "丙辛合水")
-                        {
-                            wxshui += 1.5; buttondz6p.Text = "申子半三合水"; buttondz6p.ForeColor = Color.DodgerBlue; buttondz6p.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == shen || ydz == zii)
-            {
-                if (sdz == shen || ydz == shen || rdz == shen)
-                {
-                    if (sdz == zii || ydz == zii || rdz == zii)
-                    {
-                        if (buttondz6h.Text == "丙辛合水")
-                        {
-                            wxshui += 1.5; buttondz6p.Text = "申子半三合水"; buttondz6p.ForeColor = Color.DodgerBlue; buttondz6p.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == shen || ydz == zii)
-            {
-                if (ndz == chen || ydz == chen || rdz == chen)
-                {
-                    if (ndz == zii || ydz == zii || rdz == zii)
-                    {
-                        if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
-                        {
-                            wxshui += 1.5; buttondz6p.Text = "子辰半三合水"; buttondz6p.ForeColor = Color.DodgerBlue; buttondz6p.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == shen || ydz == zii)
-            {
-                if (sdz == chen || ydz == chen || rdz == chen)
-                {
-                    if (sdz == zii || ydz == zii || rdz == zii)
-                    {
-                        if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
-                        {
-                            wxshui += 1.5; buttondz6p.Text = "子辰半三合水"; buttondz6p.ForeColor = Color.DodgerBlue; buttondz6p.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == shen || ydz == zii)
-            {
-                if (ndz == chen || ydz == chen || rdz == chen)
-                {
-                    if (ndz == zii || ydz == zii || rdz == zii)
-                    {
-                        if (buttondz6h.Text == "丙辛合水")
-                        {
-                            wxshui += 1.5; buttondz6p.Text = "子辰半三合水"; buttondz6p.ForeColor = Color.DodgerBlue; buttondz6p.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == shen || ydz == zii)
-            {
-                if (sdz == chen || ydz == chen || rdz == chen)
-                {
-                    if (sdz == zii || ydz == zii || rdz == zii)
-                    {
-                        if (buttondz6h.Text == "丙辛合水")
-                        {
-                            wxshui += 1.5; buttondz6p.Text = "子辰半三合水"; buttondz6p.ForeColor = Color.DodgerBlue; buttondz6p.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-
-            if (ydz == yin || ydz == wuma)
-            {
-                if (ndz == yin || ydz == yin || rdz == yin)
-                {
-                    if (ndz == wuma || ydz == wuma || rdz == wuma)
-                    {
-                        if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
-                        {
-                            wxhuo += 1.5; buttondz6p.Text = "寅午半三合火"; buttondz6p.ForeColor = Color.Red; buttondz6p.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == yin || ydz == wuma)
-            {
-                if (sdz == yin || ydz == yin || rdz == yin)
-                {
-                    if (sdz == wuma || ydz == wuma || rdz == wuma)
-                    {
-                        if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
-                        {
-                            wxhuo += 1.5; buttondz6p.Text = "寅午半三合火"; buttondz6p.ForeColor = Color.Red; buttondz6p.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == yin || ydz == wuma)
-            {
-                if (ndz == yin || ydz == yin || rdz == yin)
-                {
-                    if (ndz == wuma || ydz == wuma || rdz == wuma)
-                    {
-                        if (buttondz6h.Text == "戊癸合火")
-                        {
-                            wxhuo += 1.5; buttondz6p.Text = "寅午半三合火"; buttondz6p.ForeColor = Color.Red; buttondz6p.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == yin || ydz == wuma)
-            {
-                if (sdz == yin || ydz == yin || rdz == yin)
-                {
-                    if (sdz == wuma || ydz == wuma || rdz == wuma)
-                    {
-                        if (buttondz6h.Text == "戊癸合火")
-                        {
-                            wxhuo += 1.5; buttondz6p.Text = "寅午半三合火"; buttondz6p.ForeColor = Color.Red; buttondz6p.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == yin || ydz == wuma)
-            {
-                if (ndz == xuu || ydz == xuu || rdz == xuu)
-                {
-                    if (ndz == wuma || ydz == wuma || rdz == wuma)
-                    {
-                        if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
-                        {
-                            wxhuo += 1.5; buttondz6p.Text = "寅午半三合火"; buttondz6p.ForeColor = Color.Red; buttondz6p.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == yin || ydz == wuma)
-            {
-                if (sdz == xuu || ydz == xuu || rdz == xuu)
-                {
-                    if (sdz == wuma || ydz == wuma || rdz == wuma)
-                    {
-                        if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
-                        {
-                            wxhuo += 1.5; buttondz6p.Text = "寅午半三合火"; buttondz6p.ForeColor = Color.Red; buttondz6p.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == yin || ydz == wuma)
-            {
-                if (ndz == xuu || ydz == xuu || rdz == xuu)
-                {
-                    if (ndz == wuma || ydz == wuma || rdz == wuma)
-                    {
-                        if (buttondz6h.Text == "戊癸合火")
-                        {
-                            wxhuo += 1.5; buttondz6p.Text = "寅午半三合火"; buttondz6p.ForeColor = Color.Red; buttondz6p.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == yin || ydz == wuma)
-            {
-                if (sdz == xuu || ydz == xuu || rdz == xuu)
-                {
-                    if (sdz == wuma || ydz == wuma || rdz == wuma)
-                    {
-                        if (buttondz6h.Text == "戊癸合火")
-                        {
-                            wxhuo += 1.5; buttondz6p.Text = "寅午半三合火"; buttondz6p.ForeColor = Color.Red; buttondz6p.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-
-            if (ydz == sii || ydz == you)
-            {
-                if (ndz == sii || ydz == sii || rdz == sii)
-                {
-                    if (ndz == you || ydz == you || rdz == you)
-                    {
-                        if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
-                        {
-                            wxjin += 1.5; buttondz6p.Text = "巳酉半三合金"; buttondz6p.ForeColor = Color.Gold; buttondz6p.BackColor = Color.Black;
-                        }
-                    }
-                }
-            }
-            if (ydz == sii || ydz == you)
-            {
-                if (sdz == sii || ydz == sii || rdz == sii)
-                {
-                    if (sdz == you || ydz == you || rdz == you)
-                    {
-                        if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
-                        {
-                            wxjin += 1.5; buttondz6p.Text = "巳酉半三合金"; buttondz6p.ForeColor = Color.Gold; buttondz6p.BackColor = Color.Black;
-                        }
-                    }
-                }
-            }
-            if (ydz == sii || ydz == you)
-            {
-                if (ndz == sii || ydz == sii || rdz == sii)
-                {
-                    if (ndz == you || ydz == you || rdz == you)
-                    {
-                        if (buttondz6h.Text == "乙庚合金")
-                        {
-                            wxjin += 1.5; buttondz6p.Text = "巳酉半三合金"; buttondz6p.ForeColor = Color.Gold; buttondz6p.BackColor = Color.Black;
-                        }
-                    }
-                }
-            }
-            if (ydz == sii || ydz == you)
-            {
-                if (sdz == sii || ydz == sii || rdz == sii)
-                {
-                    if (sdz == you || ydz == you || rdz == you)
-                    {
-                        if (buttondz6h.Text == "乙庚合金")
-                        {
-                            wxjin += 1.5; buttondz6p.Text = "巳酉半三合金"; buttondz6p.ForeColor = Color.Gold; buttondz6p.BackColor = Color.Black;
-                        }
-                    }
-                }
-            }
-            if (ydz == sii || ydz == you)
-            {
-                if (ndz == chou || ydz == chou || rdz == chou)
-                {
-                    if (ndz == you || ydz == you || rdz == you)
-                    {
-                        if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
-                        {
-                            wxjin += 1.5; buttondz6p.Text = "巳酉半三合金"; buttondz6p.ForeColor = Color.Gold; buttondz6p.BackColor = Color.Black;
-                        }
-                    }
-                }
-            }
-            if (ydz == sii || ydz == you)
-            {
-                if (sdz == chou || ydz == chou || rdz == chou)
-                {
-                    if (sdz == you || ydz == you || rdz == you)
-                    {
-                        if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
-                        {
-                            wxjin += 1.5; buttondz6p.Text = "巳酉半三合金"; buttondz6p.ForeColor = Color.Gold; buttondz6p.BackColor = Color.Black;
-                        }
-                    }
-                }
-            }
-            if (ydz == sii || ydz == you)
-            {
-                if (ndz == chou || ydz == chou || rdz == chou)
-                {
-                    if (ndz == you || ydz == you || rdz == you)
-                    {
-                        if (buttondz6h.Text == "乙庚合金")
-                        {
-                            wxjin += 1.5; buttondz6p.Text = "巳酉半三合金"; buttondz6p.ForeColor = Color.Gold; buttondz6p.BackColor = Color.Black;
-                        }
-                    }
-                }
-            }
-            if (ydz == sii || ydz == you)
-            {
-                if (sdz == chou || ydz == chou || rdz == chou)
-                {
-                    if (sdz == you || ydz == you || rdz == you)
-                    {
-                        if (buttondz6h.Text == "乙庚合金")
-                        {
-                            wxjin += 1.5; buttondz6p.Text = "巳酉半三合金"; buttondz6p.ForeColor = Color.Gold; buttondz6p.BackColor = Color.Black;
-                        }
-                    }
-                }
-            }
-
-            if (ydz == hai || ydz == mao)
-            {
-                if (ndz == hai || ydz == hai || rdz == hai)
-                {
-                    if (ndz == mao || ydz == mao || rdz == mao)
-                    {
-                        if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
-                        {
-                            wxmu += 1.5; buttondz6p.Text = "亥卯半三合木"; buttondz6p.ForeColor = Color.Green; buttondz6p.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == hai || ydz == mao)
-            {
-                if (sdz == hai || ydz == hai || rdz == hai)
-                {
-                    if (sdz == mao || ydz == mao || rdz == mao)
-                    {
-                        if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
-                        {
-                            wxmu += 1.5; buttondz6p.Text = "亥卯半三合木"; buttondz6p.ForeColor = Color.Green; buttondz6p.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == hai || ydz == mao)
-            {
-                if (ndz == hai || ydz == hai || rdz == hai)
-                {
-                    if (ndz == mao || ydz == mao || rdz == mao)
-                    {
-                        if (buttondz6h.Text == "丁壬合木")
-                        {
-                            wxmu += 1.5; buttondz6p.Text = "亥卯半三合木"; buttondz6p.ForeColor = Color.Green; buttondz6p.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == hai || ydz == mao)
-            {
-                if (sdz == hai || ydz == hai || rdz == hai)
-                {
-                    if (sdz == mao || ydz == mao || rdz == mao)
-                    {
-                        if (buttondz6h.Text == "丁壬合木")
-                        {
-                            wxmu += 1.5; buttondz6p.Text = "亥卯半三合木"; buttondz6p.ForeColor = Color.Green; buttondz6p.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == hai || ydz == mao)
-            {
-                if (ndz == wei || ydz == wei || rdz == wei)
-                {
-                    if (ndz == mao || ydz == mao || rdz == mao)
-                    {
-                        if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
-                        {
-                            wxmu += 1.5; buttondz6p.Text = "亥卯半三合木"; buttondz6p.ForeColor = Color.Green; buttondz6p.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == hai || ydz == mao)
-            {
-                if (sdz == wei || ydz == wei || rdz == wei)
-                {
-                    if (sdz == mao || ydz == mao || rdz == mao)
-                    {
-                        if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
-                        {
-                            wxmu += 1.5; buttondz6p.Text = "亥卯半三合木"; buttondz6p.ForeColor = Color.Green; buttondz6p.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == hai || ydz == mao)
-            {
-                if (ndz == wei || ydz == wei || rdz == wei)
-                {
-                    if (ndz == mao || ydz == mao || rdz == mao)
-                    {
-                        if (buttondz6h.Text == "丁壬合木")
-                        {
-                            wxmu += 1.5; buttondz6p.Text = "亥卯半三合木"; buttondz6p.ForeColor = Color.Green; buttondz6p.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == hai || ydz == mao)
-            {
-                if (sdz == wei || ydz == wei || rdz == wei)
-                {
-                    if (sdz == mao || ydz == mao || rdz == mao)
-                    {
-                        if (buttondz6h.Text == "丁壬合木")
-                        {
-                            wxmu += 1.5; buttondz6p.Text = "亥卯半三合木"; buttondz6p.ForeColor = Color.Green; buttondz6p.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            //拱合
-            if (ydz == shen || ydz == chen)
-            {
-                if (ndz == shen || ydz == shen || rdz == shen)
-                {
-                    if (ndz == chen || ydz == chen || rdz == chen)
-                    {
-                        if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
-                        {
-                            wxshui += 1.2; buttondz6hh.Text = "申辰拱合水"; buttondz6hh.ForeColor = Color.DodgerBlue; buttondz6hh.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == shen || ydz == chen)
-            {
-                if (sdz == shen || ydz == shen || rdz == shen)
-                {
-                    if (sdz == chen || ydz == chen || rdz == chen)
-                    {
-                        if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
-                        {
-                            wxshui += 1.2; buttondz6hh.Text = "申辰拱合水"; buttondz6hh.ForeColor = Color.DodgerBlue; buttondz6hh.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == shen || ydz == chen)
-            {
-                if (ndz == shen || ydz == shen || rdz == shen)
-                {
-                    if (ndz == chen || ydz == chen || rdz == chen)
-                    {
-                        if (buttondz6h.Text == "丙辛合水")
-                        {
-                            wxshui += 1.2; buttondz6hh.Text = "申辰拱合水"; buttondz6hh.ForeColor = Color.DodgerBlue; buttondz6hh.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == shen || ydz == chen)
-            {
-                if (sdz == shen || ydz == shen || rdz == shen)
-                {
-                    if (sdz == chen || ydz == chen || rdz == chen)
-                    {
-                        if (buttondz6h.Text == "丙辛合水")
-                        {
-                            wxshui += 1.2; buttondz6hh.Text = "申辰拱合水"; buttondz6hh.ForeColor = Color.DodgerBlue; buttondz6hh.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-
-            if (ydz == yin || ydz == xuu)
-            {
-                if (ndz == yin || ydz == yin || rdz == yin)
-                {
-                    if (ndz == xuu || ydz == xuu || rdz == xuu)
-                    {
-                        if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
-                        {
-                            wxhuo += 1.2; buttondz6hh.Text = "寅戌拱合火"; buttondz6hh.ForeColor = Color.Red; buttondz6hh.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == yin || ydz == xuu)
-            {
-                if (ydz == yin || rdz == yin || sdz == yin)
-                {
-                    if (ydz == xuu || rdz == xuu || sdz == xuu)
-                    {
-                        if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
-                        {
-                            wxhuo += 1.2; buttondz6hh.Text = "寅戌拱合火"; buttondz6hh.ForeColor = Color.Red; buttondz6hh.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == yin || ydz == xuu)
-            {
-                if (ndz == yin || ydz == yin || rdz == yin)
-                {
-                    if (ndz == xuu || ydz == xuu || rdz == xuu)
-                    {
-                        if (buttondz6h.Text == "戊癸合火")
-                        {
-                            wxhuo += 1.2; buttondz6hh.Text = "寅戌拱合火"; buttondz6hh.ForeColor = Color.Red; buttondz6hh.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == yin || ydz == xuu)
-            {
-                if (sdz == yin || ydz == yin || rdz == yin)
-                {
-                    if (sdz == xuu || ydz == xuu || rdz == xuu)
-                    {
-                        if (buttondz6h.Text == "戊癸合火")
-                        {
-                            wxhuo += 1.2; buttondz6hh.Text = "寅戌拱合火"; buttondz6hh.ForeColor = Color.Red; buttondz6hh.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-
-            if (ydz == sii || ydz == chou)
-            {
-                if (ndz == sii || ydz == sii || rdz == sii)
-                {
-                    if (ndz == chou || ydz == chou || rdz == chou)
-                    {
-                        if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
-                        {
-                            wxjin += 1.2; buttondz6hh.Text = "巳丑拱合金"; buttondz6hh.ForeColor = Color.Gold; buttondz6hh.BackColor = Color.Black;
-                        }
-                    }
-                }
-            }
-            if (ydz == sii || ydz == chou)
-            {
-                if (sdz == sii || ydz == sii || rdz == sii)
-                {
-                    if (sdz == chou || ydz == chou || rdz == chou)
-                    {
-                        if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
-                        {
-                            wxjin += 1.2; buttondz6hh.Text = "巳丑拱合金"; buttondz6hh.ForeColor = Color.Gold; buttondz6hh.BackColor = Color.Black;
-                        }
-                    }
-                }
-            }
-            if (ydz == sii || ydz == chou)
-            {
-                if (ndz == sii || ydz == sii || rdz == sii)
-                {
-                    if (ndz == chou || ydz == chou || rdz == chou)
-                    {
-                        if (buttondz6h.Text == "乙庚合金")
-                        {
-                            wxjin += 1.2; buttondz6hh.Text = "巳丑拱合金"; buttondz6hh.ForeColor = Color.Gold; buttondz6hh.BackColor = Color.Black;
-                        }
-                    }
-                }
-            }
-            if (ydz == sii || ydz == chou)
-            {
-                if (sdz == sii || ydz == sii || rdz == sii)
-                {
-                    if (sdz == chou || ydz == chou || rdz == chou)
-                    {
-                        if (buttondz6h.Text == "乙庚合金")
-                        {
-                            wxjin += 1.2; buttondz6hh.Text = "巳丑拱合金"; buttondz6hh.ForeColor = Color.Gold; buttondz6hh.BackColor = Color.Black;
-                        }
-                    }
-                }
-            }
-
-            if (ydz == hai || ydz == wei)
-            {
-                if (ndz == hai || ydz == hai || rdz == hai)
-                {
-                    if (ndz == wei || ydz == wei || rdz == wei)
-                    {
-                        if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
-                        {
-                            wxmu += 1.2; buttondz6hh.Text = "亥未拱合木"; buttondz6hh.ForeColor = Color.Green; buttondz6hh.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == hai || ydz == wei)
-            {
-                if (sdz == hai || ydz == hai || rdz == hai)
-                {
-                    if (sdz == wei || ydz == wei || rdz == wei)
-                    {
-                        if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
-                        {
-                            wxmu += 1.2; buttondz6hh.Text = "亥未拱合木"; buttondz6hh.ForeColor = Color.Green; buttondz6hh.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == hai || ydz == wei)
-            {
-                if (ndz == hai || ydz == hai || rdz == hai)
-                {
-                    if (ndz == wei || ydz == wei || rdz == wei)
-                    {
-                        if (buttondz6h.Text == "丁壬合木")
-                        {
-                            wxmu += 1.2; buttondz6hh.Text = "亥未拱合木"; buttondz6hh.ForeColor = Color.Green; buttondz6hh.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
-            if (ydz == hai || ydz == wei)
-            {
-                if (sdz == hai || ydz == hai || rdz == hai)
-                {
-                    if (sdz == wei || ydz == wei || rdz == wei)
-                    {
-                        if (buttondz6h.Text == "丁壬合木")
-                        {
-                            wxmu += 1.2; buttondz6hh.Text = "亥未拱合木"; buttondz6hh.ForeColor = Color.Green; buttondz6hh.BackColor = Color.White;
-                        }
-                    }
-                }
-            }
             //地支相刑
             if (ndz == shen || ydz == shen || rdz == shen || sdz == shen)
             {
@@ -23748,6 +21804,1432 @@ namespace BaZiFuZuGongJu
                     buttondz6c.Text += "酉戌害";
                 }
             }
+            //天干五合
+            if (ntg != wuu && ytg != wuu && rtg != wuu && stg != wuu)
+            {
+                if (ntg == jia || ytg == jia || rtg == jia || stg == jia)
+                {
+                    if (ntg == jii || ytg == jii || rtg == jii || stg == jii)
+                    {
+                        if (ydz == chen || ydz == chou || ydz == xuu || ydz == wei || ydz == wuma)
+                        {
+                        
+                            if (wxmu == 1 && wxshui ==0)
+                            {
+                                wxmu -= 1;
+                            }
+                            buttondz6h.Text += "甲已合土"; wxtu += 1; buttondz6h.ForeColor = Color.Sienna; buttondz6h.BackColor = Color.White;
+
+                        }
+                    }
+                }
+            }
+            if (ntg != jia && ytg != jia && rtg != jia && stg != jia)
+            {
+                if (ntg == yii || ytg == yii || rtg == yii || stg == yii)
+                {
+                    if (ntg == geng || ytg == geng || rtg == geng || stg == geng)
+                    {
+                        if (ydz == sii || ydz == chou || ydz == you || ydz == shen)
+                        {
+                
+                            if (wxmu == 1 && wxshui ==0)
+                            {
+                                wxmu -= 1;
+                            }
+                            buttondz6h.Text += "乙庚合金"; wxjin += 1; buttondz6h.ForeColor = Color.Gold; buttondz6h.BackColor = Color.Black;
+
+                        }
+                    }
+                }
+            }
+            if (ntg != ding && ytg != ding && rtg != ding && stg != ding)
+            {
+                if (ntg == bing || ytg == bing || rtg == bing || stg == bing)
+                {
+                    if (ntg == xin || ytg == xin || rtg == xin || stg == xin)
+                    {
+                        if (ydz == chen || ydz == shen || ydz == zii || ydz == hai)
+                        {
+                         if (wxhuo ==1 && wxmu ==0)
+                            {
+                                wxhuo -= 1;
+                            }
+                            if (wxjin ==1 && wxtu ==0)
+                            {
+                                wxjin -= 1;
+                            }
+                            buttondz6h.Text += "丙辛合水"; wxshui += 1; buttondz6h.ForeColor = Color.DodgerBlue; buttondz6h.BackColor = Color.White;
+
+                        }
+                    }
+                }
+            }
+            if (ntg != bing && ytg != bing && rtg != bing && stg != bing)
+            {
+                if (ntg == ding || ytg == ding || rtg == ding || stg == ding)
+                {
+                    if (ntg == ren || ytg == ren || rtg == ren || stg == ren)
+                    {
+                        if (ydz == hai || ydz == mao || ydz == wei || ydz == yin)
+                        {
+                            if (wxhuo ==1 && wxmu ==0)
+                            {
+                                wxhuo -= 1;
+                            }
+                            if (wxshui ==1 && wxjin ==0)
+                            {
+                                wxshui -= 1;
+                            }
+                            buttondz6h.Text += "丁壬合木"; wxmu += 1; buttondz6h.ForeColor = Color.Green; buttondz6h.BackColor = Color.White;
+
+                        }
+                    }
+                }
+            }
+            if (ntg != jii && ytg != jii && rtg != jii && stg != jii)
+            {
+                if (ntg == wuu || ytg == wuu || rtg == wuu || stg == wuu)
+                {
+                    if (ntg == gui || ytg == gui || rtg == gui || stg == gui)
+                    {
+                        if (ydz == yin || ydz == wuma || ydz == xuu || ydz == sii)
+                        {
+                            if (wxtu ==1 && wxhuo ==0)
+                            {
+                                wxtu -= 1;
+                            }
+                            if (wxshui ==1 && wxjin ==0)
+                            {
+                                wxshui -= 1;
+                            }
+                            buttondz6h.Text += "戊癸合火"; wxhuo += 1; buttondz6h.ForeColor = Color.Red; buttondz6h.BackColor = Color.White;
+
+                        }
+                    }
+                }
+            }
+            //地支六合
+            if(ntg == wuu || ntg == jii || ytg== wuu || ytg== jii || rtg== wuu || rtg== jii || stg== wuu || stg==jii)
+            {
+                if (ndz == zii || ydz== zii || rdz== zii || sdz==zii)
+                {
+                    if (ndz == chou || ydz== chou || rdz == chou|| sdz==chou)
+                    {
+                        if (wxtu == 1 && wxhuo == 0)
+                        {
+                            wxtu -= 1; wxjin -= 0.6; wxshui -= 0.3;
+                        }
+                        if (wxshui == 1 && wxjin == 0)
+                        {
+                            wxshui -= 1;
+                        }
+                        wxtu += 1; buttondzxx.Text = "子丑合土"; buttondzxx.ForeColor = Color.Sienna; buttondzxx.BackColor = Color.White;
+
+                    }
+                }
+            }
+            if (ntg == jia || ntg == yii || ytg == jia || ytg == yii || rtg == jia || rtg == yii || stg == jia || stg == yii)
+            {
+                if (ndz == yin || ydz == yin || rdz == yin || sdz == yin)
+                {
+                    if (ndz == hai || ydz == hai || rdz == hai || sdz == hai)
+                    {
+                        if (wxmu == 1 && wxshui == 0)
+                        {
+                            wxmu -= 1; wxhuo -= 0.6; wxtu -= 0.3;
+                        }
+                        if (wxshui == 1 && wxjin == 0)
+                        {
+                            wxshui -= 1; wxmu -= 0.6;
+                        }
+                        wxmu += 1; buttondzxx.Text = "寅亥合木"; buttondzxx.ForeColor = Color.Green; buttondzxx.BackColor = Color.White;
+
+                    }
+                }
+            }
+            if (ntg == bing || ntg == ding || ytg == bing || ytg == ding || rtg == bing || rtg == ding || stg == bing || stg == ding)
+            {
+                if (ndz == mao || ydz == mao || rdz == mao || sdz == mao)
+                {
+                    if (ndz == xuu || ydz == xuu || rdz == xuu || sdz == xuu)
+                    {
+                        if (wxmu == 1 && wxshui == 0)
+                        {
+                            wxmu -= 1;
+                        }
+                        if (wxtu == 1 && wxhuo == 0)
+                        {
+                            wxshui -= 1; wxjin -= 0.6; wxhuo -= 0.3;
+                        }
+                        wxhuo += 1; buttondzxx.Text = "卯戌合火"; buttondzxx.ForeColor = Color.Red; buttondzxx.BackColor = Color.White;
+
+                    }
+                }
+            }
+            if (ntg == geng || ntg == xin || ytg == geng || ytg == xin || rtg == geng || rtg == xin || stg == geng || stg == xin)
+            {
+                if (ndz == chen || ydz == chen || rdz == chen || sdz == chen)
+                {
+                    if (ndz == you || ydz == you || rdz == you || sdz == you)
+                    {
+                        if (wxjin == 1 && wxtu == 0)
+                        {
+                            wxjin -= 1;
+                        }
+                        if (wxtu == 1 && wxhuo == 0)
+                        {
+                            wxtu -= 1; wxmu -= 0.6; wxshui -= 0.3;
+                        }
+                        wxjin += 1; buttondzxx.Text = "辰酉合金"; buttondzxx.ForeColor = Color.Gold; buttondzxx.BackColor = Color.Black;
+
+                    }
+                }
+            }
+            if (ntg == ren || ntg == gui || ytg == ren || ytg == gui || rtg == ren || rtg == gui || stg == ren || stg == gui)
+            {
+                if (ndz == sii || ydz == sii || rdz == sii || sdz == sii)
+                {
+                    if (ndz == shen || ydz == shen || rdz == shen || sdz == shen)
+                    {
+                        if (wxhuo == 1 && wxmu == 0)
+                        {
+                            wxhuo -= 1; wxtu -= 0.6; wxjin -= 0.3;
+                        }
+                        if (wxjin == 1 && wxtu == 0)
+                        {
+                            wxjin -= 1; wxshui -= 0.6; wxtu -= 0.3;
+                        }
+                        wxshui += 1; buttondzxx.Text = "巳申合水"; buttondzxx.ForeColor = Color.DodgerBlue; buttondzxx.BackColor = Color.White;
+
+                    }
+                }
+            }
+            if (ntg == wuu || ntg == jii || ytg == wuu || ytg == jii || rtg == wuu || rtg == jii || stg == wuu || stg == jii)
+            {
+                if (ndz == wuma || ydz == wuma || rdz == wuma || sdz == wuma)
+                {
+                    if (ndz == wei || ydz == wei || rdz == wei || sdz == wei)
+                    {
+                        if (wxhuo == 1 && wxmu == 0)
+                        {
+                            wxhuo -= 1; wxtu -= 0.6;
+                        }
+                        if (wxtu == 1 && wxhuo == 0)
+                        {
+                            wxtu -= 1; wxhuo -= 0.6; wxmu -= 0.3;
+                        }
+                        wxtu += 1; buttondzxx.Text = "午未合土"; buttondzxx.ForeColor = Color.Sienna; buttondzxx.BackColor = Color.White;
+
+                    }
+                }
+            }
+
+            //地支三会
+            if(ndz != shen || ndz != you || ndz!= xuu || rdz != shen || rdz != you || rdz != xuu || sdz != shen || sdz != you || sdz != xuu)
+            {
+                if (ydz == yin || ydz == mao)
+                {
+                    if (ndz == yin || ydz == yin || rdz == yin)
+                    {
+                        if (ndz == mao || ydz == mao || rdz == mao)
+                        {
+                            if (ndz == chen || ydz == chen || rdz == chen)
+                            {
+                                if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
+                                {
+                                    wxmu += 1; buttontgwh.Text = "寅卯辰三会木局"; buttontgwh.ForeColor = Color.Green; buttontgwh.BackColor = Color.White;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (ydz == yin || ydz == mao)
+                {
+                    if (sdz == yin || ydz == yin || rdz == yin)
+                    {
+                        if (sdz == mao || ydz == mao || rdz == mao)
+                        {
+                            if (sdz == chen || ydz == chen || rdz == chen)
+                            {
+                                if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
+                                {
+                                    wxmu += 1; buttontgwh.Text = "寅卯辰三会木局"; buttontgwh.ForeColor = Color.Green; buttontgwh.BackColor = Color.White;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (ydz == yin || ydz == mao)
+                {
+                    if (ndz == yin || ydz == yin || rdz == yin)
+                    {
+                        if (ndz == mao || ydz == mao || rdz == mao)
+                        {
+                            if (ndz == chen || rdz == chen)
+                            {
+                                if (buttondz6h.Text == "丁壬合木")
+                                {
+                                    wxmu += 1; buttontgwh.Text = "寅卯辰三会木局"; buttontgwh.ForeColor = Color.Green; buttontgwh.BackColor = Color.White;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (ydz == yin || ydz == mao)
+                {
+                    if (sdz == yin || ydz == yin || rdz == yin)
+                    {
+                        if (sdz == mao || ydz == mao || rdz == mao)
+                        {
+                            if (sdz == chen || rdz == chen)
+                            {
+                                if (buttondz6h.Text == "丁壬合木")
+                                {
+                                    wxmu += 1; buttontgwh.Text = "寅卯辰三会木局"; buttontgwh.ForeColor = Color.Green; buttontgwh.BackColor = Color.White;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+            if (ndz != hai || ndz != zii || ndz != xuu || rdz != hai || rdz != zii || rdz != xuu || sdz != hai || sdz != zii || sdz != xuu || ndz != chou || rdz != chou || sdz != chou)
+            {
+                if (ydz == sii || ydz == wuma)
+                {
+                    if (ndz == sii || ydz == sii || rdz == sii)
+                    {
+                        if (ndz == wuma || ydz == wuma || rdz == wuma)
+                        {
+                            if (ndz == wei || ydz == wei || rdz == wei)
+                            {
+                                if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
+                                {
+                                    wxhuo += 1; buttontgwh.Text = "巳午未三会火局"; buttontgwh.ForeColor = Color.Red; buttontgwh.BackColor = Color.White;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (ydz == sii || ydz == wuma)
+                {
+                    if (sdz == sii || ydz == sii || rdz == sii)
+                    {
+                        if (sdz == wuma || ydz == wuma || rdz == wuma)
+                        {
+                            if (sdz == wei || ydz == wei || rdz == wei)
+                            {
+                                if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
+                                {
+                                    wxhuo += 1; buttontgwh.Text = "巳午未三会火局"; buttontgwh.ForeColor = Color.Red; buttontgwh.BackColor = Color.White;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (ydz == sii || ydz == wuma)
+                {
+                    if (ndz == sii || ydz == sii || rdz == sii)
+                    {
+                        if (ndz == wuma || ydz == wuma || rdz == wuma)
+                        {
+                            if (ndz == wei || rdz == wei)
+                            {
+                                if (buttondz6h.Text == "戊癸合火")
+                                {
+                                    wxhuo += 1; buttontgwh.Text = "巳午未三会火局"; buttontgwh.ForeColor = Color.Red; buttontgwh.BackColor = Color.White;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (ydz == sii || ydz == wuma)
+                {
+                    if (sdz == sii || ydz == sii || rdz == sii)
+                    {
+                        if (sdz == wuma || ydz == wuma || rdz == wuma)
+                        {
+                            if (sdz == wei || rdz == wei)
+                            {
+                                if (buttondz6h.Text == "戊癸合火")
+                                {
+                                    wxhuo += 1; buttontgwh.Text = "巳午未三会火局"; buttontgwh.ForeColor = Color.Red; buttontgwh.BackColor = Color.White;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+            if (ndz != yin || ndz != mao || ndz != chen || rdz != yin || rdz != mao || rdz != chen || sdz != yin || sdz != mao || sdz != chen || ndz != chou || rdz != chou || sdz != chou || ndz != sii || rdz != sii || sdz != sii)
+            {
+                if (ydz == shen || ydz == you)
+                {
+                    if (ndz == shen || ydz == shen || rdz == shen)
+                    {
+                        if (ndz == you || ydz == you || rdz == you)
+                        {
+                            if (ndz == xuu || ydz == xuu || rdz == xuu)
+                            {
+                                if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
+                                {
+                                    wxjin += 1; buttontgwh.Text = "申酉戌三会金局"; buttontgwh.ForeColor = Color.Gold; buttontgwh.BackColor = Color.Black;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (ydz == shen || ydz == you)
+                {
+                    if (sdz == shen || ydz == shen || rdz == shen)
+                    {
+                        if (sdz == you || ydz == you || rdz == you)
+                        {
+                            if (sdz == xuu || ydz == xuu || rdz == xuu)
+                            {
+                                if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
+                                {
+                                    wxjin += 1; buttontgwh.Text = "申酉戌三会金局"; buttontgwh.ForeColor = Color.Gold; buttontgwh.BackColor = Color.Black;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (ydz == shen || ydz == you)
+                {
+                    if (ndz == shen || ydz == shen || rdz == shen)
+                    {
+                        if (ndz == you || ydz == you || rdz == you)
+                        {
+                            if (ndz == xuu || rdz == xuu)
+                            {
+                                if (buttondz6h.Text == "乙庚合金")
+                                {
+                                    wxjin += 1; buttontgwh.Text = "申酉戌三会金局"; buttontgwh.ForeColor = Color.Gold; buttontgwh.BackColor = Color.Black;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (ydz == shen || ydz == you)
+                {
+                    if (sdz == shen || ydz == shen || rdz == shen)
+                    {
+                        if (sdz == you || ydz == you || rdz == you)
+                        {
+                            if (sdz == xuu || rdz == xuu)
+                            {
+                                if (buttondz6h.Text == "乙庚合金")
+                                {
+                                    wxjin += 1; buttontgwh.Text = "申酉戌三会金局"; buttontgwh.ForeColor = Color.Gold; buttontgwh.BackColor = Color.Black;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+            if (ndz != sii || ndz != wuma || ndz != wei || rdz != sii || rdz != wuma || rdz != wei || sdz != sii || sdz != wuma || sdz != wei || ndz != mao || rdz != mao || sdz != mao)
+            {
+                if (ydz == hai || ydz == zii)
+                {
+                    if (ndz == hai || ydz == hai || rdz == hai)
+                    {
+                        if (ndz == zii || ydz == zii || rdz == zii)
+                        {
+                            if (ndz == chou || ydz == chou || rdz == chou)
+                            {
+                                if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
+                                {
+                                    wxshui += 1; buttontgwh.Text = "亥子丑三会水局"; buttontgwh.ForeColor = Color.DodgerBlue; buttontgwh.BackColor = Color.White;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (ydz == hai || ydz == zii)
+                {
+                    if (sdz == hai || ydz == hai || rdz == hai)
+                    {
+                        if (sdz == zii || ydz == zii || rdz == zii)
+                        {
+                            if (sdz == chou || ydz == chou || rdz == chou)
+                            {
+                                if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
+                                {
+                                    wxshui += 1; buttontgwh.Text = "亥子丑三会水局"; buttontgwh.ForeColor = Color.DodgerBlue; buttontgwh.BackColor = Color.White;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (ydz == hai || ydz == zii)
+                {
+                    if (ndz == hai || ydz == hai || rdz == hai)
+                    {
+                        if (ndz == zii || ydz == zii || rdz == zii)
+                        {
+                            if (ndz == chou || rdz == chou)
+                            {
+                                if (buttondz6h.Text == "丙辛合水")
+                                {
+                                    wxshui += 1; buttontgwh.Text = "亥子丑三会水局"; buttontgwh.ForeColor = Color.DodgerBlue; buttontgwh.BackColor = Color.White;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (ydz == hai || ydz == zii)
+                {
+                    if (sdz == hai || ydz == hai || rdz == hai)
+                    {
+                        if (sdz == zii || ydz == zii || rdz == zii)
+                        {
+                            if (sdz == chou || rdz == chou)
+                            {
+                                if (buttondz6h.Text == "丙辛合水")
+                                {
+                                    wxshui += 1; buttontgwh.Text = "亥子丑三会水局"; buttontgwh.ForeColor = Color.DodgerBlue; buttontgwh.BackColor = Color.White;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            //地支三合
+            if (ndz != sii || ndz != wuma || ndz != xuu || rdz != sii || rdz != wuma || rdz != xuu || sdz != sii || sdz != wuma || sdz != xuu || ndz != yin || rdz != yin || sdz != yin || ndz != mao || rdz != mao || sdz != mao)
+            {
+                if (ydz == shen || ydz == zii)
+                {
+                    if (ndz == shen || ydz == shen || rdz == shen)
+                    {
+                        if (ndz == zii || ydz == zii || rdz == zii)
+                        {
+                            if (ndz == chen || ydz == chen || rdz == chen)
+                            {
+                                if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
+                                {
+                                    wxshui += 1; buttontg4c.Text = "申子辰三合水局"; buttontg4c.ForeColor = Color.DodgerBlue; buttontg4c.BackColor = Color.White;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (ydz == shen || ydz == zii)
+                {
+                    if (sdz == shen || ydz == shen || rdz == shen)
+                    {
+                        if (sdz == zii || ydz == zii || rdz == zii)
+                        {
+                            if (sdz == chen || ydz == chen || rdz == chen)
+                            {
+                                if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
+                                {
+                                    wxshui += 1; buttontg4c.Text = "申子辰三合水局"; buttontg4c.ForeColor = Color.DodgerBlue; buttontg4c.BackColor = Color.White;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (ydz == shen || ydz == zii)
+                {
+                    if (ndz == shen || ydz == shen || rdz == shen)
+                    {
+                        if (ndz == zii || ydz == zii || rdz == zii)
+                        {
+                            if (ndz == chen || ydz == chen || rdz == chen)
+                            {
+                                if (buttondz6h.Text == "丙辛合水")
+                                {
+                                    wxshui += 1; buttontg4c.Text = "申子辰三合水局"; buttontg4c.ForeColor = Color.DodgerBlue; buttontg4c.BackColor = Color.White;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (ydz == shen || ydz == zii)
+                {
+                    if (sdz == shen || ydz == shen || rdz == shen)
+                    {
+                        if (sdz == zii || ydz == zii || rdz == zii)
+                        {
+                            if (sdz == chen || ydz == chen || rdz == chen)
+                            {
+                                if (buttondz6h.Text == "丙辛合水")
+                                {
+                                    wxshui += 1; buttontg4c.Text = "申子辰三合水局"; buttontg4c.ForeColor = Color.DodgerBlue; buttontg4c.BackColor = Color.White;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+            if (ndz != shen || ndz != zii || ndz != chou || rdz != shen || rdz != zii || rdz != chou || sdz != shen || sdz != zii || sdz != chou || ndz != chen || rdz != chen || sdz != chen)
+            {
+                if (ydz == yin || ydz == wuma)
+                {
+                    if (ndz == yin || ydz == yin || rdz == yin)
+                    {
+                        if (ndz == wuma || ydz == wuma || rdz == wuma)
+                        {
+                            if (ndz == xuu || ydz == xuu || rdz == xuu)
+                            {
+                                if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
+                                {
+                                    wxhuo += 1; buttontg4c.Text = "寅午戌三合火局"; buttontg4c.ForeColor = Color.Red; buttontg4c.BackColor = Color.White;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (ydz == yin || ydz == wuma)
+                {
+                    if (sdz == yin || ydz == yin || rdz == yin)
+                    {
+                        if (sdz == wuma || ydz == wuma || rdz == wuma)
+                        {
+                            if (sdz == xuu || ydz == xuu || rdz == xuu)
+                            {
+                                if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
+                                {
+                                    wxhuo += 1; buttontg4c.Text = "寅午戌三合火局"; buttontg4c.ForeColor = Color.Red; buttontg4c.BackColor = Color.White;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (ydz == yin || ydz == wuma)
+                {
+                    if (ndz == yin || ydz == yin || rdz == yin)
+                    {
+                        if (ndz == wuma || ydz == wuma || rdz == wuma)
+                        {
+                            if (ndz == xuu || ydz == xuu || rdz == xuu)
+                            {
+                                if (buttondz6h.Text == "戊癸合火")
+                                {
+                                    wxhuo += 1; buttontg4c.Text = "寅午戌三合火局"; buttontg4c.ForeColor = Color.Red; buttontg4c.BackColor = Color.White;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (ydz == yin || ydz == wuma)
+                {
+                    if (sdz == yin || ydz == yin || rdz == yin)
+                    {
+                        if (sdz == wuma || ydz == wuma || rdz == wuma)
+                        {
+                            if (sdz == xuu || ydz == xuu || rdz == xuu)
+                            {
+                                if (buttondz6h.Text == "戊癸合火")
+                                {
+                                    wxhuo += 1; buttontg4c.Text = "寅午戌三合火局"; buttontg4c.ForeColor = Color.Red; buttontg4c.BackColor = Color.White;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+            if (ndz != yin || ndz != mao || ndz != wei || rdz != yin || rdz != mao || rdz != wei || sdz != yin || sdz != mao || sdz != wei || ndz != hai || rdz != hai || sdz != hai)
+            {
+                if (ydz == sii || ydz == you)
+                {
+                    if (ndz == sii || ydz == sii || rdz == sii)
+                    {
+                        if (ndz == you || ydz == you || rdz == you)
+                        {
+                            if (ndz == chou || ydz == chou || rdz == chou)
+                            {
+                                if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
+                                {
+                                    wxjin += 1; buttontg4c.Text = "巳酉丑三合金局"; buttontg4c.ForeColor = Color.Gold; buttontg4c.BackColor = Color.Black;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (ydz == sii || ydz == you)
+                {
+                    if (sdz == sii || ydz == sii || rdz == sii)
+                    {
+                        if (sdz == you || ydz == you || rdz == you)
+                        {
+                            if (sdz == chou || ydz == chou || rdz == chou)
+                            {
+                                if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
+                                {
+                                    wxjin += 1; buttontg4c.Text = "巳酉丑三合金局"; buttontg4c.ForeColor = Color.Gold; buttontg4c.BackColor = Color.Black;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (ydz == you)
+                {
+                    if (ndz == sii || ydz == sii || rdz == sii)
+                    {
+                        if (ndz == you || ydz == you || rdz == you)
+                        {
+                            if (ndz == chou || ydz == chou || rdz == chou)
+                            {
+                                if (buttondz6h.Text == "乙庚合金")
+                                {
+                                    wxjin += 1; buttontg4c.Text = "巳酉丑三合金局"; buttontg4c.ForeColor = Color.Gold; buttontg4c.BackColor = Color.Black;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (ydz == you)
+                {
+                    if (sdz == sii || ydz == sii || rdz == sii)
+                    {
+                        if (sdz == you || ydz == you || rdz == you)
+                        {
+                            if (sdz == chou || ydz == chou || rdz == chou)
+                            {
+                                if (buttondz6h.Text == "乙庚合金")
+                                {
+                                    wxjin += 1; buttontg4c.Text = "巳酉丑三合金局"; buttontg4c.ForeColor = Color.Gold; buttontg4c.BackColor = Color.Black;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+            if (ndz != sii || ndz != you || ndz != xuu || rdz != sii || rdz != you || rdz != xuu || sdz != sii || sdz != you || sdz != xuu || ndz != zii || rdz != zii || sdz != zii || ndz != chou || rdz != chou || sdz != chou)
+            {
+                if (ydz == hai || ydz == mao)
+                {
+                    if (ndz == hai || ydz == hai || rdz == hai)
+                    {
+                        if (ndz == mao || ydz == mao || rdz == mao)
+                        {
+                            if (ndz == wei || ydz == wei || rdz == wei)
+                            {
+                                if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
+                                {
+                                    wxmu += 1; buttontg4c.Text = "亥卯未三合木局"; buttontg4c.ForeColor = Color.Green; buttontg4c.BackColor = Color.White;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (ydz == hai || ydz == mao)
+                {
+                    if (sdz == hai || ydz == hai || rdz == hai)
+                    {
+                        if (sdz == mao || ydz == mao || rdz == mao)
+                        {
+                            if (sdz == wei || ydz == wei || rdz == wei)
+                            {
+                                if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
+                                {
+                                    wxmu += 1; buttontg4c.Text = "亥卯未三合木局"; buttontg4c.ForeColor = Color.Green; buttontg4c.BackColor = Color.White;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (ydz == hai || ydz == mao)
+                {
+                    if (ndz == hai || ydz == hai || rdz == hai)
+                    {
+                        if (ndz == mao || ydz == mao || rdz == mao)
+                        {
+                            if (ndz == wei || ydz == wei || rdz == wei)
+                            {
+                                if (buttondz6h.Text == "丁壬合木")
+                                {
+                                    wxmu += 1; buttontg4c.Text = "亥卯未三合木局"; buttontg4c.ForeColor = Color.Green; buttontg4c.BackColor = Color.White;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (ydz == hai || ydz == mao)
+                {
+                    if (sdz == hai || ydz == hai || rdz == hai)
+                    {
+                        if (sdz == mao || ydz == mao || rdz == mao)
+                        {
+                            if (sdz == wei || ydz == wei || rdz == wei)
+                            {
+                                if (buttondz6h.Text == "丁壬合木")
+                                {
+                                    wxmu += 1; buttontg4c.Text = "亥卯未三合木局"; buttontg4c.ForeColor = Color.Green; buttontg4c.BackColor = Color.White;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            //半三合
+            if (ndz != sii || ndz != wuma || ndz != yin || rdz != sii || rdz != wuma || rdz != yin || sdz != sii || sdz != wuma || sdz != yin || ndz != you || rdz != you || sdz != you || ndz != mao || rdz != mao || sdz != mao)
+            {
+                if (ydz == shen || ydz == zii)
+                {
+                    if (ndz == shen || ydz == shen || rdz == shen)
+                    {
+                        if (ndz == zii || ydz == zii || rdz == zii)
+                        {
+                            if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
+                            {
+                                wxshui += 1; buttondz6p.Text = "申子半三合水"; buttondz6p.ForeColor = Color.DodgerBlue; buttondz6p.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == shen || ydz == zii)
+                {
+                    if (sdz == shen || ydz == shen || rdz == shen)
+                    {
+                        if (sdz == zii || ydz == zii || rdz == zii)
+                        {
+                            if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
+                            {
+                                wxshui += 1; buttondz6p.Text = "申子半三合水"; buttondz6p.ForeColor = Color.DodgerBlue; buttondz6p.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == shen || ydz == zii)
+                {
+                    if (ndz == shen || ydz == shen || rdz == shen)
+                    {
+                        if (ndz == zii || ydz == zii || rdz == zii)
+                        {
+                            if (buttondz6h.Text == "丙辛合水")
+                            {
+                                wxshui += 1; buttondz6p.Text = "申子半三合水"; buttondz6p.ForeColor = Color.DodgerBlue; buttondz6p.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == shen || ydz == zii)
+                {
+                    if (sdz == shen || ydz == shen || rdz == shen)
+                    {
+                        if (sdz == zii || ydz == zii || rdz == zii)
+                        {
+                            if (buttondz6h.Text == "丙辛合水")
+                            {
+                                wxshui += 1; buttondz6p.Text = "申子半三合水"; buttondz6p.ForeColor = Color.DodgerBlue; buttondz6p.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == shen || ydz == zii)
+                {
+                    if (ndz == chen || ydz == chen || rdz == chen)
+                    {
+                        if (ndz == zii || ydz == zii || rdz == zii)
+                        {
+                            if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
+                            {
+                                wxshui += 1; buttondz6p.Text = "子辰半三合水"; buttondz6p.ForeColor = Color.DodgerBlue; buttondz6p.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == shen || ydz == zii)
+                {
+                    if (sdz == chen || ydz == chen || rdz == chen)
+                    {
+                        if (sdz == zii || ydz == zii || rdz == zii)
+                        {
+                            if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
+                            {
+                                wxshui += 1; buttondz6p.Text = "子辰半三合水"; buttondz6p.ForeColor = Color.DodgerBlue; buttondz6p.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == shen || ydz == zii)
+                {
+                    if (ndz == chen || ydz == chen || rdz == chen)
+                    {
+                        if (ndz == zii || ydz == zii || rdz == zii)
+                        {
+                            if (buttondz6h.Text == "丙辛合水")
+                            {
+                                wxshui += 1; buttondz6p.Text = "子辰半三合水"; buttondz6p.ForeColor = Color.DodgerBlue; buttondz6p.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == shen || ydz == zii)
+                {
+                    if (sdz == chen || ydz == chen || rdz == chen)
+                    {
+                        if (sdz == zii || ydz == zii || rdz == zii)
+                        {
+                            if (buttondz6h.Text == "丙辛合水")
+                            {
+                                wxshui += 1; buttondz6p.Text = "子辰半三合水"; buttondz6p.ForeColor = Color.DodgerBlue; buttondz6p.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+
+            }
+            if (ndz != shen || ndz != zii || rdz != shen || rdz != zii || sdz != shen || sdz != zii)
+            {
+                if (ydz == yin || ydz == wuma)
+                {
+                    if (ndz == yin || ydz == yin || rdz == yin)
+                    {
+                        if (ndz == wuma || ydz == wuma || rdz == wuma)
+                        {
+                            if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
+                            {
+                                wxhuo += 1; buttondz6p.Text = "寅午半三合火"; buttondz6p.ForeColor = Color.Red; buttondz6p.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == yin || ydz == wuma)
+                {
+                    if (sdz == yin || ydz == yin || rdz == yin)
+                    {
+                        if (sdz == wuma || ydz == wuma || rdz == wuma)
+                        {
+                            if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
+                            {
+                                wxhuo += 1; buttondz6p.Text = "寅午半三合火"; buttondz6p.ForeColor = Color.Red; buttondz6p.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == yin || ydz == wuma)
+                {
+                    if (ndz == yin || ydz == yin || rdz == yin)
+                    {
+                        if (ndz == wuma || ydz == wuma || rdz == wuma)
+                        {
+                            if (buttondz6h.Text == "戊癸合火")
+                            {
+                                wxhuo += 1; buttondz6p.Text = "寅午半三合火"; buttondz6p.ForeColor = Color.Red; buttondz6p.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == yin || ydz == wuma)
+                {
+                    if (sdz == yin || ydz == yin || rdz == yin)
+                    {
+                        if (sdz == wuma || ydz == wuma || rdz == wuma)
+                        {
+                            if (buttondz6h.Text == "戊癸合火")
+                            {
+                                wxhuo += 1; buttondz6p.Text = "寅午半三合火"; buttondz6p.ForeColor = Color.Red; buttondz6p.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == yin || ydz == wuma)
+                {
+                    if (ndz == xuu || ydz == xuu || rdz == xuu)
+                    {
+                        if (ndz == wuma || ydz == wuma || rdz == wuma)
+                        {
+                            if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
+                            {
+                                wxhuo += 1; buttondz6p.Text = "寅午半三合火"; buttondz6p.ForeColor = Color.Red; buttondz6p.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == yin || ydz == wuma)
+                {
+                    if (sdz == xuu || ydz == xuu || rdz == xuu)
+                    {
+                        if (sdz == wuma || ydz == wuma || rdz == wuma)
+                        {
+                            if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
+                            {
+                                wxhuo += 1; buttondz6p.Text = "寅午半三合火"; buttondz6p.ForeColor = Color.Red; buttondz6p.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == yin || ydz == wuma)
+                {
+                    if (ndz == xuu || ydz == xuu || rdz == xuu)
+                    {
+                        if (ndz == wuma || ydz == wuma || rdz == wuma)
+                        {
+                            if (buttondz6h.Text == "戊癸合火")
+                            {
+                                wxhuo += 1; buttondz6p.Text = "寅午半三合火"; buttondz6p.ForeColor = Color.Red; buttondz6p.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == yin || ydz == wuma)
+                {
+                    if (sdz == xuu || ydz == xuu || rdz == xuu)
+                    {
+                        if (sdz == wuma || ydz == wuma || rdz == wuma)
+                        {
+                            if (buttondz6h.Text == "戊癸合火")
+                            {
+                                wxhuo += 1; buttondz6p.Text = "寅午半三合火"; buttondz6p.ForeColor = Color.Red; buttondz6p.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+
+            }
+            if (ndz != sii || ndz != zii || ndz != you || rdz != sii || rdz != zii || rdz != you)
+            {
+                if (ydz == hai || ydz == mao)
+                {
+                    if (ndz == hai || ydz == hai || rdz == hai)
+                    {
+                        if (ndz == mao || ydz == mao || rdz == mao)
+                        {
+                            if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
+                            {
+                                wxmu += 1; buttondz6p.Text = "亥卯半三合木"; buttondz6p.ForeColor = Color.Green; buttondz6p.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == hai || ydz == mao)
+                {
+                    if (sdz == hai || ydz == hai || rdz == hai)
+                    {
+                        if (sdz == mao || ydz == mao || rdz == mao)
+                        {
+                            if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
+                            {
+                                wxmu += 1; buttondz6p.Text = "亥卯半三合木"; buttondz6p.ForeColor = Color.Green; buttondz6p.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == hai || ydz == mao)
+                {
+                    if (ndz == hai || ydz == hai || rdz == hai)
+                    {
+                        if (ndz == mao || ydz == mao || rdz == mao)
+                        {
+                            if (buttondz6h.Text == "丁壬合木")
+                            {
+                                wxmu += 1; buttondz6p.Text = "亥卯半三合木"; buttondz6p.ForeColor = Color.Green; buttondz6p.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == hai || ydz == mao)
+                {
+                    if (sdz == hai || ydz == hai || rdz == hai)
+                    {
+                        if (sdz == mao || ydz == mao || rdz == mao)
+                        {
+                            if (buttondz6h.Text == "丁壬合木")
+                            {
+                                wxmu += 1; buttondz6p.Text = "亥卯半三合木"; buttondz6p.ForeColor = Color.Green; buttondz6p.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == hai || ydz == mao)
+                {
+                    if (ndz == wei || ydz == wei || rdz == wei)
+                    {
+                        if (ndz == mao || ydz == mao || rdz == mao)
+                        {
+                            if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
+                            {
+                                wxmu += 1; buttondz6p.Text = "亥卯半三合木"; buttondz6p.ForeColor = Color.Green; buttondz6p.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == hai || ydz == mao)
+                {
+                    if (sdz == wei || ydz == wei || rdz == wei)
+                    {
+                        if (sdz == mao || ydz == mao || rdz == mao)
+                        {
+                            if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
+                            {
+                                wxmu += 1; buttondz6p.Text = "亥卯半三合木"; buttondz6p.ForeColor = Color.Green; buttondz6p.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == hai || ydz == mao)
+                {
+                    if (ndz == wei || ydz == wei || rdz == wei)
+                    {
+                        if (ndz == mao || ydz == mao || rdz == mao)
+                        {
+                            if (buttondz6h.Text == "丁壬合木")
+                            {
+                                wxmu += 1; buttondz6p.Text = "亥卯半三合木"; buttondz6p.ForeColor = Color.Green; buttondz6p.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == hai || ydz == mao)
+                {
+                    if (sdz == wei || ydz == wei || rdz == wei)
+                    {
+                        if (sdz == mao || ydz == mao || rdz == mao)
+                        {
+                            if (buttondz6h.Text == "丁壬合木")
+                            {
+                                wxmu += 1; buttondz6p.Text = "亥卯半三合木"; buttondz6p.ForeColor = Color.Green; buttondz6p.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+            }
+            if (ndz != hai || rdz != hai || sdz != hai || ndz != yin || rdz != yin || sdz != yin || ndz != mao || rdz != mao || sdz != mao)
+            {
+                if (ydz == sii || ydz == you)
+                {
+                    if (ndz == sii || ydz == sii || rdz == sii)
+                    {
+                        if (ndz == you || ydz == you || rdz == you)
+                        {
+                            if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
+                            {
+                                wxjin += 1; buttondz6p.Text = "巳酉半三合金"; buttondz6p.ForeColor = Color.Gold; buttondz6p.BackColor = Color.Black;
+                            }
+                        }
+                    }
+                }
+                if (ydz == sii || ydz == you)
+                {
+                    if (sdz == sii || ydz == sii || rdz == sii)
+                    {
+                        if (sdz == you || ydz == you || rdz == you)
+                        {
+                            if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
+                            {
+                                wxjin += 1; buttondz6p.Text = "巳酉半三合金"; buttondz6p.ForeColor = Color.Gold; buttondz6p.BackColor = Color.Black;
+                            }
+                        }
+                    }
+                }
+                if (ydz == sii || ydz == you)
+                {
+                    if (ndz == sii || ydz == sii || rdz == sii)
+                    {
+                        if (ndz == you || ydz == you || rdz == you)
+                        {
+                            if (buttondz6h.Text == "乙庚合金")
+                            {
+                                wxjin += 1; buttondz6p.Text = "巳酉半三合金"; buttondz6p.ForeColor = Color.Gold; buttondz6p.BackColor = Color.Black;
+                            }
+                        }
+                    }
+                }
+                if (ydz == sii || ydz == you)
+                {
+                    if (sdz == sii || ydz == sii || rdz == sii)
+                    {
+                        if (sdz == you || ydz == you || rdz == you)
+                        {
+                            if (buttondz6h.Text == "乙庚合金")
+                            {
+                                wxjin += 1; buttondz6p.Text = "巳酉半三合金"; buttondz6p.ForeColor = Color.Gold; buttondz6p.BackColor = Color.Black;
+                            }
+                        }
+                    }
+                }
+                if (ydz == sii || ydz == you)
+                {
+                    if (ndz == chou || ydz == chou || rdz == chou)
+                    {
+                        if (ndz == you || ydz == you || rdz == you)
+                        {
+                            if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
+                            {
+                                wxjin += 1; buttondz6p.Text = "巳酉半三合金"; buttondz6p.ForeColor = Color.Gold; buttondz6p.BackColor = Color.Black;
+                            }
+                        }
+                    }
+                }
+                if (ydz == sii || ydz == you)
+                {
+                    if (sdz == chou || ydz == chou || rdz == chou)
+                    {
+                        if (sdz == you || ydz == you || rdz == you)
+                        {
+                            if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
+                            {
+                                wxjin += 1; buttondz6p.Text = "巳酉半三合金"; buttondz6p.ForeColor = Color.Gold; buttondz6p.BackColor = Color.Black;
+                            }
+                        }
+                    }
+                }
+                if (ydz == sii || ydz == you)
+                {
+                    if (ndz == chou || ydz == chou || rdz == chou)
+                    {
+                        if (ndz == you || ydz == you || rdz == you)
+                        {
+                            if (buttondz6h.Text == "乙庚合金")
+                            {
+                                wxjin += 1; buttondz6p.Text = "巳酉半三合金"; buttondz6p.ForeColor = Color.Gold; buttondz6p.BackColor = Color.Black;
+                            }
+                        }
+                    }
+                }
+                if (ydz == sii || ydz == you)
+                {
+                    if (sdz == chou || ydz == chou || rdz == chou)
+                    {
+                        if (sdz == you || ydz == you || rdz == you)
+                        {
+                            if (buttondz6h.Text == "乙庚合金")
+                            {
+                                wxjin += 1; buttondz6p.Text = "巳酉半三合金"; buttondz6p.ForeColor = Color.Gold; buttondz6p.BackColor = Color.Black;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            //拱合
+            if (ndz != sii || ndz != yin || ndz != xuu || rdz != sii || rdz != yin || rdz != xuu || sdz != sii || sdz != yin || sdz != xuu)
+            {
+                if (ydz == shen || ydz == chen)
+                {
+                    if (ndz == shen || ydz == shen || rdz == shen)
+                    {
+                        if (ndz == chen || ydz == chen || rdz == chen)
+                        {
+                            if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
+                            {
+                                wxshui += 1; buttondz6hh.Text = "申辰拱合水"; buttondz6hh.ForeColor = Color.DodgerBlue; buttondz6hh.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == shen || ydz == chen)
+                {
+                    if (sdz == shen || ydz == shen || rdz == shen)
+                    {
+                        if (sdz == chen || ydz == chen || rdz == chen)
+                        {
+                            if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
+                            {
+                                wxshui += 1; buttondz6hh.Text = "申辰拱合水"; buttondz6hh.ForeColor = Color.DodgerBlue; buttondz6hh.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == shen || ydz == chen)
+                {
+                    if (ndz == shen || ydz == shen || rdz == shen)
+                    {
+                        if (ndz == chen || ydz == chen || rdz == chen)
+                        {
+                            if (buttondz6h.Text == "丙辛合水")
+                            {
+                                wxshui += 1; buttondz6hh.Text = "申辰拱合水"; buttondz6hh.ForeColor = Color.DodgerBlue; buttondz6hh.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == shen || ydz == chen)
+                {
+                    if (sdz == shen || ydz == shen || rdz == shen)
+                    {
+                        if (sdz == chen || ydz == chen || rdz == chen)
+                        {
+                            if (buttondz6h.Text == "丙辛合水")
+                            {
+                                wxshui += 1; buttondz6hh.Text = "申辰拱合水"; buttondz6hh.ForeColor = Color.DodgerBlue; buttondz6hh.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+
+            }
+            if (ndz != hai || ndz != yin || ndz != wei || rdz != hai || rdz != yin || rdz != wei || sdz != hai || sdz != yin || sdz != wei)
+            {
+                if (ydz == sii || ydz == chou)
+                {
+                    if (ndz == sii || ydz == sii || rdz == sii)
+                    {
+                        if (ndz == chou || ydz == chou || rdz == chou)
+                        {
+                            if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
+                            {
+                                wxjin += 1; buttondz6hh.Text = "巳丑拱合金"; buttondz6hh.ForeColor = Color.Gold; buttondz6hh.BackColor = Color.Black;
+                            }
+                        }
+                    }
+                }
+                if (ydz == sii || ydz == chou)
+                {
+                    if (sdz == sii || ydz == sii || rdz == sii)
+                    {
+                        if (sdz == chou || ydz == chou || rdz == chou)
+                        {
+                            if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
+                            {
+                                wxjin += 1; buttondz6hh.Text = "巳丑拱合金"; buttondz6hh.ForeColor = Color.Gold; buttondz6hh.BackColor = Color.Black;
+                            }
+                        }
+                    }
+                }
+                if (ydz == sii || ydz == chou)
+                {
+                    if (ndz == sii || ydz == sii || rdz == sii)
+                    {
+                        if (ndz == chou || ydz == chou || rdz == chou)
+                        {
+                            if (buttondz6h.Text == "乙庚合金")
+                            {
+                                wxjin += 1; buttondz6hh.Text = "巳丑拱合金"; buttondz6hh.ForeColor = Color.Gold; buttondz6hh.BackColor = Color.Black;
+                            }
+                        }
+                    }
+                }
+                if (ydz == sii || ydz == chou)
+                {
+                    if (sdz == sii || ydz == sii || rdz == sii)
+                    {
+                        if (sdz == chou || ydz == chou || rdz == chou)
+                        {
+                            if (buttondz6h.Text == "乙庚合金")
+                            {
+                                wxjin += 1; buttondz6hh.Text = "巳丑拱合金"; buttondz6hh.ForeColor = Color.Gold; buttondz6hh.BackColor = Color.Black;
+                            }
+                        }
+                    }
+                }
+
+            }
+            if (ndz != shen || ndz != chou || ndz != chen || rdz != shen || rdz != chou || rdz != chen || sdz != shen || sdz != chou || sdz != chen)
+            {
+                if (ydz == yin || ydz == xuu)
+                {
+                    if (ndz == yin || ydz == yin || rdz == yin)
+                    {
+                        if (ndz == xuu || ydz == xuu || rdz == xuu)
+                        {
+                            if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
+                            {
+                                wxhuo += 1; buttondz6hh.Text = "寅戌拱合火"; buttondz6hh.ForeColor = Color.Red; buttondz6hh.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == yin || ydz == xuu)
+                {
+                    if (ydz == yin || rdz == yin || sdz == yin)
+                    {
+                        if (ydz == xuu || rdz == xuu || sdz == xuu)
+                        {
+                            if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
+                            {
+                                wxhuo += 1; buttondz6hh.Text = "寅戌拱合火"; buttondz6hh.ForeColor = Color.Red; buttondz6hh.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == yin || ydz == xuu)
+                {
+                    if (ndz == yin || ydz == yin || rdz == yin)
+                    {
+                        if (ndz == xuu || ydz == xuu || rdz == xuu)
+                        {
+                            if (buttondz6h.Text == "戊癸合火")
+                            {
+                                wxhuo += 1; buttondz6hh.Text = "寅戌拱合火"; buttondz6hh.ForeColor = Color.Red; buttondz6hh.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == yin || ydz == xuu)
+                {
+                    if (sdz == yin || ydz == yin || rdz == yin)
+                    {
+                        if (sdz == xuu || ydz == xuu || rdz == xuu)
+                        {
+                            if (buttondz6h.Text == "戊癸合火")
+                            {
+                                wxhuo += 1; buttondz6hh.Text = "寅戌拱合火"; buttondz6hh.ForeColor = Color.Red; buttondz6hh.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+
+            }
+            if (ndz != sii || ndz != chou || ndz != xuu || rdz != sii || rdz != chou || rdz != xuu || sdz != sii || sdz != chou || sdz != xuu)
+            {
+                if (ydz == hai || ydz == wei)
+                {
+                    if (ndz == hai || ydz == hai || rdz == hai)
+                    {
+                        if (ndz == wei || ydz == wei || rdz == wei)
+                        {
+                            if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
+                            {
+                                wxmu += 1; buttondz6hh.Text = "亥未拱合木"; buttondz6hh.ForeColor = Color.Green; buttondz6hh.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == hai || ydz == wei)
+                {
+                    if (sdz == hai || ydz == hai || rdz == hai)
+                    {
+                        if (sdz == wei || ydz == wei || rdz == wei)
+                        {
+                            if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
+                            {
+                                wxmu += 1; buttondz6hh.Text = "亥未拱合木"; buttondz6hh.ForeColor = Color.Green; buttondz6hh.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == hai || ydz == wei)
+                {
+                    if (ndz == hai || ydz == hai || rdz == hai)
+                    {
+                        if (ndz == wei || ydz == wei || rdz == wei)
+                        {
+                            if (buttondz6h.Text == "丁壬合木")
+                            {
+                                wxmu += 1; buttondz6hh.Text = "亥未拱合木"; buttondz6hh.ForeColor = Color.Green; buttondz6hh.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+                if (ydz == hai || ydz == wei)
+                {
+                    if (sdz == hai || ydz == hai || rdz == hai)
+                    {
+                        if (sdz == wei || ydz == wei || rdz == wei)
+                        {
+                            if (buttondz6h.Text == "丁壬合木")
+                            {
+                                wxmu += 1; buttondz6hh.Text = "亥未拱合木"; buttondz6hh.ForeColor = Color.Green; buttondz6hh.BackColor = Color.White;
+                            }
+                        }
+                    }
+                }
+
+            }
+
             //输出五行结果
             string jinstr = "";
             string mustr = "";
@@ -37220,10 +36702,16 @@ namespace BaZiFuZuGongJu
             string daytimestr = daytime.Substring(8, 2);
             string hourtimestr = daytime.Substring(11, 2);
 
-            textBoxyear.Text = yeartimestr;
-            comboBoxmonth.Text = mothtimestr;
-            comboBoxday.Text = daytimestr;
-            comboBoxhour.Text = hourtimestr;
+            int yeartimeint = int.Parse(yeartimestr);
+            int mothtimeint = int.Parse(mothtimestr);
+            int daytimeint = int.Parse(daytimestr);
+            int hourtimeint = int.Parse(hourtimestr);
+
+            numericUpDownyear.Value = yeartimeint;
+            numericUpDownmonth.Value = mothtimeint;
+            numericUpDownday.Value = daytimeint;
+            numericUpDownhour.Value = hourtimeint;
+
         }
 
         private void buttongl_Click(object sender, EventArgs e)
@@ -56976,27 +56464,2548 @@ namespace BaZiFuZuGongJu
 
         private void button59_Click(object sender, EventArgs e)
         {
-            //取得用户输入的时间
-            string yeartimestr = textBoxyear.Text;
-            string mothtimestr = comboBoxmonth.Text;
-            string daytimestr = comboBoxday.Text;
-            string hourtimestr = comboBoxhour.Text;
-
-            int yeartimeint = int.Parse(yeartimestr);
-            int mothtimeint = int.Parse(mothtimestr);
-            int daytimeint = int.Parse(daytimestr);
-            int hourtimeint = int.Parse(hourtimestr);
-
-            DateTime dateTime3 = new DateTime(yeartimeint, mothtimeint, daytimeint);
-            ChineseLunisolarCalendar nonglli = new ChineseLunisolarCalendar();
 
             //判断用户选择的时间是阳历或农历
             if (checkBox1.Checked == true)//农历月
             {
+                //取得用户输入的时间
+
+                int yeartimeint = (int)numericUpDownyear.Value;
+                int mothtimeint = (int)numericUpDownmonth.Value;
+                int daytimeint = (int)numericUpDownday.Value;
+                int hourtimeint = (int)numericUpDownhour.Value;
+                //取得农历月份
+                
+                ChineseLunisolarCalendar nonglli = new ChineseLunisolarCalendar();
+
+                //年干支
+                if (jia == jia)
+                {
+                    int jz1984 = 1984;
+                    int niangz = yeartimeint;
+                    int niangz1 = 0;
+                    int niangz2 = 0;
+
+                    if (niangz <= jz1984)
+                    {
+                        niangz1 = jz1984 - niangz;
+                    }
+
+                    if (niangz > jz1984)
+                    {
+                        niangz1 = niangz - jz1984;
+                    }
+
+                    niangz2 = niangz1;
+                    while (niangz2 > 60)
+                    {
+                        niangz2 -= 60;
+                    }
+                    while (niangz2 < 0)
+                    {
+                        niangz2 += 60;
+                    }
+
+
+                    //查六十甲子表
+                    if (niangz2 == 0 || niangz2 == 60 || niangz2 == -60)
+                    {
+                        comboBoxng.Text = jia; comboBoxnz.Text = zii;
+                    }
+                    else if (niangz2 == 1 || niangz2 == -1)
+                    {
+                        comboBoxng.Text = yii; comboBoxnz.Text = chou;
+                    }
+                    else if (niangz2 == 2 || niangz2 == -2)
+                    {
+                        comboBoxng.Text = bing; comboBoxnz.Text = yin;
+                    }
+                    else if (niangz2 == 3 || niangz2 == -3)
+                    {
+                        comboBoxng.Text = ding; comboBoxnz.Text = mao;
+                    }
+                    else if (niangz2 == 4 || niangz2 == -4)
+                    {
+                        comboBoxng.Text = wuu; comboBoxnz.Text = chen;
+                    }
+                    else if (niangz2 == 5 || niangz2 == -5)
+                    {
+                        comboBoxng.Text = jii; comboBoxnz.Text = sii;
+                    }
+                    else if (niangz2 == 6 || niangz2 == -6)
+                    {
+                        comboBoxng.Text = geng; comboBoxnz.Text = wuma;
+                    }
+                    else if (niangz2 == 7 || niangz2 == -7)
+                    {
+                        comboBoxng.Text = xin; comboBoxnz.Text = wei;
+                    }
+                    else if (niangz2 == 8 || niangz2 == -8)
+                    {
+                        comboBoxng.Text = ren; comboBoxnz.Text = shen;
+                    }
+                    else if (niangz2 == 9 || niangz2 == -9)
+                    {
+                        comboBoxng.Text = gui; comboBoxnz.Text = you;
+                    }
+                    //2jz
+                    else if (niangz2 == 10 || niangz2 == -10)
+                    {
+                        comboBoxng.Text = jia; comboBoxnz.Text = xuu;
+                    }
+                    else if (niangz2 == 11 || niangz2 == -11)
+                    {
+                        comboBoxng.Text = yii; comboBoxnz.Text = hai;
+                    }
+                    else if (niangz2 == 12 || niangz2 == -12)
+                    {
+                        comboBoxng.Text = bing; comboBoxnz.Text = zii;
+                    }
+                    else if (niangz2 == 13 || niangz2 == -13)
+                    {
+                        comboBoxng.Text = ding; comboBoxnz.Text = chou;
+                    }
+                    else if (niangz2 == 14 || niangz2 == -14)
+                    {
+                        comboBoxng.Text = wuu; comboBoxnz.Text = yin;
+                    }
+                    else if (niangz2 == 15 || niangz2 == -15)
+                    {
+                        comboBoxng.Text = jii; comboBoxnz.Text = mao;
+                    }
+                    else if (niangz2 == 16 || niangz2 == -16)
+                    {
+                        comboBoxng.Text = geng; comboBoxnz.Text = chen;
+                    }
+                    else if (niangz2 == 17 || niangz2 == -17)
+                    {
+                        comboBoxng.Text = xin; comboBoxnz.Text = sii;
+                    }
+                    else if (niangz2 == 18 || niangz2 == -18)
+                    {
+                        comboBoxng.Text = ren; comboBoxnz.Text = wuma;
+                    }
+                    else if (niangz2 == 19 || niangz2 == -19)
+                    {
+                        comboBoxng.Text = gui; comboBoxnz.Text = wei;
+                    }
+                    //3jz
+                    else if (niangz2 == 20 || niangz2 == -20)
+                    {
+                        comboBoxng.Text = jia; comboBoxnz.Text = shen;
+                    }
+                    else if (niangz2 == 21 || niangz2 == -21)
+                    {
+                        comboBoxng.Text = yii; comboBoxnz.Text = you;
+                    }
+                    else if (niangz2 == 22 || niangz2 == -22)
+                    {
+                        comboBoxng.Text = bing; comboBoxnz.Text = xuu;
+                    }
+                    else if (niangz2 == 23 || niangz2 == -23)
+                    {
+                        comboBoxng.Text = ding; comboBoxnz.Text = hai;
+                    }
+                    else if (niangz2 == 24 || niangz2 == -24)
+                    {
+                        comboBoxng.Text = wuu; comboBoxnz.Text = zii;
+                    }
+                    else if (niangz2 == 25 || niangz2 == -25)
+                    {
+                        comboBoxng.Text = jii; comboBoxnz.Text = chou;
+                    }
+                    else if (niangz2 == 26 || niangz2 == -26)
+                    {
+                        comboBoxng.Text = geng; comboBoxnz.Text = yin;
+                    }
+                    else if (niangz2 == 27 || niangz2 == -27)
+                    {
+                        comboBoxng.Text = xin; comboBoxnz.Text = mao;
+                    }
+                    else if (niangz2 == 28 || niangz2 == -28)
+                    {
+                        comboBoxng.Text = ren; comboBoxnz.Text = chen;
+                    }
+                    else if (niangz2 == 29 || niangz2 == -29)
+                    {
+                        comboBoxng.Text = gui; comboBoxnz.Text = sii;
+                    }
+                    //4jz
+                    else if (niangz2 == 30 || niangz2 == -30)
+                    {
+                        comboBoxng.Text = jia; comboBoxnz.Text = wuma;
+                    }
+                    else if (niangz2 == 31 || niangz2 == -31)
+                    {
+                        comboBoxng.Text = yii; comboBoxnz.Text = wei;
+                    }
+                    else if (niangz2 == 32 || niangz2 == -32)
+                    {
+                        comboBoxng.Text = bing; comboBoxnz.Text = shen;
+                    }
+                    else if (niangz2 == 33 || niangz2 == -33)
+                    {
+                        comboBoxng.Text = ding; comboBoxnz.Text = you;
+                    }
+                    else if (niangz2 == 34 || niangz2 == -34)
+                    {
+                        comboBoxng.Text = wuu; comboBoxnz.Text = xuu;
+                    }
+                    else if (niangz2 == 35 || niangz2 == -35)
+                    {
+                        comboBoxng.Text = jii; comboBoxnz.Text = hai;
+                    }
+                    else if (niangz2 == 36 || niangz2 == -36)
+                    {
+                        comboBoxng.Text = geng; comboBoxnz.Text = zii;
+                    }
+                    else if (niangz2 == 37 || niangz2 == -37)
+                    {
+                        comboBoxng.Text = xin; comboBoxnz.Text = chou;
+                    }
+                    else if (niangz2 == 38 || niangz2 == -38)
+                    {
+                        comboBoxng.Text = ren; comboBoxnz.Text = yin;
+                    }
+                    else if (niangz2 == 39 || niangz2 == -39)
+                    {
+                        comboBoxng.Text = gui; comboBoxnz.Text = mao;
+                    }
+                    //5jz
+                    else if (niangz2 == 40 || niangz2 == -40)
+                    {
+                        comboBoxng.Text = jia; comboBoxnz.Text = chen;
+                    }
+                    else if (niangz2 == 41 || niangz2 == -41)
+                    {
+                        comboBoxng.Text = yii; comboBoxnz.Text = sii;
+                    }
+                    else if (niangz2 == 42 || niangz2 == -42)
+                    {
+                        comboBoxng.Text = bing; comboBoxnz.Text = wuma;
+                    }
+                    else if (niangz2 == 43 || niangz2 == -43)
+                    {
+                        comboBoxng.Text = ding; comboBoxnz.Text = wei;
+                    }
+                    else if (niangz2 == 44 || niangz2 == -44)
+                    {
+                        comboBoxng.Text = wuu; comboBoxnz.Text = shen;
+                    }
+                    else if (niangz2 == 45 || niangz2 == -45)
+                    {
+                        comboBoxng.Text = jii; comboBoxnz.Text = you;
+                    }
+                    else if (niangz2 == 46 || niangz2 == -46)
+                    {
+                        comboBoxng.Text = geng; comboBoxnz.Text = xuu;
+                    }
+                    else if (niangz2 == 47 || niangz2 == -47)
+                    {
+                        comboBoxng.Text = xin; comboBoxnz.Text = hai;
+                    }
+                    else if (niangz2 == 48 || niangz2 == -48)
+                    {
+                        comboBoxng.Text = ren; comboBoxnz.Text = zii;
+                    }
+                    else if (niangz2 == 49 || niangz2 == -49)
+                    {
+                        comboBoxng.Text = gui; comboBoxnz.Text = chou;
+                    }
+                    //6jz
+                    else if (niangz2 == 50 || niangz2 == -50)
+                    {
+                        comboBoxng.Text = jia; comboBoxnz.Text = yin;
+                    }
+                    else if (niangz2 == 51 || niangz2 == -51)
+                    {
+                        comboBoxng.Text = yii; comboBoxnz.Text = mao;
+                    }
+                    else if (niangz2 == 52 || niangz2 == -52)
+                    {
+                        comboBoxng.Text = bing; comboBoxnz.Text = chen;
+                    }
+                    else if (niangz2 == 53 || niangz2 == -53)
+                    {
+                        comboBoxng.Text = ding; comboBoxnz.Text = sii;
+                    }
+                    else if (niangz2 == 54 || niangz2 == -54)
+                    {
+                        comboBoxng.Text = wuu; comboBoxnz.Text = wuma;
+                    }
+                    else if (niangz2 == 55 || niangz2 == -55)
+                    {
+                        comboBoxng.Text = jii; comboBoxnz.Text = wei;
+                    }
+                    else if (niangz2 == 56 || niangz2 == -56)
+                    {
+                        comboBoxng.Text = geng; comboBoxnz.Text = shen;
+                    }
+                    else if (niangz2 == 57 || niangz2 == -57)
+                    {
+                        comboBoxng.Text = xin; comboBoxnz.Text = you;
+                    }
+                    else if (niangz2 == 58 || niangz2 == -58)
+                    {
+                        comboBoxng.Text = ren; comboBoxnz.Text = xuu;
+                    }
+                    else if (niangz2 == 59 || niangz2 == -59)
+                    {
+                        comboBoxng.Text = gui; comboBoxnz.Text = hai;
+                    }
+
+                }
+                //月干支
+                if (jia == jia)
+                {
+
+                    //月支
+                    int month = mothtimeint;
+                    if (month == 1)
+                    {
+                        comboBoxyz.Text = yin;
+                    }
+                    if (month == 2)
+                    {
+                        comboBoxyz.Text = mao;
+                    }
+                    if (month == 3)
+                    {
+                        comboBoxyz.Text = chen;
+                    }
+                    if (month == 4)
+                    {
+                        comboBoxyz.Text = sii;
+                    }
+                    if (month == 5)
+                    {
+                        comboBoxyz.Text = wuma;
+                    }
+                    if (month == 6)
+                    {
+                        comboBoxyz.Text = wei;
+                    }
+                    if (month == 7)
+                    {
+                        comboBoxyz.Text = shen;
+                    }
+                    if (month == 8)
+                    {
+                        comboBoxyz.Text = you;
+                    }
+                    if (month == 9)
+                    {
+                        comboBoxyz.Text = xuu;
+                    }
+                    if (month == 10)
+                    {
+                        comboBoxyz.Text = hai;
+                    }
+                    if (month == 11)
+                    {
+                        comboBoxyz.Text = zii;
+                    }
+                    if (month == 12)
+                    {
+                        comboBoxyz.Text = chou;
+                    }
+
+                    //月天干
+                    if (comboBoxng.Text == jia || comboBoxng.Text == jii)
+                    {
+                        if (comboBoxyz.Text == yin)
+                        {
+                            comboBoxyg.Text = bing;
+                        }
+                        if (comboBoxyz.Text == mao)
+                        {
+                            comboBoxyg.Text = ding;
+                        }
+                        if (comboBoxyz.Text == chen)
+                        {
+                            comboBoxyg.Text = wuu;
+                        }
+                        if (comboBoxyz.Text == sii)
+                        {
+                            comboBoxyg.Text = jii;
+                        }
+                        if (comboBoxyz.Text == wuma)
+                        {
+                            comboBoxyg.Text = geng;
+                        }
+                        if (comboBoxyz.Text == wei)
+                        {
+                            comboBoxyg.Text = xin;
+                        }
+                        if (comboBoxyz.Text == shen)
+                        {
+                            comboBoxyg.Text = ren;
+                        }
+                        if (comboBoxyz.Text == you)
+                        {
+                            comboBoxyg.Text = gui;
+                        }
+                        if (comboBoxyz.Text == xuu)
+                        {
+                            comboBoxyg.Text = jia;
+                        }
+                        if (comboBoxyz.Text == hai)
+                        {
+                            comboBoxyg.Text = yii;
+                        }
+                        if (comboBoxyz.Text == zii)
+                        {
+                            comboBoxyg.Text = bing;
+                        }
+                        if (comboBoxyz.Text == chou)
+                        {
+                            comboBoxyg.Text = ding;
+                        }
+                    }
+                    if (comboBoxng.Text == yii || comboBoxng.Text == geng)
+                    {
+                        if (comboBoxyz.Text == yin)
+                        {
+                            comboBoxyg.Text = wuu;
+                        }
+                        if (comboBoxyz.Text == mao)
+                        {
+                            comboBoxyg.Text = jii;
+                        }
+                        if (comboBoxyz.Text == chen)
+                        {
+                            comboBoxyg.Text = geng;
+                        }
+                        if (comboBoxyz.Text == sii)
+                        {
+                            comboBoxyg.Text = xin;
+                        }
+                        if (comboBoxyz.Text == wuma)
+                        {
+                            comboBoxyg.Text = ren;
+                        }
+                        if (comboBoxyz.Text == wei)
+                        {
+                            comboBoxyg.Text = gui;
+                        }
+                        if (comboBoxyz.Text == shen)
+                        {
+                            comboBoxyg.Text = jia;
+                        }
+                        if (comboBoxyz.Text == you)
+                        {
+                            comboBoxyg.Text = yii;
+                        }
+                        if (comboBoxyz.Text == xuu)
+                        {
+                            comboBoxyg.Text = bing;
+                        }
+                        if (comboBoxyz.Text == hai)
+                        {
+                            comboBoxyg.Text = ding;
+                        }
+                        if (comboBoxyz.Text == zii)
+                        {
+                            comboBoxyg.Text = wuu;
+                        }
+                        if (comboBoxyz.Text == chou)
+                        {
+                            comboBoxyg.Text = jii;
+                        }
+                    }
+                    if (comboBoxng.Text == bing || comboBoxng.Text == xin)
+                    {
+                        if (comboBoxyz.Text == yin)
+                        {
+                            comboBoxyg.Text = geng;
+                        }
+                        if (comboBoxyz.Text == mao)
+                        {
+                            comboBoxyg.Text = xin;
+                        }
+                        if (comboBoxyz.Text == chen)
+                        {
+                            comboBoxyg.Text = ren;
+                        }
+                        if (comboBoxyz.Text == sii)
+                        {
+                            comboBoxyg.Text = gui;
+                        }
+                        if (comboBoxyz.Text == wuma)
+                        {
+                            comboBoxyg.Text = jia;
+                        }
+                        if (comboBoxyz.Text == wei)
+                        {
+                            comboBoxyg.Text = yii;
+                        }
+                        if (comboBoxyz.Text == shen)
+                        {
+                            comboBoxyg.Text = bing;
+                        }
+                        if (comboBoxyz.Text == you)
+                        {
+                            comboBoxyg.Text = ding;
+                        }
+                        if (comboBoxyz.Text == xuu)
+                        {
+                            comboBoxyg.Text = wuu;
+                        }
+                        if (comboBoxyz.Text == hai)
+                        {
+                            comboBoxyg.Text = jii;
+                        }
+                        if (comboBoxyz.Text == zii)
+                        {
+                            comboBoxyg.Text = geng;
+                        }
+                        if (comboBoxyz.Text == chou)
+                        {
+                            comboBoxyg.Text = xin;
+                        }
+                    }
+                    if (comboBoxng.Text == ding || comboBoxng.Text == ren)
+                    {
+                        if (comboBoxyz.Text == yin)
+                        {
+                            comboBoxyg.Text = ren;
+                        }
+                        if (comboBoxyz.Text == mao)
+                        {
+                            comboBoxyg.Text = gui;
+                        }
+                        if (comboBoxyz.Text == chen)
+                        {
+                            comboBoxyg.Text = jia;
+                        }
+                        if (comboBoxyz.Text == sii)
+                        {
+                            comboBoxyg.Text = yii;
+                        }
+                        if (comboBoxyz.Text == wuma)
+                        {
+                            comboBoxyg.Text = bing;
+                        }
+                        if (comboBoxyz.Text == wei)
+                        {
+                            comboBoxyg.Text = ding;
+                        }
+                        if (comboBoxyz.Text == shen)
+                        {
+                            comboBoxyg.Text = wuu;
+                        }
+                        if (comboBoxyz.Text == you)
+                        {
+                            comboBoxyg.Text = jii;
+                        }
+                        if (comboBoxyz.Text == xuu)
+                        {
+                            comboBoxyg.Text = geng;
+                        }
+                        if (comboBoxyz.Text == hai)
+                        {
+                            comboBoxyg.Text = xin;
+                        }
+                        if (comboBoxyz.Text == zii)
+                        {
+                            comboBoxyg.Text = ren;
+                        }
+                        if (comboBoxyz.Text == chou)
+                        {
+                            comboBoxyg.Text = gui;
+                        }
+                    }
+                    if (comboBoxng.Text == wuu || comboBoxng.Text == gui)
+                    {
+                        if (comboBoxyz.Text == yin)
+                        {
+                            comboBoxyg.Text = jia;
+                        }
+                        if (comboBoxyz.Text == mao)
+                        {
+                            comboBoxyg.Text = yii;
+                        }
+                        if (comboBoxyz.Text == chen)
+                        {
+                            comboBoxyg.Text = bing;
+                        }
+                        if (comboBoxyz.Text == sii)
+                        {
+                            comboBoxyg.Text = ding;
+                        }
+                        if (comboBoxyz.Text == wuma)
+                        {
+                            comboBoxyg.Text = wuu;
+                        }
+                        if (comboBoxyz.Text == wei)
+                        {
+                            comboBoxyg.Text = jii;
+                        }
+                        if (comboBoxyz.Text == shen)
+                        {
+                            comboBoxyg.Text = geng;
+                        }
+                        if (comboBoxyz.Text == you)
+                        {
+                            comboBoxyg.Text = xin;
+                        }
+                        if (comboBoxyz.Text == xuu)
+                        {
+                            comboBoxyg.Text = ren;
+                        }
+                        if (comboBoxyz.Text == hai)
+                        {
+                            comboBoxyg.Text = gui;
+                        }
+                        if (comboBoxyz.Text == zii)
+                        {
+                            comboBoxyg.Text = jia;
+                        }
+                        if (comboBoxyz.Text == chou)
+                        {
+                            comboBoxyg.Text = yii;
+                        }
+                    }
+
+                }
+                //日干支
+                if (jia == jia)
+                {
+                    //计算过去了多少天
+                    //DateTime shijian = nonglli.ToDateTime(yeartimeint, mothtimeint, daytimeint, 0, 0, 0, 0);
+                    //string gonglitime = shijian.ToString();
+                    //string year = gonglitime.Substring(0,4);
+                    //string month = gonglitime.Substring(4, 2);
+                    //string day = gonglitime.Substring(7, 2);
+                    //linkLabelxy.Text = day;
+                    //int yratint = int.Parse(year);
+                    //int monthint = int.Parse(month);
+                    //int dayint = int.Parse(day);
+                    //int yeartimeint2 = yearint;
+                    //int yeartimeint3 = yearint;
+                    //int yeartimeint4 = yearint;
+                    //int guoquleduoshaotian = yearint * 365;
+                    int runnian = 0;
+                    int zongtianshu = 738894;
+
+                    //计算闰年
+                    //while (yeartimeint2 >= 4)
+                    //{
+                    //    yeartimeint2 -= 4; runnian += 1;
+                    //}
+                    //while (yeartimeint3 >= 100)
+                    //{
+                    //    yeartimeint3 -= 100; runnian -= 1;
+                    //}
+                    //while (yeartimeint4 >= 400)
+                    //{
+                    //    yeartimeint4 -= 400; runnian += 1;
+                    //}
+
+                    //一年中过去了多少天
+                    //int mothtimeint2 = mothtimeint;
+                    //if (mothtimeint == 1)
+                    //{
+                    //    mothtimeint2 = 0;
+                    //}
+                    //else if (mothtimeint == 2)
+                    //{
+                    //    mothtimeint2 = 31;
+                    //}
+                    //else if (mothtimeint == 3)
+                    //{
+                    //    mothtimeint2 = 59;
+                    //}
+                    //else if (mothtimeint == 4)
+                    //{
+                    //    mothtimeint2 = 90;
+                    //}
+                    //else if (mothtimeint == 5)
+                    //{
+                    //    mothtimeint2 = 120;
+                    //}
+                    //else if (mothtimeint == 6)
+                    //{
+                    //    mothtimeint2 = 151;
+                    //}
+                    //else if (mothtimeint == 7)
+                    //{
+                    //    mothtimeint2 = 181;
+                    //}
+                    //else if (mothtimeint == 8)
+                    //{
+                    //    mothtimeint2 = 212;
+                    //}
+                    //else if (mothtimeint == 9)
+                    //{
+                    //    mothtimeint2 = 243;
+                    //}
+                    //else if (mothtimeint == 10)
+                    //{
+                    //    mothtimeint2 = 273;
+                    //}
+                    //else if (mothtimeint == 11)
+                    //{
+                    //    mothtimeint2 = 304;
+                    //}
+                    //else if (mothtimeint == 12)
+                    //{
+                    //    mothtimeint2 = 334;
+                    //}
+                    ////把时间叠加
+                    //int jinrigzshu = guoquleduoshaotian + mothtimeint2 + daytimeint + runnian + yeartimeint2;
+                    //int jinrigzshu1 = 0;
+                    //int jinrigzshu2 = 0;
+
+                    ////计算与甲子日的差
+                    //if (jinrigzshu <= zongtianshu)
+                    //{
+                    //    jinrigzshu1 = zongtianshu - jinrigzshu;
+                    //}
+
+                    //if (jinrigzshu > zongtianshu)
+                    //{
+                    //    jinrigzshu1 = jinrigzshu - zongtianshu;
+                    //}
+
+                    //jinrigzshu2 = jinrigzshu1;
+                    //while (jinrigzshu2 > 60)
+                    //{
+                    //    jinrigzshu2 -= 60;
+                    //}
+                    //while (jinrigzshu2 < 0)
+                    //{
+                    //    jinrigzshu2 += 60;
+                    //}
+
+                    ////查六十甲子表
+                    //if (jinrigzshu2 == 0 || jinrigzshu2 == 60 || jinrigzshu2 == -60)
+                    //{
+                    //    comboBoxrg.Text = jia; comboBoxrz.Text = zii;
+                    //}
+                    //else if (jinrigzshu2 == 1 || jinrigzshu2 == -1)
+                    //{
+                    //    comboBoxrg.Text = yii; comboBoxrz.Text = chou;
+                    //}
+                    //else if (jinrigzshu2 == 2 || jinrigzshu2 == -2)
+                    //{
+                    //    comboBoxrg.Text = bing; comboBoxrz.Text = yin;
+                    //}
+                    //else if (jinrigzshu2 == 3 || jinrigzshu2 == -3)
+                    //{
+                    //    comboBoxrg.Text = ding; comboBoxrz.Text = mao;
+                    //}
+                    //else if (jinrigzshu2 == 4 || jinrigzshu2 == -4)
+                    //{
+                    //    comboBoxrg.Text = wuu; comboBoxrz.Text = chen;
+                    //}
+                    //else if (jinrigzshu2 == 5 || jinrigzshu2 == -5)
+                    //{
+                    //    comboBoxrg.Text = jii; comboBoxrz.Text = sii;
+                    //}
+                    //else if (jinrigzshu2 == 6 || jinrigzshu2 == -6)
+                    //{
+                    //    comboBoxrg.Text = geng; comboBoxrz.Text = wuma;
+                    //}
+                    //else if (jinrigzshu2 == 7 || jinrigzshu2 == -7)
+                    //{
+                    //    comboBoxrg.Text = xin; comboBoxrz.Text = wei;
+                    //}
+                    //else if (jinrigzshu2 == 8 || jinrigzshu2 == -8)
+                    //{
+                    //    comboBoxrg.Text = ren; comboBoxrz.Text = shen;
+                    //}
+                    //else if (jinrigzshu2 == 9 || jinrigzshu2 == -9)
+                    //{
+                    //    comboBoxrg.Text = gui; comboBoxrz.Text = you;
+                    //}
+                    ////2jz
+                    //else if (jinrigzshu2 == 10 || jinrigzshu2 == -10)
+                    //{
+                    //    comboBoxrg.Text = jia; comboBoxrz.Text = xuu;
+                    //}
+                    //else if (jinrigzshu2 == 11 || jinrigzshu2 == -11)
+                    //{
+                    //    comboBoxrg.Text = yii; comboBoxrz.Text = hai;
+                    //}
+                    //else if (jinrigzshu2 == 12 || jinrigzshu2 == -12)
+                    //{
+                    //    comboBoxrg.Text = bing; comboBoxrz.Text = zii;
+                    //}
+                    //else if (jinrigzshu2 == 13 || jinrigzshu2 == -13)
+                    //{
+                    //    comboBoxrg.Text = ding; comboBoxrz.Text = chou;
+                    //}
+                    //else if (jinrigzshu2 == 14 || jinrigzshu2 == -14)
+                    //{
+                    //    comboBoxrg.Text = wuu; comboBoxrz.Text = yin;
+                    //}
+                    //else if (jinrigzshu2 == 15 || jinrigzshu2 == -15)
+                    //{
+                    //    comboBoxrg.Text = jii; comboBoxrz.Text = mao;
+                    //}
+                    //else if (jinrigzshu2 == 16 || jinrigzshu2 == -16)
+                    //{
+                    //    comboBoxrg.Text = geng; comboBoxrz.Text = chen;
+                    //}
+                    //else if (jinrigzshu2 == 17 || jinrigzshu2 == -17)
+                    //{
+                    //    comboBoxrg.Text = xin; comboBoxrz.Text = sii;
+                    //}
+                    //else if (jinrigzshu2 == 18 || jinrigzshu2 == -18)
+                    //{
+                    //    comboBoxrg.Text = ren; comboBoxrz.Text = wuma;
+                    //}
+                    //else if (jinrigzshu2 == 19 || jinrigzshu2 == -19)
+                    //{
+                    //    comboBoxrg.Text = gui; comboBoxrz.Text = wei;
+                    //}
+                    ////3jz
+                    //else if (jinrigzshu2 == 20 || jinrigzshu2 == -20)
+                    //{
+                    //    comboBoxrg.Text = jia; comboBoxrz.Text = shen;
+                    //}
+                    //else if (jinrigzshu2 == 21 || jinrigzshu2 == -21)
+                    //{
+                    //    comboBoxrg.Text = yii; comboBoxrz.Text = you;
+                    //}
+                    //else if (jinrigzshu2 == 22 || jinrigzshu2 == -22)
+                    //{
+                    //    comboBoxrg.Text = bing; comboBoxrz.Text = xuu;
+                    //}
+                    //else if (jinrigzshu2 == 23 || jinrigzshu2 == -23)
+                    //{
+                    //    comboBoxrg.Text = ding; comboBoxrz.Text = hai;
+                    //}
+                    //else if (jinrigzshu2 == 24 || jinrigzshu2 == -24)
+                    //{
+                    //    comboBoxrg.Text = wuu; comboBoxrz.Text = zii;
+                    //}
+                    //else if (jinrigzshu2 == 25 || jinrigzshu2 == -25)
+                    //{
+                    //    comboBoxrg.Text = jii; comboBoxrz.Text = chou;
+                    //}
+                    //else if (jinrigzshu2 == 26 || jinrigzshu2 == -26)
+                    //{
+                    //    comboBoxrg.Text = geng; comboBoxrz.Text = yin;
+                    //}
+                    //else if (jinrigzshu2 == 27 || jinrigzshu2 == -27)
+                    //{
+                    //    comboBoxrg.Text = xin; comboBoxrz.Text = mao;
+                    //}
+                    //else if (jinrigzshu2 == 28 || jinrigzshu2 == -28)
+                    //{
+                    //    comboBoxrg.Text = ren; comboBoxrz.Text = chen;
+                    //}
+                    //else if (jinrigzshu2 == 29 || jinrigzshu2 == -29)
+                    //{
+                    //    comboBoxrg.Text = gui; comboBoxrz.Text = sii;
+                    //}
+                    ////4jz
+                    //else if (jinrigzshu2 == 30 || jinrigzshu2 == -30)
+                    //{
+                    //    comboBoxrg.Text = jia; comboBoxrz.Text = wuma;
+                    //}
+                    //else if (jinrigzshu2 == 31 || jinrigzshu2 == -31)
+                    //{
+                    //    comboBoxrg.Text = yii; comboBoxrz.Text = wei;
+                    //}
+                    //else if (jinrigzshu2 == 32 || jinrigzshu2 == -32)
+                    //{
+                    //    comboBoxrg.Text = bing; comboBoxrz.Text = shen;
+                    //}
+                    //else if (jinrigzshu2 == 33 || jinrigzshu2 == -33)
+                    //{
+                    //    comboBoxrg.Text = ding; comboBoxrz.Text = you;
+                    //}
+                    //else if (jinrigzshu2 == 34 || jinrigzshu2 == -34)
+                    //{
+                    //    comboBoxrg.Text = wuu; comboBoxrz.Text = xuu;
+                    //}
+                    //else if (jinrigzshu2 == 35 || jinrigzshu2 == -35)
+                    //{
+                    //    comboBoxrg.Text = jii; comboBoxrz.Text = hai;
+                    //}
+                    //else if (jinrigzshu2 == 36 || jinrigzshu2 == -36)
+                    //{
+                    //    comboBoxrg.Text = geng; comboBoxrz.Text = zii;
+                    //}
+                    //else if (jinrigzshu2 == 37 || jinrigzshu2 == -37)
+                    //{
+                    //    comboBoxrg.Text = xin; comboBoxrz.Text = chou;
+                    //}
+                    //else if (jinrigzshu2 == 38 || jinrigzshu2 == -38)
+                    //{
+                    //    comboBoxrg.Text = ren; comboBoxrz.Text = yin;
+                    //}
+                    //else if (jinrigzshu2 == 39 || jinrigzshu2 == -39)
+                    //{
+                    //    comboBoxrg.Text = gui; comboBoxrz.Text = mao;
+                    //}
+                    ////5jz
+                    //else if (jinrigzshu2 == 40 || jinrigzshu2 == -40)
+                    //{
+                    //    comboBoxrg.Text = jia; comboBoxrz.Text = chen;
+                    //}
+                    //else if (jinrigzshu2 == 41 || jinrigzshu2 == -41)
+                    //{
+                    //    comboBoxrg.Text = yii; comboBoxrz.Text = sii;
+                    //}
+                    //else if (jinrigzshu2 == 42 || jinrigzshu2 == -42)
+                    //{
+                    //    comboBoxrg.Text = bing; comboBoxrz.Text = wuma;
+                    //}
+                    //else if (jinrigzshu2 == 43 || jinrigzshu2 == -43)
+                    //{
+                    //    comboBoxrg.Text = ding; comboBoxrz.Text = wei;
+                    //}
+                    //else if (jinrigzshu2 == 44 || jinrigzshu2 == -44)
+                    //{
+                    //    comboBoxrg.Text = wuu; comboBoxrz.Text = shen;
+                    //}
+                    //else if (jinrigzshu2 == 45 || jinrigzshu2 == -45)
+                    //{
+                    //    comboBoxrg.Text = jii; comboBoxrz.Text = you;
+                    //}
+                    //else if (jinrigzshu2 == 46 || jinrigzshu2 == -46)
+                    //{
+                    //    comboBoxrg.Text = geng; comboBoxrz.Text = xuu;
+                    //}
+                    //else if (jinrigzshu2 == 47 || jinrigzshu2 == -47)
+                    //{
+                    //    comboBoxrg.Text = xin; comboBoxrz.Text = hai;
+                    //}
+                    //else if (jinrigzshu2 == 48 || jinrigzshu2 == -48)
+                    //{
+                    //    comboBoxrg.Text = ren; comboBoxrz.Text = zii;
+                    //}
+                    //else if (jinrigzshu2 == 49 || jinrigzshu2 == -49)
+                    //{
+                    //    comboBoxrg.Text = gui; comboBoxrz.Text = chou;
+                    //}
+                    ////6jz
+                    //else if (jinrigzshu2 == 50 || jinrigzshu2 == -50)
+                    //{
+                    //    comboBoxrg.Text = jia; comboBoxrz.Text = yin;
+                    //}
+                    //else if (jinrigzshu2 == 51 || jinrigzshu2 == -51)
+                    //{
+                    //    comboBoxrg.Text = yii; comboBoxrz.Text = mao;
+                    //}
+                    //else if (jinrigzshu2 == 52 || jinrigzshu2 == -52)
+                    //{
+                    //    comboBoxrg.Text = bing; comboBoxrz.Text = chen;
+                    //}
+                    //else if (jinrigzshu2 == 53 || jinrigzshu2 == -53)
+                    //{
+                    //    comboBoxrg.Text = ding; comboBoxrz.Text = sii;
+                    //}
+                    //else if (jinrigzshu2 == 54 || jinrigzshu2 == -54)
+                    //{
+                    //    comboBoxrg.Text = wuu; comboBoxrz.Text = wuma;
+                    //}
+                    //else if (jinrigzshu2 == 55 || jinrigzshu2 == -55)
+                    //{
+                    //    comboBoxrg.Text = jii; comboBoxrz.Text = wei;
+                    //}
+                    //else if (jinrigzshu2 == 56 || jinrigzshu2 == -56)
+                    //{
+                    //    comboBoxrg.Text = geng; comboBoxrz.Text = shen;
+                    //}
+                    //else if (jinrigzshu2 == 57 || jinrigzshu2 == -57)
+                    //{
+                    //    comboBoxrg.Text = xin; comboBoxrz.Text = you;
+                    //}
+                    //else if (jinrigzshu2 == 58 || jinrigzshu2 == -58)
+                    //{
+                    //    comboBoxrg.Text = ren; comboBoxrz.Text = xuu;
+                    //}
+                    //else if (jinrigzshu2 == 59 || jinrigzshu2 == -59)
+                    //{
+                    //    comboBoxrg.Text = gui; comboBoxrz.Text = hai;
+                    //}
+
+                }
+                //时干支
+                if (jia == jia)
+                {
+                    if (hourtimeint == 0 || hourtimeint == 23)
+                    {
+                        comboBoxsz.Text = zii;
+                    }
+                    if (hourtimeint == 1 || hourtimeint == 2)
+                    {
+                        comboBoxsz.Text = chou;
+                    }
+                    if (hourtimeint == 3 || hourtimeint == 4)
+                    {
+                        comboBoxsz.Text = yin;
+                    }
+                    if (hourtimeint == 5 || hourtimeint == 6)
+                    {
+                        comboBoxsz.Text = mao;
+                    }
+                    if (hourtimeint == 7 || hourtimeint == 8)
+                    {
+                        comboBoxsz.Text = chen;
+                    }
+                    if (hourtimeint == 9 || hourtimeint == 10)
+                    {
+                        comboBoxsz.Text = sii;
+                    }
+                    if (hourtimeint == 11 || hourtimeint == 12)
+                    {
+                        comboBoxsz.Text = wuma;
+                    }
+                    if (hourtimeint == 13 || hourtimeint == 14)
+                    {
+                        comboBoxsz.Text = wei;
+                    }
+                    if (hourtimeint == 15 || hourtimeint == 16)
+                    {
+                        comboBoxsz.Text = shen;
+                    }
+                    if (hourtimeint == 17 || hourtimeint == 18)
+                    {
+                        comboBoxsz.Text = you;
+                    }
+                    if (hourtimeint == 19 || hourtimeint == 20)
+                    {
+                        comboBoxsz.Text = xuu;
+                    }
+                    if (hourtimeint == 21 || hourtimeint == 22)
+                    {
+                        comboBoxsz.Text = hai;
+                    }
+
+                    if (comboBoxrg.Text == jia || comboBoxrg.Text == jii)
+                    {
+                        if (comboBoxsz.Text == zii)
+                        {
+                            comboBoxsg.Text = jia;
+                        }
+                        if (comboBoxsz.Text == chou)
+                        {
+                            comboBoxsg.Text = yii;
+                        }
+                        if (comboBoxsz.Text == yin)
+                        {
+                            comboBoxsg.Text = bing;
+                        }
+                        if (comboBoxsz.Text == mao)
+                        {
+                            comboBoxsg.Text = ding;
+                        }
+                        if (comboBoxsz.Text == chen)
+                        {
+                            comboBoxsg.Text = wuu;
+                        }
+                        if (comboBoxsz.Text == sii)
+                        {
+                            comboBoxsg.Text = jii;
+                        }
+                        if (comboBoxsz.Text == wuma)
+                        {
+                            comboBoxsg.Text = geng;
+                        }
+                        if (comboBoxsz.Text == wei)
+                        {
+                            comboBoxsg.Text = xin;
+                        }
+                        if (comboBoxsz.Text == shen)
+                        {
+                            comboBoxsg.Text = ren;
+                        }
+                        if (comboBoxsz.Text == you)
+                        {
+                            comboBoxsg.Text = gui;
+                        }
+                        if (comboBoxsz.Text == xuu)
+                        {
+                            comboBoxsg.Text = jia;
+                        }
+                        if (comboBoxsz.Text == hai)
+                        {
+                            comboBoxsg.Text = yii;
+                        }
+                    }
+                    if (comboBoxrg.Text == yii || comboBoxrg.Text == geng)
+                    {
+                        if (comboBoxsz.Text == zii)
+                        {
+                            comboBoxsg.Text = bing;
+                        }
+                        if (comboBoxsz.Text == chou)
+                        {
+                            comboBoxsg.Text = ding;
+                        }
+                        if (comboBoxsz.Text == yin)
+                        {
+                            comboBoxsg.Text = wuu;
+                        }
+                        if (comboBoxsz.Text == mao)
+                        {
+                            comboBoxsg.Text = jii;
+                        }
+                        if (comboBoxsz.Text == chen)
+                        {
+                            comboBoxsg.Text = geng;
+                        }
+                        if (comboBoxsz.Text == sii)
+                        {
+                            comboBoxsg.Text = xin;
+                        }
+                        if (comboBoxsz.Text == wuma)
+                        {
+                            comboBoxsg.Text = ren;
+                        }
+                        if (comboBoxsz.Text == wei)
+                        {
+                            comboBoxsg.Text = gui;
+                        }
+                        if (comboBoxsz.Text == shen)
+                        {
+                            comboBoxsg.Text = jia;
+                        }
+                        if (comboBoxsz.Text == you)
+                        {
+                            comboBoxsg.Text = yii;
+                        }
+                        if (comboBoxsz.Text == xuu)
+                        {
+                            comboBoxsg.Text = bing;
+                        }
+                        if (comboBoxsz.Text == hai)
+                        {
+                            comboBoxsg.Text = ding;
+                        }
+                    }
+                    if (comboBoxrg.Text == bing || comboBoxrg.Text == xin)
+                    {
+                        if (comboBoxsz.Text == zii)
+                        {
+                            comboBoxsg.Text = wuu;
+                        }
+                        if (comboBoxsz.Text == chou)
+                        {
+                            comboBoxsg.Text = jii;
+                        }
+                        if (comboBoxsz.Text == yin)
+                        {
+                            comboBoxsg.Text = geng;
+                        }
+                        if (comboBoxsz.Text == mao)
+                        {
+                            comboBoxsg.Text = xin;
+                        }
+                        if (comboBoxsz.Text == chen)
+                        {
+                            comboBoxsg.Text = ren;
+                        }
+                        if (comboBoxsz.Text == sii)
+                        {
+                            comboBoxsg.Text = gui;
+                        }
+                        if (comboBoxsz.Text == wuma)
+                        {
+                            comboBoxsg.Text = jia;
+                        }
+                        if (comboBoxsz.Text == wei)
+                        {
+                            comboBoxsg.Text = yii;
+                        }
+                        if (comboBoxsz.Text == shen)
+                        {
+                            comboBoxsg.Text = bing;
+                        }
+                        if (comboBoxsz.Text == you)
+                        {
+                            comboBoxsg.Text = ding;
+                        }
+                        if (comboBoxsz.Text == xuu)
+                        {
+                            comboBoxsg.Text = wuu;
+                        }
+                        if (comboBoxsz.Text == hai)
+                        {
+                            comboBoxsg.Text = jii;
+                        }
+                    }
+                    if (comboBoxrg.Text == ding || comboBoxrg.Text == ren)
+                    {
+                        if (comboBoxsz.Text == zii)
+                        {
+                            comboBoxsg.Text = geng;
+                        }
+                        if (comboBoxsz.Text == chou)
+                        {
+                            comboBoxsg.Text = xin;
+                        }
+                        if (comboBoxsz.Text == yin)
+                        {
+                            comboBoxsg.Text = ren;
+                        }
+                        if (comboBoxsz.Text == mao)
+                        {
+                            comboBoxsg.Text = gui;
+                        }
+                        if (comboBoxsz.Text == chen)
+                        {
+                            comboBoxsg.Text = jia;
+                        }
+                        if (comboBoxsz.Text == sii)
+                        {
+                            comboBoxsg.Text = yii;
+                        }
+                        if (comboBoxsz.Text == wuma)
+                        {
+                            comboBoxsg.Text = bing;
+                        }
+                        if (comboBoxsz.Text == wei)
+                        {
+                            comboBoxsg.Text = ding;
+                        }
+                        if (comboBoxsz.Text == shen)
+                        {
+                            comboBoxsg.Text = wuu;
+                        }
+                        if (comboBoxsz.Text == you)
+                        {
+                            comboBoxsg.Text = jii;
+                        }
+                        if (comboBoxsz.Text == xuu)
+                        {
+                            comboBoxsg.Text = geng;
+                        }
+                        if (comboBoxsz.Text == hai)
+                        {
+                            comboBoxsg.Text = xin;
+                        }
+                    }
+                    if (comboBoxrg.Text == wuu || comboBoxrg.Text == gui)
+                    {
+                        if (comboBoxsz.Text == zii)
+                        {
+                            comboBoxsg.Text = ren;
+                        }
+                        if (comboBoxsz.Text == chou)
+                        {
+                            comboBoxsg.Text = gui;
+                        }
+                        if (comboBoxsz.Text == yin)
+                        {
+                            comboBoxsg.Text = jia;
+                        }
+                        if (comboBoxsz.Text == mao)
+                        {
+                            comboBoxsg.Text = yii;
+                        }
+                        if (comboBoxsz.Text == chen)
+                        {
+                            comboBoxsg.Text = bing;
+                        }
+                        if (comboBoxsz.Text == sii)
+                        {
+                            comboBoxsg.Text = ding;
+                        }
+                        if (comboBoxsz.Text == wuma)
+                        {
+                            comboBoxsg.Text = wuu;
+                        }
+                        if (comboBoxsz.Text == wei)
+                        {
+                            comboBoxsg.Text = jii;
+                        }
+                        if (comboBoxsz.Text == shen)
+                        {
+                            comboBoxsg.Text = geng;
+                        }
+                        if (comboBoxsz.Text == you)
+                        {
+                            comboBoxsg.Text = xin;
+                        }
+                        if (comboBoxsz.Text == xuu)
+                        {
+                            comboBoxsg.Text = ren;
+                        }
+                        if (comboBoxsz.Text == hai)
+                        {
+                            comboBoxsg.Text = gui;
+                        }
+                    }
+
+                }
 
             }
             if (checkBox1.Checked == false)//公历月
             {
+                //取得用户输入的时间
+
+                int yeartimeint = (int)numericUpDownyear.Value;
+                int mothtimeint = (int)numericUpDownmonth.Value;
+                int daytimeint = (int)numericUpDownday.Value;
+                int hourtimeint = (int)numericUpDownhour.Value;
+                //取得农历月份
+                DateTime shijian = new DateTime(yeartimeint, mothtimeint, daytimeint);
+                ChineseLunisolarCalendar nonglli = new ChineseLunisolarCalendar();
+                int month = nonglli.GetMonth(shijian);
+                //年干支
+                if (jia == jia)
+                {
+                    int jz1984 = 1984;
+                    int niangz = yeartimeint;
+                    int niangz1 = 0;
+                    int niangz2 = 0;
+
+
+                    if (month == 12)
+                    {
+                        niangz -= 1;
+                    }
+
+                    if (niangz <= jz1984)
+                    {
+                        niangz1 = jz1984 - niangz;
+                    }
+
+                    if (niangz > jz1984)
+                    {
+                        niangz1 = niangz - jz1984;
+                    }
+
+                    niangz2 = niangz1;
+                    while (niangz2 > 60)
+                    {
+                        niangz2 -= 60;
+                    }
+                    while (niangz2 < 0)
+                    {
+                        niangz2 += 60;
+                    }
+
+
+                    //查六十甲子表
+                    if (niangz2 == 0 || niangz2 == 60 || niangz2 == -60)
+                    {
+                        comboBoxng.Text = jia; comboBoxnz.Text = zii;
+                    }
+                    else if (niangz2 == 1 || niangz2 == -1)
+                    {
+                        comboBoxng.Text = yii; comboBoxnz.Text = chou;
+                    }
+                    else if (niangz2 == 2 || niangz2 == -2)
+                    {
+                        comboBoxng.Text = bing; comboBoxnz.Text = yin;
+                    }
+                    else if (niangz2 == 3 || niangz2 == -3)
+                    {
+                        comboBoxng.Text = ding; comboBoxnz.Text = mao;
+                    }
+                    else if (niangz2 == 4 || niangz2 == -4)
+                    {
+                        comboBoxng.Text = wuu; comboBoxnz.Text = chen;
+                    }
+                    else if (niangz2 == 5 || niangz2 == -5)
+                    {
+                        comboBoxng.Text = jii; comboBoxnz.Text = sii;
+                    }
+                    else if (niangz2 == 6 || niangz2 == -6)
+                    {
+                        comboBoxng.Text = geng; comboBoxnz.Text = wuma;
+                    }
+                    else if (niangz2 == 7 || niangz2 == -7)
+                    {
+                        comboBoxng.Text = xin; comboBoxnz.Text = wei;
+                    }
+                    else if (niangz2 == 8 || niangz2 == -8)
+                    {
+                        comboBoxng.Text = ren; comboBoxnz.Text = shen;
+                    }
+                    else if (niangz2 == 9 || niangz2 == -9)
+                    {
+                        comboBoxng.Text = gui; comboBoxnz.Text = you;
+                    }
+                    //2jz
+                    else if (niangz2 == 10 || niangz2 == -10)
+                    {
+                        comboBoxng.Text = jia; comboBoxnz.Text = xuu;
+                    }
+                    else if (niangz2 == 11 || niangz2 == -11)
+                    {
+                        comboBoxng.Text = yii; comboBoxnz.Text = hai;
+                    }
+                    else if (niangz2 == 12 || niangz2 == -12)
+                    {
+                        comboBoxng.Text = bing; comboBoxnz.Text = zii;
+                    }
+                    else if (niangz2 == 13 || niangz2 == -13)
+                    {
+                        comboBoxng.Text = ding; comboBoxnz.Text = chou;
+                    }
+                    else if (niangz2 == 14 || niangz2 == -14)
+                    {
+                        comboBoxng.Text = wuu; comboBoxnz.Text = yin;
+                    }
+                    else if (niangz2 == 15 || niangz2 == -15)
+                    {
+                        comboBoxng.Text = jii; comboBoxnz.Text = mao;
+                    }
+                    else if (niangz2 == 16 || niangz2 == -16)
+                    {
+                        comboBoxng.Text = geng; comboBoxnz.Text = chen;
+                    }
+                    else if (niangz2 == 17 || niangz2 == -17)
+                    {
+                        comboBoxng.Text = xin; comboBoxnz.Text = sii;
+                    }
+                    else if (niangz2 == 18 || niangz2 == -18)
+                    {
+                        comboBoxng.Text = ren; comboBoxnz.Text = wuma;
+                    }
+                    else if (niangz2 == 19 || niangz2 == -19)
+                    {
+                        comboBoxng.Text = gui; comboBoxnz.Text = wei;
+                    }
+                    //3jz
+                    else if (niangz2 == 20 || niangz2 == -20)
+                    {
+                        comboBoxng.Text = jia; comboBoxnz.Text = shen;
+                    }
+                    else if (niangz2 == 21 || niangz2 == -21)
+                    {
+                        comboBoxng.Text = yii; comboBoxnz.Text = you;
+                    }
+                    else if (niangz2 == 22 || niangz2 == -22)
+                    {
+                        comboBoxng.Text = bing; comboBoxnz.Text = xuu;
+                    }
+                    else if (niangz2 == 23 || niangz2 == -23)
+                    {
+                        comboBoxng.Text = ding; comboBoxnz.Text = hai;
+                    }
+                    else if (niangz2 == 24 || niangz2 == -24)
+                    {
+                        comboBoxng.Text = wuu; comboBoxnz.Text = zii;
+                    }
+                    else if (niangz2 == 25 || niangz2 == -25)
+                    {
+                        comboBoxng.Text = jii; comboBoxnz.Text = chou;
+                    }
+                    else if (niangz2 == 26 || niangz2 == -26)
+                    {
+                        comboBoxng.Text = geng; comboBoxnz.Text = yin;
+                    }
+                    else if (niangz2 == 27 || niangz2 == -27)
+                    {
+                        comboBoxng.Text = xin; comboBoxnz.Text = mao;
+                    }
+                    else if (niangz2 == 28 || niangz2 == -28)
+                    {
+                        comboBoxng.Text = ren; comboBoxnz.Text = chen;
+                    }
+                    else if (niangz2 == 29 || niangz2 == -29)
+                    {
+                        comboBoxng.Text = gui; comboBoxnz.Text = sii;
+                    }
+                    //4jz
+                    else if (niangz2 == 30 || niangz2 == -30)
+                    {
+                        comboBoxng.Text = jia; comboBoxnz.Text = wuma;
+                    }
+                    else if (niangz2 == 31 || niangz2 == -31)
+                    {
+                        comboBoxng.Text = yii; comboBoxnz.Text = wei;
+                    }
+                    else if (niangz2 == 32 || niangz2 == -32)
+                    {
+                        comboBoxng.Text = bing; comboBoxnz.Text = shen;
+                    }
+                    else if (niangz2 == 33 || niangz2 == -33)
+                    {
+                        comboBoxng.Text = ding; comboBoxnz.Text = you;
+                    }
+                    else if (niangz2 == 34 || niangz2 == -34)
+                    {
+                        comboBoxng.Text = wuu; comboBoxnz.Text = xuu;
+                    }
+                    else if (niangz2 == 35 || niangz2 == -35)
+                    {
+                        comboBoxng.Text = jii; comboBoxnz.Text = hai;
+                    }
+                    else if (niangz2 == 36 || niangz2 == -36)
+                    {
+                        comboBoxng.Text = geng; comboBoxnz.Text = zii;
+                    }
+                    else if (niangz2 == 37 || niangz2 == -37)
+                    {
+                        comboBoxng.Text = xin; comboBoxnz.Text = chou;
+                    }
+                    else if (niangz2 == 38 || niangz2 == -38)
+                    {
+                        comboBoxng.Text = ren; comboBoxnz.Text = yin;
+                    }
+                    else if (niangz2 == 39 || niangz2 == -39)
+                    {
+                        comboBoxng.Text = gui; comboBoxnz.Text = mao;
+                    }
+                    //5jz
+                    else if (niangz2 == 40 || niangz2 == -40)
+                    {
+                        comboBoxng.Text = jia; comboBoxnz.Text = chen;
+                    }
+                    else if (niangz2 == 41 || niangz2 == -41)
+                    {
+                        comboBoxng.Text = yii; comboBoxnz.Text = sii;
+                    }
+                    else if (niangz2 == 42 || niangz2 == -42)
+                    {
+                        comboBoxng.Text = bing; comboBoxnz.Text = wuma;
+                    }
+                    else if (niangz2 == 43 || niangz2 == -43)
+                    {
+                        comboBoxng.Text = ding; comboBoxnz.Text = wei;
+                    }
+                    else if (niangz2 == 44 || niangz2 == -44)
+                    {
+                        comboBoxng.Text = wuu; comboBoxnz.Text = shen;
+                    }
+                    else if (niangz2 == 45 || niangz2 == -45)
+                    {
+                        comboBoxng.Text = jii; comboBoxnz.Text = you;
+                    }
+                    else if (niangz2 == 46 || niangz2 == -46)
+                    {
+                        comboBoxng.Text = geng; comboBoxnz.Text = xuu;
+                    }
+                    else if (niangz2 == 47 || niangz2 == -47)
+                    {
+                        comboBoxng.Text = xin; comboBoxnz.Text = hai;
+                    }
+                    else if (niangz2 == 48 || niangz2 == -48)
+                    {
+                        comboBoxng.Text = ren; comboBoxnz.Text = zii;
+                    }
+                    else if (niangz2 == 49 || niangz2 == -49)
+                    {
+                        comboBoxng.Text = gui; comboBoxnz.Text = chou;
+                    }
+                    //6jz
+                    else if (niangz2 == 50 || niangz2 == -50)
+                    {
+                        comboBoxng.Text = jia; comboBoxnz.Text = yin;
+                    }
+                    else if (niangz2 == 51 || niangz2 == -51)
+                    {
+                        comboBoxng.Text = yii; comboBoxnz.Text = mao;
+                    }
+                    else if (niangz2 == 52 || niangz2 == -52)
+                    {
+                        comboBoxng.Text = bing; comboBoxnz.Text = chen;
+                    }
+                    else if (niangz2 == 53 || niangz2 == -53)
+                    {
+                        comboBoxng.Text = ding; comboBoxnz.Text = sii;
+                    }
+                    else if (niangz2 == 54 || niangz2 == -54)
+                    {
+                        comboBoxng.Text = wuu; comboBoxnz.Text = wuma;
+                    }
+                    else if (niangz2 == 55 || niangz2 == -55)
+                    {
+                        comboBoxng.Text = jii; comboBoxnz.Text = wei;
+                    }
+                    else if (niangz2 == 56 || niangz2 == -56)
+                    {
+                        comboBoxng.Text = geng; comboBoxnz.Text = shen;
+                    }
+                    else if (niangz2 == 57 || niangz2 == -57)
+                    {
+                        comboBoxng.Text = xin; comboBoxnz.Text = you;
+                    }
+                    else if (niangz2 == 58 || niangz2 == -58)
+                    {
+                        comboBoxng.Text = ren; comboBoxnz.Text = xuu;
+                    }
+                    else if (niangz2 == 59 || niangz2 == -59)
+                    {
+                        comboBoxng.Text = gui; comboBoxnz.Text = hai;
+                    }
+
+                }
+                //月干支
+                if (jia == jia)
+                {
+
+                    //月支
+
+                    if (month == 1)
+                    {
+                        comboBoxyz.Text = yin;
+                    }
+                    if (month == 2)
+                    {
+                        comboBoxyz.Text = mao;
+                    }
+                    if (month == 3)
+                    {
+                        comboBoxyz.Text = chen;
+                    }
+                    if (month == 4)
+                    {
+                        comboBoxyz.Text = sii;
+                    }
+                    if (month == 5)
+                    {
+                        comboBoxyz.Text = wuma;
+                    }
+                    if (month == 6)
+                    {
+                        comboBoxyz.Text = wei;
+                    }
+                    if (month == 7)
+                    {
+                        comboBoxyz.Text = shen;
+                    }
+                    if (month == 8)
+                    {
+                        comboBoxyz.Text = you;
+                    }
+                    if (month == 9)
+                    {
+                        comboBoxyz.Text = xuu;
+                    }
+                    if (month == 10)
+                    {
+                        comboBoxyz.Text = hai;
+                    }
+                    if (month == 11)
+                    {
+                        comboBoxyz.Text = zii;
+                    }
+                    if (month == 12)
+                    {
+                        comboBoxyz.Text = chou;
+                    }
+
+                    //月天干
+                    if (comboBoxng.Text == jia || comboBoxng.Text == jii)
+                    {
+                        if (comboBoxyz.Text == yin)
+                        {
+                            comboBoxyg.Text = bing;
+                        }
+                        if (comboBoxyz.Text == mao)
+                        {
+                            comboBoxyg.Text = ding;
+                        }
+                        if (comboBoxyz.Text == chen)
+                        {
+                            comboBoxyg.Text = wuu;
+                        }
+                        if (comboBoxyz.Text == sii)
+                        {
+                            comboBoxyg.Text = jii;
+                        }
+                        if (comboBoxyz.Text == wuma)
+                        {
+                            comboBoxyg.Text = geng;
+                        }
+                        if (comboBoxyz.Text == wei)
+                        {
+                            comboBoxyg.Text = xin;
+                        }
+                        if (comboBoxyz.Text == shen)
+                        {
+                            comboBoxyg.Text = ren;
+                        }
+                        if (comboBoxyz.Text == you)
+                        {
+                            comboBoxyg.Text = gui;
+                        }
+                        if (comboBoxyz.Text == xuu)
+                        {
+                            comboBoxyg.Text = jia;
+                        }
+                        if (comboBoxyz.Text == hai)
+                        {
+                            comboBoxyg.Text = yii;
+                        }
+                        if (comboBoxyz.Text == zii)
+                        {
+                            comboBoxyg.Text = bing;
+                        }
+                        if (comboBoxyz.Text == chou)
+                        {
+                            comboBoxyg.Text = ding;
+                        }
+                    }
+                    if (comboBoxng.Text == yii || comboBoxng.Text == geng)
+                    {
+                        if (comboBoxyz.Text == yin)
+                        {
+                            comboBoxyg.Text = wuu;
+                        }
+                        if (comboBoxyz.Text == mao)
+                        {
+                            comboBoxyg.Text = jii;
+                        }
+                        if (comboBoxyz.Text == chen)
+                        {
+                            comboBoxyg.Text = geng;
+                        }
+                        if (comboBoxyz.Text == sii)
+                        {
+                            comboBoxyg.Text = xin;
+                        }
+                        if (comboBoxyz.Text == wuma)
+                        {
+                            comboBoxyg.Text = ren;
+                        }
+                        if (comboBoxyz.Text == wei)
+                        {
+                            comboBoxyg.Text = gui;
+                        }
+                        if (comboBoxyz.Text == shen)
+                        {
+                            comboBoxyg.Text = jia;
+                        }
+                        if (comboBoxyz.Text == you)
+                        {
+                            comboBoxyg.Text = yii;
+                        }
+                        if (comboBoxyz.Text == xuu)
+                        {
+                            comboBoxyg.Text = bing;
+                        }
+                        if (comboBoxyz.Text == hai)
+                        {
+                            comboBoxyg.Text = ding;
+                        }
+                        if (comboBoxyz.Text == zii)
+                        {
+                            comboBoxyg.Text = wuu;
+                        }
+                        if (comboBoxyz.Text == chou)
+                        {
+                            comboBoxyg.Text = jii;
+                        }
+                    }
+                    if (comboBoxng.Text == bing || comboBoxng.Text == xin)
+                    {
+                        if (comboBoxyz.Text == yin)
+                        {
+                            comboBoxyg.Text = geng;
+                        }
+                        if (comboBoxyz.Text == mao)
+                        {
+                            comboBoxyg.Text = xin;
+                        }
+                        if (comboBoxyz.Text == chen)
+                        {
+                            comboBoxyg.Text = ren;
+                        }
+                        if (comboBoxyz.Text == sii)
+                        {
+                            comboBoxyg.Text = gui;
+                        }
+                        if (comboBoxyz.Text == wuma)
+                        {
+                            comboBoxyg.Text = jia;
+                        }
+                        if (comboBoxyz.Text == wei)
+                        {
+                            comboBoxyg.Text = yii;
+                        }
+                        if (comboBoxyz.Text == shen)
+                        {
+                            comboBoxyg.Text = bing;
+                        }
+                        if (comboBoxyz.Text == you)
+                        {
+                            comboBoxyg.Text = ding;
+                        }
+                        if (comboBoxyz.Text == xuu)
+                        {
+                            comboBoxyg.Text = wuu;
+                        }
+                        if (comboBoxyz.Text == hai)
+                        {
+                            comboBoxyg.Text = jii;
+                        }
+                        if (comboBoxyz.Text == zii)
+                        {
+                            comboBoxyg.Text = geng;
+                        }
+                        if (comboBoxyz.Text == chou)
+                        {
+                            comboBoxyg.Text = xin;
+                        }
+                    }
+                    if (comboBoxng.Text == ding || comboBoxng.Text == ren)
+                    {
+                        if (comboBoxyz.Text == yin)
+                        {
+                            comboBoxyg.Text = ren;
+                        }
+                        if (comboBoxyz.Text == mao)
+                        {
+                            comboBoxyg.Text = gui;
+                        }
+                        if (comboBoxyz.Text == chen)
+                        {
+                            comboBoxyg.Text = jia;
+                        }
+                        if (comboBoxyz.Text == sii)
+                        {
+                            comboBoxyg.Text = yii;
+                        }
+                        if (comboBoxyz.Text == wuma)
+                        {
+                            comboBoxyg.Text = bing;
+                        }
+                        if (comboBoxyz.Text == wei)
+                        {
+                            comboBoxyg.Text = ding;
+                        }
+                        if (comboBoxyz.Text == shen)
+                        {
+                            comboBoxyg.Text = wuu;
+                        }
+                        if (comboBoxyz.Text == you)
+                        {
+                            comboBoxyg.Text = jii;
+                        }
+                        if (comboBoxyz.Text == xuu)
+                        {
+                            comboBoxyg.Text = geng;
+                        }
+                        if (comboBoxyz.Text == hai)
+                        {
+                            comboBoxyg.Text = xin;
+                        }
+                        if (comboBoxyz.Text == zii)
+                        {
+                            comboBoxyg.Text = ren;
+                        }
+                        if (comboBoxyz.Text == chou)
+                        {
+                            comboBoxyg.Text = gui;
+                        }
+                    }
+                    if (comboBoxng.Text == wuu || comboBoxng.Text == gui)
+                    {
+                        if (comboBoxyz.Text == yin)
+                        {
+                            comboBoxyg.Text = jia;
+                        }
+                        if (comboBoxyz.Text == mao)
+                        {
+                            comboBoxyg.Text = yii;
+                        }
+                        if (comboBoxyz.Text == chen)
+                        {
+                            comboBoxyg.Text = bing;
+                        }
+                        if (comboBoxyz.Text == sii)
+                        {
+                            comboBoxyg.Text = ding;
+                        }
+                        if (comboBoxyz.Text == wuma)
+                        {
+                            comboBoxyg.Text = wuu;
+                        }
+                        if (comboBoxyz.Text == wei)
+                        {
+                            comboBoxyg.Text = jii;
+                        }
+                        if (comboBoxyz.Text == shen)
+                        {
+                            comboBoxyg.Text = geng;
+                        }
+                        if (comboBoxyz.Text == you)
+                        {
+                            comboBoxyg.Text = xin;
+                        }
+                        if (comboBoxyz.Text == xuu)
+                        {
+                            comboBoxyg.Text = ren;
+                        }
+                        if (comboBoxyz.Text == hai)
+                        {
+                            comboBoxyg.Text = gui;
+                        }
+                        if (comboBoxyz.Text == zii)
+                        {
+                            comboBoxyg.Text = jia;
+                        }
+                        if (comboBoxyz.Text == chou)
+                        {
+                            comboBoxyg.Text = yii;
+                        }
+                    }
+
+                }
+                //日干支
+                if (jia == jia)
+                {
+                    //计算过去了多少天
+                    int yeartimeint2 = yeartimeint;
+                    int yeartimeint3 = yeartimeint;
+                    int yeartimeint4 = yeartimeint;
+                    int guoquleduoshaotian = yeartimeint * 365;
+                    int runnian = 0;
+                    int zongtianshu = 738894;
+
+                    //计算闰年
+                    while (yeartimeint2 >= 4)
+                    {
+                        yeartimeint2 -= 4; runnian += 1;
+                    }
+                    while (yeartimeint3 >= 100)
+                    {
+                        yeartimeint3 -= 100; runnian -= 1;
+                    }
+                    while (yeartimeint4 >= 400)
+                    {
+                        yeartimeint4 -= 400; runnian += 1;
+                    }
+
+                    //一年中过去了多少天
+                    int mothtimeint2 = mothtimeint;
+                    if (mothtimeint == 1)
+                    {
+                        mothtimeint2 = 0;
+                    }
+                    else if (mothtimeint == 2)
+                    {
+                        mothtimeint2 = 31;
+                    }
+                    else if (mothtimeint == 3)
+                    {
+                        mothtimeint2 = 59;
+                    }
+                    else if (mothtimeint == 4)
+                    {
+                        mothtimeint2 = 90;
+                    }
+                    else if (mothtimeint == 5)
+                    {
+                        mothtimeint2 = 120;
+                    }
+                    else if (mothtimeint == 6)
+                    {
+                        mothtimeint2 = 151;
+                    }
+                    else if (mothtimeint == 7)
+                    {
+                        mothtimeint2 = 181;
+                    }
+                    else if (mothtimeint == 8)
+                    {
+                        mothtimeint2 = 212;
+                    }
+                    else if (mothtimeint == 9)
+                    {
+                        mothtimeint2 = 243;
+                    }
+                    else if (mothtimeint == 10)
+                    {
+                        mothtimeint2 = 273;
+                    }
+                    else if (mothtimeint == 11)
+                    {
+                        mothtimeint2 = 304;
+                    }
+                    else if (mothtimeint == 12)
+                    {
+                        mothtimeint2 = 334;
+                    }
+                    //把时间叠加
+                    int jinrigzshu = guoquleduoshaotian + mothtimeint2 + daytimeint + runnian + yeartimeint2;
+                    int jinrigzshu1 = 0;
+                    int jinrigzshu2 = 0;
+                    
+                    //计算与甲子日的差
+                    if (jinrigzshu <= zongtianshu)
+                    {
+                        jinrigzshu1 = zongtianshu - jinrigzshu;
+                    }
+
+                    if (jinrigzshu > zongtianshu)
+                    {
+                        jinrigzshu1 = jinrigzshu - zongtianshu;
+                    }
+
+                    jinrigzshu2 = jinrigzshu1;
+                    while (jinrigzshu2 > 60)
+                    {
+                        jinrigzshu2 -=  60;
+                    }
+                    while (jinrigzshu2 < 0)
+                    {
+                        jinrigzshu2 += 60;
+                    }
+                    
+                    //查六十甲子表
+                    if (jinrigzshu2 == 0 || jinrigzshu2 == 60 || jinrigzshu2 == -60)
+                    {
+                        comboBoxrg.Text = jia; comboBoxrz.Text = zii;
+                    }
+                    else if (jinrigzshu2 == 1 || jinrigzshu2 == -1)
+                    {
+                        comboBoxrg.Text = yii; comboBoxrz.Text = chou;
+                    }
+                    else if (jinrigzshu2 == 2 || jinrigzshu2 == -2)
+                    {
+                        comboBoxrg.Text = bing; comboBoxrz.Text = yin;
+                    }
+                    else if (jinrigzshu2 == 3 || jinrigzshu2 == -3)
+                    {
+                        comboBoxrg.Text = ding; comboBoxrz.Text = mao;
+                    }
+                    else if (jinrigzshu2 == 4 || jinrigzshu2 == -4)
+                    {
+                        comboBoxrg.Text = wuu; comboBoxrz.Text = chen;
+                    }
+                    else if (jinrigzshu2 == 5 || jinrigzshu2 == -5)
+                    {
+                        comboBoxrg.Text = jii; comboBoxrz.Text = sii;
+                    }
+                    else if (jinrigzshu2 == 6 || jinrigzshu2 == -6)
+                    {
+                        comboBoxrg.Text = geng; comboBoxrz.Text = wuma;
+                    }
+                    else if (jinrigzshu2 == 7 || jinrigzshu2 == -7)
+                    {
+                        comboBoxrg.Text = xin; comboBoxrz.Text = wei;
+                    }
+                    else if (jinrigzshu2 == 8 || jinrigzshu2 == -8)
+                    {
+                        comboBoxrg.Text = ren; comboBoxrz.Text = shen;
+                    }
+                    else if (jinrigzshu2 == 9 || jinrigzshu2 == -9)
+                    {
+                        comboBoxrg.Text = gui; comboBoxrz.Text = you;
+                    }
+                    //2jz
+                    else if (jinrigzshu2 == 10 || jinrigzshu2 == -10)
+                    {
+                        comboBoxrg.Text = jia; comboBoxrz.Text = xuu;
+                    }
+                    else if (jinrigzshu2 == 11 || jinrigzshu2 == -11)
+                    {
+                        comboBoxrg.Text = yii; comboBoxrz.Text = hai;
+                    }
+                    else if (jinrigzshu2 == 12 || jinrigzshu2 == -12)
+                    {
+                        comboBoxrg.Text = bing; comboBoxrz.Text = zii;
+                    }
+                    else if (jinrigzshu2 == 13 || jinrigzshu2 == -13)
+                    {
+                        comboBoxrg.Text = ding; comboBoxrz.Text = chou;
+                    }
+                    else if (jinrigzshu2 == 14 || jinrigzshu2 == -14)
+                    {
+                        comboBoxrg.Text = wuu; comboBoxrz.Text = yin;
+                    }
+                    else if (jinrigzshu2 == 15 || jinrigzshu2 == -15)
+                    {
+                        comboBoxrg.Text = jii; comboBoxrz.Text = mao;
+                    }
+                    else if (jinrigzshu2 == 16 || jinrigzshu2 == -16)
+                    {
+                        comboBoxrg.Text = geng; comboBoxrz.Text = chen;
+                    }
+                    else if (jinrigzshu2 == 17 || jinrigzshu2 == -17)
+                    {
+                        comboBoxrg.Text = xin; comboBoxrz.Text = sii;
+                    }
+                    else if (jinrigzshu2 == 18 || jinrigzshu2 == -18)
+                    {
+                        comboBoxrg.Text = ren; comboBoxrz.Text = wuma;
+                    }
+                    else if (jinrigzshu2 == 19 || jinrigzshu2 == -19)
+                    {
+                        comboBoxrg.Text = gui; comboBoxrz.Text = wei;
+                    }
+                    //3jz
+                    else if (jinrigzshu2 == 20 || jinrigzshu2 == -20)
+                    {
+                        comboBoxrg.Text = jia; comboBoxrz.Text = shen;
+                    }
+                    else if (jinrigzshu2 == 21 || jinrigzshu2 == -21)
+                    {
+                        comboBoxrg.Text = yii; comboBoxrz.Text = you;
+                    }
+                    else if (jinrigzshu2 == 22 || jinrigzshu2 == -22)
+                    {
+                        comboBoxrg.Text = bing; comboBoxrz.Text = xuu;
+                    }
+                    else if (jinrigzshu2 == 23 || jinrigzshu2 == -23)
+                    {
+                        comboBoxrg.Text = ding; comboBoxrz.Text = hai;
+                    }
+                    else if (jinrigzshu2 == 24 || jinrigzshu2 == -24)
+                    {
+                        comboBoxrg.Text = wuu; comboBoxrz.Text = zii;
+                    }
+                    else if (jinrigzshu2 == 25 || jinrigzshu2 == -25)
+                    {
+                        comboBoxrg.Text = jii; comboBoxrz.Text = chou;
+                    }
+                    else if (jinrigzshu2 == 26 || jinrigzshu2 == -26)
+                    {
+                        comboBoxrg.Text = geng; comboBoxrz.Text = yin;
+                    }
+                    else if (jinrigzshu2 == 27 || jinrigzshu2 == -27)
+                    {
+                        comboBoxrg.Text = xin; comboBoxrz.Text = mao;
+                    }
+                    else if (jinrigzshu2 == 28 || jinrigzshu2 == -28)
+                    {
+                        comboBoxrg.Text = ren; comboBoxrz.Text = chen;
+                    }
+                    else if (jinrigzshu2 == 29 || jinrigzshu2 == -29)
+                    {
+                        comboBoxrg.Text = gui; comboBoxrz.Text = sii;
+                    }
+                    //4jz
+                    else if (jinrigzshu2 == 30 || jinrigzshu2 == -30)
+                    {
+                        comboBoxrg.Text = jia; comboBoxrz.Text = wuma;
+                    }
+                    else if (jinrigzshu2 == 31 || jinrigzshu2 == -31)
+                    {
+                        comboBoxrg.Text = yii; comboBoxrz.Text = wei;
+                    }
+                    else if (jinrigzshu2 == 32 || jinrigzshu2 == -32)
+                    {
+                        comboBoxrg.Text = bing; comboBoxrz.Text = shen;
+                    }
+                    else if (jinrigzshu2 == 33 || jinrigzshu2 == -33)
+                    {
+                        comboBoxrg.Text = ding; comboBoxrz.Text = you;
+                    }
+                    else if (jinrigzshu2 == 34 || jinrigzshu2 == -34)
+                    {
+                        comboBoxrg.Text = wuu; comboBoxrz.Text = xuu;
+                    }
+                    else if (jinrigzshu2 == 35 || jinrigzshu2 == -35)
+                    {
+                        comboBoxrg.Text = jii; comboBoxrz.Text = hai;
+                    }
+                    else if (jinrigzshu2 == 36 || jinrigzshu2 == -36)
+                    {
+                        comboBoxrg.Text = geng; comboBoxrz.Text = zii;
+                    }
+                    else if (jinrigzshu2 == 37 || jinrigzshu2 == -37)
+                    {
+                        comboBoxrg.Text = xin; comboBoxrz.Text = chou;
+                    }
+                    else if (jinrigzshu2 == 38 || jinrigzshu2 == -38)
+                    {
+                        comboBoxrg.Text = ren; comboBoxrz.Text = yin;
+                    }
+                    else if (jinrigzshu2 == 39 || jinrigzshu2 == -39)
+                    {
+                        comboBoxrg.Text = gui; comboBoxrz.Text = mao;
+                    }
+                    //5jz
+                    else if (jinrigzshu2 == 40 || jinrigzshu2 == -40)
+                    {
+                        comboBoxrg.Text = jia; comboBoxrz.Text = chen;
+                    }
+                    else if (jinrigzshu2 == 41 || jinrigzshu2 == -41)
+                    {
+                        comboBoxrg.Text = yii; comboBoxrz.Text = sii;
+                    }
+                    else if (jinrigzshu2 == 42 || jinrigzshu2 == -42)
+                    {
+                        comboBoxrg.Text = bing; comboBoxrz.Text = wuma;
+                    }
+                    else if (jinrigzshu2 == 43 || jinrigzshu2 == -43)
+                    {
+                        comboBoxrg.Text = ding; comboBoxrz.Text = wei;
+                    }
+                    else if (jinrigzshu2 == 44 || jinrigzshu2 == -44)
+                    {
+                        comboBoxrg.Text = wuu; comboBoxrz.Text = shen;
+                    }
+                    else if (jinrigzshu2 == 45 || jinrigzshu2 == -45)
+                    {
+                        comboBoxrg.Text = jii; comboBoxrz.Text = you;
+                    }
+                    else if (jinrigzshu2 == 46 || jinrigzshu2 == -46)
+                    {
+                        comboBoxrg.Text = geng; comboBoxrz.Text = xuu;
+                    }
+                    else if (jinrigzshu2 == 47 || jinrigzshu2 == -47)
+                    {
+                        comboBoxrg.Text = xin; comboBoxrz.Text = hai;
+                    }
+                    else if (jinrigzshu2 == 48 || jinrigzshu2 == -48)
+                    {
+                        comboBoxrg.Text = ren; comboBoxrz.Text = zii;
+                    }
+                    else if (jinrigzshu2 == 49 || jinrigzshu2 == -49)
+                    {
+                        comboBoxrg.Text = gui; comboBoxrz.Text = chou;
+                    }
+                    //6jz
+                    else if (jinrigzshu2 == 50 || jinrigzshu2 == -50)
+                    {
+                        comboBoxrg.Text = jia; comboBoxrz.Text = yin;
+                    }
+                    else if (jinrigzshu2 == 51 || jinrigzshu2 == -51)
+                    {
+                        comboBoxrg.Text = yii; comboBoxrz.Text = mao;
+                    }
+                    else if (jinrigzshu2 == 52 || jinrigzshu2 == -52)
+                    {
+                        comboBoxrg.Text = bing; comboBoxrz.Text = chen;
+                    }
+                    else if (jinrigzshu2 == 53 || jinrigzshu2 == -53)
+                    {
+                        comboBoxrg.Text = ding; comboBoxrz.Text = sii;
+                    }
+                    else if (jinrigzshu2 == 54 || jinrigzshu2 == -54)
+                    {
+                        comboBoxrg.Text = wuu; comboBoxrz.Text = wuma;
+                    }
+                    else if (jinrigzshu2 == 55 || jinrigzshu2 == -55)
+                    {
+                        comboBoxrg.Text = jii; comboBoxrz.Text = wei;
+                    }
+                    else if (jinrigzshu2 == 56 || jinrigzshu2 == -56)
+                    {
+                        comboBoxrg.Text = geng; comboBoxrz.Text = shen;
+                    }
+                    else if (jinrigzshu2 == 57 || jinrigzshu2 == -57)
+                    {
+                        comboBoxrg.Text = xin; comboBoxrz.Text = you;
+                    }
+                    else if (jinrigzshu2 == 58 || jinrigzshu2 == -58)
+                    {
+                        comboBoxrg.Text = ren; comboBoxrz.Text = xuu;
+                    }
+                    else if (jinrigzshu2 == 59 || jinrigzshu2 == -59)
+                    {
+                        comboBoxrg.Text = gui; comboBoxrz.Text = hai;
+                    }
+
+                }
+                //时干支
+                if (jia == jia)
+                {
+                    if (hourtimeint == 0 || hourtimeint == 23)
+                    {
+                        comboBoxsz.Text = zii;
+                    }
+                    if (hourtimeint == 1 || hourtimeint == 2)
+                    {
+                        comboBoxsz.Text = chou;
+                    }
+                    if (hourtimeint == 3 || hourtimeint == 4)
+                    {
+                        comboBoxsz.Text = yin;
+                    }
+                    if (hourtimeint == 5 || hourtimeint == 6)
+                    {
+                        comboBoxsz.Text = mao;
+                    }
+                    if (hourtimeint == 7 || hourtimeint == 8)
+                    {
+                        comboBoxsz.Text = chen;
+                    }
+                    if (hourtimeint == 9 || hourtimeint == 10)
+                    {
+                        comboBoxsz.Text = sii;
+                    }
+                    if (hourtimeint == 11 || hourtimeint == 12)
+                    {
+                        comboBoxsz.Text = wuma;
+                    }
+                    if (hourtimeint == 13 || hourtimeint == 14)
+                    {
+                        comboBoxsz.Text = wei;
+                    }
+                    if (hourtimeint == 15 || hourtimeint == 16)
+                    {
+                        comboBoxsz.Text = shen;
+                    }
+                    if (hourtimeint == 17 || hourtimeint == 18)
+                    {
+                        comboBoxsz.Text = you;
+                    }
+                    if (hourtimeint == 19 || hourtimeint == 20)
+                    {
+                        comboBoxsz.Text = xuu;
+                    }
+                    if (hourtimeint == 21 || hourtimeint == 22)
+                    {
+                        comboBoxsz.Text = hai;
+                    }
+
+                    if (comboBoxrg.Text == jia || comboBoxrg.Text == jii)
+                    {
+                        if (comboBoxsz.Text == zii)
+                        {
+                            comboBoxsg.Text = jia;
+                        }
+                        if (comboBoxsz.Text == chou)
+                        {
+                            comboBoxsg.Text = yii;
+                        }
+                        if (comboBoxsz.Text == yin)
+                        {
+                            comboBoxsg.Text = bing;
+                        }
+                        if (comboBoxsz.Text == mao)
+                        {
+                            comboBoxsg.Text = ding;
+                        }
+                        if (comboBoxsz.Text == chen)
+                        {
+                            comboBoxsg.Text = wuu;
+                        }
+                        if (comboBoxsz.Text == sii)
+                        {
+                            comboBoxsg.Text = jii;
+                        }
+                        if (comboBoxsz.Text == wuma)
+                        {
+                            comboBoxsg.Text = geng;
+                        }
+                        if (comboBoxsz.Text == wei)
+                        {
+                            comboBoxsg.Text = xin;
+                        }
+                        if (comboBoxsz.Text == shen)
+                        {
+                            comboBoxsg.Text = ren;
+                        }
+                        if (comboBoxsz.Text == you)
+                        {
+                            comboBoxsg.Text = gui;
+                        }
+                        if (comboBoxsz.Text == xuu)
+                        {
+                            comboBoxsg.Text = jia;
+                        }
+                        if (comboBoxsz.Text == hai)
+                        {
+                            comboBoxsg.Text = yii;
+                        }
+                    }
+                    if (comboBoxrg.Text == yii || comboBoxrg.Text == geng)
+                    {
+                        if (comboBoxsz.Text == zii)
+                        {
+                            comboBoxsg.Text = bing;
+                        }
+                        if (comboBoxsz.Text == chou)
+                        {
+                            comboBoxsg.Text = ding;
+                        }
+                        if (comboBoxsz.Text == yin)
+                        {
+                            comboBoxsg.Text = wuu;
+                        }
+                        if (comboBoxsz.Text == mao)
+                        {
+                            comboBoxsg.Text = jii;
+                        }
+                        if (comboBoxsz.Text == chen)
+                        {
+                            comboBoxsg.Text = geng;
+                        }
+                        if (comboBoxsz.Text == sii)
+                        {
+                            comboBoxsg.Text = xin;
+                        }
+                        if (comboBoxsz.Text == wuma)
+                        {
+                            comboBoxsg.Text = ren;
+                        }
+                        if (comboBoxsz.Text == wei)
+                        {
+                            comboBoxsg.Text = gui;
+                        }
+                        if (comboBoxsz.Text == shen)
+                        {
+                            comboBoxsg.Text = jia;
+                        }
+                        if (comboBoxsz.Text == you)
+                        {
+                            comboBoxsg.Text = yii;
+                        }
+                        if (comboBoxsz.Text == xuu)
+                        {
+                            comboBoxsg.Text = bing;
+                        }
+                        if (comboBoxsz.Text == hai)
+                        {
+                            comboBoxsg.Text = ding;
+                        }
+                    }
+                    if (comboBoxrg.Text == bing || comboBoxrg.Text == xin)
+                    {
+                        if (comboBoxsz.Text == zii)
+                        {
+                            comboBoxsg.Text = wuu;
+                        }
+                        if (comboBoxsz.Text == chou)
+                        {
+                            comboBoxsg.Text = jii;
+                        }
+                        if (comboBoxsz.Text == yin)
+                        {
+                            comboBoxsg.Text = geng;
+                        }
+                        if (comboBoxsz.Text == mao)
+                        {
+                            comboBoxsg.Text = xin;
+                        }
+                        if (comboBoxsz.Text == chen)
+                        {
+                            comboBoxsg.Text = ren;
+                        }
+                        if (comboBoxsz.Text == sii)
+                        {
+                            comboBoxsg.Text = gui;
+                        }
+                        if (comboBoxsz.Text == wuma)
+                        {
+                            comboBoxsg.Text = jia;
+                        }
+                        if (comboBoxsz.Text == wei)
+                        {
+                            comboBoxsg.Text = yii;
+                        }
+                        if (comboBoxsz.Text == shen)
+                        {
+                            comboBoxsg.Text = bing;
+                        }
+                        if (comboBoxsz.Text == you)
+                        {
+                            comboBoxsg.Text = ding;
+                        }
+                        if (comboBoxsz.Text == xuu)
+                        {
+                            comboBoxsg.Text = wuu;
+                        }
+                        if (comboBoxsz.Text == hai)
+                        {
+                            comboBoxsg.Text = jii;
+                        }
+                    }
+                    if (comboBoxrg.Text == ding || comboBoxrg.Text == ren)
+                    {
+                        if (comboBoxsz.Text == zii)
+                        {
+                            comboBoxsg.Text = geng;
+                        }
+                        if (comboBoxsz.Text == chou)
+                        {
+                            comboBoxsg.Text = xin;
+                        }
+                        if (comboBoxsz.Text == yin)
+                        {
+                            comboBoxsg.Text = ren;
+                        }
+                        if (comboBoxsz.Text == mao)
+                        {
+                            comboBoxsg.Text = gui;
+                        }
+                        if (comboBoxsz.Text == chen)
+                        {
+                            comboBoxsg.Text = jia;
+                        }
+                        if (comboBoxsz.Text == sii)
+                        {
+                            comboBoxsg.Text = yii;
+                        }
+                        if (comboBoxsz.Text == wuma)
+                        {
+                            comboBoxsg.Text = bing;
+                        }
+                        if (comboBoxsz.Text == wei)
+                        {
+                            comboBoxsg.Text = ding;
+                        }
+                        if (comboBoxsz.Text == shen)
+                        {
+                            comboBoxsg.Text = wuu;
+                        }
+                        if (comboBoxsz.Text == you)
+                        {
+                            comboBoxsg.Text = jii;
+                        }
+                        if (comboBoxsz.Text == xuu)
+                        {
+                            comboBoxsg.Text = geng;
+                        }
+                        if (comboBoxsz.Text == hai)
+                        {
+                            comboBoxsg.Text = xin;
+                        }
+                    }
+                    if (comboBoxrg.Text == wuu || comboBoxrg.Text == gui)
+                    {
+                        if (comboBoxsz.Text == zii)
+                        {
+                            comboBoxsg.Text = ren;
+                        }
+                        if (comboBoxsz.Text == chou)
+                        {
+                            comboBoxsg.Text = gui;
+                        }
+                        if (comboBoxsz.Text == yin)
+                        {
+                            comboBoxsg.Text = jia;
+                        }
+                        if (comboBoxsz.Text == mao)
+                        {
+                            comboBoxsg.Text = yii;
+                        }
+                        if (comboBoxsz.Text == chen)
+                        {
+                            comboBoxsg.Text = bing;
+                        }
+                        if (comboBoxsz.Text == sii)
+                        {
+                            comboBoxsg.Text = ding;
+                        }
+                        if (comboBoxsz.Text == wuma)
+                        {
+                            comboBoxsg.Text = wuu;
+                        }
+                        if (comboBoxsz.Text == wei)
+                        {
+                            comboBoxsg.Text = jii;
+                        }
+                        if (comboBoxsz.Text == shen)
+                        {
+                            comboBoxsg.Text = geng;
+                        }
+                        if (comboBoxsz.Text == you)
+                        {
+                            comboBoxsg.Text = xin;
+                        }
+                        if (comboBoxsz.Text == xuu)
+                        {
+                            comboBoxsg.Text = ren;
+                        }
+                        if (comboBoxsz.Text == hai)
+                        {
+                            comboBoxsg.Text = gui;
+                        }
+                    }
+
+                }
+
+                //buttongz.Focus();
+                //buttongz_Click(this, new EventArgs());
 
             }
 
