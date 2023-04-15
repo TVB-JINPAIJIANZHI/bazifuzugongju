@@ -182,13 +182,9 @@
             this.linkLabel16 = new System.Windows.Forms.LinkLabel();
             this.linkLabel19 = new System.Windows.Forms.LinkLabel();
             this.button38 = new System.Windows.Forms.Button();
-            this.button39 = new System.Windows.Forms.Button();
             this.button40 = new System.Windows.Forms.Button();
-            this.button41 = new System.Windows.Forms.Button();
             this.button46 = new System.Windows.Forms.Button();
-            this.button50 = new System.Windows.Forms.Button();
             this.button51 = new System.Windows.Forms.Button();
-            this.button53 = new System.Windows.Forms.Button();
             this.button54 = new System.Windows.Forms.Button();
             this.linkLabelxy = new System.Windows.Forms.LinkLabel();
             this.linkLabeljy = new System.Windows.Forms.LinkLabel();
@@ -2038,17 +2034,6 @@
             this.button38.UseVisualStyleBackColor = true;
             this.button38.Click += new System.EventHandler(this.button38_Click);
             // 
-            // button39
-            // 
-            this.button39.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button39.Location = new System.Drawing.Point(1704, 875);
-            this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(29, 22);
-            this.button39.TabIndex = 181;
-            this.button39.Text = "上";
-            this.button39.UseVisualStyleBackColor = true;
-            this.button39.Click += new System.EventHandler(this.button39_Click);
-            // 
             // button40
             // 
             this.button40.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -2059,17 +2044,6 @@
             this.button40.Text = "下";
             this.button40.UseVisualStyleBackColor = true;
             this.button40.Click += new System.EventHandler(this.button40_Click);
-            // 
-            // button41
-            // 
-            this.button41.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button41.Location = new System.Drawing.Point(1757, 874);
-            this.button41.Name = "button41";
-            this.button41.Size = new System.Drawing.Size(29, 22);
-            this.button41.TabIndex = 183;
-            this.button41.Text = "上";
-            this.button41.UseVisualStyleBackColor = true;
-            this.button41.Click += new System.EventHandler(this.button41_Click);
             // 
             // button46
             // 
@@ -2082,17 +2056,6 @@
             this.button46.UseVisualStyleBackColor = true;
             this.button46.Click += new System.EventHandler(this.button46_Click);
             // 
-            // button50
-            // 
-            this.button50.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button50.Location = new System.Drawing.Point(1863, 874);
-            this.button50.Name = "button50";
-            this.button50.Size = new System.Drawing.Size(29, 22);
-            this.button50.TabIndex = 187;
-            this.button50.Text = "上";
-            this.button50.UseVisualStyleBackColor = true;
-            this.button50.Click += new System.EventHandler(this.button50_Click);
-            // 
             // button51
             // 
             this.button51.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -2103,17 +2066,6 @@
             this.button51.Text = "下";
             this.button51.UseVisualStyleBackColor = true;
             this.button51.Click += new System.EventHandler(this.button51_Click);
-            // 
-            // button53
-            // 
-            this.button53.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button53.Location = new System.Drawing.Point(1810, 874);
-            this.button53.Name = "button53";
-            this.button53.Size = new System.Drawing.Size(29, 22);
-            this.button53.TabIndex = 185;
-            this.button53.Text = "上";
-            this.button53.UseVisualStyleBackColor = true;
-            this.button53.Click += new System.EventHandler(this.button53_Click);
             // 
             // button54
             // 
@@ -2198,7 +2150,6 @@
             this.button59.TabIndex = 196;
             this.button59.Text = "时间排盘";
             this.button59.UseVisualStyleBackColor = true;
-            this.button59.Visible = false;
             this.button59.Click += new System.EventHandler(this.button59_Click);
             // 
             // checkBox1
@@ -2213,7 +2164,6 @@
             this.checkBox1.TabIndex = 197;
             this.checkBox1.Text = "农历";
             this.checkBox1.UseVisualStyleBackColor = false;
-            this.checkBox1.Visible = false;
             // 
             // numericUpDownyear
             // 
@@ -2315,13 +2265,9 @@
             this.Controls.Add(this.linkLabelxy);
             this.Controls.Add(this.button54);
             this.Controls.Add(this.button46);
-            this.Controls.Add(this.button50);
             this.Controls.Add(this.button51);
-            this.Controls.Add(this.button53);
             this.Controls.Add(this.button40);
-            this.Controls.Add(this.button41);
             this.Controls.Add(this.button38);
-            this.Controls.Add(this.button39);
             this.Controls.Add(this.linkLabel7);
             this.Controls.Add(this.linkLabel14);
             this.Controls.Add(this.linkLabel16);
@@ -2476,7 +2422,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "八字辅助工具v12.3-杜净隆 作品";
+            this.Text = "八字辅助工具v13.2-杜净隆 作品";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownyear)).EndInit();
@@ -2642,13 +2588,9 @@
         private LinkLabel linkLabel16;
         private LinkLabel linkLabel19;
         private Button button38;
-        private Button button39;
         private Button button40;
-        private Button button41;
         private Button button46;
-        private Button button50;
         private Button button51;
-        private Button button53;
         private Button button54;
         private LinkLabel linkLabelxy;
         private LinkLabel linkLabeljy;

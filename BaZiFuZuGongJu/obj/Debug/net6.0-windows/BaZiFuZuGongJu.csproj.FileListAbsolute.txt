@@ -68,3 +68,4 @@ D:\BaZiFuZuGongJu\obj\Debug\net6.0-windows\refint\BaZiFuZuGongJu.dll
 D:\BaZiFuZuGongJu\obj\Debug\net6.0-windows\BaZiFuZuGongJu.pdb
 D:\BaZiFuZuGongJu\obj\Debug\net6.0-windows\BaZiFuZuGongJu.genruntimeconfig.cache
 D:\BaZiFuZuGongJu\obj\Debug\net6.0-windows\ref\BaZiFuZuGongJu.dll
+D:\BaZiFuZuGongJu\obj\Debug\net6.0-windows\BaZiFuZuGongJu.csproj.CopyComplete

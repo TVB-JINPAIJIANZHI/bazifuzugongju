@@ -28,6 +28,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="lunar">
+      <HintPath>..\lunar.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="128X128.ico">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
