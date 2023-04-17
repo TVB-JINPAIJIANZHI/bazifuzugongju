@@ -4,7 +4,7 @@ using Lunar;
 using Lunar.Util;
 using System.Windows.Forms;
 using System.Windows.Media.Animation;
-
+using System.Globalization;
 
 namespace BaZiFuZuGongJu
 {
@@ -94,11 +94,6 @@ namespace BaZiFuZuGongJu
         string 三秋癸水 = "三秋癸水\r\n \r\n　　七月癸水，正母旺子相之时，癸虽死申，殊不知申中有庚生之，名死处逢生，弱中復强，即运行西北，亦不死也。但庚司令刚锐极矣，必取丁火为用。或丁透有甲，名有燄之火，必主科甲。或丁透无甲，又无壬癸，即有一二庚金，亦有生监。有二丁更妙。或金多乏丁制者，贫困之人。 \r\n\r\n　　或一丁坐午，名独才格，主金玉满堂，富中取贵。若在未戌，则是常人。或柱见二戌二未，又得丙丁藏支，干见甲出、无水，亦作富贵而推。 \r\n\r\n　　八月癸水，辛金虚灵，非顽金可比，正金白水清，故取辛金为用，丙火佐之。名水暖金温。如丙与辛隔位同透，主科甲功名。或丙透辛藏，一榜之士。或土多?水，生意中人。 \r\n\r\n　　八月癸水，丙辛皆用。 \r\n九月癸水，失令无根，戊土司权，克制太过，专用辛金发水之源，要比肩滋甲制戊方妙。 或辛甲两透，支见子癸，定主平步青云，或癸甲两透，富贵成名。 或有甲辛无癸者，亦有恩封。 或有甲癸无辛者，富大贵小。 有甲无癸辛者，常人。 二者俱无，贫贱之格。 或有甲见壬者，颇许衣衿。\r\n\r\n　　九月癸水，辛甲并用。";
         string 三冬癸水 = "三冬癸水\r\n \r\n十月癸水，旺中有弱，何也？ 因亥摇木，泄散元神，宜用庚辛为妙。 得庚辛两透，不见丁伤者，功名有准。\r\n　　或支成木局，有丁出干，为木旺火相，制住庚辛不生水，必主清寒。或成木局，干见丙丁，异路之荣。或一派壬水，不见戊制，名冬水汪洋，奔波到老。若得戊透，清贵堪夸。 \r\n\r\n　　或一派庚辛，得丁出制，主名利双全。若不见丁，又主贫薄。或四柱火多，名才多身弱，富屋贫人。 \r\n　　十一月癸水，值冰冻之时，金水无交欢之象，专用丙火解冻，庶不致成冰，又要辛金滋扶，无丙有辛，不妙。凡冬季癸水，有丙透解冻，则金温水暖，两两相生，要不见壬癸，自然豋科及第，紫诰金章。 \r\n\r\n　　或一派壬水，无丙出干，寒困之士。一派癸水，孤贱之流。或支成水局，得丙火重出干者，又主蟒袍玉带之荣。 \r\n　　或支成金局，丙火无剋者，芒鞋革履之流。如辛年丙月癸日。有火者、主恩荣宠锡，绕膝芝兰。无火者，捐资得贵，位重当朝。 \r\n\r\n　　或一派戊己，名杀重身轻，非贫即夭。 \r\n　　用火者，木妻、火子。用辛者，土妻、金子。 \r\n　　十二月癸水，寒极成冰，万物不能舒泰，宜丙火解冻。或丙透年时，加以壬透，支中多戊，名水辅阳光，主显达名臣，无戊者，异途之职。若有丙无壬，黉门之客。有壬无丙，戊又出干者，皂隶之流。 \r\n\r\n　　或支见子丑，比肩出干，即有丙透，不能解冻，此属平常。或无癸水，有辛与合，亦不为美。有丁出、颇吉。 \r\n　　或一片癸己会党，年透丁火，名雪后灯光，夜生者贵，日生者否。若无丁火，又主孤贫。或支成水局，无丙者，四海为家，一生劳苦。 \r\n\r\n　　或支成火局，有庚辛透者，衣食充足。无金出、孤苦零仃。或支成金局，丙透得地，名金温水暖，彼此相生，定许光大门闾，声驰翰苑。乏丙者，即文章骇世，总为孙山。 \r\n\r\n或支成木局，泄水太过，主残病呻吟，得金出干辅救，技艺之流。\r\n　　凡冬月用丙，须丙火得地方妙、不然，即重重丙火出干，安能轻许富贵哉。";
 
-        //干支纪年法
-        string 年干支算法 = "年干支推算。\r\n\r\n1984年是甲子年。\r\n\r\n如果要推算年份大于1984就用1984减掉要推算的年份。\r\n\r\n大于60就减60，一直到等于60或小于60为止，查甲子表。\r\n\r\n如要推算年份小于1984就用要推算年份减1984。\r\n\r\n大于60就减60，一直到等于60或小于60为止，查甲子表。\r\n\r\n0和60等于甲子年。\r\n\r\n六十甲子表　\r\n\r\n01 甲子 11 甲戌 21 甲申 31 甲午 41 甲辰 51 甲寅\r\n\r\n02 乙丑 12 乙亥 22 乙酉 32 乙未 42 乙巳 52 乙卯\r\n\r\n03 丙寅 13 丙子 23 丙戌 33 丙申 43 丙午 53 丙辰\r\n\r\n04 丁卯 14 丁丑 24 丁亥 34 丁酉 44 丁未 54 丁巳\r\n\r\n05 戊辰 15 戊寅 25 戊子 35 戊戌 45 戊申 55 戊午\r\n\r\n06 己巳 16 己卯 26 己丑 36 己亥 46 己酉 56 己未\r\n\r\n07 庚午 17 庚辰 27 庚寅 37 庚子 47 庚戌 57 庚申\r\n\r\n08 辛未 18 辛巳 28 辛卯 38 辛丑 48 辛亥 58 辛酉\r\n\r\n09 壬申 19 壬午 29 壬辰 39 壬寅 49 壬子 59 壬戌\r\n\r\n10 癸酉 20 癸未 30 癸巳 40 癸卯 50 癸丑 60 癸亥 \r\n";
-        string 月干支推算法 = "月干支推算法\r\n\r\n五虎遁\r\n\r\n年干甲已，月天干以丙为寅月\r\n\r\n年干乙庚，月天干以戊作寅月\r\n\r\n年干丙辛，月天干以庚作寅月\r\n\r\n年干丁壬，月天干以壬作寅月\r\n\r\n年干戊癸，月天干以甲作寅月\r\n\r\n若要月干准需把年干月支来找干，干支配对以次类推。\r\n\r\n此为农历的算法，公历月要以本年的1月算作上一年的12月，年份要算作上一年。";
-        string 日干支公式法 = "\r\n\r\n日干支公历推算。\r\n\r\n2023年1月6日是甲子日。\r\n\r\n把2023年1月6日设定为A，要推算的日子为B。\r\n\r\n\r\n如2023 乘365记下来等于N。2023减4，每减一次4就给N加1。把不足4的余数加到N中。\r\n\r\n然后把这一年中已经过去的日子加到N中，一月六是就加6。\r\n\r\n2月6日加31加6。3月6日加59加6依次类推。\r\n\r\n阳历闰年共有366天(1-12月分别为31天，29天（平年28天），31天，30天，31天，30天，31天，31天，30天，31天，30天，31天)\r\n\r\n如果B的N大于A的N，就用A的N减B的N。\r\n\r\n如果B小于A的N则用B的N减A的N。\r\n\r\n大于60就减60，一直到等于60或小于60为止，查甲子表。\r\n\r\n0和60等于甲子日。\r\n\r\n六十甲子表　\r\n\r\n01 甲子 11 甲戌 21 甲申 31 甲午 41 甲辰 51 甲寅\r\n\r\n02 乙丑 12 乙亥 22 乙酉 32 乙未 42 乙巳 52 乙卯\r\n\r\n03 丙寅 13 丙子 23 丙戌 33 丙申 43 丙午 53 丙辰\r\n\r\n04 丁卯 14 丁丑 24 丁亥 34 丁酉 44 丁未 54 丁巳\r\n\r\n05 戊辰 15 戊寅 25 戊子 35 戊戌 45 戊申 55 戊午\r\n\r\n06 己巳 16 己卯 26 己丑 36 己亥 46 己酉 56 己未\r\n\r\n07 庚午 17 庚辰 27 庚寅 37 庚子 47 庚戌 57 庚申\r\n\r\n08 辛未 18 辛巳 28 辛卯 38 辛丑 48 辛亥 58 辛酉\r\n\r\n09 壬申 19 壬午 29 壬辰 39 壬寅 49 壬子 59 壬戌\r\n\r\n10 癸酉 20 癸未 30 癸巳 40 癸卯 50 癸丑 60 癸亥 \r\n\r\n\r\n";
-        string 时干支推算法 = "时干支推算法\r\n\r\n五鼠建元歌。\r\n\r\n日干甲己子时是甲子，\r\n\r\n日干乙庚子时是丙子，\r\n\r\n日干丙辛子时是戊子，\r\n\r\n日干丁壬子时是庚子，\r\n\r\n日干戊癸子时是壬子。\r\n\r\n若要时干准需把日干时支来找干，干支配对以次类推。";
         //天干地支合冲刑破害
         string 地支三会 = "地支三会局通常是指地支会合成为一季之气，也就是说：寅卯辰三会东方木局，巳午未三会南方火，申酉戌三会西方金，亥子丑三会北方水。\r\n\r\n地支三会局，其力量大于地支六合，三合局，半合局；地支三会局，有吉有凶，四柱本身可形成三会局，逢大运、流年也可形成三会局。\r\n\r\n八字中地支三会者命运如何\r\n\r\n1、吉神三会为大吉\r\n\r\n地支的特殊作用就是，当三种不同五行相遇的时候就会形成另一种五行气势，因此不好的五行就会变成好的能量场，会局的力量在任何五行的力量都要大，因此吉神会局大贵。\r\n\r\n2、忌神三会者为凶\r\n\r\n八字中有财星，地支会官杀局或者比劫局的时候财气就会泄尽；食伤旺的八字最怕有三会印星局势。\r\n\r\n什么是地支三会局\r\n\r\n寅卯辰三会东方木局、巳午未三会南方火局、申酉戍三会西方金局、亥子丑三会北方水局\r\n\r\n地支三会局主什么含义\r\n\r\n1、地支的三会局是主力量的表现\r\n\r\n会成后是一个五行太旺之势，一般正格的八字就容易太旺的意思，应该顺其势泄秀为上，而不能用克制之五行。\r\n\r\n2、三会局的力量方面比其他的六合，半合，三合等力量大\r\n\r\n故说三会局形成一般的情况就应该是这个五行旺而成势的时候了。\r\n\r\n3、三会局成立后吉凶的表现就会很明显\r\n\r\n特别是克制某五行受损最重，克制其会局的五行也损伤厉害。\r\n\r\n地支三会局的含义\r\n\r\n1、寅卯辰三会东方木局\r\n\r\n以木气主论性格，人际关系好，从事木火行业的较为多。\r\n\r\n2、巳午未三会南方火局\r\n\r\n以火之气来论性格，从事行业容易火土五行的居多。\r\n\r\n3、申酉戍三会西方金局\r\n\r\n以金之气来论性格，从事的行业为金水行业的局多。\r\n\r\n4、亥子丑三会北方水局\r\n\r\n以水之气来论性格，从事的行业以水木行业居多。\r\n\r\n三会局成立的条件\r\n\r\n1、化神临月令，化神以及合神都不能受伤。\r\n\r\n2、化神要透出天干并且旺相而不受制\r\n\r\n3、三字须相邻，并且得月令生扶\r\n\r\n4、三会局不得月令一般难以成化\r\n\r\n5、逢大运的出现也容易引化三会局\r\n\r\n6、逢流年加入，也能合化\r\n\r\n但要看大运的情况，还有命局的组合而定。\r\n\r\n地支三会局五行的关系\r\n\r\n1、寅卯辰三会木局\r\n\r\n在四柱、大运、流年中，只要有寅卯辰三个地支，为寅卯辰三会木局。在寅、卯、辰、未、亥、子六个月令中，三会木局为旺相（称之为三会局旺，下同）；在巳、午、申、酉、戌、丑六个月令中，三会木局为衰弱（称之为三会局衰，下同）。寅卯辰三会木局，表示寅卯木力量增加，辰土的性质不复存在而变化为木。若日主喜木，则代表日主运气好和身体健康的信息；若是日主忌木，则代表日主运气不好，且肝经、胆经、脾胃经、肾经等有疾。\r\n\r\n2、巳午未三会火局\r\n\r\n在四柱、大运、流年中，只要有巳午未三个地支，为巳午未三会火局。在寅、卯、巳、午、未、戌六个月令中，三会火局为旺相；在辰、申、酉、亥、子、丑六个月令中，三会火局为衰弱。巳午未三会火局，表示巳午火力量增加，未土的性质不复存在而变化为火。若日主喜火，则代表日主运气好和身体健康；若日主忌火，则代表日主运气不好，且肝胆经、肺经、脾胃经、肾经等有病。\r\n\r\n3、申酉戌三会金局\r\n\r\n在四柱、大运、流年中，只要有申酉戌三个地支，为申酉戌三会金局。在辰、未、申、酉、戌、丑六个月令中，三会金局为旺相；在寅、卯、巳、午、亥、子六个月令中，三会金局为衰弱。申酉戌三会金局，表示申酉金力量增加，戌土的性质不复存在而变化为金。若日主喜金，则代表日主运气好，且身体健康；若日主忌金，则代表日主运气不好，且肝胆经、脾胃经、肺经等有疾。\r\n\r\n4、亥子丑三会水局\r\n\r\n在四柱、大运、流年中，只要有亥子丑三个地支，为亥子丑三会水局。在辰、申、酉、亥、子、丑六个月令中，三会水局为旺相；在寅、卯、巳、午、未、戌六个月令中，三会水局为衰弱。\r\n\r\n亥子丑三会水局，表示亥子水力量增加，丑土的性质不复存在而变化为水。若日主喜水，则代表日主运气好和身体健康的信息；若日主忌水，表示日主运气不好，或心经、肝胆经、脾胃经等有疾。\r\n\r\n地支三会局吉凶\r\n\r\n若日主的用神或喜神地支被三会为忌神或仇神五行，则日主就是凶的信息；若日主的忌神或仇神地支被三会为用神或喜神五行，则日主就是吉的信息。用神、喜神三会局旺则吉，用神、喜神三会局衰则凶；忌神、仇神三会局旺则凶，忌神、仇神三会局衰则吉。";
         string 地支三合 = "申子辰合水，申生长刚开始,到子水最帝旺,辰土墓.\r\n寅午戌合火，寅生长刚开始,到午火最帝旺,戌土墓.\r\n巳酉丑合金，巳生长刚开始,到酉金最帝旺,丑土墓.\r\n亥卯未合木，亥生长刚开始,到卯木最帝旺,未土墓\r\n三合条件\r\n三合局成化的条件：（1）、化神临月令（2）、化神，合神均不受伤（3）、三合局与六合局相见时，六合局让位于三合局，原命局中三合局已经成化，年运再出现其中其字为加合，以化神增力论。\r\n说明\r\n②三合局以旺支为主，即子午卯酉。三合局缺一支为半三合;三合局多一支则为增力，不作争合论;三合局缺一支，遇岁运填实所缺之支，也作合化论。\r\n\r\n　　③三合局合化后，三支均变成合化之五行，合成喜用神则吉，合成仇忌神则凶。\r\n\r\n　　④三合局的力量小于三会局的力量;生地半三合的力量，小于三合局的力量;墓地半三合的力量小于生地半三合的力量，但大于六合的力量。\r\n\r\n三、地支三合的八字命理特点\r\n凡六和四福入命，主人家描述姿美，神奇稳定，无比恶死，內心竖直，周璇便捷，聪明伶俐输通。如相生合者，举事多遂，更有福神往来，则福愈厚，一辈子辛集，多艺多才，言和貌悦，不较是是非非，福祸帮扶，人满为患见怜；如相冲合者，难事儿而易悦，多是定计，动多招损，更有凶神相兼，横事勾连，惊暴之灾，不至于深咎；死绝合者，主人家尤为未尝遂意，威风凛凛不大，精神实质俗陋，惹人鄙薄，志卑气窄，爱奸险小人恶谦谦君子，习下自贱，一辈子少得称怀；与建禄合者，多偏财、出现意外威望之福；正印贵人相助合，得天恩贵人相助提携之福；食神合，衣禄丰馀，饮食搭配厚给；大耗合，无文明礼貌，言情小说行浊，厚於贱货，侮慢谦谦君子；咸池并，奸恶通奸，欠佳受贿之旅；与官符并，多招形狱，词讼旁牵，暗昧是是非非；天上并，动无成实，贱货欺诒。妇女忌讳合中带煞，咸池玷行淫声，大耗必致淫奔，含有贵禄者，自贱而贵也。大率合吉神则吉，合凶煞则凶。\r\n\r\n四、地支三合局五行属性的旺衰规范和衰旺\r\n（一）、寅午戌合化火局\r\n在八字、好运、岁月中，要是有寅午戌3个十二地支，即是寅午戌四福火局。在寅、卯、巳、午、未、戌半年令中，四福火局即是旺相，（称作三合局旺，相同）；在辰、申、酉、亥、子、丑半年令中，四福火局即是衰微，（称作三合局衰，相同）。寅午戌四福火局，表达寅木、戌土的特性都荡然无存，午火的能量提升。若日主喜火，则意味着日主好运气和身心健康；若日主忌火，则意味着日主运气差，并且日主肝胆经、肺经、胃经等得病。\r\n\r\n（二）、亥卯未四福木局\r\n在八字、好运、岁月中，要是有亥卯未3个十二地支，即是亥卯未四福木局。在寅、卯、辰、未、亥、子半年令中，四福木局即是旺相；在巳、午、申、酉、戌、丑半年令中，四福木局即是衰微。亥卯未四福木局，表达亥水、未土的特性都荡然无存，卯木的能量提升。若日主喜木，则意味着日主好运气和身心健康的信息内容；若日主忌木，则意味着日主运气差，并且日主肝经、胆经、胃经、脾经等有疾。\r\n\r\n（三）、申子辰四福水局\r\n在八字、好运、岁月中，要是有申子辰3个十二地支，即是申子辰四福水局。在辰、申、酉、亥、子、丑半年令中，四福水局即是旺相；在寅、卯、巳、午、未、戌半年令中，四福水局即是衰微。申子辰四福水局，表达申金、辰土的特性都荡然无存，子水的能量提升。若四柱命理喜水，则意味着日主好运气和身心健康的信息内容；若四柱命理忌水，表达日主运气差，或心经、小肠经、胃经等有疾。\r\n\r\n（四）、巳酉丑三铝合金局\r\n在八字、好运、岁月中，要是有巳酉丑3个十二地支，即巳酉丑三铝合金局。在辰、未、申、酉、戌、丑半年令中，三铝合金局即是旺相；在寅、卯、巳、午、亥、子半年令中，三铝合金局即是衰微。巳酉丑三铝合金局，表达巳火、丑土的特性都荡然无存，酉金的能量提升。若日主喜金，则意味着日主好运气，并且身心健康；若日主忌金，则意味着日主运气差，并且日主心经、脾经、肺经等有疾。";
@@ -217,8 +212,8 @@ namespace BaZiFuZuGongJu
         string 四废日 = "《四废日》\r\n\r\n即是指春季庚申日、辛酉日；夏季壬子日、癸亥日；秋季甲寅日、乙卯日；冬季丙午日、丁巳日。\r\n\r\n歌诀：春庚申辛酉，夏壬子癸亥，秋甲寅乙卯，冬丙午丁巳。\r\n\r\n查法：只看日柱，年柱、月柱、时柱都不论。\r\n\r\n例如，春季逢庚申、辛酉日出生的人，就是命中有四废。\r\n\r\n四废日详解\r\n\r\n原理：\r\n\r\n1.春季为木旺主事之时，金被囚而无用，叫废亡；夏为火旺之时而水死囚无用；秋季金盛而木处死囚无用；冬为水旺故火处死囚无用。\r\n\r\n2.四废日的第二个要点是阴阳同气、全阴或全阳。比如庚申都属于阳金，辛酉都属于阴金，庚申日、辛酉日此二日全阴或全阳，故曰四废者，五行死绝且阴阳不调。\r\n\r\n四废日详解\r\n\r\n危害：\r\n\r\n《三命通命》说：“命中带有四废，命主作事不会成功，有始无终。”\r\n\r\n《蓬赢经》与《五行精纪》：“四废者是五行无气，福德不临之辰。”故曰四废者，五行死绝、阴阳不调。\r\n\r\n命局中带“四废”神煞的人，一生之中做事大都不是有始无终，难成大业，就是身弱多病。 我遇到过两个命局，一个是干造，今年45岁，仍然是居无定所，四处漂泊，无家无事业；另一个是坤造，今年38岁，虽事业有成，婚姻一败糊涂，结过三次婚又离异。 命带四废如不遇生扶，又受克害凶煞制者，主伤残，官司口舌，甚至牢狱之灾，或为僧道之人。\r\n\r\n但如果有生旺扶持，那又另当别论。四废的干支喜生扶，化解之道在于阴阳调和。\r\n\r\n例如丁巳生于冬，水克火，如柱有它火或戊土护卫，可化解。\r\n\r\n四废日详解\r\n\r\n实战经验：\r\n\r\n命带四废且他柱无生扶或者阴阳调和的，确实都是泛泛之辈，基本都事无所成。\r\n\r\n但也有些其他柱组合好的经济上也很好，事业也不错，多属于自由职业不受束缚。因为日柱与出生之季五行相克，因此表现在和社会大环境不融合。但婚姻与健康方面必有一项不顺利。我遇到的好几个四废日生人，如果经济条件好的话，健康或精神方面就有小恙。或者是婚姻不如意，多婚或无婚或克配偶，独居等，与配偶缘薄，家中失于温暖与炊烟，内心性格孤冷。\r\n\r\n四废日详解\r\n\r\n应对：\r\n\r\n如果读者之中有四废日出生的也不要慌张，最好请精通命理之士为您八字全局分析，看看此煞对您的影响究竟会有多大。如果他柱有可供调和的干支可无忧。如四柱没有可供调侯的五行，就以风水、改名、行善积德等多种途径缓解。 ";
 
         //自述文本
-        string 自述文本 = "杜净隆_作品。\r\n软件启动显示的日月干支不准确，请查万年历。\r\n学习八字预测不用死记硬背。不用担心没时间。只要懂五行生克就可以学会。\r\n显示墓库运。自动识别方位和对应内脏。天干地支分阴阳五行五种颜色。\r\n自动判断,半三合.地支六冲,地支六害,地支六合,地支六破,地支三合,\r\n地支三会,地支相刑,拱合,天干冲,天干五合，拱合。命盘阴阳。\r\n半三合，地支六合,地支三合,地支三会,天干五合，拱合：五行色彩。\r\n十神：吉为红字：忌为黑字。自动判断日元强弱。十神等按钮中附注解。\r\n显示十神六亲。54个神煞显示。显示十二长生。排流年显示强弱。\r\n集成了穷通宝鉴:可以显示四季五行命性。显示命局喜禁。\r\n增加四柱的五行纳音。流年副盘。四柱干支流转。 \r\n更新地址：https://pan.baidu.com/s/1KLywvxhGBLlnMhKYv28UTg\r\n提取码：4pkx\r\n\r\n 读诵《金刚般若波罗蜜经》可消业力。\r\n\r\n要改变命运就要改变自己，人受五行控制就只能认命。\r\n菩萨是没有五行的所以不受五行所限。\r\n要脱离五行就要发心做个菩萨：日常生活中遇事以菩萨的态度行事即可。\r\n需要注意的是发心为上行为次之，因为菩萨的心才是无上正等正觉的。\r\n唵嘛呢叭咪吽";
-       //文本控件开关
+        string 自述文本 = "杜净隆_作品。\r\n使用Lunar库实现了万年历级别的天干地支查询。\r\n学习八字预测不用死记硬背。不用担心没时间。只要懂五行生克就可以学会。\r\n显示墓库运。自动识别方位和对应内脏。天干地支分阴阳五行五种颜色。\r\n自动判断,半三合.地支六冲,地支六害,地支六合,地支六破,地支三合,\r\n地支三会,地支相刑,拱合,天干冲,天干五合，拱合。命盘阴阳。\r\n半三合，地支六合,地支三合,地支三会,天干五合，拱合：五行色彩。\r\n十神：吉为红字：忌为黑字。自动判断日元强弱。十神等按钮中附注解。\r\n显示十神六亲。54个神煞显示。显示十二长生。排流年显示强弱。\r\n集成了穷通宝鉴:可以显示四季五行命性。显示命局喜禁。\r\n增加四柱的五行纳音。流年副盘。四柱干支流转。 \r\n更新地址：https://pan.baidu.com/s/1KLywvxhGBLlnMhKYv28UTg\r\n提取码：4pkx\r\n\r\n 读诵《金刚般若波罗蜜经》可消业力。\r\n\r\n要改变命运就要改变自己，人受五行控制就只能认命。\r\n菩萨是没有五行的所以不受五行所限。\r\n要脱离五行就要发心做个菩萨：日常生活中遇事以菩萨的态度行事即可。\r\n需要注意的是发心为上行为次之，因为菩萨的心才是无上正等正觉的。\r\n唵嘛呢叭咪吽\r\n";
+        //文本控件开关
         int wenben = 0;
         //旺衰
         int wangshuai = 0;
@@ -614,6 +609,10 @@ namespace BaZiFuZuGongJu
 
             }
 
+            string year = lunar.YearInChinese;
+            string month = lunar.MonthInChinese;
+            string day = lunar.DayInChinese;
+            linkLabel28.Text = "农历：" + year + "年" + month + "月" + day + "日-" + "星期" + solar.WeekInChinese;
             buttongz.Focus();
             buttongz_Click(this, new EventArgs());
 
@@ -51426,7 +51425,7 @@ namespace BaZiFuZuGongJu
                 wenben = 0; 
                 richTextBox1.Location = new Point(0,0);richTextBox1.Text = "";
                 richTextBox1.Height = 0;richTextBox1.Width = 0;
-                buttongj.Text = "关于";
+                buttongj.Text = "关于软件";
             }
             else if (wenben == 0)
             {
@@ -51434,7 +51433,7 @@ namespace BaZiFuZuGongJu
                 button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 自述文本;
             }
 
@@ -51447,7 +51446,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 地支三会;
             }
         }
@@ -51459,7 +51458,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 天干五合;
             }
         }
@@ -51471,7 +51470,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 地支六合;
             }
         }
@@ -51483,7 +51482,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
             if (button4.Text == "劫财")
@@ -51491,7 +51490,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
             if (button4.Text == "食神")
@@ -51499,7 +51498,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
             if (button4.Text == "伤官")
@@ -51507,7 +51506,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
             if (button4.Text == "正财")
@@ -51515,7 +51514,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
             if (button4.Text == "偏财")
@@ -51523,7 +51522,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
             if (button4.Text == "正印")
@@ -51531,7 +51530,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
             if (button4.Text == "枭神")
@@ -51539,7 +51538,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
             if (button4.Text == "正官")
@@ -51547,7 +51546,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
             if (button4.Text == "七杀")
@@ -51555,7 +51554,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
 
@@ -51568,7 +51567,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963; richTextBox1.Width = 1920;
+                richTextBox1.Height =969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
             if (button16.Text == "劫财")
@@ -51576,7 +51575,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
             if (button16.Text == "食神")
@@ -51584,7 +51583,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
             if (button16.Text == "伤官")
@@ -51592,7 +51591,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
             if (button16.Text == "正财")
@@ -51600,7 +51599,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
             if (button16.Text == "偏财")
@@ -51608,7 +51607,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
             if (button16.Text == "正印")
@@ -51616,7 +51615,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
             if (button16.Text == "枭神")
@@ -51624,7 +51623,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
             if (button16.Text == "正官")
@@ -51632,7 +51631,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
             if (button16.Text == "七杀")
@@ -51640,7 +51639,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
 
@@ -51651,7 +51650,7 @@ namespace BaZiFuZuGongJu
              button54.Focus();button54_Click(this, new EventArgs());
             wenben = 1; buttongj.Text = "关闭文本";
             richTextBox1.Location = new Point(0, 40);
-            richTextBox1.Height =963;  richTextBox1.Width = 1920;
+            richTextBox1.Height =969;  richTextBox1.Width = 1920;
             richTextBox1.Text = "日元旺衰算法\r\n\r\n以50分为强弱分水岭，干支为同日干和生日干者加分。\r\n\r\n年干=8分，年支=4分，月支=40分，其均为12分，日干不记分。\r\n\r\n相加后50或50以上为身旺。\r\n\r\n身旺的日干喜克我与我克和我生的五行，日干为我，以甲干为例。\r\n\r\n甲日干身旺喜火土金，忌木水。甲日干身弱则喜木水，忌火土金。";
 
         }
@@ -51663,7 +51662,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
             if (button8.Text == "劫财")
@@ -51671,7 +51670,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
             if (button8.Text == "食神")
@@ -51679,7 +51678,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
             if (button8.Text == "伤官")
@@ -51687,7 +51686,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
             if (button8.Text == "正财")
@@ -51695,7 +51694,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
             if (button8.Text == "偏财")
@@ -51703,7 +51702,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
             if (button8.Text == "正印")
@@ -51711,7 +51710,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
             if (button8.Text == "枭神")
@@ -51719,7 +51718,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
             if (button8.Text == "正官")
@@ -51727,7 +51726,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
             if (button8.Text == "七杀")
@@ -51735,7 +51734,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
 
@@ -51748,7 +51747,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
             if (button13.Text == "劫财")
@@ -51756,7 +51755,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
             if (button13.Text == "食神")
@@ -51764,7 +51763,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
             if (button13.Text == "伤官")
@@ -51772,7 +51771,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
             if (button13.Text == "正财")
@@ -51780,7 +51779,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
             if (button13.Text == "偏财")
@@ -51788,7 +51787,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
             if (button13.Text == "正印")
@@ -51796,7 +51795,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
             if (button13.Text == "枭神")
@@ -51804,7 +51803,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
             if (button13.Text == "正官")
@@ -51812,7 +51811,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
             if (button13.Text == "七杀")
@@ -51820,7 +51819,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
 
@@ -51833,7 +51832,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
             if (button14.Text == "劫财")
@@ -51841,7 +51840,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
             if (button14.Text == "食神")
@@ -51849,7 +51848,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
             if (button14.Text == "伤官")
@@ -51857,7 +51856,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
             if (button14.Text == "正财")
@@ -51865,7 +51864,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
             if (button14.Text == "偏财")
@@ -51873,7 +51872,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
             if (button14.Text == "正印")
@@ -51881,7 +51880,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
             if (button14.Text == "枭神")
@@ -51889,7 +51888,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
             if (button14.Text == "正官")
@@ -51897,7 +51896,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
             if (button14.Text == "七杀")
@@ -51905,7 +51904,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
 
@@ -51918,7 +51917,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
             if (button15.Text == "劫财")
@@ -51926,7 +51925,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
             if (button15.Text == "食神")
@@ -51934,7 +51933,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
             if (button15.Text == "伤官")
@@ -51942,7 +51941,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
             if (button15.Text == "正财")
@@ -51950,7 +51949,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
             if (button15.Text == "偏财")
@@ -51958,7 +51957,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
             if (button15.Text == "正印")
@@ -51966,7 +51965,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
             if (button15.Text == "枭神")
@@ -51974,7 +51973,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
             if (button15.Text == "正官")
@@ -51982,7 +51981,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
             if (button15.Text == "七杀")
@@ -51990,7 +51989,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
 
@@ -52003,7 +52002,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
             if (button17.Text == "劫财")
@@ -52011,7 +52010,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
             if (button17.Text == "食神")
@@ -52019,7 +52018,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
             if (button17.Text == "伤官")
@@ -52027,7 +52026,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
             if (button17.Text == "正财")
@@ -52035,7 +52034,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
             if (button17.Text == "偏财")
@@ -52043,7 +52042,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
             if (button17.Text == "正印")
@@ -52051,7 +52050,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
             if (button17.Text == "枭神")
@@ -52059,7 +52058,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
             if (button17.Text == "正官")
@@ -52067,7 +52066,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
             if (button17.Text == "七杀")
@@ -52075,7 +52074,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
 
@@ -52088,7 +52087,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
             if (button18.Text == "劫财")
@@ -52096,7 +52095,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
             if (button18.Text == "食神")
@@ -52104,7 +52103,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
             if (button18.Text == "伤官")
@@ -52112,7 +52111,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
             if (button18.Text == "正财")
@@ -52120,7 +52119,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
             if (button18.Text == "偏财")
@@ -52128,7 +52127,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
             if (button18.Text == "正印")
@@ -52136,7 +52135,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
             if (button18.Text == "枭神")
@@ -52144,7 +52143,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
             if (button18.Text == "正官")
@@ -52152,7 +52151,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
             if (button18.Text == "七杀")
@@ -52160,7 +52159,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
 
@@ -52173,7 +52172,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
             if (button6.Text == "劫财")
@@ -52181,7 +52180,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
             if (button6.Text == "食神")
@@ -52189,7 +52188,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
             if (button6.Text == "伤官")
@@ -52197,7 +52196,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
             if (button6.Text == "正财")
@@ -52205,7 +52204,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
             if (button6.Text == "偏财")
@@ -52213,7 +52212,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
             if (button6.Text == "正印")
@@ -52221,7 +52220,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
             if (button6.Text == "枭神")
@@ -52229,7 +52228,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
             if (button6.Text == "正官")
@@ -52237,7 +52236,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
             if (button6.Text == "七杀")
@@ -52245,7 +52244,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
 
@@ -52258,7 +52257,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
             if (button19.Text == "劫财")
@@ -52266,7 +52265,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
             if (button19.Text == "食神")
@@ -52274,7 +52273,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
             if (button19.Text == "伤官")
@@ -52282,7 +52281,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
             if (button19.Text == "正财")
@@ -52290,7 +52289,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
             if (button19.Text == "偏财")
@@ -52298,7 +52297,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
             if (button19.Text == "正印")
@@ -52306,7 +52305,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
             if (button19.Text == "枭神")
@@ -52314,7 +52313,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
             if (button19.Text == "正官")
@@ -52322,7 +52321,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
             if (button19.Text == "七杀")
@@ -52330,7 +52329,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
 
@@ -52343,7 +52342,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
             if (button21.Text == "劫财")
@@ -52351,7 +52350,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
             if (button21.Text == "食神")
@@ -52359,7 +52358,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
             if (button21.Text == "伤官")
@@ -52367,7 +52366,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
             if (button21.Text == "正财")
@@ -52375,7 +52374,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
             if (button21.Text == "偏财")
@@ -52383,7 +52382,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
             if (button21.Text == "正印")
@@ -52391,7 +52390,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
             if (button21.Text == "枭神")
@@ -52399,7 +52398,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
             if (button21.Text == "正官")
@@ -52407,7 +52406,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
             if (button21.Text == "七杀")
@@ -52415,7 +52414,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
 
@@ -52428,7 +52427,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
             if (button20.Text == "劫财")
@@ -52436,7 +52435,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
             if (button20.Text == "食神")
@@ -52444,7 +52443,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
             if (button20.Text == "伤官")
@@ -52452,7 +52451,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
             if (button20.Text == "正财")
@@ -52460,7 +52459,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
             if (button20.Text == "偏财")
@@ -52468,7 +52467,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
             if (button20.Text == "正印")
@@ -52476,7 +52475,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
             if (button20.Text == "枭神")
@@ -52484,7 +52483,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
             if (button20.Text == "正官")
@@ -52492,7 +52491,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
             if (button20.Text == "七杀")
@@ -52500,7 +52499,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
 
@@ -52513,7 +52512,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
             if (button22.Text == "劫财")
@@ -52521,7 +52520,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
             if (button22.Text == "食神")
@@ -52529,7 +52528,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
             if (button22.Text == "伤官")
@@ -52537,7 +52536,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
             if (button22.Text == "正财")
@@ -52545,7 +52544,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
             if (button22.Text == "偏财")
@@ -52553,7 +52552,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
             if (button22.Text == "正印")
@@ -52561,7 +52560,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
             if (button22.Text == "枭神")
@@ -52569,7 +52568,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
             if (button22.Text == "正官")
@@ -52577,7 +52576,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
             if (button22.Text == "七杀")
@@ -52585,7 +52584,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
 
@@ -52598,7 +52597,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
             if (button23.Text == "劫财")
@@ -52606,7 +52605,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
             if (button23.Text == "食神")
@@ -52614,7 +52613,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
             if (button23.Text == "伤官")
@@ -52622,7 +52621,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
             if (button23.Text == "正财")
@@ -52630,7 +52629,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
             if (button23.Text == "偏财")
@@ -52638,7 +52637,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
             if (button23.Text == "正印")
@@ -52646,7 +52645,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
             if (button23.Text == "枭神")
@@ -52654,7 +52653,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
             if (button23.Text == "正官")
@@ -52662,7 +52661,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
             if (button23.Text == "七杀")
@@ -52670,7 +52669,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
 
@@ -52683,7 +52682,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
             if (button24.Text == "劫财")
@@ -52691,7 +52690,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
             if (button24.Text == "食神")
@@ -52699,7 +52698,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
             if (button24.Text == "伤官")
@@ -52707,7 +52706,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
             if (button24.Text == "正财")
@@ -52715,7 +52714,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
             if (button24.Text == "偏财")
@@ -52723,7 +52722,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
             if (button24.Text == "正印")
@@ -52731,7 +52730,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
             if (button24.Text == "枭神")
@@ -52739,7 +52738,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
             if (button24.Text == "正官")
@@ -52747,7 +52746,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
             if (button24.Text == "七杀")
@@ -52755,7 +52754,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
 
@@ -52763,50 +52762,22 @@ namespace BaZiFuZuGongJu
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (wenben == 0)
-            {
-                 button54.Focus();button54_Click(this, new EventArgs());
-                wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
-                richTextBox1.Text = 年干支算法;
-            }
+         
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (wenben == 0)
-            {
-                 button54.Focus();button54_Click(this, new EventArgs());
-                wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
-                richTextBox1.Text = 月干支推算法;
-            }
+           
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (wenben == 0)
-            {
-                 button54.Focus();button54_Click(this, new EventArgs());
-                wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
-                richTextBox1.Text = 日干支公式法;
-            }
+            
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            if (wenben == 0)
-            {
-                 button54.Focus();button54_Click(this, new EventArgs());
-                wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
-                richTextBox1.Text = 时干支推算法;
-            }
+           
         }
 
         private void buttondz6p_Click(object sender, EventArgs e)
@@ -52816,7 +52787,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 半三合;
             }
         }
@@ -52828,7 +52799,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 拱合;
             }
         }
@@ -52840,7 +52811,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 地支六冲;
             }
         }
@@ -52852,7 +52823,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 地支六害;
             }
         }
@@ -52864,7 +52835,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 地支六破;
             }
         }
@@ -52876,7 +52847,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 天干冲;
             }
         }
@@ -52888,7 +52859,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 地支相刑;
             }
         }
@@ -52900,7 +52871,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 墓库运;
             }
         }
@@ -52915,7 +52886,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论木+三春甲木;
                 }
                 if (ydz == sii || ydz == wuma || ydz == wei)
@@ -52923,7 +52894,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论木 + 三夏甲木;
                 }
                 if (ydz == shen || ydz == you || ydz == xuu)
@@ -52931,7 +52902,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论木 + 三秋甲木;
                 }
                 if (ydz == hai || ydz == zii || ydz == chou)
@@ -52939,7 +52910,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论木 + 三冬甲木;
                 }
 
@@ -52951,7 +52922,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论木 + 三春乙木;
                 }
                 if (ydz == sii || ydz == wuma || ydz == wei)
@@ -52959,7 +52930,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论木 + 三夏乙木;
                 }
                 if (ydz == shen || ydz == you || ydz == xuu)
@@ -52967,7 +52938,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论木 + 三秋乙木;
                 }
                 if (ydz == hai || ydz == zii || ydz == chou)
@@ -52975,7 +52946,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论木 + 三冬乙木;
                 }
 
@@ -52987,7 +52958,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论火 + 三春丙火;
                 }
                 if (ydz == sii || ydz == wuma || ydz == wei)
@@ -52995,7 +52966,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论火 + 三夏丙火;
                 }
                 if (ydz == shen || ydz == you || ydz == xuu)
@@ -53003,7 +52974,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论火 + 三秋丙火;
                 }
                 if (ydz == hai || ydz == zii || ydz == chou)
@@ -53011,7 +52982,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论火 + 三冬丙火;
                 }
 
@@ -53023,7 +52994,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论火 + 三春丁火;
                 }
                 if (ydz == sii || ydz == wuma || ydz == wei)
@@ -53031,7 +53002,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论火 + 三夏丁火;
                 }
                 if (ydz == shen || ydz == you || ydz == xuu)
@@ -53039,7 +53010,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论火 + 三秋丁火;
                 }
                 if (ydz == hai || ydz == zii || ydz == chou)
@@ -53047,7 +53018,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论火 + 三冬丁火;
                 }
 
@@ -53059,7 +53030,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论土 + 三春戊土;
                 }
                 if (ydz == sii || ydz == wuma || ydz == wei)
@@ -53067,7 +53038,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论土 + 三夏戊土;
                 }
                 if (ydz == shen || ydz == you || ydz == xuu)
@@ -53075,7 +53046,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论土 + 三秋戊土;
                 }
                 if (ydz == hai || ydz == zii || ydz == chou)
@@ -53083,7 +53054,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论土 + 三冬戊土;
                 }
 
@@ -53095,7 +53066,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论土 + 三春己土;
                 }
                 if (ydz == sii || ydz == wuma || ydz == wei)
@@ -53103,7 +53074,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论土 + 三夏己土;
                 }
                 if (ydz == shen || ydz == you || ydz == xuu)
@@ -53111,7 +53082,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论土 + 三秋己土;
                 }
                 if (ydz == hai || ydz == zii || ydz == chou)
@@ -53119,7 +53090,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论土 + 三冬己土;
                 }
 
@@ -53131,7 +53102,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论金 + 三春庚金;
                 }
                 if (ydz == sii || ydz == wuma || ydz == wei)
@@ -53139,7 +53110,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论金 + 三夏庚金;
                 }
                 if (ydz == shen || ydz == you || ydz == xuu)
@@ -53147,7 +53118,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论金 + 三秋庚金;
                 }
                 if (ydz == hai || ydz == zii || ydz == chou)
@@ -53155,7 +53126,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论金 + 三冬庚金;
                 }
 
@@ -53167,7 +53138,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论金 + 三春辛金;
                 }
                 if (ydz == sii || ydz == wuma || ydz == wei)
@@ -53175,7 +53146,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论金 + 三夏辛金;
                 }
                 if (ydz == shen || ydz == you || ydz == xuu)
@@ -53183,7 +53154,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论金 + 三秋辛金;
                 }
                 if (ydz == hai || ydz == zii || ydz == chou)
@@ -53191,7 +53162,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论金 + 三冬辛金;
                 }
 
@@ -53203,7 +53174,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论水 + 三春壬水;
                 }
                 if (ydz == sii || ydz == wuma || ydz == wei)
@@ -53211,7 +53182,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论水 + 三夏壬水;
                 }
                 if (ydz == shen || ydz == you || ydz == xuu)
@@ -53219,7 +53190,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论水 + 三秋壬水;
                 }
                 if (ydz == hai || ydz == zii || ydz == chou)
@@ -53227,7 +53198,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论水 + 三冬壬水;
                 }
 
@@ -53239,7 +53210,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论水 + 三春癸水;
                 }
                 if (ydz == sii || ydz == wuma || ydz == wei)
@@ -53247,7 +53218,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论水 + 三夏癸水;
                 }
                 if (ydz == shen || ydz == you || ydz == xuu)
@@ -53255,7 +53226,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论水 + 三秋癸水;
                 }
                 if (ydz == hai || ydz == zii || ydz == chou)
@@ -53263,7 +53234,7 @@ namespace BaZiFuZuGongJu
                      button54.Focus();button54_Click(this, new EventArgs());
                     wenben = 1; buttongj.Text = "关闭文本";
                     richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
                     richTextBox1.Text = 论水 + 三冬癸水;
                 }
 
@@ -53278,7 +53249,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 甲木;
             }
             if (buttonng.Text == "乙")
@@ -53286,7 +53257,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 乙木;
             }
             if (buttonng.Text == "丙")
@@ -53294,7 +53265,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 丙火;
             }
             if (buttonng.Text == "丁")
@@ -53302,7 +53273,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 丁火;
             }
             if (buttonng.Text == "戊")
@@ -53310,7 +53281,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 戊土;
             }
             if (buttonng.Text == "己")
@@ -53318,7 +53289,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 己土;
             }
             if (buttonng.Text == "庚")
@@ -53326,7 +53297,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 庚金;
             }
             if (buttonng.Text == "辛")
@@ -53334,7 +53305,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 辛金;
             }
             if (buttonng.Text == "壬")
@@ -53342,7 +53313,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 壬水;
             }
             if (buttonng.Text == "癸")
@@ -53350,7 +53321,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 癸水;
             }
 
@@ -53363,7 +53334,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 甲木;
             }
             if (buttonyg.Text == "乙")
@@ -53371,7 +53342,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 乙木;
             }
             if (buttonyg.Text == "丙")
@@ -53379,7 +53350,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 丙火;
             }
             if (buttonyg.Text == "丁")
@@ -53387,7 +53358,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 丁火;
             }
             if (buttonyg.Text == "戊")
@@ -53395,7 +53366,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 戊土;
             }
             if (buttonyg.Text == "己")
@@ -53403,7 +53374,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 己土;
             }
             if (buttonyg.Text == "庚")
@@ -53411,7 +53382,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 庚金;
             }
             if (buttonyg.Text == "辛")
@@ -53419,7 +53390,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 辛金;
             }
             if (buttonyg.Text == "壬")
@@ -53427,7 +53398,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 壬水;
             }
             if (buttonyg.Text == "癸")
@@ -53435,7 +53406,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 癸水;
             }
         }
@@ -53447,7 +53418,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 甲木;
             }
             if (buttonrg.Text == "乙")
@@ -53455,7 +53426,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 乙木;
             }
             if (buttonrg.Text == "丙")
@@ -53463,7 +53434,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 丙火;
             }
             if (buttonrg.Text == "丁")
@@ -53471,7 +53442,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 丁火;
             }
             if (buttonrg.Text == "戊")
@@ -53479,7 +53450,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 戊土;
             }
             if (buttonrg.Text == "己")
@@ -53487,7 +53458,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 己土;
             }
             if (buttonrg.Text == "庚")
@@ -53495,7 +53466,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 庚金;
             }
             if (buttonrg.Text == "辛")
@@ -53503,7 +53474,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 辛金;
             }
             if (buttonrg.Text == "壬")
@@ -53511,7 +53482,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 壬水;
             }
             if (buttonrg.Text == "癸")
@@ -53519,7 +53490,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 癸水;
             }
         }
@@ -53531,7 +53502,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 甲木;
             }
             if (buttonsg.Text == "乙")
@@ -53539,7 +53510,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 乙木;
             }
             if (buttonsg.Text == "丙")
@@ -53547,7 +53518,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 丙火;
             }
             if (buttonsg.Text == "丁")
@@ -53555,7 +53526,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 丁火;
             }
             if (buttonsg.Text == "戊")
@@ -53563,7 +53534,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 戊土;
             }
             if (buttonsg.Text == "己")
@@ -53571,7 +53542,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 己土;
             }
             if (buttonsg.Text == "庚")
@@ -53579,7 +53550,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 庚金;
             }
             if (buttonsg.Text == "辛")
@@ -53587,7 +53558,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 辛金;
             }
             if (buttonsg.Text == "壬")
@@ -53595,7 +53566,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 壬水;
             }
             if (buttonsg.Text == "癸")
@@ -53603,7 +53574,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 癸水;
             }
         }
@@ -53615,7 +53586,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 子水;
             }
             if (buttonnz.Text == "丑")
@@ -53623,7 +53594,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 丑土;
             }
             if (buttonnz.Text == "寅")
@@ -53631,7 +53602,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 寅木;
             }
             if (buttonnz.Text == "卯")
@@ -53639,7 +53610,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 卯木;
             }
             if (buttonnz.Text == "辰")
@@ -53647,7 +53618,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 辰土;
             }
             if (buttonnz.Text == "巳")
@@ -53655,7 +53626,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 巳火;
             }
             if (buttonnz.Text == "午")
@@ -53663,7 +53634,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 午火;
             }
             if (buttonnz.Text == "未")
@@ -53671,7 +53642,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 未土;
             }
             if (buttonnz.Text == "申")
@@ -53679,7 +53650,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 申金;
             }
             if (buttonnz.Text == "酉")
@@ -53687,7 +53658,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 酉金;
             }
             if (buttonnz.Text == "戌")
@@ -53695,7 +53666,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 戌土;
             }
             if (buttonnz.Text == "亥")
@@ -53703,7 +53674,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 亥水;
             }
 
@@ -53716,7 +53687,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 子水;
             }
             if (buttonyz.Text == "丑")
@@ -53724,7 +53695,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 丑土;
             }
             if (buttonyz.Text == "寅")
@@ -53732,7 +53703,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 寅木;
             }
             if (buttonyz.Text == "卯")
@@ -53740,7 +53711,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 卯木;
             }
             if (buttonyz.Text == "辰")
@@ -53748,7 +53719,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 辰土;
             }
             if (buttonyz.Text == "巳")
@@ -53756,7 +53727,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 巳火;
             }
             if (buttonyz.Text == "午")
@@ -53764,7 +53735,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 午火;
             }
             if (buttonyz.Text == "未")
@@ -53772,7 +53743,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 未土;
             }
             if (buttonyz.Text == "申")
@@ -53780,7 +53751,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 申金;
             }
             if (buttonyz.Text == "酉")
@@ -53788,7 +53759,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 酉金;
             }
             if (buttonyz.Text == "戌")
@@ -53796,7 +53767,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 戌土;
             }
             if (buttonyz.Text == "亥")
@@ -53804,7 +53775,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 亥水;
             }
 
@@ -53817,7 +53788,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 子水;
             }
             if (buttonrz.Text == "丑")
@@ -53825,7 +53796,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 丑土;
             }
             if (buttonrz.Text == "寅")
@@ -53833,7 +53804,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 寅木;
             }
             if (buttonrz.Text == "卯")
@@ -53841,7 +53812,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 卯木;
             }
             if (buttonrz.Text == "辰")
@@ -53849,7 +53820,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 辰土;
             }
             if (buttonrz.Text == "巳")
@@ -53857,7 +53828,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 巳火;
             }
             if (buttonrz.Text == "午")
@@ -53865,7 +53836,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 午火;
             }
             if (buttonrz.Text == "未")
@@ -53873,7 +53844,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 未土;
             }
             if (buttonrz.Text == "申")
@@ -53881,7 +53852,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 申金;
             }
             if (buttonrz.Text == "酉")
@@ -53889,7 +53860,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 酉金;
             }
             if (buttonrz.Text == "戌")
@@ -53897,7 +53868,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 戌土;
             }
             if (buttonrz.Text == "亥")
@@ -53905,7 +53876,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 亥水;
             }
 
@@ -53918,7 +53889,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 子水;
             }
             if (buttonsz.Text == "丑")
@@ -53926,7 +53897,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 丑土;
             }
             if (buttonsz.Text == "寅")
@@ -53934,7 +53905,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 寅木;
             }
             if (buttonsz.Text == "卯")
@@ -53942,7 +53913,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 卯木;
             }
             if (buttonsz.Text == "辰")
@@ -53950,7 +53921,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 辰土;
             }
             if (buttonsz.Text == "巳")
@@ -53958,7 +53929,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 巳火;
             }
             if (buttonsz.Text == "午")
@@ -53966,7 +53937,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 午火;
             }
             if (buttonsz.Text == "未")
@@ -53974,7 +53945,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 未土;
             }
             if (buttonsz.Text == "申")
@@ -53982,7 +53953,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 申金;
             }
             if (buttonsz.Text == "酉")
@@ -53990,7 +53961,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 酉金;
             }
             if (buttonsz.Text == "戌")
@@ -53998,7 +53969,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 戌土;
             }
             if (buttonsz.Text == "亥")
@@ -54006,7 +53977,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 亥水;
             }
 
@@ -54018,7 +53989,7 @@ namespace BaZiFuZuGongJu
              button54.Focus();button54_Click(this, new EventArgs());
             wenben = 1; buttongj.Text = "关闭文本";
             richTextBox1.Location = new Point(0, 40);
-            richTextBox1.Height =963;  richTextBox1.Width = 1920;
+            richTextBox1.Height =969;  richTextBox1.Width = 1920;
             richTextBox1.Text = "金，中晚年时期，缺少，多败少成，难成事，过多则固执。\r\n\r\n7、8、17、18、27、28、37、38数/划属金";
 
         }
@@ -54028,7 +53999,7 @@ namespace BaZiFuZuGongJu
              button54.Focus();button54_Click(this, new EventArgs());
             wenben = 1; buttongj.Text = "关闭文本";
             richTextBox1.Location = new Point(0, 40);
-            richTextBox1.Height =963;  richTextBox1.Width = 1920;
+            richTextBox1.Height =969;  richTextBox1.Width = 1920;
             richTextBox1.Text = "水，晚年时光，缺少，没有智慧，晚年孤苦，颠沛流离不安定，过多则一生波折多，晚年好。\r\n\r\n9、10、19．20、29、30、39、40数/划属水";
 
         }
@@ -54038,7 +54009,7 @@ namespace BaZiFuZuGongJu
              button54.Focus();button54_Click(this, new EventArgs());
             wenben = 1; buttongj.Text = "关闭文本";
             richTextBox1.Location = new Point(0, 40);
-            richTextBox1.Height =963;  richTextBox1.Width = 1920;
+            richTextBox1.Height =969;  richTextBox1.Width = 1920;
             richTextBox1.Text = "木，少年时光，缺少，严重的有伤残。过多有病患。\r\n\r\n1、2、11、12、21、22、31、32数/划属木";
 
         }
@@ -54048,7 +54019,7 @@ namespace BaZiFuZuGongJu
              button54.Focus();button54_Click(this, new EventArgs());
             wenben = 1; buttongj.Text = "关闭文本";
             richTextBox1.Location = new Point(0, 40);
-            richTextBox1.Height =963;  richTextBox1.Width = 1920;
+            richTextBox1.Height =969;  richTextBox1.Width = 1920;
             richTextBox1.Text = "火，青壮年时期，缺少，为人冷淡，学业事业难有作为，过多则性格暴躁。\r\n\r\n3、4、13、14、23、24、33、34数/划属火";
 
         }
@@ -54058,7 +54029,7 @@ namespace BaZiFuZuGongJu
              button54.Focus();button54_Click(this, new EventArgs());
             wenben = 1; buttongj.Text = "关闭文本";
             richTextBox1.Location = new Point(0, 40);
-            richTextBox1.Height =963;  richTextBox1.Width = 1920;
+            richTextBox1.Height =969;  richTextBox1.Width = 1920;
             richTextBox1.Text = "土，中壮年时期，缺少，多颠沛流离不安定，过多难有出头天或冥顽不灵。\r\n\r\n5、6、15、16、25、26、35、36数/划属土";
 
         }
@@ -54072,7 +54043,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 命局神煞;
             }
         }
@@ -54089,7 +54060,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 纳音;
             }
         }
@@ -54101,7 +54072,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 纳音;
             }
         }
@@ -54113,7 +54084,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 纳音;
             }
         }
@@ -54125,7 +54096,7 @@ namespace BaZiFuZuGongJu
                  button54.Focus();button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
                 richTextBox1.Location = new Point(0, 40);
-                richTextBox1.Height =963;  richTextBox1.Width = 1920;
+                richTextBox1.Height =969;  richTextBox1.Width = 1920;
                 richTextBox1.Text = 纳音;
             }
         }
@@ -55006,7 +54977,10 @@ namespace BaZiFuZuGongJu
 
         private void button54_Click(object sender, EventArgs e)
         {
-                linkLabel19.Visible = false; linkLabel16.Visible = false; linkLabel14.Visible = false; linkLabel7.Visible = false;
+            numericUpDownyear.Visible = false; numericUpDownmonth.Visible = false; numericUpDownday.Visible = false; numericUpDownhour.Visible = false;
+            button59.Visible = false; checkBox1.Visible = false; linkLabel28.Visible = false;
+
+            linkLabel19.Visible = false; linkLabel16.Visible = false; linkLabel14.Visible = false; linkLabel7.Visible = false;
                 buttonp.Visible = false; button9.Visible = false; buttonjin.Visible = false; buttonshui.Visible = false;
                 buttonmu.Visible = false; buttonhuo.Visible = false; buttontu.Visible = false; button1.Visible = false;
                 dateTimePicker1.Visible = false; button2.Visible = false; button3.Visible = false; button5.Visible = false;
@@ -55026,6 +55000,8 @@ namespace BaZiFuZuGongJu
 
         private void button56_Click(object sender, EventArgs e)
         {
+            numericUpDownyear.Visible = true; numericUpDownmonth.Visible = true; numericUpDownday.Visible = true; numericUpDownhour.Visible = true;
+            button59.Visible = true; checkBox1.Visible = true; linkLabel28.Visible = true;
 
             buttonp.Visible = true; button9.Visible = true; buttonjin.Visible = true; buttonshui.Visible = true;
             buttonmu.Visible = true; buttonhuo.Visible = true; buttontu.Visible = true; button1.Visible = true;
@@ -55083,660 +55059,690 @@ namespace BaZiFuZuGongJu
 
         private void button59_Click(object sender, EventArgs e)
         {
+
+
             int yeartimeint = (int)numericUpDownyear.Value;
             int mothtimeint = (int)numericUpDownmonth.Value;
             int daytimeint = (int)numericUpDownday.Value;
             int hourtimeint = (int)numericUpDownhour.Value;
 
-          
-            //判断用户选择的时间是阳历或农历
-            if (checkBox1.Checked == true)//农历月
+            //判断用户选择的时间是阳历或农历显示天干地支
+            if (jia == jia)
             {
-                var lunar = new Lunar.Lunar(yeartimeint, mothtimeint, daytimeint);
-                string ntgan = lunar.YearGanExact;
-                string ndizhi = lunar.YearZhiExact;
-                string ytgan = lunar.MonthGanExact;
-                string ydizhi = lunar.MonthZhiExact;
-                string rtgan = lunar.DayGanExact;
-                string rdizhi = lunar.DayZhiExact;
-                comboBoxng.Text = ntgan; comboBoxyg.Text = ytgan; comboBoxrg.Text = rtgan;
-                comboBoxnz.Text = ndizhi; comboBoxyz.Text = ydizhi; comboBoxrz.Text = rdizhi;
-
-                //时干支
-                if (jia == jia)
+                if (checkBox1.Checked == true)//农历月
                 {
-                    if (hourtimeint == 0 || hourtimeint == 23)
+                    var lunar = new Lunar.Lunar(yeartimeint, mothtimeint, daytimeint);
+                    string ntgan = lunar.YearGanExact;
+                    string ndizhi = lunar.YearZhiExact;
+                    string ytgan = lunar.MonthGanExact;
+                    string ydizhi = lunar.MonthZhiExact;
+                    string rtgan = lunar.DayGanExact;
+                    string rdizhi = lunar.DayZhiExact;
+                    comboBoxng.Text = ntgan; comboBoxyg.Text = ytgan; comboBoxrg.Text = rtgan;
+                    comboBoxnz.Text = ndizhi; comboBoxyz.Text = ydizhi; comboBoxrz.Text = rdizhi;
+
+                    //时干支
+                    if (jia == jia)
                     {
-                        comboBoxsz.Text = zii;
+                        if (hourtimeint == 0 || hourtimeint == 23)
+                        {
+                            comboBoxsz.Text = zii;
+                        }
+                        if (hourtimeint == 1 || hourtimeint == 2)
+                        {
+                            comboBoxsz.Text = chou;
+                        }
+                        if (hourtimeint == 3 || hourtimeint == 4)
+                        {
+                            comboBoxsz.Text = yin;
+                        }
+                        if (hourtimeint == 5 || hourtimeint == 6)
+                        {
+                            comboBoxsz.Text = mao;
+                        }
+                        if (hourtimeint == 7 || hourtimeint == 8)
+                        {
+                            comboBoxsz.Text = chen;
+                        }
+                        if (hourtimeint == 9 || hourtimeint == 10)
+                        {
+                            comboBoxsz.Text = sii;
+                        }
+                        if (hourtimeint == 11 || hourtimeint == 12)
+                        {
+                            comboBoxsz.Text = wuma;
+                        }
+                        if (hourtimeint == 13 || hourtimeint == 14)
+                        {
+                            comboBoxsz.Text = wei;
+                        }
+                        if (hourtimeint == 15 || hourtimeint == 16)
+                        {
+                            comboBoxsz.Text = shen;
+                        }
+                        if (hourtimeint == 17 || hourtimeint == 18)
+                        {
+                            comboBoxsz.Text = you;
+                        }
+                        if (hourtimeint == 19 || hourtimeint == 20)
+                        {
+                            comboBoxsz.Text = xuu;
+                        }
+                        if (hourtimeint == 21 || hourtimeint == 22)
+                        {
+                            comboBoxsz.Text = hai;
+                        }
+
+                        if (comboBoxrg.Text == jia || comboBoxrg.Text == jii)
+                        {
+                            if (comboBoxsz.Text == zii)
+                            {
+                                comboBoxsg.Text = jia;
+                            }
+                            if (comboBoxsz.Text == chou)
+                            {
+                                comboBoxsg.Text = yii;
+                            }
+                            if (comboBoxsz.Text == yin)
+                            {
+                                comboBoxsg.Text = bing;
+                            }
+                            if (comboBoxsz.Text == mao)
+                            {
+                                comboBoxsg.Text = ding;
+                            }
+                            if (comboBoxsz.Text == chen)
+                            {
+                                comboBoxsg.Text = wuu;
+                            }
+                            if (comboBoxsz.Text == sii)
+                            {
+                                comboBoxsg.Text = jii;
+                            }
+                            if (comboBoxsz.Text == wuma)
+                            {
+                                comboBoxsg.Text = geng;
+                            }
+                            if (comboBoxsz.Text == wei)
+                            {
+                                comboBoxsg.Text = xin;
+                            }
+                            if (comboBoxsz.Text == shen)
+                            {
+                                comboBoxsg.Text = ren;
+                            }
+                            if (comboBoxsz.Text == you)
+                            {
+                                comboBoxsg.Text = gui;
+                            }
+                            if (comboBoxsz.Text == xuu)
+                            {
+                                comboBoxsg.Text = jia;
+                            }
+                            if (comboBoxsz.Text == hai)
+                            {
+                                comboBoxsg.Text = yii;
+                            }
+                        }
+                        if (comboBoxrg.Text == yii || comboBoxrg.Text == geng)
+                        {
+                            if (comboBoxsz.Text == zii)
+                            {
+                                comboBoxsg.Text = bing;
+                            }
+                            if (comboBoxsz.Text == chou)
+                            {
+                                comboBoxsg.Text = ding;
+                            }
+                            if (comboBoxsz.Text == yin)
+                            {
+                                comboBoxsg.Text = wuu;
+                            }
+                            if (comboBoxsz.Text == mao)
+                            {
+                                comboBoxsg.Text = jii;
+                            }
+                            if (comboBoxsz.Text == chen)
+                            {
+                                comboBoxsg.Text = geng;
+                            }
+                            if (comboBoxsz.Text == sii)
+                            {
+                                comboBoxsg.Text = xin;
+                            }
+                            if (comboBoxsz.Text == wuma)
+                            {
+                                comboBoxsg.Text = ren;
+                            }
+                            if (comboBoxsz.Text == wei)
+                            {
+                                comboBoxsg.Text = gui;
+                            }
+                            if (comboBoxsz.Text == shen)
+                            {
+                                comboBoxsg.Text = jia;
+                            }
+                            if (comboBoxsz.Text == you)
+                            {
+                                comboBoxsg.Text = yii;
+                            }
+                            if (comboBoxsz.Text == xuu)
+                            {
+                                comboBoxsg.Text = bing;
+                            }
+                            if (comboBoxsz.Text == hai)
+                            {
+                                comboBoxsg.Text = ding;
+                            }
+                        }
+                        if (comboBoxrg.Text == bing || comboBoxrg.Text == xin)
+                        {
+                            if (comboBoxsz.Text == zii)
+                            {
+                                comboBoxsg.Text = wuu;
+                            }
+                            if (comboBoxsz.Text == chou)
+                            {
+                                comboBoxsg.Text = jii;
+                            }
+                            if (comboBoxsz.Text == yin)
+                            {
+                                comboBoxsg.Text = geng;
+                            }
+                            if (comboBoxsz.Text == mao)
+                            {
+                                comboBoxsg.Text = xin;
+                            }
+                            if (comboBoxsz.Text == chen)
+                            {
+                                comboBoxsg.Text = ren;
+                            }
+                            if (comboBoxsz.Text == sii)
+                            {
+                                comboBoxsg.Text = gui;
+                            }
+                            if (comboBoxsz.Text == wuma)
+                            {
+                                comboBoxsg.Text = jia;
+                            }
+                            if (comboBoxsz.Text == wei)
+                            {
+                                comboBoxsg.Text = yii;
+                            }
+                            if (comboBoxsz.Text == shen)
+                            {
+                                comboBoxsg.Text = bing;
+                            }
+                            if (comboBoxsz.Text == you)
+                            {
+                                comboBoxsg.Text = ding;
+                            }
+                            if (comboBoxsz.Text == xuu)
+                            {
+                                comboBoxsg.Text = wuu;
+                            }
+                            if (comboBoxsz.Text == hai)
+                            {
+                                comboBoxsg.Text = jii;
+                            }
+                        }
+                        if (comboBoxrg.Text == ding || comboBoxrg.Text == ren)
+                        {
+                            if (comboBoxsz.Text == zii)
+                            {
+                                comboBoxsg.Text = geng;
+                            }
+                            if (comboBoxsz.Text == chou)
+                            {
+                                comboBoxsg.Text = xin;
+                            }
+                            if (comboBoxsz.Text == yin)
+                            {
+                                comboBoxsg.Text = ren;
+                            }
+                            if (comboBoxsz.Text == mao)
+                            {
+                                comboBoxsg.Text = gui;
+                            }
+                            if (comboBoxsz.Text == chen)
+                            {
+                                comboBoxsg.Text = jia;
+                            }
+                            if (comboBoxsz.Text == sii)
+                            {
+                                comboBoxsg.Text = yii;
+                            }
+                            if (comboBoxsz.Text == wuma)
+                            {
+                                comboBoxsg.Text = bing;
+                            }
+                            if (comboBoxsz.Text == wei)
+                            {
+                                comboBoxsg.Text = ding;
+                            }
+                            if (comboBoxsz.Text == shen)
+                            {
+                                comboBoxsg.Text = wuu;
+                            }
+                            if (comboBoxsz.Text == you)
+                            {
+                                comboBoxsg.Text = jii;
+                            }
+                            if (comboBoxsz.Text == xuu)
+                            {
+                                comboBoxsg.Text = geng;
+                            }
+                            if (comboBoxsz.Text == hai)
+                            {
+                                comboBoxsg.Text = xin;
+                            }
+                        }
+                        if (comboBoxrg.Text == wuu || comboBoxrg.Text == gui)
+                        {
+                            if (comboBoxsz.Text == zii)
+                            {
+                                comboBoxsg.Text = ren;
+                            }
+                            if (comboBoxsz.Text == chou)
+                            {
+                                comboBoxsg.Text = gui;
+                            }
+                            if (comboBoxsz.Text == yin)
+                            {
+                                comboBoxsg.Text = jia;
+                            }
+                            if (comboBoxsz.Text == mao)
+                            {
+                                comboBoxsg.Text = yii;
+                            }
+                            if (comboBoxsz.Text == chen)
+                            {
+                                comboBoxsg.Text = bing;
+                            }
+                            if (comboBoxsz.Text == sii)
+                            {
+                                comboBoxsg.Text = ding;
+                            }
+                            if (comboBoxsz.Text == wuma)
+                            {
+                                comboBoxsg.Text = wuu;
+                            }
+                            if (comboBoxsz.Text == wei)
+                            {
+                                comboBoxsg.Text = jii;
+                            }
+                            if (comboBoxsz.Text == shen)
+                            {
+                                comboBoxsg.Text = geng;
+                            }
+                            if (comboBoxsz.Text == you)
+                            {
+                                comboBoxsg.Text = xin;
+                            }
+                            if (comboBoxsz.Text == xuu)
+                            {
+                                comboBoxsg.Text = ren;
+                            }
+                            if (comboBoxsz.Text == hai)
+                            {
+                                comboBoxsg.Text = gui;
+                            }
+                        }
+
                     }
-                    if (hourtimeint == 1 || hourtimeint == 2)
+                    //显示公历 日期
+                    if (jia == jia)
                     {
-                        comboBoxsz.Text = chou;
-                    }
-                    if (hourtimeint == 3 || hourtimeint == 4)
-                    {
-                        comboBoxsz.Text = yin;
-                    }
-                    if (hourtimeint == 5 || hourtimeint == 6)
-                    {
-                        comboBoxsz.Text = mao;
-                    }
-                    if (hourtimeint == 7 || hourtimeint == 8)
-                    {
-                        comboBoxsz.Text = chen;
-                    }
-                    if (hourtimeint == 9 || hourtimeint == 10)
-                    {
-                        comboBoxsz.Text = sii;
-                    }
-                    if (hourtimeint == 11 || hourtimeint == 12)
-                    {
-                        comboBoxsz.Text = wuma;
-                    }
-                    if (hourtimeint == 13 || hourtimeint == 14)
-                    {
-                        comboBoxsz.Text = wei;
-                    }
-                    if (hourtimeint == 15 || hourtimeint == 16)
-                    {
-                        comboBoxsz.Text = shen;
-                    }
-                    if (hourtimeint == 17 || hourtimeint == 18)
-                    {
-                        comboBoxsz.Text = you;
-                    }
-                    if (hourtimeint == 19 || hourtimeint == 20)
-                    {
-                        comboBoxsz.Text = xuu;
-                    }
-                    if (hourtimeint == 21 || hourtimeint == 22)
-                    {
-                        comboBoxsz.Text = hai;
+                        ChineseLunisolarCalendar calendar = new ChineseLunisolarCalendar();
+
+                        DateTime lunarDate = new DateTime(yeartimeint, mothtimeint, daytimeint, hourtimeint, 0, 0, 0, new ChineseLunisolarCalendar());
+                        int year = calendar.GetYear(lunarDate);
+                        int month = calendar.GetMonth(lunarDate);
+                        int day = calendar.GetDayOfMonth(lunarDate);
+
+                        // 转换为公历日期
+                        DateTime solarDate = lunarDate;
+                        string gongli = solarDate.ToString();
+                        linkLabel28.Text = "公历：" + gongli + "-星期" + lunar.WeekInChinese;
+
                     }
 
-                    if (comboBoxrg.Text == jia || comboBoxrg.Text == jii)
+
+                }
+                if (checkBox1.Checked == false)//公历月
+                {
+                    var solar = new Solar(yeartimeint, mothtimeint, daytimeint);
+                    var lunar = solar.Lunar;
+                    string ntgan = lunar.YearGanExact;
+                    string ndizhi = lunar.YearZhiExact;
+                    string ytgan = lunar.MonthGanExact;
+                    string ydizhi = lunar.MonthZhiExact;
+                    string rtgan = lunar.DayGanExact;
+                    string rdizhi = lunar.DayZhiExact;
+
+                    comboBoxng.Text = ntgan; comboBoxyg.Text = ytgan; comboBoxrg.Text = rtgan;
+                    comboBoxnz.Text = ndizhi; comboBoxyz.Text = ydizhi; comboBoxrz.Text = rdizhi;
+
+
+                    //时干支
+                    if (jia == jia)
                     {
-                        if (comboBoxsz.Text == zii)
+                        if (hourtimeint == 0 || hourtimeint == 23)
                         {
-                            comboBoxsg.Text = jia;
+                            comboBoxsz.Text = zii;
                         }
-                        if (comboBoxsz.Text == chou)
+                        if (hourtimeint == 1 || hourtimeint == 2)
                         {
-                            comboBoxsg.Text = yii;
+                            comboBoxsz.Text = chou;
                         }
-                        if (comboBoxsz.Text == yin)
+                        if (hourtimeint == 3 || hourtimeint == 4)
                         {
-                            comboBoxsg.Text = bing;
+                            comboBoxsz.Text = yin;
                         }
-                        if (comboBoxsz.Text == mao)
+                        if (hourtimeint == 5 || hourtimeint == 6)
                         {
-                            comboBoxsg.Text = ding;
+                            comboBoxsz.Text = mao;
                         }
-                        if (comboBoxsz.Text == chen)
+                        if (hourtimeint == 7 || hourtimeint == 8)
                         {
-                            comboBoxsg.Text = wuu;
+                            comboBoxsz.Text = chen;
                         }
-                        if (comboBoxsz.Text == sii)
+                        if (hourtimeint == 9 || hourtimeint == 10)
                         {
-                            comboBoxsg.Text = jii;
+                            comboBoxsz.Text = sii;
                         }
-                        if (comboBoxsz.Text == wuma)
+                        if (hourtimeint == 11 || hourtimeint == 12)
                         {
-                            comboBoxsg.Text = geng;
+                            comboBoxsz.Text = wuma;
                         }
-                        if (comboBoxsz.Text == wei)
+                        if (hourtimeint == 13 || hourtimeint == 14)
                         {
-                            comboBoxsg.Text = xin;
+                            comboBoxsz.Text = wei;
                         }
-                        if (comboBoxsz.Text == shen)
+                        if (hourtimeint == 15 || hourtimeint == 16)
                         {
-                            comboBoxsg.Text = ren;
+                            comboBoxsz.Text = shen;
                         }
-                        if (comboBoxsz.Text == you)
+                        if (hourtimeint == 17 || hourtimeint == 18)
                         {
-                            comboBoxsg.Text = gui;
+                            comboBoxsz.Text = you;
                         }
-                        if (comboBoxsz.Text == xuu)
+                        if (hourtimeint == 19 || hourtimeint == 20)
                         {
-                            comboBoxsg.Text = jia;
+                            comboBoxsz.Text = xuu;
                         }
-                        if (comboBoxsz.Text == hai)
+                        if (hourtimeint == 21 || hourtimeint == 22)
                         {
-                            comboBoxsg.Text = yii;
+                            comboBoxsz.Text = hai;
                         }
+
+                        if (comboBoxrg.Text == jia || comboBoxrg.Text == jii)
+                        {
+                            if (comboBoxsz.Text == zii)
+                            {
+                                comboBoxsg.Text = jia;
+                            }
+                            if (comboBoxsz.Text == chou)
+                            {
+                                comboBoxsg.Text = yii;
+                            }
+                            if (comboBoxsz.Text == yin)
+                            {
+                                comboBoxsg.Text = bing;
+                            }
+                            if (comboBoxsz.Text == mao)
+                            {
+                                comboBoxsg.Text = ding;
+                            }
+                            if (comboBoxsz.Text == chen)
+                            {
+                                comboBoxsg.Text = wuu;
+                            }
+                            if (comboBoxsz.Text == sii)
+                            {
+                                comboBoxsg.Text = jii;
+                            }
+                            if (comboBoxsz.Text == wuma)
+                            {
+                                comboBoxsg.Text = geng;
+                            }
+                            if (comboBoxsz.Text == wei)
+                            {
+                                comboBoxsg.Text = xin;
+                            }
+                            if (comboBoxsz.Text == shen)
+                            {
+                                comboBoxsg.Text = ren;
+                            }
+                            if (comboBoxsz.Text == you)
+                            {
+                                comboBoxsg.Text = gui;
+                            }
+                            if (comboBoxsz.Text == xuu)
+                            {
+                                comboBoxsg.Text = jia;
+                            }
+                            if (comboBoxsz.Text == hai)
+                            {
+                                comboBoxsg.Text = yii;
+                            }
+                        }
+                        if (comboBoxrg.Text == yii || comboBoxrg.Text == geng)
+                        {
+                            if (comboBoxsz.Text == zii)
+                            {
+                                comboBoxsg.Text = bing;
+                            }
+                            if (comboBoxsz.Text == chou)
+                            {
+                                comboBoxsg.Text = ding;
+                            }
+                            if (comboBoxsz.Text == yin)
+                            {
+                                comboBoxsg.Text = wuu;
+                            }
+                            if (comboBoxsz.Text == mao)
+                            {
+                                comboBoxsg.Text = jii;
+                            }
+                            if (comboBoxsz.Text == chen)
+                            {
+                                comboBoxsg.Text = geng;
+                            }
+                            if (comboBoxsz.Text == sii)
+                            {
+                                comboBoxsg.Text = xin;
+                            }
+                            if (comboBoxsz.Text == wuma)
+                            {
+                                comboBoxsg.Text = ren;
+                            }
+                            if (comboBoxsz.Text == wei)
+                            {
+                                comboBoxsg.Text = gui;
+                            }
+                            if (comboBoxsz.Text == shen)
+                            {
+                                comboBoxsg.Text = jia;
+                            }
+                            if (comboBoxsz.Text == you)
+                            {
+                                comboBoxsg.Text = yii;
+                            }
+                            if (comboBoxsz.Text == xuu)
+                            {
+                                comboBoxsg.Text = bing;
+                            }
+                            if (comboBoxsz.Text == hai)
+                            {
+                                comboBoxsg.Text = ding;
+                            }
+                        }
+                        if (comboBoxrg.Text == bing || comboBoxrg.Text == xin)
+                        {
+                            if (comboBoxsz.Text == zii)
+                            {
+                                comboBoxsg.Text = wuu;
+                            }
+                            if (comboBoxsz.Text == chou)
+                            {
+                                comboBoxsg.Text = jii;
+                            }
+                            if (comboBoxsz.Text == yin)
+                            {
+                                comboBoxsg.Text = geng;
+                            }
+                            if (comboBoxsz.Text == mao)
+                            {
+                                comboBoxsg.Text = xin;
+                            }
+                            if (comboBoxsz.Text == chen)
+                            {
+                                comboBoxsg.Text = ren;
+                            }
+                            if (comboBoxsz.Text == sii)
+                            {
+                                comboBoxsg.Text = gui;
+                            }
+                            if (comboBoxsz.Text == wuma)
+                            {
+                                comboBoxsg.Text = jia;
+                            }
+                            if (comboBoxsz.Text == wei)
+                            {
+                                comboBoxsg.Text = yii;
+                            }
+                            if (comboBoxsz.Text == shen)
+                            {
+                                comboBoxsg.Text = bing;
+                            }
+                            if (comboBoxsz.Text == you)
+                            {
+                                comboBoxsg.Text = ding;
+                            }
+                            if (comboBoxsz.Text == xuu)
+                            {
+                                comboBoxsg.Text = wuu;
+                            }
+                            if (comboBoxsz.Text == hai)
+                            {
+                                comboBoxsg.Text = jii;
+                            }
+                        }
+                        if (comboBoxrg.Text == ding || comboBoxrg.Text == ren)
+                        {
+                            if (comboBoxsz.Text == zii)
+                            {
+                                comboBoxsg.Text = geng;
+                            }
+                            if (comboBoxsz.Text == chou)
+                            {
+                                comboBoxsg.Text = xin;
+                            }
+                            if (comboBoxsz.Text == yin)
+                            {
+                                comboBoxsg.Text = ren;
+                            }
+                            if (comboBoxsz.Text == mao)
+                            {
+                                comboBoxsg.Text = gui;
+                            }
+                            if (comboBoxsz.Text == chen)
+                            {
+                                comboBoxsg.Text = jia;
+                            }
+                            if (comboBoxsz.Text == sii)
+                            {
+                                comboBoxsg.Text = yii;
+                            }
+                            if (comboBoxsz.Text == wuma)
+                            {
+                                comboBoxsg.Text = bing;
+                            }
+                            if (comboBoxsz.Text == wei)
+                            {
+                                comboBoxsg.Text = ding;
+                            }
+                            if (comboBoxsz.Text == shen)
+                            {
+                                comboBoxsg.Text = wuu;
+                            }
+                            if (comboBoxsz.Text == you)
+                            {
+                                comboBoxsg.Text = jii;
+                            }
+                            if (comboBoxsz.Text == xuu)
+                            {
+                                comboBoxsg.Text = geng;
+                            }
+                            if (comboBoxsz.Text == hai)
+                            {
+                                comboBoxsg.Text = xin;
+                            }
+                        }
+                        if (comboBoxrg.Text == wuu || comboBoxrg.Text == gui)
+                        {
+                            if (comboBoxsz.Text == zii)
+                            {
+                                comboBoxsg.Text = ren;
+                            }
+                            if (comboBoxsz.Text == chou)
+                            {
+                                comboBoxsg.Text = gui;
+                            }
+                            if (comboBoxsz.Text == yin)
+                            {
+                                comboBoxsg.Text = jia;
+                            }
+                            if (comboBoxsz.Text == mao)
+                            {
+                                comboBoxsg.Text = yii;
+                            }
+                            if (comboBoxsz.Text == chen)
+                            {
+                                comboBoxsg.Text = bing;
+                            }
+                            if (comboBoxsz.Text == sii)
+                            {
+                                comboBoxsg.Text = ding;
+                            }
+                            if (comboBoxsz.Text == wuma)
+                            {
+                                comboBoxsg.Text = wuu;
+                            }
+                            if (comboBoxsz.Text == wei)
+                            {
+                                comboBoxsg.Text = jii;
+                            }
+                            if (comboBoxsz.Text == shen)
+                            {
+                                comboBoxsg.Text = geng;
+                            }
+                            if (comboBoxsz.Text == you)
+                            {
+                                comboBoxsg.Text = xin;
+                            }
+                            if (comboBoxsz.Text == xuu)
+                            {
+                                comboBoxsg.Text = ren;
+                            }
+                            if (comboBoxsz.Text == hai)
+                            {
+                                comboBoxsg.Text = gui;
+                            }
+                        }
+
                     }
-                    if (comboBoxrg.Text == yii || comboBoxrg.Text == geng)
+                    //显示农历日期
+                    if (jia == jia)
                     {
-                        if (comboBoxsz.Text == zii)
-                        {
-                            comboBoxsg.Text = bing;
-                        }
-                        if (comboBoxsz.Text == chou)
-                        {
-                            comboBoxsg.Text = ding;
-                        }
-                        if (comboBoxsz.Text == yin)
-                        {
-                            comboBoxsg.Text = wuu;
-                        }
-                        if (comboBoxsz.Text == mao)
-                        {
-                            comboBoxsg.Text = jii;
-                        }
-                        if (comboBoxsz.Text == chen)
-                        {
-                            comboBoxsg.Text = geng;
-                        }
-                        if (comboBoxsz.Text == sii)
-                        {
-                            comboBoxsg.Text = xin;
-                        }
-                        if (comboBoxsz.Text == wuma)
-                        {
-                            comboBoxsg.Text = ren;
-                        }
-                        if (comboBoxsz.Text == wei)
-                        {
-                            comboBoxsg.Text = gui;
-                        }
-                        if (comboBoxsz.Text == shen)
-                        {
-                            comboBoxsg.Text = jia;
-                        }
-                        if (comboBoxsz.Text == you)
-                        {
-                            comboBoxsg.Text = yii;
-                        }
-                        if (comboBoxsz.Text == xuu)
-                        {
-                            comboBoxsg.Text = bing;
-                        }
-                        if (comboBoxsz.Text == hai)
-                        {
-                            comboBoxsg.Text = ding;
-                        }
-                    }
-                    if (comboBoxrg.Text == bing || comboBoxrg.Text == xin)
-                    {
-                        if (comboBoxsz.Text == zii)
-                        {
-                            comboBoxsg.Text = wuu;
-                        }
-                        if (comboBoxsz.Text == chou)
-                        {
-                            comboBoxsg.Text = jii;
-                        }
-                        if (comboBoxsz.Text == yin)
-                        {
-                            comboBoxsg.Text = geng;
-                        }
-                        if (comboBoxsz.Text == mao)
-                        {
-                            comboBoxsg.Text = xin;
-                        }
-                        if (comboBoxsz.Text == chen)
-                        {
-                            comboBoxsg.Text = ren;
-                        }
-                        if (comboBoxsz.Text == sii)
-                        {
-                            comboBoxsg.Text = gui;
-                        }
-                        if (comboBoxsz.Text == wuma)
-                        {
-                            comboBoxsg.Text = jia;
-                        }
-                        if (comboBoxsz.Text == wei)
-                        {
-                            comboBoxsg.Text = yii;
-                        }
-                        if (comboBoxsz.Text == shen)
-                        {
-                            comboBoxsg.Text = bing;
-                        }
-                        if (comboBoxsz.Text == you)
-                        {
-                            comboBoxsg.Text = ding;
-                        }
-                        if (comboBoxsz.Text == xuu)
-                        {
-                            comboBoxsg.Text = wuu;
-                        }
-                        if (comboBoxsz.Text == hai)
-                        {
-                            comboBoxsg.Text = jii;
-                        }
-                    }
-                    if (comboBoxrg.Text == ding || comboBoxrg.Text == ren)
-                    {
-                        if (comboBoxsz.Text == zii)
-                        {
-                            comboBoxsg.Text = geng;
-                        }
-                        if (comboBoxsz.Text == chou)
-                        {
-                            comboBoxsg.Text = xin;
-                        }
-                        if (comboBoxsz.Text == yin)
-                        {
-                            comboBoxsg.Text = ren;
-                        }
-                        if (comboBoxsz.Text == mao)
-                        {
-                            comboBoxsg.Text = gui;
-                        }
-                        if (comboBoxsz.Text == chen)
-                        {
-                            comboBoxsg.Text = jia;
-                        }
-                        if (comboBoxsz.Text == sii)
-                        {
-                            comboBoxsg.Text = yii;
-                        }
-                        if (comboBoxsz.Text == wuma)
-                        {
-                            comboBoxsg.Text = bing;
-                        }
-                        if (comboBoxsz.Text == wei)
-                        {
-                            comboBoxsg.Text = ding;
-                        }
-                        if (comboBoxsz.Text == shen)
-                        {
-                            comboBoxsg.Text = wuu;
-                        }
-                        if (comboBoxsz.Text == you)
-                        {
-                            comboBoxsg.Text = jii;
-                        }
-                        if (comboBoxsz.Text == xuu)
-                        {
-                            comboBoxsg.Text = geng;
-                        }
-                        if (comboBoxsz.Text == hai)
-                        {
-                            comboBoxsg.Text = xin;
-                        }
-                    }
-                    if (comboBoxrg.Text == wuu || comboBoxrg.Text == gui)
-                    {
-                        if (comboBoxsz.Text == zii)
-                        {
-                            comboBoxsg.Text = ren;
-                        }
-                        if (comboBoxsz.Text == chou)
-                        {
-                            comboBoxsg.Text = gui;
-                        }
-                        if (comboBoxsz.Text == yin)
-                        {
-                            comboBoxsg.Text = jia;
-                        }
-                        if (comboBoxsz.Text == mao)
-                        {
-                            comboBoxsg.Text = yii;
-                        }
-                        if (comboBoxsz.Text == chen)
-                        {
-                            comboBoxsg.Text = bing;
-                        }
-                        if (comboBoxsz.Text == sii)
-                        {
-                            comboBoxsg.Text = ding;
-                        }
-                        if (comboBoxsz.Text == wuma)
-                        {
-                            comboBoxsg.Text = wuu;
-                        }
-                        if (comboBoxsz.Text == wei)
-                        {
-                            comboBoxsg.Text = jii;
-                        }
-                        if (comboBoxsz.Text == shen)
-                        {
-                            comboBoxsg.Text = geng;
-                        }
-                        if (comboBoxsz.Text == you)
-                        {
-                            comboBoxsg.Text = xin;
-                        }
-                        if (comboBoxsz.Text == xuu)
-                        {
-                            comboBoxsg.Text = ren;
-                        }
-                        if (comboBoxsz.Text == hai)
-                        {
-                            comboBoxsg.Text = gui;
-                        }
+                        string year = lunar.YearInChinese;
+                        string month = lunar.MonthInChinese;
+                        string day = lunar.DayInChinese;
+                        linkLabel28.Text = "农历：" + year + "年" + month + "月" + day + "日-" + "星期" + solar.WeekInChinese;
                     }
 
                 }
-
-            }
-            if (checkBox1.Checked == false)//公历月
-            {
-                var solar = new Solar(yeartimeint, mothtimeint, daytimeint);
-                var lunar = solar.Lunar;
-                string ntgan = lunar.YearGanExact;
-                string ndizhi = lunar.YearZhiExact;
-                string ytgan = lunar.MonthGanExact;
-                string ydizhi = lunar.MonthZhiExact;
-                string rtgan = lunar.DayGanExact;
-                string rdizhi = lunar.DayZhiExact;
-
-                comboBoxng.Text = ntgan; comboBoxyg.Text = ytgan; comboBoxrg.Text = rtgan;
-                comboBoxnz.Text = ndizhi; comboBoxyz.Text = ydizhi; comboBoxrz.Text = rdizhi;
-
-                //时干支
-                if (jia == jia)
-                {
-                    if (hourtimeint == 0 || hourtimeint == 23)
-                    {
-                        comboBoxsz.Text = zii;
-                    }
-                    if (hourtimeint == 1 || hourtimeint == 2)
-                    {
-                        comboBoxsz.Text = chou;
-                    }
-                    if (hourtimeint == 3 || hourtimeint == 4)
-                    {
-                        comboBoxsz.Text = yin;
-                    }
-                    if (hourtimeint == 5 || hourtimeint == 6)
-                    {
-                        comboBoxsz.Text = mao;
-                    }
-                    if (hourtimeint == 7 || hourtimeint == 8)
-                    {
-                        comboBoxsz.Text = chen;
-                    }
-                    if (hourtimeint == 9 || hourtimeint == 10)
-                    {
-                        comboBoxsz.Text = sii;
-                    }
-                    if (hourtimeint == 11 || hourtimeint == 12)
-                    {
-                        comboBoxsz.Text = wuma;
-                    }
-                    if (hourtimeint == 13 || hourtimeint == 14)
-                    {
-                        comboBoxsz.Text = wei;
-                    }
-                    if (hourtimeint == 15 || hourtimeint == 16)
-                    {
-                        comboBoxsz.Text = shen;
-                    }
-                    if (hourtimeint == 17 || hourtimeint == 18)
-                    {
-                        comboBoxsz.Text = you;
-                    }
-                    if (hourtimeint == 19 || hourtimeint == 20)
-                    {
-                        comboBoxsz.Text = xuu;
-                    }
-                    if (hourtimeint == 21 || hourtimeint == 22)
-                    {
-                        comboBoxsz.Text = hai;
-                    }
-
-                    if (comboBoxrg.Text == jia || comboBoxrg.Text == jii)
-                    {
-                        if (comboBoxsz.Text == zii)
-                        {
-                            comboBoxsg.Text = jia;
-                        }
-                        if (comboBoxsz.Text == chou)
-                        {
-                            comboBoxsg.Text = yii;
-                        }
-                        if (comboBoxsz.Text == yin)
-                        {
-                            comboBoxsg.Text = bing;
-                        }
-                        if (comboBoxsz.Text == mao)
-                        {
-                            comboBoxsg.Text = ding;
-                        }
-                        if (comboBoxsz.Text == chen)
-                        {
-                            comboBoxsg.Text = wuu;
-                        }
-                        if (comboBoxsz.Text == sii)
-                        {
-                            comboBoxsg.Text = jii;
-                        }
-                        if (comboBoxsz.Text == wuma)
-                        {
-                            comboBoxsg.Text = geng;
-                        }
-                        if (comboBoxsz.Text == wei)
-                        {
-                            comboBoxsg.Text = xin;
-                        }
-                        if (comboBoxsz.Text == shen)
-                        {
-                            comboBoxsg.Text = ren;
-                        }
-                        if (comboBoxsz.Text == you)
-                        {
-                            comboBoxsg.Text = gui;
-                        }
-                        if (comboBoxsz.Text == xuu)
-                        {
-                            comboBoxsg.Text = jia;
-                        }
-                        if (comboBoxsz.Text == hai)
-                        {
-                            comboBoxsg.Text = yii;
-                        }
-                    }
-                    if (comboBoxrg.Text == yii || comboBoxrg.Text == geng)
-                    {
-                        if (comboBoxsz.Text == zii)
-                        {
-                            comboBoxsg.Text = bing;
-                        }
-                        if (comboBoxsz.Text == chou)
-                        {
-                            comboBoxsg.Text = ding;
-                        }
-                        if (comboBoxsz.Text == yin)
-                        {
-                            comboBoxsg.Text = wuu;
-                        }
-                        if (comboBoxsz.Text == mao)
-                        {
-                            comboBoxsg.Text = jii;
-                        }
-                        if (comboBoxsz.Text == chen)
-                        {
-                            comboBoxsg.Text = geng;
-                        }
-                        if (comboBoxsz.Text == sii)
-                        {
-                            comboBoxsg.Text = xin;
-                        }
-                        if (comboBoxsz.Text == wuma)
-                        {
-                            comboBoxsg.Text = ren;
-                        }
-                        if (comboBoxsz.Text == wei)
-                        {
-                            comboBoxsg.Text = gui;
-                        }
-                        if (comboBoxsz.Text == shen)
-                        {
-                            comboBoxsg.Text = jia;
-                        }
-                        if (comboBoxsz.Text == you)
-                        {
-                            comboBoxsg.Text = yii;
-                        }
-                        if (comboBoxsz.Text == xuu)
-                        {
-                            comboBoxsg.Text = bing;
-                        }
-                        if (comboBoxsz.Text == hai)
-                        {
-                            comboBoxsg.Text = ding;
-                        }
-                    }
-                    if (comboBoxrg.Text == bing || comboBoxrg.Text == xin)
-                    {
-                        if (comboBoxsz.Text == zii)
-                        {
-                            comboBoxsg.Text = wuu;
-                        }
-                        if (comboBoxsz.Text == chou)
-                        {
-                            comboBoxsg.Text = jii;
-                        }
-                        if (comboBoxsz.Text == yin)
-                        {
-                            comboBoxsg.Text = geng;
-                        }
-                        if (comboBoxsz.Text == mao)
-                        {
-                            comboBoxsg.Text = xin;
-                        }
-                        if (comboBoxsz.Text == chen)
-                        {
-                            comboBoxsg.Text = ren;
-                        }
-                        if (comboBoxsz.Text == sii)
-                        {
-                            comboBoxsg.Text = gui;
-                        }
-                        if (comboBoxsz.Text == wuma)
-                        {
-                            comboBoxsg.Text = jia;
-                        }
-                        if (comboBoxsz.Text == wei)
-                        {
-                            comboBoxsg.Text = yii;
-                        }
-                        if (comboBoxsz.Text == shen)
-                        {
-                            comboBoxsg.Text = bing;
-                        }
-                        if (comboBoxsz.Text == you)
-                        {
-                            comboBoxsg.Text = ding;
-                        }
-                        if (comboBoxsz.Text == xuu)
-                        {
-                            comboBoxsg.Text = wuu;
-                        }
-                        if (comboBoxsz.Text == hai)
-                        {
-                            comboBoxsg.Text = jii;
-                        }
-                    }
-                    if (comboBoxrg.Text == ding || comboBoxrg.Text == ren)
-                    {
-                        if (comboBoxsz.Text == zii)
-                        {
-                            comboBoxsg.Text = geng;
-                        }
-                        if (comboBoxsz.Text == chou)
-                        {
-                            comboBoxsg.Text = xin;
-                        }
-                        if (comboBoxsz.Text == yin)
-                        {
-                            comboBoxsg.Text = ren;
-                        }
-                        if (comboBoxsz.Text == mao)
-                        {
-                            comboBoxsg.Text = gui;
-                        }
-                        if (comboBoxsz.Text == chen)
-                        {
-                            comboBoxsg.Text = jia;
-                        }
-                        if (comboBoxsz.Text == sii)
-                        {
-                            comboBoxsg.Text = yii;
-                        }
-                        if (comboBoxsz.Text == wuma)
-                        {
-                            comboBoxsg.Text = bing;
-                        }
-                        if (comboBoxsz.Text == wei)
-                        {
-                            comboBoxsg.Text = ding;
-                        }
-                        if (comboBoxsz.Text == shen)
-                        {
-                            comboBoxsg.Text = wuu;
-                        }
-                        if (comboBoxsz.Text == you)
-                        {
-                            comboBoxsg.Text = jii;
-                        }
-                        if (comboBoxsz.Text == xuu)
-                        {
-                            comboBoxsg.Text = geng;
-                        }
-                        if (comboBoxsz.Text == hai)
-                        {
-                            comboBoxsg.Text = xin;
-                        }
-                    }
-                    if (comboBoxrg.Text == wuu || comboBoxrg.Text == gui)
-                    {
-                        if (comboBoxsz.Text == zii)
-                        {
-                            comboBoxsg.Text = ren;
-                        }
-                        if (comboBoxsz.Text == chou)
-                        {
-                            comboBoxsg.Text = gui;
-                        }
-                        if (comboBoxsz.Text == yin)
-                        {
-                            comboBoxsg.Text = jia;
-                        }
-                        if (comboBoxsz.Text == mao)
-                        {
-                            comboBoxsg.Text = yii;
-                        }
-                        if (comboBoxsz.Text == chen)
-                        {
-                            comboBoxsg.Text = bing;
-                        }
-                        if (comboBoxsz.Text == sii)
-                        {
-                            comboBoxsg.Text = ding;
-                        }
-                        if (comboBoxsz.Text == wuma)
-                        {
-                            comboBoxsg.Text = wuu;
-                        }
-                        if (comboBoxsz.Text == wei)
-                        {
-                            comboBoxsg.Text = jii;
-                        }
-                        if (comboBoxsz.Text == shen)
-                        {
-                            comboBoxsg.Text = geng;
-                        }
-                        if (comboBoxsz.Text == you)
-                        {
-                            comboBoxsg.Text = xin;
-                        }
-                        if (comboBoxsz.Text == xuu)
-                        {
-                            comboBoxsg.Text = ren;
-                        }
-                        if (comboBoxsz.Text == hai)
-                        {
-                            comboBoxsg.Text = gui;
-                        }
-                    }
-
-                }
-
             }
 
             buttongz.Focus();
