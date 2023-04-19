@@ -75,7 +75,7 @@
             this.buttongz = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
+            this.linkLabelntgss = new System.Windows.Forms.LinkLabel();
             this.linkLabel4 = new System.Windows.Forms.LinkLabel();
             this.linkLabel5 = new System.Windows.Forms.LinkLabel();
             this.linkLabel6 = new System.Windows.Forms.LinkLabel();
@@ -83,19 +83,19 @@
             this.linkLabel8 = new System.Windows.Forms.LinkLabel();
             this.linkLabel9 = new System.Windows.Forms.LinkLabel();
             this.linkLabel10 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel11 = new System.Windows.Forms.LinkLabel();
+            this.linkLabelytgss = new System.Windows.Forms.LinkLabel();
             this.linkLabel12 = new System.Windows.Forms.LinkLabel();
             this.linkLabel13 = new System.Windows.Forms.LinkLabel();
             this.linkLabelycs = new System.Windows.Forms.LinkLabel();
             this.linkLabel15 = new System.Windows.Forms.LinkLabel();
             this.linkLabel17 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel18 = new System.Windows.Forms.LinkLabel();
+            this.linkLabelrtgss = new System.Windows.Forms.LinkLabel();
             this.linkLabel20 = new System.Windows.Forms.LinkLabel();
             this.linkLabelrcs = new System.Windows.Forms.LinkLabel();
             this.linkLabel22 = new System.Windows.Forms.LinkLabel();
             this.linkLabel23 = new System.Windows.Forms.LinkLabel();
             this.linkLabel24 = new System.Windows.Forms.LinkLabel();
-            this.linkLabelsgp = new System.Windows.Forms.LinkLabel();
+            this.linkLabelstgss = new System.Windows.Forms.LinkLabel();
             this.linkLabel26 = new System.Windows.Forms.LinkLabel();
             this.linkLabel27 = new System.Windows.Forms.LinkLabel();
             this.linkLabelscs = new System.Windows.Forms.LinkLabel();
@@ -104,12 +104,12 @@
             this.linkLabel31 = new System.Windows.Forms.LinkLabel();
             this.linkLabel32 = new System.Windows.Forms.LinkLabel();
             this.linkLabel33 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel34 = new System.Windows.Forms.LinkLabel();
+            this.linkLabelndzss1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel35 = new System.Windows.Forms.LinkLabel();
             this.linkLabel36 = new System.Windows.Forms.LinkLabel();
             this.linkLabel37 = new System.Windows.Forms.LinkLabel();
             this.linkLabel38 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel39 = new System.Windows.Forms.LinkLabel();
+            this.linkLabelydzss1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel40 = new System.Windows.Forms.LinkLabel();
             this.linkLabel41 = new System.Windows.Forms.LinkLabel();
             this.linkLabel42 = new System.Windows.Forms.LinkLabel();
@@ -117,7 +117,7 @@
             this.linkLabel44 = new System.Windows.Forms.LinkLabel();
             this.linkLabel45 = new System.Windows.Forms.LinkLabel();
             this.linkLabel46 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel47 = new System.Windows.Forms.LinkLabel();
+            this.linkLabelrdzss1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel48 = new System.Windows.Forms.LinkLabel();
             this.linkLabel49 = new System.Windows.Forms.LinkLabel();
             this.linkLabel50 = new System.Windows.Forms.LinkLabel();
@@ -127,7 +127,7 @@
             this.linkLabel54 = new System.Windows.Forms.LinkLabel();
             this.linkLabel55 = new System.Windows.Forms.LinkLabel();
             this.linkLabel56 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel57 = new System.Windows.Forms.LinkLabel();
+            this.linkLabelsdzss1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel58 = new System.Windows.Forms.LinkLabel();
             this.linkLabel59 = new System.Windows.Forms.LinkLabel();
             this.linkLabel60 = new System.Windows.Forms.LinkLabel();
@@ -172,10 +172,6 @@
             this.button62 = new System.Windows.Forms.Button();
             this.button63 = new System.Windows.Forms.Button();
             this.button65 = new System.Windows.Forms.Button();
-            this.linkLabel7 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel14 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel16 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel19 = new System.Windows.Forms.LinkLabel();
             this.button38 = new System.Windows.Forms.Button();
             this.button40 = new System.Windows.Forms.Button();
             this.button46 = new System.Windows.Forms.Button();
@@ -194,6 +190,10 @@
             this.linkLabel21 = new System.Windows.Forms.LinkLabel();
             this.linkLabel28 = new System.Windows.Forms.LinkLabel();
             this.checkBoxln = new System.Windows.Forms.CheckBox();
+            this.linkLabelsdzss2 = new System.Windows.Forms.LinkLabel();
+            this.linkLabelrdzss2 = new System.Windows.Forms.LinkLabel();
+            this.linkLabelydzss2 = new System.Windows.Forms.LinkLabel();
+            this.linkLabelndzss2 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownyear)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownmonth)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownday)).BeginInit();
@@ -202,10 +202,10 @@
             // 
             // buttonnz
             // 
-            this.buttonnz.Font = new System.Drawing.Font("微软雅黑", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.buttonnz.Location = new System.Drawing.Point(15, 492);
+            this.buttonnz.Font = new System.Drawing.Font("微软雅黑", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonnz.Location = new System.Drawing.Point(19, 489);
             this.buttonnz.Name = "buttonnz";
-            this.buttonnz.Size = new System.Drawing.Size(49, 50);
+            this.buttonnz.Size = new System.Drawing.Size(40, 45);
             this.buttonnz.TabIndex = 0;
             this.buttonnz.Text = "正";
             this.buttonnz.UseVisualStyleBackColor = true;
@@ -213,10 +213,10 @@
             // 
             // buttonyz
             // 
-            this.buttonyz.Font = new System.Drawing.Font("微软雅黑", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.buttonyz.Location = new System.Drawing.Point(496, 492);
+            this.buttonyz.Font = new System.Drawing.Font("微软雅黑", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonyz.Location = new System.Drawing.Point(500, 489);
             this.buttonyz.Name = "buttonyz";
-            this.buttonyz.Size = new System.Drawing.Size(49, 50);
+            this.buttonyz.Size = new System.Drawing.Size(40, 45);
             this.buttonyz.TabIndex = 1;
             this.buttonyz.Text = "正";
             this.buttonyz.UseVisualStyleBackColor = true;
@@ -224,10 +224,10 @@
             // 
             // buttonsz
             // 
-            this.buttonsz.Font = new System.Drawing.Font("微软雅黑", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.buttonsz.Location = new System.Drawing.Point(1460, 492);
+            this.buttonsz.Font = new System.Drawing.Font("微软雅黑", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonsz.Location = new System.Drawing.Point(1464, 489);
             this.buttonsz.Name = "buttonsz";
-            this.buttonsz.Size = new System.Drawing.Size(49, 50);
+            this.buttonsz.Size = new System.Drawing.Size(40, 45);
             this.buttonsz.TabIndex = 2;
             this.buttonsz.Text = "正";
             this.buttonsz.UseVisualStyleBackColor = true;
@@ -236,7 +236,7 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button4.Location = new System.Drawing.Point(2, 397);
+            this.button4.Location = new System.Drawing.Point(2, 408);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 36);
             this.button4.TabIndex = 3;
@@ -246,10 +246,10 @@
             // 
             // buttonrz
             // 
-            this.buttonrz.Font = new System.Drawing.Font("微软雅黑", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.buttonrz.Location = new System.Drawing.Point(977, 492);
+            this.buttonrz.Font = new System.Drawing.Font("微软雅黑", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonrz.Location = new System.Drawing.Point(981, 489);
             this.buttonrz.Name = "buttonrz";
-            this.buttonrz.Size = new System.Drawing.Size(49, 50);
+            this.buttonrz.Size = new System.Drawing.Size(40, 45);
             this.buttonrz.TabIndex = 4;
             this.buttonrz.Text = "正";
             this.buttonrz.UseVisualStyleBackColor = true;
@@ -258,7 +258,7 @@
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button6.Location = new System.Drawing.Point(483, 632);
+            this.button6.Location = new System.Drawing.Point(483, 606);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 36);
             this.button6.TabIndex = 5;
@@ -269,7 +269,7 @@
             // button7
             // 
             this.button7.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button7.Location = new System.Drawing.Point(964, 397);
+            this.button7.Location = new System.Drawing.Point(964, 408);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(75, 36);
             this.button7.TabIndex = 6;
@@ -280,7 +280,7 @@
             // button8
             // 
             this.button8.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button8.Location = new System.Drawing.Point(1447, 397);
+            this.button8.Location = new System.Drawing.Point(1447, 408);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(75, 36);
             this.button8.TabIndex = 7;
@@ -409,10 +409,10 @@
             // 
             // buttonng
             // 
-            this.buttonng.Font = new System.Drawing.Font("微软雅黑", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.buttonng.Location = new System.Drawing.Point(15, 439);
+            this.buttonng.Font = new System.Drawing.Font("微软雅黑", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonng.Location = new System.Drawing.Point(19, 444);
             this.buttonng.Name = "buttonng";
-            this.buttonng.Size = new System.Drawing.Size(49, 50);
+            this.buttonng.Size = new System.Drawing.Size(40, 45);
             this.buttonng.TabIndex = 23;
             this.buttonng.Text = "正";
             this.buttonng.UseVisualStyleBackColor = true;
@@ -420,10 +420,10 @@
             // 
             // buttonyg
             // 
-            this.buttonyg.Font = new System.Drawing.Font("微软雅黑", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.buttonyg.Location = new System.Drawing.Point(496, 439);
+            this.buttonyg.Font = new System.Drawing.Font("微软雅黑", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonyg.Location = new System.Drawing.Point(500, 444);
             this.buttonyg.Name = "buttonyg";
-            this.buttonyg.Size = new System.Drawing.Size(49, 50);
+            this.buttonyg.Size = new System.Drawing.Size(40, 45);
             this.buttonyg.TabIndex = 24;
             this.buttonyg.Text = "正";
             this.buttonyg.UseVisualStyleBackColor = true;
@@ -431,10 +431,10 @@
             // 
             // buttonrg
             // 
-            this.buttonrg.Font = new System.Drawing.Font("微软雅黑", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.buttonrg.Location = new System.Drawing.Point(977, 439);
+            this.buttonrg.Font = new System.Drawing.Font("微软雅黑", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonrg.Location = new System.Drawing.Point(981, 444);
             this.buttonrg.Name = "buttonrg";
-            this.buttonrg.Size = new System.Drawing.Size(49, 50);
+            this.buttonrg.Size = new System.Drawing.Size(40, 45);
             this.buttonrg.TabIndex = 25;
             this.buttonrg.Text = "正";
             this.buttonrg.UseVisualStyleBackColor = true;
@@ -442,10 +442,10 @@
             // 
             // buttonsg
             // 
-            this.buttonsg.Font = new System.Drawing.Font("微软雅黑", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.buttonsg.Location = new System.Drawing.Point(1460, 439);
+            this.buttonsg.Font = new System.Drawing.Font("微软雅黑", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonsg.Location = new System.Drawing.Point(1464, 444);
             this.buttonsg.Name = "buttonsg";
-            this.buttonsg.Size = new System.Drawing.Size(49, 50);
+            this.buttonsg.Size = new System.Drawing.Size(40, 45);
             this.buttonsg.TabIndex = 26;
             this.buttonsg.Text = "正";
             this.buttonsg.UseVisualStyleBackColor = true;
@@ -454,7 +454,7 @@
             // button13
             // 
             this.button13.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button13.Location = new System.Drawing.Point(2, 548);
+            this.button13.Location = new System.Drawing.Point(2, 534);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(75, 36);
             this.button13.TabIndex = 27;
@@ -465,7 +465,7 @@
             // button14
             // 
             this.button14.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button14.Location = new System.Drawing.Point(2, 590);
+            this.button14.Location = new System.Drawing.Point(2, 570);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(75, 36);
             this.button14.TabIndex = 28;
@@ -476,7 +476,7 @@
             // button15
             // 
             this.button15.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button15.Location = new System.Drawing.Point(2, 632);
+            this.button15.Location = new System.Drawing.Point(2, 606);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(75, 36);
             this.button15.TabIndex = 29;
@@ -487,7 +487,7 @@
             // button16
             // 
             this.button16.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button16.Location = new System.Drawing.Point(483, 397);
+            this.button16.Location = new System.Drawing.Point(483, 408);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(75, 36);
             this.button16.TabIndex = 30;
@@ -498,7 +498,7 @@
             // button17
             // 
             this.button17.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button17.Location = new System.Drawing.Point(483, 548);
+            this.button17.Location = new System.Drawing.Point(483, 534);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(75, 36);
             this.button17.TabIndex = 31;
@@ -509,7 +509,7 @@
             // button18
             // 
             this.button18.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button18.Location = new System.Drawing.Point(483, 590);
+            this.button18.Location = new System.Drawing.Point(483, 570);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(75, 36);
             this.button18.TabIndex = 32;
@@ -520,7 +520,7 @@
             // button19
             // 
             this.button19.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button19.Location = new System.Drawing.Point(964, 548);
+            this.button19.Location = new System.Drawing.Point(964, 534);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(75, 36);
             this.button19.TabIndex = 33;
@@ -531,7 +531,7 @@
             // button20
             // 
             this.button20.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button20.Location = new System.Drawing.Point(964, 632);
+            this.button20.Location = new System.Drawing.Point(964, 606);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(75, 36);
             this.button20.TabIndex = 34;
@@ -542,7 +542,7 @@
             // button21
             // 
             this.button21.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button21.Location = new System.Drawing.Point(964, 590);
+            this.button21.Location = new System.Drawing.Point(964, 570);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(75, 36);
             this.button21.TabIndex = 35;
@@ -553,7 +553,7 @@
             // button22
             // 
             this.button22.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button22.Location = new System.Drawing.Point(1447, 548);
+            this.button22.Location = new System.Drawing.Point(1447, 534);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(75, 36);
             this.button22.TabIndex = 36;
@@ -564,7 +564,7 @@
             // button23
             // 
             this.button23.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button23.Location = new System.Drawing.Point(1447, 590);
+            this.button23.Location = new System.Drawing.Point(1447, 570);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(75, 36);
             this.button23.TabIndex = 37;
@@ -575,7 +575,7 @@
             // button24
             // 
             this.button24.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button24.Location = new System.Drawing.Point(1447, 632);
+            this.button24.Location = new System.Drawing.Point(1447, 606);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(75, 36);
             this.button24.TabIndex = 38;
@@ -687,7 +687,7 @@
             this.linkLabel1.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel1.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel1.LinkColor = System.Drawing.Color.Maroon;
-            this.linkLabel1.Location = new System.Drawing.Point(1, 332);
+            this.linkLabel1.Location = new System.Drawing.Point(1, 343);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(62, 31);
             this.linkLabel1.TabIndex = 50;
@@ -700,25 +700,25 @@
             this.linkLabel2.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel2.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel2.LinkColor = System.Drawing.Color.Cyan;
-            this.linkLabel2.Location = new System.Drawing.Point(1, 301);
+            this.linkLabel2.Location = new System.Drawing.Point(1, 312);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(62, 31);
             this.linkLabel2.TabIndex = 51;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "方位";
             // 
-            // linkLabel3
+            // linkLabelntgss
             // 
-            this.linkLabel3.AutoSize = true;
-            this.linkLabel3.BackColor = System.Drawing.Color.DimGray;
-            this.linkLabel3.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel3.LinkColor = System.Drawing.Color.Yellow;
-            this.linkLabel3.Location = new System.Drawing.Point(1, 270);
-            this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(62, 31);
-            this.linkLabel3.TabIndex = 52;
-            this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "神煞";
+            this.linkLabelntgss.AutoSize = true;
+            this.linkLabelntgss.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelntgss.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.linkLabelntgss.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelntgss.Location = new System.Drawing.Point(1, 281);
+            this.linkLabelntgss.Name = "linkLabelntgss";
+            this.linkLabelntgss.Size = new System.Drawing.Size(62, 31);
+            this.linkLabelntgss.TabIndex = 52;
+            this.linkLabelntgss.TabStop = true;
+            this.linkLabelntgss.Text = "神煞";
             // 
             // linkLabel4
             // 
@@ -726,7 +726,7 @@
             this.linkLabel4.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel4.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel4.LinkColor = System.Drawing.Color.PeachPuff;
-            this.linkLabel4.Location = new System.Drawing.Point(1, 363);
+            this.linkLabel4.Location = new System.Drawing.Point(1, 374);
             this.linkLabel4.Name = "linkLabel4";
             this.linkLabel4.Size = new System.Drawing.Size(62, 31);
             this.linkLabel4.TabIndex = 53;
@@ -739,7 +739,7 @@
             this.linkLabel5.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel5.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel5.LinkColor = System.Drawing.Color.GreenYellow;
-            this.linkLabel5.Location = new System.Drawing.Point(1, 239);
+            this.linkLabel5.Location = new System.Drawing.Point(1, 250);
             this.linkLabel5.Name = "linkLabel5";
             this.linkLabel5.Size = new System.Drawing.Size(182, 31);
             this.linkLabel5.TabIndex = 54;
@@ -752,7 +752,7 @@
             this.linkLabel6.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel6.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel6.LinkColor = System.Drawing.Color.White;
-            this.linkLabel6.Location = new System.Drawing.Point(1, 208);
+            this.linkLabel6.Location = new System.Drawing.Point(1, 219);
             this.linkLabel6.Name = "linkLabel6";
             this.linkLabel6.Size = new System.Drawing.Size(78, 31);
             this.linkLabel6.TabIndex = 55;
@@ -766,7 +766,7 @@
             this.linkLabencs.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabencs.ForeColor = System.Drawing.Color.White;
             this.linkLabencs.LinkColor = System.Drawing.Color.MistyRose;
-            this.linkLabencs.Location = new System.Drawing.Point(1, 177);
+            this.linkLabencs.Location = new System.Drawing.Point(1, 188);
             this.linkLabencs.Name = "linkLabencs";
             this.linkLabencs.Size = new System.Drawing.Size(62, 31);
             this.linkLabencs.TabIndex = 56;
@@ -780,7 +780,7 @@
             this.linkLabel8.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel8.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel8.LinkColor = System.Drawing.Color.PeachPuff;
-            this.linkLabel8.Location = new System.Drawing.Point(483, 363);
+            this.linkLabel8.Location = new System.Drawing.Point(483, 374);
             this.linkLabel8.Name = "linkLabel8";
             this.linkLabel8.Size = new System.Drawing.Size(62, 31);
             this.linkLabel8.TabIndex = 57;
@@ -793,7 +793,7 @@
             this.linkLabel9.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel9.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel9.LinkColor = System.Drawing.Color.Maroon;
-            this.linkLabel9.Location = new System.Drawing.Point(483, 332);
+            this.linkLabel9.Location = new System.Drawing.Point(483, 343);
             this.linkLabel9.Name = "linkLabel9";
             this.linkLabel9.Size = new System.Drawing.Size(62, 31);
             this.linkLabel9.TabIndex = 58;
@@ -806,25 +806,25 @@
             this.linkLabel10.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel10.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel10.LinkColor = System.Drawing.Color.Cyan;
-            this.linkLabel10.Location = new System.Drawing.Point(483, 301);
+            this.linkLabel10.Location = new System.Drawing.Point(483, 312);
             this.linkLabel10.Name = "linkLabel10";
             this.linkLabel10.Size = new System.Drawing.Size(62, 31);
             this.linkLabel10.TabIndex = 59;
             this.linkLabel10.TabStop = true;
             this.linkLabel10.Text = "方位";
             // 
-            // linkLabel11
+            // linkLabelytgss
             // 
-            this.linkLabel11.AutoSize = true;
-            this.linkLabel11.BackColor = System.Drawing.Color.DimGray;
-            this.linkLabel11.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel11.LinkColor = System.Drawing.Color.Yellow;
-            this.linkLabel11.Location = new System.Drawing.Point(483, 270);
-            this.linkLabel11.Name = "linkLabel11";
-            this.linkLabel11.Size = new System.Drawing.Size(62, 31);
-            this.linkLabel11.TabIndex = 60;
-            this.linkLabel11.TabStop = true;
-            this.linkLabel11.Text = "神煞";
+            this.linkLabelytgss.AutoSize = true;
+            this.linkLabelytgss.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelytgss.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.linkLabelytgss.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelytgss.Location = new System.Drawing.Point(483, 281);
+            this.linkLabelytgss.Name = "linkLabelytgss";
+            this.linkLabelytgss.Size = new System.Drawing.Size(62, 31);
+            this.linkLabelytgss.TabIndex = 60;
+            this.linkLabelytgss.TabStop = true;
+            this.linkLabelytgss.Text = "神煞";
             // 
             // linkLabel12
             // 
@@ -832,7 +832,7 @@
             this.linkLabel12.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel12.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel12.LinkColor = System.Drawing.Color.GreenYellow;
-            this.linkLabel12.Location = new System.Drawing.Point(483, 239);
+            this.linkLabel12.Location = new System.Drawing.Point(483, 250);
             this.linkLabel12.Name = "linkLabel12";
             this.linkLabel12.Size = new System.Drawing.Size(326, 31);
             this.linkLabel12.TabIndex = 61;
@@ -845,7 +845,7 @@
             this.linkLabel13.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel13.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel13.LinkColor = System.Drawing.Color.White;
-            this.linkLabel13.Location = new System.Drawing.Point(483, 208);
+            this.linkLabel13.Location = new System.Drawing.Point(483, 219);
             this.linkLabel13.Name = "linkLabel13";
             this.linkLabel13.Size = new System.Drawing.Size(108, 31);
             this.linkLabel13.TabIndex = 62;
@@ -859,7 +859,7 @@
             this.linkLabelycs.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabelycs.ForeColor = System.Drawing.Color.White;
             this.linkLabelycs.LinkColor = System.Drawing.Color.Aquamarine;
-            this.linkLabelycs.Location = new System.Drawing.Point(483, 177);
+            this.linkLabelycs.Location = new System.Drawing.Point(483, 188);
             this.linkLabelycs.Name = "linkLabelycs";
             this.linkLabelycs.Size = new System.Drawing.Size(62, 31);
             this.linkLabelycs.TabIndex = 63;
@@ -873,7 +873,7 @@
             this.linkLabel15.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel15.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel15.LinkColor = System.Drawing.Color.Maroon;
-            this.linkLabel15.Location = new System.Drawing.Point(964, 332);
+            this.linkLabel15.Location = new System.Drawing.Point(964, 343);
             this.linkLabel15.Name = "linkLabel15";
             this.linkLabel15.Size = new System.Drawing.Size(62, 31);
             this.linkLabel15.TabIndex = 64;
@@ -886,25 +886,25 @@
             this.linkLabel17.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel17.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel17.LinkColor = System.Drawing.Color.Cyan;
-            this.linkLabel17.Location = new System.Drawing.Point(964, 301);
+            this.linkLabel17.Location = new System.Drawing.Point(964, 312);
             this.linkLabel17.Name = "linkLabel17";
             this.linkLabel17.Size = new System.Drawing.Size(62, 31);
             this.linkLabel17.TabIndex = 66;
             this.linkLabel17.TabStop = true;
             this.linkLabel17.Text = "方位";
             // 
-            // linkLabel18
+            // linkLabelrtgss
             // 
-            this.linkLabel18.AutoSize = true;
-            this.linkLabel18.BackColor = System.Drawing.Color.DimGray;
-            this.linkLabel18.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel18.LinkColor = System.Drawing.Color.Yellow;
-            this.linkLabel18.Location = new System.Drawing.Point(964, 270);
-            this.linkLabel18.Name = "linkLabel18";
-            this.linkLabel18.Size = new System.Drawing.Size(62, 31);
-            this.linkLabel18.TabIndex = 67;
-            this.linkLabel18.TabStop = true;
-            this.linkLabel18.Text = "神煞";
+            this.linkLabelrtgss.AutoSize = true;
+            this.linkLabelrtgss.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelrtgss.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.linkLabelrtgss.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelrtgss.Location = new System.Drawing.Point(964, 281);
+            this.linkLabelrtgss.Name = "linkLabelrtgss";
+            this.linkLabelrtgss.Size = new System.Drawing.Size(62, 31);
+            this.linkLabelrtgss.TabIndex = 67;
+            this.linkLabelrtgss.TabStop = true;
+            this.linkLabelrtgss.Text = "神煞";
             // 
             // linkLabel20
             // 
@@ -912,7 +912,7 @@
             this.linkLabel20.BackColor = System.Drawing.Color.DarkViolet;
             this.linkLabel20.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel20.LinkColor = System.Drawing.Color.Yellow;
-            this.linkLabel20.Location = new System.Drawing.Point(964, 208);
+            this.linkLabel20.Location = new System.Drawing.Point(964, 219);
             this.linkLabel20.Name = "linkLabel20";
             this.linkLabel20.Size = new System.Drawing.Size(110, 31);
             this.linkLabel20.TabIndex = 69;
@@ -926,7 +926,7 @@
             this.linkLabelrcs.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabelrcs.ForeColor = System.Drawing.Color.White;
             this.linkLabelrcs.LinkColor = System.Drawing.Color.White;
-            this.linkLabelrcs.Location = new System.Drawing.Point(964, 177);
+            this.linkLabelrcs.Location = new System.Drawing.Point(964, 188);
             this.linkLabelrcs.Name = "linkLabelrcs";
             this.linkLabelrcs.Size = new System.Drawing.Size(62, 31);
             this.linkLabelrcs.TabIndex = 70;
@@ -940,7 +940,7 @@
             this.linkLabel22.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel22.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel22.LinkColor = System.Drawing.Color.PeachPuff;
-            this.linkLabel22.Location = new System.Drawing.Point(1447, 363);
+            this.linkLabel22.Location = new System.Drawing.Point(1447, 374);
             this.linkLabel22.Name = "linkLabel22";
             this.linkLabel22.Size = new System.Drawing.Size(62, 31);
             this.linkLabel22.TabIndex = 71;
@@ -954,7 +954,7 @@
             this.linkLabel23.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel23.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel23.LinkColor = System.Drawing.Color.Maroon;
-            this.linkLabel23.Location = new System.Drawing.Point(1447, 332);
+            this.linkLabel23.Location = new System.Drawing.Point(1447, 343);
             this.linkLabel23.Name = "linkLabel23";
             this.linkLabel23.Size = new System.Drawing.Size(62, 31);
             this.linkLabel23.TabIndex = 72;
@@ -968,7 +968,7 @@
             this.linkLabel24.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel24.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel24.LinkColor = System.Drawing.Color.Cyan;
-            this.linkLabel24.Location = new System.Drawing.Point(1447, 301);
+            this.linkLabel24.Location = new System.Drawing.Point(1447, 312);
             this.linkLabel24.Name = "linkLabel24";
             this.linkLabel24.Size = new System.Drawing.Size(62, 31);
             this.linkLabel24.TabIndex = 73;
@@ -976,19 +976,19 @@
             this.linkLabel24.Text = "方位";
             this.linkLabel24.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel24_LinkClicked);
             // 
-            // linkLabelsgp
+            // linkLabelstgss
             // 
-            this.linkLabelsgp.AutoSize = true;
-            this.linkLabelsgp.BackColor = System.Drawing.Color.DimGray;
-            this.linkLabelsgp.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabelsgp.LinkColor = System.Drawing.Color.Yellow;
-            this.linkLabelsgp.Location = new System.Drawing.Point(1447, 270);
-            this.linkLabelsgp.Name = "linkLabelsgp";
-            this.linkLabelsgp.Size = new System.Drawing.Size(62, 31);
-            this.linkLabelsgp.TabIndex = 74;
-            this.linkLabelsgp.TabStop = true;
-            this.linkLabelsgp.Text = "神煞";
-            this.linkLabelsgp.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelsgp_LinkClicked);
+            this.linkLabelstgss.AutoSize = true;
+            this.linkLabelstgss.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelstgss.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.linkLabelstgss.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelstgss.Location = new System.Drawing.Point(1447, 281);
+            this.linkLabelstgss.Name = "linkLabelstgss";
+            this.linkLabelstgss.Size = new System.Drawing.Size(62, 31);
+            this.linkLabelstgss.TabIndex = 74;
+            this.linkLabelstgss.TabStop = true;
+            this.linkLabelstgss.Text = "神煞";
+            this.linkLabelstgss.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelsgp_LinkClicked);
             // 
             // linkLabel26
             // 
@@ -996,7 +996,7 @@
             this.linkLabel26.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel26.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel26.LinkColor = System.Drawing.Color.GreenYellow;
-            this.linkLabel26.Location = new System.Drawing.Point(1447, 239);
+            this.linkLabel26.Location = new System.Drawing.Point(1447, 250);
             this.linkLabel26.Name = "linkLabel26";
             this.linkLabel26.Size = new System.Drawing.Size(62, 31);
             this.linkLabel26.TabIndex = 75;
@@ -1010,7 +1010,7 @@
             this.linkLabel27.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel27.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel27.LinkColor = System.Drawing.Color.White;
-            this.linkLabel27.Location = new System.Drawing.Point(1447, 208);
+            this.linkLabel27.Location = new System.Drawing.Point(1447, 219);
             this.linkLabel27.Name = "linkLabel27";
             this.linkLabel27.Size = new System.Drawing.Size(108, 31);
             this.linkLabel27.TabIndex = 76;
@@ -1025,7 +1025,7 @@
             this.linkLabelscs.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabelscs.ForeColor = System.Drawing.Color.White;
             this.linkLabelscs.LinkColor = System.Drawing.Color.Yellow;
-            this.linkLabelscs.Location = new System.Drawing.Point(1447, 177);
+            this.linkLabelscs.Location = new System.Drawing.Point(1447, 188);
             this.linkLabelscs.Name = "linkLabelscs";
             this.linkLabelscs.Size = new System.Drawing.Size(62, 31);
             this.linkLabelscs.TabIndex = 77;
@@ -1039,7 +1039,7 @@
             this.linkLabel29.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel29.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel29.LinkColor = System.Drawing.Color.PeachPuff;
-            this.linkLabel29.Location = new System.Drawing.Point(2, 703);
+            this.linkLabel29.Location = new System.Drawing.Point(-3, 677);
             this.linkLabel29.Name = "linkLabel29";
             this.linkLabel29.Size = new System.Drawing.Size(62, 31);
             this.linkLabel29.TabIndex = 78;
@@ -1052,7 +1052,7 @@
             this.linkLabel30.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel30.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel30.LinkColor = System.Drawing.Color.PeachPuff;
-            this.linkLabel30.Location = new System.Drawing.Point(2, 734);
+            this.linkLabel30.Location = new System.Drawing.Point(-3, 708);
             this.linkLabel30.Name = "linkLabel30";
             this.linkLabel30.Size = new System.Drawing.Size(62, 31);
             this.linkLabel30.TabIndex = 79;
@@ -1065,7 +1065,7 @@
             this.linkLabel31.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel31.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel31.LinkColor = System.Drawing.Color.PeachPuff;
-            this.linkLabel31.Location = new System.Drawing.Point(2, 671);
+            this.linkLabel31.Location = new System.Drawing.Point(-3, 645);
             this.linkLabel31.Name = "linkLabel31";
             this.linkLabel31.Size = new System.Drawing.Size(62, 31);
             this.linkLabel31.TabIndex = 80;
@@ -1078,7 +1078,7 @@
             this.linkLabel32.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel32.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel32.LinkColor = System.Drawing.Color.Maroon;
-            this.linkLabel32.Location = new System.Drawing.Point(2, 765);
+            this.linkLabel32.Location = new System.Drawing.Point(-3, 739);
             this.linkLabel32.Name = "linkLabel32";
             this.linkLabel32.Size = new System.Drawing.Size(62, 31);
             this.linkLabel32.TabIndex = 81;
@@ -1091,25 +1091,25 @@
             this.linkLabel33.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel33.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel33.LinkColor = System.Drawing.Color.Cyan;
-            this.linkLabel33.Location = new System.Drawing.Point(2, 796);
+            this.linkLabel33.Location = new System.Drawing.Point(-3, 770);
             this.linkLabel33.Name = "linkLabel33";
             this.linkLabel33.Size = new System.Drawing.Size(62, 31);
             this.linkLabel33.TabIndex = 82;
             this.linkLabel33.TabStop = true;
             this.linkLabel33.Text = "方位";
             // 
-            // linkLabel34
+            // linkLabelndzss1
             // 
-            this.linkLabel34.AutoSize = true;
-            this.linkLabel34.BackColor = System.Drawing.Color.DimGray;
-            this.linkLabel34.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel34.LinkColor = System.Drawing.Color.Yellow;
-            this.linkLabel34.Location = new System.Drawing.Point(2, 827);
-            this.linkLabel34.Name = "linkLabel34";
-            this.linkLabel34.Size = new System.Drawing.Size(62, 31);
-            this.linkLabel34.TabIndex = 83;
-            this.linkLabel34.TabStop = true;
-            this.linkLabel34.Text = "神煞";
+            this.linkLabelndzss1.AutoSize = true;
+            this.linkLabelndzss1.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelndzss1.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.linkLabelndzss1.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelndzss1.Location = new System.Drawing.Point(-3, 801);
+            this.linkLabelndzss1.Name = "linkLabelndzss1";
+            this.linkLabelndzss1.Size = new System.Drawing.Size(62, 31);
+            this.linkLabelndzss1.TabIndex = 83;
+            this.linkLabelndzss1.TabStop = true;
+            this.linkLabelndzss1.Text = "神煞";
             // 
             // linkLabel35
             // 
@@ -1117,7 +1117,7 @@
             this.linkLabel35.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel35.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel35.LinkColor = System.Drawing.Color.GreenYellow;
-            this.linkLabel35.Location = new System.Drawing.Point(2, 858);
+            this.linkLabel35.Location = new System.Drawing.Point(-3, 863);
             this.linkLabel35.Name = "linkLabel35";
             this.linkLabel35.Size = new System.Drawing.Size(182, 31);
             this.linkLabel35.TabIndex = 84;
@@ -1129,7 +1129,7 @@
             this.linkLabel36.AutoSize = true;
             this.linkLabel36.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel36.LinkColor = System.Drawing.Color.White;
-            this.linkLabel36.Location = new System.Drawing.Point(2, 889);
+            this.linkLabel36.Location = new System.Drawing.Point(-3, 894);
             this.linkLabel36.Name = "linkLabel36";
             this.linkLabel36.Size = new System.Drawing.Size(108, 31);
             this.linkLabel36.TabIndex = 85;
@@ -1141,7 +1141,7 @@
             this.linkLabel37.AutoSize = true;
             this.linkLabel37.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel37.LinkColor = System.Drawing.Color.White;
-            this.linkLabel37.Location = new System.Drawing.Point(485, 889);
+            this.linkLabel37.Location = new System.Drawing.Point(480, 894);
             this.linkLabel37.Name = "linkLabel37";
             this.linkLabel37.Size = new System.Drawing.Size(108, 31);
             this.linkLabel37.TabIndex = 86;
@@ -1154,25 +1154,25 @@
             this.linkLabel38.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel38.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel38.LinkColor = System.Drawing.Color.GreenYellow;
-            this.linkLabel38.Location = new System.Drawing.Point(485, 858);
+            this.linkLabel38.Location = new System.Drawing.Point(480, 863);
             this.linkLabel38.Name = "linkLabel38";
             this.linkLabel38.Size = new System.Drawing.Size(326, 31);
             this.linkLabel38.TabIndex = 87;
             this.linkLabel38.TabStop = true;
             this.linkLabel38.Text = "母亲；弟；妹；包括社会上的";
             // 
-            // linkLabel39
+            // linkLabelydzss1
             // 
-            this.linkLabel39.AutoSize = true;
-            this.linkLabel39.BackColor = System.Drawing.Color.DimGray;
-            this.linkLabel39.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel39.LinkColor = System.Drawing.Color.Yellow;
-            this.linkLabel39.Location = new System.Drawing.Point(485, 827);
-            this.linkLabel39.Name = "linkLabel39";
-            this.linkLabel39.Size = new System.Drawing.Size(62, 31);
-            this.linkLabel39.TabIndex = 88;
-            this.linkLabel39.TabStop = true;
-            this.linkLabel39.Text = "神煞";
+            this.linkLabelydzss1.AutoSize = true;
+            this.linkLabelydzss1.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelydzss1.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.linkLabelydzss1.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelydzss1.Location = new System.Drawing.Point(480, 801);
+            this.linkLabelydzss1.Name = "linkLabelydzss1";
+            this.linkLabelydzss1.Size = new System.Drawing.Size(62, 31);
+            this.linkLabelydzss1.TabIndex = 88;
+            this.linkLabelydzss1.TabStop = true;
+            this.linkLabelydzss1.Text = "神煞";
             // 
             // linkLabel40
             // 
@@ -1180,7 +1180,7 @@
             this.linkLabel40.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel40.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel40.LinkColor = System.Drawing.Color.Cyan;
-            this.linkLabel40.Location = new System.Drawing.Point(485, 796);
+            this.linkLabel40.Location = new System.Drawing.Point(480, 770);
             this.linkLabel40.Name = "linkLabel40";
             this.linkLabel40.Size = new System.Drawing.Size(62, 31);
             this.linkLabel40.TabIndex = 89;
@@ -1193,7 +1193,7 @@
             this.linkLabel41.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel41.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel41.LinkColor = System.Drawing.Color.Maroon;
-            this.linkLabel41.Location = new System.Drawing.Point(485, 765);
+            this.linkLabel41.Location = new System.Drawing.Point(480, 739);
             this.linkLabel41.Name = "linkLabel41";
             this.linkLabel41.Size = new System.Drawing.Size(62, 31);
             this.linkLabel41.TabIndex = 90;
@@ -1206,7 +1206,7 @@
             this.linkLabel42.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel42.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel42.LinkColor = System.Drawing.Color.PeachPuff;
-            this.linkLabel42.Location = new System.Drawing.Point(485, 734);
+            this.linkLabel42.Location = new System.Drawing.Point(480, 708);
             this.linkLabel42.Name = "linkLabel42";
             this.linkLabel42.Size = new System.Drawing.Size(62, 31);
             this.linkLabel42.TabIndex = 91;
@@ -1219,7 +1219,7 @@
             this.linkLabel43.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel43.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel43.LinkColor = System.Drawing.Color.PeachPuff;
-            this.linkLabel43.Location = new System.Drawing.Point(485, 703);
+            this.linkLabel43.Location = new System.Drawing.Point(480, 677);
             this.linkLabel43.Name = "linkLabel43";
             this.linkLabel43.Size = new System.Drawing.Size(62, 31);
             this.linkLabel43.TabIndex = 92;
@@ -1232,7 +1232,7 @@
             this.linkLabel44.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel44.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel44.LinkColor = System.Drawing.Color.PeachPuff;
-            this.linkLabel44.Location = new System.Drawing.Point(485, 671);
+            this.linkLabel44.Location = new System.Drawing.Point(480, 645);
             this.linkLabel44.Name = "linkLabel44";
             this.linkLabel44.Size = new System.Drawing.Size(62, 31);
             this.linkLabel44.TabIndex = 93;
@@ -1244,7 +1244,7 @@
             this.linkLabel45.AutoSize = true;
             this.linkLabel45.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel45.LinkColor = System.Drawing.Color.White;
-            this.linkLabel45.Location = new System.Drawing.Point(964, 889);
+            this.linkLabel45.Location = new System.Drawing.Point(959, 894);
             this.linkLabel45.Name = "linkLabel45";
             this.linkLabel45.Size = new System.Drawing.Size(108, 31);
             this.linkLabel45.TabIndex = 94;
@@ -1257,25 +1257,25 @@
             this.linkLabel46.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel46.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel46.LinkColor = System.Drawing.Color.GreenYellow;
-            this.linkLabel46.Location = new System.Drawing.Point(964, 858);
+            this.linkLabel46.Location = new System.Drawing.Point(959, 863);
             this.linkLabel46.Name = "linkLabel46";
             this.linkLabel46.Size = new System.Drawing.Size(206, 31);
             this.linkLabel46.TabIndex = 95;
             this.linkLabel46.TabStop = true;
             this.linkLabel46.Text = "配偶和配偶的家族";
             // 
-            // linkLabel47
+            // linkLabelrdzss1
             // 
-            this.linkLabel47.AutoSize = true;
-            this.linkLabel47.BackColor = System.Drawing.Color.DimGray;
-            this.linkLabel47.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel47.LinkColor = System.Drawing.Color.Yellow;
-            this.linkLabel47.Location = new System.Drawing.Point(964, 827);
-            this.linkLabel47.Name = "linkLabel47";
-            this.linkLabel47.Size = new System.Drawing.Size(62, 31);
-            this.linkLabel47.TabIndex = 96;
-            this.linkLabel47.TabStop = true;
-            this.linkLabel47.Text = "神煞";
+            this.linkLabelrdzss1.AutoSize = true;
+            this.linkLabelrdzss1.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelrdzss1.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.linkLabelrdzss1.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelrdzss1.Location = new System.Drawing.Point(959, 801);
+            this.linkLabelrdzss1.Name = "linkLabelrdzss1";
+            this.linkLabelrdzss1.Size = new System.Drawing.Size(62, 31);
+            this.linkLabelrdzss1.TabIndex = 96;
+            this.linkLabelrdzss1.TabStop = true;
+            this.linkLabelrdzss1.Text = "神煞";
             // 
             // linkLabel48
             // 
@@ -1283,7 +1283,7 @@
             this.linkLabel48.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel48.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel48.LinkColor = System.Drawing.Color.Cyan;
-            this.linkLabel48.Location = new System.Drawing.Point(964, 796);
+            this.linkLabel48.Location = new System.Drawing.Point(959, 770);
             this.linkLabel48.Name = "linkLabel48";
             this.linkLabel48.Size = new System.Drawing.Size(62, 31);
             this.linkLabel48.TabIndex = 97;
@@ -1296,7 +1296,7 @@
             this.linkLabel49.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel49.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel49.LinkColor = System.Drawing.Color.Maroon;
-            this.linkLabel49.Location = new System.Drawing.Point(964, 765);
+            this.linkLabel49.Location = new System.Drawing.Point(959, 739);
             this.linkLabel49.Name = "linkLabel49";
             this.linkLabel49.Size = new System.Drawing.Size(62, 31);
             this.linkLabel49.TabIndex = 98;
@@ -1309,7 +1309,7 @@
             this.linkLabel50.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel50.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel50.LinkColor = System.Drawing.Color.PeachPuff;
-            this.linkLabel50.Location = new System.Drawing.Point(964, 734);
+            this.linkLabel50.Location = new System.Drawing.Point(959, 708);
             this.linkLabel50.Name = "linkLabel50";
             this.linkLabel50.Size = new System.Drawing.Size(62, 31);
             this.linkLabel50.TabIndex = 99;
@@ -1322,7 +1322,7 @@
             this.linkLabel51.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel51.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel51.LinkColor = System.Drawing.Color.PeachPuff;
-            this.linkLabel51.Location = new System.Drawing.Point(964, 703);
+            this.linkLabel51.Location = new System.Drawing.Point(959, 677);
             this.linkLabel51.Name = "linkLabel51";
             this.linkLabel51.Size = new System.Drawing.Size(62, 31);
             this.linkLabel51.TabIndex = 100;
@@ -1335,7 +1335,7 @@
             this.linkLabel52.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel52.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel52.LinkColor = System.Drawing.Color.PeachPuff;
-            this.linkLabel52.Location = new System.Drawing.Point(964, 671);
+            this.linkLabel52.Location = new System.Drawing.Point(959, 645);
             this.linkLabel52.Name = "linkLabel52";
             this.linkLabel52.Size = new System.Drawing.Size(62, 31);
             this.linkLabel52.TabIndex = 101;
@@ -1348,7 +1348,7 @@
             this.linkLabel53.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel53.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel53.LinkColor = System.Drawing.Color.PeachPuff;
-            this.linkLabel53.Location = new System.Drawing.Point(1447, 703);
+            this.linkLabel53.Location = new System.Drawing.Point(1442, 677);
             this.linkLabel53.Name = "linkLabel53";
             this.linkLabel53.Size = new System.Drawing.Size(62, 31);
             this.linkLabel53.TabIndex = 102;
@@ -1361,7 +1361,7 @@
             this.linkLabel54.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel54.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel54.LinkColor = System.Drawing.Color.PeachPuff;
-            this.linkLabel54.Location = new System.Drawing.Point(1447, 734);
+            this.linkLabel54.Location = new System.Drawing.Point(1442, 708);
             this.linkLabel54.Name = "linkLabel54";
             this.linkLabel54.Size = new System.Drawing.Size(62, 31);
             this.linkLabel54.TabIndex = 103;
@@ -1374,7 +1374,7 @@
             this.linkLabel55.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel55.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel55.LinkColor = System.Drawing.Color.Maroon;
-            this.linkLabel55.Location = new System.Drawing.Point(1447, 765);
+            this.linkLabel55.Location = new System.Drawing.Point(1442, 739);
             this.linkLabel55.Name = "linkLabel55";
             this.linkLabel55.Size = new System.Drawing.Size(62, 31);
             this.linkLabel55.TabIndex = 104;
@@ -1387,25 +1387,25 @@
             this.linkLabel56.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel56.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel56.LinkColor = System.Drawing.Color.Cyan;
-            this.linkLabel56.Location = new System.Drawing.Point(1447, 796);
+            this.linkLabel56.Location = new System.Drawing.Point(1442, 770);
             this.linkLabel56.Name = "linkLabel56";
             this.linkLabel56.Size = new System.Drawing.Size(62, 31);
             this.linkLabel56.TabIndex = 105;
             this.linkLabel56.TabStop = true;
             this.linkLabel56.Text = "方位";
             // 
-            // linkLabel57
+            // linkLabelsdzss1
             // 
-            this.linkLabel57.AutoSize = true;
-            this.linkLabel57.BackColor = System.Drawing.Color.DimGray;
-            this.linkLabel57.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel57.LinkColor = System.Drawing.Color.Yellow;
-            this.linkLabel57.Location = new System.Drawing.Point(1447, 827);
-            this.linkLabel57.Name = "linkLabel57";
-            this.linkLabel57.Size = new System.Drawing.Size(62, 31);
-            this.linkLabel57.TabIndex = 106;
-            this.linkLabel57.TabStop = true;
-            this.linkLabel57.Text = "神煞";
+            this.linkLabelsdzss1.AutoSize = true;
+            this.linkLabelsdzss1.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelsdzss1.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.linkLabelsdzss1.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelsdzss1.Location = new System.Drawing.Point(1442, 801);
+            this.linkLabelsdzss1.Name = "linkLabelsdzss1";
+            this.linkLabelsdzss1.Size = new System.Drawing.Size(62, 31);
+            this.linkLabelsdzss1.TabIndex = 106;
+            this.linkLabelsdzss1.TabStop = true;
+            this.linkLabelsdzss1.Text = "神煞";
             // 
             // linkLabel58
             // 
@@ -1413,7 +1413,7 @@
             this.linkLabel58.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel58.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel58.LinkColor = System.Drawing.Color.GreenYellow;
-            this.linkLabel58.Location = new System.Drawing.Point(1447, 858);
+            this.linkLabel58.Location = new System.Drawing.Point(1442, 863);
             this.linkLabel58.Name = "linkLabel58";
             this.linkLabel58.Size = new System.Drawing.Size(62, 31);
             this.linkLabel58.TabIndex = 107;
@@ -1426,7 +1426,7 @@
             this.linkLabel59.BackColor = System.Drawing.Color.DimGray;
             this.linkLabel59.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel59.LinkColor = System.Drawing.Color.PeachPuff;
-            this.linkLabel59.Location = new System.Drawing.Point(1447, 671);
+            this.linkLabel59.Location = new System.Drawing.Point(1442, 645);
             this.linkLabel59.Name = "linkLabel59";
             this.linkLabel59.Size = new System.Drawing.Size(62, 31);
             this.linkLabel59.TabIndex = 108;
@@ -1438,7 +1438,7 @@
             this.linkLabel60.AutoSize = true;
             this.linkLabel60.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel60.LinkColor = System.Drawing.Color.White;
-            this.linkLabel60.Location = new System.Drawing.Point(1447, 889);
+            this.linkLabel60.Location = new System.Drawing.Point(1442, 894);
             this.linkLabel60.Name = "linkLabel60";
             this.linkLabel60.Size = new System.Drawing.Size(116, 31);
             this.linkLabel60.TabIndex = 109;
@@ -1602,7 +1602,7 @@
             this.richTextBox1.BackColor = System.Drawing.Color.DimGray;
             this.richTextBox1.Font = new System.Drawing.Font("微软雅黑", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.richTextBox1.ForeColor = System.Drawing.Color.GreenYellow;
-            this.richTextBox1.Location = new System.Drawing.Point(1277, 734);
+            this.richTextBox1.Location = new System.Drawing.Point(1272, 708);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(0, 0);
             this.richTextBox1.TabIndex = 122;
@@ -1626,7 +1626,7 @@
             this.linkLabel7hff.BackColor = System.Drawing.Color.White;
             this.linkLabel7hff.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel7hff.LinkColor = System.Drawing.Color.Green;
-            this.linkLabel7hff.Location = new System.Drawing.Point(964, 363);
+            this.linkLabel7hff.Location = new System.Drawing.Point(964, 374);
             this.linkLabel7hff.Name = "linkLabel7hff";
             this.linkLabel7hff.Size = new System.Drawing.Size(110, 31);
             this.linkLabel7hff.TabIndex = 128;
@@ -1655,7 +1655,7 @@
             // 
             this.button10.BackColor = System.Drawing.Color.White;
             this.button10.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button10.Location = new System.Drawing.Point(1, 136);
+            this.button10.Location = new System.Drawing.Point(1, 147);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(95, 38);
             this.button10.TabIndex = 131;
@@ -1666,7 +1666,7 @@
             // button11
             // 
             this.button11.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button11.Location = new System.Drawing.Point(483, 136);
+            this.button11.Location = new System.Drawing.Point(483, 147);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(95, 38);
             this.button11.TabIndex = 132;
@@ -1677,7 +1677,7 @@
             // button12
             // 
             this.button12.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button12.Location = new System.Drawing.Point(964, 136);
+            this.button12.Location = new System.Drawing.Point(964, 147);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(95, 38);
             this.button12.TabIndex = 133;
@@ -1688,7 +1688,7 @@
             // button25
             // 
             this.button25.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button25.Location = new System.Drawing.Point(1447, 136);
+            this.button25.Location = new System.Drawing.Point(1447, 147);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(95, 38);
             this.button25.TabIndex = 134;
@@ -1699,9 +1699,9 @@
             // button26
             // 
             this.button26.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button26.Location = new System.Drawing.Point(1555, 483);
+            this.button26.Location = new System.Drawing.Point(1557, 490);
             this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(40, 38);
+            this.button26.Size = new System.Drawing.Size(36, 36);
             this.button26.TabIndex = 142;
             this.button26.Text = "正";
             this.button26.UseVisualStyleBackColor = true;
@@ -1710,9 +1710,9 @@
             // button27
             // 
             this.button27.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button27.Location = new System.Drawing.Point(1072, 483);
+            this.button27.Location = new System.Drawing.Point(1074, 490);
             this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(40, 38);
+            this.button27.Size = new System.Drawing.Size(36, 36);
             this.button27.TabIndex = 141;
             this.button27.Text = "正";
             this.button27.UseVisualStyleBackColor = true;
@@ -1721,9 +1721,9 @@
             // button28
             // 
             this.button28.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button28.Location = new System.Drawing.Point(591, 483);
+            this.button28.Location = new System.Drawing.Point(593, 490);
             this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(40, 38);
+            this.button28.Size = new System.Drawing.Size(36, 36);
             this.button28.TabIndex = 140;
             this.button28.Text = "正";
             this.button28.UseVisualStyleBackColor = true;
@@ -1732,9 +1732,9 @@
             // button29
             // 
             this.button29.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button29.Location = new System.Drawing.Point(114, 483);
+            this.button29.Location = new System.Drawing.Point(116, 490);
             this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(40, 38);
+            this.button29.Size = new System.Drawing.Size(36, 36);
             this.button29.TabIndex = 139;
             this.button29.Text = "正";
             this.button29.UseVisualStyleBackColor = true;
@@ -1743,9 +1743,9 @@
             // button30
             // 
             this.button30.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button30.Location = new System.Drawing.Point(1072, 527);
+            this.button30.Location = new System.Drawing.Point(1074, 531);
             this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(40, 38);
+            this.button30.Size = new System.Drawing.Size(36, 36);
             this.button30.TabIndex = 138;
             this.button30.Text = "正";
             this.button30.UseVisualStyleBackColor = true;
@@ -1754,9 +1754,9 @@
             // button31
             // 
             this.button31.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button31.Location = new System.Drawing.Point(1555, 527);
+            this.button31.Location = new System.Drawing.Point(1557, 531);
             this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(40, 38);
+            this.button31.Size = new System.Drawing.Size(36, 36);
             this.button31.TabIndex = 137;
             this.button31.Text = "正";
             this.button31.UseVisualStyleBackColor = true;
@@ -1765,9 +1765,9 @@
             // button32
             // 
             this.button32.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button32.Location = new System.Drawing.Point(591, 527);
+            this.button32.Location = new System.Drawing.Point(593, 531);
             this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(40, 38);
+            this.button32.Size = new System.Drawing.Size(36, 36);
             this.button32.TabIndex = 136;
             this.button32.Text = "正";
             this.button32.UseVisualStyleBackColor = true;
@@ -1776,9 +1776,9 @@
             // button33
             // 
             this.button33.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button33.Location = new System.Drawing.Point(114, 527);
+            this.button33.Location = new System.Drawing.Point(116, 531);
             this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(40, 38);
+            this.button33.Size = new System.Drawing.Size(36, 36);
             this.button33.TabIndex = 135;
             this.button33.Text = "正";
             this.button33.UseVisualStyleBackColor = true;
@@ -1786,10 +1786,10 @@
             // 
             // button34
             // 
-            this.button34.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button34.Location = new System.Drawing.Point(1528, 397);
+            this.button34.Font = new System.Drawing.Font("微软雅黑", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button34.Location = new System.Drawing.Point(1532, 408);
             this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(95, 38);
+            this.button34.Size = new System.Drawing.Size(87, 36);
             this.button34.TabIndex = 146;
             this.button34.Text = "纳音全";
             this.button34.UseVisualStyleBackColor = true;
@@ -1797,10 +1797,10 @@
             // 
             // button35
             // 
-            this.button35.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button35.Location = new System.Drawing.Point(1045, 397);
+            this.button35.Font = new System.Drawing.Font("微软雅黑", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button35.Location = new System.Drawing.Point(1049, 408);
             this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(95, 38);
+            this.button35.Size = new System.Drawing.Size(87, 36);
             this.button35.TabIndex = 145;
             this.button35.Text = "纳音全";
             this.button35.UseVisualStyleBackColor = true;
@@ -1809,10 +1809,10 @@
             // 
             // button36
             // 
-            this.button36.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button36.Location = new System.Drawing.Point(564, 397);
+            this.button36.Font = new System.Drawing.Font("微软雅黑", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button36.Location = new System.Drawing.Point(568, 408);
             this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(95, 38);
+            this.button36.Size = new System.Drawing.Size(87, 36);
             this.button36.TabIndex = 144;
             this.button36.Text = "纳音全";
             this.button36.UseVisualStyleBackColor = true;
@@ -1821,10 +1821,10 @@
             // button37
             // 
             this.button37.BackColor = System.Drawing.Color.White;
-            this.button37.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button37.Location = new System.Drawing.Point(87, 397);
+            this.button37.Font = new System.Drawing.Font("微软雅黑", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button37.Location = new System.Drawing.Point(91, 408);
             this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(95, 38);
+            this.button37.Size = new System.Drawing.Size(87, 36);
             this.button37.TabIndex = 143;
             this.button37.Text = "纳音全";
             this.button37.UseVisualStyleBackColor = false;
@@ -1833,7 +1833,7 @@
             // button52
             // 
             this.button52.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button52.Location = new System.Drawing.Point(1538, 571);
+            this.button52.Location = new System.Drawing.Point(1538, 572);
             this.button52.Name = "button52";
             this.button52.Size = new System.Drawing.Size(75, 36);
             this.button52.TabIndex = 172;
@@ -1843,7 +1843,7 @@
             // button55
             // 
             this.button55.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button55.Location = new System.Drawing.Point(1055, 571);
+            this.button55.Location = new System.Drawing.Point(1055, 572);
             this.button55.Name = "button55";
             this.button55.Size = new System.Drawing.Size(75, 36);
             this.button55.TabIndex = 169;
@@ -1853,7 +1853,7 @@
             // button57
             // 
             this.button57.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button57.Location = new System.Drawing.Point(574, 571);
+            this.button57.Location = new System.Drawing.Point(574, 572);
             this.button57.Name = "button57";
             this.button57.Size = new System.Drawing.Size(75, 36);
             this.button57.TabIndex = 167;
@@ -1863,7 +1863,7 @@
             // button58
             // 
             this.button58.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button58.Location = new System.Drawing.Point(574, 441);
+            this.button58.Location = new System.Drawing.Point(574, 449);
             this.button58.Name = "button58";
             this.button58.Size = new System.Drawing.Size(75, 36);
             this.button58.TabIndex = 166;
@@ -1873,7 +1873,7 @@
             // button61
             // 
             this.button61.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button61.Location = new System.Drawing.Point(97, 571);
+            this.button61.Location = new System.Drawing.Point(97, 572);
             this.button61.Name = "button61";
             this.button61.Size = new System.Drawing.Size(75, 36);
             this.button61.TabIndex = 163;
@@ -1883,7 +1883,7 @@
             // button62
             // 
             this.button62.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button62.Location = new System.Drawing.Point(1538, 441);
+            this.button62.Location = new System.Drawing.Point(1538, 449);
             this.button62.Name = "button62";
             this.button62.Size = new System.Drawing.Size(75, 36);
             this.button62.TabIndex = 162;
@@ -1893,7 +1893,7 @@
             // button63
             // 
             this.button63.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button63.Location = new System.Drawing.Point(1055, 441);
+            this.button63.Location = new System.Drawing.Point(1055, 449);
             this.button63.Name = "button63";
             this.button63.Size = new System.Drawing.Size(75, 36);
             this.button63.TabIndex = 161;
@@ -1903,68 +1903,12 @@
             // button65
             // 
             this.button65.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button65.Location = new System.Drawing.Point(97, 441);
+            this.button65.Location = new System.Drawing.Point(97, 449);
             this.button65.Name = "button65";
             this.button65.Size = new System.Drawing.Size(75, 36);
             this.button65.TabIndex = 159;
             this.button65.Text = "正大";
             this.button65.UseVisualStyleBackColor = true;
-            // 
-            // linkLabel7
-            // 
-            this.linkLabel7.AutoSize = true;
-            this.linkLabel7.BackColor = System.Drawing.Color.DimGray;
-            this.linkLabel7.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel7.LinkColor = System.Drawing.Color.Yellow;
-            this.linkLabel7.Location = new System.Drawing.Point(1538, 610);
-            this.linkLabel7.Name = "linkLabel7";
-            this.linkLabel7.Size = new System.Drawing.Size(52, 27);
-            this.linkLabel7.TabIndex = 176;
-            this.linkLabel7.TabStop = true;
-            this.linkLabel7.Text = "神煞";
-            this.linkLabel7.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel7_LinkClicked);
-            // 
-            // linkLabel14
-            // 
-            this.linkLabel14.AutoSize = true;
-            this.linkLabel14.BackColor = System.Drawing.Color.DimGray;
-            this.linkLabel14.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel14.LinkColor = System.Drawing.Color.Yellow;
-            this.linkLabel14.Location = new System.Drawing.Point(1055, 610);
-            this.linkLabel14.Name = "linkLabel14";
-            this.linkLabel14.Size = new System.Drawing.Size(52, 27);
-            this.linkLabel14.TabIndex = 175;
-            this.linkLabel14.TabStop = true;
-            this.linkLabel14.Text = "神煞";
-            this.linkLabel14.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel14_LinkClicked);
-            // 
-            // linkLabel16
-            // 
-            this.linkLabel16.AutoSize = true;
-            this.linkLabel16.BackColor = System.Drawing.Color.DimGray;
-            this.linkLabel16.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel16.LinkColor = System.Drawing.Color.Yellow;
-            this.linkLabel16.Location = new System.Drawing.Point(574, 610);
-            this.linkLabel16.Name = "linkLabel16";
-            this.linkLabel16.Size = new System.Drawing.Size(52, 27);
-            this.linkLabel16.TabIndex = 174;
-            this.linkLabel16.TabStop = true;
-            this.linkLabel16.Text = "神煞";
-            this.linkLabel16.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel16_LinkClicked);
-            // 
-            // linkLabel19
-            // 
-            this.linkLabel19.AutoSize = true;
-            this.linkLabel19.BackColor = System.Drawing.Color.DimGray;
-            this.linkLabel19.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel19.LinkColor = System.Drawing.Color.Yellow;
-            this.linkLabel19.Location = new System.Drawing.Point(97, 610);
-            this.linkLabel19.Name = "linkLabel19";
-            this.linkLabel19.Size = new System.Drawing.Size(52, 27);
-            this.linkLabel19.TabIndex = 173;
-            this.linkLabel19.TabStop = true;
-            this.linkLabel19.Text = "神煞";
-            this.linkLabel19.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel19_LinkClicked);
             // 
             // button38
             // 
@@ -2064,7 +2008,7 @@
             this.linkLabel25.BackColor = System.Drawing.Color.DarkViolet;
             this.linkLabel25.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.linkLabel25.LinkColor = System.Drawing.Color.Yellow;
-            this.linkLabel25.Location = new System.Drawing.Point(964, 239);
+            this.linkLabel25.Location = new System.Drawing.Point(964, 250);
             this.linkLabel25.Name = "linkLabel25";
             this.linkLabel25.Size = new System.Drawing.Size(62, 31);
             this.linkLabel25.TabIndex = 195;
@@ -2216,11 +2160,67 @@
             this.checkBoxln.Text = "排流年";
             this.checkBoxln.UseVisualStyleBackColor = false;
             // 
+            // linkLabelsdzss2
+            // 
+            this.linkLabelsdzss2.AutoSize = true;
+            this.linkLabelsdzss2.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelsdzss2.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.linkLabelsdzss2.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelsdzss2.Location = new System.Drawing.Point(1442, 832);
+            this.linkLabelsdzss2.Name = "linkLabelsdzss2";
+            this.linkLabelsdzss2.Size = new System.Drawing.Size(62, 31);
+            this.linkLabelsdzss2.TabIndex = 207;
+            this.linkLabelsdzss2.TabStop = true;
+            this.linkLabelsdzss2.Text = "神煞";
+            // 
+            // linkLabelrdzss2
+            // 
+            this.linkLabelrdzss2.AutoSize = true;
+            this.linkLabelrdzss2.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelrdzss2.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.linkLabelrdzss2.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelrdzss2.Location = new System.Drawing.Point(959, 832);
+            this.linkLabelrdzss2.Name = "linkLabelrdzss2";
+            this.linkLabelrdzss2.Size = new System.Drawing.Size(62, 31);
+            this.linkLabelrdzss2.TabIndex = 206;
+            this.linkLabelrdzss2.TabStop = true;
+            this.linkLabelrdzss2.Text = "神煞";
+            // 
+            // linkLabelydzss2
+            // 
+            this.linkLabelydzss2.AutoSize = true;
+            this.linkLabelydzss2.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelydzss2.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.linkLabelydzss2.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelydzss2.Location = new System.Drawing.Point(480, 832);
+            this.linkLabelydzss2.Name = "linkLabelydzss2";
+            this.linkLabelydzss2.Size = new System.Drawing.Size(62, 31);
+            this.linkLabelydzss2.TabIndex = 205;
+            this.linkLabelydzss2.TabStop = true;
+            this.linkLabelydzss2.Text = "神煞";
+            // 
+            // linkLabelndzss2
+            // 
+            this.linkLabelndzss2.AutoSize = true;
+            this.linkLabelndzss2.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelndzss2.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.linkLabelndzss2.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelndzss2.Location = new System.Drawing.Point(-3, 832);
+            this.linkLabelndzss2.Name = "linkLabelndzss2";
+            this.linkLabelndzss2.Size = new System.Drawing.Size(62, 31);
+            this.linkLabelndzss2.TabIndex = 204;
+            this.linkLabelndzss2.TabStop = true;
+            this.linkLabelndzss2.Text = "神煞";
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(1904, 1011);
+            this.Controls.Add(this.linkLabelsdzss2);
+            this.Controls.Add(this.linkLabelrdzss2);
+            this.Controls.Add(this.linkLabelydzss2);
+            this.Controls.Add(this.linkLabelndzss2);
             this.Controls.Add(this.checkBoxln);
             this.Controls.Add(this.linkLabel28);
             this.Controls.Add(this.numericUpDownhour);
@@ -2239,10 +2239,6 @@
             this.Controls.Add(this.button51);
             this.Controls.Add(this.button40);
             this.Controls.Add(this.button38);
-            this.Controls.Add(this.linkLabel7);
-            this.Controls.Add(this.linkLabel14);
-            this.Controls.Add(this.linkLabel16);
-            this.Controls.Add(this.linkLabel19);
             this.Controls.Add(this.button52);
             this.Controls.Add(this.button55);
             this.Controls.Add(this.button57);
@@ -2286,7 +2282,7 @@
             this.Controls.Add(this.linkLabel60);
             this.Controls.Add(this.linkLabel59);
             this.Controls.Add(this.linkLabel58);
-            this.Controls.Add(this.linkLabel57);
+            this.Controls.Add(this.linkLabelsdzss1);
             this.Controls.Add(this.linkLabel56);
             this.Controls.Add(this.linkLabel55);
             this.Controls.Add(this.linkLabel54);
@@ -2296,7 +2292,7 @@
             this.Controls.Add(this.linkLabel50);
             this.Controls.Add(this.linkLabel49);
             this.Controls.Add(this.linkLabel48);
-            this.Controls.Add(this.linkLabel47);
+            this.Controls.Add(this.linkLabelrdzss1);
             this.Controls.Add(this.linkLabel46);
             this.Controls.Add(this.linkLabel45);
             this.Controls.Add(this.linkLabel44);
@@ -2304,12 +2300,12 @@
             this.Controls.Add(this.linkLabel42);
             this.Controls.Add(this.linkLabel41);
             this.Controls.Add(this.linkLabel40);
-            this.Controls.Add(this.linkLabel39);
+            this.Controls.Add(this.linkLabelydzss1);
             this.Controls.Add(this.linkLabel38);
             this.Controls.Add(this.linkLabel37);
             this.Controls.Add(this.linkLabel36);
             this.Controls.Add(this.linkLabel35);
-            this.Controls.Add(this.linkLabel34);
+            this.Controls.Add(this.linkLabelndzss1);
             this.Controls.Add(this.linkLabel33);
             this.Controls.Add(this.linkLabel32);
             this.Controls.Add(this.linkLabel31);
@@ -2318,19 +2314,19 @@
             this.Controls.Add(this.linkLabelscs);
             this.Controls.Add(this.linkLabel27);
             this.Controls.Add(this.linkLabel26);
-            this.Controls.Add(this.linkLabelsgp);
+            this.Controls.Add(this.linkLabelstgss);
             this.Controls.Add(this.linkLabel24);
             this.Controls.Add(this.linkLabel23);
             this.Controls.Add(this.linkLabel22);
             this.Controls.Add(this.linkLabelrcs);
             this.Controls.Add(this.linkLabel20);
-            this.Controls.Add(this.linkLabel18);
+            this.Controls.Add(this.linkLabelrtgss);
             this.Controls.Add(this.linkLabel17);
             this.Controls.Add(this.linkLabel15);
             this.Controls.Add(this.linkLabelycs);
             this.Controls.Add(this.linkLabel13);
             this.Controls.Add(this.linkLabel12);
-            this.Controls.Add(this.linkLabel11);
+            this.Controls.Add(this.linkLabelytgss);
             this.Controls.Add(this.linkLabel10);
             this.Controls.Add(this.linkLabel9);
             this.Controls.Add(this.linkLabel8);
@@ -2338,7 +2334,7 @@
             this.Controls.Add(this.linkLabel6);
             this.Controls.Add(this.linkLabel5);
             this.Controls.Add(this.linkLabel4);
-            this.Controls.Add(this.linkLabel3);
+            this.Controls.Add(this.linkLabelntgss);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.buttongz);
@@ -2388,7 +2384,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "八字辅助工具v15-杜净隆 作品";
+            this.Text = "八字辅助工具v15.3-杜净隆 作品";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownyear)).EndInit();
@@ -2447,7 +2443,7 @@
         private Button buttongz;
         private LinkLabel linkLabel1;
         private LinkLabel linkLabel2;
-        private LinkLabel linkLabel3;
+        private LinkLabel linkLabelntgss;
         private LinkLabel linkLabel4;
         private LinkLabel linkLabel5;
         private LinkLabel linkLabel6;
@@ -2455,19 +2451,19 @@
         private LinkLabel linkLabel8;
         private LinkLabel linkLabel9;
         private LinkLabel linkLabel10;
-        private LinkLabel linkLabel11;
+        private LinkLabel linkLabelytgss;
         private LinkLabel linkLabel12;
         private LinkLabel linkLabel13;
         private LinkLabel linkLabelycs;
         private LinkLabel linkLabel15;
         private LinkLabel linkLabel17;
-        private LinkLabel linkLabel18;
+        private LinkLabel linkLabelrtgss;
         private LinkLabel linkLabel20;
         private LinkLabel linkLabelrcs;
         private LinkLabel linkLabel22;
         private LinkLabel linkLabel23;
         private LinkLabel linkLabel24;
-        private LinkLabel linkLabelsgp;
+        private LinkLabel linkLabelstgss;
         private LinkLabel linkLabel26;
         private LinkLabel linkLabel27;
         private LinkLabel linkLabelscs;
@@ -2476,12 +2472,12 @@
         private LinkLabel linkLabel31;
         private LinkLabel linkLabel32;
         private LinkLabel linkLabel33;
-        private LinkLabel linkLabel34;
+        private LinkLabel linkLabelndzss1;
         private LinkLabel linkLabel35;
         private LinkLabel linkLabel36;
         private LinkLabel linkLabel37;
         private LinkLabel linkLabel38;
-        private LinkLabel linkLabel39;
+        private LinkLabel linkLabelydzss1;
         private LinkLabel linkLabel40;
         private LinkLabel linkLabel41;
         private LinkLabel linkLabel42;
@@ -2489,7 +2485,7 @@
         private LinkLabel linkLabel44;
         private LinkLabel linkLabel45;
         private LinkLabel linkLabel46;
-        private LinkLabel linkLabel47;
+        private LinkLabel linkLabelrdzss1;
         private LinkLabel linkLabel48;
         private LinkLabel linkLabel49;
         private LinkLabel linkLabel50;
@@ -2499,7 +2495,7 @@
         private LinkLabel linkLabel54;
         private LinkLabel linkLabel55;
         private LinkLabel linkLabel56;
-        private LinkLabel linkLabel57;
+        private LinkLabel linkLabelsdzss1;
         private LinkLabel linkLabel58;
         private LinkLabel linkLabel59;
         private LinkLabel linkLabel60;
@@ -2544,10 +2540,6 @@
         private Button button62;
         private Button button63;
         private Button button65;
-        private LinkLabel linkLabel7;
-        private LinkLabel linkLabel14;
-        private LinkLabel linkLabel16;
-        private LinkLabel linkLabel19;
         private Button button38;
         private Button button40;
         private Button button46;
@@ -2566,5 +2558,9 @@
         private LinkLabel linkLabel21;
         private LinkLabel linkLabel28;
         private CheckBox checkBoxln;
+        private LinkLabel linkLabelsdzss2;
+        private LinkLabel linkLabelrdzss2;
+        private LinkLabel linkLabelydzss2;
+        private LinkLabel linkLabelndzss2;
     }
 }
