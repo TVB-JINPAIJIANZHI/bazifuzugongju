@@ -22409,34 +22409,50 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chen)
                             {
-                                linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == yin || ydz == yin || rdz == yin || sdz == yin)
                                 {
                                     linkLabelndzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                }
                             }
                             if (ydz == chen)
                             {
-                                linkLabelydzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == yin || ydz == yin || rdz == yin || sdz == yin)
                                 {
                                     linkLabelydzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                }
                             }
                             if (rdz == chen)
                             {
-                                linkLabelrdzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == yin || ydz == yin || rdz == yin || sdz == yin)
                                 {
                                     linkLabelrdzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                }
                             }
                             if (sdz == chen)
                             {
-                                linkLabelsdzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == yin || ydz == yin || rdz == yin || sdz == yin)
                                 {
                                     linkLabelsdzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
                                 }
                             }
 
@@ -22445,34 +22461,50 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == sii)
                             {
-                                linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == mao || ydz == mao || rdz == mao || sdz == mao)
                                 {
                                     linkLabelndzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                }
                             }
                             if (ydz == sii)
                             {
-                                linkLabelydzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == mao || ydz == mao || rdz == mao || sdz == mao)
                                 {
                                     linkLabelydzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                }
                             }
                             if (rdz == sii)
                             {
-                                linkLabelrdzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == mao || ydz == mao || rdz == mao || sdz == mao)
                                 {
                                     linkLabelrdzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                }
                             }
                             if (sdz == sii)
                             {
-                                linkLabelsdzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == mao || ydz == mao || rdz == mao || sdz == mao)
                                 {
                                     linkLabelsdzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
                                 }
                             }
 
@@ -22481,34 +22513,50 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wei)
                             {
-                                linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == sii || ydz == sii || rdz == sii || sdz == sii)
                                 {
                                     linkLabelndzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                }
                             }
                             if (ydz == wei)
                             {
-                                linkLabelydzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == sii || ydz == sii || rdz == sii || sdz == sii)
                                 {
                                     linkLabelydzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                }
                             }
                             if (rdz == wei)
                             {
-                                linkLabelrdzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == sii || ydz == sii || rdz == sii || sdz == sii)
                                 {
                                     linkLabelrdzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                }
                             }
                             if (sdz == wei)
                             {
-                                linkLabelsdzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == sii || ydz == sii || rdz == sii || sdz == sii)
                                 {
                                     linkLabelsdzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
                                 }
                             }
 
@@ -22517,34 +22565,50 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen)
                             {
-                                linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == wuma || ydz == wuma || rdz == wuma || sdz == wuma)
                                 {
                                     linkLabelndzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                }
                             }
                             if (ydz == shen)
                             {
-                                linkLabelydzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == wuma || ydz == wuma || rdz == wuma || sdz == wuma)
                                 {
                                     linkLabelydzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                }
                             }
                             if (rdz == shen)
                             {
-                                linkLabelrdzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == wuma || ydz == wuma || rdz == wuma || sdz == wuma)
                                 {
                                     linkLabelrdzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                }
                             }
                             if (sdz == shen)
                             {
-                                linkLabelsdzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == wuma || ydz == wuma || rdz == wuma || sdz == wuma)
                                 {
                                     linkLabelsdzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
                                 }
                             }
 
@@ -22553,34 +22617,50 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == xuu)
                             {
-                                linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == shen || ydz == shen || rdz == shen || sdz == shen)
                                 {
                                     linkLabelndzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                }
                             }
                             if (ydz == xuu)
                             {
-                                linkLabelydzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == shen || ydz == shen || rdz == shen || sdz == shen)
                                 {
                                     linkLabelydzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                }
                             }
                             if (rdz == xuu)
                             {
-                                linkLabelrdzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == shen || ydz == shen || rdz == shen || sdz == shen)
                                 {
                                     linkLabelrdzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                }
                             }
                             if (sdz == xuu)
                             {
-                                linkLabelsdzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == shen || ydz == shen || rdz == shen || sdz == shen)
                                 {
                                     linkLabelsdzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
                                 }
                             }
 
@@ -22589,34 +22669,50 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == hai)
                             {
-                                linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == you || ydz == you || rdz == you || sdz == you)
                                 {
                                     linkLabelndzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                }
                             }
                             if (ydz == hai)
                             {
-                                linkLabelydzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == you || ydz == you || rdz == you || sdz == you)
                                 {
                                     linkLabelydzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                }
                             }
                             if (rdz == hai)
                             {
-                                linkLabelrdzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == you || ydz == you || rdz == you || sdz == you)
                                 {
                                     linkLabelrdzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                }
                             }
                             if (sdz == hai)
                             {
-                                linkLabelsdzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == you || ydz == you || rdz == you || sdz == you)
                                 {
                                     linkLabelsdzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
                                 }
                             }
 
@@ -22625,34 +22721,50 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chou)
                             {
-                                linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == hai || ydz == hai || rdz == hai || sdz == hai)
                                 {
                                     linkLabelndzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                }
                             }
                             if (ydz == chou)
                             {
-                                linkLabelydzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == hai || ydz == hai || rdz == hai || sdz == hai)
                                 {
                                     linkLabelydzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                }
                             }
                             if (rdz == chou)
                             {
-                                linkLabelrdzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == hai || ydz == hai || rdz == hai || sdz == hai)
                                 {
                                     linkLabelrdzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                }
                             }
                             if (sdz == chou)
                             {
-                                linkLabelsdzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == hai || ydz == hai || rdz == hai || sdz == hai)
                                 {
                                     linkLabelsdzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
                                 }
                             }
 
@@ -22661,34 +22773,50 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin)
                             {
-                                linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == zii || ydz == zii || rdz == zii || sdz == zii)
                                 {
                                     linkLabelndzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                }
                             }
                             if (ydz == yin)
                             {
-                                linkLabelydzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == zii || ydz == zii || rdz == zii || sdz == zii)
                                 {
                                     linkLabelydzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                }
                             }
                             if (rdz == yin)
                             {
-                                linkLabelrdzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == zii || ydz == zii || rdz == zii || sdz == zii)
                                 {
                                     linkLabelrdzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                }
                             }
                             if (sdz == yin)
                             {
-                                linkLabelsdzss2.Text = "金舆-"; 金舆真假 = 1;
+
                                 if (ndz == zii || ydz == zii || rdz == zii || sdz == zii)
                                 {
                                     linkLabelsdzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                }
+                                else
+                                {
+                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
                                 }
                             }
 
