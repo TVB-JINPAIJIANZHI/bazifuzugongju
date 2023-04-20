@@ -22416,7 +22416,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (ydz == chen)
@@ -22428,7 +22428,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (rdz == chen)
@@ -22440,7 +22440,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (sdz == chen)
@@ -22452,7 +22452,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
 
@@ -22468,7 +22468,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (ydz == sii)
@@ -22480,7 +22480,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (rdz == sii)
@@ -22492,7 +22492,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (sdz == sii)
@@ -22504,7 +22504,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
 
@@ -22520,7 +22520,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (ydz == wei)
@@ -22532,7 +22532,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (rdz == wei)
@@ -22544,7 +22544,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (sdz == wei)
@@ -22556,7 +22556,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
 
@@ -22572,7 +22572,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (ydz == shen)
@@ -22584,7 +22584,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (rdz == shen)
@@ -22596,7 +22596,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (sdz == shen)
@@ -22608,7 +22608,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
 
@@ -22624,7 +22624,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (ydz == xuu)
@@ -22636,7 +22636,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (rdz == xuu)
@@ -22648,7 +22648,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (sdz == xuu)
@@ -22660,7 +22660,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
 
@@ -22676,7 +22676,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (ydz == hai)
@@ -22688,7 +22688,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (rdz == hai)
@@ -22700,7 +22700,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (sdz == hai)
@@ -22712,7 +22712,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
 
@@ -22728,7 +22728,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (ydz == chou)
@@ -22740,7 +22740,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (rdz == chou)
@@ -22752,7 +22752,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (sdz == chou)
@@ -22764,7 +22764,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
 
@@ -22780,7 +22780,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (ydz == yin)
@@ -22792,7 +22792,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (rdz == yin)
@@ -22804,7 +22804,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (sdz == yin)
@@ -22816,7 +22816,7 @@ namespace BaZiFuZuGongJu
                                 }
                                 else
                                 {
-                                    linkLabelndzss2.Text = "金舆-"; 金舆真假 = 1;
+                                    linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
 
