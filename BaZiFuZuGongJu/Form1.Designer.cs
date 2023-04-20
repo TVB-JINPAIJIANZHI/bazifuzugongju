@@ -144,7 +144,6 @@
             this.buttonmky = new System.Windows.Forms.Button();
             this.buttondz6c = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.button9 = new System.Windows.Forms.Button();
             this.linkLabel7hff = new System.Windows.Forms.LinkLabel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label1 = new System.Windows.Forms.Label();
@@ -590,9 +589,9 @@
             this.buttonp.ForeColor = System.Drawing.Color.Red;
             this.buttonp.Location = new System.Drawing.Point(135, 0);
             this.buttonp.Name = "buttonp";
-            this.buttonp.Size = new System.Drawing.Size(170, 37);
+            this.buttonp.Size = new System.Drawing.Size(150, 37);
             this.buttonp.TabIndex = 39;
-            this.buttonp.Text = "此命所带神煞";
+            this.buttonp.Text = "命属和神煞";
             this.buttonp.UseVisualStyleBackColor = false;
             this.buttonp.Click += new System.EventHandler(this.buttonp_Click);
             // 
@@ -601,7 +600,7 @@
             this.buttongj.BackColor = System.Drawing.Color.Green;
             this.buttongj.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.buttongj.ForeColor = System.Drawing.Color.White;
-            this.buttongj.Location = new System.Drawing.Point(7, -1);
+            this.buttongj.Location = new System.Drawing.Point(7, 0);
             this.buttongj.Name = "buttongj";
             this.buttongj.Size = new System.Drawing.Size(122, 36);
             this.buttongj.TabIndex = 40;
@@ -614,7 +613,7 @@
             this.buttonjin.BackColor = System.Drawing.Color.Black;
             this.buttonjin.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.buttonjin.ForeColor = System.Drawing.Color.Gold;
-            this.buttonjin.Location = new System.Drawing.Point(387, -1);
+            this.buttonjin.Location = new System.Drawing.Point(291, -1);
             this.buttonjin.Name = "buttonjin";
             this.buttonjin.Size = new System.Drawing.Size(106, 39);
             this.buttonjin.TabIndex = 43;
@@ -626,7 +625,7 @@
             // 
             this.buttontu.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.buttontu.ForeColor = System.Drawing.Color.Sienna;
-            this.buttontu.Location = new System.Drawing.Point(835, -1);
+            this.buttontu.Location = new System.Drawing.Point(739, -1);
             this.buttontu.Name = "buttontu";
             this.buttontu.Size = new System.Drawing.Size(106, 39);
             this.buttontu.TabIndex = 44;
@@ -638,7 +637,7 @@
             // 
             this.buttonshui.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.buttonshui.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.buttonshui.Location = new System.Drawing.Point(499, -1);
+            this.buttonshui.Location = new System.Drawing.Point(403, -1);
             this.buttonshui.Name = "buttonshui";
             this.buttonshui.Size = new System.Drawing.Size(106, 39);
             this.buttonshui.TabIndex = 45;
@@ -650,7 +649,7 @@
             // 
             this.buttonmu.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.buttonmu.ForeColor = System.Drawing.Color.Green;
-            this.buttonmu.Location = new System.Drawing.Point(611, -1);
+            this.buttonmu.Location = new System.Drawing.Point(515, -1);
             this.buttonmu.Name = "buttonmu";
             this.buttonmu.Size = new System.Drawing.Size(106, 39);
             this.buttonmu.TabIndex = 46;
@@ -662,7 +661,7 @@
             // 
             this.buttonhuo.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.buttonhuo.ForeColor = System.Drawing.Color.Red;
-            this.buttonhuo.Location = new System.Drawing.Point(723, -1);
+            this.buttonhuo.Location = new System.Drawing.Point(627, -1);
             this.buttonhuo.Name = "buttonhuo";
             this.buttonhuo.Size = new System.Drawing.Size(106, 39);
             this.buttonhuo.TabIndex = 47;
@@ -1608,18 +1607,6 @@
             this.richTextBox1.TabIndex = 122;
             this.richTextBox1.Text = "";
             // 
-            // button9
-            // 
-            this.button9.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button9.ForeColor = System.Drawing.Color.DarkViolet;
-            this.button9.Location = new System.Drawing.Point(311, 0);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(70, 37);
-            this.button9.TabIndex = 127;
-            this.button9.Text = "命属";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
-            // 
             // linkLabel7hff
             // 
             this.linkLabel7hff.AutoSize = true;
@@ -2265,7 +2252,6 @@
             this.Controls.Add(this.button10);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.linkLabel7hff);
-            this.Controls.Add(this.button9);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.buttondz6c);
             this.Controls.Add(this.buttonmky);
@@ -2384,7 +2370,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "八字辅助工具v15.3-杜净隆 作品";
+            this.Text = "八字辅助工具v15.6-杜净隆 作品";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownyear)).EndInit();
@@ -2512,7 +2498,6 @@
         private Button buttonmky;
         private Button buttondz6c;
         private RichTextBox richTextBox1;
-        private Button button9;
         private LinkLabel linkLabel7hff;
         private System.Windows.Forms.Timer timer1;
         private Label label1;

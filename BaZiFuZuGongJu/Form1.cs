@@ -212,7 +212,7 @@ namespace BaZiFuZuGongJu
         string 四废日 = "《四废日》\r\n\r\n即是指春季庚申日、辛酉日；夏季壬子日、癸亥日；秋季甲寅日、乙卯日；冬季丙午日、丁巳日。\r\n\r\n歌诀：春庚申辛酉，夏壬子癸亥，秋甲寅乙卯，冬丙午丁巳。\r\n\r\n查法：只看日柱，年柱、月柱、时柱都不论。\r\n\r\n例如，春季逢庚申、辛酉日出生的人，就是命中有四废。\r\n\r\n四废日详解\r\n\r\n原理：\r\n\r\n1.春季为木旺主事之时，金被囚而无用，叫废亡；夏为火旺之时而水死囚无用；秋季金盛而木处死囚无用；冬为水旺故火处死囚无用。\r\n\r\n2.四废日的第二个要点是阴阳同气、全阴或全阳。比如庚申都属于阳金，辛酉都属于阴金，庚申日、辛酉日此二日全阴或全阳，故曰四废者，五行死绝且阴阳不调。\r\n\r\n四废日详解\r\n\r\n危害：\r\n\r\n《三命通命》说：“命中带有四废，命主作事不会成功，有始无终。”\r\n\r\n《蓬赢经》与《五行精纪》：“四废者是五行无气，福德不临之辰。”故曰四废者，五行死绝、阴阳不调。\r\n\r\n命局中带“四废”神煞的人，一生之中做事大都不是有始无终，难成大业，就是身弱多病。 我遇到过两个命局，一个是干造，今年45岁，仍然是居无定所，四处漂泊，无家无事业；另一个是坤造，今年38岁，虽事业有成，婚姻一败糊涂，结过三次婚又离异。 命带四废如不遇生扶，又受克害凶煞制者，主伤残，官司口舌，甚至牢狱之灾，或为僧道之人。\r\n\r\n但如果有生旺扶持，那又另当别论。四废的干支喜生扶，化解之道在于阴阳调和。\r\n\r\n例如丁巳生于冬，水克火，如柱有它火或戊土护卫，可化解。\r\n\r\n四废日详解\r\n\r\n实战经验：\r\n\r\n命带四废且他柱无生扶或者阴阳调和的，确实都是泛泛之辈，基本都事无所成。\r\n\r\n但也有些其他柱组合好的经济上也很好，事业也不错，多属于自由职业不受束缚。因为日柱与出生之季五行相克，因此表现在和社会大环境不融合。但婚姻与健康方面必有一项不顺利。我遇到的好几个四废日生人，如果经济条件好的话，健康或精神方面就有小恙。或者是婚姻不如意，多婚或无婚或克配偶，独居等，与配偶缘薄，家中失于温暖与炊烟，内心性格孤冷。\r\n\r\n四废日详解\r\n\r\n应对：\r\n\r\n如果读者之中有四废日出生的也不要慌张，最好请精通命理之士为您八字全局分析，看看此煞对您的影响究竟会有多大。如果他柱有可供调和的干支可无忧。如四柱没有可供调侯的五行，就以风水、改名、行善积德等多种途径缓解。 ";
 
         //自述文本
-        string 自述文本 = "杜净隆_作品。\r\n此软件为开源软件。https://github.com/TVB-JINPAIJIANZHI/bazifuzugongju\r\n使用Lunar库实现了万年历级别的天干地支查询。\r\n学习八字预测不用死记硬背。不用担心没时间。只要懂五行生克就可以学会。\r\n显示墓库运。自动识别方位和对应内脏。天干地支分阴阳五行五种颜色。\r\n自动判断,半三合.地支六冲,地支六害,地支六合,地支六破,地支三合,\r\n地支三会,地支相刑,拱合,天干冲,天干五合，拱合。流年和主命盘阴阳。\r\n半三合，地支六合,地支三合,地支三会,天干五合，拱合：五行色彩。\r\n十神：吉为红字：忌为黑字。自动判断日元强弱。十神等按钮中附注解。\r\n显示十神六亲。54个神煞显示。显示十二长生。排流年和主命盘显示强弱。\r\n集成了穷通宝鉴:可以显示四季五行命性。显示命局喜禁。\r\n增加四柱的五行纳音。流年副盘。四柱干支流转。 \r\n更新地址：https://pan.baidu.com/s/1KLywvxhGBLlnMhKYv28UTg\r\n提取码：4pkx\r\n\r\n 读诵《金刚般若波罗蜜经》可消业力。\r\n\r\n要改变命运就要改变自己，人受五行控制就只能认命。\r\n菩萨是没有五行的所以不受五行所限。\r\n要脱离五行就要发心做个菩萨：日常生活中遇事以菩萨的态度行事即可。\r\n需要注意的是发心为上行为次之，因为菩萨的心才是无上正等正觉的。\r\n唵嘛呢叭咪吽\r\n";
+        string 自述文本 = "杜净隆_作品。\r\n此软件为开源软件。https://github.com/TVB-JINPAIJIANZHI/bazifuzugongju\r\n使用Lunar库实现了万年历级别的天干地支查询https://github.com/6tail/lunar-csharp\r\n学习八字预测不用死记硬背。不用担心没时间。只要懂五行生克就可以学会。\r\n显示墓库运。自动识别方位和对应内脏。天干地支分阴阳五行五种颜色。\r\n自动判断,半三合.地支六冲,地支六害,地支六合,地支六破,地支三合,\r\n地支三会,地支相刑,拱合,天干冲,天干五合，拱合。流年和主命盘阴阳。\r\n半三合，地支六合,地支三合,地支三会,天干五合，拱合：五行色彩。\r\n十神：吉为红字：忌为黑字。自动判断日元强弱。十神等按钮中附注解。\r\n显示十神六亲。54个神煞显示。显示十二长生。排流年和主命盘显示强弱。\r\n集成了穷通宝鉴:可以显示四季五行命性。显示命局喜禁。\r\n增加四柱的五行纳音。流年副盘。四柱干支流转。 \r\n更新地址：https://pan.baidu.com/s/1KLywvxhGBLlnMhKYv28UTg\r\n提取码：4pkx\r\n\r\n 读诵《金刚般若波罗蜜经》可消业力。\r\n\r\n要改变命运就要改变自己，人受五行控制就只能认命。\r\n菩萨是没有五行的所以不受五行所限。\r\n要脱离五行就要发心做个菩萨：日常生活中遇事以菩萨的态度行事即可。\r\n需要注意的是发心为上行为次之，因为菩萨的心才是无上正等正觉的。\r\n唵嘛呢叭咪吽\r\n\r\n----------------\r\n\r\n周易起名字\r\n\r\n\r\n前言，\r\n\r\n看到很多人给小宝宝起名被骗钱所以写此教程，本人懂起名原理借助软件实现专业起名。\r\n\r\n如果你没看懂请不要实际操作以免弄巧成拙。\r\n\r\n如需助人起名需要收取费用，因为你给别人起名就等于在改写这个人的命运，\r\n\r\n无论好坏都要消耗你，除非是你的直系亲属。\r\n\r\n一命二相三风水，名字是人的第二张脸面，其作用与人的脸相当。\r\n\r\n不过名字是数术，也就可以拼合八字，对于人的发展也大于风水很多。\r\n\r\n起名是一个涉及到文化、历史和语言的重要过程。周易中的三才五格理论是中国传统名字学的核心思想之一，它认为人的命运与出生时五行的相对强度和三才之间的协调有关。在这部教材中，我们将介绍三才五格的基本概念、原理和应用方法，帮助读者更好地理解和运用这一理论。\r\n\r\n第一章 三才五格的基本概念\r\n\r\n三才：指天、地、人三个方面的素质。\r\n天格：指出生年的天干地支，代表着先天的气质和能力。\r\n人格：指出生日的天干地支，代表着性格和才华。\r\n地格：指姓名的笔画数目，代表着后天的环境和条件。\r\n总格：指天格、人格、地格三者之和，代表着个人的命运和发展。\r\n第二章 三才五格的原理\r\n\r\n五行相生相克：金生水，水生木，木生火，火生土，土生金；金克木，木克土，土克水，水克火，火克金。\r\n喜用神和忌神：根据个人的命局和需要，选择适合的五行作为喜用神，避免忌神的影响。\r\n三才协调：天、地、人三才之间相互协调，可以增强个人的命运和发展。\r\n笔画数和五行：每个汉字都有固定的笔画数和对应的五行属性，根据姓名的笔画数和五行配比，可以评估地格的优劣。\r\n第三章 三才五格的应用方法\r\n\r\n查看命盘：根据出生日期和时间，结合农历、时辰等因素，查看个人的命盘和五行属性。\r\n确定天格和地格：根据出生年份和姓名的笔画数，在专业的起名书籍或网站上确定天格和地格。\r\n计算人格和总格：根据出生日期确定人格，然后将天格、人格、地格相加得到总格。\r\n确定喜用神和忌神：根据命盘和总格的五行属性，确定适合的喜用神和需要避免的忌神。\r\n综合评估：综合考虑天格、人格、地格、总格、喜用神和忌神等因素，进行综合评估，并选取合适的名字。\r\n以上是三才五格起名的基本概念、原理和应用方法，希望读者能够通过学习更好地了解和运用这一传统文化。\r\n\r\n\r\n-----------------\r\n\r\n\r\n起名第一步就是要排出这个人的八字，这是专业的步骤。\r\n\r\n如果给你起名的人不排八字和你扯字意，说什么大人物用这个字怎么好，那他绝对是骗子。\r\n\r\n排出八字就是要知道这个人生来所带的五行属性，金木土水火。\r\n\r\n然后给人补缺填平，五行哪个太多都不好，缺少就更不好了。\r\n\r\n然后在根据生肖避开忌用的偏旁。\r\n\r\n\r\n--------------------------------------\r\n\r\n\r\n\r\n\r\n三才五格吉凶配置\r\n\r\n一、起源\r\n\r\n在公元1918年初，由日本人熊崎健翁根据中国易学数理学开创，因此五格剖象法也称作“熊崎氏姓名学”，其核心就是将人的姓名按五格剖象法来解释。\r\n\r\n1936年由台湾留学日本的白玉光（又叫白惠文）带回台湾翻译推广，后来流行于韩国，东南亚，中国台湾、香港等地 在中国大陆，五格剖象法通过和中国传统易学原理的结合，上世纪九十年代由中国命运分析学者方晨等规范总结和实践，以康熙字典笔画作为姓名学笔画基准，形成完善的符合中国姓名传统的姓名分析方法，结合中国传统姓名学，成为中华姓名学的一个重要组成部分\r\n\r\n二、五格计算方法\r\n\r\n1、天格：单姓的天格是“单姓笔画+1”，复姓的天格是“复姓笔画数相加” 2、人格：单姓的人格是“姓的笔画数+名（第一字）的笔画数”，；复姓的人格数理是“复姓的第二个字笔画+名的第一个字笔画”\r\n\r\n3、地格：双名的地格是“名字的笔画数相加”，单名的地格是“名的笔画数+1”。\r\n\r\n4、总格：总格是“姓名笔画数的总和”。\r\n\r\n5、外格：单姓双姓名“总格数理-人格数理+1”；复姓双将姓名总格减去人格之差”即为外格。复姓单名的外格为“总格数理-人格数理+1”。注：单姓单名的外格为2，\r\n\r\n三、五格的分数\r\n\r\n五格是：天格、人格、地格、总格、外格。\r\n\r\n其中天格代表父母的命运；地格代表自己38岁以前的命运（又称前运）；人格是自己的主运； 外格是副运；总格是后运，通常在人38岁以后才称后运。\r\n\r\n首先，作者将81个数定义了吉凶： 列为吉数的有1、3、5、6、7、8、11、13、15、16、17、18、21、23、24、25、29、31、32、33、35、37、39、41、45、47、48、52、55、57、61、63、65、67、68、81共计36个。\r\n\r\n列为凶数的有2、4、9、10、12、14、19、20、22、26、27、28、30、34、36、38、40、42、43、44、46、49、50、51、53、54、56、58、59、60、62、64、66、69、70、71、72、73、74、75、76、77、78、79、80 合计45个。\r\n\r\n四、三才的计算\r\n\r\n三才是：指天、人、地格的五行属性，取相生吉，相克凶。\r\n\r\n对“数”定义五行是套用十天干的五行顺序而定，即1、2甲乙木，3、4丙丁火，5、6戊己土，7、8庚辛金，9、10壬癸水。计算出了姓名的五格后，就是给五格配上阴、阳。数字超过十的只留个位数计算。如：15为还原成5，属阳土；52还原成2，属阴木，此类推。得出阴阳关系后，再分辩五行的相生相克关系：木生火、火生土、土生金、金生水、水生木；木克土、土克水、水克火、火克金、金克木。\r\n\r\n五、举例\r\n\r\n李世民\r\n\r\n李7 天格：08(金)7+1\r\n\r\n世5 人格：12(木)7+5\r\n\r\n民5 地格：10(水)5+5\r\n\r\n总格：17(金) 7+5+5\r\n\r\n外格：6 (土)17-12+1\r\n\r\n三才是：金木水\r\n\r\n\r\n----------------------------------------------\r\n\r\n用字的划数来区别五行的方法：\r\n\r\n1、2、11、12、21、22、31、32划属木\r\n\r\n3、4、13、14、23、24、33、34划属火\r\n\r\n5、6、15、16、25、26、35、36划属土\r\n\r\n7、8、17、18、27、28、37、38划属金\r\n\r\n9、10、19．20、29、30、39、40划属水\r\n\r\n其中奇数为阳，偶数为阴。\r\n\r\n这里需要注意的重点是笔画的数量以繁体字书写的笔画为准。\r\n\r\n----------------------------------------------\r\n\r\n凡取名字的部首，最好配合生肖宜忌选用\r\n\r\n1、鼠年出生的人\r\n\r\n取名应有：宀、米、豆、魚、艸、金、玉、亻、木、月、田、等部位为吉\r\n\r\n取名忌用：山、刀、力、弓、土、欠、石、皮、氵、马、酉、才、火、车等部首\r\n\r\n2、牛年出生的人\r\n\r\n取名应有：氵、艸、豆、米、金、玉、宀、亻、木等部首为吉\r\n\r\n取名忌用：月、火、田、车、马、石、山、血、糸、刀、力等部首\r\n\r\n3、虎年出生的人\r\n\r\n取名应有：山、玉、金、木、示、氵、月、犬、马等部首为吉\r\n\r\n取名忌用：日、火、田、口、糸、石、马、刀、力、血、弓、父、足等部首\r\n\r\n4、兔年出生的人\r\n\r\n取名应有：月、艸、山、田、亻、禾、木、宀、金、白、玉、豆、犬等部首为吉\r\n\r\n取名忌用：马、石、刀、皮、氵、川等部首\r\n\r\n5、龙年出生的人\r\n\r\n取名应有：氵、金、玉、白、赤、月、魚、酉、亻等部位为吉\r\n\r\n取名忌用：土、田、木、禾、示、忄、日、石、艸、力、刀、糸、犬、火等部首\r\n\r\n6、蛇年出生的人\r\n\r\n取名应有：艸、蟲、豆、魚、酉、木、禾、田、山、金、玉、月、土等部首为吉\r\n\r\n取名忌用：小、石、刀、血、弓、火、亻、犬、父等部首\r\n\r\n7、马年出生的人\r\n\r\n取名应有：艸、金、玉、木、禾、蟲、豆、米、亻、月、土、才等部首为吉\r\n\r\n取名忌用：田、日、火、氵、车、石、刀、力、酉、马等部首\r\n\r\n8、羊年出生的人\r\n\r\n取名应有：金、白、玉、艸、月、田、豆、米、马、禾、木、亻、魚等部首为吉\r\n\r\n取名忌用：小、犬、糸、车、氵、山、日、火等部首\r\n\r\n9、猴年出生的人\r\n\r\n取名应有：木、禾、金、玉、豆、米、田、山、月、氵、亻等部首为吉\r\n\r\n取名忌用：火、石、口、冖、糸、刀、力、皮、犬等部首\r\n\r\n10、鸡年出生的人\r\n\r\n取名应有：米、豆、蟲、木、禾、玉、田、月、冖、山、艸、金的部首为吉\r\n\r\n取名忌用：石、犬、刀、力、日、酉、血、弓、才、糸、车、马等部首\r\n\r\n11、狗年出生的人\r\n\r\n取名应有：魚、豆、米、冖、马、金、艸、田、木、月、禾、氵、亻等部首为吉\r\n\r\n取名忌用：火、石、糸、山、才、木、车、刀、父、言等部首\r\n\r\n12、猪年出生的人\r\n\r\n取名应有：豆、米、魚、氵、金、玉、月、木、禾、亻、山、土、艸等部首为吉\r\n\r\n取名忌用：糸、石、刀、力、血、弓、皮、父等部首\r\n\r\n---------------------------------------------\r\n\r\n\r\n取名的技巧\r\n\r\n1、考虑书写习惯，平时写字，大家都有简单化的倾向，故用字不宜太复杂或难写。注意轻重，平衡字形要有美感。\r\n\r\n2、不宜用生僻字，这样易造成被人难以认识、被人拒绝，妨碍人际沟通。\r\n\r\n3、学名不宜带稚气，当小孩长大后，易被人小看。\r\n\r\n4、避免使用相同或相近部首的字。避免声母，韵母相策。\r\n\r\n5、避免声调相同，无语音之美。分清阴阳，阳盛取阴名，阴盛取阳名。\r\n\r\n6、根据具体要求，调整特殊用字，诱导其广播方向。\r\n\r\n7、创意新颖，含义丰富。\r\n\r\n8、用易经的组合方法，校正全名的卦象，以辨吉凶。\r\n\r\n9、根据小孩的出生年月，即古谓“生辰八字”确定用码的五行。\r\n\r\n10、结合五格数理，选定名字的笔画数。\r\n\r\n\r\n----------------------------------------\r\n\r\n生辰八字\r\n根据宝宝出生的时辰，转换成对应的五行，看看是缺了哪一种，用名字去补。\r\n比如五行缺「金」，名字里面就用带金字旁的字来补。\r\n更具体的我也没有深入研究了，因为用生辰来起名的前提是知道宝宝的出生时间。如果想在宝宝出生前把名字取好，我们可以了解一下「五格剖象法」。\r\n\r\n五格剖象法\r\n五格剖象法，也叫三才五格，是比较流行的一种取名法，也是很多起名打分应用的依据。它将名字的笔画数拆分为天格、地格、人格、外格、总格。\r\n五格各自包含的意义如下：\r\n\r\n天格为根 - 天格乃祖先留下来的，为父母运势，其数理对个人影响不大。\r\n人格为苗 - 又称「主运」，是整个姓名的中心点，人一生的命运之好坏主要由此格推断。\r\n地格为花 - 又称为「前运」，主 38 岁以前，主管人中年以前的活动力。\r\n外格为叶 - 主管命运之灵力，一般指贵人或外来助力。为一个人外界和谐与否，可由此格看出。\r\n总格为果 - 主中年至晚年的命运，又称后运，主 38 岁以后。\r\n\r\n它们计算方法是这样的：\r\n\r\n天格：姓的笔画数?+ 1\r\n人格：姓的笔画数 + 名第一字的笔画数\r\n地格：名字的笔画数相加\r\n总格：姓名笔画数的总和\r\n外格：总格 - 人格 + 1?\r\n\r\n这里的笔画数是按康熙字典里的笔画，也就是要按繁体字计算。此外还有一些部首会影响笔画数计算：\r\n\r\n（1）“氵”三点水算四画。如：清、洁等；（2）“扌”手旁算四画。如挑、拨等；（3）“月”算肉旁六画。如服、肪、脉等；（4）“艹”算六画。如英、苹、蓉等；（5）“辶”算七画。如达、迈、迅、过等；（6）左“阝”算八画，阳、阴、陈、陆等；（7）右“卩”算七画，如即、邓、邝等；（8）“王”算五画，如琬、珀、玫、瑰等；（9）礻（示），以示字计为五画；（10）衤（衣），以衣字计为六画；（11）“犭”算四画。如狄、猛、独等；（12）忄（心），竖心旁，以心字计为四画；（13）名字中有“一、二、三、四、五、六、七、八、九、十”的字要分别按1、2、3、4、5、6、7、8、9、10画。\r\n\r\n最后算出来的五格笔画数，被划分为吉、半吉、凶三组：\r\n\r\n属于吉的数字：1、3、5、8、11、13、15、16、21、23、24、25、29、31、32、33、35、37、38、39、41、45、47、48、52、57、63、65、67、68、81\r\n属于半吉的数字：6、7、17、18、27、30、40、51、52、55、61、75\r\n属于凶的数字：2、4、9、10、12、14、19、20、22、26、28、34、36、42、43、44、46、49、50、53、54、56、58、59、60、62、64、66、69、70、71、72、73、74、76、77、78、79、80\r\n\r\n\r\n\r\n--------------------------------------------\r\n\r\n\r\n最主要的还是积德行善。\r\n\r\n多行善事，才是好运的根本，否则一切都是徒劳。所以，我们建议你多行善事，善事包括1、与人为善；2、敬爱存心；3、成人之美；4、劝人为善；5、救人危急；6、兴建大利；7、舍财作福；8、护持正法；9、敬重尊长等等。";
         //文本控件开关
         int wenben = 0;
         //旺衰
@@ -642,7 +642,7 @@ namespace BaZiFuZuGongJu
                     linkLabelrcs.Text = ""; linkLabelscs.Text = ""; linkLabelstgss.Text = ""; linkLabelrtgss.Text = ""; linkLabelytgss.Text = ""; linkLabelntgss.Text = "";
                     buttonjin.Text = ""; buttonshui.Text = ""; buttonmu.Text = ""; buttonhuo.Text = ""; buttontu.Text = "";
                     linkLabel2.Text = ""; linkLabel10.Text = ""; linkLabel17.Text = ""; linkLabel24.Text = ""; linkLabel23.Text = ""; linkLabel15.Text = "";
-                    linkLabel9.Text = ""; linkLabel1.Text = ""; linkLabel4.Text = ""; linkLabel8.Text = ""; button9.Text = "";
+                    linkLabel9.Text = ""; linkLabel1.Text = ""; linkLabel4.Text = ""; linkLabel8.Text = "";
                     button4.Text = ""; button16.Text = ""; button7.Text = ""; button8.Text = ""; button13.Text = ""; button17.Text = "";
                     button19.Text = ""; button22.Text = ""; button14.Text = ""; button18.Text = ""; button21.Text = ""; button23.Text = "";
                     button15.Text = ""; button6.Text = ""; button20.Text = ""; button24.Text = ""; linkLabel31.Text = ""; linkLabel44.Text = "";
@@ -845,34 +845,10 @@ namespace BaZiFuZuGongJu
                         buttonsz.ForeColor = Color.DodgerBlue;
                     }
                 }
-                //命属性
-                if (jia == jia)
-                {
-                    if (rtg == jia || rtg == yii)
-                    {
-                        button9.Text = "木命"; button9.BackColor = Color.White; button9.ForeColor = Color.Green;
-                    }
-                    if (rtg == bing || rtg == ding)
-                    {
-                        button9.Text = "火命"; button9.BackColor = Color.White; button9.ForeColor = Color.Red;
-                    }
-                    if (rtg == wuu || rtg == jii)
-                    {
-                        button9.Text = "土命"; button9.BackColor = Color.White; button9.ForeColor = Color.Sienna;
-                    }
-                    if (rtg == geng || rtg == xin)
-                    {
-                        button9.Text = "金命"; button9.BackColor = Color.Black; button9.ForeColor = Color.Gold;
-                    }
-                    if (rtg == ren || rtg == gui)
-                    {
-                        button9.Text = "水命"; button9.BackColor = Color.White; button9.ForeColor = Color.DodgerBlue;
-                    }
-                }
                 //旺衰
                 if (jia == jia)
                 {
-                    if (button9.Text == "水命")
+                    if (rtg==ren||rtg==gui)
                     {
                         if (ntg == ren || ntg == gui || ntg == geng || ntg == xin)
                         {
@@ -916,7 +892,7 @@ namespace BaZiFuZuGongJu
                         }
 
                     }
-                    if (button9.Text == "木命")
+                    if (rtg == jia || rtg == yii)
                     {
                         if (ntg == jia || ntg == yii || ntg == ren || ntg == gui)
                         {
@@ -960,7 +936,7 @@ namespace BaZiFuZuGongJu
                         }
 
                     }
-                    if (button9.Text == "火命")
+                    if (rtg == bing || rtg == ding)
                     {
                         if (ntg == bing || ntg == ding || ntg == jia || ntg == yii)
                         {
@@ -984,7 +960,7 @@ namespace BaZiFuZuGongJu
                         }
                         if (ydz == wuma)
                         {
-                            wangshuai += 50;
+                            wangshuai += 40;
                         }
                         if (ydz == mao)
                         {
@@ -1008,7 +984,7 @@ namespace BaZiFuZuGongJu
                         }
 
                     }
-                    if (button9.Text == "金命")
+                    if (rtg == geng || rtg == xin)
                     {
                         if (ntg == geng || ntg == xin || ntg == wuu || ntg == jii)
                         {
@@ -1052,7 +1028,7 @@ namespace BaZiFuZuGongJu
                         }
 
                     }
-                    if (button9.Text == "土命")
+                    if (rtg == wuu || rtg == jii)
                     {
                         if (ntg == wuu || ntg == jii || ntg == bing || ntg == ding)
                         {
@@ -36070,6 +36046,241 @@ namespace BaZiFuZuGongJu
                     }
 
                 }
+                //命属性
+                if (jia == jia)
+                {
+
+                    if (rtg == jia)
+                    {
+                        if (ydz == yin || ydz == mao || ydz == chen)
+                        {
+
+                            命局神煞 += 论木 + 三春甲木;
+                        }
+                        if (ydz == sii || ydz == wuma || ydz == wei)
+                        {
+
+                            命局神煞 += 论木 + 三夏甲木;
+                        }
+                        if (ydz == shen || ydz == you || ydz == xuu)
+                        {
+
+                            命局神煞 += 论木 + 三秋甲木;
+                        }
+                        if (ydz == hai || ydz == zii || ydz == chou)
+                        {
+
+                            命局神煞 += 论木 + 三冬甲木;
+                        }
+
+                    }
+                    if (rtg == yii)
+                    {
+                        if (ydz == yin || ydz == mao || ydz == chen)
+                        {
+
+                            命局神煞 += 论木 + 三春乙木;
+                        }
+                        if (ydz == sii || ydz == wuma || ydz == wei)
+                        {
+
+                            命局神煞 += 论木 + 三夏乙木;
+                        }
+                        if (ydz == shen || ydz == you || ydz == xuu)
+                        {
+
+                            命局神煞 += 论木 + 三秋乙木;
+                        }
+                        if (ydz == hai || ydz == zii || ydz == chou)
+                        {
+
+                            命局神煞 += 论木 + 三冬乙木;
+                        }
+
+                    }
+                    if (rtg == bing)
+                    {
+                        if (ydz == yin || ydz == mao || ydz == chen)
+                        {
+
+                            命局神煞 += 论火 + 三春丙火;
+                        }
+                        if (ydz == sii || ydz == wuma || ydz == wei)
+                        {
+
+                            命局神煞 += 论火 + 三夏丙火;
+                        }
+                        if (ydz == shen || ydz == you || ydz == xuu)
+                        {
+
+                            命局神煞 += 论火 + 三秋丙火;
+                        }
+                        if (ydz == hai || ydz == zii || ydz == chou)
+                        {
+
+                            命局神煞 += 论火 + 三冬丙火;
+                        }
+
+                    }
+                    if (rtg == ding)
+                    {
+                        if (ydz == yin || ydz == mao || ydz == chen)
+                        {
+
+                            命局神煞 += 论火 + 三春丁火;
+                        }
+                        if (ydz == sii || ydz == wuma || ydz == wei)
+                        {
+
+                            命局神煞 += 论火 + 三夏丁火;
+                        }
+                        if (ydz == shen || ydz == you || ydz == xuu)
+                        {
+
+                            命局神煞 += 论火 + 三秋丁火;
+                        }
+                        if (ydz == hai || ydz == zii || ydz == chou)
+                        {
+
+                            命局神煞 += 论火 + 三冬丁火;
+                        }
+
+                    }
+                    if (rtg == wuu)
+                    {
+                        if (ydz == yin || ydz == mao || ydz == chen)
+                        {
+
+                            命局神煞 += 论土 + 三春戊土;
+                        }
+                        if (ydz == sii || ydz == wuma || ydz == wei)
+                        {
+
+                            命局神煞 += 论土 + 三夏戊土;
+                        }
+                        if (ydz == shen || ydz == you || ydz == xuu)
+                        {
+
+                            命局神煞 += 论土 + 三秋戊土;
+                        }
+                        if (ydz == hai || ydz == zii || ydz == chou)
+                        {
+
+                            命局神煞 += 论土 + 三冬戊土;
+                        }
+
+                    }
+                    if (rtg == jii)
+                    {
+                        if (ydz == yin || ydz == mao || ydz == chen)
+                        {
+
+                            命局神煞 += 论土 + 三春己土;
+                        }
+                        if (ydz == sii || ydz == wuma || ydz == wei)
+                        {
+
+                            命局神煞 += 论土 + 三夏己土;
+                        }
+                        if (ydz == shen || ydz == you || ydz == xuu)
+                        {
+
+                            命局神煞 += 论土 + 三秋己土;
+                        }
+                        if (ydz == hai || ydz == zii || ydz == chou)
+                        {
+
+                            命局神煞 += 论土 + 三冬己土;
+                        }
+
+                    }
+                    if (rtg == geng)
+                    {
+                        if (ydz == yin || ydz == mao || ydz == chen)
+                        {
+
+                            命局神煞 += 论金 + 三春庚金;
+                        }
+                        if (ydz == sii || ydz == wuma || ydz == wei)
+                        {
+                            命局神煞 += 论金 + 三夏庚金;
+                        }
+                        if (ydz == shen || ydz == you || ydz == xuu)
+                        {
+                            命局神煞 += 论金 + 三秋庚金;
+                        }
+                        if (ydz == hai || ydz == zii || ydz == chou)
+                        {
+                            命局神煞 += 论金 + 三冬庚金;
+                        }
+
+                    }
+                    if (rtg == xin)
+                    {
+                        if (ydz == yin || ydz == mao || ydz == chen)
+                        {
+                            命局神煞 += 论金 + 三春辛金;
+                        }
+                        if (ydz == sii || ydz == wuma || ydz == wei)
+                        {
+                            命局神煞 += 论金 + 三夏辛金;
+                        }
+                        if (ydz == shen || ydz == you || ydz == xuu)
+                        {
+                            命局神煞 += 论金 + 三秋辛金;
+                        }
+                        if (ydz == hai || ydz == zii || ydz == chou)
+                        {
+                            命局神煞 += 论金 + 三冬辛金;
+                        }
+
+                    }
+                    if (rtg == ren)
+                    {
+                        if (ydz == yin || ydz == mao || ydz == chen)
+                        {
+                            命局神煞 += 论水 + 三春壬水;
+                        }
+                        if (ydz == sii || ydz == wuma || ydz == wei)
+                        {
+                            命局神煞 += 论水 + 三夏壬水;
+                        }
+                        if (ydz == shen || ydz == you || ydz == xuu)
+                        {
+
+                            命局神煞 += 论水 + 三秋壬水;
+                        }
+                        if (ydz == hai || ydz == zii || ydz == chou)
+                        {
+                            命局神煞 += 论水 + 三冬壬水;
+                        }
+
+                    }
+                    if (rtg == gui)
+                    {
+                        if (ydz == yin || ydz == mao || ydz == chen)
+                        {
+
+                            命局神煞 += 论水 + 三春癸水;
+                        }
+                        if (ydz == sii || ydz == wuma || ydz == wei)
+                        {
+                            命局神煞 += 论水 + 三夏癸水;
+                        }
+                        if (ydz == shen || ydz == you || ydz == xuu)
+                        {
+
+                            命局神煞 += 论水 + 三秋癸水;
+                        }
+                        if (ydz == hai || ydz == zii || ydz == chou)
+                        {
+                            命局神煞 += 论水 + 三冬癸水;
+                        }
+
+                    }
+
+
+                }
 
 
             }//排主盘
@@ -49461,372 +49672,6 @@ namespace BaZiFuZuGongJu
             }
         }
 
-        private void button9_Click(object sender, EventArgs e)
-        {
-                     
-            if (rtg == jia)
-            {
-                if (ydz == yin || ydz == mao || ydz == chen)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论木+三春甲木;
-                }
-                if (ydz == sii || ydz == wuma || ydz == wei)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论木 + 三夏甲木;
-                }
-                if (ydz == shen || ydz == you || ydz == xuu)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论木 + 三秋甲木;
-                }
-                if (ydz == hai || ydz == zii || ydz == chou)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论木 + 三冬甲木;
-                }
-
-            }
-            if (rtg == yii)
-            {
-                if (ydz == yin || ydz == mao || ydz == chen)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论木 + 三春乙木;
-                }
-                if (ydz == sii || ydz == wuma || ydz == wei)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论木 + 三夏乙木;
-                }
-                if (ydz == shen || ydz == you || ydz == xuu)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论木 + 三秋乙木;
-                }
-                if (ydz == hai || ydz == zii || ydz == chou)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论木 + 三冬乙木;
-                }
-
-            }
-            if(rtg == bing)
-            {
-                if (ydz == yin || ydz == mao || ydz == chen)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论火 + 三春丙火;
-                }
-                if (ydz == sii || ydz == wuma || ydz == wei)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论火 + 三夏丙火;
-                }
-                if (ydz == shen || ydz == you || ydz == xuu)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论火 + 三秋丙火;
-                }
-                if (ydz == hai || ydz == zii || ydz == chou)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论火 + 三冬丙火;
-                }
-
-            }
-            if (rtg == ding)
-            {
-                if (ydz == yin || ydz == mao || ydz == chen)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论火 + 三春丁火;
-                }
-                if (ydz == sii || ydz == wuma || ydz == wei)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论火 + 三夏丁火;
-                }
-                if (ydz == shen || ydz == you || ydz == xuu)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论火 + 三秋丁火;
-                }
-                if (ydz == hai || ydz == zii || ydz == chou)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论火 + 三冬丁火;
-                }
-
-            }
-            if (rtg == wuu)
-            {
-                if (ydz == yin || ydz == mao || ydz == chen)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论土 + 三春戊土;
-                }
-                if (ydz == sii || ydz == wuma || ydz == wei)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论土 + 三夏戊土;
-                }
-                if (ydz == shen || ydz == you || ydz == xuu)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论土 + 三秋戊土;
-                }
-                if (ydz == hai || ydz == zii || ydz == chou)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论土 + 三冬戊土;
-                }
-
-            }
-            if (rtg == jii)
-            {
-                if (ydz == yin || ydz == mao || ydz == chen)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论土 + 三春己土;
-                }
-                if (ydz == sii || ydz == wuma || ydz == wei)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论土 + 三夏己土;
-                }
-                if (ydz == shen || ydz == you || ydz == xuu)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论土 + 三秋己土;
-                }
-                if (ydz == hai || ydz == zii || ydz == chou)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论土 + 三冬己土;
-                }
-
-            }
-            if (rtg == geng)
-            {
-                if (ydz == yin || ydz == mao || ydz == chen)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论金 + 三春庚金;
-                }
-                if (ydz == sii || ydz == wuma || ydz == wei)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论金 + 三夏庚金;
-                }
-                if (ydz == shen || ydz == you || ydz == xuu)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论金 + 三秋庚金;
-                }
-                if (ydz == hai || ydz == zii || ydz == chou)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论金 + 三冬庚金;
-                }
-
-            }
-            if (rtg == xin)
-            {
-                if (ydz == yin || ydz == mao || ydz == chen)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论金 + 三春辛金;
-                }
-                if (ydz == sii || ydz == wuma || ydz == wei)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论金 + 三夏辛金;
-                }
-                if (ydz == shen || ydz == you || ydz == xuu)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论金 + 三秋辛金;
-                }
-                if (ydz == hai || ydz == zii || ydz == chou)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论金 + 三冬辛金;
-                }
-
-            }
-            if (rtg == ren)
-            {
-                if (ydz == yin || ydz == mao || ydz == chen)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论水 + 三春壬水;
-                }
-                if (ydz == sii || ydz == wuma || ydz == wei)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论水 + 三夏壬水;
-                }
-                if (ydz == shen || ydz == you || ydz == xuu)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论水 + 三秋壬水;
-                }
-                if (ydz == hai || ydz == zii || ydz == chou)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论水 + 三冬壬水;
-                }
-
-            }
-            if (rtg == gui)
-            {
-                if (ydz == yin || ydz == mao || ydz == chen)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论水 + 三春癸水;
-                }
-                if (ydz == sii || ydz == wuma || ydz == wei)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论水 + 三夏癸水;
-                }
-                if (ydz == shen || ydz == you || ydz == xuu)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论水 + 三秋癸水;
-                }
-                if (ydz == hai || ydz == zii || ydz == chou)
-                {
-                     button54.Focus();button54_Click(this, new EventArgs());
-                    wenben = 1; buttongj.Text = "关闭文本";
-                    richTextBox1.Location = new Point(0, 40);
-                    richTextBox1.Height =969;  richTextBox1.Width = 1920;
-                    richTextBox1.Text = 论水 + 三冬癸水;
-                }
-
-            }
-
-        }
-
         private void buttonng_Click(object sender, EventArgs e)
         {
             if (buttonng.Text== "甲")
@@ -51565,7 +51410,7 @@ namespace BaZiFuZuGongJu
                 numericUpDownyear.Visible = false; numericUpDownmonth.Visible = false; numericUpDownday.Visible = false; 
                 button59.Visible = false; checkBox1.Visible = false; linkLabel28.Visible = false;numericUpDownhour.Visible = false;
           
-                buttonp.Visible = false; button9.Visible = false; buttonjin.Visible = false; buttonshui.Visible = false;
+                buttonp.Visible = false; buttonjin.Visible = false; buttonshui.Visible = false;
                 buttonmu.Visible = false; buttonhuo.Visible = false; buttontu.Visible = false;
                 dateTimePicker1.Visible = false; linkLabelndzss2.Visible = false; linkLabelydzss2.Visible = false; linkLabelrdzss2.Visible = false; linkLabelsdzss2.Visible = false;
                 linkLabel25.Visible = false; checkBoxln.Visible = false; radioButtonll.Visible = false; radioButtonvv.Visible = false;
@@ -51587,7 +51432,7 @@ namespace BaZiFuZuGongJu
             numericUpDownyear.Visible = true; numericUpDownmonth.Visible = true; numericUpDownday.Visible = true; 
             button59.Visible = true; checkBox1.Visible = true; linkLabel28.Visible = true;numericUpDownhour.Visible = true;
             linkLabelndzss2.Visible = true; linkLabelydzss2.Visible = true; linkLabelrdzss2.Visible = true; linkLabelsdzss2.Visible = true;
-            buttonp.Visible = true; button9.Visible = true; buttonjin.Visible = true; buttonshui.Visible = true;
+            buttonp.Visible = true; buttonjin.Visible = true; buttonshui.Visible = true;
             buttonmu.Visible = true; buttonhuo.Visible = true; buttontu.Visible = true;
             dateTimePicker1.Visible = true;
             linkLabel25.Visible = true; checkBoxln.Visible = true; radioButtonll.Visible = true; radioButtonvv.Visible = true;
