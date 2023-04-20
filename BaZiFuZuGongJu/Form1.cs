@@ -25090,6 +25090,787 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 学堂;
                         }
                     }
+                    //桃花煞
+                    if (jia == jia)
+                    {
+                        int 红艳煞真假 = 0;
+                        if (rtg == jia)
+                        {
+                            if (ndz == wuma)
+                            {
+                                linkLabelndzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (ydz == wuma)
+                            {
+                                linkLabelydzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (rdz == wuma)
+                            {
+                                linkLabelrdzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (sdz == wuma)
+                            {
+                                linkLabelsdzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+
+                        }
+                        if (rtg == yii)
+                        {
+                            if (ndz == shen)
+                            {
+                                linkLabelndzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (ydz == shen)
+                            {
+                                linkLabelydzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (rdz == shen)
+                            {
+                                linkLabelrdzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (sdz == shen)
+                            {
+                                linkLabelsdzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+
+                        }
+                        if (rtg == bing)
+                        {
+                            if (ndz == yin)
+                            {
+                                linkLabelndzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (ydz == yin)
+                            {
+                                linkLabelydzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (rdz == yin)
+                            {
+                                linkLabelrdzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (sdz == yin)
+                            {
+                                linkLabelsdzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+
+                        }
+                        if (rtg == ding)
+                        {
+                            if (ndz == wei)
+                            {
+                                linkLabelndzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (ydz == wei)
+                            {
+                                linkLabelydzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (rdz == wei)
+                            {
+                                linkLabelrdzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (sdz == wei)
+                            {
+                                linkLabelsdzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+
+                        }
+                        if (rtg == wuu)
+                        {
+                            if (ndz == chen)
+                            {
+                                linkLabelndzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (ydz == chen)
+                            {
+                                linkLabelydzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (rdz == chen)
+                            {
+                                linkLabelrdzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (sdz == chen)
+                            {
+                                linkLabelsdzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+
+                        }
+                        if (rtg == jii)
+                        {
+                            if (ndz == chen)
+                            {
+                                linkLabelndzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (ydz == chen)
+                            {
+                                linkLabelydzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (rdz == chen)
+                            {
+                                linkLabelrdzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (sdz == chen)
+                            {
+                                linkLabelsdzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+
+                        }
+                        if (rtg == geng)
+                        {
+                            if (ndz == xuu)
+                            {
+                                linkLabelndzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (ydz == xuu)
+                            {
+                                linkLabelydzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (rdz == xuu)
+                            {
+                                linkLabelrdzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (sdz == xuu)
+                            {
+                                linkLabelsdzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+
+                        }
+                        if (rtg == xin)
+                        {
+                            if (ndz == you)
+                            {
+                                linkLabelndzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (ydz == you)
+                            {
+                                linkLabelydzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (rdz == you)
+                            {
+                                linkLabelrdzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (sdz == you)
+                            {
+                                linkLabelsdzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+
+                        }
+                        if (rtg == ren)
+                        {
+                            if (ndz == zii)
+                            {
+                                linkLabelndzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (ydz == zii)
+                            {
+                                linkLabelydzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (rdz == zii)
+                            {
+                                linkLabelrdzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (sdz == zii)
+                            {
+                                linkLabelsdzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+
+                        }
+                        if (rtg == gui)
+                        {
+                            if (ndz == shen)
+                            {
+                                linkLabelndzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (ydz == shen)
+                            {
+                                linkLabelydzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (rdz == shen)
+                            {
+                                linkLabelrdzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+                            if (sdz == shen)
+                            {
+                                linkLabelsdzss2.Text += "桃花-"; 红艳煞真假 = 1;
+                            }
+
+                        }
+                        if (红艳煞真假 == 1)
+                        {
+                            命局神煞 += 红艳煞;
+                        }
+                    }
+                    //文昌星
+                    if (jia == jia)
+                    {
+                        int 文昌星真假 = 0;
+                        if (rtg == jia)
+                        {
+                            if (ndz == sii)
+                            {
+                                linkLabelndzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+                            if (ydz == sii)
+                            {
+                                linkLabelydzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+                            if (rdz == sii)
+                            {
+                                linkLabelrdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+                            if (sdz == sii)
+                            {
+                                linkLabelsdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+
+                        }
+                        if (rtg == yii)
+                        {
+                            if (ndz == wuma)
+                            {
+                                linkLabelndzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+                            if (ydz == wuma)
+                            {
+                                linkLabelydzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+                            if (rdz == wuma)
+                            {
+                                linkLabelrdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+                            if (sdz == wuma)
+                            {
+                                linkLabelsdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+
+                        }
+                        if (rtg == bing || rtg == wuu)
+                        {
+                            if (ndz == shen)
+                            {
+                                linkLabelndzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+                            if (ydz == shen)
+                            {
+                                linkLabelydzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+                            if (rdz == shen)
+                            {
+                                linkLabelrdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+                            if (sdz == shen)
+                            {
+                                linkLabelsdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+
+                        }
+                        if (rtg == ding || rtg == jii)
+                        {
+                            if (ndz == you)
+                            {
+                                linkLabelndzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+                            if (ydz == you)
+                            {
+                                linkLabelydzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+                            if (rdz == you)
+                            {
+                                linkLabelrdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+                            if (sdz == you)
+                            {
+                                linkLabelsdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+
+                        }
+                        if (rtg == geng)
+                        {
+                            if (ndz == hai)
+                            {
+                                linkLabelndzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+                            if (ydz == hai)
+                            {
+                                linkLabelydzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+                            if (rdz == hai)
+                            {
+                                linkLabelrdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+                            if (sdz == hai)
+                            {
+                                linkLabelsdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+
+                        }
+                        if (rtg == xin)
+                        {
+                            if (ndz == zii)
+                            {
+                                linkLabelndzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+                            if (ydz == zii)
+                            {
+                                linkLabelydzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+                            if (rdz == zii)
+                            {
+                                linkLabelrdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+                            if (sdz == zii)
+                            {
+                                linkLabelsdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+
+                        }
+                        if (rtg == ren)
+                        {
+                            if (ndz == yin)
+                            {
+                                linkLabelndzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+                            if (ydz == yin)
+                            {
+                                linkLabelydzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+                            if (rdz == yin)
+                            {
+                                linkLabelrdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+                            if (sdz == yin)
+                            {
+                                linkLabelsdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+
+                        }
+                        if (rtg == gui)
+                        {
+                            if (ndz == mao)
+                            {
+                                linkLabelndzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+                            if (ydz == mao)
+                            {
+                                linkLabelydzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+                            if (rdz == mao)
+                            {
+                                linkLabelrdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+                            if (sdz == mao)
+                            {
+                                linkLabelsdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                            }
+
+                        }
+
+                        if (文昌星真假 == 1)
+                        {
+                            命局神煞 += 文昌星;
+                        }
+                    }
+                    //驿马
+                    if (jia == jia)
+                    {
+                        int 驿马真假 = 0;
+                        if (ndz == yin || ndz == wuma || ndz == xuu || rdz == yin || rdz == wuma || rdz == xuu)
+                        {
+                            if (ntg == bing || ytg == bing || rtg == bing || stg == bing)
+                            {
+                                if (ndz == shen)
+                                {
+                                    linkLabelndzss2.Text += "天马-"; 驿马真假 = 1;
+                                }
+                                if (ydz == shen)
+                                {
+                                    linkLabelydzss2.Text += "天马-"; 驿马真假 = 1;
+                                }
+                                if (rdz == shen)
+                                {
+                                    linkLabelrdzss2.Text += "天马-"; 驿马真假 = 1;
+                                }
+                                if (sdz == shen)
+                                {
+                                    linkLabelsdzss2.Text += "天马-"; 驿马真假 = 1;
+                                }
+
+                            }
+
+                        }
+                        if (ntg != bing && ytg != bing && rtg != bing && stg != bing)
+                        {
+                            if (ndz == yin || ndz == wuma || ndz == xuu || rdz == yin || rdz == wuma || rdz == xuu)
+                            {
+                                if (ndz == shen)
+                                {
+                                    linkLabelndzss2.Text += "天马-"; 驿马真假 = 1;
+                                }
+                                if (ydz == shen)
+                                {
+                                    linkLabelydzss2.Text += "驿马-"; 驿马真假 = 1;
+                                }
+                                if (rdz == shen)
+                                {
+                                    linkLabelrdzss2.Text += "驿马-"; 驿马真假 = 1;
+                                }
+                                if (sdz == shen)
+                                {
+                                    linkLabelsdzss2.Text += "驿马-"; 驿马真假 = 1;
+                                }
+                            }
+                        }
+                        if (ndz == shen || ndz == zii || ndz == chen || rdz == shen || rdz == zii || rdz == chen)
+                        {
+                            if (ntg == ren || ytg == ren || rtg == ren || stg == ren)
+                            {
+                                if (ndz == yin)
+                                {
+                                    linkLabelndzss2.Text += "天马-"; 驿马真假 = 1;
+                                }
+                                if (ydz == yin)
+                                {
+                                    linkLabelydzss2.Text += "天马-"; 驿马真假 = 1;
+                                }
+                                if (rdz == yin)
+                                {
+                                    linkLabelrdzss2.Text += "天马-"; 驿马真假 = 1;
+                                }
+                                if (sdz == yin)
+                                {
+                                    linkLabelsdzss2.Text += "天马-"; 驿马真假 = 1;
+                                }
+
+                            }
+
+                        }
+                        if (ntg != ren && ytg != ren && rtg != ren && stg != ren)
+                        {
+                            if (ndz == shen || ndz == zii || ndz == chen || rdz == shen || rdz == zii || rdz == chen)
+                            {
+                                if (ndz == yin)
+                                {
+                                    linkLabelndzss2.Text += "驿马-"; 驿马真假 = 1;
+                                }
+                                if (ydz == yin)
+                                {
+                                    linkLabelydzss2.Text += "驿马-"; 驿马真假 = 1;
+                                }
+                                if (rdz == yin)
+                                {
+                                    linkLabelrdzss2.Text += "驿马-"; 驿马真假 = 1;
+                                }
+                                if (sdz == yin)
+                                {
+                                    linkLabelsdzss2.Text += "驿马-"; 驿马真假 = 1;
+                                }
+
+                            }
+
+                        }
+                        if (ndz == sii || ndz == you || ndz == chou || rdz == sii || rdz == you || rdz == chou)
+                        {
+                            if (ntg == xin || ytg == xin || rtg == xin || stg == xin)
+                            {
+                                if (ndz == hai)
+                                {
+                                    linkLabelndzss2.Text += "天马-"; 驿马真假 = 1;
+                                }
+                                if (ydz == hai)
+                                {
+                                    linkLabelydzss2.Text += "天马-"; 驿马真假 = 1;
+                                }
+                                if (rdz == hai)
+                                {
+                                    linkLabelrdzss2.Text += "天马-"; 驿马真假 = 1;
+                                }
+                                if (sdz == hai)
+                                {
+                                    linkLabelsdzss2.Text += "天马-"; 驿马真假 = 1;
+                                }
+
+                            }
+
+                        }
+                        if (ntg != xin && ytg != xin && rtg != xin && stg != xin)
+                        {
+                            if (ndz == sii || ndz == you || ndz == chou || rdz == sii || rdz == you || rdz == chou)
+                            {
+                                if (ndz == hai)
+                                {
+                                    linkLabelndzss2.Text += "驿马-"; 驿马真假 = 1;
+                                }
+                                if (ydz == hai)
+                                {
+                                    linkLabelydzss2.Text += "驿马-"; 驿马真假 = 1;
+                                }
+                                if (rdz == hai)
+                                {
+                                    linkLabelrdzss2.Text += "驿马-"; 驿马真假 = 1;
+                                }
+                                if (sdz == hai)
+                                {
+                                    linkLabelsdzss2.Text += "驿马-"; 驿马真假 = 1;
+                                }
+
+                            }
+
+                        }
+                        if (ndz == hai || ndz == mao || ndz == wei || rdz == hai || rdz == mao || rdz == wei)
+                        {
+                            if (ntg == yii || ytg == yii || rtg == yii || stg == yii)
+                            {
+                                if (ndz == sii)
+                                {
+                                    linkLabelndzss2.Text += "天马-"; 驿马真假 = 1;
+                                }
+                                if (ydz == sii)
+                                {
+                                    linkLabelydzss2.Text += "天马-"; 驿马真假 = 1;
+                                }
+                                if (rdz == sii)
+                                {
+                                    linkLabelrdzss2.Text += "天马-"; 驿马真假 = 1;
+                                }
+                                if (sdz == sii)
+                                {
+                                    linkLabelsdzss2.Text += "天马-"; 驿马真假 = 1;
+                                }
+
+                            }
+
+                        }
+                        if (ntg != yii && ytg != yii && rtg != yii && stg != yii)
+                        {
+                            if (ndz == hai || ndz == mao || ndz == wei || rdz == hai || rdz == mao || rdz == wei)
+                            {
+                                if (ndz == sii)
+                                {
+                                    linkLabelndzss2.Text += "驿马-"; 驿马真假 = 1;
+                                }
+                                if (ydz == sii)
+                                {
+                                    linkLabelydzss2.Text += "驿马-"; 驿马真假 = 1;
+                                }
+                                if (rdz == sii)
+                                {
+                                    linkLabelrdzss2.Text += "驿马-"; 驿马真假 = 1;
+                                }
+                                if (sdz == sii)
+                                {
+                                    linkLabelsdzss2.Text += "驿马-"; 驿马真假 = 1;
+                                }
+
+                            }
+
+                        }
+
+                        if (驿马真假 == 1)
+                        {
+                            命局神煞 += 驿马;
+                        }
+                    }
+                    //五鬼
+                    if (jia == jia)
+                    {
+                        int 五鬼真假 = 0;
+                        if (ydz == zii)
+                        {
+                            if (ndz == chen)
+                            {
+                                linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+                            if (rdz == chen)
+                            {
+                                linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+                            if (sdz == chen)
+                            {
+                                linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+
+                        }
+                        if (ydz == chou)
+                        {
+                            if (ndz == sii)
+                            {
+                                linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+                            if (rdz == sii)
+                            {
+                                linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+                            if (sdz == sii)
+                            {
+                                linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+
+                        }
+                        if (ydz == yin)
+                        {
+                            if (ndz == wuma)
+                            {
+                                linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+                            if (rdz == wuma)
+                            {
+                                linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+                            if (sdz == wuma)
+                            {
+                                linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+
+                        }
+                        if (ydz == mao)
+                        {
+                            if (ndz == wei)
+                            {
+                                linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+                            if (rdz == wei)
+                            {
+                                linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+                            if (sdz == wei)
+                            {
+                                linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+
+                        }
+                        if (ydz == chen)
+                        {
+                            if (ndz == shen)
+                            {
+                                linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+                            if (rdz == shen)
+                            {
+                                linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+                            if (sdz == shen)
+                            {
+                                linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+
+                        }
+                        if (ydz == sii)
+                        {
+                            if (ndz == you)
+                            {
+                                linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+                            if (rdz == you)
+                            {
+                                linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+                            if (sdz == you)
+                            {
+                                linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+
+                        }
+                        if (ydz == wuma)
+                        {
+                            if (ndz == xuu)
+                            {
+                                linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+                            if (rdz == xuu)
+                            {
+                                linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+                            if (sdz == xuu)
+                            {
+                                linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+
+                        }
+                        if (ydz == wei)
+                        {
+                            if (ndz == hai)
+                            {
+                                linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+                            if (rdz == hai)
+                            {
+                                linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+                            if (sdz == hai)
+                            {
+                                linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+
+                        }
+                        if (ydz == shen)
+                        {
+                            if (ndz == zii)
+                            {
+                                linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+                            if (rdz == zii)
+                            {
+                                linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+                            if (sdz == zii)
+                            {
+                                linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+
+                        }
+                        if (ydz == you)
+                        {
+                            if (ndz == chou)
+                            {
+                                linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+                            if (rdz == chou)
+                            {
+                                linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+                            if (sdz == chou)
+                            {
+                                linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+
+                        }
+                        if (ydz == xuu)
+                        {
+                            if (ndz == yin)
+                            {
+                                linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+                            if (rdz == yin)
+                            {
+                                linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+                            if (sdz == yin)
+                            {
+                                linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+
+                        }
+                        if (ydz == hai)
+                        {
+                            if (ndz == mao)
+                            {
+                                linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+                            if (rdz == mao)
+                            {
+                                linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+                            if (sdz == mao)
+                            {
+                                linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                            }
+
+                        }
+
+                        if (五鬼真假 == 1)
+                        {
+                            命局神煞 += 五鬼;
+                        }
+                    }
                     //词馆
                     if (jia == jia)
                     {
@@ -25682,215 +26463,6 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 十灵日;
                         }
                     }
-                    //桃花煞
-                    if (jia == jia)
-                    {
-                        int 红艳煞真假 = 0;
-                        if (rtg == jia)
-                        {
-                            if (ndz == wuma)
-                            {
-                                linkLabelndzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (ydz == wuma)
-                            {
-                                linkLabelydzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (rdz == wuma)
-                            {
-                                linkLabelrdzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (sdz == wuma)
-                            {
-                                linkLabelsdzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-
-                        }
-                        if (rtg == yii)
-                        {
-                            if (ndz == shen)
-                            {
-                                linkLabelndzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (ydz == shen)
-                            {
-                                linkLabelydzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (rdz == shen)
-                            {
-                                linkLabelrdzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (sdz == shen)
-                            {
-                                linkLabelsdzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-
-                        }
-                        if (rtg == bing)
-                        {
-                            if (ndz == yin)
-                            {
-                                linkLabelndzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (ydz == yin)
-                            {
-                                linkLabelydzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (rdz == yin)
-                            {
-                                linkLabelrdzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (sdz == yin)
-                            {
-                                linkLabelsdzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-
-                        }
-                        if (rtg == ding)
-                        {
-                            if (ndz == wei)
-                            {
-                                linkLabelndzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (ydz == wei)
-                            {
-                                linkLabelydzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (rdz == wei)
-                            {
-                                linkLabelrdzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (sdz == wei)
-                            {
-                                linkLabelsdzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-
-                        }
-                        if (rtg == wuu)
-                        {
-                            if (ndz == chen)
-                            {
-                                linkLabelndzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (ydz == chen)
-                            {
-                                linkLabelydzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (rdz == chen)
-                            {
-                                linkLabelrdzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (sdz == chen)
-                            {
-                                linkLabelsdzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-
-                        }
-                        if (rtg == jii)
-                        {
-                            if (ndz == chen)
-                            {
-                                linkLabelndzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (ydz == chen)
-                            {
-                                linkLabelydzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (rdz == chen)
-                            {
-                                linkLabelrdzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (sdz == chen)
-                            {
-                                linkLabelsdzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-
-                        }
-                        if (rtg == geng)
-                        {
-                            if (ndz == xuu)
-                            {
-                                linkLabelndzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (ydz == xuu)
-                            {
-                                linkLabelydzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (rdz == xuu)
-                            {
-                                linkLabelrdzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (sdz == xuu)
-                            {
-                                linkLabelsdzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-
-                        }
-                        if (rtg == xin)
-                        {
-                            if (ndz == you)
-                            {
-                                linkLabelndzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (ydz == you)
-                            {
-                                linkLabelydzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (rdz == you)
-                            {
-                                linkLabelrdzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (sdz == you)
-                            {
-                                linkLabelsdzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-
-                        }
-                        if (rtg == ren)
-                        {
-                            if (ndz == zii)
-                            {
-                                linkLabelndzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (ydz == zii)
-                            {
-                                linkLabelydzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (rdz == zii)
-                            {
-                                linkLabelrdzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (sdz == zii)
-                            {
-                                linkLabelsdzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-
-                        }
-                        if (rtg == gui)
-                        {
-                            if (ndz == shen)
-                            {
-                                linkLabelndzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (ydz == shen)
-                            {
-                                linkLabelydzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (rdz == shen)
-                            {
-                                linkLabelrdzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-                            if (sdz == shen)
-                            {
-                                linkLabelsdzss1.Text += "桃花-"; 红艳煞真假 = 1;
-                            }
-
-                        }
-                        if (红艳煞真假 == 1)
-                        {
-                            命局神煞 += 红艳煞;
-                        }
-                    }
                     //禄神
                     if (jia == jia)
                     {
@@ -26058,376 +26630,6 @@ namespace BaZiFuZuGongJu
                         if (禄神真假 == 1)
                         {
                             命局神煞 += 禄神;
-                        }
-                    }
-                    //文昌星
-                    if (jia == jia)
-                    {
-                        int 文昌星真假 = 0;
-                        if (rtg == jia)
-                        {
-                            if (ndz == sii)
-                            {
-                                linkLabelndzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-                            if (ydz == sii)
-                            {
-                                linkLabelydzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-                            if (rdz == sii)
-                            {
-                                linkLabelrdzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-                            if (sdz == sii)
-                            {
-                                linkLabelsdzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-
-                        }
-                        if (rtg == yii)
-                        {
-                            if (ndz == wuma)
-                            {
-                                linkLabelndzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-                            if (ydz == wuma)
-                            {
-                                linkLabelydzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-                            if (rdz == wuma)
-                            {
-                                linkLabelrdzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-                            if (sdz == wuma)
-                            {
-                                linkLabelsdzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-
-                        }
-                        if (rtg == bing || rtg == wuu)
-                        {
-                            if (ndz == shen)
-                            {
-                                linkLabelndzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-                            if (ydz == shen)
-                            {
-                                linkLabelydzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-                            if (rdz == shen)
-                            {
-                                linkLabelrdzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-                            if (sdz == shen)
-                            {
-                                linkLabelsdzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-
-                        }
-                        if (rtg == ding || rtg == jii)
-                        {
-                            if (ndz == you)
-                            {
-                                linkLabelndzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-                            if (ydz == you)
-                            {
-                                linkLabelydzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-                            if (rdz == you)
-                            {
-                                linkLabelrdzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-                            if (sdz == you)
-                            {
-                                linkLabelsdzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-
-                        }
-                        if (rtg == geng)
-                        {
-                            if (ndz == hai)
-                            {
-                                linkLabelndzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-                            if (ydz == hai)
-                            {
-                                linkLabelydzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-                            if (rdz == hai)
-                            {
-                                linkLabelrdzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-                            if (sdz == hai)
-                            {
-                                linkLabelsdzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-
-                        }
-                        if (rtg == xin)
-                        {
-                            if (ndz == zii)
-                            {
-                                linkLabelndzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-                            if (ydz == zii)
-                            {
-                                linkLabelydzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-                            if (rdz == zii)
-                            {
-                                linkLabelrdzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-                            if (sdz == zii)
-                            {
-                                linkLabelsdzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-
-                        }
-                        if (rtg == ren)
-                        {
-                            if (ndz == yin)
-                            {
-                                linkLabelndzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-                            if (ydz == yin)
-                            {
-                                linkLabelydzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-                            if (rdz == yin)
-                            {
-                                linkLabelrdzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-                            if (sdz == yin)
-                            {
-                                linkLabelsdzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-
-                        }
-                        if (rtg == gui)
-                        {
-                            if (ndz == mao)
-                            {
-                                linkLabelndzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-                            if (ydz == mao)
-                            {
-                                linkLabelydzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-                            if (rdz == mao)
-                            {
-                                linkLabelrdzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-                            if (sdz == mao)
-                            {
-                                linkLabelsdzss1.Text += "文昌-"; 文昌星真假 = 1;
-                            }
-
-                        }
-
-                        if (文昌星真假 == 1)
-                        {
-                            命局神煞 += 文昌星;
-                        }
-                    }
-                    //驿马
-                    if (jia == jia)
-                    {
-                        int 驿马真假 = 0;
-                        if (ndz == yin || ndz == wuma || ndz == xuu || rdz == yin || rdz == wuma || rdz == xuu)
-                        {
-                            if (ntg == bing || ytg == bing || rtg == bing || stg == bing)
-                            {
-                                if (ndz == shen)
-                                {
-                                    linkLabelndzss1.Text += "天马-"; 驿马真假 = 1;
-                                }
-                                if (ydz == shen)
-                                {
-                                    linkLabelydzss1.Text += "天马-"; 驿马真假 = 1;
-                                }
-                                if (rdz == shen)
-                                {
-                                    linkLabelrdzss1.Text += "天马-"; 驿马真假 = 1;
-                                }
-                                if (sdz == shen)
-                                {
-                                    linkLabelsdzss1.Text += "天马-"; 驿马真假 = 1;
-                                }
-
-                            }
-
-                        }
-                        if (ntg != bing && ytg != bing && rtg != bing && stg != bing)
-                        {
-                            if (ndz == yin || ndz == wuma || ndz == xuu || rdz == yin || rdz == wuma || rdz == xuu)
-                            {
-                                if (ndz == shen)
-                                {
-                                    linkLabelndzss1.Text += "天马-"; 驿马真假 = 1;
-                                }
-                                if (ydz == shen)
-                                {
-                                    linkLabelydzss1.Text += "驿马-"; 驿马真假 = 1;
-                                }
-                                if (rdz == shen)
-                                {
-                                    linkLabelrdzss1.Text += "驿马-"; 驿马真假 = 1;
-                                }
-                                if (sdz == shen)
-                                {
-                                    linkLabelsdzss1.Text += "驿马-"; 驿马真假 = 1;
-                                }
-                            }
-                        }
-                        if (ndz == shen || ndz == zii || ndz == chen || rdz == shen || rdz == zii || rdz == chen)
-                        {
-                            if (ntg == ren || ytg == ren || rtg == ren || stg == ren)
-                            {
-                                if (ndz == yin)
-                                {
-                                    linkLabelndzss1.Text += "天马-"; 驿马真假 = 1;
-                                }
-                                if (ydz == yin)
-                                {
-                                    linkLabelydzss1.Text += "天马-"; 驿马真假 = 1;
-                                }
-                                if (rdz == yin)
-                                {
-                                    linkLabelrdzss1.Text += "天马-"; 驿马真假 = 1;
-                                }
-                                if (sdz == yin)
-                                {
-                                    linkLabelsdzss1.Text += "天马-"; 驿马真假 = 1;
-                                }
-
-                            }
-
-                        }
-                        if (ntg != ren && ytg != ren && rtg != ren && stg != ren)
-                        {
-                            if (ndz == shen || ndz == zii || ndz == chen || rdz == shen || rdz == zii || rdz == chen)
-                            {
-                                if (ndz == yin)
-                                {
-                                    linkLabelndzss1.Text += "驿马-"; 驿马真假 = 1;
-                                }
-                                if (ydz == yin)
-                                {
-                                    linkLabelydzss1.Text += "驿马-"; 驿马真假 = 1;
-                                }
-                                if (rdz == yin)
-                                {
-                                    linkLabelrdzss1.Text += "驿马-"; 驿马真假 = 1;
-                                }
-                                if (sdz == yin)
-                                {
-                                    linkLabelsdzss1.Text += "驿马-"; 驿马真假 = 1;
-                                }
-
-                            }
-
-                        }
-                        if (ndz == sii || ndz == you || ndz == chou || rdz == sii || rdz == you || rdz == chou)
-                        {
-                            if (ntg == xin || ytg == xin || rtg == xin || stg == xin)
-                            {
-                                if (ndz == hai)
-                                {
-                                    linkLabelndzss1.Text += "天马-"; 驿马真假 = 1;
-                                }
-                                if (ydz == hai)
-                                {
-                                    linkLabelydzss1.Text += "天马-"; 驿马真假 = 1;
-                                }
-                                if (rdz == hai)
-                                {
-                                    linkLabelrdzss1.Text += "天马-"; 驿马真假 = 1;
-                                }
-                                if (sdz == hai)
-                                {
-                                    linkLabelsdzss1.Text += "天马-"; 驿马真假 = 1;
-                                }
-
-                            }
-
-                        }
-                        if (ntg != xin && ytg != xin && rtg != xin && stg != xin)
-                        {
-                            if (ndz == sii || ndz == you || ndz == chou || rdz == sii || rdz == you || rdz == chou)
-                            {
-                                if (ndz == hai)
-                                {
-                                    linkLabelndzss1.Text += "驿马-"; 驿马真假 = 1;
-                                }
-                                if (ydz == hai)
-                                {
-                                    linkLabelydzss1.Text += "驿马-"; 驿马真假 = 1;
-                                }
-                                if (rdz == hai)
-                                {
-                                    linkLabelrdzss1.Text += "驿马-"; 驿马真假 = 1;
-                                }
-                                if (sdz == hai)
-                                {
-                                    linkLabelsdzss1.Text += "驿马-"; 驿马真假 = 1;
-                                }
-
-                            }
-
-                        }
-                        if (ndz == hai || ndz == mao || ndz == wei || rdz == hai || rdz == mao || rdz == wei)
-                        {
-                            if (ntg == yii || ytg == yii || rtg == yii || stg == yii)
-                            {
-                                if (ndz == sii)
-                                {
-                                    linkLabelndzss1.Text += "天马-"; 驿马真假 = 1;
-                                }
-                                if (ydz == sii)
-                                {
-                                    linkLabelydzss1.Text += "天马-"; 驿马真假 = 1;
-                                }
-                                if (rdz == sii)
-                                {
-                                    linkLabelrdzss1.Text += "天马-"; 驿马真假 = 1;
-                                }
-                                if (sdz == sii)
-                                {
-                                    linkLabelsdzss1.Text += "天马-"; 驿马真假 = 1;
-                                }
-
-                            }
-
-                        }
-                        if (ntg != yii && ytg != yii && rtg != yii && stg != yii)
-                        {
-                            if (ndz == hai || ndz == mao || ndz == wei || rdz == hai || rdz == mao || rdz == wei)
-                            {
-                                if (ndz == sii)
-                                {
-                                    linkLabelndzss1.Text += "驿马-"; 驿马真假 = 1;
-                                }
-                                if (ydz == sii)
-                                {
-                                    linkLabelydzss1.Text += "驿马-"; 驿马真假 = 1;
-                                }
-                                if (rdz == sii)
-                                {
-                                    linkLabelrdzss1.Text += "驿马-"; 驿马真假 = 1;
-                                }
-                                if (sdz == sii)
-                                {
-                                    linkLabelsdzss1.Text += "驿马-"; 驿马真假 = 1;
-                                }
-
-                            }
-
-                        }
-
-                        if (驿马真假 == 1)
-                        {
-                            命局神煞 += 驿马;
                         }
                     }
                     //劫煞
@@ -28137,208 +28339,6 @@ namespace BaZiFuZuGongJu
                         if (月德贵人真假 == 1)
                         {
                             命局神煞 += 月德贵人;
-                        }
-                    }
-                    //五鬼
-                    if (jia == jia)
-                    {
-                        int 五鬼真假 = 0;
-                        if (ydz == zii)
-                        {
-                            if (ndz == chen)
-                            {
-                                linkLabelndzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-                            if (rdz == chen)
-                            {
-                                linkLabelrdzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-                            if (sdz == chen)
-                            {
-                                linkLabelsdzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-
-                        }
-                        if (ydz == chou)
-                        {
-                            if (ndz == sii)
-                            {
-                                linkLabelndzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-                            if (rdz == sii)
-                            {
-                                linkLabelrdzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-                            if (sdz == sii)
-                            {
-                                linkLabelsdzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-
-                        }
-                        if (ydz == yin)
-                        {
-                            if (ndz == wuma)
-                            {
-                                linkLabelndzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-                            if (rdz == wuma)
-                            {
-                                linkLabelrdzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-                            if (sdz == wuma)
-                            {
-                                linkLabelsdzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-
-                        }
-                        if (ydz == mao)
-                        {
-                            if (ndz == wei)
-                            {
-                                linkLabelndzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-                            if (rdz == wei)
-                            {
-                                linkLabelrdzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-                            if (sdz == wei)
-                            {
-                                linkLabelsdzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-
-                        }
-                        if (ydz == chen)
-                        {
-                            if (ndz == shen)
-                            {
-                                linkLabelndzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-                            if (rdz == shen)
-                            {
-                                linkLabelrdzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-                            if (sdz == shen)
-                            {
-                                linkLabelsdzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-
-                        }
-                        if (ydz == sii)
-                        {
-                            if (ndz == you)
-                            {
-                                linkLabelndzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-                            if (rdz == you)
-                            {
-                                linkLabelrdzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-                            if (sdz == you)
-                            {
-                                linkLabelsdzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-
-                        }
-                        if (ydz == wuma)
-                        {
-                            if (ndz == xuu)
-                            {
-                                linkLabelndzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-                            if (rdz == xuu)
-                            {
-                                linkLabelrdzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-                            if (sdz == xuu)
-                            {
-                                linkLabelsdzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-
-                        }
-                        if (ydz == wei)
-                        {
-                            if (ndz == hai)
-                            {
-                                linkLabelndzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-                            if (rdz == hai)
-                            {
-                                linkLabelrdzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-                            if (sdz == hai)
-                            {
-                                linkLabelsdzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-
-                        }
-                        if (ydz == shen)
-                        {
-                            if (ndz == zii)
-                            {
-                                linkLabelndzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-                            if (rdz == zii)
-                            {
-                                linkLabelrdzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-                            if (sdz == zii)
-                            {
-                                linkLabelsdzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-
-                        }
-                        if (ydz == you)
-                        {
-                            if (ndz == chou)
-                            {
-                                linkLabelndzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-                            if (rdz == chou)
-                            {
-                                linkLabelrdzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-                            if (sdz == chou)
-                            {
-                                linkLabelsdzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-
-                        }
-                        if (ydz == xuu)
-                        {
-                            if (ndz == yin)
-                            {
-                                linkLabelndzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-                            if (rdz == yin)
-                            {
-                                linkLabelrdzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-                            if (sdz == yin)
-                            {
-                                linkLabelsdzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-
-                        }
-                        if (ydz == hai)
-                        {
-                            if (ndz == mao)
-                            {
-                                linkLabelndzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-                            if (rdz == mao)
-                            {
-                                linkLabelrdzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-                            if (sdz == mao)
-                            {
-                                linkLabelsdzss1.Text += "五鬼-"; 五鬼真假 = 1;
-                            }
-
-                        }
-
-                        if (五鬼真假 == 1)
-                        {
-                            命局神煞 += 五鬼;
                         }
                     }
                     //大耗
