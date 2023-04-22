@@ -171,10 +171,6 @@
             this.button62 = new System.Windows.Forms.Button();
             this.button63 = new System.Windows.Forms.Button();
             this.button65 = new System.Windows.Forms.Button();
-            this.button38 = new System.Windows.Forms.Button();
-            this.button40 = new System.Windows.Forms.Button();
-            this.button46 = new System.Windows.Forms.Button();
-            this.button51 = new System.Windows.Forms.Button();
             this.button54 = new System.Windows.Forms.Button();
             this.linkLabelxy = new System.Windows.Forms.LinkLabel();
             this.linkLabeljy = new System.Windows.Forms.LinkLabel();
@@ -374,7 +370,7 @@
             this.radioButtonvv.Checked = true;
             this.radioButtonvv.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButtonvv.ForeColor = System.Drawing.Color.Fuchsia;
-            this.radioButtonvv.Location = new System.Drawing.Point(1180, 3);
+            this.radioButtonvv.Location = new System.Drawing.Point(1239, 2);
             this.radioButtonvv.Name = "radioButtonvv";
             this.radioButtonvv.Size = new System.Drawing.Size(56, 35);
             this.radioButtonvv.TabIndex = 20;
@@ -388,7 +384,7 @@
             this.radioButtonll.BackColor = System.Drawing.Color.White;
             this.radioButtonll.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButtonll.ForeColor = System.Drawing.Color.Sienna;
-            this.radioButtonll.Location = new System.Drawing.Point(1118, 3);
+            this.radioButtonll.Location = new System.Drawing.Point(1177, 2);
             this.radioButtonll.Name = "radioButtonll";
             this.radioButtonll.Size = new System.Drawing.Size(56, 35);
             this.radioButtonll.TabIndex = 21;
@@ -400,9 +396,9 @@
             this.dateTimePicker1.CustomFormat = "yyyy-MM-dd-HH";
             this.dateTimePicker1.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(1453, 3);
+            this.dateTimePicker1.Location = new System.Drawing.Point(1557, 931);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(20, 34);
+            this.dateTimePicker1.Size = new System.Drawing.Size(0, 34);
             this.dateTimePicker1.TabIndex = 22;
             this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
@@ -1629,12 +1625,13 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("微软雅黑", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(1753, -4);
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(1785, 4);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(156, 42);
+            this.label1.Size = new System.Drawing.Size(118, 31);
             this.label1.TabIndex = 130;
             this.label1.Text = "99:99:99";
             // 
@@ -1897,50 +1894,6 @@
             this.button65.Text = "正大";
             this.button65.UseVisualStyleBackColor = true;
             // 
-            // button38
-            // 
-            this.button38.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button38.Location = new System.Drawing.Point(1704, 899);
-            this.button38.Name = "button38";
-            this.button38.Size = new System.Drawing.Size(29, 22);
-            this.button38.TabIndex = 182;
-            this.button38.Text = "下";
-            this.button38.UseVisualStyleBackColor = true;
-            this.button38.Click += new System.EventHandler(this.button38_Click);
-            // 
-            // button40
-            // 
-            this.button40.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button40.Location = new System.Drawing.Point(1757, 898);
-            this.button40.Name = "button40";
-            this.button40.Size = new System.Drawing.Size(29, 22);
-            this.button40.TabIndex = 184;
-            this.button40.Text = "下";
-            this.button40.UseVisualStyleBackColor = true;
-            this.button40.Click += new System.EventHandler(this.button40_Click);
-            // 
-            // button46
-            // 
-            this.button46.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button46.Location = new System.Drawing.Point(1863, 898);
-            this.button46.Name = "button46";
-            this.button46.Size = new System.Drawing.Size(29, 22);
-            this.button46.TabIndex = 188;
-            this.button46.Text = "下";
-            this.button46.UseVisualStyleBackColor = true;
-            this.button46.Click += new System.EventHandler(this.button46_Click);
-            // 
-            // button51
-            // 
-            this.button51.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button51.Location = new System.Drawing.Point(1810, 898);
-            this.button51.Name = "button51";
-            this.button51.Size = new System.Drawing.Size(29, 22);
-            this.button51.TabIndex = 186;
-            this.button51.Text = "下";
-            this.button51.UseVisualStyleBackColor = true;
-            this.button51.Click += new System.EventHandler(this.button51_Click);
-            // 
             // button54
             // 
             this.button54.Location = new System.Drawing.Point(1629, 931);
@@ -2005,7 +1958,7 @@
             // button59
             // 
             this.button59.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button59.Location = new System.Drawing.Point(1329, 1);
+            this.button59.Location = new System.Drawing.Point(1388, 0);
             this.button59.Name = "button59";
             this.button59.Size = new System.Drawing.Size(118, 38);
             this.button59.TabIndex = 196;
@@ -2019,17 +1972,18 @@
             this.checkBox1.BackColor = System.Drawing.Color.Sienna;
             this.checkBox1.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.checkBox1.ForeColor = System.Drawing.Color.White;
-            this.checkBox1.Location = new System.Drawing.Point(1242, 3);
+            this.checkBox1.Location = new System.Drawing.Point(1301, 2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(81, 35);
             this.checkBox1.TabIndex = 197;
             this.checkBox1.Text = "农历";
             this.checkBox1.UseVisualStyleBackColor = false;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // numericUpDownyear
             // 
-            this.numericUpDownyear.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.numericUpDownyear.Location = new System.Drawing.Point(1479, 1);
+            this.numericUpDownyear.Font = new System.Drawing.Font("微软雅黑", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.numericUpDownyear.Location = new System.Drawing.Point(1512, 2);
             this.numericUpDownyear.Maximum = new decimal(new int[] {
             9999,
             0,
@@ -2041,18 +1995,19 @@
             0,
             0});
             this.numericUpDownyear.Name = "numericUpDownyear";
-            this.numericUpDownyear.Size = new System.Drawing.Size(81, 39);
+            this.numericUpDownyear.Size = new System.Drawing.Size(81, 35);
             this.numericUpDownyear.TabIndex = 198;
             this.numericUpDownyear.Value = new decimal(new int[] {
             1,
             0,
             0,
             0});
+            this.numericUpDownyear.Click += new System.EventHandler(this.button59_Click);
             // 
             // numericUpDownmonth
             // 
-            this.numericUpDownmonth.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.numericUpDownmonth.Location = new System.Drawing.Point(1566, 1);
+            this.numericUpDownmonth.Font = new System.Drawing.Font("微软雅黑", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.numericUpDownmonth.Location = new System.Drawing.Point(1599, 2);
             this.numericUpDownmonth.Maximum = new decimal(new int[] {
             12,
             0,
@@ -2064,18 +2019,20 @@
             0,
             0});
             this.numericUpDownmonth.Name = "numericUpDownmonth";
-            this.numericUpDownmonth.Size = new System.Drawing.Size(57, 39);
+            this.numericUpDownmonth.Size = new System.Drawing.Size(57, 35);
             this.numericUpDownmonth.TabIndex = 199;
             this.numericUpDownmonth.Value = new decimal(new int[] {
             1,
             0,
             0,
             0});
+            this.numericUpDownmonth.ValueChanged += new System.EventHandler(this.numericUpDownmonth_ValueChanged);
+            this.numericUpDownmonth.Click += new System.EventHandler(this.button59_Click);
             // 
             // numericUpDownday
             // 
-            this.numericUpDownday.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.numericUpDownday.Location = new System.Drawing.Point(1629, 1);
+            this.numericUpDownday.Font = new System.Drawing.Font("微软雅黑", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.numericUpDownday.Location = new System.Drawing.Point(1662, 2);
             this.numericUpDownday.Maximum = new decimal(new int[] {
             31,
             0,
@@ -2087,26 +2044,29 @@
             0,
             0});
             this.numericUpDownday.Name = "numericUpDownday";
-            this.numericUpDownday.Size = new System.Drawing.Size(57, 39);
+            this.numericUpDownday.Size = new System.Drawing.Size(57, 35);
             this.numericUpDownday.TabIndex = 200;
             this.numericUpDownday.Value = new decimal(new int[] {
             1,
             0,
             0,
             0});
+            this.numericUpDownday.ValueChanged += new System.EventHandler(this.numericUpDownday_ValueChanged);
+            this.numericUpDownday.Click += new System.EventHandler(this.button59_Click);
             // 
             // numericUpDownhour
             // 
-            this.numericUpDownhour.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.numericUpDownhour.Location = new System.Drawing.Point(1692, 1);
+            this.numericUpDownhour.Font = new System.Drawing.Font("微软雅黑", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.numericUpDownhour.Location = new System.Drawing.Point(1725, 2);
             this.numericUpDownhour.Maximum = new decimal(new int[] {
             23,
             0,
             0,
             0});
             this.numericUpDownhour.Name = "numericUpDownhour";
-            this.numericUpDownhour.Size = new System.Drawing.Size(57, 39);
+            this.numericUpDownhour.Size = new System.Drawing.Size(57, 35);
             this.numericUpDownhour.TabIndex = 201;
+            this.numericUpDownhour.Click += new System.EventHandler(this.button59_Click);
             // 
             // linkLabel21
             // 
@@ -2124,12 +2084,12 @@
             // linkLabel28
             // 
             this.linkLabel28.AutoSize = true;
-            this.linkLabel28.BackColor = System.Drawing.Color.DimGray;
-            this.linkLabel28.Font = new System.Drawing.Font("微软雅黑", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel28.LinkColor = System.Drawing.Color.White;
-            this.linkLabel28.Location = new System.Drawing.Point(1335, 38);
+            this.linkLabel28.BackColor = System.Drawing.Color.White;
+            this.linkLabel28.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.linkLabel28.LinkColor = System.Drawing.Color.Black;
+            this.linkLabel28.Location = new System.Drawing.Point(1480, 38);
             this.linkLabel28.Name = "linkLabel28";
-            this.linkLabel28.Size = new System.Drawing.Size(75, 39);
+            this.linkLabel28.Size = new System.Drawing.Size(62, 31);
             this.linkLabel28.TabIndex = 202;
             this.linkLabel28.TabStop = true;
             this.linkLabel28.Text = "日期";
@@ -2140,7 +2100,7 @@
             this.checkBoxln.BackColor = System.Drawing.Color.White;
             this.checkBoxln.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.checkBoxln.ForeColor = System.Drawing.Color.Black;
-            this.checkBoxln.Location = new System.Drawing.Point(1007, 3);
+            this.checkBoxln.Location = new System.Drawing.Point(1066, 2);
             this.checkBoxln.Name = "checkBoxln";
             this.checkBoxln.Size = new System.Drawing.Size(105, 35);
             this.checkBoxln.TabIndex = 203;
@@ -2222,10 +2182,6 @@
             this.Controls.Add(this.linkLabeljy);
             this.Controls.Add(this.linkLabelxy);
             this.Controls.Add(this.button54);
-            this.Controls.Add(this.button46);
-            this.Controls.Add(this.button51);
-            this.Controls.Add(this.button40);
-            this.Controls.Add(this.button38);
             this.Controls.Add(this.button52);
             this.Controls.Add(this.button55);
             this.Controls.Add(this.button57);
@@ -2366,11 +2322,11 @@
             this.Controls.Add(this.buttonsz);
             this.Controls.Add(this.buttonyz);
             this.Controls.Add(this.buttonnz);
-            this.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "八字辅助工具v15.6-杜净隆 作品";
+            this.Text = "八字辅助工具v15.9-杜净隆 作品";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownyear)).EndInit();
@@ -2525,10 +2481,6 @@
         private Button button62;
         private Button button63;
         private Button button65;
-        private Button button38;
-        private Button button40;
-        private Button button46;
-        private Button button51;
         private Button button54;
         private LinkLabel linkLabelxy;
         private LinkLabel linkLabeljy;
