@@ -709,9 +709,9 @@
             // linkLabelntgss
             // 
             this.linkLabelntgss.AutoSize = true;
-            this.linkLabelntgss.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelntgss.BackColor = System.Drawing.Color.White;
             this.linkLabelntgss.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabelntgss.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelntgss.LinkColor = System.Drawing.Color.Sienna;
             this.linkLabelntgss.Location = new System.Drawing.Point(1, 281);
             this.linkLabelntgss.Name = "linkLabelntgss";
             this.linkLabelntgss.Size = new System.Drawing.Size(62, 31);
@@ -722,9 +722,9 @@
             // linkLabel4
             // 
             this.linkLabel4.AutoSize = true;
-            this.linkLabel4.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabel4.BackColor = System.Drawing.Color.White;
             this.linkLabel4.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel4.LinkColor = System.Drawing.Color.PeachPuff;
+            this.linkLabel4.LinkColor = System.Drawing.Color.BlueViolet;
             this.linkLabel4.Location = new System.Drawing.Point(1, 374);
             this.linkLabel4.Name = "linkLabel4";
             this.linkLabel4.Size = new System.Drawing.Size(62, 31);
@@ -761,10 +761,10 @@
             // linkLabencs
             // 
             this.linkLabencs.AutoSize = true;
-            this.linkLabencs.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabencs.BackColor = System.Drawing.Color.White;
             this.linkLabencs.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabencs.ForeColor = System.Drawing.Color.White;
-            this.linkLabencs.LinkColor = System.Drawing.Color.MistyRose;
+            this.linkLabencs.ForeColor = System.Drawing.Color.Black;
+            this.linkLabencs.LinkColor = System.Drawing.Color.Red;
             this.linkLabencs.Location = new System.Drawing.Point(1, 188);
             this.linkLabencs.Name = "linkLabencs";
             this.linkLabencs.Size = new System.Drawing.Size(62, 31);
@@ -776,9 +776,9 @@
             // linkLabel8
             // 
             this.linkLabel8.AutoSize = true;
-            this.linkLabel8.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabel8.BackColor = System.Drawing.Color.White;
             this.linkLabel8.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel8.LinkColor = System.Drawing.Color.PeachPuff;
+            this.linkLabel8.LinkColor = System.Drawing.Color.BlueViolet;
             this.linkLabel8.Location = new System.Drawing.Point(483, 374);
             this.linkLabel8.Name = "linkLabel8";
             this.linkLabel8.Size = new System.Drawing.Size(62, 31);
@@ -815,9 +815,9 @@
             // linkLabelytgss
             // 
             this.linkLabelytgss.AutoSize = true;
-            this.linkLabelytgss.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelytgss.BackColor = System.Drawing.Color.White;
             this.linkLabelytgss.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabelytgss.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelytgss.LinkColor = System.Drawing.Color.Sienna;
             this.linkLabelytgss.Location = new System.Drawing.Point(483, 281);
             this.linkLabelytgss.Name = "linkLabelytgss";
             this.linkLabelytgss.Size = new System.Drawing.Size(62, 31);
@@ -854,10 +854,10 @@
             // linkLabelycs
             // 
             this.linkLabelycs.AutoSize = true;
-            this.linkLabelycs.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelycs.BackColor = System.Drawing.Color.White;
             this.linkLabelycs.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabelycs.ForeColor = System.Drawing.Color.White;
-            this.linkLabelycs.LinkColor = System.Drawing.Color.Aquamarine;
+            this.linkLabelycs.ForeColor = System.Drawing.Color.Black;
+            this.linkLabelycs.LinkColor = System.Drawing.Color.Red;
             this.linkLabelycs.Location = new System.Drawing.Point(483, 188);
             this.linkLabelycs.Name = "linkLabelycs";
             this.linkLabelycs.Size = new System.Drawing.Size(62, 31);
@@ -895,9 +895,9 @@
             // linkLabelrtgss
             // 
             this.linkLabelrtgss.AutoSize = true;
-            this.linkLabelrtgss.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelrtgss.BackColor = System.Drawing.Color.White;
             this.linkLabelrtgss.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabelrtgss.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelrtgss.LinkColor = System.Drawing.Color.Sienna;
             this.linkLabelrtgss.Location = new System.Drawing.Point(964, 281);
             this.linkLabelrtgss.Name = "linkLabelrtgss";
             this.linkLabelrtgss.Size = new System.Drawing.Size(62, 31);
@@ -921,10 +921,10 @@
             // linkLabelrcs
             // 
             this.linkLabelrcs.AutoSize = true;
-            this.linkLabelrcs.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelrcs.BackColor = System.Drawing.Color.White;
             this.linkLabelrcs.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabelrcs.ForeColor = System.Drawing.Color.White;
-            this.linkLabelrcs.LinkColor = System.Drawing.Color.White;
+            this.linkLabelrcs.ForeColor = System.Drawing.Color.Black;
+            this.linkLabelrcs.LinkColor = System.Drawing.Color.Red;
             this.linkLabelrcs.Location = new System.Drawing.Point(964, 188);
             this.linkLabelrcs.Name = "linkLabelrcs";
             this.linkLabelrcs.Size = new System.Drawing.Size(62, 31);
@@ -936,9 +936,9 @@
             // linkLabel22
             // 
             this.linkLabel22.AutoSize = true;
-            this.linkLabel22.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabel22.BackColor = System.Drawing.Color.White;
             this.linkLabel22.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel22.LinkColor = System.Drawing.Color.PeachPuff;
+            this.linkLabel22.LinkColor = System.Drawing.Color.BlueViolet;
             this.linkLabel22.Location = new System.Drawing.Point(1447, 374);
             this.linkLabel22.Name = "linkLabel22";
             this.linkLabel22.Size = new System.Drawing.Size(62, 31);
@@ -978,9 +978,9 @@
             // linkLabelstgss
             // 
             this.linkLabelstgss.AutoSize = true;
-            this.linkLabelstgss.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelstgss.BackColor = System.Drawing.Color.White;
             this.linkLabelstgss.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabelstgss.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelstgss.LinkColor = System.Drawing.Color.Sienna;
             this.linkLabelstgss.Location = new System.Drawing.Point(1447, 281);
             this.linkLabelstgss.Name = "linkLabelstgss";
             this.linkLabelstgss.Size = new System.Drawing.Size(62, 31);
@@ -1020,10 +1020,10 @@
             // linkLabelscs
             // 
             this.linkLabelscs.AutoSize = true;
-            this.linkLabelscs.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelscs.BackColor = System.Drawing.Color.White;
             this.linkLabelscs.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabelscs.ForeColor = System.Drawing.Color.White;
-            this.linkLabelscs.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelscs.ForeColor = System.Drawing.Color.Black;
+            this.linkLabelscs.LinkColor = System.Drawing.Color.Red;
             this.linkLabelscs.Location = new System.Drawing.Point(1447, 188);
             this.linkLabelscs.Name = "linkLabelscs";
             this.linkLabelscs.Size = new System.Drawing.Size(62, 31);
@@ -1035,9 +1035,9 @@
             // linkLabel29
             // 
             this.linkLabel29.AutoSize = true;
-            this.linkLabel29.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabel29.BackColor = System.Drawing.Color.White;
             this.linkLabel29.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel29.LinkColor = System.Drawing.Color.PeachPuff;
+            this.linkLabel29.LinkColor = System.Drawing.Color.BlueViolet;
             this.linkLabel29.Location = new System.Drawing.Point(-3, 677);
             this.linkLabel29.Name = "linkLabel29";
             this.linkLabel29.Size = new System.Drawing.Size(62, 31);
@@ -1048,9 +1048,9 @@
             // linkLabel30
             // 
             this.linkLabel30.AutoSize = true;
-            this.linkLabel30.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabel30.BackColor = System.Drawing.Color.White;
             this.linkLabel30.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel30.LinkColor = System.Drawing.Color.PeachPuff;
+            this.linkLabel30.LinkColor = System.Drawing.Color.BlueViolet;
             this.linkLabel30.Location = new System.Drawing.Point(-3, 708);
             this.linkLabel30.Name = "linkLabel30";
             this.linkLabel30.Size = new System.Drawing.Size(62, 31);
@@ -1061,9 +1061,9 @@
             // linkLabel31
             // 
             this.linkLabel31.AutoSize = true;
-            this.linkLabel31.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabel31.BackColor = System.Drawing.Color.White;
             this.linkLabel31.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel31.LinkColor = System.Drawing.Color.PeachPuff;
+            this.linkLabel31.LinkColor = System.Drawing.Color.BlueViolet;
             this.linkLabel31.Location = new System.Drawing.Point(-3, 645);
             this.linkLabel31.Name = "linkLabel31";
             this.linkLabel31.Size = new System.Drawing.Size(62, 31);
@@ -1100,9 +1100,9 @@
             // linkLabelndzss1
             // 
             this.linkLabelndzss1.AutoSize = true;
-            this.linkLabelndzss1.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelndzss1.BackColor = System.Drawing.Color.White;
             this.linkLabelndzss1.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabelndzss1.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelndzss1.LinkColor = System.Drawing.Color.Sienna;
             this.linkLabelndzss1.Location = new System.Drawing.Point(-3, 801);
             this.linkLabelndzss1.Name = "linkLabelndzss1";
             this.linkLabelndzss1.Size = new System.Drawing.Size(62, 31);
@@ -1165,9 +1165,9 @@
             // linkLabelydzss1
             // 
             this.linkLabelydzss1.AutoSize = true;
-            this.linkLabelydzss1.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelydzss1.BackColor = System.Drawing.Color.White;
             this.linkLabelydzss1.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabelydzss1.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelydzss1.LinkColor = System.Drawing.Color.Sienna;
             this.linkLabelydzss1.Location = new System.Drawing.Point(480, 801);
             this.linkLabelydzss1.Name = "linkLabelydzss1";
             this.linkLabelydzss1.Size = new System.Drawing.Size(62, 31);
@@ -1204,9 +1204,9 @@
             // linkLabel42
             // 
             this.linkLabel42.AutoSize = true;
-            this.linkLabel42.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabel42.BackColor = System.Drawing.Color.White;
             this.linkLabel42.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel42.LinkColor = System.Drawing.Color.PeachPuff;
+            this.linkLabel42.LinkColor = System.Drawing.Color.BlueViolet;
             this.linkLabel42.Location = new System.Drawing.Point(480, 708);
             this.linkLabel42.Name = "linkLabel42";
             this.linkLabel42.Size = new System.Drawing.Size(62, 31);
@@ -1217,9 +1217,9 @@
             // linkLabel43
             // 
             this.linkLabel43.AutoSize = true;
-            this.linkLabel43.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabel43.BackColor = System.Drawing.Color.White;
             this.linkLabel43.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel43.LinkColor = System.Drawing.Color.PeachPuff;
+            this.linkLabel43.LinkColor = System.Drawing.Color.BlueViolet;
             this.linkLabel43.Location = new System.Drawing.Point(480, 677);
             this.linkLabel43.Name = "linkLabel43";
             this.linkLabel43.Size = new System.Drawing.Size(62, 31);
@@ -1230,9 +1230,9 @@
             // linkLabel44
             // 
             this.linkLabel44.AutoSize = true;
-            this.linkLabel44.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabel44.BackColor = System.Drawing.Color.White;
             this.linkLabel44.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel44.LinkColor = System.Drawing.Color.PeachPuff;
+            this.linkLabel44.LinkColor = System.Drawing.Color.BlueViolet;
             this.linkLabel44.Location = new System.Drawing.Point(480, 645);
             this.linkLabel44.Name = "linkLabel44";
             this.linkLabel44.Size = new System.Drawing.Size(62, 31);
@@ -1269,9 +1269,9 @@
             // linkLabelrdzss1
             // 
             this.linkLabelrdzss1.AutoSize = true;
-            this.linkLabelrdzss1.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelrdzss1.BackColor = System.Drawing.Color.White;
             this.linkLabelrdzss1.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabelrdzss1.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelrdzss1.LinkColor = System.Drawing.Color.Sienna;
             this.linkLabelrdzss1.Location = new System.Drawing.Point(959, 801);
             this.linkLabelrdzss1.Name = "linkLabelrdzss1";
             this.linkLabelrdzss1.Size = new System.Drawing.Size(62, 31);
@@ -1308,9 +1308,9 @@
             // linkLabel50
             // 
             this.linkLabel50.AutoSize = true;
-            this.linkLabel50.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabel50.BackColor = System.Drawing.Color.White;
             this.linkLabel50.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel50.LinkColor = System.Drawing.Color.PeachPuff;
+            this.linkLabel50.LinkColor = System.Drawing.Color.BlueViolet;
             this.linkLabel50.Location = new System.Drawing.Point(959, 708);
             this.linkLabel50.Name = "linkLabel50";
             this.linkLabel50.Size = new System.Drawing.Size(62, 31);
@@ -1321,9 +1321,9 @@
             // linkLabel51
             // 
             this.linkLabel51.AutoSize = true;
-            this.linkLabel51.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabel51.BackColor = System.Drawing.Color.White;
             this.linkLabel51.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel51.LinkColor = System.Drawing.Color.PeachPuff;
+            this.linkLabel51.LinkColor = System.Drawing.Color.BlueViolet;
             this.linkLabel51.Location = new System.Drawing.Point(959, 677);
             this.linkLabel51.Name = "linkLabel51";
             this.linkLabel51.Size = new System.Drawing.Size(62, 31);
@@ -1334,9 +1334,9 @@
             // linkLabel52
             // 
             this.linkLabel52.AutoSize = true;
-            this.linkLabel52.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabel52.BackColor = System.Drawing.Color.White;
             this.linkLabel52.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel52.LinkColor = System.Drawing.Color.PeachPuff;
+            this.linkLabel52.LinkColor = System.Drawing.Color.BlueViolet;
             this.linkLabel52.Location = new System.Drawing.Point(959, 645);
             this.linkLabel52.Name = "linkLabel52";
             this.linkLabel52.Size = new System.Drawing.Size(62, 31);
@@ -1347,9 +1347,9 @@
             // linkLabel53
             // 
             this.linkLabel53.AutoSize = true;
-            this.linkLabel53.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabel53.BackColor = System.Drawing.Color.White;
             this.linkLabel53.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel53.LinkColor = System.Drawing.Color.PeachPuff;
+            this.linkLabel53.LinkColor = System.Drawing.Color.BlueViolet;
             this.linkLabel53.Location = new System.Drawing.Point(1442, 677);
             this.linkLabel53.Name = "linkLabel53";
             this.linkLabel53.Size = new System.Drawing.Size(62, 31);
@@ -1360,9 +1360,9 @@
             // linkLabel54
             // 
             this.linkLabel54.AutoSize = true;
-            this.linkLabel54.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabel54.BackColor = System.Drawing.Color.White;
             this.linkLabel54.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel54.LinkColor = System.Drawing.Color.PeachPuff;
+            this.linkLabel54.LinkColor = System.Drawing.Color.BlueViolet;
             this.linkLabel54.Location = new System.Drawing.Point(1442, 708);
             this.linkLabel54.Name = "linkLabel54";
             this.linkLabel54.Size = new System.Drawing.Size(62, 31);
@@ -1399,9 +1399,9 @@
             // linkLabelsdzss1
             // 
             this.linkLabelsdzss1.AutoSize = true;
-            this.linkLabelsdzss1.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelsdzss1.BackColor = System.Drawing.Color.White;
             this.linkLabelsdzss1.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabelsdzss1.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelsdzss1.LinkColor = System.Drawing.Color.Sienna;
             this.linkLabelsdzss1.Location = new System.Drawing.Point(1442, 801);
             this.linkLabelsdzss1.Name = "linkLabelsdzss1";
             this.linkLabelsdzss1.Size = new System.Drawing.Size(62, 31);
@@ -1425,9 +1425,9 @@
             // linkLabel59
             // 
             this.linkLabel59.AutoSize = true;
-            this.linkLabel59.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabel59.BackColor = System.Drawing.Color.White;
             this.linkLabel59.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel59.LinkColor = System.Drawing.Color.PeachPuff;
+            this.linkLabel59.LinkColor = System.Drawing.Color.BlueViolet;
             this.linkLabel59.Location = new System.Drawing.Point(1442, 645);
             this.linkLabel59.Name = "linkLabel59";
             this.linkLabel59.Size = new System.Drawing.Size(62, 31);
@@ -2119,9 +2119,9 @@
             // linkLabelsdzss2
             // 
             this.linkLabelsdzss2.AutoSize = true;
-            this.linkLabelsdzss2.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelsdzss2.BackColor = System.Drawing.Color.White;
             this.linkLabelsdzss2.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabelsdzss2.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelsdzss2.LinkColor = System.Drawing.Color.Sienna;
             this.linkLabelsdzss2.Location = new System.Drawing.Point(1442, 832);
             this.linkLabelsdzss2.Name = "linkLabelsdzss2";
             this.linkLabelsdzss2.Size = new System.Drawing.Size(62, 31);
@@ -2132,9 +2132,9 @@
             // linkLabelrdzss2
             // 
             this.linkLabelrdzss2.AutoSize = true;
-            this.linkLabelrdzss2.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelrdzss2.BackColor = System.Drawing.Color.White;
             this.linkLabelrdzss2.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabelrdzss2.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelrdzss2.LinkColor = System.Drawing.Color.Sienna;
             this.linkLabelrdzss2.Location = new System.Drawing.Point(959, 832);
             this.linkLabelrdzss2.Name = "linkLabelrdzss2";
             this.linkLabelrdzss2.Size = new System.Drawing.Size(62, 31);
@@ -2145,9 +2145,9 @@
             // linkLabelydzss2
             // 
             this.linkLabelydzss2.AutoSize = true;
-            this.linkLabelydzss2.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelydzss2.BackColor = System.Drawing.Color.White;
             this.linkLabelydzss2.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabelydzss2.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelydzss2.LinkColor = System.Drawing.Color.Sienna;
             this.linkLabelydzss2.Location = new System.Drawing.Point(480, 832);
             this.linkLabelydzss2.Name = "linkLabelydzss2";
             this.linkLabelydzss2.Size = new System.Drawing.Size(62, 31);
@@ -2158,9 +2158,9 @@
             // linkLabelndzss2
             // 
             this.linkLabelndzss2.AutoSize = true;
-            this.linkLabelndzss2.BackColor = System.Drawing.Color.DimGray;
+            this.linkLabelndzss2.BackColor = System.Drawing.Color.White;
             this.linkLabelndzss2.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabelndzss2.LinkColor = System.Drawing.Color.Yellow;
+            this.linkLabelndzss2.LinkColor = System.Drawing.Color.Sienna;
             this.linkLabelndzss2.Location = new System.Drawing.Point(-3, 832);
             this.linkLabelndzss2.Name = "linkLabelndzss2";
             this.linkLabelndzss2.Size = new System.Drawing.Size(62, 31);
@@ -2395,7 +2395,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "八字辅助工具v17.1-杜净隆 作品";
+            this.Text = "八字辅助工具v17.4-杜净隆 作品";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownyear)).EndInit();
