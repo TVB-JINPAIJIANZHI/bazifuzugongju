@@ -283,16 +283,12 @@ namespace BaZiFuZuGongJu
             var solar = new Solar(yeartimeint, mothtimeint, daytimeint);
             var lunar = solar.Lunar;
 
-            string ntgan = lunar.YearGanExact;
-            string ndizhi = lunar.YearZhiExact;
-            string ytgan = lunar.MonthGanExact;
-            string ydizhi = lunar.MonthZhiExact;
-            string rtgan = lunar.DayGanExact;
-            string rdizhi = lunar.DayZhiExact;
-
-            comboBoxng.Text = ntgan; comboBoxyg.Text = ytgan; comboBoxrg.Text = rtgan;
-            comboBoxnz.Text = ndizhi; comboBoxyz.Text = ydizhi; comboBoxrz.Text = rdizhi;
-
+             comboBoxng.Text= lunar.YearGanExact;
+             comboBoxnz.Text= lunar.YearZhiExact;
+             comboBoxyg.Text= lunar.MonthGanExact;
+             comboBoxyz.Text= lunar.MonthZhiExact;
+             comboBoxrg.Text= lunar.DayGanExact;
+             comboBoxrz.Text= lunar.DayZhiExact;
             //时干支
             if (jia == jia)
             {
