@@ -53152,16 +53152,39 @@ namespace BaZiFuZuGongJu
                     DateTime daydt = yuetianshu.ToDateTime(yeartimeint, mothtimeint, daytimeint, 0, 0, 0, 0);
                     int days = yuetianshu.GetDaysInMonth(yuetianshu.GetYear(daydt), yuetianshu.GetMonth(daydt));
                     numericUpDownday.Maximum = days;
+                    //子时处理
+                    if (hourtimeint == 0 || hourtimeint == 23)
+                    {
+                        if (mothtimeint < 12)
+                        {
+                            if (daytimeint == days)
+                            {
+                                mothtimeint += 1; daytimeint = 1;
+                            }
+                            else if (daytimeint < days)
+                            {
+                                daytimeint += 1;
+                            }
+                        }
+                        else if (mothtimeint == 12)
+                        {
+                            if (daytimeint == days)
+                            {
+                                yeartimeint += 1; mothtimeint = 1; daytimeint = 1;
+                            }
+                            else if (daytimeint < days)
+                            {
+                                daytimeint += 1;
+                            }
+                        }
+                    }
                     var lunar = new Lunar.Lunar(yeartimeint, mothtimeint, daytimeint);
-                    string ntgan = lunar.YearGanExact;
-                    string ndizhi = lunar.YearZhiExact;
-                    string ytgan = lunar.MonthGanExact;
-                    string ydizhi = lunar.MonthZhiExact;
-                    string rtgan = lunar.DayGanExact;
-                    string rdizhi = lunar.DayZhiExact;
-                    comboBoxng.Text = ntgan; comboBoxyg.Text = ytgan; comboBoxrg.Text = rtgan;
-                    comboBoxnz.Text = ndizhi; comboBoxyz.Text = ydizhi; comboBoxrz.Text = rdizhi;
-
+                    comboBoxng.Text = lunar.YearGanExact;
+                    comboBoxnz.Text = lunar.YearZhiExact;
+                    comboBoxyg.Text = lunar.MonthGanExact;
+                    comboBoxyz.Text = lunar.MonthZhiExact;
+                    comboBoxrg.Text = lunar.DayGanExact;
+                    comboBoxrz.Text = lunar.DayZhiExact;
                     //时干支
                     if (jia == jia)
                     {
@@ -53471,22 +53494,7 @@ namespace BaZiFuZuGongJu
                         }
 
                     }
-                    //显示公历 日期
-                    if (jia == jia)
-                    {
-
-                        ChineseLunisolarCalendar calendar = new ChineseLunisolarCalendar();
-                        DateTime lunarDate = new DateTime(yeartimeint, mothtimeint, daytimeint, hourtimeint, 0, 0, 0, new ChineseLunisolarCalendar());
-                        int year = calendar.GetYear(lunarDate);
-                        int month = calendar.GetMonth(lunarDate);
-                        int day = calendar.GetDayOfMonth(lunarDate);
-
-                        // 转换为公历日期
-                        DateTime solarDate = lunarDate;
-                        string gongli = solarDate.ToString();
-                        linkLabel28.Text = "公历：" + gongli + "：星期" + lunar.WeekInChinese;
-
-                    }
+                    linkLabel28.Text = "星期" + lunar.WeekInChinese;//星期几
 
 
                 }
@@ -53498,14 +53506,12 @@ namespace BaZiFuZuGongJu
                     var solar = new Solar(yeartimeint, mothtimeint, daytimeint);
                     var lunar = solar.Lunar;
                     //干支
-                    string ntgan = lunar.YearGanExact;
-                    string ndizhi = lunar.YearZhiExact;
-                    string ytgan = lunar.MonthGanExact;
-                    string ydizhi = lunar.MonthZhiExact;
-                    string rtgan = lunar.DayGanExact;
-                    string rdizhi = lunar.DayZhiExact;
-                    comboBoxng.Text = ntgan; comboBoxyg.Text = ytgan; comboBoxrg.Text = rtgan;
-                    comboBoxnz.Text = ndizhi; comboBoxyz.Text = ydizhi; comboBoxrz.Text = rdizhi;
+                     comboBoxng.Text= lunar.YearGanExact;
+                     comboBoxnz.Text= lunar.YearZhiExact;
+                     comboBoxyg.Text= lunar.MonthGanExact;
+                     comboBoxyz.Text= lunar.MonthZhiExact;
+                     comboBoxrg.Text= lunar.DayGanExact;
+                     comboBoxrz.Text= lunar.DayZhiExact;
                     //时干支
                     if (jia == jia)
                     {
