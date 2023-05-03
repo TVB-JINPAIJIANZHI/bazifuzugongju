@@ -280,15 +280,51 @@ namespace BaZiFuZuGongJu
             numericUpDownday.Value = daytimeint;
             numericUpDownhour.Value = hourtimeint;
 
+            //获取公历月天数
+            int days = DateTime.DaysInMonth(yeartimeint, mothtimeint);
+            numericUpDownday.Maximum = days;
             var solar = new Solar(yeartimeint, mothtimeint, daytimeint);
             var lunar = solar.Lunar;
-
-             comboBoxng.Text= lunar.YearGanExact;
-             comboBoxnz.Text= lunar.YearZhiExact;
-             comboBoxyg.Text= lunar.MonthGanExact;
-             comboBoxyz.Text= lunar.MonthZhiExact;
-             comboBoxrg.Text= lunar.DayGanExact;
-             comboBoxrz.Text= lunar.DayZhiExact;
+            int year = lunar.Year;
+            int month = lunar.Month;
+            int day = lunar.Day;
+            //获取农历月天数
+            ChineseLunisolarCalendar yuetianshu = new ChineseLunisolarCalendar();
+            DateTime daydt = yuetianshu.ToDateTime(yeartimeint, mothtimeint, daytimeint, 0, 0, 0, 0);
+            int daysn = yuetianshu.GetDaysInMonth(yuetianshu.GetYear(daydt), yuetianshu.GetMonth(daydt));
+            //子时处理
+            if (hourtimeint == 0 || hourtimeint == 23)
+            {
+                if (month < 12)
+                {
+                    if (day == daysn)
+                    {
+                        month += 1; day = 1;
+                    }
+                    else if (day < daysn)
+                    {
+                        day += 1;
+                    }
+                }
+                else if (month == 12)
+                {
+                    if (day == daysn)
+                    {
+                        year += 1; month = 1; day = 1;
+                    }
+                    else if (day < daysn)
+                    {
+                        day += 1;
+                    }
+                }
+            }
+            var lunar3 = new Lunar.Lunar(year, month, day);
+            comboBoxng.Text = lunar3.YearGanExact;
+            comboBoxnz.Text = lunar3.YearZhiExact;
+            comboBoxyg.Text = lunar3.MonthGanExact;
+            comboBoxyz.Text = lunar3.MonthZhiExact;
+            comboBoxrg.Text = lunar3.DayGanExact;
+            comboBoxrz.Text = lunar3.DayZhiExact;
             //时干支
             if (jia == jia)
             {
@@ -598,11 +634,14 @@ namespace BaZiFuZuGongJu
                 }
 
             }
-
-            string year = lunar.YearInChinese;
-            string month = lunar.MonthInChinese;
-            string day = lunar.DayInChinese;
-            linkLabel28.Text = "农历：" + year + "年" + month + "月" + day + "：星期" + solar.WeekInChinese;
+            //显示农历日期
+            if (jia == jia)
+            {
+                string years = lunar.YearInChinese;
+                string months = lunar.MonthInChinese;
+                string dayss = lunar.DayInChinese;
+                linkLabel28.Text = "农历：" + years + "年" + months + "月" + dayss + "：星期" + solar.WeekInChinese;
+            }
 
             buttongz.Focus();
             buttongz_Click(this, new EventArgs());
@@ -53501,13 +53540,46 @@ namespace BaZiFuZuGongJu
                     numericUpDownday.Maximum = days;
                     var solar = new Solar(yeartimeint, mothtimeint, daytimeint);
                     var lunar = solar.Lunar;
-                    //干支
-                     comboBoxng.Text= lunar.YearGanExact;
-                     comboBoxnz.Text= lunar.YearZhiExact;
-                     comboBoxyg.Text= lunar.MonthGanExact;
-                     comboBoxyz.Text= lunar.MonthZhiExact;
-                     comboBoxrg.Text= lunar.DayGanExact;
-                     comboBoxrz.Text= lunar.DayZhiExact;
+                    int year = lunar.Year;
+                    int month = lunar.Month;
+                    int day = lunar.Day;
+                    //获取农历月天数
+                    ChineseLunisolarCalendar yuetianshu = new ChineseLunisolarCalendar();
+                    DateTime daydt = yuetianshu.ToDateTime(yeartimeint, mothtimeint, daytimeint, 0, 0, 0, 0);
+                    int daysn = yuetianshu.GetDaysInMonth(yuetianshu.GetYear(daydt), yuetianshu.GetMonth(daydt));
+                    //子时处理
+                    if (hourtimeint == 0 || hourtimeint == 23)
+                    {
+                        if (month < 12)
+                        {
+                            if (day == daysn)
+                            {
+                                month += 1; day = 1;
+                            }
+                            else if (day < daysn)
+                            {
+                                day += 1;
+                            }
+                        }
+                        else if (month == 12)
+                        {
+                            if (day == daysn)
+                            {
+                                year += 1; month = 1; day = 1;
+                            }
+                            else if (day < daysn)
+                            {
+                                day += 1;
+                            }
+                        }
+                    }
+                    var lunar3 = new Lunar.Lunar(year, month, day);
+                    comboBoxng.Text = lunar3.YearGanExact;
+                    comboBoxnz.Text = lunar3.YearZhiExact;
+                    comboBoxyg.Text = lunar3.MonthGanExact;
+                    comboBoxyz.Text = lunar3.MonthZhiExact;
+                    comboBoxrg.Text = lunar3.DayGanExact;
+                    comboBoxrz.Text = lunar3.DayZhiExact;
                     //时干支
                     if (jia == jia)
                     {
@@ -53820,10 +53892,10 @@ namespace BaZiFuZuGongJu
                     //显示农历日期
                     if (jia == jia)
                     {
-                        string year = lunar.YearInChinese;
-                        string month = lunar.MonthInChinese;
-                        string day = lunar.DayInChinese;
-                        linkLabel28.Text = "农历：" + year + "年" + month + "月" + day + "：星期" + solar.WeekInChinese;
+                        string years = lunar.YearInChinese;
+                        string months = lunar.MonthInChinese;
+                        string dayss = lunar.DayInChinese;
+                        linkLabel28.Text = "农历：" + years + "年" + months + "月" + dayss + "：星期" + solar.WeekInChinese;
                     }
 
                 }
