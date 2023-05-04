@@ -1,4 +1,5 @@
 ﻿using Lunar;
+using System;
 using System.Globalization;
 
 namespace BaZiFuZuGongJu
@@ -53529,7 +53530,13 @@ namespace BaZiFuZuGongJu
                         }
 
                     }
-                    linkLabel28.Text = "星期" + lunar.WeekInChinese;//星期几
+                    //显示公历日期
+                    if (jia == jia)
+                    {
+                        // 创建一个公历日期对象
+                        DateTime gongliriqi = yuetianshu.ToDateTime(yeartimeint, mothtimeint, daytimeint, hourtimeint, 0, 0, 0);
+                        linkLabel28.Text = "公历：" +gongliriqi.Year +"年"+ gongliriqi.Month + "月" + gongliriqi.Day + "日" + "：星期" + lunar.WeekInChinese;//星期几
+                    }
 
 
                 }
