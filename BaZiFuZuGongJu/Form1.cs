@@ -291,14 +291,15 @@ namespace BaZiFuZuGongJu
             int month = lunar.Month;
             int day = lunar.Day;
 
-            //获取农历月天数
-            ChineseLunisolarCalendar yuetianshu = new ChineseLunisolarCalendar();
-            DateTime daydt = yuetianshu.ToDateTime(year, month, day, 0, 0, 0, 0);
-            int daysnl = yuetianshu.GetDaysInMonth(yuetianshu.GetYear(daydt), yuetianshu.GetMonth(daydt));
 
             //子时处理
             if (hourtimeint == 0 || hourtimeint == 23)
             {
+                //获取农历月天数
+                ChineseLunisolarCalendar yuetianshu = new ChineseLunisolarCalendar();
+                DateTime daydt = yuetianshu.ToDateTime(year, month, day, 0, 0, 0, 0);
+                int daysnl = yuetianshu.GetDaysInMonth(yuetianshu.GetYear(daydt), yuetianshu.GetMonth(daydt));
+
                 if (month < 12)
                 {
                     if (day == daysnl)
@@ -640,13 +641,7 @@ namespace BaZiFuZuGongJu
 
             }
             //显示农历日期
-            if (jia == jia)
-            {
-                string years = lunar.YearInChinese;
-                string months = lunar.MonthInChinese;
-                string dayss = lunar.DayInChinese;
-                linkLabel28.Text = "农历：" + years + "年" + months + "月" + dayss + "：星期" + solar.WeekInChinese;
-            }
+            linkLabel28.Text = "农历：" + year + "年" + month + "月" + day + "日：星期" + solar.WeekInChinese;
 
             buttongz.Focus();
             buttongz_Click(this, new EventArgs());
@@ -53557,14 +53552,15 @@ namespace BaZiFuZuGongJu
                     int month = lunar.Month;
                     int day = lunar.Day;
 
-                    //获取农历月天数
-                    ChineseLunisolarCalendar yuetianshu = new ChineseLunisolarCalendar();
-                    DateTime daydt = yuetianshu.ToDateTime(year, month, day, 0, 0, 0, 0);
-                    int daysnl = yuetianshu.GetDaysInMonth(yuetianshu.GetYear(daydt), yuetianshu.GetMonth(daydt));
 
                     //子时处理
                     if (hourtimeint == 0 || hourtimeint == 23)
                     {
+                        //获取农历月天数
+                        ChineseLunisolarCalendar yuetianshu = new ChineseLunisolarCalendar();
+                        DateTime daydt = yuetianshu.ToDateTime(year, month, day, 0, 0, 0, 0);
+                        int daysnl = yuetianshu.GetDaysInMonth(yuetianshu.GetYear(daydt), yuetianshu.GetMonth(daydt));
+
                         if (month < 12)
                         {
                             if (day == daysnl)
@@ -53906,13 +53902,7 @@ namespace BaZiFuZuGongJu
 
                     }
                     //显示农历日期
-                    if (jia == jia)
-                    {
-                        string years = lunar.YearInChinese;
-                        string months = lunar.MonthInChinese;
-                        string dayss = lunar.DayInChinese;
-                        linkLabel28.Text = "农历：" + years + "年" + months + "月" + dayss + "：星期" + solar.WeekInChinese;
-                    }
+                    linkLabel28.Text = "农历：" + year + "年" + month + "月" + day + "日：星期" + solar.WeekInChinese;
 
                 }
             }
