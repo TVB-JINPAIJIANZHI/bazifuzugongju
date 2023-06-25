@@ -2355,7 +2355,7 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "八字辅助工具v19.4-杜净隆 作品";
+            Text = "八字辅助工具v20.1-杜净隆 作品";
             WindowState = FormWindowState.Maximized;
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)numericUpDownyear).EndInit();
