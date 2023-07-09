@@ -1,8 +1,3 @@
-A:\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.exe
-A:\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.deps.json
-A:\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.runtimeconfig.json
-A:\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.dll
-A:\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.pdb
 D:\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.csproj.AssemblyReference.cache
 D:\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.Form1.resources
 D:\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.csproj.GenerateResource.cache
@@ -16,6 +11,11 @@ D:\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\refint\BaZiFuZuGongJu.dll
 D:\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.pdb
 D:\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.genruntimeconfig.cache
 D:\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\ref\BaZiFuZuGongJu.dll
+A:\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.exe
+A:\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.deps.json
+A:\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.runtimeconfig.json
+A:\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.dll
+A:\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.pdb
 G:\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.csproj.AssemblyReference.cache
 G:\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.Form1.resources
 G:\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.csproj.GenerateResource.cache

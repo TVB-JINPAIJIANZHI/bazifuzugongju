@@ -518,7 +518,7 @@ namespace BaZiFuZuGongJu
             buttongz.Focus();
             buttongz_Click(this, new EventArgs());
 
-
+           
         }
 
         private void buttongz_Click(object sender, EventArgs e)
@@ -536,7 +536,7 @@ namespace BaZiFuZuGongJu
 
                     button65.Visible = false; button61.Visible = false; button58.Visible = false;
                     button57.Visible = false; button63.Visible = false; button55.Visible = false;
-                    button62.Visible = false; button52.Visible = false; linkLabelxy.Text = ""; linkLabeljy.Text = ""; linkLabel21.Text = "";
+                    button62.Visible = false; button52.Visible = false;
                     linkLabel20.Visible = false;
                     linkLabelndzss2.Text = ""; linkLabelydzss2.Text = ""; linkLabelrdzss2.Text = ""; linkLabelsdzss2.Text = "";
                     button37.Visible = false; button37.Text = ""; button29.Visible = false; button29.Text = ""; button33.Visible = false; button33.Text = "";
@@ -20714,7 +20714,7 @@ namespace BaZiFuZuGongJu
                     //地支相刑
                     if (jia == jia)
                     {
-                        
+
                         int 地支相刑真假 = 0;
                         if (ndz == shen && ydz == yin || ndz == yin && ydz == shen)
                         {
@@ -20848,7 +20848,7 @@ namespace BaZiFuZuGongJu
                     //天干冲
                     if (jia == jia)
                     {
-                        
+
                         int 天干冲真假 = 0;
                         if (ntg == jia && ytg == geng || ytg == jia && ntg == geng)
                         {
@@ -20910,7 +20910,7 @@ namespace BaZiFuZuGongJu
                     //地支六冲
                     if (jia == jia)
                     {
-                        
+
                         int 地支六冲真假 = 0;
                         if (ndz == zii && ydz == wuma || ndz == wuma && ydz == zii)
                         {
@@ -20997,7 +20997,7 @@ namespace BaZiFuZuGongJu
                     //地支六破
                     if (jia == jia)
                     {
-                        
+
                         int 地支六破真假 = 0;
                         if (ndz == zii && ydz == you || ndz == you && ydz == zii)
                         {
@@ -21083,7 +21083,7 @@ namespace BaZiFuZuGongJu
                     //地支六害
                     if (jia == jia)
                     {
-                        
+
                         int 地支六害真假 = 0;
                         if (ndz == wei && ydz == zii || ndz == zii && ydz == wei)
                         {
@@ -21168,7 +21168,7 @@ namespace BaZiFuZuGongJu
                     //天干五合
                     if (jia == jia)
                     {
-                        
+
                         int 天干五合真假 = 0;
                         if (ntg != wuu && ytg != wuu && rtg != wuu && stg != wuu)
                         {
@@ -21640,7 +21640,7 @@ namespace BaZiFuZuGongJu
                     //地支三会
                     if (jia == jia)
                     {
-                        
+
                         int 地支三会真假 = 0;
                         if (ndz != shen || ndz != you || ndz != xuu || rdz != shen || rdz != you || rdz != xuu || sdz != shen || sdz != you || sdz != xuu)
                         {
@@ -21924,7 +21924,7 @@ namespace BaZiFuZuGongJu
                     //地支三合
                     if (jia == jia)
                     {
-                        
+
                         int 地支三合真假 = 0;
                         if (ndz != sii || ndz != wuma || ndz != xuu || rdz != sii || rdz != wuma || rdz != xuu || sdz != sii || sdz != wuma || sdz != xuu || ndz != yin || rdz != yin || sdz != yin || ndz != mao || rdz != mao || sdz != mao)
                         {
@@ -22207,7 +22207,7 @@ namespace BaZiFuZuGongJu
                     //半三合
                     if (jia == jia)
                     {
-                        
+
                         int 半三合真假 = 0;
                         if (ydz == sii || ydz == you)
                         {
@@ -22398,7 +22398,7 @@ namespace BaZiFuZuGongJu
                     //拱合
                     if (jia == jia)
                     {
-                        
+
                         int 拱合真假 = 0;
                         if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
                         {
@@ -22488,7 +22488,7 @@ namespace BaZiFuZuGongJu
                                 }
                             }
                         }
-                        if (wmu==1)
+                        if (wmu == 1)
                         {
                             if (ydz == hai || ydz == wei)
                             {
@@ -22510,7 +22510,7 @@ namespace BaZiFuZuGongJu
                                 }
                             }
                         }
-                        if (whuo==1)
+                        if (whuo == 1)
                         {
                             if (ydz == yin || ydz == xuu)
                             {
@@ -22532,7 +22532,7 @@ namespace BaZiFuZuGongJu
                                 }
                             }
                         }
-                        if (wjin==1)
+                        if (wjin == 1)
                         {
                             if (ydz == sii || ydz == chou)
                             {
@@ -22554,7 +22554,7 @@ namespace BaZiFuZuGongJu
                                 }
                             }
                         }
-                        if (wshui==1)
+                        if (wshui == 1)
                         {
                             if (ydz == shen || ydz == chen)
                             {
@@ -22587,7 +22587,7 @@ namespace BaZiFuZuGongJu
                     //墓库运
                     if (jia == jia)
                     {
-                        
+
                         int 墓库运真假 = 0;
                         if (jia == jia)
                         {
@@ -22744,7 +22744,7 @@ namespace BaZiFuZuGongJu
                 if (jia == jia)
                 {
                     //神煞查询
-                    
+
                     //五行归类
                     if (jia == jia)
                     {
@@ -34989,1194 +34989,6 @@ namespace BaZiFuZuGongJu
                         button25.ForeColor = Color.Red;
                     }
                 }
-                //命局喜禁
-                if (jia == jia)
-                {
-                    //男身旺
-                    if (radioButtonll.Checked)
-                    {
-                        if (wangshuai >= 50)
-                        {
-                            if (rtg == geng || rtg == xin)
-                            {
-
-                                if (wxshui > wxhuo && wxmu > wxhuo)//喜火
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=火=正官-七杀，其次=水-食神-伤官，木-正财-偏财";
-                                    linkLabel21.Text = "此命逢：春季发财，夏季荣升最好，秋季破财，冬季食禄。四季受克制。";
-                                    if (wxjin > wxtu)//禁金
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神金=比肩-劫财（破财），其次=土-正印-枭神（克制）";
-                                        if (wxshui + wxhuo < wxmu)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺主凶。";
-                                        }
-                                    }
-                                    if (wxjin < wxtu)//禁土
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=土-正印-枭神（克制），其次=金-比肩-劫财（破财）";
-                                        if (wxshui + wxhuo < wxmu)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺主凶。";
-                                        }
-                                    }
-
-                                }
-
-                                if (wxhuo > wxshui && wxmu > wxshui)//喜水
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=水=食神-伤官，其次=火-正官-七杀，木-正财-偏财";
-                                    linkLabel21.Text = "此命逢：春季发财，夏季荣升，秋季破财，冬季食禄都来。四季受克制。";
-                                    if (wxjin > wxtu)//禁金
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神金=比肩-劫财（破财），其次=土-正印-枭神（克制）";
-                                        if (wxshui + wxhuo < wxmu)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺主凶。";
-                                        }
-                                    }
-                                    if (wxjin < wxtu)//禁土
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=土-正印-枭神（克制），其次=金-比肩-劫财（破财）";
-                                        if (wxshui + wxhuo < wxmu)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺主凶。";
-                                        }
-                                    }
-
-                                }
-
-                                if (wxshui > wxmu && wxhuo > wxmu)// 喜木
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=木=正财-偏财，其次=水-食神-伤官，-火-正官-七杀";
-                                    linkLabel21.Text = "此命逢：春季长官发财，夏季荣升，秋季破财，冬季食禄。四季末克制。";
-                                    if (wxjin > wxtu)//禁金
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神金=比肩-劫财（破财），其次=土-正印-枭神（克制）";
-                                    }
-                                    if (wxjin < wxtu)//禁土
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=土-正印-枭神（克制），其次=金-比肩-劫财（破财）";
-                                    }
-                                }
-
-
-
-                            }
-                            if (rtg == wuu || rtg == jii)
-                            {
-
-                                if (wxshui > wxjin && wxmu > wxjin)// 喜金
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=金=食神-伤官，其次=木-正官-七杀，水-正财-偏财";
-                                    linkLabel21.Text = "此命逢：春季荣升，夏季受克制，秋季食禄都来，冬季发财。四季破财。";
-                                    if (wxhuo > wxtu)//禁火
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=火-正印-枭神（克制），其次=土-比肩-劫财（破财）";
-                                        if (wxjin + wxmu < wxshui)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺主凶。";
-                                        }
-                                    }
-                                    if (wxhuo < wxtu)//禁土
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神土=比肩-劫财（破财），其次=火-正印-枭神（克制）";
-                                        if (wxjin + wxmu < wxshui)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺主凶。";
-                                        }
-                                    }
-
-                                }
-
-
-                                if (wxjin > wxshui && wxmu > wxshui)// 喜水
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=水=正财-偏财，其次=木-正官-七杀，金-食神-伤官";
-                                    linkLabel21.Text = "此命逢：春季荣升，夏季受克制，秋季食禄，冬季大发横财。四季破财。";
-                                    if (wxhuo > wxtu)//禁火
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=火-正印-枭神（克制），其次=土-比肩-劫财（破财）";
-                                    }
-                                    if (wxhuo < wxtu)//禁土
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神土=比肩-劫财（破财），其次=火-正印-枭神（克制）";
-                                    }
-
-                                }
-
-
-                                if (wxshui > wxmu && wxjin > wxmu)// 喜木
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=木=正官-七杀，其次=水-正财-偏财，金-食神-伤官";
-                                    linkLabel21.Text = "此命逢：春季荣升最好，夏季受克制，秋季食禄，冬季发财。四季破财。";
-                                    if (wxhuo > wxtu)//禁火
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=火-正印-枭神（克制），其次=土-比肩-劫财（破财）";
-                                        if (wxjin + wxmu < wxshui)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺主凶。";
-                                        }
-                                    }
-                                    if (wxhuo < wxtu)//禁土
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神土=比肩-劫财（破财），其次=火-正印-枭神（克制）";
-                                        if (wxjin + wxmu < wxshui)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺主凶。";
-                                        }
-                                    }
-
-                                }
-
-
-                            }
-                            if (rtg == bing || rtg == ding)
-                            {
-                                if (wxshui > wxjin && wxtu > wxjin)//喜金
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=金=正财-偏财，其次=水-正官-七杀，土-食神-伤官";
-                                    linkLabel21.Text = "此命逢：春季受克制，夏季破财，秋季大发横财，冬季荣升。四季食禄广进。";
-                                    if (wxmu < wxhuo)//禁火
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=火-比肩-劫财（破财），其次=木-正印-枭神（克制）";
-
-                                    }
-                                    if (wxmu > wxhuo)//禁木
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神木=正印-枭神（克制），其次=火-比肩-劫财（破财）";
-                                    }
-
-                                }
-
-                                if (wxjin > wxshui && wxtu > wxshui) //喜水
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=水=正官-七杀，其次=土-食神-伤官，金-正财-偏财";
-                                    linkLabel21.Text = "此命逢：春季受克制，夏季破财，秋季大发横财，冬季荣升。四季食禄广进。";
-                                    if (wxmu < wxhuo)//禁火
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=火-比肩-劫财（破财），其次=木-正印-枭神（克制）";
-                                        if (wxtu + wxshui < wxjin)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺主凶。";
-                                        }
-                                    }
-                                    if (wxmu > wxhuo)//禁木
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神木=正印-枭神（克制），其次=火-比肩-劫财（破财）";
-                                        if (wxtu + wxshui < wxjin)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺主凶。";
-                                        }
-                                    }
-
-                                }
-
-                                if (wxshui > wxtu && wxjin > wxtu)//喜土
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=土-食神-伤官，其次=水=正官-七杀，，金-正财-偏财";
-                                    linkLabel21.Text = "此命逢：春季受克制，夏季破财，秋季大发横财，冬季荣升。四季食禄广进。";
-                                    if (wxmu < wxhuo)//禁火
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=火-比肩-劫财（破财），其次=木-正印-枭神（克制）";
-                                        if (wxtu + wxshui < wxjin)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺主凶。";
-                                        }
-                                    }
-                                    if (wxmu > wxhuo)//禁木
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神木=正印-枭神（克制），其次=火-比肩-劫财（破财）";
-                                        if (wxtu + wxshui < wxjin)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺主凶。";
-                                        }
-                                    }
-
-                                }
-
-                            }
-                            if (rtg == jia || rtg == yii)
-                            {
-
-                                if (wxhuo > wxjin && wxtu > wxjin)//喜金
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=金=正官-七杀，其次=火-食神-伤官，土-正财-偏财";
-                                    linkLabel21.Text = "此命逢：春季破财，夏季食禄，秋季荣升，冬季受克制。四季财源广进。";
-                                    if (wxshui < wxmu)//禁木
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=木-比肩-劫财（破财），其次=水-正印-枭神（克制）";
-                                        if (wxhuo + wxjin < wxtu)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺主凶。";
-                                        }
-                                    }
-                                    if (wxmu < wxshui)//禁水
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神水=正印-枭神（克制），其次=木-比肩-劫财（破财）";
-                                        if (wxhuo + wxjin < wxtu)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺主凶。";
-                                        }
-                                    }
-
-                                }
-
-                                if (wxjin > wxhuo && wxtu > wxhuo)//喜火
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=火-食神-伤官，其次=金=正官-七杀，土-正财-偏财";
-                                    linkLabel21.Text = "此命逢：春季破财，夏季食禄，秋季荣升，冬季受克制。四季财源广进。";
-                                    if (wxshui < wxmu)//禁木
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=木-比肩-劫财（破财），其次=水-正印-枭神（克制）";
-                                        if (wxhuo + wxjin < wxtu)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺主凶。";
-                                        }
-                                    }
-                                    if (wxmu < wxshui)//禁水
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神水=正印-枭神（克制），其次=木-比肩-劫财（破财）";
-                                        if (wxhuo + wxjin < wxtu)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺主凶。";
-                                        }
-                                    }
-
-                                }
-
-                                if (wxhuo > wxtu && wxjin > wxtu)//喜土
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=土-正财-偏财，其次=金=正官-七杀，火-食神-伤官";
-                                    linkLabel21.Text = "此命逢：春季破财，夏季食禄，秋季荣升，冬季受克制。四季财源广进。";
-                                    if (wxshui < wxmu)//禁木
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=木-比肩-劫财（破财），其次=水-正印-枭神（克制）";
-                                    }
-                                    if (wxmu < wxshui)//禁水
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神水=正印-枭神（克制），其次=木-比肩-劫财（破财）";
-                                    }
-
-                                }
-
-                            }
-                            if (rtg == ren || rtg == gui)
-                            {
-
-                                if (wxmu > wxtu && wxhuo > wxtu)//喜土
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=土=正官-七杀，其次=木-食神-伤官，火-正财-偏财";
-                                    linkLabel21.Text = "此命逢：春季食禄，夏季发财，秋季受克制，冬季破财。四季官学荣升。";
-                                    if (wxshui < wxjin)//禁水
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=水-比肩-劫财（破财），其次=金-正印-枭神（克制）";
-                                        if (wxmu + wxtu < wxhuo)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺主凶。";
-                                        }
-                                    }
-                                    if (wxjin > wxshui)//禁金
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神金=正印-枭神（克制），其次=水-比肩-劫财（破财）";
-                                        if (wxmu + wxtu < wxhuo)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺主凶。";
-                                        }
-                                    }
-
-                                }
-
-                                if (wxtu > wxmu && wxhuo > wxmu)//喜木
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=木=食神-伤官，其次=土-正官-七杀，火-正财-偏财";
-                                    linkLabel21.Text = "此命逢：春季食禄，夏季发财，秋季受克制，冬季破财。四季官学荣升。";
-                                    if (wxshui < wxjin)//禁水
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=水-比肩-劫财（破财），其次=金-正印-枭神（克制）";
-                                        if (wxmu + wxtu < wxhuo)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺主凶。";
-                                        }
-                                    }
-                                    if (wxjin > wxshui)//禁金
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神金=正印-枭神（克制），其次=水-比肩-劫财（破财）";
-                                        if (wxmu + wxtu < wxhuo)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺主凶。";
-                                        }
-                                    }
-
-                                }
-
-                                if (wxtu > wxhuo && wxmu > wxhuo)//喜火
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=火-正财-偏财，其次=土-正官-七杀，木=食神-伤官";
-                                    linkLabel21.Text = "此命逢：春季食禄，夏季发财，秋季受克制，冬季破财。四季官学荣升。";
-                                    if (wxshui < wxjin)//禁水
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=水-比肩-劫财（破财），其次=金-正印-枭神（克制）";
-                                    }
-                                    if (wxjin > wxshui)//禁金
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神金=正印-枭神（克制），其次=水-比肩-劫财（破财）";
-                                    }
-
-                                }
-
-
-                            }
-                        }
-                    }
-                    //女身旺
-                    if (radioButtonvv.Checked)
-                    {
-                        if (wangshuai >= 50)
-                        {
-                            if (rtg == geng || rtg == xin)
-                            {
-
-                                if (wxshui > wxhuo && wxmu > wxhuo)//喜火
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=火=正官-七杀，其次=水-食神-伤官，木-正财-偏财";
-                                    linkLabel21.Text = "此命逢：春季发财，夏季荣升最好，秋季破财，冬季食禄。四季受克制。";
-                                    if (wxjin > wxtu)//禁金
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神金=比肩-劫财（破财），其次=土-正印-枭神（克制）";
-
-                                    }
-                                    if (wxjin < wxtu)//禁土
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=土-正印-枭神（克制），其次=金-比肩-劫财（破财）";
-
-                                    }
-
-                                }
-
-                                if (wxhuo > wxshui && wxmu > wxshui)//喜水
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=水=食神-伤官，其次=火-正官-七杀，木-正财-偏财";
-                                    linkLabel21.Text = "此命逢：春季发财，夏季荣升，秋季破财，冬季食禄都来。四季受克制。";
-                                    if (wxjin > wxtu)//禁金
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神金=比肩-劫财（破财），其次=土-正印-枭神（克制）";
-                                        if (wxshui + wxmu < wxhuo)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺主凶。";
-                                        }
-                                    }
-                                    if (wxjin < wxtu)//禁土
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=土-正印-枭神（克制），其次=金-比肩-劫财（破财）";
-                                        if (wxshui + wxmu < wxhuo)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺主凶。";
-                                        }
-                                    }
-
-                                }
-
-                                if (wxshui > wxmu && wxhuo > wxmu)// 喜木
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=木=正财-偏财，其次=水-食神-伤官，-火-正官-七杀";
-                                    linkLabel21.Text = "此命逢：春季长官发财，夏季荣升，秋季破财，冬季食禄。四季末克制。";
-                                    if (wxjin > wxtu)//禁金
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神金=比肩-劫财（破财），其次=土-正印-枭神（克制）";
-                                        if (wxshui + wxmu < wxhuo)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺主凶。";
-                                        }
-                                    }
-                                    if (wxjin < wxtu)//禁土
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=土-正印-枭神（克制），其次=金-比肩-劫财（破财）";
-                                        if (wxshui + wxmu < wxhuo)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺主凶。";
-                                        }
-                                    }
-                                }
-
-
-
-                            }
-                            if (rtg == wuu || rtg == jii)
-                            {
-
-                                if (wxshui > wxjin && wxmu > wxjin)// 喜金
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=金=食神-伤官，其次=木-正官-七杀，水-正财-偏财";
-                                    linkLabel21.Text = "此命逢：春季荣升，夏季受克制，秋季食禄都来，冬季发财。四季破财。";
-                                    if (wxhuo > wxtu)//禁火
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=火-正印-枭神（克制），其次=土-比肩-劫财（破财）";
-                                        if (wxshui + wxjin < wxmu)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺主凶。";
-                                        }
-                                    }
-                                    if (wxhuo < wxtu)//禁土
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神土=比肩-劫财（破财），其次=火-正印-枭神（克制）";
-                                        if (wxshui + wxjin < wxmu)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺主凶。";
-                                        }
-                                    }
-
-                                }
-
-
-                                if (wxjin > wxshui && wxmu > wxshui)// 喜水
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=水=正财-偏财，其次=木-正官-七杀，金-食神-伤官";
-                                    linkLabel21.Text = "此命逢：春季荣升，夏季受克制，秋季食禄，冬季大发横财。四季破财。";
-                                    if (wxhuo > wxtu)//禁火
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=火-正印-枭神（克制），其次=土-比肩-劫财（破财）";
-                                        if (wxshui + wxjin < wxmu)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺主凶。";
-                                        }
-                                    }
-                                    if (wxhuo < wxtu)//禁土
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神土=比肩-劫财（破财），其次=火-正印-枭神（克制）";
-                                        if (wxshui + wxjin < wxmu)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺主凶。";
-                                        }
-                                    }
-
-                                }
-
-
-                                if (wxshui > wxmu && wxjin > wxmu)// 喜木
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=木=正官-七杀，其次=水-正财-偏财，金-食神-伤官";
-                                    linkLabel21.Text = "此命逢：春季荣升最好，夏季受克制，秋季食禄，冬季发财。四季破财。";
-                                    if (wxhuo > wxtu)//禁火
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=火-正印-枭神（克制），其次=土-比肩-劫财（破财）";
-
-                                    }
-                                    if (wxhuo < wxtu)//禁土
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神土=比肩-劫财（破财），其次=火-正印-枭神（克制）";
-
-                                    }
-
-                                }
-
-
-                            }
-                            if (rtg == bing || rtg == ding)
-                            {
-                                if (wxshui > wxjin && wxtu > wxjin)//喜金
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=金=正财-偏财，其次=水-正官-七杀，土-食神-伤官";
-                                    linkLabel21.Text = "此命逢：春季受克制，夏季破财，秋季大发横财，冬季荣升。四季食禄广进。";
-                                    if (wxmu < wxhuo)//禁火
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=火-比肩-劫财（破财），其次=木-正印-枭神（克制）";
-                                        if (wxtu + wxjin < wxshui)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺主凶。";
-                                        }
-                                    }
-                                    if (wxmu > wxhuo)//禁木
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神木=正印-枭神（克制），其次=火-比肩-劫财（破财）";
-                                        if (wxtu + wxjin < wxshui)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺主凶。";
-                                        }
-                                    }
-
-                                }
-
-                                if (wxjin > wxshui && wxtu > wxshui) //喜水
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=水=正官-七杀，其次=土-食神-伤官，金-正财-偏财";
-                                    linkLabel21.Text = "此命逢：春季受克制，夏季破财，秋季大发横财，冬季荣升。四季食禄广进。";
-                                    if (wxmu < wxhuo)//禁火
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=火-比肩-劫财（破财），其次=木-正印-枭神（克制）";
-
-                                    }
-                                    if (wxmu > wxhuo)//禁木
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神木=正印-枭神（克制），其次=火-比肩-劫财（破财）";
-
-                                    }
-
-                                }
-
-                                if (wxshui > wxtu && wxjin > wxtu)//喜土
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=土-食神-伤官，其次=水=正官-七杀，，金-正财-偏财";
-                                    linkLabel21.Text = "此命逢：春季受克制，夏季破财，秋季大发横财，冬季荣升。四季食禄广进。";
-                                    if (wxmu < wxhuo)//禁火
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=火-比肩-劫财（破财），其次=木-正印-枭神（克制）";
-                                        if (wxtu + wxjin < wxshui)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺主凶。";
-                                        }
-                                    }
-                                    if (wxmu > wxhuo)//禁木
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神木=正印-枭神（克制），其次=火-比肩-劫财（破财）";
-                                        if (wxtu + wxjin < wxshui)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺主凶。";
-                                        }
-                                    }
-
-                                }
-
-                            }
-                            if (rtg == jia || rtg == yii)
-                            {
-
-                                if (wxhuo > wxjin && wxtu > wxjin)//喜金
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=金=正官-七杀，其次=火-食神-伤官，土-正财-偏财";
-                                    linkLabel21.Text = "此命逢：春季破财，夏季食禄，秋季荣升，冬季受克制。四季财源广进。";
-                                    if (wxshui < wxmu)//禁木
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=木-比肩-劫财（破财），其次=水-正印-枭神（克制）";
-
-                                    }
-                                    if (wxmu < wxshui)//禁水
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神水=正印-枭神（克制），其次=木-比肩-劫财（破财）";
-
-                                    }
-
-                                }
-
-                                if (wxjin > wxhuo && wxtu > wxhuo)//喜火
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=火-食神-伤官，其次=金=正官-七杀，土-正财-偏财";
-                                    linkLabel21.Text = "此命逢：春季破财，夏季食禄，秋季荣升，冬季受克制。四季财源广进。";
-                                    if (wxshui < wxmu)//禁木
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=木-比肩-劫财（破财），其次=水-正印-枭神（克制）";
-                                        if (wxhuo + wxtu < wxjin)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺主凶。";
-                                        }
-                                    }
-                                    if (wxmu < wxshui)//禁水
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神水=正印-枭神（克制），其次=木-比肩-劫财（破财）";
-                                        if (wxhuo + wxtu < wxjin)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺主凶。";
-                                        }
-                                    }
-
-                                }
-
-                                if (wxhuo > wxtu && wxjin > wxtu)//喜土
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=土-正财-偏财，其次=金=正官-七杀，火-食神-伤官";
-                                    linkLabel21.Text = "此命逢：春季破财，夏季食禄，秋季荣升，冬季受克制。四季财源广进。";
-                                    if (wxshui < wxmu)//禁木
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=木-比肩-劫财（破财），其次=水-正印-枭神（克制）";
-                                        if (wxhuo + wxtu < wxjin)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺主凶。";
-                                        }
-                                    }
-                                    if (wxmu < wxshui)//禁水
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神水=正印-枭神（克制），其次=木-比肩-劫财（破财）";
-                                        if (wxhuo + wxtu < wxjin)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺主凶。";
-                                        }
-                                    }
-
-                                }
-
-                            }
-                            if (rtg == ren || rtg == gui)
-                            {
-
-                                if (wxmu > wxtu && wxhuo > wxtu)//喜土
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=土=正官-七杀，其次=木-食神-伤官，火-正财-偏财";
-                                    linkLabel21.Text = "此命逢：春季食禄，夏季发财，秋季受克制，冬季破财。四季官学荣升。";
-                                    if (wxshui < wxjin)//禁水
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=水-比肩-劫财（破财），其次=金-正印-枭神（克制）";
-
-                                    }
-                                    if (wxjin > wxshui)//禁金
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神金=正印-枭神（克制），其次=水-比肩-劫财（破财）";
-
-                                    }
-
-                                }
-
-                                if (wxtu > wxmu && wxhuo > wxmu)//喜木
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=木=食神-伤官，其次=土-正官-七杀，火-正财-偏财";
-                                    linkLabel21.Text = "此命逢：春季食禄，夏季发财，秋季受克制，冬季破财。四季官学荣升。";
-                                    if (wxshui < wxjin)//禁水
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=水-比肩-劫财（破财），其次=金-正印-枭神（克制）";
-                                        if (wxmu + wxtu < wxhuo)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺主凶。";
-                                        }
-                                    }
-                                    if (wxjin > wxshui)//禁金
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神金=正印-枭神（克制），其次=水-比肩-劫财（破财）";
-                                        if (wxmu + wxtu < wxhuo)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺主凶。";
-                                        }
-                                    }
-
-                                }
-
-                                if (wxtu > wxhuo && wxmu > wxhuo)//喜火
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=火-正财-偏财，其次=土-正官-七杀，木=食神-伤官";
-                                    linkLabel21.Text = "此命逢：春季食禄，夏季发财，秋季受克制，冬季破财。四季官学荣升。";
-                                    if (wxshui < wxjin)//禁水
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=水-比肩-劫财（破财），其次=金-正印-枭神（克制）";
-                                    }
-                                    if (wxjin > wxshui)//禁金
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神金=正印-枭神（克制），其次=水-比肩-劫财（破财）";
-                                    }
-
-                                }
-
-
-                            }
-                        }
-                    }
-                    //男身弱
-                    if (radioButtonll.Checked)
-                    {
-                        if (wangshuai < 50)
-                        {
-                            if (rtg == geng || rtg == xin)
-                            {
-                                if (wxtu >= wxjin)//喜金
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=金=比肩-劫财（朋友），其次=土-正印-枭神（贵人）";
-                                    linkLabel21.Text = "此命逢：春季刑伤，夏季受克制，秋季发财，冬季散财。四季有贵人助。";
-                                    if (wxhuo > wxshui && wxhuo > wxmu)//禁火
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=火-正官-七杀（克制），其次=木-正财-偏财（伤害），水-食神-伤官（散财）";
-
-                                    }
-                                    if (wxmu > wxshui && wxmu > wxhuo)//禁木
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=木-正财-偏财（伤害），其次=火-正官-七杀（克制），水-食神-伤官（散财）";
-                                        if (wxshui + wxhuo < wxmu)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺大凶。";
-                                        }
-                                    }
-                                    if (wxshui > wxhuo && wxshui > wxmu)//禁水
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=水-食神-伤官（散财），其次=火-正官-七杀（克制），木-正财-偏财（伤害）";
-
-                                    }
-                                }
-                                if (wxjin > wxtu)//喜土
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=土-正印-枭神（贵人），其次=金=比肩-劫财（朋友）";
-                                    linkLabel21.Text = "此命逢：春季刑伤，夏季受克制，秋季发财，冬季散财。四季有贵人助。";
-                                    if (wxhuo > wxshui && wxhuo > wxmu)//禁火
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=火-正官-七杀（克制），其次=木-正财-偏财（伤害），水-食神-伤官（散财）";
-
-                                    }
-                                    if (wxmu > wxshui && wxmu > wxhuo)//禁木
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=木-正财-偏财（伤害），其次=火-正官-七杀（克制），水-食神-伤官（散财）";
-                                        if (wxshui + wxhuo < wxmu)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺大凶。";
-                                        }
-                                    }
-                                    if (wxshui > wxhuo && wxshui > wxmu)//禁水
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=水-食神-伤官（散财），其次=火-正官-七杀（克制），木-正财-偏财（伤害）";
-
-                                    }
-                                }
-                            }
-                            if (rtg == jia || rtg == yii)
-                            {
-                                if (wxshui >= wxmu)//喜木
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=木=比肩-劫财（朋友），其次=水-正印-枭神（贵人）";
-                                    linkLabel21.Text = "此命逢：春季发财，夏季散财，秋季受克制，冬季有贵人助。四季刑伤。";
-                                    if (wxhuo > wxjin && wxhuo > wxtu)//禁火
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=火-食神-伤官（散财），其次=金-正官-七杀（克制），土-正财-偏财（伤害）";
-
-                                    }
-                                    if (wxjin > wxtu && wxjin > wxhuo)//禁金
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=金-正官-七杀（克制），其次=土-正财-偏财（伤害），火-食神-伤官（散财）";
-
-                                    }
-                                    if (wxtu > wxhuo && wxtu > wxjin)//禁土
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=土-正财-偏财（伤害），其次=金-正官-七杀（克制），火-食神-伤官（散财）";
-                                        if (wxjin + wxhuo < wxtu)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺大凶。";
-                                        }
-                                    }
-                                }
-                                if (wxmu > wxshui)//喜水
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=水-正印-枭神（贵人），其次=木=比肩-劫财（朋友）";
-                                    linkLabel21.Text = "此命逢：春季发财，夏季散财，秋季受克制，冬季有贵人助。四季刑伤。";
-                                    if (wxhuo > wxjin && wxhuo > wxtu)//禁火
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=火-食神-伤官（散财），其次=金-正官-七杀（克制），土-正财-偏财（伤害）";
-
-                                    }
-                                    if (wxjin > wxtu && wxjin > wxhuo)//禁金
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=金-正官-七杀（克制），其次=土-正财-偏财（伤害），火-食神-伤官（散财）";
-
-                                    }
-                                    if (wxtu > wxhuo && wxtu > wxjin)//禁土
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=土-正财-偏财（伤害），其次=金-正官-七杀（克制），火-食神-伤官（散财）";
-                                        if (wxjin + wxhuo < wxtu)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺大凶。";
-                                        }
-                                    }
-                                }
-                            }
-                            if (rtg == wuu || rtg == jii)
-                            {
-                                if (wxhuo >= wxtu)//喜土
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=土=比肩-劫财（朋友），其次=火-正印-枭神（贵人）";
-                                    linkLabel21.Text = "此命逢：春季受克制，夏季有贵人助，秋季散财，冬季刑伤。四季发财。";
-                                    if (wxmu > wxjin && wxmu > wxshui)//禁木
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=木-正官-七杀（克制），其次=水-正财-偏财（伤害），金-食神-伤官（散财）";
-
-                                    }
-                                    if (wxjin > wxmu && wxjin > wxshui)//禁金
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=金-食神-伤官（散财），其次=木-正官-七杀（克制），水-正财-偏财（伤害）";
-
-                                    }
-                                    if (wxshui > wxmu && wxshui > wxjin)//禁水
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=水-正财-偏财（伤害），其次=木-正官-七杀（克制），金-食神-伤官（散财）";
-                                        if (wxjin + wxhuo < wxtu)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺大凶。";
-                                        }
-                                    }
-                                }
-                                if (wxtu > wxhuo)//喜火
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=火-正印-枭神（贵人），其次=土=比肩-劫财（朋友）";
-                                    linkLabel21.Text = "此命逢：春季受克制，夏季有贵人助，秋季散财，冬季刑伤。四季发财。";
-                                    if (wxmu > wxjin && wxmu > wxshui)//禁木
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=木-正官-七杀（克制），其次=水-正财-偏财（伤害），金-食神-伤官（散财）";
-
-                                    }
-                                    if (wxjin > wxmu && wxjin > wxshui)//禁金
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=金-食神-伤官（散财），其次=木-正官-七杀（克制），水-正财-偏财（伤害）";
-
-                                    }
-                                    if (wxshui > wxmu && wxshui > wxjin)//禁水
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=水-正财-偏财（伤害），其次=木-正官-七杀（克制），金-食神-伤官（散财）";
-                                        if (wxjin + wxhuo < wxtu)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺大凶。";
-                                        }
-                                    }
-                                }
-
-                            }
-                            if (rtg == ren || rtg == gui)
-                            {
-                                if (wxjin >= wxshui)//喜水
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=水=比肩-劫财（朋友），其次=金-正印-枭神（贵人）";
-                                    linkLabel21.Text = "此命逢：春季散财，夏季刑伤，秋季有贵人助，冬季破财。四季受克制。";
-                                    if (wxmu > wxhuo && wxmu > wxtu)//禁木
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=木-食神-伤官（散财），其次=土-正官-七杀（克制），火-正财-偏财（伤害）";
-
-                                    }
-                                    if (wxtu > wxmu && wxtu > wxhuo)//禁土
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=土-正官-七杀（克制），其次=火-正财-偏财（伤害），木-食神-伤官（散财）";
-
-                                    }
-                                    if (wxhuo > wxmu && wxhuo > wxtu)//禁火
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=火-正财-偏财（伤害），其次=土-正官-七杀（克制），木-食神-伤官（散财）";
-                                        if (wxmu + wxtu < wxhuo)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺大凶。";
-                                        }
-                                    }
-                                }
-                                if (wxshui > wxjin)//喜金
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=金-正印-枭神（贵人），其次=水=比肩-劫财（朋友）";
-                                    linkLabel21.Text = "此命逢：春季散财，夏季刑伤，秋季有贵人助，冬季破财。四季受克制。";
-                                    if (wxmu > wxhuo && wxmu > wxtu)//禁木
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=木-食神-伤官（散财），其次=土-正官-七杀（克制），火-正财-偏财（伤害）";
-
-                                    }
-                                    if (wxtu > wxmu && wxtu > wxhuo)//禁土
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=土-正官-七杀（克制），其次=火-正财-偏财（伤害），木-食神-伤官（散财）";
-
-                                    }
-                                    if (wxhuo > wxmu && wxhuo > wxtu)//禁火
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=火-正财-偏财（伤害），其次=土-正官-七杀（克制），木-食神-伤官（散财）";
-                                        if (wxmu + wxtu < wxhuo)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺大凶。";
-                                        }
-                                    }
-                                }
-                            }
-                            if (rtg == bing || rtg == ding)
-                            {
-                                if (wxmu >= wxhuo)//喜火
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=火=比肩-劫财（朋友），其次=木-正印-枭神（贵人）";
-                                    linkLabel21.Text = "此命逢：春季有贵人助，夏季发财，秋季刑伤，冬季受克制。四季散财。";
-                                    if (wxshui > wxtu && wxshui > wxjin)//禁水
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=水-正官-七杀（克制），其次=金-正财-偏财（伤害），土-食神-伤官（散财）";
-
-                                    }
-                                    if (wxtu > wxshui && wxtu > wxjin)//禁土
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=土-食神-伤官（散财），其次=水-正官-七杀（克制），金-正财-偏财（伤害）";
-
-                                    }
-                                    if (wxjin > wxshui && wxjin > wxtu)//禁金
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=金-正财-偏财（伤害），其次=水-正官-七杀（克制），土-食神-伤官（散财）";
-                                        if (wxjin + wxhuo < wxtu)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺大凶。";
-                                        }
-                                    }
-                                }
-                                if (wxhuo > wxmu)//喜木
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=木-正印-枭神（贵人），其次=火=比肩-劫财（朋友）";
-                                    linkLabel21.Text = "此命逢：春季有贵人助，夏季发财，秋季刑伤，冬季受克制。四季散财。";
-                                    if (wxshui > wxtu && wxshui > wxjin)//禁水
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=水-正官-七杀（克制），其次=金-正财-偏财（伤害），土-食神-伤官（散财）";
-
-                                    }
-                                    if (wxtu > wxshui && wxtu > wxjin)//禁土
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=土-食神-伤官（散财），其次=水-正官-七杀（克制），金-正财-偏财（伤害）";
-
-                                    }
-                                    if (wxjin > wxshui && wxjin > wxtu)//禁金
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=金-正财-偏财（伤害），其次=水-正官-七杀（克制），土-食神-伤官（散财）";
-                                        if (wxjin + wxhuo < wxtu)
-                                        {
-                                            linkLabeljy.Text += "。男命财旺大凶。";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    //女身弱
-                    if (radioButtonvv.Checked)
-                    {
-                        if (wangshuai < 50)
-                        {
-                            if (rtg == geng || rtg == xin)
-                            {
-                                if (wxtu >= wxjin)//喜金
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=金=比肩-劫财（朋友），其次=土-正印-枭神（贵人）";
-                                    linkLabel21.Text = "此命逢：春季刑伤，夏季受克制，秋季发财，冬季散财。四季有贵人助。";
-                                    if (wxhuo > wxshui && wxhuo > wxmu)//禁火
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=火-正官-七杀（克制），其次=木-正财-偏财（伤害），水-食神-伤官（散财）";
-                                        if (wxshui + wxmu < wxhuo)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺大凶。";
-                                        }
-                                    }
-                                    if (wxmu > wxshui && wxmu > wxhuo)//禁木
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=木-正财-偏财（伤害），其次=火-正官-七杀（克制），水-食神-伤官（散财）";
-
-                                    }
-                                    if (wxshui > wxhuo && wxshui > wxmu)//禁水
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=水-食神-伤官（散财），其次=火-正官-七杀（克制），木-正财-偏财（伤害）";
-
-                                    }
-                                }
-                                if (wxjin > wxtu)//喜土
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=土-正印-枭神（贵人），其次=金=比肩-劫财（朋友）";
-                                    linkLabel21.Text = "此命逢：春季刑伤，夏季受克制，秋季发财，冬季散财。四季有贵人助。";
-                                    if (wxhuo > wxshui && wxhuo > wxmu)//禁火
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=火-正官-七杀（克制），其次=木-正财-偏财（伤害），水-食神-伤官（散财）";
-                                        if (wxshui + wxmu < wxhuo)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺大凶。";
-                                        }
-                                    }
-                                    if (wxmu > wxshui && wxmu > wxhuo)//禁木
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=木-正财-偏财（伤害），其次=火-正官-七杀（克制），水-食神-伤官（散财）";
-
-                                    }
-                                    if (wxshui > wxhuo && wxshui > wxmu)//禁水
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=水-食神-伤官（散财），其次=火-正官-七杀（克制），木-正财-偏财（伤害）";
-
-                                    }
-                                }
-                            }
-                            if (rtg == jia || rtg == yii)
-                            {
-                                if (wxshui >= wxmu)//喜木
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=木=比肩-劫财（朋友），其次=水-正印-枭神（贵人）";
-                                    linkLabel21.Text = "此命逢：春季发财，夏季散财，秋季受克制，冬季有贵人助。四季刑伤。";
-                                    if (wxhuo > wxjin && wxhuo > wxtu)//禁火
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=火-食神-伤官（散财），其次=金-正官-七杀（克制），土-正财-偏财（伤害）";
-
-                                    }
-                                    if (wxjin > wxtu && wxjin > wxhuo)//禁金
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=金-正官-七杀（克制），其次=土-正财-偏财（伤害），火-食神-伤官（散财）";
-                                        if (wxtu + wxhuo < wxjin)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺大凶。";
-                                        }
-                                    }
-                                    if (wxtu > wxhuo && wxtu > wxjin)//禁土
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=土-正财-偏财（伤害），其次=金-正官-七杀（克制），火-食神-伤官（散财）";
-
-                                    }
-                                }
-                                if (wxmu > wxshui)//喜水
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=水-正印-枭神（贵人），其次=木=比肩-劫财（朋友）";
-                                    linkLabel21.Text = "此命逢：春季发财，夏季散财，秋季受克制，冬季有贵人助。四季刑伤。";
-                                    if (wxhuo > wxjin && wxhuo > wxtu)//禁火
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=火-食神-伤官（散财），其次=金-正官-七杀（克制），土-正财-偏财（伤害）";
-
-                                    }
-                                    if (wxjin > wxtu && wxjin > wxhuo)//禁金
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=金-正官-七杀（克制），其次=土-正财-偏财（伤害），火-食神-伤官（散财）";
-                                        if (wxtu + wxhuo < wxjin)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺大凶。";
-                                        }
-                                    }
-                                    if (wxtu > wxhuo && wxtu > wxjin)//禁土
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=土-正财-偏财（伤害），其次=金-正官-七杀（克制），火-食神-伤官（散财）";
-
-                                    }
-                                }
-                            }
-                            if (rtg == wuu || rtg == jii)
-                            {
-                                if (wxhuo >= wxtu)//喜土
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=土=比肩-劫财（朋友），其次=火-正印-枭神（贵人）";
-                                    linkLabel21.Text = "此命逢：春季受克制，夏季有贵人助，秋季散财，冬季刑伤。四季发财。";
-                                    if (wxmu > wxjin && wxmu > wxshui)//禁木
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=木-正官-七杀（克制），其次=水-正财-偏财（伤害），金-食神-伤官（散财）";
-                                        if (wxjin + wxshui < wxmu)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺大凶。";
-                                        }
-                                    }
-                                    if (wxjin > wxmu && wxjin > wxshui)//禁金
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=金-食神-伤官（散财），其次=木-正官-七杀（克制），水-正财-偏财（伤害）";
-
-                                    }
-                                    if (wxshui > wxmu && wxshui > wxjin)//禁水
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=水-正财-偏财（伤害），其次=木-正官-七杀（克制），金-食神-伤官（散财）";
-
-                                    }
-                                }
-                                if (wxtu > wxhuo)//喜火
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=火-正印-枭神（贵人），其次=土=比肩-劫财（朋友）";
-                                    linkLabel21.Text = "此命逢：春季受克制，夏季有贵人助，秋季散财，冬季刑伤。四季发财。";
-                                    if (wxmu > wxjin && wxmu > wxshui)//禁木
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=木-正官-七杀（克制），其次=水-正财-偏财（伤害），金-食神-伤官（散财）";
-                                        if (wxjin + wxshui < wxmu)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺大凶。";
-                                        }
-                                    }
-                                    if (wxjin > wxmu && wxjin > wxshui)//禁金
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=金-食神-伤官（散财），其次=木-正官-七杀（克制），水-正财-偏财（伤害）";
-
-                                    }
-                                    if (wxshui > wxmu && wxshui > wxjin)//禁水
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=水-正财-偏财（伤害），其次=木-正官-七杀（克制），金-食神-伤官（散财）";
-
-                                    }
-                                }
-
-                            }
-                            if (rtg == ren || rtg == gui)
-                            {
-                                if (wxjin >= wxshui)//喜水
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=水=比肩-劫财（朋友），其次=金-正印-枭神（贵人）";
-                                    linkLabel21.Text = "此命逢：春季散财，夏季刑伤，秋季有贵人助，冬季破财。四季受克制。";
-                                    if (wxmu > wxhuo && wxmu > wxtu)//禁木
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=木-食神-伤官（散财），其次=土-正官-七杀（克制），火-正财-偏财（伤害）";
-
-                                    }
-                                    if (wxtu > wxmu && wxtu > wxhuo)//禁土
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=土-正官-七杀（克制），其次=火-正财-偏财（伤害），木-食神-伤官（散财）";
-                                        if (wxmu + wxhuo < wxtu)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺大凶。";
-                                        }
-                                    }
-                                    if (wxhuo > wxmu && wxhuo > wxtu)//禁火
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=火-正财-偏财（伤害），其次=土-正官-七杀（克制），木-食神-伤官（散财）";
-
-                                    }
-                                }
-                                if (wxshui > wxjin)//喜金
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=金-正印-枭神（贵人），其次=水=比肩-劫财（朋友）";
-                                    linkLabel21.Text = "此命逢：春季散财，夏季刑伤，秋季有贵人助，冬季破财。四季受克制。";
-                                    if (wxmu > wxhuo && wxmu > wxtu)//禁木
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=木-食神-伤官（散财），其次=土-正官-七杀（克制），火-正财-偏财（伤害）";
-
-                                    }
-                                    if (wxtu > wxmu && wxtu > wxhuo)//禁土
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=土-正官-七杀（克制），其次=火-正财-偏财（伤害），木-食神-伤官（散财）";
-                                        if (wxmu + wxhuo < wxtu)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺大凶。";
-                                        }
-                                    }
-                                    if (wxhuo > wxmu && wxhuo > wxtu)//禁火
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=火-正财-偏财（伤害），其次=土-正官-七杀（克制），木-食神-伤官（散财）";
-                                        if (wxjin + wxhuo < wxtu)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺大凶。";
-                                        }
-                                    }
-                                }
-                            }
-                            if (rtg == bing || rtg == ding)
-                            {
-                                if (wxmu >= wxhuo)//喜火
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=火=比肩-劫财（朋友），其次=木-正印-枭神（贵人）";
-                                    linkLabel21.Text = "此命逢：春季有贵人助，夏季发财，秋季刑伤，冬季受克制。四季散财。";
-                                    if (wxshui > wxtu && wxshui > wxjin)//禁水
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=水-正官-七杀（克制），其次=金-正财-偏财（伤害），土-食神-伤官（散财）";
-                                        if (wxtu + wxjin < wxshui)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺大凶。";
-                                        }
-                                    }
-                                    if (wxtu > wxshui && wxtu > wxjin)//禁土
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=土-食神-伤官（散财），其次=水-正官-七杀（克制），金-正财-偏财（伤害）";
-
-                                    }
-                                    if (wxjin > wxshui && wxjin > wxtu)//禁金
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=金-正财-偏财（伤害），其次=水-正官-七杀（克制），土-食神-伤官（散财）";
-
-                                    }
-                                }
-                                if (wxhuo > wxmu)//喜木
-                                {
-                                    linkLabelxy.Text = "此命：最喜用神=木-正印-枭神（贵人），其次=火=比肩-劫财（朋友）";
-                                    linkLabel21.Text = "此命逢：春季有贵人助，夏季发财，秋季刑伤，冬季受克制。四季散财。";
-                                    if (wxshui > wxtu && wxshui > wxjin)//禁水
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=水-正官-七杀（克制），其次=金-正财-偏财（伤害），土-食神-伤官（散财）";
-                                        if (wxtu + wxjin < wxshui)
-                                        {
-                                            linkLabeljy.Text += "。女命官杀旺大凶。";
-                                        }
-                                    }
-                                    if (wxtu > wxshui && wxtu > wxjin)//禁土
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=土-食神-伤官（散财），其次=水-正官-七杀（克制），金-正财-偏财（伤害）";
-
-                                    }
-                                    if (wxjin > wxshui && wxjin > wxtu)//禁金
-                                    {
-                                        linkLabeljy.Text = "此命：最禁用神=金-正财-偏财（伤害），其次=水-正官-七杀（克制），土-食神-伤官（散财）";
-
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
                 //命盘阴阳
                 if (jia == jia)
                 {
@@ -37085,7 +35897,7 @@ namespace BaZiFuZuGongJu
                     linkLabellnssn.Visible = true; linkLabellnssy.Visible = true; linkLabellnssr.Visible = true; linkLabellnsss.Visible = true;
                     button65.Visible = true; button61.Visible = true; button58.Visible = true;
                     button57.Visible = true; button63.Visible = true; button55.Visible = true;
-                    button62.Visible = true; button52.Visible = true; linkLabelxy.Text = ""; linkLabeljy.Text = ""; linkLabel21.Text = "";
+                    button62.Visible = true; button52.Visible = true;
                     linkLabellnssn.Text = ""; linkLabellnssy.Text = ""; linkLabellnssr.Text = ""; linkLabellnsss.Text = "";
                     linkLabel20.Visible = true;
                     button37.Visible = true; button37.Text = ""; button29.Visible = true; button29.Text = ""; button33.Visible = true; button33.Text = "";
@@ -46457,1702 +45269,6 @@ namespace BaZiFuZuGongJu
                     }
 
                 }
-                //刑冲克害合合
-                if (jia == jia)
-                {
-                    //地支相刑
-                    if (ndz == shen || ydz == shen || rdz == shen || sdz == shen)
-                    {
-                        if (ndz == yin || ydz == yin || rdz == yin || sdz == yin)
-                        {
-                            linkLabeljy.Text += "申刑寅-";
-                        }
-                    }
-                    if (ndz == sii || ydz == sii || rdz == sii || sdz == sii)
-                    {
-                        if (ndz == yin || ydz == yin || rdz == yin || sdz == yin)
-                        {
-                            linkLabeljy.Text += "寅刑巳-";
-                        }
-                    }
-                    if (ndz == sii || ydz == sii || rdz == sii || sdz == sii)
-                    {
-                        if (ndz == shen || ydz == shen || rdz == shen || sdz == shen)
-                        {
-                            linkLabeljy.Text += "巳刑申-";
-                        }
-                    }
-                    if (ndz == xuu || ydz == xuu || rdz == xuu || sdz == xuu)
-                    {
-                        if (ndz == wei || ydz == wei || rdz == wei || sdz == wei)
-                        {
-                            linkLabeljy.Text += "戌刑未-";
-                        }
-                    }
-                    if (ndz == chou || ydz == chou || rdz == chou || sdz == chou)
-                    {
-                        if (ndz == wei || ydz == wei || rdz == wei || sdz == wei)
-                        {
-                            linkLabeljy.Text += "未刑丑-";
-                        }
-                    }
-                    if (ndz == chou || ydz == chou || rdz == chou || sdz == chou)
-                    {
-                        if (ndz == xuu || ydz == xuu || rdz == xuu || sdz == xuu)
-                        {
-                            linkLabeljy.Text += "丑刑戌-";
-                        }
-                    }
-                    if (ndz == chen)
-                    {
-                        if (ydz == chen || rdz == chen || sdz == chen)
-                        {
-                            linkLabeljy.Text += "辰自刑-";
-                        }
-                    }
-                    else if (sdz == chen)
-                    {
-                        if (ydz == chen || rdz == chen || ndz == chen)
-                        {
-                            linkLabeljy.Text += "辰自刑-";
-                        }
-                    }
-                    if (ndz == wuma)
-                    {
-                        if (ydz == wuma || rdz == wuma || sdz == wuma)
-                        {
-                            linkLabeljy.Text += "午自刑-";
-                        }
-                    }
-                    else if (sdz == wuma)
-                    {
-                        if (ndz == wuma || ydz == wuma || rdz == wuma)
-                        {
-                            linkLabeljy.Text += "午自刑-";
-                        }
-                    }
-                    if (ndz == you)
-                    {
-                        if (ydz == you || rdz == you || sdz == you)
-                        {
-                            linkLabeljy.Text += "酉自刑-";
-                        }
-                    }
-                    else if (sdz == you)
-                    {
-                        if (ndz == you || ydz == you || rdz == you)
-                        {
-                            linkLabeljy.Text += "酉自刑-";
-                        }
-                    }
-                    if (ndz == hai)
-                    {
-                        if (ydz == hai || rdz == hai || sdz == hai)
-                        {
-                            linkLabeljy.Text += "亥自刑-";
-                        }
-                    }
-                    else if (sdz == hai)
-                    {
-                        if (ndz == hai || ydz == hai || rdz == hai)
-                        {
-                            linkLabeljy.Text += "亥自刑-";
-                        }
-                    }
-                    if (ndz == mao || ydz == mao || rdz == mao || sdz == mao)
-                    {
-                        if (ndz == zii || ydz == zii || rdz == zii || sdz == zii)
-                        {
-                            linkLabeljy.Text += "子卯互刑-";
-                        }
-                    }
-                    //天干冲
-                    if (ntg == jia || ytg == jia || rtg == jia || stg == jia)
-                    {
-                        if (ntg == geng || ytg == geng || rtg == geng || stg == geng)
-                        {
-                            linkLabeljy.Text += "甲庚冲-";
-                        }
-                    }
-                    if (ntg == yii || ytg == yii || rtg == yii || stg == yii)
-                    {
-                        if (ntg == xin || ytg == xin || rtg == xin || stg == xin)
-                        {
-                            linkLabeljy.Text += "乙辛冲-";
-                        }
-                    }
-                    if (ntg == bing || ytg == bing || rtg == bing || stg == bing)
-                    {
-                        if (ntg == ren || ytg == ren || rtg == ren || stg == ren)
-                        {
-                            linkLabeljy.Text += "丙壬冲-";
-                        }
-                    }
-                    if (ntg == ding || ytg == ding || rtg == ding || stg == ding)
-                    {
-                        if (ntg == gui || ytg == gui || rtg == gui || stg == gui)
-                        {
-                            linkLabeljy.Text += "丁癸冲-";
-                        }
-                    }
-
-                    //地支六冲
-                    if (ndz == zii || ydz == zii || rdz == zii || sdz == zii)
-                    {
-                        if (ndz == wuma || ydz == wuma || rdz == wuma || sdz == wuma)
-                        {
-                            linkLabeljy.Text += "子午冲-";
-                        }
-                    }
-                    if (ndz == mao || ydz == mao || rdz == mao || sdz == mao)
-                    {
-                        if (ndz == you || ydz == you || rdz == you || sdz == you)
-                        {
-                            linkLabeljy.Text += "卯酉冲-";
-                        }
-                    }
-                    if (ndz == yin || ydz == yin || rdz == yin || sdz == yin)
-                    {
-                        if (ndz == shen || ydz == shen || rdz == shen || sdz == shen)
-                        {
-                            linkLabeljy.Text += "寅申冲-";
-                        }
-                    }
-                    if (ndz == sii || ydz == sii || rdz == sii || sdz == sii)
-                    {
-                        if (ndz == hai || ydz == hai || rdz == hai || sdz == hai)
-                        {
-                            linkLabeljy.Text += "巳亥冲-";
-                        }
-                    }
-                    if (ndz == chen || ydz == chen || rdz == chen || sdz == chen)
-                    {
-                        if (ndz == xuu || ydz == xuu || rdz == xuu || sdz == xuu)
-                        {
-                            linkLabeljy.Text += "辰戌冲-";
-                        }
-                    }
-                    if (ndz == chou || ydz == chou || rdz == chou || sdz == chou)
-                    {
-                        if (ndz == wei || ydz == wei || rdz == wei || sdz == wei)
-                        {
-                            linkLabeljy.Text += "丑未冲-";
-                        }
-                    }
-
-                    //地支六破
-                    if (ndz == zii || ydz == zii || rdz == zii || sdz == zii)
-                    {
-                        if (ndz == you || ydz == you || rdz == you || sdz == you)
-                        {
-                            linkLabeljy.Text += "子酉破-";
-                        }
-                    }
-                    if (ndz == chou || ydz == chou || rdz == chou || sdz == chou)
-                    {
-                        if (ndz == chen || ydz == chen || rdz == chen || sdz == chen)
-                        {
-                            linkLabeljy.Text += "丑辰破-";
-                        }
-                    }
-                    if (ndz == yin || ydz == yin || rdz == yin || sdz == yin)
-                    {
-                        if (ndz == hai || ydz == hai || rdz == hai || sdz == hai)
-                        {
-                            linkLabeljy.Text += "寅亥破-";
-                        }
-                    }
-                    if (ndz == mao || ydz == mao || rdz == mao || sdz == mao)
-                    {
-                        if (ndz == wuma || ydz == wuma || rdz == wuma || sdz == wuma)
-                        {
-                            linkLabeljy.Text += "卯午破-";
-                        }
-                    }
-                    if (ndz == sii || ydz == sii || rdz == sii || sdz == sii)
-                    {
-                        if (ndz == shen || ydz == shen || rdz == shen || sdz == shen)
-                        {
-                            linkLabeljy.Text += "巳申破-";
-                        }
-                    }
-                    if (ndz == wei || ydz == wei || rdz == wei || sdz == wei)
-                    {
-                        if (ndz == xuu || ydz == xuu || rdz == xuu || sdz == xuu)
-                        {
-                            linkLabeljy.Text += "未戌破-";
-                        }
-                    }
-
-                    //地支六害
-                    if (ndz == zii || ydz == zii || rdz == zii || sdz == zii)
-                    {
-                        if (ndz == wei || ydz == wei || rdz == wei || sdz == wei)
-                        {
-                            linkLabeljy.Text += "子未害-";
-                        }
-                    }
-                    if (ndz == chou || ydz == chou || rdz == chou || sdz == chou)
-                    {
-                        if (ndz == wuma || ydz == wuma || rdz == wuma || sdz == wuma)
-                        {
-                            linkLabeljy.Text += "丑午害-";
-                        }
-                    }
-                    if (ndz == yin || ydz == yin || rdz == yin || sdz == yin)
-                    {
-                        if (ndz == sii || ydz == sii || rdz == sii || sdz == sii)
-                        {
-                            linkLabeljy.Text += "寅巳害-";
-                        }
-                    }
-                    if (ndz == mao || ydz == mao || rdz == mao || sdz == mao)
-                    {
-                        if (ndz == chen || ydz == chen || rdz == chen || sdz == chen)
-                        {
-                            linkLabeljy.Text += "卯辰害-";
-                        }
-                    }
-                    if (ndz == shen || ydz == shen || rdz == shen || sdz == shen)
-                    {
-                        if (ndz == hai || ydz == hai || rdz == hai || sdz == hai)
-                        {
-                            linkLabeljy.Text += "申亥害-";
-                        }
-                    }
-                    if (ndz == you || ydz == you || rdz == you || sdz == you)
-                    {
-                        if (ndz == xuu || ydz == xuu || rdz == xuu || sdz == xuu)
-                        {
-                            linkLabeljy.Text += "酉戌害-";
-                        }
-                    }
-                    //天干五合
-                    if (ntg != wuu && ytg != wuu && rtg != wuu && stg != wuu)
-                    {
-                        if (ntg == jia || ytg == jia || rtg == jia || stg == jia)
-                        {
-                            if (ntg == jii || ytg == jii || rtg == jii || stg == jii)
-                            {
-                                if (ydz == chen || ydz == chou || ydz == xuu || ydz == wei || ydz == wuma)
-                                {
-
-                                    if (wxmu == 1 && wxshui == 0)
-                                    {
-                                        wxmu -= 1;
-                                    }
-                                    linkLabelxy.Text += "甲已合土-"; wxtu += 1;
-
-                                }
-                            }
-                        }
-                    }
-                    if (ntg != jia && ytg != jia && rtg != jia && stg != jia)
-                    {
-                        if (ntg == yii || ytg == yii || rtg == yii || stg == yii)
-                        {
-                            if (ntg == geng || ytg == geng || rtg == geng || stg == geng)
-                            {
-                                if (ydz == sii || ydz == chou || ydz == you || ydz == shen)
-                                {
-
-                                    if (wxmu == 1 && wxshui == 0)
-                                    {
-                                        wxmu -= 1;
-                                    }
-                                    linkLabelxy.Text += "乙庚合金-"; wxjin += 1;
-
-                                }
-                            }
-                        }
-                    }
-                    if (ntg != ding && ytg != ding && rtg != ding && stg != ding)
-                    {
-                        if (ntg == bing || ytg == bing || rtg == bing || stg == bing)
-                        {
-                            if (ntg == xin || ytg == xin || rtg == xin || stg == xin)
-                            {
-                                if (ydz == chen || ydz == shen || ydz == zii || ydz == hai)
-                                {
-                                    if (wxhuo == 1 && wxmu == 0)
-                                    {
-                                        wxhuo -= 1;
-                                    }
-                                    if (wxjin == 1 && wxtu == 0)
-                                    {
-                                        wxjin -= 1;
-                                    }
-                                    linkLabelxy.Text += "丙辛合水-"; wxshui += 1;
-
-                                }
-                            }
-                        }
-                    }
-                    if (ntg != bing && ytg != bing && rtg != bing && stg != bing)
-                    {
-                        if (ntg == ding || ytg == ding || rtg == ding || stg == ding)
-                        {
-                            if (ntg == ren || ytg == ren || rtg == ren || stg == ren)
-                            {
-                                if (ydz == hai || ydz == mao || ydz == wei || ydz == yin)
-                                {
-                                    if (wxhuo == 1 && wxmu == 0)
-                                    {
-                                        wxhuo -= 1;
-                                    }
-                                    if (wxshui == 1 && wxjin == 0)
-                                    {
-                                        wxshui -= 1;
-                                    }
-                                    linkLabelxy.Text += "丁壬合木-"; wxmu += 1;
-
-                                }
-                            }
-                        }
-                    }
-                    if (ntg != jii && ytg != jii && rtg != jii && stg != jii)
-                    {
-                        if (ntg == wuu || ytg == wuu || rtg == wuu || stg == wuu)
-                        {
-                            if (ntg == gui || ytg == gui || rtg == gui || stg == gui)
-                            {
-                                if (ydz == yin || ydz == wuma || ydz == xuu || ydz == sii)
-                                {
-                                    if (wxtu == 1 && wxhuo == 0)
-                                    {
-                                        wxtu -= 1;
-                                    }
-                                    if (wxshui == 1 && wxjin == 0)
-                                    {
-                                        wxshui -= 1;
-                                    }
-                                    linkLabelxy.Text += "戊癸合火-"; wxhuo += 1;
-
-                                }
-                            }
-                        }
-                    }
-                    //地支六合
-                    if (ntg == wuu || ntg == jii || ytg == wuu || ytg == jii || rtg == wuu || rtg == jii || stg == wuu || stg == jii)
-                    {
-                        if (ndz == zii || ydz == zii || rdz == zii || sdz == zii)
-                        {
-                            if (ndz == chou || ydz == chou || rdz == chou || sdz == chou)
-                            {
-                                if (wxtu == 1 && wxhuo == 0)
-                                {
-                                    wxtu -= 1; wxjin -= 0.6; wxshui -= 0.3;
-                                }
-                                if (wxshui == 1 && wxjin == 0)
-                                {
-                                    wxshui -= 1;
-                                }
-                                wxtu += 1; linkLabelxy.Text += "子丑合土-";
-
-                            }
-                        }
-                    }
-                    if (ntg == jia || ntg == yii || ytg == jia || ytg == yii || rtg == jia || rtg == yii || stg == jia || stg == yii)
-                    {
-                        if (ndz == yin || ydz == yin || rdz == yin || sdz == yin)
-                        {
-                            if (ndz == hai || ydz == hai || rdz == hai || sdz == hai)
-                            {
-                                if (wxmu == 1 && wxshui == 0)
-                                {
-                                    wxmu -= 1; wxhuo -= 0.6; wxtu -= 0.3;
-                                }
-                                if (wxshui == 1 && wxjin == 0)
-                                {
-                                    wxshui -= 1; wxmu -= 0.6;
-                                }
-                                wxmu += 1; linkLabelxy.Text += "寅亥合木-";
-
-                            }
-                        }
-                    }
-                    if (ntg == bing || ntg == ding || ytg == bing || ytg == ding || rtg == bing || rtg == ding || stg == bing || stg == ding)
-                    {
-                        if (ndz == mao || ydz == mao || rdz == mao || sdz == mao)
-                        {
-                            if (ndz == xuu || ydz == xuu || rdz == xuu || sdz == xuu)
-                            {
-                                if (wxmu == 1 && wxshui == 0)
-                                {
-                                    wxmu -= 1;
-                                }
-                                if (wxtu == 1 && wxhuo == 0)
-                                {
-                                    wxshui -= 1; wxjin -= 0.6; wxhuo -= 0.3;
-                                }
-                                wxhuo += 1; linkLabelxy.Text += "卯戌合火-";
-
-                            }
-                        }
-                    }
-                    if (ntg == geng || ntg == xin || ytg == geng || ytg == xin || rtg == geng || rtg == xin || stg == geng || stg == xin)
-                    {
-                        if (ndz == chen || ydz == chen || rdz == chen || sdz == chen)
-                        {
-                            if (ndz == you || ydz == you || rdz == you || sdz == you)
-                            {
-                                if (wxjin == 1 && wxtu == 0)
-                                {
-                                    wxjin -= 1;
-                                }
-                                if (wxtu == 1 && wxhuo == 0)
-                                {
-                                    wxtu -= 1; wxmu -= 0.6; wxshui -= 0.3;
-                                }
-                                wxjin += 1; linkLabelxy.Text += "辰酉合金-";
-
-                            }
-                        }
-                    }
-                    if (ntg == ren || ntg == gui || ytg == ren || ytg == gui || rtg == ren || rtg == gui || stg == ren || stg == gui)
-                    {
-                        if (ndz == sii || ydz == sii || rdz == sii || sdz == sii)
-                        {
-                            if (ndz == shen || ydz == shen || rdz == shen || sdz == shen)
-                            {
-                                if (wxhuo == 1 && wxmu == 0)
-                                {
-                                    wxhuo -= 1; wxtu -= 0.6; wxjin -= 0.3;
-                                }
-                                if (wxjin == 1 && wxtu == 0)
-                                {
-                                    wxjin -= 1; wxshui -= 0.6; wxtu -= 0.3;
-                                }
-                                wxshui += 1; linkLabelxy.Text += "巳申合水-";
-
-                            }
-                        }
-                    }
-                    if (ntg == wuu || ntg == jii || ytg == wuu || ytg == jii || rtg == wuu || rtg == jii || stg == wuu || stg == jii)
-                    {
-                        if (ndz == wuma || ydz == wuma || rdz == wuma || sdz == wuma)
-                        {
-                            if (ndz == wei || ydz == wei || rdz == wei || sdz == wei)
-                            {
-                                if (wxhuo == 1 && wxmu == 0)
-                                {
-                                    wxhuo -= 1; wxtu -= 0.6;
-                                }
-                                if (wxtu == 1 && wxhuo == 0)
-                                {
-                                    wxtu -= 1; wxhuo -= 0.6; wxmu -= 0.3;
-                                }
-                                wxtu += 1; linkLabelxy.Text += "午未合土-";
-
-                            }
-                        }
-                    }
-
-                    //地支三会
-                    if (ndz != shen || ndz != you || ndz != xuu || rdz != shen || rdz != you || rdz != xuu || sdz != shen || sdz != you || sdz != xuu)
-                    {
-                        if (ydz == yin || ydz == mao)
-                        {
-                            if (ndz == yin || ydz == yin || rdz == yin)
-                            {
-                                if (ndz == mao || ydz == mao || rdz == mao)
-                                {
-                                    if (ndz == chen || ydz == chen || rdz == chen)
-                                    {
-                                        if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
-                                        {
-                                            wxmu += 1; linkLabelxy.Text += "寅卯辰三会木局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == yin || ydz == mao)
-                        {
-                            if (sdz == yin || ydz == yin || rdz == yin)
-                            {
-                                if (sdz == mao || ydz == mao || rdz == mao)
-                                {
-                                    if (sdz == chen || ydz == chen || rdz == chen)
-                                    {
-                                        if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
-                                        {
-                                            wxmu += 1; linkLabelxy.Text += "寅卯辰三会木局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == yin || ydz == mao)
-                        {
-                            if (ndz == yin || ydz == yin || rdz == yin)
-                            {
-                                if (ndz == mao || ydz == mao || rdz == mao)
-                                {
-                                    if (ndz == chen || rdz == chen)
-                                    {
-                                        if (linkLabelxy.Text == "丁壬合木")
-                                        {
-                                            wxmu += 1; linkLabelxy.Text += "寅卯辰三会木局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == yin || ydz == mao)
-                        {
-                            if (sdz == yin || ydz == yin || rdz == yin)
-                            {
-                                if (sdz == mao || ydz == mao || rdz == mao)
-                                {
-                                    if (sdz == chen || rdz == chen)
-                                    {
-                                        if (linkLabelxy.Text == "丁壬合木")
-                                        {
-                                            wxmu += 1; linkLabelxy.Text += "寅卯辰三会木局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-
-                    }
-                    if (ndz != hai || ndz != zii || ndz != xuu || rdz != hai || rdz != zii || rdz != xuu || sdz != hai || sdz != zii || sdz != xuu || ndz != chou || rdz != chou || sdz != chou)
-                    {
-                        if (ydz == sii || ydz == wuma)
-                        {
-                            if (ndz == sii || ydz == sii || rdz == sii)
-                            {
-                                if (ndz == wuma || ydz == wuma || rdz == wuma)
-                                {
-                                    if (ndz == wei || ydz == wei || rdz == wei)
-                                    {
-                                        if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
-                                        {
-                                            wxhuo += 1; linkLabelxy.Text += "巳午未三会火局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == sii || ydz == wuma)
-                        {
-                            if (sdz == sii || ydz == sii || rdz == sii)
-                            {
-                                if (sdz == wuma || ydz == wuma || rdz == wuma)
-                                {
-                                    if (sdz == wei || ydz == wei || rdz == wei)
-                                    {
-                                        if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
-                                        {
-                                            wxhuo += 1; linkLabelxy.Text += "巳午未三会火局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == sii || ydz == wuma)
-                        {
-                            if (ndz == sii || ydz == sii || rdz == sii)
-                            {
-                                if (ndz == wuma || ydz == wuma || rdz == wuma)
-                                {
-                                    if (ndz == wei || rdz == wei)
-                                    {
-                                        if (linkLabelxy.Text == "戊癸合火")
-                                        {
-                                            wxhuo += 1; linkLabelxy.Text += "巳午未三会火局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == sii || ydz == wuma)
-                        {
-                            if (sdz == sii || ydz == sii || rdz == sii)
-                            {
-                                if (sdz == wuma || ydz == wuma || rdz == wuma)
-                                {
-                                    if (sdz == wei || rdz == wei)
-                                    {
-                                        if (linkLabelxy.Text == "戊癸合火")
-                                        {
-                                            wxhuo += 1; linkLabelxy.Text += "巳午未三会火局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-
-                    }
-                    if (ndz != yin || ndz != mao || ndz != chen || rdz != yin || rdz != mao || rdz != chen || sdz != yin || sdz != mao || sdz != chen || ndz != chou || rdz != chou || sdz != chou || ndz != sii || rdz != sii || sdz != sii)
-                    {
-                        if (ydz == shen || ydz == you)
-                        {
-                            if (ndz == shen || ydz == shen || rdz == shen)
-                            {
-                                if (ndz == you || ydz == you || rdz == you)
-                                {
-                                    if (ndz == xuu || ydz == xuu || rdz == xuu)
-                                    {
-                                        if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
-                                        {
-                                            wxjin += 1; linkLabelxy.Text += "申酉戌三会金局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == shen || ydz == you)
-                        {
-                            if (sdz == shen || ydz == shen || rdz == shen)
-                            {
-                                if (sdz == you || ydz == you || rdz == you)
-                                {
-                                    if (sdz == xuu || ydz == xuu || rdz == xuu)
-                                    {
-                                        if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
-                                        {
-                                            wxjin += 1; linkLabelxy.Text += "申酉戌三会金局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == shen || ydz == you)
-                        {
-                            if (ndz == shen || ydz == shen || rdz == shen)
-                            {
-                                if (ndz == you || ydz == you || rdz == you)
-                                {
-                                    if (ndz == xuu || rdz == xuu)
-                                    {
-                                        if (linkLabelxy.Text == "乙庚合金")
-                                        {
-                                            wxjin += 1; linkLabelxy.Text += "申酉戌三会金局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == shen || ydz == you)
-                        {
-                            if (sdz == shen || ydz == shen || rdz == shen)
-                            {
-                                if (sdz == you || ydz == you || rdz == you)
-                                {
-                                    if (sdz == xuu || rdz == xuu)
-                                    {
-                                        if (linkLabelxy.Text == "乙庚合金")
-                                        {
-                                            wxjin += 1; linkLabelxy.Text += "申酉戌三会金局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-
-                    }
-                    if (ndz != sii || ndz != wuma || ndz != wei || rdz != sii || rdz != wuma || rdz != wei || sdz != sii || sdz != wuma || sdz != wei || ndz != mao || rdz != mao || sdz != mao)
-                    {
-                        if (ydz == hai || ydz == zii)
-                        {
-                            if (ndz == hai || ydz == hai || rdz == hai)
-                            {
-                                if (ndz == zii || ydz == zii || rdz == zii)
-                                {
-                                    if (ndz == chou || ydz == chou || rdz == chou)
-                                    {
-                                        if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
-                                        {
-                                            wxshui += 1; linkLabelxy.Text += "亥子丑三会水局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == hai || ydz == zii)
-                        {
-                            if (sdz == hai || ydz == hai || rdz == hai)
-                            {
-                                if (sdz == zii || ydz == zii || rdz == zii)
-                                {
-                                    if (sdz == chou || ydz == chou || rdz == chou)
-                                    {
-                                        if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
-                                        {
-                                            wxshui += 1; linkLabelxy.Text += "亥子丑三会水局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == hai || ydz == zii)
-                        {
-                            if (ndz == hai || ydz == hai || rdz == hai)
-                            {
-                                if (ndz == zii || ydz == zii || rdz == zii)
-                                {
-                                    if (ndz == chou || rdz == chou)
-                                    {
-                                        if (linkLabelxy.Text == "丙辛合水")
-                                        {
-                                            wxshui += 1; linkLabelxy.Text += "亥子丑三会水局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == hai || ydz == zii)
-                        {
-                            if (sdz == hai || ydz == hai || rdz == hai)
-                            {
-                                if (sdz == zii || ydz == zii || rdz == zii)
-                                {
-                                    if (sdz == chou || rdz == chou)
-                                    {
-                                        if (linkLabelxy.Text == "丙辛合水")
-                                        {
-                                            wxshui += 1; linkLabelxy.Text += "亥子丑三会水局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-
-                    //地支三合
-                    if (ndz != sii || ndz != wuma || ndz != xuu || rdz != sii || rdz != wuma || rdz != xuu || sdz != sii || sdz != wuma || sdz != xuu || ndz != yin || rdz != yin || sdz != yin || ndz != mao || rdz != mao || sdz != mao)
-                    {
-                        if (ydz == shen || ydz == zii)
-                        {
-                            if (ndz == shen || ydz == shen || rdz == shen)
-                            {
-                                if (ndz == zii || ydz == zii || rdz == zii)
-                                {
-                                    if (ndz == chen || ydz == chen || rdz == chen)
-                                    {
-                                        if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
-                                        {
-                                            wxshui += 1; linkLabelxy.Text += "申子辰三合水局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == shen || ydz == zii)
-                        {
-                            if (sdz == shen || ydz == shen || rdz == shen)
-                            {
-                                if (sdz == zii || ydz == zii || rdz == zii)
-                                {
-                                    if (sdz == chen || ydz == chen || rdz == chen)
-                                    {
-                                        if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
-                                        {
-                                            wxshui += 1; linkLabelxy.Text += "申子辰三合水局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == shen || ydz == zii)
-                        {
-                            if (ndz == shen || ydz == shen || rdz == shen)
-                            {
-                                if (ndz == zii || ydz == zii || rdz == zii)
-                                {
-                                    if (ndz == chen || ydz == chen || rdz == chen)
-                                    {
-                                        if (linkLabelxy.Text == "丙辛合水")
-                                        {
-                                            wxshui += 1; linkLabelxy.Text += "申子辰三合水局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == shen || ydz == zii)
-                        {
-                            if (sdz == shen || ydz == shen || rdz == shen)
-                            {
-                                if (sdz == zii || ydz == zii || rdz == zii)
-                                {
-                                    if (sdz == chen || ydz == chen || rdz == chen)
-                                    {
-                                        if (linkLabelxy.Text == "丙辛合水")
-                                        {
-                                            wxshui += 1; linkLabelxy.Text += "申子辰三合水局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-
-                    }
-                    if (ndz != shen || ndz != zii || ndz != chou || rdz != shen || rdz != zii || rdz != chou || sdz != shen || sdz != zii || sdz != chou || ndz != chen || rdz != chen || sdz != chen)
-                    {
-                        if (ydz == yin || ydz == wuma)
-                        {
-                            if (ndz == yin || ydz == yin || rdz == yin)
-                            {
-                                if (ndz == wuma || ydz == wuma || rdz == wuma)
-                                {
-                                    if (ndz == xuu || ydz == xuu || rdz == xuu)
-                                    {
-                                        if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
-                                        {
-                                            wxhuo += 1; linkLabelxy.Text += "寅午戌三合火局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == yin || ydz == wuma)
-                        {
-                            if (sdz == yin || ydz == yin || rdz == yin)
-                            {
-                                if (sdz == wuma || ydz == wuma || rdz == wuma)
-                                {
-                                    if (sdz == xuu || ydz == xuu || rdz == xuu)
-                                    {
-                                        if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
-                                        {
-                                            wxhuo += 1; linkLabelxy.Text += "寅午戌三合火局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == yin || ydz == wuma)
-                        {
-                            if (ndz == yin || ydz == yin || rdz == yin)
-                            {
-                                if (ndz == wuma || ydz == wuma || rdz == wuma)
-                                {
-                                    if (ndz == xuu || ydz == xuu || rdz == xuu)
-                                    {
-                                        if (linkLabelxy.Text == "戊癸合火")
-                                        {
-                                            wxhuo += 1; linkLabelxy.Text += "寅午戌三合火局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == yin || ydz == wuma)
-                        {
-                            if (sdz == yin || ydz == yin || rdz == yin)
-                            {
-                                if (sdz == wuma || ydz == wuma || rdz == wuma)
-                                {
-                                    if (sdz == xuu || ydz == xuu || rdz == xuu)
-                                    {
-                                        if (linkLabelxy.Text == "戊癸合火")
-                                        {
-                                            wxhuo += 1; linkLabelxy.Text += "寅午戌三合火局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-
-                    }
-                    if (ndz != yin || ndz != mao || ndz != wei || rdz != yin || rdz != mao || rdz != wei || sdz != yin || sdz != mao || sdz != wei || ndz != hai || rdz != hai || sdz != hai)
-                    {
-                        if (ydz == sii || ydz == you)
-                        {
-                            if (ndz == sii || ydz == sii || rdz == sii)
-                            {
-                                if (ndz == you || ydz == you || rdz == you)
-                                {
-                                    if (ndz == chou || ydz == chou || rdz == chou)
-                                    {
-                                        if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
-                                        {
-                                            wxjin += 1; linkLabelxy.Text += "巳酉丑三合金局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == sii || ydz == you)
-                        {
-                            if (sdz == sii || ydz == sii || rdz == sii)
-                            {
-                                if (sdz == you || ydz == you || rdz == you)
-                                {
-                                    if (sdz == chou || ydz == chou || rdz == chou)
-                                    {
-                                        if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
-                                        {
-                                            wxjin += 1; linkLabelxy.Text += "巳酉丑三合金局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == you)
-                        {
-                            if (ndz == sii || ydz == sii || rdz == sii)
-                            {
-                                if (ndz == you || ydz == you || rdz == you)
-                                {
-                                    if (ndz == chou || ydz == chou || rdz == chou)
-                                    {
-                                        if (linkLabelxy.Text == "乙庚合金")
-                                        {
-                                            wxjin += 1; linkLabelxy.Text += "巳酉丑三合金局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == you)
-                        {
-                            if (sdz == sii || ydz == sii || rdz == sii)
-                            {
-                                if (sdz == you || ydz == you || rdz == you)
-                                {
-                                    if (sdz == chou || ydz == chou || rdz == chou)
-                                    {
-                                        if (linkLabelxy.Text == "乙庚合金")
-                                        {
-                                            wxjin += 1; linkLabelxy.Text += "巳酉丑三合金局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-
-                    }
-                    if (ndz != sii || ndz != you || ndz != xuu || rdz != sii || rdz != you || rdz != xuu || sdz != sii || sdz != you || sdz != xuu || ndz != zii || rdz != zii || sdz != zii || ndz != chou || rdz != chou || sdz != chou)
-                    {
-                        if (ydz == hai || ydz == mao)
-                        {
-                            if (ndz == hai || ydz == hai || rdz == hai)
-                            {
-                                if (ndz == mao || ydz == mao || rdz == mao)
-                                {
-                                    if (ndz == wei || ydz == wei || rdz == wei)
-                                    {
-                                        if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
-                                        {
-                                            wxmu += 1; linkLabelxy.Text += "亥卯未三合木局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == hai || ydz == mao)
-                        {
-                            if (sdz == hai || ydz == hai || rdz == hai)
-                            {
-                                if (sdz == mao || ydz == mao || rdz == mao)
-                                {
-                                    if (sdz == wei || ydz == wei || rdz == wei)
-                                    {
-                                        if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
-                                        {
-                                            wxmu += 1; linkLabelxy.Text += "亥卯未三合木局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == hai || ydz == mao)
-                        {
-                            if (ndz == hai || ydz == hai || rdz == hai)
-                            {
-                                if (ndz == mao || ydz == mao || rdz == mao)
-                                {
-                                    if (ndz == wei || ydz == wei || rdz == wei)
-                                    {
-                                        if (linkLabelxy.Text == "丁壬合木")
-                                        {
-                                            wxmu += 1; linkLabelxy.Text += "亥卯未三合木局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == hai || ydz == mao)
-                        {
-                            if (sdz == hai || ydz == hai || rdz == hai)
-                            {
-                                if (sdz == mao || ydz == mao || rdz == mao)
-                                {
-                                    if (sdz == wei || ydz == wei || rdz == wei)
-                                    {
-                                        if (linkLabelxy.Text == "丁壬合木")
-                                        {
-                                            wxmu += 1; linkLabelxy.Text += "亥卯未三合木局-";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-
-                    //半三合
-                    if (ndz != sii || ndz != wuma || ndz != yin || rdz != sii || rdz != wuma || rdz != yin || sdz != sii || sdz != wuma || sdz != yin || ndz != you || rdz != you || sdz != you || ndz != mao || rdz != mao || sdz != mao)
-                    {
-                        if (ydz == shen || ydz == zii)
-                        {
-                            if (ndz == shen || ydz == shen || rdz == shen)
-                            {
-                                if (ndz == zii || ydz == zii || rdz == zii)
-                                {
-                                    if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
-                                    {
-                                        wxshui += 1; linkLabelxy.Text += "申子半三合水-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == shen || ydz == zii)
-                        {
-                            if (sdz == shen || ydz == shen || rdz == shen)
-                            {
-                                if (sdz == zii || ydz == zii || rdz == zii)
-                                {
-                                    if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
-                                    {
-                                        wxshui += 1; linkLabelxy.Text += "申子半三合水-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == shen || ydz == zii)
-                        {
-                            if (ndz == shen || ydz == shen || rdz == shen)
-                            {
-                                if (ndz == zii || ydz == zii || rdz == zii)
-                                {
-                                    if (linkLabelxy.Text == "丙辛合水")
-                                    {
-                                        wxshui += 1; linkLabelxy.Text += "申子半三合水-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == shen || ydz == zii)
-                        {
-                            if (sdz == shen || ydz == shen || rdz == shen)
-                            {
-                                if (sdz == zii || ydz == zii || rdz == zii)
-                                {
-                                    if (linkLabelxy.Text == "丙辛合水")
-                                    {
-                                        wxshui += 1; linkLabelxy.Text += "申子半三合水-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == shen || ydz == zii)
-                        {
-                            if (ndz == chen || ydz == chen || rdz == chen)
-                            {
-                                if (ndz == zii || ydz == zii || rdz == zii)
-                                {
-                                    if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
-                                    {
-                                        wxshui += 1; linkLabelxy.Text += "子辰半三合水-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == shen || ydz == zii)
-                        {
-                            if (sdz == chen || ydz == chen || rdz == chen)
-                            {
-                                if (sdz == zii || ydz == zii || rdz == zii)
-                                {
-                                    if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
-                                    {
-                                        wxshui += 1; linkLabelxy.Text += "子辰半三合水-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == shen || ydz == zii)
-                        {
-                            if (ndz == chen || ydz == chen || rdz == chen)
-                            {
-                                if (ndz == zii || ydz == zii || rdz == zii)
-                                {
-                                    if (linkLabelxy.Text == "丙辛合水")
-                                    {
-                                        wxshui += 1; linkLabelxy.Text += "子辰半三合水-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == shen || ydz == zii)
-                        {
-                            if (sdz == chen || ydz == chen || rdz == chen)
-                            {
-                                if (sdz == zii || ydz == zii || rdz == zii)
-                                {
-                                    if (linkLabelxy.Text == "丙辛合水")
-                                    {
-                                        wxshui += 1; linkLabelxy.Text += "子辰半三合水-";
-                                    }
-                                }
-                            }
-                        }
-
-                    }
-                    if (ndz != shen || ndz != zii || rdz != shen || rdz != zii || sdz != shen || sdz != zii)
-                    {
-                        if (ydz == yin || ydz == wuma)
-                        {
-                            if (ndz == yin || ydz == yin || rdz == yin)
-                            {
-                                if (ndz == wuma || ydz == wuma || rdz == wuma)
-                                {
-                                    if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
-                                    {
-                                        wxhuo += 1; linkLabelxy.Text += "寅午半三合火-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == yin || ydz == wuma)
-                        {
-                            if (sdz == yin || ydz == yin || rdz == yin)
-                            {
-                                if (sdz == wuma || ydz == wuma || rdz == wuma)
-                                {
-                                    if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
-                                    {
-                                        wxhuo += 1; linkLabelxy.Text += "寅午半三合火-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == yin || ydz == wuma)
-                        {
-                            if (ndz == yin || ydz == yin || rdz == yin)
-                            {
-                                if (ndz == wuma || ydz == wuma || rdz == wuma)
-                                {
-                                    if (linkLabelxy.Text == "戊癸合火")
-                                    {
-                                        wxhuo += 1; linkLabelxy.Text += "寅午半三合火-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == yin || ydz == wuma)
-                        {
-                            if (sdz == yin || ydz == yin || rdz == yin)
-                            {
-                                if (sdz == wuma || ydz == wuma || rdz == wuma)
-                                {
-                                    if (linkLabelxy.Text == "戊癸合火")
-                                    {
-                                        wxhuo += 1; linkLabelxy.Text += "寅午半三合火-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == yin || ydz == wuma)
-                        {
-                            if (ndz == xuu || ydz == xuu || rdz == xuu)
-                            {
-                                if (ndz == wuma || ydz == wuma || rdz == wuma)
-                                {
-                                    if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
-                                    {
-                                        wxhuo += 1; linkLabelxy.Text += "寅午半三合火-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == yin || ydz == wuma)
-                        {
-                            if (sdz == xuu || ydz == xuu || rdz == xuu)
-                            {
-                                if (sdz == wuma || ydz == wuma || rdz == wuma)
-                                {
-                                    if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
-                                    {
-                                        wxhuo += 1; linkLabelxy.Text += "寅午半三合火-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == yin || ydz == wuma)
-                        {
-                            if (ndz == xuu || ydz == xuu || rdz == xuu)
-                            {
-                                if (ndz == wuma || ydz == wuma || rdz == wuma)
-                                {
-                                    if (linkLabelxy.Text == "戊癸合火")
-                                    {
-                                        wxhuo += 1; linkLabelxy.Text += "寅午半三合火-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == yin || ydz == wuma)
-                        {
-                            if (sdz == xuu || ydz == xuu || rdz == xuu)
-                            {
-                                if (sdz == wuma || ydz == wuma || rdz == wuma)
-                                {
-                                    if (linkLabelxy.Text == "戊癸合火")
-                                    {
-                                        wxhuo += 1; linkLabelxy.Text += "寅午半三合火-";
-                                    }
-                                }
-                            }
-                        }
-
-                    }
-                    if (ndz != sii || ndz != zii || ndz != you || rdz != sii || rdz != zii || rdz != you)
-                    {
-                        if (ydz == hai || ydz == mao)
-                        {
-                            if (ndz == hai || ydz == hai || rdz == hai)
-                            {
-                                if (ndz == mao || ydz == mao || rdz == mao)
-                                {
-                                    if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
-                                    {
-                                        wxmu += 1; linkLabelxy.Text += "亥卯半三合木-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == hai || ydz == mao)
-                        {
-                            if (sdz == hai || ydz == hai || rdz == hai)
-                            {
-                                if (sdz == mao || ydz == mao || rdz == mao)
-                                {
-                                    if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
-                                    {
-                                        wxmu += 1; linkLabelxy.Text += "亥卯半三合木-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == hai || ydz == mao)
-                        {
-                            if (ndz == hai || ydz == hai || rdz == hai)
-                            {
-                                if (ndz == mao || ydz == mao || rdz == mao)
-                                {
-                                    if (linkLabelxy.Text == "丁壬合木")
-                                    {
-                                        wxmu += 1; linkLabelxy.Text += "亥卯半三合木-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == hai || ydz == mao)
-                        {
-                            if (sdz == hai || ydz == hai || rdz == hai)
-                            {
-                                if (sdz == mao || ydz == mao || rdz == mao)
-                                {
-                                    if (linkLabelxy.Text == "丁壬合木")
-                                    {
-                                        wxmu += 1; linkLabelxy.Text += "亥卯半三合木-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == hai || ydz == mao)
-                        {
-                            if (ndz == wei || ydz == wei || rdz == wei)
-                            {
-                                if (ndz == mao || ydz == mao || rdz == mao)
-                                {
-                                    if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
-                                    {
-                                        wxmu += 1; linkLabelxy.Text += "亥卯半三合木-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == hai || ydz == mao)
-                        {
-                            if (sdz == wei || ydz == wei || rdz == wei)
-                            {
-                                if (sdz == mao || ydz == mao || rdz == mao)
-                                {
-                                    if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
-                                    {
-                                        wxmu += 1; linkLabelxy.Text += "亥卯半三合木-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == hai || ydz == mao)
-                        {
-                            if (ndz == wei || ydz == wei || rdz == wei)
-                            {
-                                if (ndz == mao || ydz == mao || rdz == mao)
-                                {
-                                    if (linkLabelxy.Text == "丁壬合木")
-                                    {
-                                        wxmu += 1; linkLabelxy.Text += "亥卯半三合木-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == hai || ydz == mao)
-                        {
-                            if (sdz == wei || ydz == wei || rdz == wei)
-                            {
-                                if (sdz == mao || ydz == mao || rdz == mao)
-                                {
-                                    if (linkLabelxy.Text == "丁壬合木")
-                                    {
-                                        wxmu += 1; linkLabelxy.Text += "亥卯半三合木-";
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    if (ndz != hai || rdz != hai || sdz != hai || ndz != yin || rdz != yin || sdz != yin || ndz != mao || rdz != mao || sdz != mao)
-                    {
-                        if (ydz == sii || ydz == you)
-                        {
-                            if (ndz == sii || ydz == sii || rdz == sii)
-                            {
-                                if (ndz == you || ydz == you || rdz == you)
-                                {
-                                    if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
-                                    {
-                                        wxjin += 1; linkLabelxy.Text += "巳酉半三合金-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == sii || ydz == you)
-                        {
-                            if (sdz == sii || ydz == sii || rdz == sii)
-                            {
-                                if (sdz == you || ydz == you || rdz == you)
-                                {
-                                    if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
-                                    {
-                                        wxjin += 1; linkLabelxy.Text += "巳酉半三合金-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == sii || ydz == you)
-                        {
-                            if (ndz == sii || ydz == sii || rdz == sii)
-                            {
-                                if (ndz == you || ydz == you || rdz == you)
-                                {
-                                    if (linkLabelxy.Text == "乙庚合金")
-                                    {
-                                        wxjin += 1; linkLabelxy.Text += "巳酉半三合金-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == sii || ydz == you)
-                        {
-                            if (sdz == sii || ydz == sii || rdz == sii)
-                            {
-                                if (sdz == you || ydz == you || rdz == you)
-                                {
-                                    if (linkLabelxy.Text == "乙庚合金")
-                                    {
-                                        wxjin += 1; linkLabelxy.Text += "巳酉半三合金-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == sii || ydz == you)
-                        {
-                            if (ndz == chou || ydz == chou || rdz == chou)
-                            {
-                                if (ndz == you || ydz == you || rdz == you)
-                                {
-                                    if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
-                                    {
-                                        wxjin += 1; linkLabelxy.Text += "巳酉半三合金-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == sii || ydz == you)
-                        {
-                            if (sdz == chou || ydz == chou || rdz == chou)
-                            {
-                                if (sdz == you || ydz == you || rdz == you)
-                                {
-                                    if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
-                                    {
-                                        wxjin += 1; linkLabelxy.Text += "巳酉半三合金-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == sii || ydz == you)
-                        {
-                            if (ndz == chou || ydz == chou || rdz == chou)
-                            {
-                                if (ndz == you || ydz == you || rdz == you)
-                                {
-                                    if (linkLabelxy.Text == "乙庚合金")
-                                    {
-                                        wxjin += 1; linkLabelxy.Text += "巳酉半三合金-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == sii || ydz == you)
-                        {
-                            if (sdz == chou || ydz == chou || rdz == chou)
-                            {
-                                if (sdz == you || ydz == you || rdz == you)
-                                {
-                                    if (linkLabelxy.Text == "乙庚合金")
-                                    {
-                                        wxjin += 1; linkLabelxy.Text += "巳酉半三合金-";
-                                    }
-                                }
-                            }
-                        }
-
-                    }
-
-                    //拱合
-                    if (ndz != sii || ndz != yin || ndz != xuu || rdz != sii || rdz != yin || rdz != xuu || sdz != sii || sdz != yin || sdz != xuu)
-                    {
-                        if (ydz == shen || ydz == chen)
-                        {
-                            if (ndz == shen || ydz == shen || rdz == shen)
-                            {
-                                if (ndz == chen || ydz == chen || rdz == chen)
-                                {
-                                    if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
-                                    {
-                                        wxshui += 1; linkLabelxy.Text += "申辰拱合水-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == shen || ydz == chen)
-                        {
-                            if (sdz == shen || ydz == shen || rdz == shen)
-                            {
-                                if (sdz == chen || ydz == chen || rdz == chen)
-                                {
-                                    if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
-                                    {
-                                        wxshui += 1; linkLabelxy.Text += "申辰拱合水-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == shen || ydz == chen)
-                        {
-                            if (ndz == shen || ydz == shen || rdz == shen)
-                            {
-                                if (ndz == chen || ydz == chen || rdz == chen)
-                                {
-                                    if (linkLabelxy.Text == "丙辛合水")
-                                    {
-                                        wxshui += 1; linkLabelxy.Text += "申辰拱合水-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == shen || ydz == chen)
-                        {
-                            if (sdz == shen || ydz == shen || rdz == shen)
-                            {
-                                if (sdz == chen || ydz == chen || rdz == chen)
-                                {
-                                    if (linkLabelxy.Text == "丙辛合水")
-                                    {
-                                        wxshui += 1; linkLabelxy.Text += "申辰拱合水-";
-                                    }
-                                }
-                            }
-                        }
-
-                    }
-                    if (ndz != hai || ndz != yin || ndz != wei || rdz != hai || rdz != yin || rdz != wei || sdz != hai || sdz != yin || sdz != wei)
-                    {
-                        if (ydz == sii || ydz == chou)
-                        {
-                            if (ndz == sii || ydz == sii || rdz == sii)
-                            {
-                                if (ndz == chou || ydz == chou || rdz == chou)
-                                {
-                                    if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
-                                    {
-                                        wxjin += 1; linkLabelxy.Text += "巳丑拱合金-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == sii || ydz == chou)
-                        {
-                            if (sdz == sii || ydz == sii || rdz == sii)
-                            {
-                                if (sdz == chou || ydz == chou || rdz == chou)
-                                {
-                                    if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
-                                    {
-                                        wxjin += 1; linkLabelxy.Text += "巳丑拱合金-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == sii || ydz == chou)
-                        {
-                            if (ndz == sii || ydz == sii || rdz == sii)
-                            {
-                                if (ndz == chou || ydz == chou || rdz == chou)
-                                {
-                                    if (linkLabelxy.Text == "乙庚合金")
-                                    {
-                                        wxjin += 1; linkLabelxy.Text += "巳丑拱合金-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == sii || ydz == chou)
-                        {
-                            if (sdz == sii || ydz == sii || rdz == sii)
-                            {
-                                if (sdz == chou || ydz == chou || rdz == chou)
-                                {
-                                    if (linkLabelxy.Text == "乙庚合金")
-                                    {
-                                        wxjin += 1; linkLabelxy.Text += "巳丑拱合金-";
-                                    }
-                                }
-                            }
-                        }
-
-                    }
-                    if (ndz != shen || ndz != chou || ndz != chen || rdz != shen || rdz != chou || rdz != chen || sdz != shen || sdz != chou || sdz != chen)
-                    {
-                        if (ydz == yin || ydz == xuu)
-                        {
-                            if (ndz == yin || ydz == yin || rdz == yin)
-                            {
-                                if (ndz == xuu || ydz == xuu || rdz == xuu)
-                                {
-                                    if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
-                                    {
-                                        wxhuo += 1; linkLabelxy.Text += "寅戌拱合火-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == yin || ydz == xuu)
-                        {
-                            if (ydz == yin || rdz == yin || sdz == yin)
-                            {
-                                if (ydz == xuu || rdz == xuu || sdz == xuu)
-                                {
-                                    if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
-                                    {
-                                        wxhuo += 1; linkLabelxy.Text += "寅戌拱合火-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == yin || ydz == xuu)
-                        {
-                            if (ndz == yin || ydz == yin || rdz == yin)
-                            {
-                                if (ndz == xuu || ydz == xuu || rdz == xuu)
-                                {
-                                    if (linkLabelxy.Text == "戊癸合火")
-                                    {
-                                        wxhuo += 1; linkLabelxy.Text += "寅戌拱合火-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == yin || ydz == xuu)
-                        {
-                            if (sdz == yin || ydz == yin || rdz == yin)
-                            {
-                                if (sdz == xuu || ydz == xuu || rdz == xuu)
-                                {
-                                    if (linkLabelxy.Text == "戊癸合火")
-                                    {
-                                        wxhuo += 1; linkLabelxy.Text += "寅戌拱合火-";
-                                    }
-                                }
-                            }
-                        }
-
-                    }
-                    if (ndz != sii || ndz != chou || ndz != xuu || rdz != sii || rdz != chou || rdz != xuu || sdz != sii || sdz != chou || sdz != xuu)
-                    {
-                        if (ydz == hai || ydz == wei)
-                        {
-                            if (ndz == hai || ydz == hai || rdz == hai)
-                            {
-                                if (ndz == wei || ydz == wei || rdz == wei)
-                                {
-                                    if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
-                                    {
-                                        wxmu += 1; linkLabelxy.Text += "亥未拱合木-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == hai || ydz == wei)
-                        {
-                            if (sdz == hai || ydz == hai || rdz == hai)
-                            {
-                                if (sdz == wei || ydz == wei || rdz == wei)
-                                {
-                                    if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
-                                    {
-                                        wxmu += 1; linkLabelxy.Text += "亥未拱合木-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == hai || ydz == wei)
-                        {
-                            if (ndz == hai || ydz == hai || rdz == hai)
-                            {
-                                if (ndz == wei || ydz == wei || rdz == wei)
-                                {
-                                    if (linkLabelxy.Text == "丁壬合木")
-                                    {
-                                        wxmu += 1; linkLabelxy.Text += "亥未拱合木-";
-                                    }
-                                }
-                            }
-                        }
-                        if (ydz == hai || ydz == wei)
-                        {
-                            if (sdz == hai || ydz == hai || rdz == hai)
-                            {
-                                if (sdz == wei || ydz == wei || rdz == wei)
-                                {
-                                    if (linkLabelxy.Text == "丁壬合木")
-                                    {
-                                        wxmu += 1; linkLabelxy.Text += "亥未拱合木-";
-                                    }
-                                }
-                            }
-                        }
-
-                    }
-                }
                 //输出五行结果
                 if (jia == jia)
                 {
@@ -48188,11 +45304,11 @@ namespace BaZiFuZuGongJu
                         qiangro4 += qiangro3.ToString("0.0");
                         if (qiangro3 > 0)
                         {
-                            linkLabel21.Text = "木命流年强" + qiangro4;
+                            linkLabel7hff.Text = "木命流年强" + qiangro4;
                         }
                         if (qiangro3 <= 0)
                         {
-                            linkLabel21.Text = "木命流年弱" + qiangro4;
+                            linkLabel7hff.Text = "木命流年弱" + qiangro4;
                         }
                     }
                     if (buttonrg.Text == bing || buttonrg.Text == ding)
@@ -48204,11 +45320,11 @@ namespace BaZiFuZuGongJu
                         qiangro4 += qiangro3.ToString("0.0");
                         if (qiangro3 > 0)
                         {
-                            linkLabel21.Text = "火命流年强" + qiangro4;
+                            linkLabel7hff.Text = "火命流年强" + qiangro4;
                         }
                         if (qiangro3 <= 0)
                         {
-                            linkLabel21.Text = "火命流年弱" + qiangro4;
+                            linkLabel7hff.Text = "火命流年弱" + qiangro4;
                         }
                     }
                     if (buttonrg.Text == wuu || buttonrg.Text == jii)
@@ -48220,11 +45336,11 @@ namespace BaZiFuZuGongJu
                         qiangro4 += qiangro3.ToString("0.0");
                         if (qiangro3 > 0)
                         {
-                            linkLabel21.Text = "土命流年强" + qiangro4;
+                            linkLabel7hff.Text = "土命流年强" + qiangro4;
                         }
                         if (qiangro3 <= 0)
                         {
-                            linkLabel21.Text = "土命流年弱" + qiangro4;
+                            linkLabel7hff.Text = "土命流年弱" + qiangro4;
                         }
                     }
                     if (buttonrg.Text == geng || buttonrg.Text == xin)
@@ -48236,11 +45352,11 @@ namespace BaZiFuZuGongJu
                         qiangro4 += qiangro3.ToString("0.0");
                         if (qiangro3 > 0)
                         {
-                            linkLabel21.Text = "金命流年强" + qiangro4;
+                            linkLabel7hff.Text = "金命流年强" + qiangro4;
                         }
                         if (qiangro3 <= 0)
                         {
-                            linkLabel21.Text = "金命流年弱" + qiangro4;
+                            linkLabel7hff.Text = "金命流年弱" + qiangro4;
                         }
                     }
                     if (buttonrg.Text == ren || buttonrg.Text == gui)
@@ -48252,11 +45368,11 @@ namespace BaZiFuZuGongJu
                         qiangro4 += qiangro3.ToString("0.0");
                         if (qiangro3 > 0)
                         {
-                            linkLabel21.Text = "水命流年强" + qiangro4;
+                            linkLabel7hff.Text = "水命流年强" + qiangro4;
                         }
                         if (qiangro3 <= 0)
                         {
-                            linkLabel21.Text = "水命流年弱" + qiangro4;
+                            linkLabel7hff.Text = "水命流年弱" + qiangro4;
                         }
                     }
 
@@ -50512,8 +47628,9 @@ namespace BaZiFuZuGongJu
                 }
 
             }//排流年
-
-
+            //刷新道德经
+            buttonddj.Focus();
+            buttonddj_Click(this, new EventArgs());
         }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
@@ -50543,21 +47660,22 @@ namespace BaZiFuZuGongJu
         private void buttongj_Click(object sender, EventArgs e)
         {
             //自述文本
-            string 自述文本 = "杜净隆_作品。\r\n此软件为开源软件。https://github.com/TVB-JINPAIJIANZHI/bazifuzugongju\r\n使用Lunar库实现了万年历级别的天干地支查询https://github.com/6tail/lunar-csharp\r\n学习八字预测不用死记硬背。不用担心没时间。只要懂五行生克就可以学会。\r\n增加了以子时为次日的处理。天干冲的喜忌变化。同柱干支暗合.地支暗合.\r\n显示墓库运。自动识别方位和对应内脏。天干地支分阴阳五行五种颜色。\r\n自动判断,半三合.地支六冲,地支六害,地支六合,地支六破,地支三合,\r\n地支三会,地支相刑,拱合,天干冲,天干五合，拱合。流年和主命盘阴阳。\r\n半三合，地支六合,地支三合,地支三会,天干五合，拱合：五行色彩。\r\n十神：吉为红字：忌为黑字。自动判断日元强弱。十神等按钮中附注解。\r\n显示十神六亲。54个神煞显示。显示十二长生。排流年和主命盘显示强弱。\r\n集成了穷通宝鉴:可以显示四季五行命性。显示命局喜禁。\r\n增加四柱的五行纳音。流年副盘。四柱干支流转。 \r\n更新地址：https://pan.baidu.com/s/1KLywvxhGBLlnMhKYv28UTg\r\n提取码：4pkx\r\n\r\n 读诵《金刚般若波罗蜜经》可消业力。\r\n\r\n要改变命运就要改变自己，人受五行控制就只能认命。\r\n菩萨是没有五行的所以不受五行所限。\r\n要脱离五行就要发心做个菩萨：日常生活中遇事以菩萨的态度行事即可。\r\n需要注意的是发心为上行为次之，因为菩萨的心才是无上正等正觉的。\r\n唵嘛呢叭咪吽\r\n\r\n----------------\r\n\r\n前言，\r\n\r\n看到很多人给小宝宝起名被骗钱所以写此教程，本人懂起名原理借助软件实现专业起名。\r\n\r\n如果你没看懂请不要实际操作以免弄巧成拙。\r\n\r\n如需助人起名需要收取费用，因为你给别人起名就等于在改写这个人的命运，\r\n\r\n无论好坏都要消耗你，除非是你的直系亲属。\r\n\r\n一命二相三风水，名字是人的第二张脸面，其作用与人的脸相当。\r\n\r\n不过名字是数术，也就可以拼合八字，对于人的发展也大于风水很多。\r\n\r\n起名是一个涉及到文化、历史和语言的重要过程。周易中的三才五格理论是中国传统名字学的核心思想之一，它认为人的命运与出生时五行的相对强度和三才之间的协调有关。在这部教材中，我们将介绍三才五格的基本概念、原理和应用方法，帮助读者更好地理解和运用这一理论。\r\n\r\n第一章 三才五格的基本概念\r\n\r\n三才：指天、地、人三个方面的素质。\r\n天格：指出生年的天干地支，代表着先天的气质和能力。\r\n人格：指出生日的天干地支，代表着性格和才华。\r\n地格：指姓名的笔画数目，代表着后天的环境和条件。\r\n总格：指天格、人格、地格三者之和，代表着个人的命运和发展。\r\n第二章 三才五格的原理\r\n\r\n五行相生相克：金生水，水生木，木生火，火生土，土生金；金克木，木克土，土克水，水克火，火克金。\r\n喜用神和忌神：根据个人的命局和需要，选择适合的五行作为喜用神，避免忌神的影响。\r\n三才协调：天、地、人三才之间相互协调，可以增强个人的命运和发展。\r\n笔画数和五行：每个汉字都有固定的笔画数和对应的五行属性，根据姓名的笔画数和五行配比，可以评估地格的优劣。\r\n第三章 三才五格的应用方法\r\n\r\n查看命盘：根据出生日期和时间，结合农历、时辰等因素，查看个人的命盘和五行属性。\r\n确定天格和地格：根据出生年份和姓名的笔画数，在专业的起名书籍或网站上确定天格和地格。\r\n计算人格和总格：根据出生日期确定人格，然后将天格、人格、地格相加得到总格。\r\n确定喜用神和忌神：根据命盘和总格的五行属性，确定适合的喜用神和需要避免的忌神。\r\n综合评估：综合考虑天格、人格、地格、总格、喜用神和忌神等因素，进行综合评估，并选取合适的名字。\r\n以上是三才五格起名的基本概念、原理和应用方法，希望读者能够通过学习更好地了解和运用这一传统文化。\r\n\r\n\r\n-----------------\r\n\r\n\r\n起名第一步就是要排出这个人的八字，这是专业的步骤。\r\n\r\n如果给你起名的人不排八字和你扯字意，说什么大人物用这个字怎么好，那他绝对是骗子。\r\n\r\n排出八字就是要知道这个人生来所带的五行属性，金木土水火。\r\n\r\n然后给人补缺填平，五行哪个太多都不好，缺少就更不好了。\r\n\r\n然后在根据生肖避开忌用的偏旁。\r\n\r\n\r\n--------------------------------------\r\n\r\n\r\n\r\n\r\n三才五格吉凶配置\r\n\r\n一、起源\r\n\r\n在公元1918年初，由日本人熊崎健翁根据中国易学数理学开创，因此五格剖象法也称作“熊崎氏姓名学”，其核心就是将人的姓名按五格剖象法来解释。\r\n\r\n1936年由台湾留学日本的白玉光（又叫白惠文）带回台湾翻译推广，后来流行于韩国，东南亚，中国台湾、香港等地 在中国大陆，五格剖象法通过和中国传统易学原理的结合，上世纪九十年代由中国命运分析学者方晨等规范总结和实践，以康熙字典笔画作为姓名学笔画基准，形成完善的符合中国姓名传统的姓名分析方法，结合中国传统姓名学，成为中华姓名学的一个重要组成部分\r\n\r\n二、五格计算方法\r\n\r\n1、天格：单姓的天格是“单姓笔画+1”，复姓的天格是“复姓笔画数相加” 2、人格：单姓的人格是“姓的笔画数+名（第一字）的笔画数”，；复姓的人格数理是“复姓的第二个字笔画+名的第一个字笔画”\r\n\r\n3、地格：双名的地格是“名字的笔画数相加”，单名的地格是“名的笔画数+1”。\r\n\r\n4、总格：总格是“姓名笔画数的总和”。\r\n\r\n5、外格：单姓双姓名“总格数理-人格数理+1”；复姓双将姓名总格减去人格之差”即为外格。复姓单名的外格为“总格数理-人格数理+1”。注：单姓单名的外格为2，\r\n\r\n三、五格的分数\r\n\r\n五格是：天格、人格、地格、总格、外格。\r\n\r\n其中天格代表父母的命运；地格代表自己38岁以前的命运（又称前运）；人格是自己的主运； 外格是副运；总格是后运，通常在人38岁以后才称后运。\r\n\r\n首先，作者将81个数定义了吉凶： 列为吉数的有1、3、5、6、7、8、11、13、15、16、17、18、21、23、24、25、29、31、32、33、35、37、39、41、45、47、48、52、55、57、61、63、65、67、68、81共计36个。\r\n\r\n列为凶数的有2、4、9、10、12、14、19、20、22、26、27、28、30、34、36、38、40、42、43、44、46、49、50、51、53、54、56、58、59、60、62、64、66、69、70、71、72、73、74、75、76、77、78、79、80 合计45个。\r\n\r\n四、三才的计算\r\n\r\n三才是：指天、人、地格的五行属性，取相生吉，相克凶。\r\n\r\n对“数”定义五行是套用十天干的五行顺序而定，即1、2甲乙木，3、4丙丁火，5、6戊己土，7、8庚辛金，9、10壬癸水。计算出了姓名的五格后，就是给五格配上阴、阳。数字超过十的只留个位数计算。如：15为还原成5，属阳土；52还原成2，属阴木，此类推。得出阴阳关系后，再分辩五行的相生相克关系：木生火、火生土、土生金、金生水、水生木；木克土、土克水、水克火、火克金、金克木。\r\n\r\n五、举例\r\n\r\n李世民\r\n\r\n李7 天格：08(金)7+1\r\n\r\n世5 人格：12(木)7+5\r\n\r\n民5 地格：10(水)5+5\r\n\r\n总格：17(金) 7+5+5\r\n\r\n外格：6 (土)17-12+1\r\n\r\n三才是：金木水\r\n\r\n\r\n----------------------------------------------\r\n\r\n用字的划数来区别五行的方法：\r\n\r\n1、2、11、12、21、22、31、32划属木\r\n\r\n3、4、13、14、23、24、33、34划属火\r\n\r\n5、6、15、16、25、26、35、36划属土\r\n\r\n7、8、17、18、27、28、37、38划属金\r\n\r\n9、10、19．20、29、30、39、40划属水\r\n\r\n其中奇数为阳，偶数为阴。\r\n\r\n这里需要注意的重点是笔画的数量以繁体字书写的笔画为准。\r\n\r\n----------------------------------------------\r\n\r\n凡取名字的部首，最好配合生肖宜忌选用\r\n\r\n1、鼠年出生的人\r\n\r\n取名应有：宀、米、豆、魚、艸、金、玉、亻、木、月、田、等部位为吉\r\n\r\n取名忌用：山、刀、力、弓、土、欠、石、皮、氵、马、酉、才、火、车等部首\r\n\r\n2、牛年出生的人\r\n\r\n取名应有：氵、艸、豆、米、金、玉、宀、亻、木等部首为吉\r\n\r\n取名忌用：月、火、田、车、马、石、山、血、糸、刀、力等部首\r\n\r\n3、虎年出生的人\r\n\r\n取名应有：山、玉、金、木、示、氵、月、犬、马等部首为吉\r\n\r\n取名忌用：日、火、田、口、糸、石、马、刀、力、血、弓、父、足等部首\r\n\r\n4、兔年出生的人\r\n\r\n取名应有：月、艸、山、田、亻、禾、木、宀、金、白、玉、豆、犬等部首为吉\r\n\r\n取名忌用：马、石、刀、皮、氵、川等部首\r\n\r\n5、龙年出生的人\r\n\r\n取名应有：氵、金、玉、白、赤、月、魚、酉、亻等部位为吉\r\n\r\n取名忌用：土、田、木、禾、示、忄、日、石、艸、力、刀、糸、犬、火等部首\r\n\r\n6、蛇年出生的人\r\n\r\n取名应有：艸、蟲、豆、魚、酉、木、禾、田、山、金、玉、月、土等部首为吉\r\n\r\n取名忌用：小、石、刀、血、弓、火、亻、犬、父等部首\r\n\r\n7、马年出生的人\r\n\r\n取名应有：艸、金、玉、木、禾、蟲、豆、米、亻、月、土、才等部首为吉\r\n\r\n取名忌用：田、日、火、氵、车、石、刀、力、酉、马等部首\r\n\r\n8、羊年出生的人\r\n\r\n取名应有：金、白、玉、艸、月、田、豆、米、马、禾、木、亻、魚等部首为吉\r\n\r\n取名忌用：小、犬、糸、车、氵、山、日、火等部首\r\n\r\n9、猴年出生的人\r\n\r\n取名应有：木、禾、金、玉、豆、米、田、山、月、氵、亻等部首为吉\r\n\r\n取名忌用：火、石、口、冖、糸、刀、力、皮、犬等部首\r\n\r\n10、鸡年出生的人\r\n\r\n取名应有：米、豆、蟲、木、禾、玉、田、月、冖、山、艸、金的部首为吉\r\n\r\n取名忌用：石、犬、刀、力、日、酉、血、弓、才、糸、车、马等部首\r\n\r\n11、狗年出生的人\r\n\r\n取名应有：魚、豆、米、冖、马、金、艸、田、木、月、禾、氵、亻等部首为吉\r\n\r\n取名忌用：火、石、糸、山、才、木、车、刀、父、言等部首\r\n\r\n12、猪年出生的人\r\n\r\n取名应有：豆、米、魚、氵、金、玉、月、木、禾、亻、山、土、艸等部首为吉\r\n\r\n取名忌用：糸、石、刀、力、血、弓、皮、父等部首\r\n\r\n---------------------------------------------\r\n\r\n\r\n取名的技巧\r\n\r\n1、考虑书写习惯，平时写字，大家都有简单化的倾向，故用字不宜太复杂或难写。注意轻重，平衡字形要有美感。\r\n\r\n2、不宜用生僻字，这样易造成被人难以认识、被人拒绝，妨碍人际沟通。\r\n\r\n3、学名不宜带稚气，当小孩长大后，易被人小看。\r\n\r\n4、避免使用相同或相近部首的字。避免声母，韵母相策。\r\n\r\n5、避免声调相同，无语音之美。分清阴阳，阳盛取阴名，阴盛取阳名。\r\n\r\n6、根据具体要求，调整特殊用字，诱导其广播方向。\r\n\r\n7、创意新颖，含义丰富。\r\n\r\n8、用易经的组合方法，校正全名的卦象，以辨吉凶。\r\n\r\n9、根据小孩的出生年月，即古谓“生辰八字”确定用码的五行。\r\n\r\n10、结合五格数理，选定名字的笔画数。\r\n\r\n\r\n----------------------------------------\r\n\r\n生辰八字\r\n根据宝宝出生的时辰，转换成对应的五行，看看是缺了哪一种，用名字去补。\r\n比如五行缺「金」，名字里面就用带金字旁的字来补。\r\n更具体的我也没有深入研究了，因为用生辰来起名的前提是知道宝宝的出生时间。如果想在宝宝出生前把名字取好，我们可以了解一下「五格剖象法」。\r\n\r\n五格剖象法\r\n五格剖象法，也叫三才五格，是比较流行的一种取名法，也是很多起名打分应用的依据。它将名字的笔画数拆分为天格、地格、人格、外格、总格。\r\n五格各自包含的意义如下：\r\n\r\n天格为根 - 天格乃祖先留下来的，为父母运势，其数理对个人影响不大。\r\n人格为苗 - 又称「主运」，是整个姓名的中心点，人一生的命运之好坏主要由此格推断。\r\n地格为花 - 又称为「前运」，主 38 岁以前，主管人中年以前的活动力。\r\n外格为叶 - 主管命运之灵力，一般指贵人或外来助力。为一个人外界和谐与否，可由此格看出。\r\n总格为果 - 主中年至晚年的命运，又称后运，主 38 岁以后。\r\n\r\n它们计算方法是这样的：\r\n\r\n天格：姓的笔画数?+ 1\r\n人格：姓的笔画数 + 名第一字的笔画数\r\n地格：名字的笔画数相加\r\n总格：姓名笔画数的总和\r\n外格：总格 - 人格 + 1?\r\n\r\n这里的笔画数是按康熙字典里的笔画，也就是要按繁体字计算。此外还有一些部首会影响笔画数计算：\r\n\r\n（1）“氵”三点水算四画。如：清、洁等；（2）“扌”手旁算四画。如挑、拨等；（3）“月”算肉旁六画。如服、肪、脉等；（4）“艹”算六画。如英、苹、蓉等；（5）“辶”算七画。如达、迈、迅、过等；（6）左“阝”算八画，阳、阴、陈、陆等；（7）右“卩”算七画，如即、邓、邝等；（8）“王”算五画，如琬、珀、玫、瑰等；（9）礻（示），以示字计为五画；（10）衤（衣），以衣字计为六画；（11）“犭”算四画。如狄、猛、独等；（12）忄（心），竖心旁，以心字计为四画；（13）名字中有“一、二、三、四、五、六、七、八、九、十”的字要分别按1、2、3、4、5、6、7、8、9、10画。\r\n\r\n最后算出来的五格笔画数，被划分为吉、半吉、凶三组：\r\n\r\n属于吉的数字：1、3、5、8、11、13、15、16、21、23、24、25、29、31、32、33、35、37、38、39、41、45、47、48、52、57、63、65、67、68、81\r\n属于半吉的数字：6、7、17、18、27、30、40、51、52、55、61、75\r\n属于凶的数字：2、4、9、10、12、14、19、20、22、26、28、34、36、42、43、44、46、49、50、53、54、56、58、59、60、62、64、66、69、70、71、72、73、74、76、77、78、79、80\r\n\r\n\r\n----------------------------------------------\r\n\r\n\r\n简而言之就是：\r\n\r\n1，用字的五行补缺少的五行，笔画数以康熙字典为准。\r\n\r\n2，五格要全为吉数，最好是其它格的五行为生人格或被人格克，禁克制人格（此与八字五行分开论。\r\n\r\n3，用字的寓意吉祥没有不好的暗示。\r\n\r\n\r\n\r\n--------------------------------------------\r\n\r\n\r\n最主要的还是积德行善。\r\n\r\n多行善事，才是好运的根本，否则一切都是徒劳。所以，我们建议你多行善事，善事包括1、与人为善；2、敬爱存心；3、成人之美；4、劝人为善；5、救人危急；6、兴建大利；7、舍财作福；8、护持正法；9、敬重尊长等等。";
+            string 自述文本 = "杜净隆_作品。\r\n此软件为开源软件。https://github.com/TVB-JINPAIJIANZHI/bazifuzugongju\r\n使用Lunar库实现了万年历级别的天干地支查询https://github.com/6tail/lunar-csharp\r\n反馈邮箱guankanzhuangbi@gmail.com\r\n更新地址：https://pan.baidu.com/s/1KLywvxhGBLlnMhKYv28UTg\r\n提取码：4pkx\r\n学习八字预测不用死记硬背。不用担心没时间。只要懂五行生克就可以学会。\r\n增加了以子时为次日的处理。天干冲的喜忌变化。同柱干支暗合.地支暗合。\r\n显示墓库运。自动识别方位和对应内脏。天干地支分阴阳五行五种颜色。\r\n自动判断,半三合.地支六冲,地支六害,地支六合,地支六破,地支三合,\r\n地支三会,地支相刑,拱合,天干冲,天干五合，拱合。流年和主命盘阴阳。\r\n半三合，地支六合,地支三合,地支三会,天干五合，拱合：五行色彩。\r\n十神：吉为红字：忌为黑字。自动判断日元强弱。十神等按钮中附注解。\r\n显示十神六亲。54个神煞显示。显示十二长生。排流年和主命盘显示强弱。\r\n集成了穷通宝鉴:可以显示四季五行命性。显示命局喜禁。\r\n增加四柱的五行纳音。流年副盘。四柱干支流转。 \r\n\r\n\r\n 读诵《金刚般若波罗蜜经》可消业力。\r\n\r\n要改变命运就要改变自己，人受五行控制就只能认命。\r\n菩萨是没有五行的所以不受五行所限。\r\n要脱离五行就要发心做个菩萨：日常生活中遇事以菩萨的态度行事即可。\r\n需要注意的是发心为上行为次之，因为菩萨的心才是无上正等正觉的。\r\n唵嘛呢叭咪吽\r\n\r\n----------------\r\n\r\n前言，\r\n\r\n看到很多人给小宝宝起名被骗钱所以写此教程，本人懂起名原理借助软件实现专业起名。\r\n\r\n如果你没看懂请不要实际操作以免弄巧成拙。\r\n\r\n如需助人起名需要收取费用，因为你给别人起名就等于在改写这个人的命运，\r\n\r\n无论好坏都要消耗你，除非是你的直系亲属。\r\n\r\n一命二相三风水，名字是人的第二张脸面，其作用与人的脸相当。\r\n\r\n不过名字是数术，也就可以拼合八字，对于人的发展也大于风水很多。\r\n\r\n起名是一个涉及到文化、历史和语言的重要过程。周易中的三才五格理论是中国传统名字学的核心思想之一，它认为人的命运与出生时五行的相对强度和三才之间的协调有关。在这部教材中，我们将介绍三才五格的基本概念、原理和应用方法，帮助读者更好地理解和运用这一理论。\r\n\r\n第一章 三才五格的基本概念\r\n\r\n三才：指天、地、人三个方面的素质。\r\n天格：指出生年的天干地支，代表着先天的气质和能力。\r\n人格：指出生日的天干地支，代表着性格和才华。\r\n地格：指姓名的笔画数目，代表着后天的环境和条件。\r\n总格：指天格、人格、地格三者之和，代表着个人的命运和发展。\r\n第二章 三才五格的原理\r\n\r\n五行相生相克：金生水，水生木，木生火，火生土，土生金；金克木，木克土，土克水，水克火，火克金。\r\n喜用神和忌神：根据个人的命局和需要，选择适合的五行作为喜用神，避免忌神的影响。\r\n三才协调：天、地、人三才之间相互协调，可以增强个人的命运和发展。\r\n笔画数和五行：每个汉字都有固定的笔画数和对应的五行属性，根据姓名的笔画数和五行配比，可以评估地格的优劣。\r\n第三章 三才五格的应用方法\r\n\r\n查看命盘：根据出生日期和时间，结合农历、时辰等因素，查看个人的命盘和五行属性。\r\n确定天格和地格：根据出生年份和姓名的笔画数，在专业的起名书籍或网站上确定天格和地格。\r\n计算人格和总格：根据出生日期确定人格，然后将天格、人格、地格相加得到总格。\r\n确定喜用神和忌神：根据命盘和总格的五行属性，确定适合的喜用神和需要避免的忌神。\r\n综合评估：综合考虑天格、人格、地格、总格、喜用神和忌神等因素，进行综合评估，并选取合适的名字。\r\n以上是三才五格起名的基本概念、原理和应用方法，希望读者能够通过学习更好地了解和运用这一传统文化。\r\n\r\n\r\n-----------------\r\n\r\n\r\n起名第一步就是要排出这个人的八字，这是专业的步骤。\r\n\r\n如果给你起名的人不排八字和你扯字意，说什么大人物用这个字怎么好，那他绝对是骗子。\r\n\r\n排出八字就是要知道这个人生来所带的五行属性，金木土水火。\r\n\r\n然后给人补缺填平，五行哪个太多都不好，缺少就更不好了。\r\n\r\n然后在根据生肖避开忌用的偏旁。\r\n\r\n\r\n--------------------------------------\r\n\r\n\r\n\r\n\r\n三才五格吉凶配置\r\n\r\n一、起源\r\n\r\n在公元1918年初，由日本人熊崎健翁根据中国易学数理学开创，因此五格剖象法也称作“熊崎氏姓名学”，其核心就是将人的姓名按五格剖象法来解释。\r\n\r\n1936年由台湾留学日本的白玉光（又叫白惠文）带回台湾翻译推广，后来流行于韩国，东南亚，中国台湾、香港等地 在中国大陆，五格剖象法通过和中国传统易学原理的结合，上世纪九十年代由中国命运分析学者方晨等规范总结和实践，以康熙字典笔画作为姓名学笔画基准，形成完善的符合中国姓名传统的姓名分析方法，结合中国传统姓名学，成为中华姓名学的一个重要组成部分\r\n\r\n二、五格计算方法\r\n\r\n1、天格：单姓的天格是“单姓笔画+1”，复姓的天格是“复姓笔画数相加” 2、人格：单姓的人格是“姓的笔画数+名（第一字）的笔画数”，；复姓的人格数理是“复姓的第二个字笔画+名的第一个字笔画”\r\n\r\n3、地格：双名的地格是“名字的笔画数相加”，单名的地格是“名的笔画数+1”。\r\n\r\n4、总格：总格是“姓名笔画数的总和”。\r\n\r\n5、外格：单姓双姓名“总格数理-人格数理+1”；复姓双将姓名总格减去人格之差”即为外格。复姓单名的外格为“总格数理-人格数理+1”。注：单姓单名的外格为2，\r\n\r\n三、五格的分数\r\n\r\n五格是：天格、人格、地格、总格、外格。\r\n\r\n其中天格代表父母的命运；地格代表自己38岁以前的命运（又称前运）；人格是自己的主运； 外格是副运；总格是后运，通常在人38岁以后才称后运。\r\n\r\n首先，作者将81个数定义了吉凶： 列为吉数的有1、3、5、6、7、8、11、13、15、16、17、18、21、23、24、25、29、31、32、33、35、37、39、41、45、47、48、52、55、57、61、63、65、67、68、81共计36个。\r\n\r\n列为凶数的有2、4、9、10、12、14、19、20、22、26、27、28、30、34、36、38、40、42、43、44、46、49、50、51、53、54、56、58、59、60、62、64、66、69、70、71、72、73、74、75、76、77、78、79、80 合计45个。\r\n\r\n四、三才的计算\r\n\r\n三才是：指天、人、地格的五行属性，取相生吉，相克凶。\r\n\r\n对“数”定义五行是套用十天干的五行顺序而定，即1、2甲乙木，3、4丙丁火，5、6戊己土，7、8庚辛金，9、10壬癸水。计算出了姓名的五格后，就是给五格配上阴、阳。数字超过十的只留个位数计算。如：15为还原成5，属阳土；52还原成2，属阴木，此类推。得出阴阳关系后，再分辩五行的相生相克关系：木生火、火生土、土生金、金生水、水生木；木克土、土克水、水克火、火克金、金克木。\r\n\r\n五、举例\r\n\r\n李世民\r\n\r\n李7 天格：08(金)7+1\r\n\r\n世5 人格：12(木)7+5\r\n\r\n民5 地格：10(水)5+5\r\n\r\n总格：17(金) 7+5+5\r\n\r\n外格：6 (土)17-12+1\r\n\r\n三才是：金木水\r\n\r\n\r\n----------------------------------------------\r\n\r\n用字的划数来区别五行的方法：\r\n\r\n1、2、11、12、21、22、31、32划属木\r\n\r\n3、4、13、14、23、24、33、34划属火\r\n\r\n5、6、15、16、25、26、35、36划属土\r\n\r\n7、8、17、18、27、28、37、38划属金\r\n\r\n9、10、19．20、29、30、39、40划属水\r\n\r\n其中奇数为阳，偶数为阴。\r\n\r\n这里需要注意的重点是笔画的数量以繁体字书写的笔画为准。\r\n\r\n----------------------------------------------\r\n\r\n凡取名字的部首，最好配合生肖宜忌选用\r\n\r\n1、鼠年出生的人\r\n\r\n取名应有：宀、米、豆、魚、艸、金、玉、亻、木、月、田、等部位为吉\r\n\r\n取名忌用：山、刀、力、弓、土、欠、石、皮、氵、马、酉、才、火、车等部首\r\n\r\n2、牛年出生的人\r\n\r\n取名应有：氵、艸、豆、米、金、玉、宀、亻、木等部首为吉\r\n\r\n取名忌用：月、火、田、车、马、石、山、血、糸、刀、力等部首\r\n\r\n3、虎年出生的人\r\n\r\n取名应有：山、玉、金、木、示、氵、月、犬、马等部首为吉\r\n\r\n取名忌用：日、火、田、口、糸、石、马、刀、力、血、弓、父、足等部首\r\n\r\n4、兔年出生的人\r\n\r\n取名应有：月、艸、山、田、亻、禾、木、宀、金、白、玉、豆、犬等部首为吉\r\n\r\n取名忌用：马、石、刀、皮、氵、川等部首\r\n\r\n5、龙年出生的人\r\n\r\n取名应有：氵、金、玉、白、赤、月、魚、酉、亻等部位为吉\r\n\r\n取名忌用：土、田、木、禾、示、忄、日、石、艸、力、刀、糸、犬、火等部首\r\n\r\n6、蛇年出生的人\r\n\r\n取名应有：艸、蟲、豆、魚、酉、木、禾、田、山、金、玉、月、土等部首为吉\r\n\r\n取名忌用：小、石、刀、血、弓、火、亻、犬、父等部首\r\n\r\n7、马年出生的人\r\n\r\n取名应有：艸、金、玉、木、禾、蟲、豆、米、亻、月、土、才等部首为吉\r\n\r\n取名忌用：田、日、火、氵、车、石、刀、力、酉、马等部首\r\n\r\n8、羊年出生的人\r\n\r\n取名应有：金、白、玉、艸、月、田、豆、米、马、禾、木、亻、魚等部首为吉\r\n\r\n取名忌用：小、犬、糸、车、氵、山、日、火等部首\r\n\r\n9、猴年出生的人\r\n\r\n取名应有：木、禾、金、玉、豆、米、田、山、月、氵、亻等部首为吉\r\n\r\n取名忌用：火、石、口、冖、糸、刀、力、皮、犬等部首\r\n\r\n10、鸡年出生的人\r\n\r\n取名应有：米、豆、蟲、木、禾、玉、田、月、冖、山、艸、金的部首为吉\r\n\r\n取名忌用：石、犬、刀、力、日、酉、血、弓、才、糸、车、马等部首\r\n\r\n11、狗年出生的人\r\n\r\n取名应有：魚、豆、米、冖、马、金、艸、田、木、月、禾、氵、亻等部首为吉\r\n\r\n取名忌用：火、石、糸、山、才、木、车、刀、父、言等部首\r\n\r\n12、猪年出生的人\r\n\r\n取名应有：豆、米、魚、氵、金、玉、月、木、禾、亻、山、土、艸等部首为吉\r\n\r\n取名忌用：糸、石、刀、力、血、弓、皮、父等部首\r\n\r\n---------------------------------------------\r\n\r\n\r\n取名的技巧\r\n\r\n1、考虑书写习惯，平时写字，大家都有简单化的倾向，故用字不宜太复杂或难写。注意轻重，平衡字形要有美感。\r\n\r\n2、不宜用生僻字，这样易造成被人难以认识、被人拒绝，妨碍人际沟通。\r\n\r\n3、学名不宜带稚气，当小孩长大后，易被人小看。\r\n\r\n4、避免使用相同或相近部首的字。避免声母，韵母相策。\r\n\r\n5、避免声调相同，无语音之美。分清阴阳，阳盛取阴名，阴盛取阳名。\r\n\r\n6、根据具体要求，调整特殊用字，诱导其广播方向。\r\n\r\n7、创意新颖，含义丰富。\r\n\r\n8、用易经的组合方法，校正全名的卦象，以辨吉凶。\r\n\r\n9、根据小孩的出生年月，即古谓“生辰八字”确定用码的五行。\r\n\r\n10、结合五格数理，选定名字的笔画数。\r\n\r\n\r\n----------------------------------------\r\n\r\n生辰八字\r\n根据宝宝出生的时辰，转换成对应的五行，看看是缺了哪一种，用名字去补。\r\n比如五行缺「金」，名字里面就用带金字旁的字来补。\r\n更具体的我也没有深入研究了，因为用生辰来起名的前提是知道宝宝的出生时间。如果想在宝宝出生前把名字取好，我们可以了解一下「五格剖象法」。\r\n\r\n五格剖象法\r\n五格剖象法，也叫三才五格，是比较流行的一种取名法，也是很多起名打分应用的依据。它将名字的笔画数拆分为天格、地格、人格、外格、总格。\r\n五格各自包含的意义如下：\r\n\r\n天格为根 - 天格乃祖先留下来的，为父母运势，其数理对个人影响不大。\r\n人格为苗 - 又称「主运」，是整个姓名的中心点，人一生的命运之好坏主要由此格推断。\r\n地格为花 - 又称为「前运」，主 38 岁以前，主管人中年以前的活动力。\r\n外格为叶 - 主管命运之灵力，一般指贵人或外来助力。为一个人外界和谐与否，可由此格看出。\r\n总格为果 - 主中年至晚年的命运，又称后运，主 38 岁以后。\r\n\r\n它们计算方法是这样的：\r\n\r\n天格：姓的笔画数?+ 1\r\n人格：姓的笔画数 + 名第一字的笔画数\r\n地格：名字的笔画数相加\r\n总格：姓名笔画数的总和\r\n外格：总格 - 人格 + 1?\r\n\r\n这里的笔画数是按康熙字典里的笔画，也就是要按繁体字计算。此外还有一些部首会影响笔画数计算：\r\n\r\n（1）“氵”三点水算四画。如：清、洁等；（2）“扌”手旁算四画。如挑、拨等；（3）“月”算肉旁六画。如服、肪、脉等；（4）“艹”算六画。如英、苹、蓉等；（5）“辶”算七画。如达、迈、迅、过等；（6）左“阝”算八画，阳、阴、陈、陆等；（7）右“卩”算七画，如即、邓、邝等；（8）“王”算五画，如琬、珀、玫、瑰等；（9）礻（示），以示字计为五画；（10）衤（衣），以衣字计为六画；（11）“犭”算四画。如狄、猛、独等；（12）忄（心），竖心旁，以心字计为四画；（13）名字中有“一、二、三、四、五、六、七、八、九、十”的字要分别按1、2、3、4、5、6、7、8、9、10画。\r\n\r\n最后算出来的五格笔画数，被划分为吉、半吉、凶三组：\r\n\r\n属于吉的数字：1、3、5、8、11、13、15、16、21、23、24、25、29、31、32、33、35、37、38、39、41、45、47、48、52、57、63、65、67、68、81\r\n属于半吉的数字：6、7、17、18、27、30、40、51、52、55、61、75\r\n属于凶的数字：2、4、9、10、12、14、19、20、22、26、28、34、36、42、43、44、46、49、50、53、54、56、58、59、60、62、64、66、69、70、71、72、73、74、76、77、78、79、80\r\n\r\n\r\n----------------------------------------------\r\n\r\n\r\n简而言之就是：\r\n\r\n1，用字的五行补缺少的五行，笔画数以康熙字典为准。\r\n\r\n2，五格要全为吉数，最好是其它格的五行为生人格或被人格克，禁克制人格（此与八字五行分开论。\r\n\r\n3，用字的寓意吉祥没有不好的暗示。\r\n\r\n\r\n\r\n--------------------------------------------\r\n\r\n\r\n最主要的还是积德行善。\r\n\r\n多行善事，才是好运的根本，否则一切都是徒劳。所以，我们建议你多行善事，善事包括1、与人为善；2、敬爱存心；3、成人之美；4、劝人为善；5、救人危急；6、兴建大利；7、舍财作福；8、护持正法；9、敬重尊长等等。";
             if (wenben == 1)
             {
                 button56.Focus(); button56_Click(this, new EventArgs());
                 wenben = 0;
-                richTextBox1.Location = new Point(0, 0); richTextBox1.Text = "";
-                richTextBox1.Height = 0; richTextBox1.Width = 0;
+                richTextBox1.Location = new Point(3, 39); richTextBox1.Text = "";
+                richTextBox1.Height = 191; richTextBox1.Width = 1545;
                 buttongj.Text = "关于软件";
+                buttonddj.Focus(); buttonddj_Click(this, new EventArgs());
             }
             else if (wenben == 0)
             {
 
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 自述文本;
             }
@@ -50571,7 +47689,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
@@ -50579,7 +47697,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
@@ -50587,7 +47705,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
@@ -50595,7 +47713,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
@@ -50603,7 +47721,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
@@ -50611,7 +47729,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
@@ -50619,7 +47737,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
@@ -50627,7 +47745,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
@@ -50635,7 +47753,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
@@ -50643,7 +47761,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
@@ -50656,7 +47774,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
@@ -50664,7 +47782,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
@@ -50672,7 +47790,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
@@ -50680,7 +47798,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
@@ -50688,7 +47806,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
@@ -50696,7 +47814,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
@@ -50704,7 +47822,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
@@ -50712,7 +47830,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
@@ -50720,7 +47838,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
@@ -50728,7 +47846,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
@@ -50739,7 +47857,7 @@ namespace BaZiFuZuGongJu
         {
             button54.Focus(); button54_Click(this, new EventArgs());
             wenben = 1; buttongj.Text = "关闭文本";
-            richTextBox1.Location = new Point(0, 40);
+            richTextBox1.Location = new Point(3, 39);
             richTextBox1.Height = 969; richTextBox1.Width = 1920;
             richTextBox1.Text = "日元旺衰算法\r\n\r\n以50分为强弱分水岭，干支为同日干和生日干者加分。\r\n\r\n年干=8分，年支=4分，月支=40分，其均为12分，日干不记分。\r\n\r\n相加后50或50以上为身旺。\r\n\r\n身旺的日干喜克我与我克和我生的五行，日干为我，以甲干为例。\r\n\r\n甲日干身旺喜火土金，忌木水。甲日干身弱则喜木水，忌火土金。";
 
@@ -50751,7 +47869,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
@@ -50759,7 +47877,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
@@ -50767,7 +47885,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
@@ -50775,7 +47893,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
@@ -50783,7 +47901,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
@@ -50791,7 +47909,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
@@ -50799,7 +47917,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
@@ -50807,7 +47925,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
@@ -50815,7 +47933,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
@@ -50823,7 +47941,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
@@ -50836,7 +47954,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
@@ -50844,7 +47962,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
@@ -50852,7 +47970,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
@@ -50860,7 +47978,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
@@ -50868,7 +47986,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
@@ -50876,7 +47994,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
@@ -50884,7 +48002,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
@@ -50892,7 +48010,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
@@ -50900,7 +48018,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
@@ -50908,7 +48026,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
@@ -50921,7 +48039,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
@@ -50929,7 +48047,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
@@ -50937,7 +48055,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
@@ -50945,7 +48063,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
@@ -50953,7 +48071,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
@@ -50961,7 +48079,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
@@ -50969,7 +48087,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
@@ -50977,7 +48095,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
@@ -50985,7 +48103,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
@@ -50993,7 +48111,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
@@ -51006,7 +48124,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
@@ -51014,7 +48132,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
@@ -51022,7 +48140,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
@@ -51030,7 +48148,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
@@ -51038,7 +48156,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
@@ -51046,7 +48164,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
@@ -51054,7 +48172,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
@@ -51062,7 +48180,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
@@ -51070,7 +48188,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
@@ -51078,7 +48196,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
@@ -51091,7 +48209,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
@@ -51099,7 +48217,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
@@ -51107,7 +48225,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
@@ -51115,7 +48233,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
@@ -51123,7 +48241,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
@@ -51131,7 +48249,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
@@ -51139,7 +48257,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
@@ -51147,7 +48265,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
@@ -51155,7 +48273,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
@@ -51163,7 +48281,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
@@ -51176,7 +48294,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
@@ -51184,7 +48302,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
@@ -51192,7 +48310,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
@@ -51200,7 +48318,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
@@ -51208,7 +48326,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
@@ -51216,7 +48334,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
@@ -51224,7 +48342,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
@@ -51232,7 +48350,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
@@ -51240,7 +48358,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
@@ -51248,7 +48366,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
@@ -51261,7 +48379,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
@@ -51269,7 +48387,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
@@ -51277,7 +48395,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
@@ -51285,7 +48403,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
@@ -51293,7 +48411,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
@@ -51301,7 +48419,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
@@ -51309,7 +48427,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
@@ -51317,7 +48435,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
@@ -51325,7 +48443,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
@@ -51333,7 +48451,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
@@ -51346,7 +48464,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
@@ -51354,7 +48472,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
@@ -51362,7 +48480,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
@@ -51370,7 +48488,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
@@ -51378,7 +48496,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
@@ -51386,7 +48504,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
@@ -51394,7 +48512,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
@@ -51402,7 +48520,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
@@ -51410,7 +48528,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
@@ -51418,7 +48536,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
@@ -51431,7 +48549,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
@@ -51439,7 +48557,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
@@ -51447,7 +48565,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
@@ -51455,7 +48573,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
@@ -51463,7 +48581,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
@@ -51471,7 +48589,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
@@ -51479,7 +48597,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
@@ -51487,7 +48605,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
@@ -51495,7 +48613,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
@@ -51503,7 +48621,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
@@ -51516,7 +48634,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
@@ -51524,7 +48642,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
@@ -51532,7 +48650,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
@@ -51540,7 +48658,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
@@ -51548,7 +48666,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
@@ -51556,7 +48674,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
@@ -51564,7 +48682,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
@@ -51572,7 +48690,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
@@ -51580,7 +48698,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
@@ -51588,7 +48706,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
@@ -51601,7 +48719,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
@@ -51609,7 +48727,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
@@ -51617,7 +48735,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
@@ -51625,7 +48743,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
@@ -51633,7 +48751,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
@@ -51641,7 +48759,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
@@ -51649,7 +48767,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
@@ -51657,7 +48775,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
@@ -51665,7 +48783,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
@@ -51673,7 +48791,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
@@ -51686,7 +48804,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
@@ -51694,7 +48812,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
@@ -51702,7 +48820,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
@@ -51710,7 +48828,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
@@ -51718,7 +48836,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
@@ -51726,7 +48844,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
@@ -51734,7 +48852,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
@@ -51742,7 +48860,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
@@ -51750,7 +48868,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
@@ -51758,7 +48876,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
@@ -51771,7 +48889,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 比肩;
             }
@@ -51779,7 +48897,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 劫财;
             }
@@ -51787,7 +48905,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 食神;
             }
@@ -51795,7 +48913,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 伤官;
             }
@@ -51803,7 +48921,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正财;
             }
@@ -51811,7 +48929,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 偏财;
             }
@@ -51819,7 +48937,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正印;
             }
@@ -51827,7 +48945,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 枭神;
             }
@@ -51835,7 +48953,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 正官;
             }
@@ -51843,7 +48961,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 七杀;
             }
@@ -51859,7 +48977,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 甲木;
             }
@@ -51867,7 +48985,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 乙木;
             }
@@ -51875,7 +48993,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 丙火;
             }
@@ -51883,7 +49001,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 丁火;
             }
@@ -51891,7 +49009,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 戊土;
             }
@@ -51899,7 +49017,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 己土;
             }
@@ -51907,7 +49025,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 庚金;
             }
@@ -51915,7 +49033,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 辛金;
             }
@@ -51923,7 +49041,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 壬水;
             }
@@ -51931,7 +49049,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 癸水;
             }
@@ -51944,7 +49062,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 甲木;
             }
@@ -51952,7 +49070,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 乙木;
             }
@@ -51960,7 +49078,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 丙火;
             }
@@ -51968,7 +49086,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 丁火;
             }
@@ -51976,7 +49094,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 戊土;
             }
@@ -51984,7 +49102,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 己土;
             }
@@ -51992,7 +49110,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 庚金;
             }
@@ -52000,7 +49118,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 辛金;
             }
@@ -52008,7 +49126,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 壬水;
             }
@@ -52016,7 +49134,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 癸水;
             }
@@ -52028,7 +49146,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 甲木;
             }
@@ -52036,7 +49154,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 乙木;
             }
@@ -52044,7 +49162,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 丙火;
             }
@@ -52052,7 +49170,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 丁火;
             }
@@ -52060,7 +49178,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 戊土;
             }
@@ -52068,7 +49186,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 己土;
             }
@@ -52076,7 +49194,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 庚金;
             }
@@ -52084,7 +49202,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 辛金;
             }
@@ -52092,7 +49210,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 壬水;
             }
@@ -52100,7 +49218,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 癸水;
             }
@@ -52112,7 +49230,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 甲木;
             }
@@ -52120,7 +49238,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 乙木;
             }
@@ -52128,7 +49246,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 丙火;
             }
@@ -52136,7 +49254,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 丁火;
             }
@@ -52144,7 +49262,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 戊土;
             }
@@ -52152,7 +49270,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 己土;
             }
@@ -52160,7 +49278,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 庚金;
             }
@@ -52168,7 +49286,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 辛金;
             }
@@ -52176,7 +49294,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 壬水;
             }
@@ -52184,7 +49302,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 癸水;
             }
@@ -52196,7 +49314,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 子水;
             }
@@ -52204,7 +49322,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 丑土;
             }
@@ -52212,7 +49330,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 寅木;
             }
@@ -52220,7 +49338,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 卯木;
             }
@@ -52228,7 +49346,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 辰土;
             }
@@ -52236,7 +49354,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 巳火;
             }
@@ -52244,7 +49362,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 午火;
             }
@@ -52252,7 +49370,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 未土;
             }
@@ -52260,7 +49378,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 申金;
             }
@@ -52268,7 +49386,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 酉金;
             }
@@ -52276,7 +49394,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 戌土;
             }
@@ -52284,7 +49402,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 亥水;
             }
@@ -52297,7 +49415,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 子水;
             }
@@ -52305,7 +49423,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 丑土;
             }
@@ -52313,7 +49431,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 寅木;
             }
@@ -52321,7 +49439,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 卯木;
             }
@@ -52329,7 +49447,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 辰土;
             }
@@ -52337,7 +49455,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 巳火;
             }
@@ -52345,7 +49463,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 午火;
             }
@@ -52353,7 +49471,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 未土;
             }
@@ -52361,7 +49479,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 申金;
             }
@@ -52369,7 +49487,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 酉金;
             }
@@ -52377,7 +49495,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 戌土;
             }
@@ -52385,7 +49503,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 亥水;
             }
@@ -52398,7 +49516,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 子水;
             }
@@ -52406,7 +49524,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 丑土;
             }
@@ -52414,7 +49532,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 寅木;
             }
@@ -52422,7 +49540,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 卯木;
             }
@@ -52430,7 +49548,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 辰土;
             }
@@ -52438,7 +49556,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 巳火;
             }
@@ -52446,7 +49564,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 午火;
             }
@@ -52454,7 +49572,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 未土;
             }
@@ -52462,7 +49580,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 申金;
             }
@@ -52470,7 +49588,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 酉金;
             }
@@ -52478,7 +49596,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 戌土;
             }
@@ -52486,7 +49604,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 亥水;
             }
@@ -52499,7 +49617,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 子水;
             }
@@ -52507,7 +49625,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 丑土;
             }
@@ -52515,7 +49633,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 寅木;
             }
@@ -52523,7 +49641,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 卯木;
             }
@@ -52531,7 +49649,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 辰土;
             }
@@ -52539,7 +49657,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 巳火;
             }
@@ -52547,7 +49665,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 午火;
             }
@@ -52555,7 +49673,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 未土;
             }
@@ -52563,7 +49681,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 申金;
             }
@@ -52571,7 +49689,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 酉金;
             }
@@ -52579,7 +49697,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 戌土;
             }
@@ -52587,7 +49705,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 亥水;
             }
@@ -52599,7 +49717,7 @@ namespace BaZiFuZuGongJu
 
             button54.Focus(); button54_Click(this, new EventArgs());
             wenben = 1; buttongj.Text = "关闭文本";
-            richTextBox1.Location = new Point(0, 40);
+            richTextBox1.Location = new Point(3, 39);
             richTextBox1.Height = 969; richTextBox1.Width = 1920;
             richTextBox1.Text = "金，中晚年时期，缺少，多败少成，难成事，过多则固执。\r\n\r\n7、8、17、18、27、28、37、38数/划属金";
 
@@ -52609,7 +49727,7 @@ namespace BaZiFuZuGongJu
         {
             button54.Focus(); button54_Click(this, new EventArgs());
             wenben = 1; buttongj.Text = "关闭文本";
-            richTextBox1.Location = new Point(0, 40);
+            richTextBox1.Location = new Point(3, 39);
             richTextBox1.Height = 969; richTextBox1.Width = 1920;
             richTextBox1.Text = "水，晚年时光，缺少，没有智慧，晚年孤苦，颠沛流离不安定，过多则一生波折多，晚年好。\r\n\r\n9、10、19．20、29、30、39、40数/划属水";
 
@@ -52619,7 +49737,7 @@ namespace BaZiFuZuGongJu
         {
             button54.Focus(); button54_Click(this, new EventArgs());
             wenben = 1; buttongj.Text = "关闭文本";
-            richTextBox1.Location = new Point(0, 40);
+            richTextBox1.Location = new Point(3, 39);
             richTextBox1.Height = 969; richTextBox1.Width = 1920;
             richTextBox1.Text = "木，少年时光，缺少，严重的有伤残。过多有病患。\r\n\r\n1、2、11、12、21、22、31、32数/划属木";
 
@@ -52629,7 +49747,7 @@ namespace BaZiFuZuGongJu
         {
             button54.Focus(); button54_Click(this, new EventArgs());
             wenben = 1; buttongj.Text = "关闭文本";
-            richTextBox1.Location = new Point(0, 40);
+            richTextBox1.Location = new Point(3, 39);
             richTextBox1.Height = 969; richTextBox1.Width = 1920;
             richTextBox1.Text = "火，青壮年时期，缺少，为人冷淡，学业事业难有作为，过多则性格暴躁。\r\n\r\n3、4、13、14、23、24、33、34数/划属火";
 
@@ -52639,7 +49757,7 @@ namespace BaZiFuZuGongJu
         {
             button54.Focus(); button54_Click(this, new EventArgs());
             wenben = 1; buttongj.Text = "关闭文本";
-            richTextBox1.Location = new Point(0, 40);
+            richTextBox1.Location = new Point(3, 39);
             richTextBox1.Height = 969; richTextBox1.Width = 1920;
             richTextBox1.Text = "土，中壮年时期，缺少，多颠沛流离不安定，过多难有出头天或冥顽不灵。\r\n\r\n5、6、15、16、25、26、35、36数/划属土";
 
@@ -52653,7 +49771,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 命局神煞;
             }
@@ -52670,7 +49788,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 纳音;
             }
@@ -52682,7 +49800,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 纳音;
             }
@@ -52694,7 +49812,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 纳音;
             }
@@ -52706,7 +49824,7 @@ namespace BaZiFuZuGongJu
             {
                 button54.Focus(); button54_Click(this, new EventArgs());
                 wenben = 1; buttongj.Text = "关闭文本";
-                richTextBox1.Location = new Point(0, 40);
+                richTextBox1.Location = new Point(3, 39);
                 richTextBox1.Height = 969; richTextBox1.Width = 1920;
                 richTextBox1.Text = 纳音;
             }
@@ -53598,10 +50716,10 @@ namespace BaZiFuZuGongJu
             linkLabel25.Visible = false; checkBoxln.Visible = false; radioButtonll.Visible = false; radioButtonvv.Visible = false;
             button65.Visible = false; button61.Visible = false; button58.Visible = false;
             button57.Visible = false; button63.Visible = false; button55.Visible = false;
-            button62.Visible = false; button52.Visible = false;
+            button62.Visible = false; button52.Visible = false; buttonddj.Visible = false;
 
             button10.Visible = false; button11.Visible = false; button12.Visible = false; button25.Visible = false;
-            linkLabel7hff.Visible = false; linkLabelxy.Visible = false; linkLabeljy.Visible = false; linkLabel21.Visible = false;
+            linkLabel7hff.Visible = false;
             button31.Visible = false;
             button37.Visible = false; button29.Visible = false; button33.Visible = false; button26.Visible = false;
             button36.Visible = false; button28.Visible = false; button32.Visible = false; button34.Visible = false;
@@ -53620,10 +50738,10 @@ namespace BaZiFuZuGongJu
             linkLabelndzss2.Visible = true; linkLabelydzss2.Visible = true; linkLabelrdzss2.Visible = true; linkLabelsdzss2.Visible = true;
             buttonp.Visible = true; buttonjin.Visible = true; buttonshui.Visible = true;
             buttonmu.Visible = true; buttonhuo.Visible = true; buttontu.Visible = true;
-            dateTimePicker1.Visible = true;
+            dateTimePicker1.Visible = true; buttonddj.Visible = true;
             linkLabel25.Visible = true; checkBoxln.Visible = true; radioButtonll.Visible = true; radioButtonvv.Visible = true;
             button10.Visible = true; button11.Visible = true; button12.Visible = true; button25.Visible = true;
-            linkLabel7hff.Visible = true; linkLabelxy.Visible = true; linkLabeljy.Visible = true; linkLabel21.Visible = true;
+            linkLabel7hff.Visible = true;
 
             linkLabel3.Visible = true; linkLabel18.Visible = true; linkLabel39.Visible = true; linkLabel61.Visible = true;
             linkLabel7.Visible = true; linkLabel16.Visible = true; linkLabel34.Visible = true; linkLabel57.Visible = true;
@@ -54530,6 +51648,103 @@ namespace BaZiFuZuGongJu
                     numericUpDownday.Maximum = days;
                 }
             }
+
+        }
+
+        private void buttonddj_Click(object sender, EventArgs e)
+        {
+            //道德经数组
+            string[] daodejing = new string[81];
+            daodejing[1] = "道可道，非常道；名可名，非常名.无名，天地之始；有名，万物之母。故常无欲，以观其妙；常有欲，以观其徼。 此两者同出而异名，同谓之玄。 玄之又玄，众妙之门。";
+            daodejing[2] = "天下皆知美之为美，斯恶矣；皆知善之为善，斯不善矣。故有无相生，难易相成，长短相形，高下相倾，音声相和，前后相随……是以圣人处无为之事，行不言之教，万物作焉而不辞，生而不有，为而不恃，功成而不居。夫唯不居，是以不去。\r\n";
+            daodejing[3] = " 不尚賢，使民不爭；不貴難得之貨，使民不為盜；不見可欲，使民心不亂。 是以圣人之治，虛其心，實其腹，弱其志，強其骨。常使民無知無欲。使夫智者不敢為也。為無為，則無不治。";
+            daodejing[4] = " 道沖，而用之或不盈。淵兮，似万物之宗；湛兮，似或存。吾不知誰之子，象帝之先。";
+            daodejing[5] = " 天地不仁，以万物為芻狗；圣人不仁，以百姓為芻狗。天地之間，其猶橐龠乎？虛而不屈，動而愈出。多言數窮，不如守中。";
+            daodejing[6] = " 谷神不死，是謂玄牝。玄牝之門，是謂天地根。綿綿若存，用之不勤。";
+            daodejing[7] = " 天長地久。天地所以能長且久者，以其不自生，故能長生。是以圣人后其身而身先；外其身而身存。非以其無私邪？故能成其私。";
+            daodejing[8] = " 上善若水。水善利万物而不爭，處眾人之所惡，故几于道。居善地，心善淵，与善仁，言善信，政善治，事善能，動善時。 夫唯不爭，故無尤。";
+            daodejing[9] = " 持而盈之，不如其已； 揣而銳之，不可長保。金玉滿堂，莫之能守； 富貴而驕，自遺其咎。 功遂身退，天之道也。";
+            daodejing[10] = " 載營魄抱一，能無离乎？專气致柔，能如嬰儿乎？滌除玄鑒，能如疵乎？愛國治民，能無為乎？天門開闔，能為雌乎？明白四達，能無知乎？";
+            daodejing[11] = " 三十輻，共一轂，當其無，有車之用。 埏埴以為器，當其無，有器之用。鑿戶牖以為室，當其無，有室之用。 故有之以為利，無之以為用。";
+            daodejing[12] = " 五色令人目盲；五音令人耳聾；五味令人口爽；馳騁畋獵，令人心發狂；難得之貨，令人行妨。 是以圣人為腹不為目，故去彼取此。";
+            daodejing[13] = " 寵辱若惊，貴大患若身。 何謂寵辱若惊？寵為下，得之若惊，失之若惊，是謂寵辱若惊。何謂貴大患若身？吾所以有大患者，為吾有身，及吾無身，吾有何患？故貴以身為天下，若可寄天下；愛以身為天下，若可托天下";
+            daodejing[14] = " 視之不見，名曰夷；听之不聞，名曰希；搏之不得，名曰微。此三者不可致詰，故混而為一。其上不□，其下不昧。繩繩兮不可名，复歸于物。是謂無狀之狀，無物之象，是謂惚恍。迎之不見其首，隨 之不見其后。 執古之道，以御今之有。能知古始，是謂道紀。";
+            daodejing[15] = " 古之善为士者，微妙玄通，深不可识。 夫唯不可识，故强为之容： 豫兮若冬涉川，犹兮若畏四邻，俨兮其若客；涣兮若冰之将释，敦兮其若朴，旷兮其若谷； 混兮其若浊。 孰能浊以澄？静之徐清；孰能安以久？动之徐生。 保此道者不欲盈。 夫唯不盈，故能敝而新成。";
+            daodejing[16] = " 致虚极，守静笃，万物并作，吾以观其复。 夫物芸芸，各复归其根。归根曰静，是曰复命。 复命曰常，知常曰明。 不知常，妄作，凶。知常，容。 容乃公，公乃王，王乃天，天乃道，道乃久，没身不殆。";
+            daodejing[17] = " 太上，不知有之；其次，亲之、誉之；　其次，畏之；其次，侮之。信不足焉，有不信焉，悠兮其贵言。功成事遂，百姓皆谓,我自然";
+            daodejing[18] = " 大道废，有仁义；智慧出，有大伪；六亲不和，有孝慈；国家昏乱，有忠臣。因为大道废弃了，才提倡（有了）“仁义”。聪明智慧（逐权夺利、投机取巧的心机）出现了,才有了狡诈和虚伪。家庭六亲之间不和睦了，才需要推崇孝慈。国家昏乱了，才出现贞节、忠诚之臣。";
+            daodejing[19] = " 绝圣弃智，民利百倍；绝仁弃义，民复孝慈；绝巧弃利，盗贼无有。此三者以为文，不足，故令有所属：见素抱朴，少私寡欲。";
+            daodejing[20] = "绝学，无忧。唯之与阿，相去几何？美之与恶，相去何若？人之所畏，不可不畏？荒兮其未央哉！众人熙熙，如享太牢，如春登台。我独泊兮其未兆，如婴儿之未孩，傫傫兮，若无所归。众人皆有余，而我独若遗。我愚人之心也哉，沌沌兮！俗人昭昭，我独昏昏。俗人察察，我独闷闷。澹兮其若海，飂兮若无止。众人皆有以，而我独顽似鄙。我独异于人，而贵食母。";
+            daodejing[21] = " 孔德之容，惟道是从。道之为物，惟恍惟惚。惚兮恍兮，其中有象；恍兮惚兮，其中有物；窈兮冥兮，其中有情；其情甚真，其中有信。自古及今，其名不去，以阅众甫。吾何以知众甫之状哉？以此。";
+            daodejing[22] = " 曲则全，枉则直，洼则盈，敝则新，少则得，多则惑。是以圣人抱一为天下式。不自见，故明；不自是，故彰；不自伐，故有功；不自矜，故长。夫唯不争，故天下莫能与之争。古之所谓,曲则全,者，岂虚言哉？诚全而归之。";
+            daodejing[23] = " 希言，自然。飘风不终朝，骤雨不终日。孰为此者？天地。天地尚不能久，而况于人乎？故从事于道者：道者同于道，德者同于德，失者同于失。同于道者，道亦乐得之；同于德者，德亦乐得之；同于失者，失亦乐得之。信不足焉，有不信焉。";
+            daodejing[24] = " 企者不立，跨者不行。自见者不明。自是者不彰。自伐者无功。自矜者不长。其在道也，曰余食赘行。物或恶之，故有道者不处。";
+            daodejing[25] = " 有物混成，先天地生。寂兮寥兮，独立而不改，周行而不殆，可以为天下母。吾不知其名，字之曰道，强为之名，曰大。大曰逝，逝曰远，远曰反。故道大，天大，地大，人亦大。域中有四大，而人居其一焉。人法地，地法天，无法道，道法自然。";
+            daodejing[26] = " 重为轻根，静为躁君。是以圣人终日行不离辎重，虽有荣观，燕处超然。奈何万乘之主而以身轻天下？轻则失根，躁则失君。";
+            daodejing[27] = " 善行，无辙迹；善言，无瑕谪；善计，不用筹策；善闭，无关楗而不可开；善结，无绳约而不可解。是以圣人常善救人，故无弃人；常善救物，故无弃物。是谓袭明。故善人者，不善人之师；不善人者，善人之资。不贵其师，不爱其资，虽智，大迷。是谓要妙。";
+            daodejing[28] = " 知其雄，守其雌，为天下谿。为天下谿，常德不离，复归于婴儿。知其白，守其黑，为天下式。为天下式，常德不忒，复归于无极。知其荣，守其辱，为天下谷。为天下谷，常德乃足，复归于朴。朴散则为器，圣人用之则为官长。故大制不割。";
+            daodejing[29] = " 将欲取天下而为之，吾见其不得已。天下，神器，不可为也。为者败之，执者失之。故物或行或随，或歔或吹，或强或羸，或载或隳。是以圣人去甚，去奢，去泰。";
+            daodejing[30] = " 以道佐人主者，不以兵强天下，其事好还。师之所处，荆棘生焉；大军之后，必有凶年。善者果而已，不敢以取强。果而勿矜，果而勿伐，果而勿骄，果而不得已，果而勿强。物壮则老，是谓不道，不道早已。";
+            daodejing[31] = " 夫兵者，不祥之器，物或恶之，故有道者不处。君子居则贵左，用兵则贵右。兵者不祥之器，非君子之器，不得已而用之，恬淡为上。胜而不美，而美之者，是乐杀人。夫乐杀人者，则不可得志于天下矣。吉事尚左，凶事尚右；偏将军居左，上将军居右。言以丧礼处之。杀人之众，以悲哀莅之；战胜，以丧礼处之。";
+            daodejing[32] = " 道常无名、朴，虽小，天下莫能臣。侯王若能守之，万物将自宾。天地相合以降甘露，人莫之令而自均。始制有名，名亦既有，夫亦将知止。知止可以不殆。譬道之在天下，犹川谷之于江海。";
+            daodejing[33] = " 知人者智，自知者明。胜人者有力，自胜者强。知足者富。强行者有志。不失其所者久。死而不亡者寿。";
+            daodejing[34] = " 大道泛兮，其可左右。万物恃之以生而不辞，功成不名有，衣养万物而不为主，常无欲，可名于小；万物归焉而不知主，可名于大。以其终不自为大，故能成其大。";
+            daodejing[35] = " 执大象，天下往。往而不害，安平太。乐与饵，过客止。道之出言，淡乎其无味。视之不足见，听之不足闻。用之不可既。";
+            daodejing[36] = " 将欲歙之，必固张之；将欲弱之，必固强之；将欲废之，必固兴之；将欲取之，必固与之。是谓微明，柔弱胜刚强。鱼不可脱于渊，邦之利器不可以示人。";
+            daodejing[37] = " 道常无为而无不为。侯王若能守之，万物将自化。化而欲作，吾将镇之以无名之朴。镇之以无名之朴，夫将不欲。不欲以静，天下将自正。";
+            daodejing[38] = " 上德不德，是以有德；下德不失德，是以无德。上德无为而无以为；下德为之而有以为。上仁为之而无以为；上义为之而有以为。上礼为之而莫之应，则攘臂而扔之。故失道而后德，失德而后仁，失仁而后义，失义而后礼。夫礼者，忠信之薄而乱之首也；前识者，道之华而愚之始也。是以大丈夫，处其厚，不处其薄；居其实，不居其华。故去彼取此。";
+            daodejing[39] = " 昔之得一者：天得一以清；地得一以宁；谷得一以盈；万物得一以生；侯王得一以为天下正。其致之也。天无以清，将恐裂；地无以宁，将恐发；神无以灵，将恐歇；谷无以盈，将恐竭；万物无以生，将恐灭；侯王无以贵高，将恐蹶。故贵以贱为本，高以下为基。是以侯王自谓孤、寡、不谷。此非以贱为本邪？非乎？故致数誉，无誉。不欲琭琭如玉，珞珞如石。";
+            daodejing[40] = "反者道之动，弱者道之用。天下之物生于有，有生于无。";
+            daodejing[41] = " 上士闻道，勤而行之；中士闻道，若存若亡；下士闻道，大笑之──不笑，不足以为道。故建言有之：明道若昧，进道若退，夷道若颣，上德若谷，大白若辱，广德若不足，建德若偷，质直若渝，大方无隅，大器晚成，大音希声，大象无形──道隐无名。夫唯道，善贷且成。";
+            daodejing[42] = " 道生一，一生二，二生三，三生万物。万物负阴而抱阳，冲气以为和。人之所恶，唯孤、寡、不谷，而王公以为称。故物或损之而益，或益之而损。人之所教，我亦教之：强梁者不得其死，吾将以为教父";
+            daodejing[43] = " 天下之至柔，驰骋天下之至坚。无有入于无间。吾是以知无为之有益。不言之教，无为之益，天下希及之。";
+            daodejing[44] = " 名与身孰亲？身与货孰多？得与亡孰病？甚爱必大费，多藏必厚亡。故知足不辱，知止不殆，可以长久。";
+            daodejing[45] = " 大成若缺，其用不弊。大盈若冲，其用不穷。大直若屈，大巧若拙，大辩若讷。躁胜寒，静胜热，清静为天下正。";
+            daodejing[46] = " 天下有道，却走马以粪；天下无道，戎马生于郊。祸莫大于不知足，咎莫大于欲得。故知足之足，常足矣。";
+            daodejing[47] = " 不出户，知天下；不窥牖，见天道。其出弥远，其知弥少。是以圣人不行而知，不见而明，不为而成。";
+            daodejing[48] = " 为学日益，为道日损。损之又损，以至于无为。无为而无不为矣！取天下常以无事。及其有事，不足以取天下。";
+            daodejing[49] = " 圣人无常心，以百姓之心为心。善者，吾善之；不善者，吾亦善之──德善。信者，吾信之；不信者，吾亦信之──德信。圣人在天下，歙歙焉为天下浑其心。百姓皆注其耳目，圣人皆孩之。";
+            daodejing[50] = " 出生入死。生之徒，十有三；死之徒，十有三；人之生，動之于死地，亦十有三。夫何故？以其生之厚。蓋聞善攝生者，路行不遇兕虎，入軍不被甲兵；兕無所投其角，虎無所用其爪，兵無所容其刃。夫何故？以其無死地。";
+            daodejing[51] = " 道生之，德畜之，物形之，勢成之。是以万物莫不尊道而貴德。道之尊，德之貴，夫莫之命而常自然。故道生之，德畜之；長之育之；成之熟之；養之覆之。生而不有，為而不恃，長而不宰。是謂玄德。";
+            daodejing[52] = " 天下有始，以为天下母。既得其母，以知其子；既知其子，复守其母，没身不殆。塞其兑，闭其门，终身不勤；开其兑，济其事，终身不救。见小曰明，守柔曰强。用其光，复归其明，无遗身殃，是谓袭常。";
+            daodejing[53] = " 使我介然有知，行于大道，唯施是畏。大道甚夷，而人好徑。朝甚除，田甚蕪，倉甚虛；服文采，帶利劍，厭飲食，財貨有餘；是為盜夸。非道也哉！";
+            daodejing[54] = " 善建者不拔，善抱者不脫，子孫以祭祀不輟。修之于身，其德乃真；修之于家，其德乃餘；修之于鄉，其德乃長；修之于邦，其德乃丰；修之于天下，其德乃普。故以身觀身，以家觀家，以鄉觀鄉，以邦觀邦，以天下觀天下。吾何以知天下然哉？以此。";
+            daodejing[55] = " 含德之厚，比于赤子；毒虫不螫，猛兽不据，攫鸟不搏，骨弱筋柔而握固，未知牝牡之合而俊作，精之至也；终日号而不嗄，和之至也。知和曰常，知常曰明。益生曰祥，心使气曰强。物壮则老，谓之不道，不道早已。";
+            daodejing[56] = " 知者不言，言者不知。塞其兑，闭其门；挫其锐，解其纷；和其光，同其尘。是谓玄同。故不可得而亲，不可得而疏；不可得而利，不可得而害；不可得而贵，不可得而贱。故为天下贵。";
+            daodejing[57] = " 以正治国，以奇用兵，以无事取天下。吾何以知其然哉？以此：天下多忌讳，而民弥贫；民多利器，国家滋昏；人多伎巧，奇物滋起；法令滋彰，盗贼多有。故圣人云：我无为而民自化，我好静而民自正；我无事而民自富，我无欲而民自朴";
+            daodejing[58] = " 其政闷闷，其民淳淳；其政察察，其民缺缺。祸兮，福之所倚；福兮，祸之所伏。孰知其极？其无正也。正复为奇，善复为妖。人之迷，其日固久。是以圣人方而不割，廉而不刿，直而不肆，光而不耀。";
+            daodejing[59] = " 治人，事天，莫若啬。夫唯啬，是谓早服。早服谓之重积德。重积德则无不克。无不克则莫知其极。莫知其极，可以有国。有国之母，可以长久。是谓深根固柢、长生久视之道。";
+            daodejing[60] = " 治大国，若烹小鲜。以道莅天下，其鬼不神。非其鬼不神，其神不伤人。非其神不伤人，圣人亦不伤之。夫两不相伤，故德交归焉。";
+            daodejing[61] = " 大国者下流也，天下之牝。天下之交也，牝常以静胜牡。为其静也故宜为下。故大国以下小国，则取小国；小国以下大国，则取大国。故或下以取，或下而取。大国不过欲，兼畜人；小国不过欲，入事人。夫两者各得其所欲，大者宜为下。";
+            daodejing[62] = " 道者，万物之奥，善人之宝，不善人之所保。美言可以市尊，美行可以加人，人之不善，何弃之有？故立天子，置三公，虽有拱璧以先驷马，不如坐进此道。古之贵此道者何？不曰：求此得，有罪以免邪？故为天下贵。";
+            daodejing[63] = " 为无为，事无事，味无味。大小多少，报怨以德。图难于其易，为大于其细。天下难事，必作于易；天下大事，必作于细。是以圣人终不为大，故能成其大。夫轻诺必寡信，多易必多难。是以圣人犹难之，故终无难矣。";
+            daodejing[64] = " 其安易持，其未兆易谋；其脆易泮，其微易散。为之于未有，治之于未乱。合抱之木，生于毫末；九层之台，起于垒土；千里之行，始于足下。为者败之，执者失之。是以圣人无为故无败，无执故无失。民之从事，常于几成而败之。慎终如始，则无败事。是以圣人欲不欲，不贵难得之货；学不学，复众人之所过。以辅万物之自然而不敢为。";
+            daodejing[65] = " 古之善为道者，非以明民，将以愚之。民之难治，以其智多。故以智治国，国之贼；不以智治国，国之福。知此两者，亦稽式。常知稽式，是谓玄德。玄德深矣，远矣，与物反矣。然后乃至大顺。";
+            daodejing[66] = " 江海所以能为百谷王者，以其善下之，故能为百谷王。是以圣人欲上民，以其言下之；欲先民，以其身后之。是以处上而民不重，处前而民不害。是以天下乐推而不厌。以其不争，故天下莫能与之争。";
+            daodejing[67] = " 天下皆谓我道大，似不肖。夫唯大，故似不肖。若肖，久矣其细也夫！我有三宝，持而保之：一曰慈；二曰俭；三曰不敢为天下先。慈，故能勇；俭，故能广；不敢为天下先，故能成器长。今舍其慈，且勇；舍其俭，且广；舍其后，且先，死矣。夫慈，以战则胜，以守则固。天将救之，以慈卫之。";
+            daodejing[68] = " 善为士者不武，善战者不怒，善胜敌者不兴，善用人者为之下。是谓不争之德，是谓用人之力。是谓配天古之极。";
+            daodejing[69] = " 用兵有言：吾不敢为主而为客，不敢进寸而退尺。是谓行无行，攘无臂，执无兵，乃无敌。祸莫大于轻敌，轻敌几丧吾宝。故抗兵相加，哀者胜矣。";
+            daodejing[70] = " 吾言甚易知，甚易行。天下莫能知，莫能行。言有宗，事有君。夫唯无知，是以不我知。知我者希，则我者贵。是以圣人被褐而怀玉。";
+            daodejing[71] = "知不知，上；不知知，病。夫唯病病，是以不病。圣人不病，以其病病，是以不病。";
+            daodejing[72] = " 民不畏威，则大威至矣。无狎其所居，无厌其所生。夫唯不厌，是以不厌。是以圣人自知不自见，自爱不自贵。故去彼取此。";
+            daodejing[73] = " 勇于敢则杀，勇于不敢则活。此两者，或利或害，天之所恶，孰知其故？是以圣人犹难之。天之道，不争而善胜，不言而善应，不召而自来，繟然而善谋。天网恢恢，疏而不失。";
+            daodejing[74] = " 民不畏死，奈何以死惧之？若使民常畏死，而为奇者，我得执而杀之……孰敢？常有司杀者杀。夫代司杀者杀，是代大匠斫。夫代大匠斫者，鲜有不伤其手者矣。";
+            daodejing[75] = " 民之饥，以其上食税之多，是以饥。民之难治，以其上之有为，是以难治。民之轻死，以其上求生之厚，是以轻死。夫唯无以生为者，是贤于贵生。";
+            daodejing[76] = " 人之生也柔弱，其死也坚强；草木之生也柔脆，其死也枯槁。故坚强者死之徒，柔弱者生之徒。是以兵强则灭，木强则折。强大处下，柔弱处上。";
+            daodejing[77] = " 天之道，其犹张弓者欤？高者抑之，下者举之，有余者损之，不足者补之。天之道，损有余而补不足；人之道则不然，损不足以奉有余。孰能有余以奉天下？唯有道者。是以圣人为而不恃，功成而不处，其不欲见贤也。";
+            daodejing[78] = " 天下莫柔弱于水，而攻坚强者莫之能胜，以其无以易之。柔之胜刚，弱之胜强，天下莫不知，而莫能行。是以圣人云：爱国之垢，是谓社稷主；受国之不祥，是谓天下王。正言若反。";
+            daodejing[79] = " 和大怨，必有余恕，安可以为善？是以圣人执左契而不责于人。有德司契，无德司彻。天道无亲，常与善人。";
+            daodejing[80] = " 小国寡民。使有什佰之器而不用，使民重死而不远徙。虽有舟车，无所乘之；虽有甲兵，无所陈之。使民复结绳而用之。甘其食，美其服，安其居，乐其俗。邻国相望，鸡犬之声相闻，民至老死，不相往来。";
+            daodejing[0] = " 信言不美，美言不信；善者不辩，辩者不善；知者不博，博者不知。圣人不积。既以为人己愈有，既以与人己愈多。天之道，利而不害；圣人之道，为而不争。";
+            //要生成 0 到 100 之间的随机数，可以使用以下代码：
+            Random random = new Random();
+            int randomNumber = random.Next(0, daodejing.Length);
+            string randomElement = daodejing[randomNumber];
+            richTextBox1.Text = randomElement;
+        }
+
+        private void button58_Click(object sender, EventArgs e)
+        {
 
         }
     }

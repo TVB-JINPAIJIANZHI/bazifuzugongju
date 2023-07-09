@@ -160,8 +160,6 @@
             button63 = new Button();
             button65 = new Button();
             button54 = new Button();
-            linkLabelxy = new LinkLabel();
-            linkLabeljy = new LinkLabel();
             button56 = new Button();
             linkLabel25 = new LinkLabel();
             button59 = new Button();
@@ -170,7 +168,6 @@
             numericUpDownmonth = new NumericUpDown();
             numericUpDownday = new NumericUpDown();
             numericUpDownhour = new NumericUpDown();
-            linkLabel21 = new LinkLabel();
             linkLabel28 = new LinkLabel();
             checkBoxln = new CheckBox();
             linkLabelsdzss2 = new LinkLabel();
@@ -196,6 +193,7 @@
             linkLabel62 = new LinkLabel();
             linkLabel63 = new LinkLabel();
             linkLabel64 = new LinkLabel();
+            buttonddj = new Button();
             ((System.ComponentModel.ISupportInitialize)numericUpDownyear).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDownmonth).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDownday).BeginInit();
@@ -295,7 +293,7 @@
             comboBoxsz.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxsz.Font = new Font("微软雅黑", 18F, FontStyle.Bold, GraphicsUnit.Point);
             comboBoxsz.FormattingEnabled = true;
-            comboBoxsz.Location = new Point(1680, 117);
+            comboBoxsz.Location = new Point(1849, 83);
             comboBoxsz.Name = "comboBoxsz";
             comboBoxsz.Size = new Size(50, 39);
             comboBoxsz.TabIndex = 8;
@@ -305,7 +303,7 @@
             comboBoxrz.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxrz.Font = new Font("微软雅黑", 18F, FontStyle.Bold, GraphicsUnit.Point);
             comboBoxrz.FormattingEnabled = true;
-            comboBoxrz.Location = new Point(1624, 117);
+            comboBoxrz.Location = new Point(1793, 83);
             comboBoxrz.Name = "comboBoxrz";
             comboBoxrz.Size = new Size(50, 39);
             comboBoxrz.TabIndex = 9;
@@ -315,7 +313,7 @@
             comboBoxyz.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxyz.Font = new Font("微软雅黑", 18F, FontStyle.Bold, GraphicsUnit.Point);
             comboBoxyz.FormattingEnabled = true;
-            comboBoxyz.Location = new Point(1568, 117);
+            comboBoxyz.Location = new Point(1737, 83);
             comboBoxyz.Name = "comboBoxyz";
             comboBoxyz.Size = new Size(50, 39);
             comboBoxyz.TabIndex = 10;
@@ -325,7 +323,7 @@
             comboBoxnz.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxnz.Font = new Font("微软雅黑", 18F, FontStyle.Bold, GraphicsUnit.Point);
             comboBoxnz.FormattingEnabled = true;
-            comboBoxnz.Location = new Point(1512, 117);
+            comboBoxnz.Location = new Point(1681, 83);
             comboBoxnz.Name = "comboBoxnz";
             comboBoxnz.Size = new Size(50, 39);
             comboBoxnz.TabIndex = 11;
@@ -335,7 +333,7 @@
             comboBoxsg.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxsg.Font = new Font("微软雅黑", 18F, FontStyle.Bold, GraphicsUnit.Point);
             comboBoxsg.FormattingEnabled = true;
-            comboBoxsg.Location = new Point(1680, 72);
+            comboBoxsg.Location = new Point(1849, 38);
             comboBoxsg.Name = "comboBoxsg";
             comboBoxsg.Size = new Size(50, 39);
             comboBoxsg.TabIndex = 12;
@@ -345,7 +343,7 @@
             comboBoxrg.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxrg.Font = new Font("微软雅黑", 18F, FontStyle.Bold, GraphicsUnit.Point);
             comboBoxrg.FormattingEnabled = true;
-            comboBoxrg.Location = new Point(1624, 72);
+            comboBoxrg.Location = new Point(1793, 38);
             comboBoxrg.Name = "comboBoxrg";
             comboBoxrg.Size = new Size(50, 39);
             comboBoxrg.TabIndex = 13;
@@ -355,7 +353,7 @@
             comboBoxyg.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxyg.Font = new Font("微软雅黑", 18F, FontStyle.Bold, GraphicsUnit.Point);
             comboBoxyg.FormattingEnabled = true;
-            comboBoxyg.Location = new Point(1568, 72);
+            comboBoxyg.Location = new Point(1737, 38);
             comboBoxyg.Name = "comboBoxyg";
             comboBoxyg.Size = new Size(50, 39);
             comboBoxyg.TabIndex = 14;
@@ -365,7 +363,7 @@
             comboBoxng.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxng.Font = new Font("微软雅黑", 18F, FontStyle.Bold, GraphicsUnit.Point);
             comboBoxng.FormattingEnabled = true;
-            comboBoxng.Location = new Point(1512, 72);
+            comboBoxng.Location = new Point(1681, 38);
             comboBoxng.Name = "comboBoxng";
             comboBoxng.Size = new Size(50, 39);
             comboBoxng.TabIndex = 15;
@@ -675,7 +673,7 @@
             // buttongz
             // 
             buttongz.Font = new Font("微软雅黑", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            buttongz.Location = new Point(1388, 117);
+            buttongz.Location = new Point(1557, 83);
             buttongz.Name = "buttongz";
             buttongz.Size = new Size(118, 39);
             buttongz.TabIndex = 48;
@@ -1454,11 +1452,11 @@
             // richTextBox1
             // 
             richTextBox1.BackColor = Color.DimGray;
-            richTextBox1.Font = new Font("微软雅黑", 24F, FontStyle.Bold, GraphicsUnit.Point);
+            richTextBox1.Font = new Font("微软雅黑", 21.75F, FontStyle.Bold, GraphicsUnit.Point);
             richTextBox1.ForeColor = Color.GreenYellow;
-            richTextBox1.Location = new Point(1269, 796);
+            richTextBox1.Location = new Point(3, 39);
             richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(0, 0);
+            richTextBox1.Size = new Size(1545, 191);
             richTextBox1.TabIndex = 122;
             richTextBox1.Text = "";
             // 
@@ -1712,6 +1710,7 @@
             button58.TabIndex = 166;
             button58.Text = "正大";
             button58.UseVisualStyleBackColor = true;
+            button58.Click += button58_Click;
             // 
             // button61
             // 
@@ -1763,32 +1762,6 @@
             button54.UseVisualStyleBackColor = true;
             button54.Visible = false;
             button54.Click += button54_Click;
-            // 
-            // linkLabelxy
-            // 
-            linkLabelxy.AutoSize = true;
-            linkLabelxy.BackColor = Color.White;
-            linkLabelxy.Font = new Font("微软雅黑", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            linkLabelxy.LinkColor = Color.Red;
-            linkLabelxy.Location = new Point(3, 38);
-            linkLabelxy.Name = "linkLabelxy";
-            linkLabelxy.Size = new Size(62, 31);
-            linkLabelxy.TabIndex = 190;
-            linkLabelxy.TabStop = true;
-            linkLabelxy.Text = "喜用";
-            // 
-            // linkLabeljy
-            // 
-            linkLabeljy.AutoSize = true;
-            linkLabeljy.BackColor = Color.White;
-            linkLabeljy.Font = new Font("微软雅黑", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            linkLabeljy.LinkColor = Color.Black;
-            linkLabeljy.Location = new Point(3, 69);
-            linkLabeljy.Name = "linkLabeljy";
-            linkLabeljy.Size = new Size(62, 31);
-            linkLabeljy.TabIndex = 191;
-            linkLabeljy.TabStop = true;
-            linkLabeljy.Text = "禁用";
             // 
             // button56
             // 
@@ -1888,26 +1861,13 @@
             numericUpDownhour.TabIndex = 201;
             numericUpDownhour.Click += button59_Click;
             // 
-            // linkLabel21
-            // 
-            linkLabel21.AutoSize = true;
-            linkLabel21.BackColor = Color.White;
-            linkLabel21.Font = new Font("微软雅黑", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            linkLabel21.LinkColor = Color.Green;
-            linkLabel21.Location = new Point(3, 100);
-            linkLabel21.Name = "linkLabel21";
-            linkLabel21.Size = new Size(62, 31);
-            linkLabel21.TabIndex = 193;
-            linkLabel21.TabStop = true;
-            linkLabel21.Text = "吉凶";
-            // 
             // linkLabel28
             // 
             linkLabel28.AutoSize = true;
             linkLabel28.BackColor = Color.White;
             linkLabel28.Font = new Font("微软雅黑", 18F, FontStyle.Bold, GraphicsUnit.Point);
             linkLabel28.LinkColor = Color.Black;
-            linkLabel28.Location = new Point(1512, 38);
+            linkLabel28.Location = new Point(1557, 125);
             linkLabel28.Name = "linkLabel28";
             linkLabel28.Size = new Size(62, 31);
             linkLabel28.TabIndex = 202;
@@ -2181,10 +2141,10 @@
             // linkLabel61
             // 
             linkLabel61.AutoSize = true;
-            linkLabel61.BackColor = Color.DodgerBlue;
+            linkLabel61.BackColor = Color.Gold;
             linkLabel61.Font = new Font("微软雅黑", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            linkLabel61.LinkColor = Color.White;
-            linkLabel61.Location = new Point(1506, 538);
+            linkLabel61.LinkColor = Color.Black;
+            linkLabel61.Location = new Point(1038, 500);
             linkLabel61.Name = "linkLabel61";
             linkLabel61.Size = new Size(33, 28);
             linkLabel61.TabIndex = 221;
@@ -2230,11 +2190,24 @@
             linkLabel64.TabStop = true;
             linkLabel64.Text = "合";
             // 
+            // buttonddj
+            // 
+            buttonddj.Font = new Font("微软雅黑", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            buttonddj.ForeColor = Color.Green;
+            buttonddj.Location = new Point(914, -2);
+            buttonddj.Name = "buttonddj";
+            buttonddj.Size = new Size(94, 38);
+            buttonddj.TabIndex = 227;
+            buttonddj.Text = "道德经";
+            buttonddj.UseVisualStyleBackColor = true;
+            buttonddj.Click += buttonddj_Click;
+            // 
             // Form1
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.DimGray;
             ClientSize = new Size(1904, 1011);
+            Controls.Add(buttonddj);
             Controls.Add(linkLabel62);
             Controls.Add(linkLabel63);
             Controls.Add(linkLabel64);
@@ -2267,10 +2240,7 @@
             Controls.Add(checkBox1);
             Controls.Add(button59);
             Controls.Add(linkLabel25);
-            Controls.Add(linkLabel21);
             Controls.Add(button56);
-            Controls.Add(linkLabeljy);
-            Controls.Add(linkLabelxy);
             Controls.Add(button54);
             Controls.Add(button52);
             Controls.Add(button55);
@@ -2404,7 +2374,7 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "八字排盘工具v21-杜净隆 作品";
+            Text = "八字排盘工具v24-杜净隆 作品";
             WindowState = FormWindowState.Maximized;
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)numericUpDownyear).EndInit();
@@ -2547,8 +2517,6 @@
         private Button button63;
         private Button button65;
         private Button button54;
-        private LinkLabel linkLabelxy;
-        private LinkLabel linkLabeljy;
         private Button button56;
         private LinkLabel linkLabel25;
         private Button button59;
@@ -2557,7 +2525,6 @@
         private NumericUpDown numericUpDownmonth;
         private NumericUpDown numericUpDownday;
         private NumericUpDown numericUpDownhour;
-        private LinkLabel linkLabel21;
         private LinkLabel linkLabel28;
         private CheckBox checkBoxln;
         private LinkLabel linkLabelsdzss2;
@@ -2583,5 +2550,6 @@
         private LinkLabel linkLabel62;
         private LinkLabel linkLabel63;
         private LinkLabel linkLabel64;
+        private Button buttonddj;
     }
 }
