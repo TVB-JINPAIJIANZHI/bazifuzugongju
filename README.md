@@ -1,6 +1,6 @@
 # bazifuzugongju-New2023
 天干地支 排盘 八字 十神 神煞 五行 命理 算命
-本软件为一个完整的C#.NET7工程。当前版本v21
+本软件为一个完整的C#.NET7工程。当前版本v24
 杜净隆_作品。
 此软件为开源软件。https://github.com/TVB-JINPAIJIANZHI/bazifuzugongju
 使用Lunar库实现了万年历级别的天干地支查询https://github.com/6tail/lunar-csharp
