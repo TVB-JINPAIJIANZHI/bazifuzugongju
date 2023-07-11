@@ -1,6 +1,6 @@
 # bazifuzugongju-New2023
 天干地支 排盘 八字 十神 神煞 五行 命理 算命
-本软件为一个完整的C#.NET7工程。当前版本v24
+本软件为一个完整的C#.NET7工程。当前版本v27
 杜净隆_作品。
 此软件为开源软件。https://github.com/TVB-JINPAIJIANZHI/bazifuzugongju
 使用Lunar库实现了万年历级别的天干地支查询https://github.com/6tail/lunar-csharp
@@ -12,7 +12,7 @@
 半三合，地支六合,地支三合,地支三会,天干五合，拱合：五行色彩。
 十神：吉为红字：忌为黑字。自动判断日元强弱。十神等按钮中附注解。
 显示十神六亲。54个神煞显示。显示十二长生。排流年和主命盘显示强弱。
-集成了穷通宝鉴:可以显示四季五行命性。显示命局喜禁。
+集成了穷通宝鉴:可以显示四季五行命性。
 增加四柱的五行纳音。流年副盘。四柱干支流转。 
 更新地址：https://pan.baidu.com/s/1KLywvxhGBLlnMhKYv28UTg
 提取码：4pkx
