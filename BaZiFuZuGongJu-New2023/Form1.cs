@@ -9337,7 +9337,7 @@ namespace BaZiFuZuGongJu
                     {
                         if (button13.Text == xiaoshen)
                         {
-                            linkLabel31.Text = "祖父，亲族长辈，意外的帮助力量";
+                            linkLabel31.Text = "祖父，亲族长辈，意外的力量";
                         }
                     }
                     if (radioButtonvv.Checked)
@@ -9477,7 +9477,7 @@ namespace BaZiFuZuGongJu
                     {
                         if (button14.Text == xiaoshen)
                         {
-                            linkLabel29.Text = "祖父，亲族长辈，意外的帮助力量";
+                            linkLabel29.Text = "祖父，亲族长辈，意外的力量";
                         }
                     }
                     if (radioButtonvv.Checked)
@@ -9617,7 +9617,7 @@ namespace BaZiFuZuGongJu
                     {
                         if (button15.Text == xiaoshen)
                         {
-                            linkLabel30.Text = "祖父，亲族长辈，意外的帮助力量";
+                            linkLabel30.Text = "祖父，亲族长辈，意外的力量";
                         }
                     }
                     if (radioButtonvv.Checked)
@@ -9757,7 +9757,7 @@ namespace BaZiFuZuGongJu
                     {
                         if (button17.Text == xiaoshen)
                         {
-                            linkLabel44.Text = "祖父，亲族长辈，意外的帮助力量";
+                            linkLabel44.Text = "祖父，亲族长辈，意外的力量";
                         }
                     }
                     if (radioButtonvv.Checked)
@@ -9897,7 +9897,7 @@ namespace BaZiFuZuGongJu
                     {
                         if (button18.Text == xiaoshen)
                         {
-                            linkLabel43.Text = "祖父，亲族长辈，意外的帮助力量";
+                            linkLabel43.Text = "祖父，亲族长辈，意外的力量";
                         }
                     }
                     if (radioButtonvv.Checked)
@@ -10037,7 +10037,7 @@ namespace BaZiFuZuGongJu
                     {
                         if (button6.Text == xiaoshen)
                         {
-                            linkLabel42.Text = "祖父，亲族长辈，意外的帮助力量";
+                            linkLabel42.Text = "祖父，亲族长辈，意外的力量";
                         }
                     }
                     if (radioButtonvv.Checked)
@@ -10177,7 +10177,7 @@ namespace BaZiFuZuGongJu
                     {
                         if (button19.Text == xiaoshen)
                         {
-                            linkLabel52.Text = "祖父，亲族长辈，意外的帮助力量";
+                            linkLabel52.Text = "祖父，亲族长辈，意外的力量";
                         }
                     }
                     if (radioButtonvv.Checked)
@@ -10317,7 +10317,7 @@ namespace BaZiFuZuGongJu
                     {
                         if (button21.Text == xiaoshen)
                         {
-                            linkLabel51.Text = "祖父，亲族长辈，意外的帮助力量";
+                            linkLabel51.Text = "祖父，亲族长辈，意外的力量";
                         }
                     }
                     if (radioButtonvv.Checked)
@@ -10457,7 +10457,7 @@ namespace BaZiFuZuGongJu
                     {
                         if (button20.Text == xiaoshen)
                         {
-                            linkLabel50.Text = "祖父，亲族长辈，意外的帮助力量";
+                            linkLabel50.Text = "祖父，亲族长辈，意外的力量";
                         }
                     }
                     if (radioButtonvv.Checked)
@@ -10597,7 +10597,7 @@ namespace BaZiFuZuGongJu
                     {
                         if (button22.Text == xiaoshen)
                         {
-                            linkLabel59.Text = "祖父，亲族长辈，意外的帮助力量";
+                            linkLabel59.Text = "祖父，亲族长辈，意外的力量";
                         }
                     }
                     if (radioButtonvv.Checked)
@@ -10737,7 +10737,7 @@ namespace BaZiFuZuGongJu
                     {
                         if (button23.Text == xiaoshen)
                         {
-                            linkLabel53.Text = "祖父，亲族长辈，意外的帮助力量";
+                            linkLabel53.Text = "祖父，亲族长辈，意外的力量";
                         }
                     }
                     if (radioButtonvv.Checked)
@@ -10877,7 +10877,7 @@ namespace BaZiFuZuGongJu
                     {
                         if (button24.Text == xiaoshen)
                         {
-                            linkLabel54.Text = "祖父，亲族长辈，意外的帮助力量";
+                            linkLabel54.Text = "祖父，亲族长辈，意外的力量";
                         }
                     }
                     if (radioButtonvv.Checked)
@@ -11017,7 +11017,7 @@ namespace BaZiFuZuGongJu
                     {
                         if (button4.Text == xiaoshen)
                         {
-                            linkLabel4.Text = "祖父，亲族长辈，意外的帮助力量";
+                            linkLabel4.Text = "祖父，亲族长辈，意外的力量";
                         }
                     }
                     if (radioButtonvv.Checked)
@@ -11157,7 +11157,7 @@ namespace BaZiFuZuGongJu
                     {
                         if (button16.Text == xiaoshen)
                         {
-                            linkLabel8.Text = "祖父，亲族长辈，意外的帮助力量";
+                            linkLabel8.Text = "祖父，亲族长辈，意外的力量";
                         }
                     }
                     if (radioButtonvv.Checked)
@@ -11297,9 +11297,23 @@ namespace BaZiFuZuGongJu
                     {
                         if (button8.Text == xiaoshen)
                         {
-                            linkLabel22.Text = "祖父，亲族长辈，意外的帮助力量";
+                            linkLabel22.Text = "祖父，亲族长辈，意外的力量";
                         }
                     }
+                }
+                //十神六亲喜忌色彩
+                if (jia == jia)
+                {
+                    //天干
+                    linkLabel4.LinkColor = button4.ForeColor; linkLabel8.LinkColor = button16.ForeColor; linkLabel22.LinkColor = button8.ForeColor;
+                    //年支
+                    linkLabel31.LinkColor = button13.ForeColor; linkLabel29.LinkColor = button14.ForeColor; linkLabel30.LinkColor = button15.ForeColor;
+                    //月支
+                    linkLabel44.LinkColor = button17.ForeColor; linkLabel43.LinkColor = button18.ForeColor; linkLabel42.LinkColor = button6.ForeColor;
+                    //日支
+                    linkLabel52.LinkColor = button19.ForeColor; linkLabel51.LinkColor = button21.ForeColor; linkLabel50.LinkColor = button20.ForeColor;
+                    //时支
+                    linkLabel59.LinkColor = button22.ForeColor; linkLabel53.LinkColor = button23.ForeColor; linkLabel54.LinkColor = button24.ForeColor;
                 }
                 //内脏
                 if (jia == jia)
