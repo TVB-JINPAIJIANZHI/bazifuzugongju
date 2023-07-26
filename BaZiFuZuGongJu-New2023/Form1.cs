@@ -47645,9 +47645,620 @@ namespace BaZiFuZuGongJu
                     }
 
                 }
-                //刑冲
+                //刑冲合
                 if (jia == jia)
                 {
+                    //天干合
+                    if (jia == jia)
+                    {
+
+                        if (ntg != wuu && ytg != wuu && rtg != wuu && stg != wuu && lnntg != wuu && lnytg != wuu && lnrtg != wuu && lnstg != wuu)
+                        {
+                            if (ydz == chen || ydz == chou || ydz == xuu || ydz == wei || ydz == wuma || lnydz == chen || lnydz == chou || lnydz == xuu || lnydz == wei || lnydz == wuma)
+                            {
+                                if (lnntg == jia && ytg == jii || ntg == jii && lnytg == jia)
+                                {
+
+                                    linkLabel69.LinkColor = Color.White; linkLabel69.BackColor = Color.Sienna; linkLabel69.Text += "甲己合土，中正之合-"; wxtu += 1;
+                                }
+                                if (lnytg == jia && rtg == jii || lnrtg == jia && ytg == jii)
+                                {
+
+                                    linkLabel67.LinkColor = Color.White; linkLabel67.BackColor = Color.Sienna; linkLabel67.Text += "甲己合土，中正之合-"; wxtu += 1;
+                                }
+                                if (lnrtg == jia && stg == jii || lnstg == jia && rtg == jii)
+                                {
+
+                                    linkLabel65.LinkColor = Color.White; linkLabel65.BackColor = Color.Sienna; linkLabel65.Text += "甲己合土，中正之合-"; wxtu += 1;
+                                }
+
+
+                                if (ntg == jia && lnytg == jii || lnntg == jii && ytg == jia)
+                                {
+
+                                    linkLabel69.LinkColor = Color.White; linkLabel69.BackColor = Color.Sienna; linkLabel69.Text += "甲己合土，中正之合-"; wxtu += 1;
+                                }
+                                if (ytg == jia && lnrtg == jii || rtg == jia && lnytg == jii)
+                                {
+
+                                    linkLabel67.LinkColor = Color.White; linkLabel67.BackColor = Color.Sienna; linkLabel67.Text += "甲己合土，中正之合-"; wxtu += 1;
+                                }
+                                if (rtg == jia && lnstg == jii || stg == jia && lnrtg == jii)
+                                {
+
+                                    linkLabel65.LinkColor = Color.White; linkLabel65.BackColor = Color.Sienna; linkLabel65.Text += "甲己合土，中正之合-"; wxtu += 1;
+                                }
+
+                            }
+                        }
+                        if (ntg != jia && ytg != jia && rtg != jia && stg != jia && lnntg != jia && lnytg != jia && lnrtg != jia && lnstg != jia)
+                        {
+                            if (ydz == sii || ydz == chou || ydz == you || ydz == shen || lnydz == sii || lnydz == chou || lnydz == you || lnydz == shen)
+                            {
+                                if (ntg == yii && lnytg == geng || lnntg == geng && ytg == yii)
+                                {
+
+                                    linkLabel69.LinkColor = Color.Gold; linkLabel69.BackColor = Color.Black; linkLabel69.Text += "乙庚合金，仁义之合-"; wxjin += 1;
+                                }
+                                if (ytg == yii && lnrtg == geng || rtg == yii && lnytg == geng)
+                                {
+
+                                    linkLabel67.LinkColor = Color.Gold; linkLabel67.BackColor = Color.Black; linkLabel67.Text += "乙庚合金，仁义之合-"; wxjin += 1;
+                                }
+                                if (rtg == yii && lnstg == geng || stg == yii && lnrtg == geng)
+                                {
+
+                                    linkLabel65.LinkColor = Color.Gold; linkLabel65.BackColor = Color.Black; linkLabel65.Text += "乙庚合金，仁义之合-"; wxjin += 1;
+                                }
+
+                                if (lnntg == yii && ytg == geng || ntg == geng && lnytg == yii)
+                                {
+
+                                    linkLabel69.LinkColor = Color.Gold; linkLabel69.BackColor = Color.Black; linkLabel69.Text += "乙庚合金，仁义之合-"; wxjin += 1;
+                                }
+                                if (lnytg == yii && rtg == geng || lnrtg == yii && ytg == geng)
+                                {
+
+                                    linkLabel67.LinkColor = Color.Gold; linkLabel67.BackColor = Color.Black; linkLabel67.Text += "乙庚合金，仁义之合-"; wxjin += 1;
+                                }
+                                if (lnrtg == yii && stg == geng || lnstg == yii && rtg == geng)
+                                {
+
+                                    linkLabel65.LinkColor = Color.Gold; linkLabel65.BackColor = Color.Black; linkLabel65.Text += "乙庚合金，仁义之合-"; wxjin += 1;
+                                }
+
+                            }
+                        }
+                        if (ntg != ding && ytg != ding && rtg != ding && stg != ding && lnntg != ding && lnytg != ding && lnrtg != ding && lnstg != ding)
+                        {
+                            if (ydz == chen || ydz == shen || ydz == zii || ydz == hai || lnydz == chen || lnydz == shen || lnydz == zii || lnydz == hai)
+                            {
+                                if (ntg == bing && lnytg == xin || lnntg == xin && ytg == bing)
+                                {
+
+                                    linkLabel69.LinkColor = Color.White; linkLabel69.BackColor = Color.DodgerBlue; linkLabel69.Text += "丙辛合水，威严之合-"; wxshui += 1;
+                                }
+                                if (ytg == bing && lnrtg == xin || rtg == bing && lnytg == xin)
+                                {
+
+                                    linkLabel67.LinkColor = Color.White; linkLabel67.BackColor = Color.DodgerBlue; linkLabel67.Text += "丙辛合水，威严之合-"; wxshui += 1;
+                                }
+                                if (rtg == bing && lnstg == xin || stg == bing && lnrtg == xin)
+                                {
+
+                                    linkLabel65.LinkColor = Color.White; linkLabel65.BackColor = Color.DodgerBlue; linkLabel65.Text += "丙辛合水，威严之合-"; wxshui += 1;
+                                }
+
+                                if (lnntg == bing && ytg == xin || ntg == xin && lnytg == bing)
+                                {
+
+                                    linkLabel69.LinkColor = Color.White; linkLabel69.BackColor = Color.DodgerBlue; linkLabel69.Text += "丙辛合水，威严之合-"; wxshui += 1;
+                                }
+                                if (lnytg == bing && rtg == xin || lnrtg == bing && ytg == xin)
+                                {
+
+                                    linkLabel67.LinkColor = Color.White; linkLabel67.BackColor = Color.DodgerBlue; linkLabel67.Text += "丙辛合水，威严之合-"; wxshui += 1;
+                                }
+                                if (lnrtg == bing && stg == xin || lnstg == bing && rtg == xin)
+                                {
+
+                                    linkLabel65.LinkColor = Color.White; linkLabel65.BackColor = Color.DodgerBlue; linkLabel65.Text += "丙辛合水，威严之合-"; wxshui += 1;
+                                }
+
+                            }
+                        }
+                        if (ntg != bing && ytg != bing && rtg != bing && stg != bing && lnntg != bing && lnytg != bing && lnrtg != bing && lnstg != bing)
+                        {
+                            if (ydz == hai || ydz == mao || ydz == wei || ydz == yin || lnydz == hai || lnydz == mao || lnydz == wei || lnydz == yin)
+                            {
+                                if (ntg == ding && lnytg == ren || lnntg == ren && ytg == ding)
+                                {
+
+                                    linkLabel69.LinkColor = Color.White; linkLabel69.BackColor = Color.Green; linkLabel69.Text += "丁壬合木，仁寿之合-"; wxmu += 1;
+                                }
+                                if (ytg == ding && lnrtg == ren || rtg == ding && lnytg == ren)
+                                {
+
+                                    linkLabel67.LinkColor = Color.White; linkLabel67.BackColor = Color.Green; linkLabel67.Text += "丁壬合木，仁寿之合-"; wxmu += 1;
+                                }
+                                if (rtg == ding && lnstg == ren || stg == ding && lnrtg == ren)
+                                {
+
+                                    linkLabel65.LinkColor = Color.White; linkLabel65.BackColor = Color.Green; linkLabel65.Text += "丁壬合木，仁寿之合-"; wxmu += 1;
+                                }
+
+                                if (lnntg == ding && ytg == ren || ntg == ren && lnytg == ding)
+                                {
+
+                                    linkLabel69.LinkColor = Color.White; linkLabel69.BackColor = Color.Green; linkLabel69.Text += "丁壬合木，仁寿之合-"; wxmu += 1;
+                                }
+                                if (lnytg == ding && rtg == ren || lnrtg == ding && ytg == ren)
+                                {
+
+                                    linkLabel67.LinkColor = Color.White; linkLabel67.BackColor = Color.Green; linkLabel67.Text += "丁壬合木，仁寿之合-"; wxmu += 1;
+                                }
+                                if (lnrtg == ding && stg == ren || lnstg == ding && rtg == ren)
+                                {
+
+                                    linkLabel65.LinkColor = Color.White; linkLabel65.BackColor = Color.Green; linkLabel65.Text += "丁壬合木，仁寿之合-"; wxmu += 1;
+                                }
+
+                            }
+                        }
+                        if (ntg != jii && ytg != jii && rtg != jii && stg != jii && lnntg != jii && lnytg != jii && lnrtg != jii && lnstg != jii)
+                        {
+                            if (ydz == yin || ydz == wuma || ydz == xuu || ydz == sii || lnydz == yin || lnydz == wuma || lnydz == xuu || lnydz == sii)
+                            {
+                                if (ntg == wuu && lnytg == gui || lnntg == gui && ytg == wuu)
+                                {
+
+                                    linkLabel69.LinkColor = Color.White; linkLabel69.BackColor = Color.Red; linkLabel69.Text += "戊癸合火，无情之合-"; wxhuo += 1;
+                                }
+                                if (ytg == wuu && lnrtg == gui || rtg == wuu && lnytg == gui)
+                                {
+
+                                    linkLabel67.LinkColor = Color.White; linkLabel67.BackColor = Color.Red; linkLabel67.Text += "戊癸合火，无情之合-"; wxhuo += 1;
+                                }
+                                if (rtg == wuu && lnstg == gui || stg == wuu && lnrtg == gui)
+                                {
+
+                                    linkLabel65.LinkColor = Color.White; linkLabel65.BackColor = Color.Red; linkLabel65.Text += "戊癸合火，无情之合-"; wxhuo += 1;
+                                }
+
+                                if (lnntg == wuu && ytg == gui || ntg == gui && lnytg == wuu)
+                                {
+
+                                    linkLabel69.LinkColor = Color.White; linkLabel69.BackColor = Color.Red; linkLabel69.Text += "戊癸合火，无情之合-"; wxhuo += 1;
+                                }
+                                if (lnytg == wuu && rtg == gui || lnrtg == wuu && ytg == gui)
+                                {
+
+                                    linkLabel67.LinkColor = Color.White; linkLabel67.BackColor = Color.Red; linkLabel67.Text += "戊癸合火，无情之合-"; wxhuo += 1;
+                                }
+                                if (lnrtg == wuu && stg == gui || lnstg == wuu && rtg == gui)
+                                {
+
+                                    linkLabel65.LinkColor = Color.White; linkLabel65.BackColor = Color.Red; linkLabel65.Text += "戊癸合火，无情之合-"; wxhuo += 1;
+                                }
+
+                            }
+                        }
+
+                    }
+                    //地支六合
+                    if (jia == jia)
+                    {
+
+                        if (ntg == wuu || ytg == wuu || rtg == wuu || stg == wuu || ntg == jii || ytg == jii || rtg == jii || stg == jii || lnntg == wuu || lnytg == wuu || lnrtg == wuu || lnstg == wuu || lnntg == jii || lnytg == jii || lnrtg == jii || lnstg == jii)
+                        {
+                            if (ndz == zii && ydz == chou || ndz == chou && ydz == zii)
+                            {
+
+                                linkLabel75.LinkColor = Color.White; linkLabel75.BackColor = Color.Sienna; linkLabel75.Text += "子丑合土-"; wxtu += 1;
+                            }
+                            if (ydz == zii && rdz == chou || rdz == zii && ydz == chou)
+                            {
+
+                                linkLabel74.LinkColor = Color.White; linkLabel74.BackColor = Color.Sienna; linkLabel74.Text += "子丑合土-"; wxtu += 1;
+                            }
+                            if (rdz == zii && sdz == chou || sdz == zii && rdz == chou)
+                            {
+
+                                linkLabel73.LinkColor = Color.White; linkLabel73.BackColor = Color.Sienna; linkLabel73.Text += "子丑合土-"; wxtu += 1;
+                            }
+                        }
+                        if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii || lnntg == jia || lnytg == jia || lnrtg == jia || lnstg == jia || lnntg == yii || lnytg == yii || lnrtg == yii || lnstg == yii)
+                        {
+                            if (ndz == yin && ydz == hai || ndz == hai && ydz == yin)
+                            {
+
+                                linkLabel75.LinkColor = Color.White; linkLabel75.BackColor = Color.Green; linkLabel75.Text += "寅亥合木-"; wxmu += 1;
+                            }
+                            if (ydz == yin && rdz == hai || rdz == yin && ydz == hai)
+                            {
+
+                                linkLabel74.LinkColor = Color.White; linkLabel74.BackColor = Color.Green; linkLabel74.Text += "寅亥合木-"; wxmu += 1;
+                            }
+                            if (rdz == yin && sdz == hai || sdz == yin && rdz == hai)
+                            {
+
+                                linkLabel73.LinkColor = Color.White; linkLabel73.BackColor = Color.Green; linkLabel73.Text += "寅亥合木-"; wxmu += 1;
+                            }
+                        }
+                        if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding || lnntg == bing || lnytg == bing || lnrtg == bing || lnstg == bing || lnntg == ding || lnytg == ding || lnrtg == ding || lnstg == ding)
+                        {
+                            if (ndz == mao && ydz == xuu || ndz == xuu && ydz == mao)
+                            {
+
+                                linkLabel75.LinkColor = Color.White; linkLabel75.BackColor = Color.Red; linkLabel75.Text += "卯戌合火-"; wxhuo += 1;
+                            }
+                            if (ydz == mao && rdz == xuu || rdz == mao && ydz == xuu)
+                            {
+
+                                linkLabel74.LinkColor = Color.White; linkLabel74.BackColor = Color.Red; linkLabel74.Text += "卯戌合火-"; wxhuo += 1;
+                            }
+                            if (rdz == mao && sdz == xuu || sdz == mao && rdz == xuu)
+                            {
+
+                                linkLabel73.LinkColor = Color.White; linkLabel73.BackColor = Color.Red; linkLabel73.Text += "卯戌合火-"; wxhuo += 1;
+                            }
+                        }
+                        if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin || lnntg == geng || lnytg == geng || lnrtg == geng || lnstg == geng || lnntg == xin || lnytg == xin || lnrtg == xin || lnstg == xin)
+                        {
+                            if (ndz == chen && ydz == you || ndz == you && ydz == chen)
+                            {
+
+                                linkLabel75.LinkColor = Color.Gold; linkLabel75.BackColor = Color.Black; linkLabel75.Text += "辰酉合金-"; wxjin += 1;
+                            }
+                            if (ydz == chen && rdz == you || rdz == chen && ydz == you)
+                            {
+
+                                linkLabel74.LinkColor = Color.Gold; linkLabel74.BackColor = Color.Black; linkLabel74.Text += "辰酉合金-"; wxjin += 1;
+                            }
+                            if (rdz == chen && sdz == you || sdz == chen && rdz == you)
+                            {
+
+                                linkLabel73.LinkColor = Color.Gold; linkLabel73.BackColor = Color.Black; linkLabel73.Text += "辰酉合金-"; wxjin += 1;
+                            }
+                        }
+                        if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui || lnntg == ren || lnytg == ren || lnrtg == ren || lnstg == ren || lnntg == gui || lnytg == gui || lnrtg == gui || lnstg == gui)
+                        {
+                            if (ndz == sii && ydz == shen || ndz == shen && ydz == sii)
+                            {
+
+                                linkLabel75.LinkColor = Color.White; linkLabel75.BackColor = Color.DodgerBlue; linkLabel75.Text += "巳申合水-"; wxshui += 1;
+                            }
+                            if (ydz == sii && rdz == shen || rdz == sii && ydz == shen)
+                            {
+
+                                linkLabel74.LinkColor = Color.White; linkLabel74.BackColor = Color.DodgerBlue; linkLabel74.Text += "巳申合水-"; wxshui += 1;
+                            }
+                            if (rdz == sii && sdz == shen || sdz == sii && rdz == shen)
+                            {
+
+                                linkLabel73.LinkColor = Color.White; linkLabel73.BackColor = Color.DodgerBlue; linkLabel73.Text += "巳申合水-"; wxshui += 1;
+                            }
+                        }
+                        if (ntg == wuu || ytg == wuu || rtg == wuu || stg == wuu || ntg == jii || ytg == jii || rtg == jii || stg == jii || lnntg == wuu || lnytg == wuu || lnrtg == wuu || lnstg == wuu || lnntg == jii || lnytg == jii || lnrtg == jii || lnstg == jii)
+                        {
+                            if (ndz == wuma && ydz == wei || ndz == wei && ydz == wuma)
+                            {
+
+                                linkLabel75.LinkColor = Color.White; linkLabel75.BackColor = Color.Sienna; linkLabel75.Text += "午未合土-"; wxtu += 1;
+                            }
+                            if (ydz == wuma && rdz == wei || rdz == wuma && ydz == wei)
+                            {
+
+                                linkLabel74.LinkColor = Color.White; linkLabel74.BackColor = Color.Sienna; linkLabel74.Text += "午未合土-"; wxtu += 1;
+                            }
+                            if (rdz == wuma && sdz == wei || sdz == wuma && rdz == wei)
+                            {
+
+                                linkLabel73.LinkColor = Color.White; linkLabel73.BackColor = Color.Sienna; linkLabel73.Text += "午未合土-"; wxtu += 1;
+                            }
+                        }
+
+                    }
+                    //地支六害
+                    if (jia == jia)
+                    {
+
+                        if (lnndz == wei && ydz == zii || lnndz == zii && ydz == wei)
+                        {
+                            linkLabel68.LinkColor = Color.White; linkLabel68.BackColor = Color.Black; linkLabel68.Text += "子未相害-";
+                        }
+                        if (lnydz == wei && rdz == zii || lnrdz == wei && ydz == zii)
+                        {
+                            linkLabel66.LinkColor = Color.White; linkLabel66.BackColor = Color.Black; linkLabel66.Text += "子未相害-";
+                        }
+                        if (lnrdz == wei && sdz == zii || lnsdz == wei && rdz == zii)
+                        {
+                            linkLabel21.LinkColor = Color.White; linkLabel21.BackColor = Color.Black; linkLabel21.Text += "子未相害-";
+                        }
+                        if (lnndz == chou && ydz == wuma || lnndz == wuma && ydz == chou)
+                        {
+                            linkLabel68.LinkColor = Color.White; linkLabel68.BackColor = Color.Black; linkLabel68.Text += "丑午相害-";
+                        }
+                        if (lnydz == chou && rdz == wuma || lnrdz == chou && ydz == wuma)
+                        {
+                            linkLabel66.LinkColor = Color.White; linkLabel66.BackColor = Color.Black; linkLabel66.Text += "丑午相害-";
+                        }
+                        if (lnrdz == chou && sdz == wuma || lnsdz == chou && rdz == wuma)
+                        {
+                            linkLabel21.LinkColor = Color.White; linkLabel21.BackColor = Color.Black; linkLabel21.Text += "丑午相害-";
+                        }
+                        if (lnndz == yin && ydz == sii || lnndz == sii && ydz == yin)
+                        {
+                            linkLabel68.LinkColor = Color.White; linkLabel68.BackColor = Color.Black; linkLabel68.Text += "寅巳相害-";
+                        }
+                        if (lnydz == yin && rdz == sii || lnrdz == yin && ydz == sii)
+                        {
+                            linkLabel66.LinkColor = Color.White; linkLabel66.BackColor = Color.Black; linkLabel66.Text += "寅巳相害-";
+                        }
+                        if (lnrdz == yin && sdz == sii || lnsdz == yin && rdz == sii)
+                        {
+                            linkLabel21.LinkColor = Color.White; linkLabel21.BackColor = Color.Black; linkLabel21.Text += "寅巳相害-";
+                        }
+                        if (lnndz == mao && ydz == chen || lnndz == chen && ydz == mao)
+                        {
+                            linkLabel68.LinkColor = Color.White; linkLabel68.BackColor = Color.Black; linkLabel68.Text += "卯辰相害-";
+                        }
+                        if (lnydz == mao && rdz == chen || lnrdz == mao && ydz == chen)
+                        {
+                            linkLabel66.LinkColor = Color.White; linkLabel66.BackColor = Color.Black; linkLabel66.Text += "卯辰相害-";
+                        }
+                        if (lnrdz == mao && sdz == chen || lnsdz == mao && rdz == chen)
+                        {
+                            linkLabel21.LinkColor = Color.White; linkLabel21.BackColor = Color.Black; linkLabel21.Text += "卯辰相害-";
+                        }
+                        if (lnndz == shen && ydz == hai || lnndz == hai && ydz == shen)
+                        {
+                            linkLabel68.LinkColor = Color.White; linkLabel68.BackColor = Color.Black; linkLabel68.Text += "申亥相害-";
+                        }
+                        if (lnydz == shen && rdz == hai || lnrdz == shen && ydz == hai)
+                        {
+                            linkLabel66.LinkColor = Color.White; linkLabel66.BackColor = Color.Black; linkLabel66.Text += "申亥相害-";
+                        }
+                        if (lnrdz == shen && sdz == hai || lnsdz == shen && rdz == hai)
+                        {
+                            linkLabel21.LinkColor = Color.White; linkLabel21.BackColor = Color.Black; linkLabel21.Text += "申亥相害-";
+                        }
+                        if (lnndz == you && ydz == xuu || lnndz == xuu && ydz == you)
+                        {
+                            linkLabel68.LinkColor = Color.White; linkLabel68.BackColor = Color.Black; linkLabel68.Text += "酉戌相害-";
+                        }
+                        if (lnydz == you && rdz == xuu || lnrdz == you && ydz == xuu)
+                        {
+                            linkLabel66.LinkColor = Color.White; linkLabel66.BackColor = Color.Black; linkLabel66.Text += "酉戌相害-";
+                        }
+                        if (lnrdz == you && sdz == xuu || lnsdz == you && rdz == xuu)
+                        {
+                            linkLabel21.LinkColor = Color.White; linkLabel21.BackColor = Color.Black; linkLabel21.Text += "酉戌相害-";
+                        }
+
+                        if (ndz == wei && lnydz == zii || ndz == zii && lnydz == wei)
+                        {
+                            linkLabel68.LinkColor = Color.White; linkLabel68.BackColor = Color.Black; linkLabel68.Text += "子未相害-";
+                        }
+                        if (ydz == wei && lnrdz == zii || rdz == wei && lnydz == zii)
+                        {
+                            linkLabel66.LinkColor = Color.White; linkLabel66.BackColor = Color.Black; linkLabel66.Text += "子未相害-";
+                        }
+                        if (rdz == wei && lnsdz == zii || sdz == wei && lnrdz == zii)
+                        {
+                            linkLabel21.LinkColor = Color.White; linkLabel21.BackColor = Color.Black; linkLabel21.Text += "子未相害-";
+                        }
+                        if (ndz == chou && lnydz == wuma || ndz == wuma && lnydz == chou)
+                        {
+                            linkLabel68.LinkColor = Color.White; linkLabel68.BackColor = Color.Black; linkLabel68.Text += "丑午相害-";
+                        }
+                        if (ydz == chou && lnrdz == wuma || rdz == chou && lnydz == wuma)
+                        {
+                            linkLabel66.LinkColor = Color.White; linkLabel66.BackColor = Color.Black; linkLabel66.Text += "丑午相害-";
+                        }
+                        if (rdz == chou && lnsdz == wuma || sdz == chou && lnrdz == wuma)
+                        {
+                            linkLabel21.LinkColor = Color.White; linkLabel21.BackColor = Color.Black; linkLabel21.Text += "丑午相害-";
+                        }
+                        if (ndz == yin && lnydz == sii || ndz == sii && lnydz == yin)
+                        {
+                            linkLabel68.LinkColor = Color.White; linkLabel68.BackColor = Color.Black; linkLabel68.Text += "寅巳相害-";
+                        }
+                        if (ydz == yin && lnrdz == sii || rdz == yin && lnydz == sii)
+                        {
+                            linkLabel66.LinkColor = Color.White; linkLabel66.BackColor = Color.Black; linkLabel66.Text += "寅巳相害-";
+                        }
+                        if (rdz == yin && lnsdz == sii || sdz == yin && lnrdz == sii)
+                        {
+                            linkLabel21.LinkColor = Color.White; linkLabel21.BackColor = Color.Black; linkLabel21.Text += "寅巳相害-";
+                        }
+                        if (ndz == mao && lnydz == chen || ndz == chen && lnydz == mao)
+                        {
+                            linkLabel68.LinkColor = Color.White; linkLabel68.BackColor = Color.Black; linkLabel68.Text += "卯辰相害-";
+                        }
+                        if (ydz == mao && lnrdz == chen || rdz == mao && lnydz == chen)
+                        {
+                            linkLabel66.LinkColor = Color.White; linkLabel66.BackColor = Color.Black; linkLabel66.Text += "卯辰相害-";
+                        }
+                        if (rdz == mao && lnsdz == chen || sdz == mao && lnrdz == chen)
+                        {
+                            linkLabel21.LinkColor = Color.White; linkLabel21.BackColor = Color.Black; linkLabel21.Text += "卯辰相害-";
+                        }
+                        if (ndz == shen && lnydz == hai || ndz == hai && lnydz == shen)
+                        {
+                            linkLabel68.LinkColor = Color.White; linkLabel68.BackColor = Color.Black; linkLabel68.Text += "申亥相害-";
+                        }
+                        if (ydz == shen && lnrdz == hai || rdz == shen && lnydz == hai)
+                        {
+                            linkLabel66.LinkColor = Color.White; linkLabel66.BackColor = Color.Black; linkLabel66.Text += "申亥相害-";
+                        }
+                        if (rdz == shen && lnsdz == hai || sdz == shen && lnrdz == hai)
+                        {
+                            linkLabel21.LinkColor = Color.White; linkLabel21.BackColor = Color.Black; linkLabel21.Text += "申亥相害-";
+                        }
+                        if (ndz == you && lnydz == xuu || ndz == xuu && lnydz == you)
+                        {
+                            linkLabel68.LinkColor = Color.White; linkLabel68.BackColor = Color.Black; linkLabel68.Text += "酉戌相害-";
+                        }
+                        if (ydz == you && lnrdz == xuu || rdz == you && lnydz == xuu)
+                        {
+                            linkLabel66.LinkColor = Color.White; linkLabel66.BackColor = Color.Black; linkLabel66.Text += "酉戌相害-";
+                        }
+                        if (rdz == you && lnsdz == xuu || sdz == you && lnrdz == xuu)
+                        {
+                            linkLabel21.LinkColor = Color.White; linkLabel21.BackColor = Color.Black; linkLabel21.Text += "酉戌相害-";
+                        }
+                    }
+                    //地支六破
+                    if (jia == jia)
+                    {
+
+                        if (lnndz == zii && ydz == you || lnndz == you && ydz == zii)
+                        {
+                            linkLabel68.LinkColor = Color.White; linkLabel68.BackColor = Color.Black; linkLabel68.Text += "子酉相破-";
+                        }
+                        if (lnydz == zii && rdz == you || lnrdz == zii && ydz == you)
+                        {
+                            linkLabel66.LinkColor = Color.White; linkLabel66.BackColor = Color.Black; linkLabel66.Text += "子酉相破-";
+                        }
+                        if (lnrdz == zii && sdz == you || lnsdz == zii && rdz == you)
+                        {
+                            linkLabel21.LinkColor = Color.White; linkLabel21.BackColor = Color.Black; linkLabel21.Text += "子酉相破-";
+                        }
+                        if (lnndz == chou && ydz == chen || lnndz == chen && ydz == chou)
+                        {
+                            linkLabel68.LinkColor = Color.White; linkLabel68.BackColor = Color.Black; linkLabel68.Text += "丑辰相破-";
+                        }
+                        if (lnydz == chou && rdz == chen || lnrdz == chou && ydz == chen)
+                        {
+                            linkLabel66.LinkColor = Color.White; linkLabel66.BackColor = Color.Black; linkLabel66.Text += "丑辰相破-";
+                        }
+                        if (lnrdz == chou && sdz == chen || lnsdz == chou && rdz == chen)
+                        {
+                            linkLabel21.LinkColor = Color.White; linkLabel21.BackColor = Color.Black; linkLabel21.Text += "丑辰相破-";
+                        }
+                        if (lnndz == yin && ydz == hai || lnndz == hai && ydz == yin)
+                        {
+                            linkLabel68.LinkColor = Color.White; linkLabel68.BackColor = Color.Black; linkLabel68.Text += "寅亥相破-";
+                        }
+                        if (lnydz == yin && rdz == hai || lnrdz == yin && ydz == hai)
+                        {
+                            linkLabel66.LinkColor = Color.White; linkLabel66.BackColor = Color.Black; linkLabel66.Text += "寅亥相破-";
+                        }
+                        if (lnrdz == yin && sdz == hai || lnsdz == yin && rdz == hai)
+                        {
+                            linkLabel21.LinkColor = Color.White; linkLabel21.BackColor = Color.Black; linkLabel21.Text += "寅亥相破-";
+                        }
+                        if (lnndz == mao && ydz == wuma || lnndz == wuma && ydz == mao)
+                        {
+                            linkLabel68.LinkColor = Color.White; linkLabel68.BackColor = Color.Black; linkLabel68.Text += "卯午相破-";
+                        }
+                        if (lnydz == mao && rdz == wuma || lnrdz == mao && ydz == wuma)
+                        {
+                            linkLabel66.LinkColor = Color.White; linkLabel66.BackColor = Color.Black; linkLabel66.Text += "卯午相破-";
+                        }
+                        if (lnrdz == mao && sdz == wuma || lnsdz == mao && rdz == wuma)
+                        {
+                            linkLabel21.LinkColor = Color.White; linkLabel21.BackColor = Color.Black; linkLabel21.Text += "卯午相破-";
+                        }
+                        if (lnndz == sii && ydz == shen || lnndz == shen && ydz == sii)
+                        {
+                            linkLabel68.LinkColor = Color.White; linkLabel68.BackColor = Color.Black; linkLabel68.Text += "巳申相破-";
+                        }
+                        if (lnydz == sii && rdz == shen || lnrdz == sii && ydz == shen)
+                        {
+                            linkLabel66.LinkColor = Color.White; linkLabel66.BackColor = Color.Black; linkLabel66.Text += "巳申相破-";
+                        }
+                        if (lnrdz == sii && sdz == shen || lnsdz == sii && rdz == shen)
+                        {
+                            linkLabel21.LinkColor = Color.White; linkLabel21.BackColor = Color.Black; linkLabel21.Text += "巳申相破-";
+                        }
+                        if (lnndz == wei && ydz == xuu || lnndz == xuu && ydz == wei)
+                        {
+                            linkLabel68.LinkColor = Color.White; linkLabel68.BackColor = Color.Black; linkLabel68.Text += "未戌相破-";
+                        }
+                        if (lnydz == wei && rdz == xuu || lnrdz == wei && ydz == xuu)
+                        {
+                            linkLabel66.LinkColor = Color.White; linkLabel66.BackColor = Color.Black; linkLabel66.Text += "未戌相破-";
+                        }
+                        if (lnrdz == wei && sdz == xuu || lnsdz == wei && rdz == xuu)
+                        {
+                            linkLabel21.LinkColor = Color.White; linkLabel21.BackColor = Color.Black; linkLabel21.Text += "未戌相破-";
+                        }
+
+                        if (ndz == zii && lnydz == you || ndz == you && lnydz == zii)
+                        {
+                            linkLabel68.LinkColor = Color.White; linkLabel68.BackColor = Color.Black; linkLabel68.Text += "子酉相破-";
+                        }
+                        if (ydz == zii && lnrdz == you || rdz == zii && lnydz == you)
+                        {
+                            linkLabel66.LinkColor = Color.White; linkLabel66.BackColor = Color.Black; linkLabel66.Text += "子酉相破-";
+                        }
+                        if (rdz == zii && lnsdz == you || sdz == zii && lnrdz == you)
+                        {
+                            linkLabel21.LinkColor = Color.White; linkLabel21.BackColor = Color.Black; linkLabel21.Text += "子酉相破-";
+                        }
+                        if (ndz == chou && lnydz == chen || ndz == chen && lnydz == chou)
+                        {
+                            linkLabel68.LinkColor = Color.White; linkLabel68.BackColor = Color.Black; linkLabel68.Text += "丑辰相破-";
+                        }
+                        if (ydz == chou && lnrdz == chen || rdz == chou && lnydz == chen)
+                        {
+                            linkLabel66.LinkColor = Color.White; linkLabel66.BackColor = Color.Black; linkLabel66.Text += "丑辰相破-";
+                        }
+                        if (rdz == chou && lnsdz == chen || sdz == chou && lnrdz == chen)
+                        {
+                            linkLabel21.LinkColor = Color.White; linkLabel21.BackColor = Color.Black; linkLabel21.Text += "丑辰相破-";
+                        }
+                        if (ndz == yin && lnydz == hai || ndz == hai && lnydz == yin)
+                        {
+                            linkLabel68.LinkColor = Color.White; linkLabel68.BackColor = Color.Black; linkLabel68.Text += "寅亥相破-";
+                        }
+                        if (ydz == yin && lnrdz == hai || rdz == yin && lnydz == hai)
+                        {
+                            linkLabel66.LinkColor = Color.White; linkLabel66.BackColor = Color.Black; linkLabel66.Text += "寅亥相破-";
+                        }
+                        if (rdz == yin && lnsdz == hai || sdz == yin && lnrdz == hai)
+                        {
+                            linkLabel21.LinkColor = Color.White; linkLabel21.BackColor = Color.Black; linkLabel21.Text += "寅亥相破-";
+                        }
+                        if (ndz == mao && lnydz == wuma || ndz == wuma && lnydz == mao)
+                        {
+                            linkLabel68.LinkColor = Color.White; linkLabel68.BackColor = Color.Black; linkLabel68.Text += "卯午相破-";
+                        }
+                        if (ydz == mao && lnrdz == wuma || rdz == mao && lnydz == wuma)
+                        {
+                            linkLabel66.LinkColor = Color.White; linkLabel66.BackColor = Color.Black; linkLabel66.Text += "卯午相破-";
+                        }
+                        if (rdz == mao && lnsdz == wuma || sdz == mao && lnrdz == wuma)
+                        {
+                            linkLabel21.LinkColor = Color.White; linkLabel21.BackColor = Color.Black; linkLabel21.Text += "卯午相破-";
+                        }
+                        if (ndz == sii && lnydz == shen || ndz == shen && lnydz == sii)
+                        {
+                            linkLabel68.LinkColor = Color.White; linkLabel68.BackColor = Color.Black; linkLabel68.Text += "巳申相破-";
+                        }
+                        if (ydz == sii && lnrdz == shen || rdz == sii && lnydz == shen)
+                        {
+                            linkLabel66.LinkColor = Color.White; linkLabel66.BackColor = Color.Black; linkLabel66.Text += "巳申相破-";
+                        }
+                        if (rdz == sii && lnsdz == shen || sdz == sii && lnrdz == shen)
+                        {
+                            linkLabel21.LinkColor = Color.White; linkLabel21.BackColor = Color.Black; linkLabel21.Text += "巳申相破-";
+                        }
+                        if (ndz == wei && lnydz == xuu || ndz == xuu && lnydz == wei)
+                        {
+                            linkLabel68.LinkColor = Color.White; linkLabel68.BackColor = Color.Black; linkLabel68.Text += "未戌相破-";
+                        }
+                        if (ydz == wei && lnrdz == xuu || rdz == wei && lnydz == xuu)
+                        {
+                            linkLabel66.LinkColor = Color.White; linkLabel66.BackColor = Color.Black; linkLabel66.Text += "未戌相破-";
+                        }
+                        if (rdz == wei && lnsdz == xuu || sdz == wei && lnrdz == xuu)
+                        {
+                            linkLabel21.LinkColor = Color.White; linkLabel21.BackColor = Color.Black; linkLabel21.Text += "未戌相破-";
+                        }
+                    }
                     //天干冲
                     if (jia == jia)
                     {

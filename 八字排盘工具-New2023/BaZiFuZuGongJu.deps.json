@@ -9,21 +9,21 @@
       "BaZiFuZuGongJu/9": {
         "dependencies": {
           "lunar": "1.5.3.0",
-          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.22621.28"
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.22621.29"
         },
         "runtime": {
           "BaZiFuZuGongJu.dll": {}
         }
       },
-      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.22621.28": {
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.22621.29": {
         "runtime": {
           "Microsoft.Windows.SDK.NET.dll": {
             "assemblyVersion": "10.0.22621.24",
-            "fileVersion": "10.0.22621.28"
+            "fileVersion": "10.0.22621.29"
           },
           "WinRT.Runtime.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.1.40881"
+            "fileVersion": "2.0.3.42921"
           }
         }
       },
@@ -43,7 +43,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.22621.28": {
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.22621.29": {
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
