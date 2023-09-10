@@ -773,11 +773,11 @@ namespace BaZiFuZuGongJu
                         {
                             wangshuai += 8;
                         }
-                        if (ydz == hai)
+                        if (ydz == hai || ydz == shen)
                         {
                             wangshuai += 40;
                         }
-                        if (ydz == zii || ydz == you || ydz == shen)
+                        if (ydz == zii || ydz == you)
                         {
                             wangshuai += 50;
                         }
@@ -905,11 +905,11 @@ namespace BaZiFuZuGongJu
                         {
                             wangshuai += 8;
                         }
-                        if (ydz == shen || ydz == chen || ydz == wei)
+                        if (ydz == shen || ydz == chen || ydz == wei || ydz == xuu || ydz == chou)
                         {
                             wangshuai += 40;
                         }
-                        if (ydz == you || ydz == xuu || ydz == chou)
+                        if (ydz == you)
                         {
                             wangshuai += 50;
                         }
@@ -949,11 +949,11 @@ namespace BaZiFuZuGongJu
                         {
                             wangshuai += 8;
                         }
-                        if (ydz == chen || ydz == wei || ydz == xuu || ydz == chou)
+                        if (ydz == chen || ydz == wei || ydz == xuu || ydz == chou || ydz == sii)
                         {
                             wangshuai += 40;
                         }
-                        if (ydz == wuma || ydz == sii)
+                        if (ydz == wuma)
                         {
                             wangshuai += 50;
                         }

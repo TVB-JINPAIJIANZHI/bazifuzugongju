@@ -29,3 +29,16 @@ G:\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\refint\BaZiFuZuGongJu.dll
 G:\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.pdb
 G:\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.genruntimeconfig.cache
 G:\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\ref\BaZiFuZuGongJu.dll
+C:\Users\Administrator\Desktop\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.Form1.resources
+C:\Users\Administrator\Desktop\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.csproj.CopyComplete
+C:\Users\Administrator\Desktop\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.dll
+C:\Users\Administrator\Desktop\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\refint\BaZiFuZuGongJu.dll
+C:\Users\Administrator\Desktop\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.pdb
+C:\Users\Administrator\Desktop\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\BaZiFuZuGongJu.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\BaZiFuZuGongJu\obj\Debug\net7.0-windows10.0.22621.0\ref\BaZiFuZuGongJu.dll

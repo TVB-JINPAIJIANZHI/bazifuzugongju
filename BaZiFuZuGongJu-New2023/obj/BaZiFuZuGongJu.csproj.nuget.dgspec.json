@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\BaZiFuZuGongJu\\BaZiFuZuGongJu.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\BaZiFuZuGongJu\\BaZiFuZuGongJu.csproj": {}
   },
   "projects": {
-    "G:\\BaZiFuZuGongJu\\BaZiFuZuGongJu.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\BaZiFuZuGongJu\\BaZiFuZuGongJu.csproj": {
       "version": "9.0.0",
       "restore": {
-        "projectUniqueName": "G:\\BaZiFuZuGongJu\\BaZiFuZuGongJu.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\BaZiFuZuGongJu\\BaZiFuZuGongJu.csproj",
         "projectName": "BaZiFuZuGongJu",
-        "projectPath": "G:\\BaZiFuZuGongJu\\BaZiFuZuGongJu.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\BaZiFuZuGongJu\\BaZiFuZuGongJu.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "G:\\BaZiFuZuGongJu\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\BaZiFuZuGongJu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
