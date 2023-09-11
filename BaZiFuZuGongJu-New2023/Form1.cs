@@ -28793,16 +28793,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen)
                             {
-                                linkLabelntgss.Text += "天德-"; 天德贵人真假 = 1;
+                                linkLabelndzss2.Text += "天德-"; 天德贵人真假 = 1;
                             }
-
                             if (rdz == shen)
                             {
-                                linkLabelrtgss.Text += "天德-"; 天德贵人真假 = 1;
+                                linkLabelrdzss2.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (sdz == shen)
                             {
-                                linkLabelstgss.Text += "天德-"; 天德贵人真假 = 1;
+                                linkLabelsdzss2.Text += "天德-"; 天德贵人真假 = 1;
                             }
 
                         }
@@ -28810,16 +28809,16 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == hai)
                             {
-                                linkLabelntgss.Text += "天德-"; 天德贵人真假 = 1;
+                                linkLabelndzss2.Text += "天德-"; 天德贵人真假 = 1;
                             }
 
                             if (rdz == hai)
                             {
-                                linkLabelrtgss.Text += "天德-"; 天德贵人真假 = 1;
+                                linkLabelrdzss2.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (sdz == hai)
                             {
-                                linkLabelstgss.Text += "天德-"; 天德贵人真假 = 1;
+                                linkLabelsdzss2.Text += "天德-"; 天德贵人真假 = 1;
                             }
 
                         }
@@ -28827,16 +28826,16 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin)
                             {
-                                linkLabelntgss.Text += "天德-"; 天德贵人真假 = 1;
+                                linkLabelndzss2.Text += "天德-"; 天德贵人真假 = 1;
                             }
 
                             if (rdz == yin)
                             {
-                                linkLabelrtgss.Text += "天德-"; 天德贵人真假 = 1;
+                                linkLabelrdzss2.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (sdz == yin)
                             {
-                                linkLabelstgss.Text += "天德-"; 天德贵人真假 = 1;
+                                linkLabelsdzss2.Text += "天德-"; 天德贵人真假 = 1;
                             }
 
                         }
@@ -28844,16 +28843,16 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == sii)
                             {
-                                linkLabelntgss.Text += "天德-"; 天德贵人真假 = 1;
+                                linkLabelndzss2.Text += "天德-"; 天德贵人真假 = 1;
                             }
 
                             if (rdz == sii)
                             {
-                                linkLabelrtgss.Text += "天德-"; 天德贵人真假 = 1;
+                                linkLabelrdzss2.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (sdz == sii)
                             {
-                                linkLabelstgss.Text += "天德-"; 天德贵人真假 = 1;
+                                linkLabelsdzss2.Text += "天德-"; 天德贵人真假 = 1;
                             }
 
                         }
