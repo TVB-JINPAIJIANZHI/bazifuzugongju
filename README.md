@@ -1,14 +1,19 @@
 # bazifuzugongju-New2023
 天干地支 排盘 八字 十神 神煞 五行 命理 算命
-本软件为一个完整的C#.NET7工程。当前版本v39
+本软件为一个完整的C#.NET7工程。当前版本v42
+
 杜净隆_作品。
 此软件为开源软件。https://github.com/TVB-JINPAIJIANZHI/bazifuzugongju
-使用Lunar库实现了万年历级别的天干地支查询https://github.com/6tail/lunar-csharp
-反馈邮箱guankanzhuangbi@gmail.com
 更新地址：https://pan.baidu.com/s/1KLywvxhGBLlnMhKYv28UTg
 提取码：4pkx
+反馈邮箱guankanzhuangbi@gmail.com
+使用Lunar库实现了万年历级别的天干地支查询https://github.com/6tail/lunar-csharp
+
+
 学习八字预测不用死记硬背。不用担心没时间。只要懂五行生克就可以学会。
-增加了以子时为次日的处理。天干冲的喜忌变化。同柱干支暗合.地支暗合。
+
+新增加八字评分功能。
+以子时为次日的处理。天干冲的喜忌变化。同柱干支暗合.地支暗合。
 显示墓库运。自动识别方位和对应内脏。天干地支分阴阳五行五种颜色。
 自动判断,半三合.地支六冲,地支六害,地支六合,地支六破,地支三合,
 地支三会,地支相刑,拱合,天干冲,天干五合，拱合。流年和主命盘阴阳。
