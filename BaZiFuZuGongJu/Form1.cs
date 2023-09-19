@@ -90,7 +90,7 @@ namespace BaZiFuZuGongJu
         //命局神煞
         string 命局神煞 = "";
         //流年四柱
-        string lnntg = "";string lnytg = "";string lnrtg = "";string lnstg = "";string lnndz = "";string lnydz = "";string lnrdz = "";string lnsdz = "";
+        string lnntg = ""; string lnytg = ""; string lnrtg = ""; string lnstg = ""; string lnndz = ""; string lnydz = ""; string lnrdz = ""; string lnsdz = "";
         //八字评分
         double bazipingfen = 0;
         //日干强弱
@@ -98,14 +98,14 @@ namespace BaZiFuZuGongJu
         //阴阳
         double yinyang = 0;
         //天干合冲
-        int nyghechong = 0;int yrghechong = 0;int rsghechong = 0;
+        int nyghechong = 0; int yrghechong = 0; int rsghechong = 0;
         //地支合冲刑
-        int nyzhechongxing = 0;int yrzhechongxing = 0;int rszhechongxing = 0;int dizhi3h3h = 0;
+        int nyzhechongxing = 0; int yrzhechongxing = 0; int rszhechongxing = 0; int dizhi3h3h = 0;
         //空亡的位置
-        int ndzkongwang = 0;int ydzkongwang = 0;int rdzkongwang = 0;int sdzkongwang = 0;
+        int ndzkongwang = 0; int ydzkongwang = 0; int rdzkongwang = 0; int sdzkongwang = 0;
         //金舆的位置
-        int ndzzhenjinyu = 0;int ydzzhenjinyu = 0;int rdzzhenjinyu = 0;int sdzzhenjinyu = 0;
-        int ndzjinyu = 0;int ydzjinyu = 0;int rdzjinyu = 0;int sdzjinyu = 0;
+        int ndzzhenjinyu = 0; int ydzzhenjinyu = 0; int rdzzhenjinyu = 0; int sdzzhenjinyu = 0;
+        int ndzjinyu = 0; int ydzjinyu = 0; int rdzjinyu = 0; int sdzjinyu = 0;
         //正桃花
         int ndzzhengtaohua = 0; int ydzzhengtaohua = 0; int rdzzhengtaohua = 0; int sdzzhengtaohua = 0;
         //飞刃
@@ -145,7 +145,7 @@ namespace BaZiFuZuGongJu
         //禄神
         int ndzlushen = 0; int ydzlushen = 0; int rdzlushen = 0; int sdzlushen = 0;
         //劫煞
-        int ndzjiesha = 0; int ydzjiesha = 0;  int sdzjiesha = 0;
+        int ndzjiesha = 0; int ydzjiesha = 0; int sdzjiesha = 0;
         //亡神
         int ndzwangshen = 0; int ydzwangshen = 0; int rdzwangshen = 0; int sdzwangshen = 0;
         //将星
@@ -168,7 +168,7 @@ namespace BaZiFuZuGongJu
         //大耗
         int ydzdahao = 0; int rdzdahao = 0; int sdzdahao = 0;
         //破碎
-        int ndzpuosui = 0;  int rdzpuosui = 0; int sdzpuosui = 0;
+        int ndzpuosui = 0; int rdzpuosui = 0; int sdzpuosui = 0;
         //勾绞煞
         int ydzgoujiaosha = 0; int rdzgoujiaosha = 0; int sdzgoujiaosha = 0;
         //天狗
@@ -616,9 +616,9 @@ namespace BaZiFuZuGongJu
                 if (jia == jia)
                 {
                     //天干合冲
-                    nyghechong = 0;yrghechong = 0;rsghechong = 0;
+                    nyghechong = 0; yrghechong = 0; rsghechong = 0;
                     //地支合冲刑
-                    nyzhechongxing = 0;yrzhechongxing = 0;rszhechongxing = 0;dizhi3h3h = 0;
+                    nyzhechongxing = 0; yrzhechongxing = 0; rszhechongxing = 0; dizhi3h3h = 0;
                     //空亡的位置
                     ndzkongwang = 0; ydzkongwang = 0; rdzkongwang = 0; sdzkongwang = 0;
                     //金舆的位置
@@ -662,12 +662,12 @@ namespace BaZiFuZuGongJu
                     //禄神
                     ndzlushen = 0; ydzlushen = 0; rdzlushen = 0; sdzlushen = 0;
                     //劫煞
-                    ndzjiesha = 0; ydzjiesha = 0;  sdzjiesha = 0;
+                    ndzjiesha = 0; ydzjiesha = 0; sdzjiesha = 0;
                     //亡神
                     ndzwangshen = 0; ydzwangshen = 0; rdzwangshen = 0; sdzwangshen = 0;
                     //将星
                     ndzjiangxing = 0; ydzjiangxing = 0; rdzjiangxing = 0; sdzjiangxing = 0;
-            
+
                     //金神
                     ndzjinshen = 0; ydzjinshen = 0; rdzjinshen = 0; sdzjinshen = 0;
 
@@ -710,7 +710,7 @@ namespace BaZiFuZuGongJu
                     button65.Visible = false; button61.Visible = false; button58.Visible = false;
                     button57.Visible = false; button63.Visible = false; button55.Visible = false;
                     button62.Visible = false; button52.Visible = false; bazipingfen = 0;
-                    linkLabel20.Visible = false;qiangro3 = 0;yinyang = 0;
+                    linkLabel20.Visible = false; qiangro3 = 0; yinyang = 0;
                     linkLabelndzss2.Text = ""; linkLabelydzss2.Text = ""; linkLabelrdzss2.Text = ""; linkLabelsdzss2.Text = "";
                     button37.Visible = false; button37.Text = ""; button29.Visible = false; button29.Text = ""; button33.Visible = false; button33.Text = "";
                     button36.Visible = false; button36.Text = ""; button28.Visible = false; button28.Text = ""; button32.Visible = false; button32.Text = "";
@@ -21027,123 +21027,123 @@ namespace BaZiFuZuGongJu
                         int 地支相刑真假 = 0;
                         if (ndz == shen && ydz == yin || ndz == yin && ydz == shen)
                         {
-                            nyzhechongxing = 1;linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "申刑寅-恃势之刑-"; 地支相刑真假 = 1;
+                            nyzhechongxing = 1; linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "申刑寅-恃势之刑-"; 地支相刑真假 = 1;
                         }
                         if (ydz == shen && rdz == yin || rdz == shen && ydz == yin)
                         {
-                            yrzhechongxing = 1;linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "申刑寅-恃势之刑-"; 地支相刑真假 = 1;
+                            yrzhechongxing = 1; linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "申刑寅-恃势之刑-"; 地支相刑真假 = 1;
                         }
                         if (rdz == shen && sdz == yin || sdz == shen && rdz == yin)
                         {
-                            rszhechongxing = 1;linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "申刑寅-恃势之刑-"; 地支相刑真假 = 1;
+                            rszhechongxing = 1; linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "申刑寅-恃势之刑-"; 地支相刑真假 = 1;
                         }
                         if (ndz == sii && ydz == yin || ndz == yin && ydz == sii)
                         {
-                            nyzhechongxing = 1;linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "寅刑巳-恃势之刑-"; 地支相刑真假 = 1;
+                            nyzhechongxing = 1; linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "寅刑巳-恃势之刑-"; 地支相刑真假 = 1;
                         }
                         if (ydz == sii && rdz == yin || rdz == sii && ydz == yin)
                         {
-                            yrzhechongxing = 1;linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "寅刑巳-恃势之刑-"; 地支相刑真假 = 1;
+                            yrzhechongxing = 1; linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "寅刑巳-恃势之刑-"; 地支相刑真假 = 1;
                         }
                         if (rdz == sii && sdz == yin || sdz == sii && rdz == yin)
                         {
-                            rszhechongxing = 1;linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "寅刑巳-恃势之刑-"; 地支相刑真假 = 1;
+                            rszhechongxing = 1; linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "寅刑巳-恃势之刑-"; 地支相刑真假 = 1;
                         }
                         if (ndz == sii && ydz == shen || ndz == shen && ydz == sii)
                         {
-                            nyzhechongxing = 1;linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "巳刑申-恃势之刑-"; 地支相刑真假 = 1;
+                            nyzhechongxing = 1; linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "巳刑申-恃势之刑-"; 地支相刑真假 = 1;
                         }
                         if (ydz == sii && rdz == shen || rdz == sii && ydz == shen)
                         {
-                            yrzhechongxing = 1;linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "巳刑申-恃势之刑-"; 地支相刑真假 = 1;
+                            yrzhechongxing = 1; linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "巳刑申-恃势之刑-"; 地支相刑真假 = 1;
                         }
                         if (rdz == sii && sdz == shen || sdz == sii && rdz == shen)
                         {
-                            rszhechongxing = 1;linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "巳刑申-恃势之刑-"; 地支相刑真假 = 1;
+                            rszhechongxing = 1; linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "巳刑申-恃势之刑-"; 地支相刑真假 = 1;
                         }
                         if (ndz == xuu && ydz == wei || ndz == wei && ydz == xuu)
                         {
-                            nyzhechongxing = 1;linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "戌刑未-无恩之刑-"; 地支相刑真假 = 1;
+                            nyzhechongxing = 1; linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "戌刑未-无恩之刑-"; 地支相刑真假 = 1;
                         }
                         if (ydz == xuu && rdz == wei || rdz == xuu && ydz == wei)
                         {
-                            yrzhechongxing = 1;linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "戌刑未-无恩之刑-"; 地支相刑真假 = 1;
+                            yrzhechongxing = 1; linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "戌刑未-无恩之刑-"; 地支相刑真假 = 1;
                         }
                         if (rdz == xuu && sdz == wei || sdz == xuu && rdz == wei)
                         {
-                            rszhechongxing = 1;linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "戌刑未-无恩之刑-"; 地支相刑真假 = 1;
+                            rszhechongxing = 1; linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "戌刑未-无恩之刑-"; 地支相刑真假 = 1;
                         }
                         if (ndz == chou && ydz == wei || ndz == wei && ydz == chou)
                         {
-                            nyzhechongxing = 1;linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "未刑丑-无恩之刑-"; 地支相刑真假 = 1;
+                            nyzhechongxing = 1; linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "未刑丑-无恩之刑-"; 地支相刑真假 = 1;
                         }
                         if (ydz == chou && rdz == wei || rdz == chou && ydz == wei)
                         {
-                            yrzhechongxing = 1;linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "未刑丑-无恩之刑-"; 地支相刑真假 = 1;
+                            yrzhechongxing = 1; linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "未刑丑-无恩之刑-"; 地支相刑真假 = 1;
                         }
                         if (rdz == chou && sdz == wei || sdz == chou && rdz == wei)
                         {
-                            rszhechongxing = 1;linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "未刑丑-无恩之刑-"; 地支相刑真假 = 1;
+                            rszhechongxing = 1; linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "未刑丑-无恩之刑-"; 地支相刑真假 = 1;
                         }
                         if (ndz == chou && ydz == xuu || ndz == xuu && ydz == chou)
                         {
-                            nyzhechongxing = 1;linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "丑刑戌-无恩之刑-"; 地支相刑真假 = 1;
+                            nyzhechongxing = 1; linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "丑刑戌-无恩之刑-"; 地支相刑真假 = 1;
                         }
                         if (ydz == chou && rdz == xuu || rdz == chou && ydz == xuu)
                         {
-                            yrzhechongxing = 1;linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "丑刑戌-无恩之刑-"; 地支相刑真假 = 1;
+                            yrzhechongxing = 1; linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "丑刑戌-无恩之刑-"; 地支相刑真假 = 1;
                         }
                         if (rdz == chou && sdz == xuu || sdz == chou && rdz == xuu)
                         {
-                            rszhechongxing = 1;linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "丑刑戌-无恩之刑-"; 地支相刑真假 = 1;
+                            rszhechongxing = 1; linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "丑刑戌-无恩之刑-"; 地支相刑真假 = 1;
                         }
                         if (ndz == chen && ydz == chen || ndz == chen && ydz == chen)
                         {
-                            nyzhechongxing = 1;linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "辰刑辰-自刑-"; 地支相刑真假 = 1;
+                            nyzhechongxing = 1; linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "辰刑辰-自刑-"; 地支相刑真假 = 1;
                         }
                         if (ydz == chen && rdz == chen || rdz == chen && ydz == chen)
                         {
-                            yrzhechongxing = 1;linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "辰刑辰-自刑-"; 地支相刑真假 = 1;
+                            yrzhechongxing = 1; linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "辰刑辰-自刑-"; 地支相刑真假 = 1;
                         }
                         if (rdz == chen && sdz == chen || sdz == chen && rdz == chen)
                         {
-                            rszhechongxing = 1;linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "辰刑辰-自刑-"; 地支相刑真假 = 1;
+                            rszhechongxing = 1; linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "辰刑辰-自刑-"; 地支相刑真假 = 1;
                         }
                         if (ndz == wuma && ydz == wuma || ndz == wuma && ydz == wuma)
                         {
-                            nyzhechongxing = 1;linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "午刑午-自刑-"; 地支相刑真假 = 1;
+                            nyzhechongxing = 1; linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "午刑午-自刑-"; 地支相刑真假 = 1;
                         }
                         if (ydz == wuma && rdz == wuma || rdz == wuma && ydz == wuma)
                         {
-                            yrzhechongxing = 1;linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "午刑午-自刑-"; 地支相刑真假 = 1;
+                            yrzhechongxing = 1; linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "午刑午-自刑-"; 地支相刑真假 = 1;
                         }
                         if (rdz == wuma && sdz == wuma || sdz == wuma && rdz == wuma)
                         {
-                            rszhechongxing = 1;linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "午刑午-自刑-"; 地支相刑真假 = 1;
+                            rszhechongxing = 1; linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "午刑午-自刑-"; 地支相刑真假 = 1;
                         }
                         if (ndz == you && ydz == you || ndz == you && ydz == you)
                         {
-                            nyzhechongxing = 1;linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "酉刑酉-自刑-"; 地支相刑真假 = 1;
+                            nyzhechongxing = 1; linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "酉刑酉-自刑-"; 地支相刑真假 = 1;
                         }
                         if (ydz == you && rdz == you || rdz == you && ydz == you)
                         {
-                            yrzhechongxing = 1;linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "酉刑酉-自刑-"; 地支相刑真假 = 1;
+                            yrzhechongxing = 1; linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "酉刑酉-自刑-"; 地支相刑真假 = 1;
                         }
                         if (rdz == you && sdz == you || sdz == you && rdz == you)
                         {
-                            rszhechongxing = 1;linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "酉刑酉-自刑-"; 地支相刑真假 = 1;
+                            rszhechongxing = 1; linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "酉刑酉-自刑-"; 地支相刑真假 = 1;
                         }
                         if (ndz == zii && ydz == mao || ndz == mao && ydz == zii)
                         {
-                            nyzhechongxing = 1;linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "子卯互刑-无理之刑-"; 地支相刑真假 = 1;
+                            nyzhechongxing = 1; linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "子卯互刑-无理之刑-"; 地支相刑真假 = 1;
                         }
                         if (ydz == zii && rdz == mao || rdz == zii && ydz == mao)
                         {
-                            yrzhechongxing = 1;linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "子卯互刑-无理之刑-"; 地支相刑真假 = 1;
+                            yrzhechongxing = 1; linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "子卯互刑-无理之刑-"; 地支相刑真假 = 1;
                         }
                         if (rdz == zii && sdz == mao || sdz == zii && rdz == mao)
                         {
-                            rszhechongxing = 1;linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "子卯互刑-无理之刑-"; 地支相刑真假 = 1;
+                            rszhechongxing = 1; linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "子卯互刑-无理之刑-"; 地支相刑真假 = 1;
                         }
 
 
@@ -21161,51 +21161,51 @@ namespace BaZiFuZuGongJu
                         int 天干冲真假 = 0;
                         if (ntg == jia && ytg == geng || ytg == jia && ntg == geng)
                         {
-                            nyghechong = 1;linkLabel3.LinkColor = Color.White; linkLabel3.BackColor = Color.Black; linkLabel3.Text += "甲庚相沖-"; 天干冲真假 = 1;
+                            nyghechong = 1; linkLabel3.LinkColor = Color.White; linkLabel3.BackColor = Color.Black; linkLabel3.Text += "甲庚相沖-"; 天干冲真假 = 1;
                         }
                         if (ytg == jia && rtg == geng || rtg == jia && ytg == geng)
                         {
-                            yrghechong = 1;linkLabel18.LinkColor = Color.White; linkLabel18.BackColor = Color.Black; linkLabel18.Text += "甲庚相沖-"; 天干冲真假 = 1;
+                            yrghechong = 1; linkLabel18.LinkColor = Color.White; linkLabel18.BackColor = Color.Black; linkLabel18.Text += "甲庚相沖-"; 天干冲真假 = 1;
                         }
                         if (rtg == jia && stg == geng || stg == jia && rtg == geng)
                         {
-                            rsghechong = 1;linkLabel39.LinkColor = Color.White; linkLabel39.BackColor = Color.Black; linkLabel39.Text += "甲庚相沖-"; 天干冲真假 = 1;
+                            rsghechong = 1; linkLabel39.LinkColor = Color.White; linkLabel39.BackColor = Color.Black; linkLabel39.Text += "甲庚相沖-"; 天干冲真假 = 1;
                         }
                         if (ntg == yii && ytg == xin || ytg == yii && ntg == xin)
                         {
-                            nyghechong = 1;linkLabel3.LinkColor = Color.White; linkLabel3.BackColor = Color.Black; linkLabel3.Text += "乙辛相沖-"; 天干冲真假 = 1;
+                            nyghechong = 1; linkLabel3.LinkColor = Color.White; linkLabel3.BackColor = Color.Black; linkLabel3.Text += "乙辛相沖-"; 天干冲真假 = 1;
                         }
                         if (ytg == yii && rtg == xin || rtg == yii && ytg == xin)
                         {
-                            yrghechong = 1;linkLabel18.LinkColor = Color.White; linkLabel18.BackColor = Color.Black; linkLabel18.Text += "乙辛相沖-"; 天干冲真假 = 1;
+                            yrghechong = 1; linkLabel18.LinkColor = Color.White; linkLabel18.BackColor = Color.Black; linkLabel18.Text += "乙辛相沖-"; 天干冲真假 = 1;
                         }
                         if (rtg == yii && stg == xin || stg == yii && rtg == xin)
                         {
-                            rsghechong = 1;linkLabel39.LinkColor = Color.White; linkLabel39.BackColor = Color.Black; linkLabel39.Text += "乙辛相沖-"; 天干冲真假 = 1;
+                            rsghechong = 1; linkLabel39.LinkColor = Color.White; linkLabel39.BackColor = Color.Black; linkLabel39.Text += "乙辛相沖-"; 天干冲真假 = 1;
                         }
                         if (ntg == bing && ytg == ren || ytg == bing && ntg == ren)
                         {
-                            nyghechong = 1;linkLabel3.LinkColor = Color.White; linkLabel3.BackColor = Color.Black; linkLabel3.Text += "丙壬相沖-"; 天干冲真假 = 1;
+                            nyghechong = 1; linkLabel3.LinkColor = Color.White; linkLabel3.BackColor = Color.Black; linkLabel3.Text += "丙壬相沖-"; 天干冲真假 = 1;
                         }
                         if (ytg == bing && rtg == ren || rtg == bing && ytg == ren)
                         {
-                            yrghechong = 1;linkLabel18.LinkColor = Color.White; linkLabel18.BackColor = Color.Black; linkLabel18.Text += "丙壬相沖-"; 天干冲真假 = 1;
+                            yrghechong = 1; linkLabel18.LinkColor = Color.White; linkLabel18.BackColor = Color.Black; linkLabel18.Text += "丙壬相沖-"; 天干冲真假 = 1;
                         }
                         if (rtg == bing && stg == ren || stg == bing && rtg == ren)
                         {
-                            rsghechong = 1;linkLabel39.LinkColor = Color.White; linkLabel39.BackColor = Color.Black; linkLabel39.Text += "丙壬相沖-"; 天干冲真假 = 1;
+                            rsghechong = 1; linkLabel39.LinkColor = Color.White; linkLabel39.BackColor = Color.Black; linkLabel39.Text += "丙壬相沖-"; 天干冲真假 = 1;
                         }
                         if (ntg == ding && ytg == gui || ytg == ding && ntg == gui)
                         {
-                            nyghechong = 1;linkLabel3.LinkColor = Color.White; linkLabel3.BackColor = Color.Black; linkLabel3.Text += "丁癸相沖-"; 天干冲真假 = 1;
+                            nyghechong = 1; linkLabel3.LinkColor = Color.White; linkLabel3.BackColor = Color.Black; linkLabel3.Text += "丁癸相沖-"; 天干冲真假 = 1;
                         }
                         if (ytg == ding && rtg == gui || rtg == ding && ytg == gui)
                         {
-                            yrghechong = 1;linkLabel18.LinkColor = Color.White; linkLabel18.BackColor = Color.Black; linkLabel18.Text += "丁癸相沖-"; 天干冲真假 = 1;
+                            yrghechong = 1; linkLabel18.LinkColor = Color.White; linkLabel18.BackColor = Color.Black; linkLabel18.Text += "丁癸相沖-"; 天干冲真假 = 1;
                         }
                         if (rtg == ding && stg == gui || stg == ding && rtg == gui)
                         {
-                            rsghechong = 1;linkLabel39.LinkColor = Color.White; linkLabel39.BackColor = Color.Black; linkLabel39.Text += "丁癸相沖-"; 天干冲真假 = 1;
+                            rsghechong = 1; linkLabel39.LinkColor = Color.White; linkLabel39.BackColor = Color.Black; linkLabel39.Text += "丁癸相沖-"; 天干冲真假 = 1;
                         }
 
 
@@ -21223,75 +21223,75 @@ namespace BaZiFuZuGongJu
                         int 地支六冲真假 = 0;
                         if (ndz == zii && ydz == wuma || ndz == wuma && ydz == zii)
                         {
-                            nyzhechongxing = 1;linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "子午相冲-"; 地支六冲真假 = 1;
+                            nyzhechongxing = 1; linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "子午相冲-"; 地支六冲真假 = 1;
                         }
                         if (ydz == zii && rdz == wuma || rdz == zii && ydz == wuma)
                         {
-                            yrzhechongxing = 1;linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "子午相冲-"; 地支六冲真假 = 1;
+                            yrzhechongxing = 1; linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "子午相冲-"; 地支六冲真假 = 1;
                         }
                         if (rdz == zii && sdz == wuma || sdz == zii && rdz == wuma)
                         {
-                            rszhechongxing = 1;linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "子午相冲-"; 地支六冲真假 = 1;
+                            rszhechongxing = 1; linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "子午相冲-"; 地支六冲真假 = 1;
                         }
                         if (ndz == mao && ydz == you || ndz == you && ydz == mao)
                         {
-                            nyzhechongxing = 1;linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "卯酉相冲-"; 地支六冲真假 = 1;
+                            nyzhechongxing = 1; linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "卯酉相冲-"; 地支六冲真假 = 1;
                         }
                         if (ydz == mao && rdz == you || rdz == mao && ydz == you)
                         {
-                            yrzhechongxing = 1;linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "卯酉相冲-"; 地支六冲真假 = 1;
+                            yrzhechongxing = 1; linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "卯酉相冲-"; 地支六冲真假 = 1;
                         }
                         if (rdz == mao && sdz == you || sdz == mao && rdz == you)
                         {
-                            rszhechongxing = 1;linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "卯酉相冲-"; 地支六冲真假 = 1;
+                            rszhechongxing = 1; linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "卯酉相冲-"; 地支六冲真假 = 1;
                         }
                         if (ndz == yin && ydz == shen || ndz == shen && ydz == yin)
                         {
-                            nyzhechongxing = 1;linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "寅申相冲-"; 地支六冲真假 = 1;
+                            nyzhechongxing = 1; linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "寅申相冲-"; 地支六冲真假 = 1;
                         }
                         if (ydz == yin && rdz == shen || rdz == yin && ydz == shen)
                         {
-                            yrzhechongxing = 1;linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "寅申相冲-"; 地支六冲真假 = 1;
+                            yrzhechongxing = 1; linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "寅申相冲-"; 地支六冲真假 = 1;
                         }
                         if (rdz == yin && sdz == shen || sdz == yin && rdz == shen)
                         {
-                            rszhechongxing = 1;linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "寅申相冲-"; 地支六冲真假 = 1;
+                            rszhechongxing = 1; linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "寅申相冲-"; 地支六冲真假 = 1;
                         }
                         if (ndz == sii && ydz == hai || ndz == hai && ydz == sii)
                         {
-                            nyzhechongxing = 1;linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "巳亥相冲-"; 地支六冲真假 = 1;
+                            nyzhechongxing = 1; linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "巳亥相冲-"; 地支六冲真假 = 1;
                         }
                         if (ydz == sii && rdz == hai || rdz == sii && ydz == hai)
                         {
-                            yrzhechongxing = 1;linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "巳亥相冲-"; 地支六冲真假 = 1;
+                            yrzhechongxing = 1; linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "巳亥相冲-"; 地支六冲真假 = 1;
                         }
                         if (rdz == sii && sdz == hai || sdz == sii && rdz == hai)
                         {
-                            rszhechongxing = 1;linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "巳亥相冲-"; 地支六冲真假 = 1;
+                            rszhechongxing = 1; linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "巳亥相冲-"; 地支六冲真假 = 1;
                         }
                         if (ndz == chen && ydz == xuu || ndz == xuu && ydz == chen)
                         {
-                            nyzhechongxing = 1;linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "辰戌相冲-"; 地支六冲真假 = 1;
+                            nyzhechongxing = 1; linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "辰戌相冲-"; 地支六冲真假 = 1;
                         }
                         if (ydz == chen && rdz == xuu || rdz == chen && ydz == xuu)
                         {
-                            yrzhechongxing = 1;linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "辰戌相冲-"; 地支六冲真假 = 1;
+                            yrzhechongxing = 1; linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "辰戌相冲-"; 地支六冲真假 = 1;
                         }
                         if (rdz == chen && sdz == xuu || sdz == chen && rdz == xuu)
                         {
-                            rszhechongxing = 1;linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "辰戌相冲-"; 地支六冲真假 = 1;
+                            rszhechongxing = 1; linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "辰戌相冲-"; 地支六冲真假 = 1;
                         }
                         if (ndz == chou && ydz == wei || ndz == wei && ydz == chou)
                         {
-                            nyzhechongxing = 1;linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "丑未相冲-"; 地支六冲真假 = 1;
+                            nyzhechongxing = 1; linkLabel11.LinkColor = Color.White; linkLabel11.BackColor = Color.Black; linkLabel11.Text += "丑未相冲-"; 地支六冲真假 = 1;
                         }
                         if (ydz == chou && rdz == wei || rdz == chou && ydz == wei)
                         {
-                            yrzhechongxing = 1;linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "丑未相冲-"; 地支六冲真假 = 1;
+                            yrzhechongxing = 1; linkLabel14.LinkColor = Color.White; linkLabel14.BackColor = Color.Black; linkLabel14.Text += "丑未相冲-"; 地支六冲真假 = 1;
                         }
                         if (rdz == chou && sdz == wei || sdz == chou && rdz == wei)
                         {
-                            rszhechongxing = 1;linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "丑未相冲-"; 地支六冲真假 = 1;
+                            rszhechongxing = 1; linkLabel19.LinkColor = Color.White; linkLabel19.BackColor = Color.Black; linkLabel19.Text += "丑未相冲-"; 地支六冲真假 = 1;
                         }
 
 
@@ -21493,7 +21493,7 @@ namespace BaZiFuZuGongJu
                                     {
                                         wxtu -= 1;
                                     }
-                                    nyghechong = 1;linkLabel3.LinkColor = Color.White; linkLabel3.BackColor = Color.Sienna; linkLabel3.Text += "甲己合土，中正之合-"; 天干五合真假 = 1; wxtu += 1; wtu = 1;
+                                    nyghechong = 1; linkLabel3.LinkColor = Color.White; linkLabel3.BackColor = Color.Sienna; linkLabel3.Text += "甲己合土，中正之合-"; 天干五合真假 = 1; wxtu += 1; wtu = 1;
                                 }
                                 if (ytg == jia && rtg == jii || rtg == jia && ytg == jii)
                                 {
@@ -21505,7 +21505,7 @@ namespace BaZiFuZuGongJu
                                     {
                                         wxtu -= 1;
                                     }
-                                    yrghechong = 1;linkLabel18.LinkColor = Color.White; linkLabel18.BackColor = Color.Sienna; linkLabel18.Text += "甲己合土，中正之合-"; 天干五合真假 = 1; wxtu += 1; wtu = 1;
+                                    yrghechong = 1; linkLabel18.LinkColor = Color.White; linkLabel18.BackColor = Color.Sienna; linkLabel18.Text += "甲己合土，中正之合-"; 天干五合真假 = 1; wxtu += 1; wtu = 1;
                                 }
                                 if (rtg == jia && stg == jii || stg == jia && rtg == jii)
                                 {
@@ -21517,7 +21517,7 @@ namespace BaZiFuZuGongJu
                                     {
                                         wxtu -= 1;
                                     }
-                                    rsghechong = 1;linkLabel39.LinkColor = Color.White; linkLabel39.BackColor = Color.Sienna; linkLabel39.Text += "甲己合土，中正之合-"; 天干五合真假 = 1; wxtu += 1; wtu = 1;
+                                    rsghechong = 1; linkLabel39.LinkColor = Color.White; linkLabel39.BackColor = Color.Sienna; linkLabel39.Text += "甲己合土，中正之合-"; 天干五合真假 = 1; wxtu += 1; wtu = 1;
                                 }
 
                             }
@@ -21536,7 +21536,7 @@ namespace BaZiFuZuGongJu
                                     {
                                         wxmu -= 1;
                                     }
-                                    nyghechong = 1;linkLabel3.LinkColor = Color.Gold; linkLabel3.BackColor = Color.Black; linkLabel3.Text += "乙庚合金，仁义之合-"; 天干五合真假 = 1; wxjin += 1; wjin = 1;
+                                    nyghechong = 1; linkLabel3.LinkColor = Color.Gold; linkLabel3.BackColor = Color.Black; linkLabel3.Text += "乙庚合金，仁义之合-"; 天干五合真假 = 1; wxjin += 1; wjin = 1;
                                 }
                                 if (ytg == yii && rtg == geng || rtg == yii && ytg == geng)
                                 {
@@ -21548,7 +21548,7 @@ namespace BaZiFuZuGongJu
                                     {
                                         wxmu -= 1;
                                     }
-                                    yrghechong = 1;linkLabel18.LinkColor = Color.Gold; linkLabel18.BackColor = Color.Black; linkLabel18.Text += "乙庚合金，仁义之合-"; 天干五合真假 = 1; wxjin += 1; wjin = 1;
+                                    yrghechong = 1; linkLabel18.LinkColor = Color.Gold; linkLabel18.BackColor = Color.Black; linkLabel18.Text += "乙庚合金，仁义之合-"; 天干五合真假 = 1; wxjin += 1; wjin = 1;
                                 }
                                 if (rtg == yii && stg == geng || stg == yii && rtg == geng)
                                 {
@@ -21560,7 +21560,7 @@ namespace BaZiFuZuGongJu
                                     {
                                         wxmu -= 1;
                                     }
-                                    rsghechong = 1;linkLabel39.LinkColor = Color.Gold; linkLabel39.BackColor = Color.Black; linkLabel39.Text += "乙庚合金，仁义之合-"; 天干五合真假 = 1; wxjin += 1; wjin = 1;
+                                    rsghechong = 1; linkLabel39.LinkColor = Color.Gold; linkLabel39.BackColor = Color.Black; linkLabel39.Text += "乙庚合金，仁义之合-"; 天干五合真假 = 1; wxjin += 1; wjin = 1;
                                 }
 
                             }
@@ -21579,7 +21579,7 @@ namespace BaZiFuZuGongJu
                                     {
                                         wxjin -= 1;
                                     }
-                                    nyghechong = 1;linkLabel3.LinkColor = Color.White; linkLabel3.BackColor = Color.DodgerBlue; linkLabel3.Text += "丙辛合水，威严之合-"; 天干五合真假 = 1; wxshui += 1; wshui = 1;
+                                    nyghechong = 1; linkLabel3.LinkColor = Color.White; linkLabel3.BackColor = Color.DodgerBlue; linkLabel3.Text += "丙辛合水，威严之合-"; 天干五合真假 = 1; wxshui += 1; wshui = 1;
                                 }
                                 if (ytg == bing && rtg == xin || rtg == bing && ytg == xin)
                                 {
@@ -21591,7 +21591,7 @@ namespace BaZiFuZuGongJu
                                     {
                                         wxjin -= 1;
                                     }
-                                    yrghechong = 1;linkLabel18.LinkColor = Color.White; linkLabel18.BackColor = Color.DodgerBlue; linkLabel18.Text += "丙辛合水，威严之合-"; 天干五合真假 = 1; wxshui += 1; wshui = 1;
+                                    yrghechong = 1; linkLabel18.LinkColor = Color.White; linkLabel18.BackColor = Color.DodgerBlue; linkLabel18.Text += "丙辛合水，威严之合-"; 天干五合真假 = 1; wxshui += 1; wshui = 1;
                                 }
                                 if (rtg == bing && stg == xin || stg == bing && rtg == xin)
                                 {
@@ -21603,7 +21603,7 @@ namespace BaZiFuZuGongJu
                                     {
                                         wxjin -= 1;
                                     }
-                                    rsghechong = 1;linkLabel39.LinkColor = Color.White; linkLabel39.BackColor = Color.DodgerBlue; linkLabel39.Text += "丙辛合水，威严之合-"; 天干五合真假 = 1; wxshui += 1; wshui = 1;
+                                    rsghechong = 1; linkLabel39.LinkColor = Color.White; linkLabel39.BackColor = Color.DodgerBlue; linkLabel39.Text += "丙辛合水，威严之合-"; 天干五合真假 = 1; wxshui += 1; wshui = 1;
                                 }
 
                             }
@@ -21622,7 +21622,7 @@ namespace BaZiFuZuGongJu
                                     {
                                         wxshui -= 1;
                                     }
-                                    nyghechong = 1;linkLabel3.LinkColor = Color.White; linkLabel3.BackColor = Color.Green; linkLabel3.Text += "丁壬合木，仁寿之合-"; 天干五合真假 = 1; wxmu += 1; wmu = 1;
+                                    nyghechong = 1; linkLabel3.LinkColor = Color.White; linkLabel3.BackColor = Color.Green; linkLabel3.Text += "丁壬合木，仁寿之合-"; 天干五合真假 = 1; wxmu += 1; wmu = 1;
                                 }
                                 if (ytg == ding && rtg == ren || rtg == ding && ytg == ren)
                                 {
@@ -21634,7 +21634,7 @@ namespace BaZiFuZuGongJu
                                     {
                                         wxshui -= 1;
                                     }
-                                    yrghechong = 1;linkLabel18.LinkColor = Color.White; linkLabel18.BackColor = Color.Green; linkLabel18.Text += "丁壬合木，仁寿之合-"; 天干五合真假 = 1; wxmu += 1; wmu = 1;
+                                    yrghechong = 1; linkLabel18.LinkColor = Color.White; linkLabel18.BackColor = Color.Green; linkLabel18.Text += "丁壬合木，仁寿之合-"; 天干五合真假 = 1; wxmu += 1; wmu = 1;
                                 }
                                 if (rtg == ding && stg == ren || stg == ding && rtg == ren)
                                 {
@@ -21646,7 +21646,7 @@ namespace BaZiFuZuGongJu
                                     {
                                         wxshui -= 1;
                                     }
-                                    rsghechong = 1;linkLabel39.LinkColor = Color.White; linkLabel39.BackColor = Color.Green; linkLabel39.Text += "丁壬合木，仁寿之合-"; 天干五合真假 = 1; wxmu += 1; wmu = 1;
+                                    rsghechong = 1; linkLabel39.LinkColor = Color.White; linkLabel39.BackColor = Color.Green; linkLabel39.Text += "丁壬合木，仁寿之合-"; 天干五合真假 = 1; wxmu += 1; wmu = 1;
                                 }
 
                             }
@@ -21665,7 +21665,7 @@ namespace BaZiFuZuGongJu
                                     {
                                         wxshui -= 1;
                                     }
-                                    nyghechong = 1;linkLabel3.LinkColor = Color.White; linkLabel3.BackColor = Color.Red; linkLabel3.Text += "戊癸合火，无情之合-"; 天干五合真假 = 1; wxhuo += 1; whuo = 1;
+                                    nyghechong = 1; linkLabel3.LinkColor = Color.White; linkLabel3.BackColor = Color.Red; linkLabel3.Text += "戊癸合火，无情之合-"; 天干五合真假 = 1; wxhuo += 1; whuo = 1;
                                 }
                                 if (ytg == wuu && rtg == gui || rtg == wuu && ytg == gui)
                                 {
@@ -21677,7 +21677,7 @@ namespace BaZiFuZuGongJu
                                     {
                                         wxshui -= 1;
                                     }
-                                    yrghechong = 1;linkLabel18.LinkColor = Color.White; linkLabel18.BackColor = Color.Red; linkLabel18.Text += "戊癸合火，无情之合-"; 天干五合真假 = 1; wxhuo += 1; whuo = 1;
+                                    yrghechong = 1; linkLabel18.LinkColor = Color.White; linkLabel18.BackColor = Color.Red; linkLabel18.Text += "戊癸合火，无情之合-"; 天干五合真假 = 1; wxhuo += 1; whuo = 1;
                                 }
                                 if (rtg == wuu && stg == gui || stg == wuu && rtg == gui)
                                 {
@@ -21689,7 +21689,7 @@ namespace BaZiFuZuGongJu
                                     {
                                         wxshui -= 1;
                                     }
-                                    rsghechong = 1;linkLabel39.LinkColor = Color.White; linkLabel39.BackColor = Color.Red; linkLabel39.Text += "戊癸合火，无情之合-"; 天干五合真假 = 1; wxhuo += 1; whuo = 1;
+                                    rsghechong = 1; linkLabel39.LinkColor = Color.White; linkLabel39.BackColor = Color.Red; linkLabel39.Text += "戊癸合火，无情之合-"; 天干五合真假 = 1; wxhuo += 1; whuo = 1;
                                 }
 
                             }
@@ -21717,7 +21717,7 @@ namespace BaZiFuZuGongJu
                                 {
                                     wxshui -= 1;
                                 }
-                                nyzhechongxing = 1;linkLabel64.LinkColor = Color.White; linkLabel64.BackColor = Color.Sienna; linkLabel64.Text += "子丑合土-"; 地支六合真假 = 1; wxtu += 1;
+                                nyzhechongxing = 1; linkLabel64.LinkColor = Color.White; linkLabel64.BackColor = Color.Sienna; linkLabel64.Text += "子丑合土-"; 地支六合真假 = 1; wxtu += 1;
                             }
                             if (ydz == zii && rdz == chou || rdz == zii && ydz == chou)
                             {
@@ -21729,7 +21729,7 @@ namespace BaZiFuZuGongJu
                                 {
                                     wxshui -= 1;
                                 }
-                                yrzhechongxing = 1;linkLabel63.LinkColor = Color.White; linkLabel63.BackColor = Color.Sienna; linkLabel63.Text += "子丑合土-"; 地支六合真假 = 1; wxtu += 1;
+                                yrzhechongxing = 1; linkLabel63.LinkColor = Color.White; linkLabel63.BackColor = Color.Sienna; linkLabel63.Text += "子丑合土-"; 地支六合真假 = 1; wxtu += 1;
                             }
                             if (rdz == zii && sdz == chou || sdz == zii && rdz == chou)
                             {
@@ -21741,7 +21741,7 @@ namespace BaZiFuZuGongJu
                                 {
                                     wxshui -= 1;
                                 }
-                                rszhechongxing = 1;linkLabel62.LinkColor = Color.White; linkLabel62.BackColor = Color.Sienna; linkLabel62.Text += "子丑合土-"; 地支六合真假 = 1; wxtu += 1;
+                                rszhechongxing = 1; linkLabel62.LinkColor = Color.White; linkLabel62.BackColor = Color.Sienna; linkLabel62.Text += "子丑合土-"; 地支六合真假 = 1; wxtu += 1;
                             }
                         }
                         if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
@@ -21756,7 +21756,7 @@ namespace BaZiFuZuGongJu
                                 {
                                     wxshui -= 1; wxmu -= 0.6;
                                 }
-                                nyzhechongxing = 1;linkLabel64.LinkColor = Color.White; linkLabel64.BackColor = Color.Green; linkLabel64.Text += "寅亥合木-"; 地支六合真假 = 1; wxmu += 1;
+                                nyzhechongxing = 1; linkLabel64.LinkColor = Color.White; linkLabel64.BackColor = Color.Green; linkLabel64.Text += "寅亥合木-"; 地支六合真假 = 1; wxmu += 1;
                             }
                             if (ydz == yin && rdz == hai || rdz == yin && ydz == hai)
                             {
@@ -21768,7 +21768,7 @@ namespace BaZiFuZuGongJu
                                 {
                                     wxshui -= 1; wxmu -= 0.6;
                                 }
-                                yrzhechongxing = 1;linkLabel63.LinkColor = Color.White; linkLabel63.BackColor = Color.Green; linkLabel63.Text += "寅亥合木-"; 地支六合真假 = 1; wxmu += 1;
+                                yrzhechongxing = 1; linkLabel63.LinkColor = Color.White; linkLabel63.BackColor = Color.Green; linkLabel63.Text += "寅亥合木-"; 地支六合真假 = 1; wxmu += 1;
                             }
                             if (rdz == yin && sdz == hai || sdz == yin && rdz == hai)
                             {
@@ -21780,7 +21780,7 @@ namespace BaZiFuZuGongJu
                                 {
                                     wxshui -= 1; wxmu -= 0.6;
                                 }
-                                rszhechongxing = 1;linkLabel62.LinkColor = Color.White; linkLabel62.BackColor = Color.Green; linkLabel62.Text += "寅亥合木-"; 地支六合真假 = 1; wxmu += 1;
+                                rszhechongxing = 1; linkLabel62.LinkColor = Color.White; linkLabel62.BackColor = Color.Green; linkLabel62.Text += "寅亥合木-"; 地支六合真假 = 1; wxmu += 1;
                             }
                         }
                         if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
@@ -21795,7 +21795,7 @@ namespace BaZiFuZuGongJu
                                 {
                                     wxshui -= 1; wxjin -= 0.6; wxhuo -= 0.3;
                                 }
-                                nyzhechongxing = 1;linkLabel64.LinkColor = Color.White; linkLabel64.BackColor = Color.Red; linkLabel64.Text += "卯戌合火-"; 地支六合真假 = 1; wxhuo += 1;
+                                nyzhechongxing = 1; linkLabel64.LinkColor = Color.White; linkLabel64.BackColor = Color.Red; linkLabel64.Text += "卯戌合火-"; 地支六合真假 = 1; wxhuo += 1;
                             }
                             if (ydz == mao && rdz == xuu || rdz == mao && ydz == xuu)
                             {
@@ -21807,7 +21807,7 @@ namespace BaZiFuZuGongJu
                                 {
                                     wxshui -= 1; wxjin -= 0.6; wxhuo -= 0.3;
                                 }
-                                yrzhechongxing = 1;linkLabel63.LinkColor = Color.White; linkLabel63.BackColor = Color.Red; linkLabel63.Text += "卯戌合火-"; 地支六合真假 = 1; wxhuo += 1;
+                                yrzhechongxing = 1; linkLabel63.LinkColor = Color.White; linkLabel63.BackColor = Color.Red; linkLabel63.Text += "卯戌合火-"; 地支六合真假 = 1; wxhuo += 1;
                             }
                             if (rdz == mao && sdz == xuu || sdz == mao && rdz == xuu)
                             {
@@ -21819,7 +21819,7 @@ namespace BaZiFuZuGongJu
                                 {
                                     wxshui -= 1; wxjin -= 0.6; wxhuo -= 0.3;
                                 }
-                                rszhechongxing = 1;linkLabel62.LinkColor = Color.White; linkLabel62.BackColor = Color.Red; linkLabel62.Text += "卯戌合火-"; 地支六合真假 = 1; wxhuo += 1;
+                                rszhechongxing = 1; linkLabel62.LinkColor = Color.White; linkLabel62.BackColor = Color.Red; linkLabel62.Text += "卯戌合火-"; 地支六合真假 = 1; wxhuo += 1;
                             }
                         }
                         if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
@@ -21834,7 +21834,7 @@ namespace BaZiFuZuGongJu
                                 {
                                     wxtu -= 1; wxmu -= 0.6; wxshui -= 0.3;
                                 }
-                                nyzhechongxing = 1;linkLabel64.LinkColor = Color.Gold; linkLabel64.BackColor = Color.Black; linkLabel64.Text += "辰酉合金-"; 地支六合真假 = 1; wxjin += 1;
+                                nyzhechongxing = 1; linkLabel64.LinkColor = Color.Gold; linkLabel64.BackColor = Color.Black; linkLabel64.Text += "辰酉合金-"; 地支六合真假 = 1; wxjin += 1;
                             }
                             if (ydz == chen && rdz == you || rdz == chen && ydz == you)
                             {
@@ -21846,7 +21846,7 @@ namespace BaZiFuZuGongJu
                                 {
                                     wxtu -= 1; wxmu -= 0.6; wxshui -= 0.3;
                                 }
-                                yrzhechongxing = 1;linkLabel63.LinkColor = Color.Gold; linkLabel63.BackColor = Color.Black; linkLabel63.Text += "辰酉合金-"; 地支六合真假 = 1; wxjin += 1;
+                                yrzhechongxing = 1; linkLabel63.LinkColor = Color.Gold; linkLabel63.BackColor = Color.Black; linkLabel63.Text += "辰酉合金-"; 地支六合真假 = 1; wxjin += 1;
                             }
                             if (rdz == chen && sdz == you || sdz == chen && rdz == you)
                             {
@@ -21858,7 +21858,7 @@ namespace BaZiFuZuGongJu
                                 {
                                     wxtu -= 1; wxmu -= 0.6; wxshui -= 0.3;
                                 }
-                                rszhechongxing = 1;linkLabel62.LinkColor = Color.Gold; linkLabel62.BackColor = Color.Black; linkLabel62.Text += "辰酉合金-"; 地支六合真假 = 1; wxjin += 1;
+                                rszhechongxing = 1; linkLabel62.LinkColor = Color.Gold; linkLabel62.BackColor = Color.Black; linkLabel62.Text += "辰酉合金-"; 地支六合真假 = 1; wxjin += 1;
                             }
                         }
                         if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
@@ -21873,7 +21873,7 @@ namespace BaZiFuZuGongJu
                                 {
                                     wxjin -= 1; wxshui -= 0.6; wxtu -= 0.3;
                                 }
-                                nyzhechongxing = 1;linkLabel64.LinkColor = Color.White; linkLabel64.BackColor = Color.DodgerBlue; linkLabel64.Text += "巳申合水-"; 地支六合真假 = 1; wxshui += 1;
+                                nyzhechongxing = 1; linkLabel64.LinkColor = Color.White; linkLabel64.BackColor = Color.DodgerBlue; linkLabel64.Text += "巳申合水-"; 地支六合真假 = 1; wxshui += 1;
                             }
                             if (ydz == sii && rdz == shen || rdz == sii && ydz == shen)
                             {
@@ -21885,7 +21885,7 @@ namespace BaZiFuZuGongJu
                                 {
                                     wxjin -= 1; wxshui -= 0.6; wxtu -= 0.3;
                                 }
-                                yrzhechongxing = 1;linkLabel63.LinkColor = Color.White; linkLabel63.BackColor = Color.DodgerBlue; linkLabel63.Text += "巳申合水-"; 地支六合真假 = 1; wxshui += 1;
+                                yrzhechongxing = 1; linkLabel63.LinkColor = Color.White; linkLabel63.BackColor = Color.DodgerBlue; linkLabel63.Text += "巳申合水-"; 地支六合真假 = 1; wxshui += 1;
                             }
                             if (rdz == sii && sdz == shen || sdz == sii && rdz == shen)
                             {
@@ -21897,7 +21897,7 @@ namespace BaZiFuZuGongJu
                                 {
                                     wxjin -= 1; wxshui -= 0.6; wxtu -= 0.3;
                                 }
-                                rszhechongxing = 1;linkLabel62.LinkColor = Color.White; linkLabel62.BackColor = Color.DodgerBlue; linkLabel62.Text += "巳申合水-"; 地支六合真假 = 1; wxshui += 1;
+                                rszhechongxing = 1; linkLabel62.LinkColor = Color.White; linkLabel62.BackColor = Color.DodgerBlue; linkLabel62.Text += "巳申合水-"; 地支六合真假 = 1; wxshui += 1;
                             }
                         }
                         if (ntg == wuu || ytg == wuu || rtg == wuu || stg == wuu || ntg == jii || ytg == jii || rtg == jii || stg == jii)
@@ -21912,7 +21912,7 @@ namespace BaZiFuZuGongJu
                                 {
                                     wxtu -= 1; wxhuo -= 0.6; wxmu -= 0.3;
                                 }
-                                nyzhechongxing = 1;linkLabel64.LinkColor = Color.White; linkLabel64.BackColor = Color.Sienna; linkLabel64.Text += "午未合土-"; 地支六合真假 = 1; wxtu += 1;
+                                nyzhechongxing = 1; linkLabel64.LinkColor = Color.White; linkLabel64.BackColor = Color.Sienna; linkLabel64.Text += "午未合土-"; 地支六合真假 = 1; wxtu += 1;
                             }
                             if (ydz == wuma && rdz == wei || rdz == wuma && ydz == wei)
                             {
@@ -21924,7 +21924,7 @@ namespace BaZiFuZuGongJu
                                 {
                                     wxtu -= 1; wxhuo -= 0.6; wxmu -= 0.3;
                                 }
-                                yrzhechongxing = 1;linkLabel63.LinkColor = Color.White; linkLabel63.BackColor = Color.Sienna; linkLabel63.Text += "午未合土-"; 地支六合真假 = 1; wxtu += 1;
+                                yrzhechongxing = 1; linkLabel63.LinkColor = Color.White; linkLabel63.BackColor = Color.Sienna; linkLabel63.Text += "午未合土-"; 地支六合真假 = 1; wxtu += 1;
                             }
                             if (rdz == wuma && sdz == wei || sdz == wuma && rdz == wei)
                             {
@@ -21936,7 +21936,7 @@ namespace BaZiFuZuGongJu
                                 {
                                     wxtu -= 1; wxhuo -= 0.6; wxmu -= 0.3;
                                 }
-                                rszhechongxing = 1;linkLabel62.LinkColor = Color.White; linkLabel62.BackColor = Color.Sienna; linkLabel62.Text += "午未合土-"; 地支六合真假 = 1; wxtu += 1;
+                                rszhechongxing = 1; linkLabel62.LinkColor = Color.White; linkLabel62.BackColor = Color.Sienna; linkLabel62.Text += "午未合土-"; 地支六合真假 = 1; wxtu += 1;
                             }
                         }
                         if (地支六合真假 == 1)
@@ -21963,7 +21963,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
                                             {
-                                                wxmu += 3; bazipingfen -= 50;linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Green; linkLabel47.Text = "寅卯辰三会木局"; 地支三会真假 = 1;
+                                                wxmu += 3; bazipingfen -= 50; linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Green; linkLabel47.Text = "寅卯辰三会木局"; 地支三会真假 = 1;
                                             }
                                         }
                                     }
@@ -21979,7 +21979,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
                                             {
-                                                wxmu += 3; bazipingfen -= 50;linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Green; linkLabel47.Text = "寅卯辰三会木局"; 地支三会真假 = 1;
+                                                wxmu += 3; bazipingfen -= 50; linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Green; linkLabel47.Text = "寅卯辰三会木局"; 地支三会真假 = 1;
                                             }
                                         }
                                     }
@@ -21995,7 +21995,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (wmu == 1)
                                             {
-                                                wxmu += 3; bazipingfen -= 50;linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Green; linkLabel47.Text = "寅卯辰三会木局"; 地支三会真假 = 1;
+                                                wxmu += 3; bazipingfen -= 50; linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Green; linkLabel47.Text = "寅卯辰三会木局"; 地支三会真假 = 1;
                                             }
                                         }
                                     }
@@ -22011,7 +22011,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (wmu == 1)
                                             {
-                                                wxmu += 3; bazipingfen -= 50;linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Green; linkLabel47.Text = "寅卯辰三会木局"; 地支三会真假 = 1;
+                                                wxmu += 3; bazipingfen -= 50; linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Green; linkLabel47.Text = "寅卯辰三会木局"; 地支三会真假 = 1;
                                             }
                                         }
                                     }
@@ -22031,7 +22031,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
                                             {
-                                                wxhuo += 3; bazipingfen -= 50;linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Red; linkLabel47.Text = "巳午未三会火局"; 地支三会真假 = 1;
+                                                wxhuo += 3; bazipingfen -= 50; linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Red; linkLabel47.Text = "巳午未三会火局"; 地支三会真假 = 1;
                                             }
                                         }
                                     }
@@ -22047,7 +22047,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
                                             {
-                                                wxhuo += 3; bazipingfen -= 50;linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Red; linkLabel47.Text = "巳午未三会火局"; 地支三会真假 = 1;
+                                                wxhuo += 3; bazipingfen -= 50; linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Red; linkLabel47.Text = "巳午未三会火局"; 地支三会真假 = 1;
                                             }
                                         }
                                     }
@@ -22063,7 +22063,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (whuo == 1)
                                             {
-                                                wxhuo += 3; bazipingfen -= 50;linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Red; linkLabel47.Text = "巳午未三会火局"; 地支三会真假 = 1;
+                                                wxhuo += 3; bazipingfen -= 50; linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Red; linkLabel47.Text = "巳午未三会火局"; 地支三会真假 = 1;
                                             }
                                         }
                                     }
@@ -22079,7 +22079,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (whuo == 1)
                                             {
-                                                wxhuo += 3; bazipingfen -= 50;linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Red; linkLabel47.Text = "巳午未三会火局"; 地支三会真假 = 1;
+                                                wxhuo += 3; bazipingfen -= 50; linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Red; linkLabel47.Text = "巳午未三会火局"; 地支三会真假 = 1;
                                             }
                                         }
                                     }
@@ -22099,7 +22099,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
                                             {
-                                                wxjin += 3; bazipingfen -= 50;linkLabel47.LinkColor = Color.Gold; linkLabel47.BackColor = Color.Black; linkLabel47.Text = "申酉戌三会金局"; 地支三会真假 = 1;
+                                                wxjin += 3; bazipingfen -= 50; linkLabel47.LinkColor = Color.Gold; linkLabel47.BackColor = Color.Black; linkLabel47.Text = "申酉戌三会金局"; 地支三会真假 = 1;
                                             }
                                         }
                                     }
@@ -22115,7 +22115,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
                                             {
-                                                wxjin += 3; bazipingfen -= 50;linkLabel47.LinkColor = Color.Gold; linkLabel47.BackColor = Color.Black; linkLabel47.Text = "申酉戌三会金局"; 地支三会真假 = 1;
+                                                wxjin += 3; bazipingfen -= 50; linkLabel47.LinkColor = Color.Gold; linkLabel47.BackColor = Color.Black; linkLabel47.Text = "申酉戌三会金局"; 地支三会真假 = 1;
                                             }
                                         }
                                     }
@@ -22131,7 +22131,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (wjin == 1)
                                             {
-                                                wxjin += 3; bazipingfen -= 50;linkLabel47.LinkColor = Color.Gold; linkLabel47.BackColor = Color.Black; linkLabel47.Text = "申酉戌三会金局"; 地支三会真假 = 1;
+                                                wxjin += 3; bazipingfen -= 50; linkLabel47.LinkColor = Color.Gold; linkLabel47.BackColor = Color.Black; linkLabel47.Text = "申酉戌三会金局"; 地支三会真假 = 1;
                                             }
                                         }
                                     }
@@ -22147,7 +22147,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (wjin == 1)
                                             {
-                                                wxjin += 3; bazipingfen -= 50;linkLabel47.LinkColor = Color.Gold; linkLabel47.BackColor = Color.Black; linkLabel47.Text = "申酉戌三会金局"; 地支三会真假 = 1;
+                                                wxjin += 3; bazipingfen -= 50; linkLabel47.LinkColor = Color.Gold; linkLabel47.BackColor = Color.Black; linkLabel47.Text = "申酉戌三会金局"; 地支三会真假 = 1;
                                             }
                                         }
                                     }
@@ -22167,7 +22167,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
                                             {
-                                                wxshui += 3; bazipingfen -= 50;linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.DodgerBlue; linkLabel47.Text = "亥子丑三会水局"; 地支三会真假 = 1;
+                                                wxshui += 3; bazipingfen -= 50; linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.DodgerBlue; linkLabel47.Text = "亥子丑三会水局"; 地支三会真假 = 1;
                                             }
                                         }
                                     }
@@ -22183,7 +22183,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
                                             {
-                                                wxshui += 3; bazipingfen -= 50;linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.DodgerBlue; linkLabel47.Text = "亥子丑三会水局"; 地支三会真假 = 1;
+                                                wxshui += 3; bazipingfen -= 50; linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.DodgerBlue; linkLabel47.Text = "亥子丑三会水局"; 地支三会真假 = 1;
                                             }
                                         }
                                     }
@@ -22199,7 +22199,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (wshui == 1)
                                             {
-                                                wxshui += 3; bazipingfen -= 50;linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.DodgerBlue; linkLabel47.Text = "亥子丑三会水局"; 地支三会真假 = 1;
+                                                wxshui += 3; bazipingfen -= 50; linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.DodgerBlue; linkLabel47.Text = "亥子丑三会水局"; 地支三会真假 = 1;
                                             }
                                         }
                                     }
@@ -22215,7 +22215,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (wshui == 1)
                                             {
-                                                wxshui += 3; bazipingfen -= 50;linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.DodgerBlue; linkLabel47.Text = "亥子丑三会水局"; 地支三会真假 = 1;
+                                                wxshui += 3; bazipingfen -= 50; linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.DodgerBlue; linkLabel47.Text = "亥子丑三会水局"; 地支三会真假 = 1;
                                             }
                                         }
                                     }
@@ -22247,7 +22247,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
                                             {
-                                                wxshui += 1.6; bazipingfen -= 40;linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.DodgerBlue; linkLabel47.Text = "申子辰三合水局"; 地支三合真假 = 1;
+                                                wxshui += 1.6; bazipingfen -= 40; linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.DodgerBlue; linkLabel47.Text = "申子辰三合水局"; 地支三合真假 = 1;
                                             }
                                         }
                                     }
@@ -22263,7 +22263,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (ntg == ren || ytg == ren || rtg == ren || stg == ren || ntg == gui || ytg == gui || rtg == gui || stg == gui)
                                             {
-                                                wxshui += 1.6; bazipingfen -= 40;linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.DodgerBlue; linkLabel47.Text = "申子辰三合水局"; 地支三合真假 = 1;
+                                                wxshui += 1.6; bazipingfen -= 40; linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.DodgerBlue; linkLabel47.Text = "申子辰三合水局"; 地支三合真假 = 1;
                                             }
                                         }
                                     }
@@ -22279,7 +22279,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (wshui == 1)
                                             {
-                                                wxshui += 1.6; bazipingfen -= 40;linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.DodgerBlue; linkLabel47.Text = "申子辰三合水局"; 地支三合真假 = 1;
+                                                wxshui += 1.6; bazipingfen -= 40; linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.DodgerBlue; linkLabel47.Text = "申子辰三合水局"; 地支三合真假 = 1;
                                             }
                                         }
                                     }
@@ -22295,7 +22295,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (wshui == 1)
                                             {
-                                                wxshui += 1.6; bazipingfen -= 40;linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.DodgerBlue; linkLabel47.Text = "申子辰三合水局"; 地支三合真假 = 1;
+                                                wxshui += 1.6; bazipingfen -= 40; linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.DodgerBlue; linkLabel47.Text = "申子辰三合水局"; 地支三合真假 = 1;
                                             }
                                         }
                                     }
@@ -22315,7 +22315,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
                                             {
-                                                wxhuo += 1.6; bazipingfen -= 40;linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Red; linkLabel47.Text = "寅午戌三合火局"; 地支三合真假 = 1;
+                                                wxhuo += 1.6; bazipingfen -= 40; linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Red; linkLabel47.Text = "寅午戌三合火局"; 地支三合真假 = 1;
                                             }
                                         }
                                     }
@@ -22331,7 +22331,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (ntg == bing || ytg == bing || rtg == bing || stg == bing || ntg == ding || ytg == ding || rtg == ding || stg == ding)
                                             {
-                                                wxhuo += 1.6; bazipingfen -= 40;linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Red; linkLabel47.Text = "寅午戌三合火局"; 地支三合真假 = 1;
+                                                wxhuo += 1.6; bazipingfen -= 40; linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Red; linkLabel47.Text = "寅午戌三合火局"; 地支三合真假 = 1;
                                             }
                                         }
                                     }
@@ -22346,7 +22346,7 @@ namespace BaZiFuZuGongJu
                                             {
                                                 if (whuo == 1)
                                                 {
-                                                    wxhuo += 1.6; bazipingfen -= 40;linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Red; linkLabel47.Text = "寅午戌三合火局"; 地支三合真假 = 1;
+                                                    wxhuo += 1.6; bazipingfen -= 40; linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Red; linkLabel47.Text = "寅午戌三合火局"; 地支三合真假 = 1;
                                                 }
                                             }
                                         }
@@ -22362,7 +22362,7 @@ namespace BaZiFuZuGongJu
                                             {
                                                 if (whuo == 1)
                                                 {
-                                                    wxhuo += 1.6; bazipingfen -= 40;linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Red; linkLabel47.Text = "寅午戌三合火局"; 地支三合真假 = 1;
+                                                    wxhuo += 1.6; bazipingfen -= 40; linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Red; linkLabel47.Text = "寅午戌三合火局"; 地支三合真假 = 1;
                                                 }
                                             }
                                         }
@@ -22382,7 +22382,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
                                             {
-                                                wxjin += 1.6; bazipingfen -= 40;linkLabel47.LinkColor = Color.Gold; linkLabel47.BackColor = Color.Black; linkLabel47.Text = "巳酉丑三合金局"; 地支三合真假 = 1;
+                                                wxjin += 1.6; bazipingfen -= 40; linkLabel47.LinkColor = Color.Gold; linkLabel47.BackColor = Color.Black; linkLabel47.Text = "巳酉丑三合金局"; 地支三合真假 = 1;
                                             }
                                         }
                                     }
@@ -22398,7 +22398,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (ntg == geng || ytg == geng || rtg == geng || stg == geng || ntg == xin || ytg == xin || rtg == xin || stg == xin)
                                             {
-                                                wxjin += 1.6; bazipingfen -= 40;linkLabel47.LinkColor = Color.Gold; linkLabel47.BackColor = Color.Black; linkLabel47.Text = "巳酉丑三合金局"; 地支三合真假 = 1;
+                                                wxjin += 1.6; bazipingfen -= 40; linkLabel47.LinkColor = Color.Gold; linkLabel47.BackColor = Color.Black; linkLabel47.Text = "巳酉丑三合金局"; 地支三合真假 = 1;
                                             }
                                         }
                                     }
@@ -22414,7 +22414,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (wjin == 1)
                                             {
-                                                wxjin += 1.6; bazipingfen -= 40;linkLabel47.LinkColor = Color.Gold; linkLabel47.BackColor = Color.Black; linkLabel47.Text = "巳酉丑三合金局"; 地支三合真假 = 1;
+                                                wxjin += 1.6; bazipingfen -= 40; linkLabel47.LinkColor = Color.Gold; linkLabel47.BackColor = Color.Black; linkLabel47.Text = "巳酉丑三合金局"; 地支三合真假 = 1;
                                             }
                                         }
                                     }
@@ -22430,7 +22430,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (wjin == 1)
                                             {
-                                                wxjin += 1.6; bazipingfen -= 40;linkLabel47.LinkColor = Color.Gold; linkLabel47.BackColor = Color.Black; linkLabel47.Text = "巳酉丑三合金局"; 地支三合真假 = 1;
+                                                wxjin += 1.6; bazipingfen -= 40; linkLabel47.LinkColor = Color.Gold; linkLabel47.BackColor = Color.Black; linkLabel47.Text = "巳酉丑三合金局"; 地支三合真假 = 1;
                                             }
                                         }
                                     }
@@ -22450,7 +22450,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
                                             {
-                                                wxmu += 1.6; bazipingfen -= 40;linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Green; linkLabel47.Text = "亥卯未三合木局"; 地支三合真假 = 1;
+                                                wxmu += 1.6; bazipingfen -= 40; linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Green; linkLabel47.Text = "亥卯未三合木局"; 地支三合真假 = 1;
                                             }
                                         }
                                     }
@@ -22466,7 +22466,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (ntg == jia || ytg == jia || rtg == jia || stg == jia || ntg == yii || ytg == yii || rtg == yii || stg == yii)
                                             {
-                                                wxmu += 1.6; bazipingfen -= 40;linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Green; linkLabel47.Text = "亥卯未三合木局"; 地支三合真假 = 1;
+                                                wxmu += 1.6; bazipingfen -= 40; linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Green; linkLabel47.Text = "亥卯未三合木局"; 地支三合真假 = 1;
                                             }
                                         }
                                     }
@@ -22482,7 +22482,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (wmu == 1)
                                             {
-                                                wxmu += 1.6; bazipingfen -= 40;linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Green; linkLabel47.Text = "亥卯未三合木局"; 地支三合真假 = 1;
+                                                wxmu += 1.6; bazipingfen -= 40; linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Green; linkLabel47.Text = "亥卯未三合木局"; 地支三合真假 = 1;
                                             }
                                         }
                                     }
@@ -22498,7 +22498,7 @@ namespace BaZiFuZuGongJu
                                         {
                                             if (wmu == 1)
                                             {
-                                                wxmu += 1.6; bazipingfen -= 40;linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Green; linkLabel47.Text = "亥卯未三合木局"; 地支三合真假 = 1;
+                                                wxmu += 1.6; bazipingfen -= 40; linkLabel47.LinkColor = Color.White; linkLabel47.BackColor = Color.Green; linkLabel47.Text = "亥卯未三合木局"; 地支三合真假 = 1;
                                             }
                                         }
                                     }
@@ -22526,11 +22526,11 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ndz == sii && ydz == you || ndz == you && ydz == sii)
                                     {
-                                        wxjin += 1.3; dizhi3h3h = 1;linkLabel64.LinkColor = Color.Gold; linkLabel64.BackColor = Color.Black; linkLabel64.Text += "巳酉半三合金-"; 半三合真假 = 1;
+                                        wxjin += 1.3; dizhi3h3h = 1; linkLabel64.LinkColor = Color.Gold; linkLabel64.BackColor = Color.Black; linkLabel64.Text += "巳酉半三合金-"; 半三合真假 = 1;
                                     }
                                     if (ydz == sii && rdz == you || rdz == sii && ydz == you)
                                     {
-                                        wxjin += 1.3; dizhi3h3h = 1;linkLabel63.LinkColor = Color.Gold; linkLabel63.BackColor = Color.Black; linkLabel63.Text += "巳酉半三合金-"; 半三合真假 = 1;
+                                        wxjin += 1.3; dizhi3h3h = 1; linkLabel63.LinkColor = Color.Gold; linkLabel63.BackColor = Color.Black; linkLabel63.Text += "巳酉半三合金-"; 半三合真假 = 1;
                                     }
                                     if (rdz == sii && sdz == you || sdz == sii && rdz == you)
                                     {
@@ -22548,11 +22548,11 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ndz == sii && ydz == you || ndz == you && ydz == sii)
                                     {
-                                        wxjin += 1.3; dizhi3h3h = 1;linkLabel64.LinkColor = Color.Gold; linkLabel64.BackColor = Color.Black; linkLabel64.Text += "巳酉半三合金-"; 半三合真假 = 1;
+                                        wxjin += 1.3; dizhi3h3h = 1; linkLabel64.LinkColor = Color.Gold; linkLabel64.BackColor = Color.Black; linkLabel64.Text += "巳酉半三合金-"; 半三合真假 = 1;
                                     }
                                     if (ydz == sii && rdz == you || rdz == sii && ydz == you)
                                     {
-                                        wxjin += 1.3; dizhi3h3h = 1;linkLabel63.LinkColor = Color.Gold; linkLabel63.BackColor = Color.Black; linkLabel63.Text += "巳酉半三合金-"; 半三合真假 = 1;
+                                        wxjin += 1.3; dizhi3h3h = 1; linkLabel63.LinkColor = Color.Gold; linkLabel63.BackColor = Color.Black; linkLabel63.Text += "巳酉半三合金-"; 半三合真假 = 1;
                                     }
                                     if (rdz == sii && sdz == you || sdz == sii && rdz == you)
                                     {
@@ -22571,11 +22571,11 @@ namespace BaZiFuZuGongJu
 
                                     if (ndz == hai && ydz == mao || ndz == mao && ydz == hai)
                                     {
-                                        wxmu += 1.3; dizhi3h3h = 1;linkLabel64.LinkColor = Color.White; linkLabel64.BackColor = Color.Green; linkLabel64.Text += "亥卯半三合木-"; 半三合真假 = 1;
+                                        wxmu += 1.3; dizhi3h3h = 1; linkLabel64.LinkColor = Color.White; linkLabel64.BackColor = Color.Green; linkLabel64.Text += "亥卯半三合木-"; 半三合真假 = 1;
                                     }
                                     if (ydz == hai && rdz == mao || rdz == hai && ydz == mao)
                                     {
-                                        wxmu += 1.3; dizhi3h3h = 1;linkLabel63.LinkColor = Color.White; linkLabel63.BackColor = Color.Green; linkLabel63.Text += "亥卯半三合木-"; 半三合真假 = 1;
+                                        wxmu += 1.3; dizhi3h3h = 1; linkLabel63.LinkColor = Color.White; linkLabel63.BackColor = Color.Green; linkLabel63.Text += "亥卯半三合木-"; 半三合真假 = 1;
                                     }
                                     if (rdz == hai && sdz == mao || sdz == hai && rdz == mao)
                                     {
@@ -22594,11 +22594,11 @@ namespace BaZiFuZuGongJu
 
                                     if (ndz == hai && ydz == mao || ndz == mao && ydz == hai)
                                     {
-                                        wxmu += 1.3; dizhi3h3h = 1;linkLabel64.LinkColor = Color.White; linkLabel64.BackColor = Color.Green; linkLabel64.Text += "亥卯半三合木-"; 半三合真假 = 1;
+                                        wxmu += 1.3; dizhi3h3h = 1; linkLabel64.LinkColor = Color.White; linkLabel64.BackColor = Color.Green; linkLabel64.Text += "亥卯半三合木-"; 半三合真假 = 1;
                                     }
                                     if (ydz == hai && rdz == mao || rdz == hai && ydz == mao)
                                     {
-                                        wxmu += 1.3; dizhi3h3h = 1;linkLabel63.LinkColor = Color.White; linkLabel63.BackColor = Color.Green; linkLabel63.Text += "亥卯半三合木-"; 半三合真假 = 1;
+                                        wxmu += 1.3; dizhi3h3h = 1; linkLabel63.LinkColor = Color.White; linkLabel63.BackColor = Color.Green; linkLabel63.Text += "亥卯半三合木-"; 半三合真假 = 1;
                                     }
                                     if (rdz == hai && sdz == mao || sdz == hai && rdz == mao)
                                     {
@@ -22616,11 +22616,11 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ndz == yin && ydz == wuma || ndz == wuma && ydz == yin)
                                     {
-                                        wxhuo += 1.3; dizhi3h3h = 1;linkLabel64.LinkColor = Color.White; linkLabel64.BackColor = Color.Red; linkLabel64.Text += "寅午半三合火-"; 半三合真假 = 1;
+                                        wxhuo += 1.3; dizhi3h3h = 1; linkLabel64.LinkColor = Color.White; linkLabel64.BackColor = Color.Red; linkLabel64.Text += "寅午半三合火-"; 半三合真假 = 1;
                                     }
                                     if (ydz == yin && rdz == wuma || rdz == yin && ydz == wuma)
                                     {
-                                        wxhuo += 1.3; dizhi3h3h = 1;linkLabel63.LinkColor = Color.White; linkLabel63.BackColor = Color.Red; linkLabel63.Text += "寅午半三合火-"; 半三合真假 = 1;
+                                        wxhuo += 1.3; dizhi3h3h = 1; linkLabel63.LinkColor = Color.White; linkLabel63.BackColor = Color.Red; linkLabel63.Text += "寅午半三合火-"; 半三合真假 = 1;
                                     }
                                     if (rdz == yin && sdz == wuma || sdz == yin && rdz == wuma)
                                     {
@@ -22638,11 +22638,11 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ndz == yin && ydz == wuma || ndz == wuma && ydz == yin)
                                     {
-                                        wxhuo += 1.3; dizhi3h3h = 1;linkLabel64.LinkColor = Color.White; linkLabel64.BackColor = Color.Red; linkLabel64.Text += "寅午半三合火-"; 半三合真假 = 1;
+                                        wxhuo += 1.3; dizhi3h3h = 1; linkLabel64.LinkColor = Color.White; linkLabel64.BackColor = Color.Red; linkLabel64.Text += "寅午半三合火-"; 半三合真假 = 1;
                                     }
                                     if (ydz == yin && rdz == wuma || rdz == yin && ydz == wuma)
                                     {
-                                        wxhuo += 1.3; dizhi3h3h = 1;linkLabel63.LinkColor = Color.White; linkLabel63.BackColor = Color.Red; linkLabel63.Text += "寅午半三合火-"; 半三合真假 = 1;
+                                        wxhuo += 1.3; dizhi3h3h = 1; linkLabel63.LinkColor = Color.White; linkLabel63.BackColor = Color.Red; linkLabel63.Text += "寅午半三合火-"; 半三合真假 = 1;
                                     }
                                     if (rdz == yin && sdz == wuma || sdz == yin && rdz == wuma)
                                     {
@@ -22660,11 +22660,11 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ndz == shen && ydz == zii || ndz == zii && ydz == shen)
                                     {
-                                        wxshui += 1.3; dizhi3h3h = 1;linkLabel64.LinkColor = Color.White; linkLabel64.BackColor = Color.DodgerBlue; linkLabel64.Text += "申子半三合水-"; 半三合真假 = 1;
+                                        wxshui += 1.3; dizhi3h3h = 1; linkLabel64.LinkColor = Color.White; linkLabel64.BackColor = Color.DodgerBlue; linkLabel64.Text += "申子半三合水-"; 半三合真假 = 1;
                                     }
                                     if (ydz == shen && rdz == zii || rdz == shen && ydz == zii)
                                     {
-                                        wxshui += 1.3; dizhi3h3h = 1;linkLabel63.LinkColor = Color.White; linkLabel63.BackColor = Color.DodgerBlue; linkLabel63.Text += "申子半三合水-"; 半三合真假 = 1;
+                                        wxshui += 1.3; dizhi3h3h = 1; linkLabel63.LinkColor = Color.White; linkLabel63.BackColor = Color.DodgerBlue; linkLabel63.Text += "申子半三合水-"; 半三合真假 = 1;
                                     }
                                     if (rdz == shen && sdz == zii || sdz == shen && rdz == zii)
                                     {
@@ -22682,11 +22682,11 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ndz == shen && ydz == zii || ndz == zii && ydz == shen)
                                     {
-                                        wxshui += 1.3; dizhi3h3h = 1;linkLabel64.LinkColor = Color.White; linkLabel64.BackColor = Color.DodgerBlue; linkLabel64.Text += "申子半三合水-"; 半三合真假 = 1;
+                                        wxshui += 1.3; dizhi3h3h = 1; linkLabel64.LinkColor = Color.White; linkLabel64.BackColor = Color.DodgerBlue; linkLabel64.Text += "申子半三合水-"; 半三合真假 = 1;
                                     }
                                     if (ydz == shen && rdz == zii || rdz == shen && ydz == zii)
                                     {
-                                        wxshui += 1.3; dizhi3h3h = 1;linkLabel63.LinkColor = Color.White; linkLabel63.BackColor = Color.DodgerBlue; linkLabel63.Text += "申子半三合水-"; 半三合真假 = 1;
+                                        wxshui += 1.3; dizhi3h3h = 1; linkLabel63.LinkColor = Color.White; linkLabel63.BackColor = Color.DodgerBlue; linkLabel63.Text += "申子半三合水-"; 半三合真假 = 1;
                                     }
                                     if (rdz == shen && sdz == zii || sdz == shen && rdz == zii)
                                     {
@@ -22903,19 +22903,19 @@ namespace BaZiFuZuGongJu
                             {
                                 if (ndz == xuu || ndz == chou)
                                 {
-                                    bazipingfen -= 50;linkLabel61.Text += "年墓库"; 墓库运真假 = 1;
+                                    bazipingfen -= 50; linkLabel61.Text += "年墓库"; 墓库运真假 = 1;
                                 }
                                 if (ydz == xuu || ydz == chou)
                                 {
-                                    bazipingfen -= 50;linkLabel61.Text += "月墓库"; 墓库运真假 = 1;
+                                    bazipingfen -= 50; linkLabel61.Text += "月墓库"; 墓库运真假 = 1;
                                 }
                                 if (rdz == xuu || rdz == chou)
                                 {
-                                    bazipingfen -= 50;linkLabel61.Text += "日墓库"; 墓库运真假 = 1;
+                                    bazipingfen -= 50; linkLabel61.Text += "日墓库"; 墓库运真假 = 1;
                                 }
                                 if (sdz == xuu || sdz == chou)
                                 {
-                                    bazipingfen -= 50;linkLabel61.Text += "时墓库"; 墓库运真假 = 1;
+                                    bazipingfen -= 50; linkLabel61.Text += "时墓库"; 墓库运真假 = 1;
                                 }
 
                             }
@@ -22923,19 +22923,19 @@ namespace BaZiFuZuGongJu
                             {
                                 if (ndz == chen || ndz == chou)
                                 {
-                                    bazipingfen -= 50;linkLabel61.Text += "年墓库"; 墓库运真假 = 1;
+                                    bazipingfen -= 50; linkLabel61.Text += "年墓库"; 墓库运真假 = 1;
                                 }
                                 if (ydz == chen || ydz == chou)
                                 {
-                                    bazipingfen -= 50;linkLabel61.Text += "月墓库"; 墓库运真假 = 1;
+                                    bazipingfen -= 50; linkLabel61.Text += "月墓库"; 墓库运真假 = 1;
                                 }
                                 if (rdz == chen || rdz == chou)
                                 {
-                                    bazipingfen -= 50;linkLabel61.Text += "日墓库"; 墓库运真假 = 1;
+                                    bazipingfen -= 50; linkLabel61.Text += "日墓库"; 墓库运真假 = 1;
                                 }
                                 if (sdz == chen || sdz == chou)
                                 {
-                                    bazipingfen -= 50;linkLabel61.Text += "时墓库"; 墓库运真假 = 1;
+                                    bazipingfen -= 50; linkLabel61.Text += "时墓库"; 墓库运真假 = 1;
                                 }
 
                             }
@@ -22943,19 +22943,19 @@ namespace BaZiFuZuGongJu
                             {
                                 if (ndz == chen || ndz == wei)
                                 {
-                                    bazipingfen -= 50;linkLabel61.Text += "年墓库"; 墓库运真假 = 1;
+                                    bazipingfen -= 50; linkLabel61.Text += "年墓库"; 墓库运真假 = 1;
                                 }
                                 if (ydz == chen || ydz == wei)
                                 {
-                                    bazipingfen -= 50;linkLabel61.Text += "月墓库"; 墓库运真假 = 1;
+                                    bazipingfen -= 50; linkLabel61.Text += "月墓库"; 墓库运真假 = 1;
                                 }
                                 if (rdz == chen || rdz == wei)
                                 {
-                                    bazipingfen -= 50;linkLabel61.Text += "日墓库"; 墓库运真假 = 1;
+                                    bazipingfen -= 50; linkLabel61.Text += "日墓库"; 墓库运真假 = 1;
                                 }
                                 if (sdz == chen || sdz == wei)
                                 {
-                                    bazipingfen -= 50;linkLabel61.Text += "时墓库"; 墓库运真假 = 1;
+                                    bazipingfen -= 50; linkLabel61.Text += "时墓库"; 墓库运真假 = 1;
                                 }
 
                             }
@@ -22963,19 +22963,19 @@ namespace BaZiFuZuGongJu
                             {
                                 if (ndz == xuu || ndz == wei)
                                 {
-                                    bazipingfen -= 50;linkLabel61.Text += "年墓库"; 墓库运真假 = 1;
+                                    bazipingfen -= 50; linkLabel61.Text += "年墓库"; 墓库运真假 = 1;
                                 }
                                 if (ydz == xuu || ydz == wei)
                                 {
-                                    bazipingfen -= 50;linkLabel61.Text += "月墓库"; 墓库运真假 = 1;
+                                    bazipingfen -= 50; linkLabel61.Text += "月墓库"; 墓库运真假 = 1;
                                 }
                                 if (rdz == xuu || rdz == wei)
                                 {
-                                    bazipingfen -= 50;linkLabel61.Text += "日墓库"; 墓库运真假 = 1;
+                                    bazipingfen -= 50; linkLabel61.Text += "日墓库"; 墓库运真假 = 1;
                                 }
                                 if (sdz == xuu || sdz == wei)
                                 {
-                                    bazipingfen -= 50;linkLabel61.Text += "时墓库"; 墓库运真假 = 1;
+                                    bazipingfen -= 50; linkLabel61.Text += "时墓库"; 墓库运真假 = 1;
                                 }
 
                             }
@@ -22983,19 +22983,19 @@ namespace BaZiFuZuGongJu
                             {
                                 if (ndz == xuu || ndz == chen)
                                 {
-                                    bazipingfen -= 50;linkLabel61.Text += "年墓库"; 墓库运真假 = 1;
+                                    bazipingfen -= 50; linkLabel61.Text += "年墓库"; 墓库运真假 = 1;
                                 }
                                 if (ydz == xuu || ydz == chen)
                                 {
-                                    bazipingfen -= 50;linkLabel61.Text += "月墓库"; 墓库运真假 = 1;
+                                    bazipingfen -= 50; linkLabel61.Text += "月墓库"; 墓库运真假 = 1;
                                 }
                                 if (rdz == xuu || rdz == chen)
                                 {
-                                    bazipingfen -= 50;linkLabel61.Text += "日墓库"; 墓库运真假 = 1;
+                                    bazipingfen -= 50; linkLabel61.Text += "日墓库"; 墓库运真假 = 1;
                                 }
                                 if (sdz == xuu || sdz == chen)
                                 {
-                                    bazipingfen -= 50;linkLabel61.Text += "时墓库"; 墓库运真假 = 1;
+                                    bazipingfen -= 50; linkLabel61.Text += "时墓库"; 墓库运真假 = 1;
                                 }
 
                             }
@@ -23003,19 +23003,19 @@ namespace BaZiFuZuGongJu
                             {
                                 if (ndz == chou || ndz == wei)
                                 {
-                                    bazipingfen -= 50;linkLabel61.Text += "年墓库"; 墓库运真假 = 1;
+                                    bazipingfen -= 50; linkLabel61.Text += "年墓库"; 墓库运真假 = 1;
                                 }
                                 if (ydz == chou || ydz == wei)
                                 {
-                                    bazipingfen -= 50;linkLabel61.Text += "月墓库"; 墓库运真假 = 1;
+                                    bazipingfen -= 50; linkLabel61.Text += "月墓库"; 墓库运真假 = 1;
                                 }
                                 if (rdz == chou || rdz == wei)
                                 {
-                                    bazipingfen -= 50;linkLabel61.Text += "日墓库"; 墓库运真假 = 1;
+                                    bazipingfen -= 50; linkLabel61.Text += "日墓库"; 墓库运真假 = 1;
                                 }
                                 if (sdz == chou || sdz == wei)
                                 {
-                                    bazipingfen -= 50;linkLabel61.Text += "时墓库"; 墓库运真假 = 1;
+                                    bazipingfen -= 50; linkLabel61.Text += "时墓库"; 墓库运真假 = 1;
                                 }
 
                             }
@@ -23281,7 +23281,7 @@ namespace BaZiFuZuGongJu
                             wuxingguilei = 5;
                         }
                     }
-                                        
+
                     //空亡
                     if (jia == jia)
                     {
@@ -23290,19 +23290,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == xuu || ndz == hai)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == xuu || ydz == hai)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == xuu || rdz == hai)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == xuu || sdz == hai)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23310,19 +23310,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == xuu || ndz == hai)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == xuu || ydz == hai)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == xuu || rdz == hai)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == xuu || sdz == hai)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23330,19 +23330,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == xuu || ndz == hai)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == xuu || ydz == hai)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == xuu || rdz == hai)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == xuu || sdz == hai)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23350,19 +23350,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == xuu || ndz == hai)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == xuu || ydz == hai)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == xuu || rdz == hai)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == xuu || sdz == hai)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23370,19 +23370,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == xuu || ndz == hai)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == xuu || ydz == hai)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == xuu || rdz == hai)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == xuu || sdz == hai)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23390,19 +23390,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == xuu || ndz == hai)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == xuu || ydz == hai)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == xuu || rdz == hai)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == xuu || sdz == hai)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23410,19 +23410,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == xuu || ndz == hai)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == xuu || ydz == hai)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == xuu || rdz == hai)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == xuu || sdz == hai)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23430,19 +23430,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == xuu || ndz == hai)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == xuu || ydz == hai)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == xuu || rdz == hai)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == xuu || sdz == hai)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23450,19 +23450,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == xuu || ndz == hai)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == xuu || ydz == hai)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == xuu || rdz == hai)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == xuu || sdz == hai)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23470,19 +23470,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == xuu || ndz == hai)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == xuu || ydz == hai)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == xuu || rdz == hai)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == xuu || sdz == hai)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23491,19 +23491,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen || ndz == you)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == shen || ydz == you)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == shen || rdz == you)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == shen || sdz == you)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23511,19 +23511,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen || ndz == you)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == shen || ydz == you)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == shen || rdz == you)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == shen || sdz == you)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23531,19 +23531,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen || ndz == you)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == shen || ydz == you)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == shen || rdz == you)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == shen || sdz == you)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23551,19 +23551,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen || ndz == you)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == shen || ydz == you)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == shen || rdz == you)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == shen || sdz == you)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23571,19 +23571,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen || ndz == you)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == shen || ydz == you)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == shen || rdz == you)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == shen || sdz == you)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23591,19 +23591,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen || ndz == you)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == shen || ydz == you)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == shen || rdz == you)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == shen || sdz == you)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23611,19 +23611,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen || ndz == you)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == shen || ydz == you)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == shen || rdz == you)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == shen || sdz == you)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23631,19 +23631,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen || ndz == you)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == shen || ydz == you)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == shen || rdz == you)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == shen || sdz == you)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23651,19 +23651,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen || ndz == you)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == shen || ydz == you)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == shen || rdz == you)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == shen || sdz == you)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23671,19 +23671,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen || ndz == you)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == shen || ydz == you)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == shen || rdz == you)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == shen || sdz == you)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23692,19 +23692,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wuma || ndz == wei)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == wuma || ydz == wei)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == wuma || rdz == wei)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == wuma || sdz == wei)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23712,19 +23712,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wuma || ndz == wei)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == wuma || ydz == wei)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == wuma || rdz == wei)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == wuma || sdz == wei)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23732,19 +23732,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wuma || ndz == wei)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == wuma || ydz == wei)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == wuma || rdz == wei)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == wuma || sdz == wei)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23752,19 +23752,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wuma || ndz == wei)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == wuma || ydz == wei)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == wuma || rdz == wei)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == wuma || sdz == wei)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23772,19 +23772,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wuma || ndz == wei)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == wuma || ydz == wei)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == wuma || rdz == wei)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == wuma || sdz == wei)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23792,19 +23792,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wuma || ndz == wei)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == wuma || ydz == wei)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == wuma || rdz == wei)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == wuma || sdz == wei)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23812,19 +23812,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wuma || ndz == wei)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == wuma || ydz == wei)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == wuma || rdz == wei)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == wuma || sdz == wei)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23832,19 +23832,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wuma || ndz == wei)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == wuma || ydz == wei)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == wuma || rdz == wei)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == wuma || sdz == wei)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23852,19 +23852,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wuma || ndz == wei)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == wuma || ydz == wei)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == wuma || rdz == wei)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == wuma || sdz == wei)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23872,19 +23872,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wuma || ndz == wei)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == wuma || ydz == wei)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == wuma || rdz == wei)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == wuma || sdz == wei)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23893,19 +23893,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chen || ndz == sii)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == chen || ydz == sii)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == chen || rdz == sii)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == chen || sdz == sii)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23913,19 +23913,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chen || ndz == sii)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == chen || ydz == sii)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == chen || rdz == sii)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == chen || sdz == sii)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23933,19 +23933,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chen || ndz == sii)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == chen || ydz == sii)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == chen || rdz == sii)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == chen || sdz == sii)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23953,19 +23953,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chen || ndz == sii)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == chen || ydz == sii)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == chen || rdz == sii)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == chen || sdz == sii)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23973,19 +23973,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chen || ndz == sii)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == chen || ydz == sii)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == chen || rdz == sii)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == chen || sdz == sii)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -23993,19 +23993,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chen || ndz == sii)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == chen || ydz == sii)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == chen || rdz == sii)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == chen || sdz == sii)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24013,19 +24013,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chen || ndz == sii)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == chen || ydz == sii)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == chen || rdz == sii)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == chen || sdz == sii)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24033,19 +24033,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chen || ndz == sii)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == chen || ydz == sii)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == chen || rdz == sii)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == chen || sdz == sii)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24053,19 +24053,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chen || ndz == sii)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == chen || ydz == sii)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == chen || rdz == sii)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == chen || sdz == sii)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24073,19 +24073,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chen || ndz == sii)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == chen || ydz == sii)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == chen || rdz == sii)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == chen || sdz == sii)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24094,19 +24094,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin || ndz == mao)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == yin || ydz == mao)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == yin || rdz == mao)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == yin || sdz == mao)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24114,19 +24114,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin || ndz == mao)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == yin || ydz == mao)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == yin || rdz == mao)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == yin || sdz == mao)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24134,19 +24134,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin || ndz == mao)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == yin || ydz == mao)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == yin || rdz == mao)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == yin || sdz == mao)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24154,19 +24154,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin || ndz == mao)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == yin || ydz == mao)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == yin || rdz == mao)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == yin || sdz == mao)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24174,19 +24174,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin || ndz == mao)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == yin || ydz == mao)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == yin || rdz == mao)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == yin || sdz == mao)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24194,19 +24194,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin || ndz == mao)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == yin || ydz == mao)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == yin || rdz == mao)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == yin || sdz == mao)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24214,19 +24214,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin || ndz == mao)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == yin || ydz == mao)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == yin || rdz == mao)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == yin || sdz == mao)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24234,19 +24234,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin || ndz == mao)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == yin || ydz == mao)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == yin || rdz == mao)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == yin || sdz == mao)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24254,19 +24254,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin || ndz == mao)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == yin || ydz == mao)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == yin || rdz == mao)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == yin || sdz == mao)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24274,19 +24274,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin || ndz == mao)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == yin || ydz == mao)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == yin || rdz == mao)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == yin || sdz == mao)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24295,19 +24295,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == zii || ndz == chou)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == zii || ydz == chou)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == zii || rdz == chou)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == zii || sdz == chou)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24315,19 +24315,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == zii || ndz == chou)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == zii || ydz == chou)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == zii || rdz == chou)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == zii || sdz == chou)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24335,19 +24335,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == zii || ndz == chou)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == zii || ydz == chou)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == zii || rdz == chou)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == zii || sdz == chou)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24355,19 +24355,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == zii || ndz == chou)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == zii || ydz == chou)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == zii || rdz == chou)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == zii || sdz == chou)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24375,19 +24375,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == zii || ndz == chou)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == zii || ydz == chou)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == zii || rdz == chou)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == zii || sdz == chou)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24395,19 +24395,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == zii || ndz == chou)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == zii || ydz == chou)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == zii || rdz == chou)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == zii || sdz == chou)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24415,19 +24415,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == zii || ndz == chou)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == zii || ydz == chou)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == zii || rdz == chou)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == zii || sdz == chou)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24435,19 +24435,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == zii || ndz == chou)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == zii || ydz == chou)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == zii || rdz == chou)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == zii || sdz == chou)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24455,19 +24455,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == zii || ndz == chou)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == zii || ydz == chou)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == zii || rdz == chou)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == zii || sdz == chou)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24475,19 +24475,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == zii || ndz == chou)
                             {
-                                ndzkongwang = 1;linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ndzkongwang = 1; linkLabelndzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (ydz == zii || ydz == chou)
                             {
-                                ydzkongwang = 1;linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
+                                ydzkongwang = 1; linkLabelydzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (rdz == zii || rdz == chou)
                             {
-                                rdzkongwang = 1;linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                rdzkongwang = 1; linkLabelrdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
                             if (sdz == zii || sdz == chou)
                             {
-                                sdzkongwang = 1;linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
+                                sdzkongwang = 1; linkLabelsdzss1.Text += "空亡-"; 空亡真假 = 1;
                             }
 
                         }
@@ -24499,7 +24499,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 空亡;
                         }
                     }
-                    
+
                     //金舆
                     if (jia == jia)
                     {
@@ -24511,11 +24511,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == yin || ydz == yin || rdz == yin || sdz == yin)
                                 {
-                                    ndzzhenjinyu = 1;linkLabelndzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    ndzzhenjinyu = 1; linkLabelndzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    ndzjinyu = 1;linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    ndzjinyu = 1; linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (ydz == chen)
@@ -24523,11 +24523,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == yin || ydz == yin || rdz == yin || sdz == yin)
                                 {
-                                    ydzzhenjinyu = 1;linkLabelydzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    ydzzhenjinyu = 1; linkLabelydzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    ydzjinyu = 1;linkLabelydzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    ydzjinyu = 1; linkLabelydzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (rdz == chen)
@@ -24535,11 +24535,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == yin || ydz == yin || rdz == yin || sdz == yin)
                                 {
-                                    rdzzhenjinyu = 1;linkLabelrdzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    rdzzhenjinyu = 1; linkLabelrdzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    rdzjinyu = 1;linkLabelrdzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    rdzjinyu = 1; linkLabelrdzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (sdz == chen)
@@ -24547,11 +24547,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == yin || ydz == yin || rdz == yin || sdz == yin)
                                 {
-                                    sdzzhenjinyu = 1;linkLabelsdzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    sdzzhenjinyu = 1; linkLabelsdzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    sdzjinyu = 1;linkLabelsdzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    sdzjinyu = 1; linkLabelsdzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
 
@@ -24563,11 +24563,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == mao || ydz == mao || rdz == mao || sdz == mao)
                                 {
-                                    ndzzhenjinyu = 1;linkLabelndzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    ndzzhenjinyu = 1; linkLabelndzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    ndzjinyu = 1;linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    ndzjinyu = 1; linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (ydz == sii)
@@ -24575,11 +24575,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == mao || ydz == mao || rdz == mao || sdz == mao)
                                 {
-                                    ydzzhenjinyu = 1;linkLabelydzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    ydzzhenjinyu = 1; linkLabelydzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    ydzjinyu = 1;linkLabelydzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    ydzjinyu = 1; linkLabelydzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (rdz == sii)
@@ -24587,11 +24587,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == mao || ydz == mao || rdz == mao || sdz == mao)
                                 {
-                                    rdzzhenjinyu = 1;linkLabelrdzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    rdzzhenjinyu = 1; linkLabelrdzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    rdzjinyu = 1;linkLabelrdzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    rdzjinyu = 1; linkLabelrdzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (sdz == sii)
@@ -24599,11 +24599,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == mao || ydz == mao || rdz == mao || sdz == mao)
                                 {
-                                    sdzzhenjinyu = 1;linkLabelsdzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    sdzzhenjinyu = 1; linkLabelsdzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    sdzjinyu = 1;linkLabelsdzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    sdzjinyu = 1; linkLabelsdzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
 
@@ -24615,11 +24615,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == sii || ydz == sii || rdz == sii || sdz == sii)
                                 {
-                                    ndzzhenjinyu = 1;linkLabelndzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    ndzzhenjinyu = 1; linkLabelndzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    ndzjinyu = 1;linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    ndzjinyu = 1; linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (ydz == wei)
@@ -24627,11 +24627,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == sii || ydz == sii || rdz == sii || sdz == sii)
                                 {
-                                    ydzzhenjinyu = 1;linkLabelydzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    ydzzhenjinyu = 1; linkLabelydzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    ydzjinyu = 1;linkLabelydzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    ydzjinyu = 1; linkLabelydzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (rdz == wei)
@@ -24639,11 +24639,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == sii || ydz == sii || rdz == sii || sdz == sii)
                                 {
-                                    rdzzhenjinyu = 1;linkLabelrdzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    rdzzhenjinyu = 1; linkLabelrdzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    rdzjinyu = 1;linkLabelrdzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    rdzjinyu = 1; linkLabelrdzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (sdz == wei)
@@ -24651,11 +24651,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == sii || ydz == sii || rdz == sii || sdz == sii)
                                 {
-                                    sdzzhenjinyu = 1;linkLabelsdzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    sdzzhenjinyu = 1; linkLabelsdzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    sdzjinyu = 1;linkLabelsdzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    sdzjinyu = 1; linkLabelsdzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
 
@@ -24667,11 +24667,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == wuma || ydz == wuma || rdz == wuma || sdz == wuma)
                                 {
-                                    ndzzhenjinyu = 1;linkLabelndzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    ndzzhenjinyu = 1; linkLabelndzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    ndzjinyu = 1;linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    ndzjinyu = 1; linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (ydz == shen)
@@ -24679,11 +24679,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == wuma || ydz == wuma || rdz == wuma || sdz == wuma)
                                 {
-                                    ydzzhenjinyu = 1;linkLabelydzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    ydzzhenjinyu = 1; linkLabelydzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    ydzjinyu = 1;linkLabelydzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    ydzjinyu = 1; linkLabelydzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (rdz == shen)
@@ -24691,11 +24691,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == wuma || ydz == wuma || rdz == wuma || sdz == wuma)
                                 {
-                                    rdzzhenjinyu = 1;linkLabelrdzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    rdzzhenjinyu = 1; linkLabelrdzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    rdzjinyu = 1;linkLabelrdzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    rdzjinyu = 1; linkLabelrdzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (sdz == shen)
@@ -24703,11 +24703,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == wuma || ydz == wuma || rdz == wuma || sdz == wuma)
                                 {
-                                    sdzzhenjinyu = 1;linkLabelsdzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    sdzzhenjinyu = 1; linkLabelsdzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    sdzjinyu = 1;linkLabelsdzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    sdzjinyu = 1; linkLabelsdzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
 
@@ -24719,11 +24719,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == shen || ydz == shen || rdz == shen || sdz == shen)
                                 {
-                                    ndzzhenjinyu = 1;linkLabelndzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    ndzzhenjinyu = 1; linkLabelndzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    ndzjinyu = 1;linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    ndzjinyu = 1; linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (ydz == xuu)
@@ -24731,11 +24731,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == shen || ydz == shen || rdz == shen || sdz == shen)
                                 {
-                                    ydzzhenjinyu = 1;linkLabelydzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    ydzzhenjinyu = 1; linkLabelydzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    ydzjinyu = 1;linkLabelydzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    ydzjinyu = 1; linkLabelydzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (rdz == xuu)
@@ -24743,11 +24743,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == shen || ydz == shen || rdz == shen || sdz == shen)
                                 {
-                                    rdzzhenjinyu = 1;linkLabelrdzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    rdzzhenjinyu = 1; linkLabelrdzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    rdzjinyu = 1;linkLabelrdzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    rdzjinyu = 1; linkLabelrdzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (sdz == xuu)
@@ -24755,11 +24755,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == shen || ydz == shen || rdz == shen || sdz == shen)
                                 {
-                                    sdzzhenjinyu = 1;linkLabelsdzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    sdzzhenjinyu = 1; linkLabelsdzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    sdzjinyu = 1;linkLabelsdzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    sdzjinyu = 1; linkLabelsdzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
 
@@ -24771,11 +24771,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == you || ydz == you || rdz == you || sdz == you)
                                 {
-                                    ndzzhenjinyu = 1;linkLabelndzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    ndzzhenjinyu = 1; linkLabelndzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    ndzjinyu = 1;linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    ndzjinyu = 1; linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (ydz == hai)
@@ -24783,11 +24783,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == you || ydz == you || rdz == you || sdz == you)
                                 {
-                                    ydzzhenjinyu = 1;linkLabelydzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    ydzzhenjinyu = 1; linkLabelydzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    ydzjinyu = 1;linkLabelydzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    ydzjinyu = 1; linkLabelydzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (rdz == hai)
@@ -24795,11 +24795,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == you || ydz == you || rdz == you || sdz == you)
                                 {
-                                    rdzzhenjinyu = 1;linkLabelrdzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    rdzzhenjinyu = 1; linkLabelrdzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    rdzjinyu = 1;linkLabelrdzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    rdzjinyu = 1; linkLabelrdzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (sdz == hai)
@@ -24807,11 +24807,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == you || ydz == you || rdz == you || sdz == you)
                                 {
-                                    sdzzhenjinyu = 1;linkLabelsdzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    sdzzhenjinyu = 1; linkLabelsdzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    sdzjinyu = 1;linkLabelsdzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    sdzjinyu = 1; linkLabelsdzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
 
@@ -24823,11 +24823,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == hai || ydz == hai || rdz == hai || sdz == hai)
                                 {
-                                    ndzzhenjinyu = 1;linkLabelndzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    ndzzhenjinyu = 1; linkLabelndzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    ndzjinyu = 1;linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    ndzjinyu = 1; linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (ydz == chou)
@@ -24835,11 +24835,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == hai || ydz == hai || rdz == hai || sdz == hai)
                                 {
-                                    ydzzhenjinyu = 1;linkLabelydzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    ydzzhenjinyu = 1; linkLabelydzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    ydzjinyu = 1;linkLabelydzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    ydzjinyu = 1; linkLabelydzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (rdz == chou)
@@ -24847,11 +24847,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == hai || ydz == hai || rdz == hai || sdz == hai)
                                 {
-                                    rdzzhenjinyu = 1;linkLabelrdzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    rdzzhenjinyu = 1; linkLabelrdzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    rdzjinyu = 1;linkLabelrdzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    rdzjinyu = 1; linkLabelrdzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (sdz == chou)
@@ -24859,11 +24859,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == hai || ydz == hai || rdz == hai || sdz == hai)
                                 {
-                                    sdzzhenjinyu = 1;linkLabelsdzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    sdzzhenjinyu = 1; linkLabelsdzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    sdzjinyu = 1;linkLabelsdzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    sdzjinyu = 1; linkLabelsdzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
 
@@ -24875,11 +24875,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == zii || ydz == zii || rdz == zii || sdz == zii)
                                 {
-                                    ndzzhenjinyu = 1;linkLabelndzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    ndzzhenjinyu = 1; linkLabelndzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    ndzjinyu = 1;linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    ndzjinyu = 1; linkLabelndzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (ydz == yin)
@@ -24887,11 +24887,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == zii || ydz == zii || rdz == zii || sdz == zii)
                                 {
-                                    ydzzhenjinyu = 1;linkLabelydzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    ydzzhenjinyu = 1; linkLabelydzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    ydzjinyu = 1;linkLabelydzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    ydzjinyu = 1; linkLabelydzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (rdz == yin)
@@ -24899,11 +24899,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == zii || ydz == zii || rdz == zii || sdz == zii)
                                 {
-                                    rdzzhenjinyu = 1;linkLabelrdzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    rdzzhenjinyu = 1; linkLabelrdzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    rdzjinyu = 1;linkLabelrdzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    rdzjinyu = 1; linkLabelrdzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
                             if (sdz == yin)
@@ -24911,11 +24911,11 @@ namespace BaZiFuZuGongJu
 
                                 if (ndz == zii || ydz == zii || rdz == zii || sdz == zii)
                                 {
-                                    sdzzhenjinyu = 1;linkLabelsdzss2.Text = "真金舆-"; 金舆真假 = 1;
+                                    sdzzhenjinyu = 1; linkLabelsdzss2.Text = "真金舆-"; 金舆真假 = 1;
                                 }
                                 else
                                 {
-                                    sdzjinyu = 1;linkLabelsdzss2.Text += "金舆-"; 金舆真假 = 1;
+                                    sdzjinyu = 1; linkLabelsdzss2.Text += "金舆-"; 金舆真假 = 1;
                                 }
                             }
 
@@ -24929,7 +24929,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 金舆;
                         }
                     }
-                    
+
                     //正桃花
                     if (jia == jia)
                     {
@@ -24938,19 +24938,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == mao || ndz == hai)
                             {
-                                ndzzhengtaohua = 1;linkLabelndzss2.Text += "正桃-"; 正桃花真假 = 1;
+                                ndzzhengtaohua = 1; linkLabelndzss2.Text += "正桃-"; 正桃花真假 = 1;
                             }
                             if (ydz == mao || ydz == hai)
                             {
-                                ydzzhengtaohua = 1;linkLabelydzss2.Text += "正桃-"; 正桃花真假 = 1;
+                                ydzzhengtaohua = 1; linkLabelydzss2.Text += "正桃-"; 正桃花真假 = 1;
                             }
                             if (rdz == mao || rdz == hai)
                             {
-                                rdzzhengtaohua = 1;linkLabelrdzss2.Text += "正桃-"; 正桃花真假 = 1;
+                                rdzzhengtaohua = 1; linkLabelrdzss2.Text += "正桃-"; 正桃花真假 = 1;
                             }
                             if (sdz == mao || sdz == hai)
                             {
-                                sdzzhengtaohua = 1;linkLabelsdzss2.Text += "正桃-"; 正桃花真假 = 1;
+                                sdzzhengtaohua = 1; linkLabelsdzss2.Text += "正桃-"; 正桃花真假 = 1;
                             }
 
                         }
@@ -24958,19 +24958,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen || ndz == zii)
                             {
-                                ndzzhengtaohua = 1;linkLabelndzss2.Text += "正桃-"; 正桃花真假 = 1;
+                                ndzzhengtaohua = 1; linkLabelndzss2.Text += "正桃-"; 正桃花真假 = 1;
                             }
                             if (ydz == shen || ydz == zii)
                             {
-                                ydzzhengtaohua = 1;linkLabelydzss2.Text += "正桃-"; 正桃花真假 = 1;
+                                ydzzhengtaohua = 1; linkLabelydzss2.Text += "正桃-"; 正桃花真假 = 1;
                             }
                             if (rdz == shen || rdz == zii)
                             {
-                                rdzzhengtaohua = 1;linkLabelrdzss2.Text += "正桃-"; 正桃花真假 = 1;
+                                rdzzhengtaohua = 1; linkLabelrdzss2.Text += "正桃-"; 正桃花真假 = 1;
                             }
                             if (sdz == shen || sdz == zii)
                             {
-                                sdzzhengtaohua = 1;linkLabelsdzss2.Text += "正桃-"; 正桃花真假 = 1;
+                                sdzzhengtaohua = 1; linkLabelsdzss2.Text += "正桃-"; 正桃花真假 = 1;
                             }
 
                         }
@@ -24978,19 +24978,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == sii || ndz == hai)
                             {
-                                ndzzhengtaohua = 1;linkLabelndzss2.Text += "正桃-"; 正桃花真假 = 1;
+                                ndzzhengtaohua = 1; linkLabelndzss2.Text += "正桃-"; 正桃花真假 = 1;
                             }
                             if (ydz == sii || ydz == hai)
                             {
-                                ydzzhengtaohua = 1;linkLabelydzss2.Text += "正桃-"; 正桃花真假 = 1;
+                                ydzzhengtaohua = 1; linkLabelydzss2.Text += "正桃-"; 正桃花真假 = 1;
                             }
                             if (rdz == sii || rdz == hai)
                             {
-                                rdzzhengtaohua = 1;linkLabelrdzss2.Text += "正桃-"; 正桃花真假 = 1;
+                                rdzzhengtaohua = 1; linkLabelrdzss2.Text += "正桃-"; 正桃花真假 = 1;
                             }
                             if (sdz == sii || sdz == hai)
                             {
-                                sdzzhengtaohua = 1;linkLabelsdzss2.Text += "正桃-"; 正桃花真假 = 1;
+                                sdzzhengtaohua = 1; linkLabelsdzss2.Text += "正桃-"; 正桃花真假 = 1;
                             }
 
                         }
@@ -24998,19 +24998,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wuma || ndz == xuu)
                             {
-                                ndzzhengtaohua = 1;linkLabelndzss2.Text += "正桃-"; 正桃花真假 = 1;
+                                ndzzhengtaohua = 1; linkLabelndzss2.Text += "正桃-"; 正桃花真假 = 1;
                             }
                             if (ydz == wuma || ydz == xuu)
                             {
-                                ydzzhengtaohua = 1;linkLabelydzss2.Text += "正桃-"; 正桃花真假 = 1;
+                                ydzzhengtaohua = 1; linkLabelydzss2.Text += "正桃-"; 正桃花真假 = 1;
                             }
                             if (rdz == wuma || rdz == xuu)
                             {
-                                rdzzhengtaohua = 1;linkLabelrdzss2.Text += "正桃-"; 正桃花真假 = 1;
+                                rdzzhengtaohua = 1; linkLabelrdzss2.Text += "正桃-"; 正桃花真假 = 1;
                             }
                             if (sdz == wuma || sdz == xuu)
                             {
-                                sdzzhengtaohua = 1;linkLabelsdzss2.Text += "正桃-"; 正桃花真假 = 1;
+                                sdzzhengtaohua = 1; linkLabelsdzss2.Text += "正桃-"; 正桃花真假 = 1;
                             }
 
                         }
@@ -25022,7 +25022,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 正桃花;
                         }
                     }
-                    
+
                     //飞刃
                     if (jia == jia)
                     {
@@ -25031,19 +25031,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == mao)
                             {
-                                ndzfeiren = 1;linkLabelndzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                ndzfeiren = 1; linkLabelndzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
                             if (ydz == mao)
                             {
-                                ydzfeiren = 1;linkLabelydzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                ydzfeiren = 1; linkLabelydzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
                             if (rdz == mao)
                             {
-                                rdzfeiren = 1;linkLabelrdzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                rdzfeiren = 1; linkLabelrdzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
                             if (sdz == mao)
                             {
-                                sdzfeiren = 1;linkLabelsdzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                sdzfeiren = 1; linkLabelsdzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
 
                         }
@@ -25051,19 +25051,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == you)
                             {
-                                ndzfeiren = 1;linkLabelndzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                ndzfeiren = 1; linkLabelndzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
                             if (ydz == you)
                             {
-                                ydzfeiren = 1;linkLabelydzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                ydzfeiren = 1; linkLabelydzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
                             if (rdz == you)
                             {
-                                rdzfeiren = 1;linkLabelrdzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                rdzfeiren = 1; linkLabelrdzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
                             if (sdz == you)
                             {
-                                sdzfeiren = 1;linkLabelsdzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                sdzfeiren = 1; linkLabelsdzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
 
                         }
@@ -25071,19 +25071,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin)
                             {
-                                ndzfeiren = 1;linkLabelndzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                ndzfeiren = 1; linkLabelndzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
                             if (ydz == yin)
                             {
-                                ydzfeiren = 1;linkLabelydzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                ydzfeiren = 1; linkLabelydzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
                             if (rdz == yin)
                             {
-                                rdzfeiren = 1;linkLabelrdzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                rdzfeiren = 1; linkLabelrdzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
                             if (sdz == yin)
                             {
-                                sdzfeiren = 1;linkLabelsdzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                sdzfeiren = 1; linkLabelsdzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
 
                         }
@@ -25093,7 +25093,7 @@ namespace BaZiFuZuGongJu
                             {
                                 if (ndz == shen || ydz == shen || rdz == shen || sdz == shen)
                                 {
-                                    rdzfeiren = 1;linkLabelrdzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                    rdzfeiren = 1; linkLabelrdzss2.Text += "飞刃-"; 飞刃真假 = 1;
                                 }
                             }
 
@@ -25103,19 +25103,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wuma)
                             {
-                                ndzfeiren = 1;linkLabelndzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                ndzfeiren = 1; linkLabelndzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
                             if (ydz == wuma)
                             {
-                                ydzfeiren = 1;linkLabelydzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                ydzfeiren = 1; linkLabelydzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
                             if (rdz == wuma)
                             {
-                                rdzfeiren = 1;linkLabelrdzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                rdzfeiren = 1; linkLabelrdzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
                             if (sdz == wuma)
                             {
-                                sdzfeiren = 1;linkLabelsdzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                sdzfeiren = 1; linkLabelsdzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
 
                         }
@@ -25123,19 +25123,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == zii)
                             {
-                                ndzfeiren = 1;linkLabelndzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                ndzfeiren = 1; linkLabelndzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
                             if (ydz == zii)
                             {
-                                ydzfeiren = 1;linkLabelydzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                ydzfeiren = 1; linkLabelydzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
                             if (rdz == zii)
                             {
-                                rdzfeiren = 1;linkLabelrdzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                rdzfeiren = 1; linkLabelrdzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
                             if (sdz == zii)
                             {
-                                sdzfeiren = 1;linkLabelsdzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                sdzfeiren = 1; linkLabelsdzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
 
                         }
@@ -25143,19 +25143,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wei)
                             {
-                                ndzfeiren = 1;linkLabelndzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                ndzfeiren = 1; linkLabelndzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
                             if (ydz == wei)
                             {
-                                ydzfeiren = 1;linkLabelydzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                ydzfeiren = 1; linkLabelydzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
                             if (rdz == wei)
                             {
-                                rdzfeiren = 1;linkLabelrdzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                rdzfeiren = 1; linkLabelrdzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
                             if (sdz == wei)
                             {
-                                sdzfeiren = 1;linkLabelsdzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                sdzfeiren = 1; linkLabelsdzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
 
                         }
@@ -25163,19 +25163,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chou)
                             {
-                                ndzfeiren = 1;linkLabelndzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                ndzfeiren = 1; linkLabelndzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
                             if (ydz == chou)
                             {
-                                ydzfeiren = 1;linkLabelydzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                ydzfeiren = 1; linkLabelydzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
                             if (rdz == chou)
                             {
-                                rdzfeiren = 1;linkLabelrdzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                rdzfeiren = 1; linkLabelrdzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
                             if (sdz == chou)
                             {
-                                sdzfeiren = 1;linkLabelsdzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                sdzfeiren = 1; linkLabelsdzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
 
                         }
@@ -25183,19 +25183,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == you)
                             {
-                                ndzfeiren = 1;linkLabelndzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                ndzfeiren = 1; linkLabelndzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
                             if (ydz == you)
                             {
-                                ydzfeiren = 1;linkLabelydzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                ydzfeiren = 1; linkLabelydzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
                             if (rdz == you)
                             {
-                                rdzfeiren = 1;linkLabelrdzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                rdzfeiren = 1; linkLabelrdzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
                             if (sdz == you)
                             {
-                                sdzfeiren = 1;linkLabelsdzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                sdzfeiren = 1; linkLabelsdzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
 
                         }
@@ -25203,19 +25203,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == mao)
                             {
-                                ndzfeiren = 1;linkLabelndzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                ndzfeiren = 1; linkLabelndzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
                             if (ydz == mao)
                             {
-                                ydzfeiren = 1;linkLabelydzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                ydzfeiren = 1; linkLabelydzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
                             if (rdz == mao)
                             {
-                                rdzfeiren = 1;linkLabelrdzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                rdzfeiren = 1; linkLabelrdzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
                             if (sdz == mao)
                             {
-                                sdzfeiren = 1;linkLabelsdzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                sdzfeiren = 1; linkLabelsdzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
 
                         }
@@ -25223,19 +25223,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == xuu)
                             {
-                                ndzfeiren = 1;linkLabelndzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                ndzfeiren = 1; linkLabelndzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
                             if (ydz == xuu)
                             {
-                                ydzfeiren = 1;linkLabelydzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                ydzfeiren = 1; linkLabelydzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
                             if (rdz == xuu)
                             {
-                                rdzfeiren = 1;linkLabelrdzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                rdzfeiren = 1; linkLabelrdzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
                             if (sdz == xuu)
                             {
-                                sdzfeiren = 1;linkLabelsdzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                sdzfeiren = 1; linkLabelsdzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
 
                         }
@@ -25243,19 +25243,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chen)
                             {
-                                ndzfeiren = 1;linkLabelndzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                ndzfeiren = 1; linkLabelndzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
                             if (ydz == chen)
                             {
-                                ydzfeiren = 1;linkLabelydzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                ydzfeiren = 1; linkLabelydzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
                             if (rdz == chen)
                             {
-                                rdzfeiren = 1;linkLabelrdzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                rdzfeiren = 1; linkLabelrdzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
                             if (sdz == chen)
                             {
-                                sdzfeiren = 1;linkLabelsdzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                sdzfeiren = 1; linkLabelsdzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
 
                         }
@@ -25263,19 +25263,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == zii)
                             {
-                                ndzfeiren = 1;linkLabelndzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                ndzfeiren = 1; linkLabelndzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
                             if (ydz == zii)
                             {
-                                ydzfeiren = 1;linkLabelydzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                ydzfeiren = 1; linkLabelydzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
                             if (rdz == zii)
                             {
-                                rdzfeiren = 1;linkLabelrdzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                rdzfeiren = 1; linkLabelrdzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
                             if (sdz == zii)
                             {
-                                sdzfeiren = 1;linkLabelsdzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                sdzfeiren = 1; linkLabelsdzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
 
                         }
@@ -25283,19 +25283,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wuma)
                             {
-                                ndzfeiren = 1;linkLabelndzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                ndzfeiren = 1; linkLabelndzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
                             if (ydz == wuma)
                             {
-                                ydzfeiren = 1;linkLabelydzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                ydzfeiren = 1; linkLabelydzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
                             if (rdz == wuma)
                             {
-                                rdzfeiren = 1;linkLabelrdzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                rdzfeiren = 1; linkLabelrdzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
                             if (sdz == wuma)
                             {
-                                sdzfeiren = 1;linkLabelsdzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                sdzfeiren = 1; linkLabelsdzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
 
                         }
@@ -25303,19 +25303,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chou)
                             {
-                                ndzfeiren = 1;linkLabelndzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                ndzfeiren = 1; linkLabelndzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
                             if (ydz == chou)
                             {
-                                ydzfeiren = 1;linkLabelydzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                ydzfeiren = 1; linkLabelydzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
                             if (rdz == chou)
                             {
-                                rdzfeiren = 1;linkLabelrdzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                rdzfeiren = 1; linkLabelrdzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
                             if (sdz == chou)
                             {
-                                sdzfeiren = 1;linkLabelsdzss2.Text += "羊刃-"; 飞刃真假 = 1;
+                                sdzfeiren = 1; linkLabelsdzss2.Text += "羊刃-"; 飞刃真假 = 1;
                             }
 
                         }
@@ -25323,19 +25323,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wei)
                             {
-                                ndzfeiren = 1;linkLabelndzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                ndzfeiren = 1; linkLabelndzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
                             if (ydz == wei)
                             {
-                                ydzfeiren = 1;linkLabelydzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                ydzfeiren = 1; linkLabelydzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
                             if (rdz == wei)
                             {
-                                rdzfeiren = 1;linkLabelrdzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                rdzfeiren = 1; linkLabelrdzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
                             if (sdz == wei)
                             {
-                                sdzfeiren = 1;linkLabelsdzss2.Text += "飞刃-"; 飞刃真假 = 1;
+                                sdzfeiren = 1; linkLabelsdzss2.Text += "飞刃-"; 飞刃真假 = 1;
                             }
 
                         }
@@ -25347,7 +25347,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 飞刃;
                         }
                     }
-                    
+
                     //天乙贵人
                     if (jia == jia)
                     {
@@ -25356,19 +25356,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chou)
                             {
-                                ndztianyiguiren = 1;linkLabelndzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ndztianyiguiren = 1; linkLabelndzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (ydz == chou)
                             {
-                                ydztianyiguiren = 1;linkLabelydzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ydztianyiguiren = 1; linkLabelydzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (rdz == chou)
                             {
-                                rdztianyiguiren = 1;linkLabelrdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                rdztianyiguiren = 1; linkLabelrdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (sdz == chou)
                             {
-                                sdztianyiguiren = 1;linkLabelsdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                sdztianyiguiren = 1; linkLabelsdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
 
                         }
@@ -25376,19 +25376,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == zii)
                             {
-                                ndztianyiguiren = 1;linkLabelndzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ndztianyiguiren = 1; linkLabelndzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (ydz == zii)
                             {
-                                ydztianyiguiren = 1;linkLabelydzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ydztianyiguiren = 1; linkLabelydzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (rdz == zii)
                             {
-                                rdztianyiguiren = 1;linkLabelrdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                rdztianyiguiren = 1; linkLabelrdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (sdz == zii)
                             {
-                                sdztianyiguiren = 1;linkLabelsdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                sdztianyiguiren = 1; linkLabelsdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
 
                         }
@@ -25396,19 +25396,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == hai)
                             {
-                                ndztianyiguiren = 1;linkLabelndzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ndztianyiguiren = 1; linkLabelndzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (ydz == hai)
                             {
-                                ydztianyiguiren = 1;linkLabelydzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ydztianyiguiren = 1; linkLabelydzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (rdz == hai)
                             {
-                                rdztianyiguiren = 1;linkLabelrdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                rdztianyiguiren = 1; linkLabelrdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (sdz == hai)
                             {
-                                sdztianyiguiren = 1;linkLabelsdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                sdztianyiguiren = 1; linkLabelsdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
 
                         }
@@ -25416,19 +25416,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == you)
                             {
-                                ndztianyiguiren = 1;linkLabelndzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ndztianyiguiren = 1; linkLabelndzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (ydz == you)
                             {
-                                ydztianyiguiren = 1;linkLabelydzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ydztianyiguiren = 1; linkLabelydzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (rdz == you)
                             {
-                                rdztianyiguiren = 1;linkLabelrdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                rdztianyiguiren = 1; linkLabelrdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (sdz == you)
                             {
-                                sdztianyiguiren = 1;linkLabelsdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                sdztianyiguiren = 1; linkLabelsdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
 
                         }
@@ -25436,19 +25436,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wei)
                             {
-                                ndztianyiguiren = 1;linkLabelndzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ndztianyiguiren = 1; linkLabelndzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (ydz == wei)
                             {
-                                ydztianyiguiren = 1;linkLabelydzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ydztianyiguiren = 1; linkLabelydzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (rdz == wei)
                             {
-                                rdztianyiguiren = 1;linkLabelrdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                rdztianyiguiren = 1; linkLabelrdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (sdz == wei)
                             {
-                                sdztianyiguiren = 1;linkLabelsdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                sdztianyiguiren = 1; linkLabelsdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
 
                         }
@@ -25456,19 +25456,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen)
                             {
-                                ndztianyiguiren = 1;linkLabelndzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ndztianyiguiren = 1; linkLabelndzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (ydz == shen)
                             {
-                                ydztianyiguiren = 1;linkLabelydzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ydztianyiguiren = 1; linkLabelydzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (rdz == shen)
                             {
-                                rdztianyiguiren = 1;linkLabelrdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                rdztianyiguiren = 1; linkLabelrdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (sdz == shen)
                             {
-                                sdztianyiguiren = 1;linkLabelsdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                sdztianyiguiren = 1; linkLabelsdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
 
                         }
@@ -25476,19 +25476,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wei)
                             {
-                                ndztianyiguiren = 1;linkLabelndzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ndztianyiguiren = 1; linkLabelndzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (ydz == wei)
                             {
-                                ydztianyiguiren = 1;linkLabelydzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ydztianyiguiren = 1; linkLabelydzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (rdz == wei)
                             {
-                                rdztianyiguiren = 1;linkLabelrdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                rdztianyiguiren = 1; linkLabelrdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (sdz == wei)
                             {
-                                sdztianyiguiren = 1;linkLabelsdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                sdztianyiguiren = 1; linkLabelsdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
 
                         }
@@ -25496,19 +25496,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wuma)
                             {
-                                ndztianyiguiren = 1;linkLabelndzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ndztianyiguiren = 1; linkLabelndzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (ydz == wuma)
                             {
-                                ydztianyiguiren = 1;linkLabelydzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ydztianyiguiren = 1; linkLabelydzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (rdz == wuma)
                             {
-                                rdztianyiguiren = 1;linkLabelrdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                rdztianyiguiren = 1; linkLabelrdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (sdz == wuma)
                             {
-                                sdztianyiguiren = 1;linkLabelsdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                sdztianyiguiren = 1; linkLabelsdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
 
                         }
@@ -25516,19 +25516,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == sii)
                             {
-                                ndztianyiguiren = 1;linkLabelndzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ndztianyiguiren = 1; linkLabelndzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (ydz == sii)
                             {
-                                ydztianyiguiren = 1;linkLabelydzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ydztianyiguiren = 1; linkLabelydzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (rdz == sii)
                             {
-                                rdztianyiguiren = 1;linkLabelrdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                rdztianyiguiren = 1; linkLabelrdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (sdz == sii)
                             {
-                                sdztianyiguiren = 1;linkLabelsdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                sdztianyiguiren = 1; linkLabelsdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
 
                         }
@@ -25536,19 +25536,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == mao)
                             {
-                                ndztianyiguiren = 1;linkLabelndzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ndztianyiguiren = 1; linkLabelndzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (ydz == mao)
                             {
-                                ydztianyiguiren = 1;linkLabelydzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ydztianyiguiren = 1; linkLabelydzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (rdz == mao)
                             {
-                                rdztianyiguiren = 1;linkLabelrdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                rdztianyiguiren = 1; linkLabelrdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (sdz == mao)
                             {
-                                sdztianyiguiren = 1;linkLabelsdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
+                                sdztianyiguiren = 1; linkLabelsdzss2.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
 
                         }
@@ -25557,19 +25557,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chou)
                             {
-                                ndztianyiguiren += 1;linkLabelndzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ndztianyiguiren += 1; linkLabelndzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (ydz == chou)
                             {
-                                ydztianyiguiren += 1;linkLabelydzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ydztianyiguiren += 1; linkLabelydzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (rdz == chou)
                             {
-                                rdztianyiguiren += 1;linkLabelrdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                rdztianyiguiren += 1; linkLabelrdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (sdz == chou)
                             {
-                                sdztianyiguiren += 1;linkLabelsdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                sdztianyiguiren += 1; linkLabelsdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
 
                         }
@@ -25577,19 +25577,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == zii)
                             {
-                                ndztianyiguiren += 1;linkLabelndzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ndztianyiguiren += 1; linkLabelndzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (ydz == zii)
                             {
-                                ydztianyiguiren += 1;linkLabelydzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ydztianyiguiren += 1; linkLabelydzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (rdz == zii)
                             {
-                                rdztianyiguiren += 1;linkLabelrdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                rdztianyiguiren += 1; linkLabelrdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (sdz == zii)
                             {
-                                sdztianyiguiren += 1;linkLabelsdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                sdztianyiguiren += 1; linkLabelsdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
 
                         }
@@ -25597,19 +25597,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == hai)
                             {
-                                ndztianyiguiren += 1;linkLabelndzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ndztianyiguiren += 1; linkLabelndzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (ydz == hai)
                             {
-                                ydztianyiguiren += 1;linkLabelydzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ydztianyiguiren += 1; linkLabelydzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (rdz == hai)
                             {
-                                rdztianyiguiren += 1;linkLabelrdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                rdztianyiguiren += 1; linkLabelrdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (sdz == hai)
                             {
-                                sdztianyiguiren += 1;linkLabelsdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                sdztianyiguiren += 1; linkLabelsdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
 
                         }
@@ -25617,19 +25617,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == you)
                             {
-                                ndztianyiguiren += 1;linkLabelndzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ndztianyiguiren += 1; linkLabelndzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (ydz == you)
                             {
-                                ydztianyiguiren += 1;linkLabelydzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ydztianyiguiren += 1; linkLabelydzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (rdz == you)
                             {
-                                rdztianyiguiren += 1;linkLabelrdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                rdztianyiguiren += 1; linkLabelrdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (sdz == you)
                             {
-                                sdztianyiguiren += 1;linkLabelsdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                sdztianyiguiren += 1; linkLabelsdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
 
                         }
@@ -25637,19 +25637,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wei)
                             {
-                                ndztianyiguiren += 1;linkLabelndzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ndztianyiguiren += 1; linkLabelndzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (ydz == wei)
                             {
-                                ydztianyiguiren += 1;linkLabelydzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ydztianyiguiren += 1; linkLabelydzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (rdz == wei)
                             {
-                                rdztianyiguiren += 1;linkLabelrdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                rdztianyiguiren += 1; linkLabelrdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (sdz == wei)
                             {
-                                sdztianyiguiren += 1;linkLabelsdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                sdztianyiguiren += 1; linkLabelsdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
 
                         }
@@ -25657,19 +25657,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen)
                             {
-                                ndztianyiguiren += 1;linkLabelndzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ndztianyiguiren += 1; linkLabelndzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (ydz == shen)
                             {
-                                ydztianyiguiren += 1;linkLabelydzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ydztianyiguiren += 1; linkLabelydzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (rdz == shen)
                             {
-                                rdztianyiguiren += 1;linkLabelrdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                rdztianyiguiren += 1; linkLabelrdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (sdz == shen)
                             {
-                                sdztianyiguiren += 1;linkLabelsdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                sdztianyiguiren += 1; linkLabelsdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
 
                         }
@@ -25677,19 +25677,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wei)
                             {
-                                ndztianyiguiren += 1;linkLabelndzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ndztianyiguiren += 1; linkLabelndzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (ydz == wei)
                             {
-                                ydztianyiguiren += 1;linkLabelydzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ydztianyiguiren += 1; linkLabelydzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (rdz == wei)
                             {
-                                rdztianyiguiren += 1;linkLabelrdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                rdztianyiguiren += 1; linkLabelrdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (sdz == wei)
                             {
-                                sdztianyiguiren += 1;linkLabelsdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                sdztianyiguiren += 1; linkLabelsdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
 
                         }
@@ -25697,19 +25697,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wuma)
                             {
-                                ndztianyiguiren += 1;linkLabelndzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ndztianyiguiren += 1; linkLabelndzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (ydz == wuma)
                             {
-                                ydztianyiguiren += 1;linkLabelydzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ydztianyiguiren += 1; linkLabelydzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (rdz == wuma)
                             {
-                                rdztianyiguiren += 1;linkLabelrdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                rdztianyiguiren += 1; linkLabelrdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (sdz == wuma)
                             {
-                                sdztianyiguiren += 1;linkLabelsdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                sdztianyiguiren += 1; linkLabelsdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
 
                         }
@@ -25717,19 +25717,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == sii)
                             {
-                                ndztianyiguiren += 1;linkLabelndzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ndztianyiguiren += 1; linkLabelndzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (ydz == sii)
                             {
-                                ydztianyiguiren += 1;linkLabelydzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ydztianyiguiren += 1; linkLabelydzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (rdz == sii)
                             {
-                                rdztianyiguiren += 1;linkLabelrdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                rdztianyiguiren += 1; linkLabelrdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (sdz == sii)
                             {
-                                sdztianyiguiren += 1;linkLabelsdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                sdztianyiguiren += 1; linkLabelsdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
 
                         }
@@ -25737,19 +25737,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == mao)
                             {
-                                ndztianyiguiren += 1;linkLabelndzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ndztianyiguiren += 1; linkLabelndzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (ydz == mao)
                             {
-                                ydztianyiguiren += 1;linkLabelydzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                ydztianyiguiren += 1; linkLabelydzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (rdz == mao)
                             {
-                                rdztianyiguiren += 1;linkLabelrdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                rdztianyiguiren += 1; linkLabelrdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
                             if (sdz == mao)
                             {
-                                sdztianyiguiren += 1;linkLabelsdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
+                                sdztianyiguiren += 1; linkLabelsdzss1.Text += "天乙-"; 天乙贵人真假 = 1;
                             }
 
                         }
@@ -25762,7 +25762,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 天乙贵人;
                         }
                     }
-                    
+
                     //华盖
                     if (jia == jia)
                     {
@@ -25903,7 +25903,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 华盖;
                         }
                     }
-                    
+
                     //咸池
                     if (jia == jia)
                     {
@@ -26045,7 +26045,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 咸池;
                         }
                     }
-                    
+
                     //内桃花
                     if (jia == jia)
                     {
@@ -26054,28 +26054,28 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == you)
                             {
-                                bazipingfen += 35;linkLabelydzss2.Text += "内桃-"; 内桃花真假 = 1;
+                                bazipingfen += 35; linkLabelydzss2.Text += "内桃-"; 内桃花真假 = 1;
                             }
                         }
                         if (ndz == yin || ndz == wuma || ndz == xuu)
                         {
                             if (ydz == mao)
                             {
-                                bazipingfen += 35;linkLabelydzss2.Text += "内桃-"; 内桃花真假 = 1;
+                                bazipingfen += 35; linkLabelydzss2.Text += "内桃-"; 内桃花真假 = 1;
                             }
                         }
                         if (ndz == sii || ndz == you || ndz == chou)
                         {
                             if (ydz == wuma)
                             {
-                                bazipingfen += 35;linkLabelydzss2.Text += "内桃-"; 内桃花真假 = 1;
+                                bazipingfen += 35; linkLabelydzss2.Text += "内桃-"; 内桃花真假 = 1;
                             }
                         }
                         if (ndz == hai || ndz == mao || ndz == wei)
                         {
                             if (ydz == zii)
                             {
-                                bazipingfen += 35;linkLabelydzss2.Text += "内桃-"; 内桃花真假 = 1;
+                                bazipingfen += 35; linkLabelydzss2.Text += "内桃-"; 内桃花真假 = 1;
                             }
                         }
 
@@ -26086,7 +26086,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 内桃花;
                         }
                     }
-                    
+
                     //天厨
                     if (jia == jia)
                     {
@@ -26095,70 +26095,70 @@ namespace BaZiFuZuGongJu
                         {
                             if (sdz == sii)
                             {
-                                sdztianchu = 1;linkLabelsdzss2.Text += "天厨-"; 天厨真假 = 1;
+                                sdztianchu = 1; linkLabelsdzss2.Text += "天厨-"; 天厨真假 = 1;
                             }
                         }
                         if (rtg == yii)
                         {
                             if (sdz == wuma)
                             {
-                                sdztianchu = 1;linkLabelsdzss2.Text += "天厨-"; 天厨真假 = 1;
+                                sdztianchu = 1; linkLabelsdzss2.Text += "天厨-"; 天厨真假 = 1;
                             }
                         }
                         if (rtg == bing)
                         {
                             if (sdz == sii)
                             {
-                                sdztianchu = 1;linkLabelsdzss2.Text += "天厨-"; 天厨真假 = 1;
+                                sdztianchu = 1; linkLabelsdzss2.Text += "天厨-"; 天厨真假 = 1;
                             }
                         }
                         if (rtg == ding)
                         {
                             if (sdz == wuma)
                             {
-                                sdztianchu = 1;linkLabelsdzss2.Text += "天厨-"; 天厨真假 = 1;
+                                sdztianchu = 1; linkLabelsdzss2.Text += "天厨-"; 天厨真假 = 1;
                             }
                         }
                         if (rtg == wuu)
                         {
                             if (sdz == shen)
                             {
-                                sdztianchu = 1;linkLabelsdzss2.Text += "天厨-"; 天厨真假 = 1;
+                                sdztianchu = 1; linkLabelsdzss2.Text += "天厨-"; 天厨真假 = 1;
                             }
                         }
                         if (rtg == jii)
                         {
                             if (sdz == you)
                             {
-                                sdztianchu = 1;linkLabelsdzss2.Text += "天厨-"; 天厨真假 = 1;
+                                sdztianchu = 1; linkLabelsdzss2.Text += "天厨-"; 天厨真假 = 1;
                             }
                         }
                         if (rtg == geng)
                         {
                             if (sdz == hai)
                             {
-                                sdztianchu = 1;linkLabelsdzss2.Text += "天厨-"; 天厨真假 = 1;
+                                sdztianchu = 1; linkLabelsdzss2.Text += "天厨-"; 天厨真假 = 1;
                             }
                         }
                         if (rtg == xin)
                         {
                             if (sdz == zii)
                             {
-                                sdztianchu = 1;linkLabelsdzss2.Text += "天厨-"; 天厨真假 = 1;
+                                sdztianchu = 1; linkLabelsdzss2.Text += "天厨-"; 天厨真假 = 1;
                             }
                         }
                         if (rtg == ren)
                         {
                             if (sdz == yin)
                             {
-                                sdztianchu = 1;linkLabelsdzss2.Text += "天厨-"; 天厨真假 = 1;
+                                sdztianchu = 1; linkLabelsdzss2.Text += "天厨-"; 天厨真假 = 1;
                             }
                         }
                         if (rtg == gui)
                         {
                             if (sdz == mao)
                             {
-                                sdztianchu = 1;linkLabelsdzss2.Text += "天厨-"; 天厨真假 = 1;
+                                sdztianchu = 1; linkLabelsdzss2.Text += "天厨-"; 天厨真假 = 1;
                             }
                         }
 
@@ -26169,7 +26169,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 天厨;
                         }
                     }
-                    
+
                     //红鸾
                     if (jia == jia)
                     {
@@ -26178,15 +26178,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == mao)
                             {
-                                ydzhongluan = 1;linkLabelydzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                ydzhongluan = 1; linkLabelydzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
                             if (rdz == mao)
                             {
-                                rdzhongluan = 1;linkLabelrdzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                rdzhongluan = 1; linkLabelrdzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
                             if (sdz == mao)
                             {
-                                sdzhongluan = 1;linkLabelsdzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                sdzhongluan = 1; linkLabelsdzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
 
                         }
@@ -26194,15 +26194,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == yin)
                             {
-                                ydzhongluan = 1;linkLabelydzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                ydzhongluan = 1; linkLabelydzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
                             if (rdz == yin)
                             {
-                                rdzhongluan = 1;linkLabelrdzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                rdzhongluan = 1; linkLabelrdzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
                             if (sdz == yin)
                             {
-                                sdzhongluan = 1;linkLabelsdzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                sdzhongluan = 1; linkLabelsdzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
 
                         }
@@ -26210,15 +26210,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == chou)
                             {
-                                ydzhongluan = 1;linkLabelydzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                ydzhongluan = 1; linkLabelydzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
                             if (rdz == chou)
                             {
-                                rdzhongluan = 1;linkLabelrdzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                rdzhongluan = 1; linkLabelrdzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
                             if (sdz == chou)
                             {
-                                sdzhongluan = 1;linkLabelsdzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                sdzhongluan = 1; linkLabelsdzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
 
                         }
@@ -26226,15 +26226,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == zii)
                             {
-                                ydzhongluan = 1;linkLabelydzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                ydzhongluan = 1; linkLabelydzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
                             if (rdz == zii)
                             {
-                                rdzhongluan = 1;linkLabelrdzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                rdzhongluan = 1; linkLabelrdzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
                             if (sdz == zii)
                             {
-                                sdzhongluan = 1;linkLabelsdzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                sdzhongluan = 1; linkLabelsdzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
 
                         }
@@ -26242,15 +26242,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == hai)
                             {
-                                ydzhongluan = 1;linkLabelydzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                ydzhongluan = 1; linkLabelydzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
                             if (rdz == hai)
                             {
-                                rdzhongluan = 1;linkLabelrdzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                rdzhongluan = 1; linkLabelrdzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
                             if (sdz == hai)
                             {
-                                sdzhongluan = 1;linkLabelsdzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                sdzhongluan = 1; linkLabelsdzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
 
                         }
@@ -26258,15 +26258,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == xuu)
                             {
-                                ydzhongluan = 1;linkLabelydzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                ydzhongluan = 1; linkLabelydzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
                             if (rdz == xuu)
                             {
-                                rdzhongluan = 1;linkLabelrdzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                rdzhongluan = 1; linkLabelrdzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
                             if (sdz == xuu)
                             {
-                                sdzhongluan = 1;linkLabelsdzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                sdzhongluan = 1; linkLabelsdzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
 
                         }
@@ -26274,15 +26274,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == you)
                             {
-                                ydzhongluan = 1;linkLabelydzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                ydzhongluan = 1; linkLabelydzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
                             if (rdz == you)
                             {
-                                rdzhongluan = 1;linkLabelrdzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                rdzhongluan = 1; linkLabelrdzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
                             if (sdz == you)
                             {
-                                sdzhongluan = 1;linkLabelsdzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                sdzhongluan = 1; linkLabelsdzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
 
                         }
@@ -26290,15 +26290,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == shen)
                             {
-                                ydzhongluan = 1;linkLabelydzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                ydzhongluan = 1; linkLabelydzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
                             if (rdz == shen)
                             {
-                                rdzhongluan = 1;linkLabelrdzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                rdzhongluan = 1; linkLabelrdzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
                             if (sdz == shen)
                             {
-                                sdzhongluan = 1;linkLabelsdzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                sdzhongluan = 1; linkLabelsdzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
 
                         }
@@ -26306,15 +26306,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == wei)
                             {
-                                ydzhongluan = 1;linkLabelydzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                ydzhongluan = 1; linkLabelydzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
                             if (rdz == wei)
                             {
-                                rdzhongluan = 1;linkLabelrdzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                rdzhongluan = 1; linkLabelrdzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
                             if (sdz == wei)
                             {
-                                sdzhongluan = 1;linkLabelsdzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                sdzhongluan = 1; linkLabelsdzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
 
                         }
@@ -26322,15 +26322,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == wuma)
                             {
-                                ydzhongluan = 1;linkLabelydzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                ydzhongluan = 1; linkLabelydzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
                             if (rdz == wuma)
                             {
-                                rdzhongluan = 1;linkLabelrdzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                rdzhongluan = 1; linkLabelrdzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
                             if (sdz == wuma)
                             {
-                                sdzhongluan = 1;linkLabelsdzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                sdzhongluan = 1; linkLabelsdzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
 
                         }
@@ -26338,15 +26338,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == sii)
                             {
-                                ydzhongluan = 1;linkLabelydzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                ydzhongluan = 1; linkLabelydzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
                             if (rdz == sii)
                             {
-                                rdzhongluan = 1;linkLabelrdzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                rdzhongluan = 1; linkLabelrdzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
                             if (sdz == sii)
                             {
-                                sdzhongluan = 1;linkLabelsdzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                sdzhongluan = 1; linkLabelsdzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
 
                         }
@@ -26354,15 +26354,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == chen)
                             {
-                                ydzhongluan = 1;linkLabelydzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                ydzhongluan = 1; linkLabelydzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
                             if (rdz == chen)
                             {
-                                rdzhongluan = 1;linkLabelrdzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                rdzhongluan = 1; linkLabelrdzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
                             if (sdz == chen)
                             {
-                                sdzhongluan = 1;linkLabelsdzss2.Text += "红鸾-"; 红鸾真假 = 1;
+                                sdzhongluan = 1; linkLabelsdzss2.Text += "红鸾-"; 红鸾真假 = 1;
                             }
 
                         }
@@ -26374,7 +26374,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 红鸾;
                         }
                     }
-                    
+
                     //金匮星
                     if (jia == jia)
                     {
@@ -26383,15 +26383,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == zii)
                             {
-                                ydzjinkuixing = 1;linkLabelydzss2.Text += "金匮-"; 金匮星真假 = 1;
+                                ydzjinkuixing = 1; linkLabelydzss2.Text += "金匮-"; 金匮星真假 = 1;
                             }
                             if (rdz == zii)
                             {
-                                rdzjinkuixing = 1;linkLabelrdzss2.Text += "金匮-"; 金匮星真假 = 1;
+                                rdzjinkuixing = 1; linkLabelrdzss2.Text += "金匮-"; 金匮星真假 = 1;
                             }
                             if (sdz == zii)
                             {
-                                sdzjinkuixing = 1;linkLabelsdzss2.Text += "金匮-"; 金匮星真假 = 1;
+                                sdzjinkuixing = 1; linkLabelsdzss2.Text += "金匮-"; 金匮星真假 = 1;
                             }
 
                         }
@@ -26399,15 +26399,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == mao)
                             {
-                                ydzjinkuixing = 1;linkLabelydzss2.Text += "金匮-"; 金匮星真假 = 1;
+                                ydzjinkuixing = 1; linkLabelydzss2.Text += "金匮-"; 金匮星真假 = 1;
                             }
                             if (rdz == mao)
                             {
-                                rdzjinkuixing = 1;linkLabelrdzss2.Text += "金匮-"; 金匮星真假 = 1;
+                                rdzjinkuixing = 1; linkLabelrdzss2.Text += "金匮-"; 金匮星真假 = 1;
                             }
                             if (sdz == mao)
                             {
-                                sdzjinkuixing = 1;linkLabelsdzss2.Text += "金匮-"; 金匮星真假 = 1;
+                                sdzjinkuixing = 1; linkLabelsdzss2.Text += "金匮-"; 金匮星真假 = 1;
                             }
 
                         }
@@ -26415,15 +26415,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == wuma)
                             {
-                                ydzjinkuixing = 1;linkLabelydzss2.Text += "金匮-"; 金匮星真假 = 1;
+                                ydzjinkuixing = 1; linkLabelydzss2.Text += "金匮-"; 金匮星真假 = 1;
                             }
                             if (rdz == wuma)
                             {
-                                rdzjinkuixing = 1;linkLabelrdzss2.Text += "金匮-"; 金匮星真假 = 1;
+                                rdzjinkuixing = 1; linkLabelrdzss2.Text += "金匮-"; 金匮星真假 = 1;
                             }
                             if (sdz == wuma)
                             {
-                                sdzjinkuixing = 1;linkLabelsdzss2.Text += "金匮-"; 金匮星真假 = 1;
+                                sdzjinkuixing = 1; linkLabelsdzss2.Text += "金匮-"; 金匮星真假 = 1;
                             }
 
                         }
@@ -26431,15 +26431,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == you)
                             {
-                                ydzjinkuixing = 1;linkLabelydzss2.Text += "金匮-"; 金匮星真假 = 1;
+                                ydzjinkuixing = 1; linkLabelydzss2.Text += "金匮-"; 金匮星真假 = 1;
                             }
                             if (rdz == you)
                             {
-                                rdzjinkuixing = 1;linkLabelrdzss2.Text += "金匮-"; 金匮星真假 = 1;
+                                rdzjinkuixing = 1; linkLabelrdzss2.Text += "金匮-"; 金匮星真假 = 1;
                             }
                             if (sdz == you)
                             {
-                                sdzjinkuixing = 1;linkLabelsdzss2.Text += "金匮-"; 金匮星真假 = 1;
+                                sdzjinkuixing = 1; linkLabelsdzss2.Text += "金匮-"; 金匮星真假 = 1;
                             }
 
                         }
@@ -26451,7 +26451,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 金匮星;
                         }
                     }
-                    
+
                     //天喜
                     if (jia == jia)
                     {
@@ -26460,15 +26460,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == you)
                             {
-                                ydztianxi = 1;linkLabelydzss2.Text += "天喜-"; 天喜真假 = 1;
+                                ydztianxi = 1; linkLabelydzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
                             if (rdz == you)
                             {
-                                rdztianxi = 1;linkLabelrdzss2.Text += "天喜-"; 天喜真假 = 1;
+                                rdztianxi = 1; linkLabelrdzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
                             if (sdz == you)
                             {
-                                sdztianxi = 1;linkLabelsdzss2.Text += "天喜-"; 天喜真假 = 1;
+                                sdztianxi = 1; linkLabelsdzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
 
                         }
@@ -26476,15 +26476,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == shen)
                             {
-                                ydztianxi = 1;linkLabelydzss2.Text += "天喜-"; 天喜真假 = 1;
+                                ydztianxi = 1; linkLabelydzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
                             if (rdz == shen)
                             {
-                                rdztianxi = 1;linkLabelrdzss2.Text += "天喜-"; 天喜真假 = 1;
+                                rdztianxi = 1; linkLabelrdzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
                             if (sdz == shen)
                             {
-                                sdztianxi = 1;linkLabelsdzss2.Text += "天喜-"; 天喜真假 = 1;
+                                sdztianxi = 1; linkLabelsdzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
 
                         }
@@ -26492,15 +26492,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == wei)
                             {
-                                ydztianxi = 1;linkLabelydzss2.Text += "天喜-"; 天喜真假 = 1;
+                                ydztianxi = 1; linkLabelydzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
                             if (rdz == wei)
                             {
-                                rdztianxi = 1;linkLabelrdzss2.Text += "天喜-"; 天喜真假 = 1;
+                                rdztianxi = 1; linkLabelrdzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
                             if (sdz == wei)
                             {
-                                sdztianxi = 1;linkLabelsdzss2.Text += "天喜-"; 天喜真假 = 1;
+                                sdztianxi = 1; linkLabelsdzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
 
                         }
@@ -26508,15 +26508,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == wuma)
                             {
-                                ydztianxi = 1;linkLabelydzss2.Text += "天喜-"; 天喜真假 = 1;
+                                ydztianxi = 1; linkLabelydzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
                             if (rdz == wuma)
                             {
-                                rdztianxi = 1;linkLabelrdzss2.Text += "天喜-"; 天喜真假 = 1;
+                                rdztianxi = 1; linkLabelrdzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
                             if (sdz == wuma)
                             {
-                                sdztianxi = 1;linkLabelsdzss2.Text += "天喜-"; 天喜真假 = 1;
+                                sdztianxi = 1; linkLabelsdzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
 
                         }
@@ -26524,15 +26524,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == sii)
                             {
-                                ydztianxi = 1;linkLabelydzss2.Text += "天喜-"; 天喜真假 = 1;
+                                ydztianxi = 1; linkLabelydzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
                             if (rdz == sii)
                             {
-                                rdztianxi = 1;linkLabelrdzss2.Text += "天喜-"; 天喜真假 = 1;
+                                rdztianxi = 1; linkLabelrdzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
                             if (sdz == sii)
                             {
-                                sdztianxi = 1;linkLabelsdzss2.Text += "天喜-"; 天喜真假 = 1;
+                                sdztianxi = 1; linkLabelsdzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
 
                         }
@@ -26540,15 +26540,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == chen)
                             {
-                                ydztianxi = 1;linkLabelydzss2.Text += "天喜-"; 天喜真假 = 1;
+                                ydztianxi = 1; linkLabelydzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
                             if (rdz == chen)
                             {
-                                rdztianxi = 1;linkLabelrdzss2.Text += "天喜-"; 天喜真假 = 1;
+                                rdztianxi = 1; linkLabelrdzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
                             if (sdz == chen)
                             {
-                                sdztianxi = 1;linkLabelsdzss2.Text += "天喜-"; 天喜真假 = 1;
+                                sdztianxi = 1; linkLabelsdzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
 
                         }
@@ -26556,15 +26556,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == mao)
                             {
-                                ydztianxi = 1;linkLabelydzss2.Text += "天喜-"; 天喜真假 = 1;
+                                ydztianxi = 1; linkLabelydzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
                             if (rdz == mao)
                             {
-                                rdztianxi = 1;linkLabelrdzss2.Text += "天喜-"; 天喜真假 = 1;
+                                rdztianxi = 1; linkLabelrdzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
                             if (sdz == mao)
                             {
-                                sdztianxi = 1;linkLabelsdzss2.Text += "天喜-"; 天喜真假 = 1;
+                                sdztianxi = 1; linkLabelsdzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
 
                         }
@@ -26572,15 +26572,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == yin)
                             {
-                                ydztianxi = 1;linkLabelydzss2.Text += "天喜-"; 天喜真假 = 1;
+                                ydztianxi = 1; linkLabelydzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
                             if (rdz == yin)
                             {
-                                rdztianxi = 1;linkLabelrdzss2.Text += "天喜-"; 天喜真假 = 1;
+                                rdztianxi = 1; linkLabelrdzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
                             if (sdz == yin)
                             {
-                                sdztianxi = 1;linkLabelsdzss2.Text += "天喜-"; 天喜真假 = 1;
+                                sdztianxi = 1; linkLabelsdzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
 
                         }
@@ -26588,15 +26588,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == chou)
                             {
-                                ydztianxi = 1;linkLabelydzss2.Text += "天喜-"; 天喜真假 = 1;
+                                ydztianxi = 1; linkLabelydzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
                             if (rdz == chou)
                             {
-                                rdztianxi = 1;linkLabelrdzss2.Text += "天喜-"; 天喜真假 = 1;
+                                rdztianxi = 1; linkLabelrdzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
                             if (sdz == chou)
                             {
-                                sdztianxi = 1;linkLabelsdzss2.Text += "天喜-"; 天喜真假 = 1;
+                                sdztianxi = 1; linkLabelsdzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
 
                         }
@@ -26604,15 +26604,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == zii)
                             {
-                                ydztianxi = 1;linkLabelydzss2.Text += "天喜-"; 天喜真假 = 1;
+                                ydztianxi = 1; linkLabelydzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
                             if (rdz == zii)
                             {
-                                rdztianxi = 1;linkLabelrdzss2.Text += "天喜-"; 天喜真假 = 1;
+                                rdztianxi = 1; linkLabelrdzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
                             if (sdz == zii)
                             {
-                                sdztianxi = 1;linkLabelsdzss2.Text += "天喜-"; 天喜真假 = 1;
+                                sdztianxi = 1; linkLabelsdzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
 
                         }
@@ -26620,15 +26620,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == hai)
                             {
-                                ydztianxi = 1;linkLabelydzss2.Text += "天喜-"; 天喜真假 = 1;
+                                ydztianxi = 1; linkLabelydzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
                             if (rdz == hai)
                             {
-                                rdztianxi = 1;linkLabelrdzss2.Text += "天喜-"; 天喜真假 = 1;
+                                rdztianxi = 1; linkLabelrdzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
                             if (sdz == hai)
                             {
-                                sdztianxi = 1;linkLabelsdzss2.Text += "天喜-"; 天喜真假 = 1;
+                                sdztianxi = 1; linkLabelsdzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
 
                         }
@@ -26636,15 +26636,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == xuu)
                             {
-                                ydztianxi = 1;linkLabelydzss2.Text += "天喜-"; 天喜真假 = 1;
+                                ydztianxi = 1; linkLabelydzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
                             if (rdz == xuu)
                             {
-                                rdztianxi = 1;linkLabelrdzss2.Text += "天喜-"; 天喜真假 = 1;
+                                rdztianxi = 1; linkLabelrdzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
                             if (sdz == xuu)
                             {
-                                sdztianxi = 1;linkLabelsdzss2.Text += "天喜-"; 天喜真假 = 1;
+                                sdztianxi = 1; linkLabelsdzss2.Text += "天喜-"; 天喜真假 = 1;
                             }
 
                         }
@@ -26656,7 +26656,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 天喜;
                         }
                     }
-                    
+
                     //隔角煞
                     if (jia == jia)
                     {
@@ -26665,84 +26665,84 @@ namespace BaZiFuZuGongJu
                         {
                             if (sdz == yin)
                             {
-                                sdzgejiaosha = 1;linkLabelsdzss2.Text += "隔角-"; 隔角煞真假 = 1;
+                                sdzgejiaosha = 1; linkLabelsdzss2.Text += "隔角-"; 隔角煞真假 = 1;
                             }
                         }
                         if (rdz == chou)
                         {
                             if (sdz == mao)
                             {
-                                sdzgejiaosha = 1;linkLabelsdzss2.Text += "隔角-"; 隔角煞真假 = 1;
+                                sdzgejiaosha = 1; linkLabelsdzss2.Text += "隔角-"; 隔角煞真假 = 1;
                             }
                         }
                         if (rdz == yin)
                         {
                             if (sdz == chen)
                             {
-                                sdzgejiaosha = 1;linkLabelsdzss2.Text += "隔角-"; 隔角煞真假 = 1;
+                                sdzgejiaosha = 1; linkLabelsdzss2.Text += "隔角-"; 隔角煞真假 = 1;
                             }
                         }
                         if (rdz == mao)
                         {
                             if (sdz == sii)
                             {
-                                sdzgejiaosha = 1;linkLabelsdzss2.Text += "隔角-"; 隔角煞真假 = 1;
+                                sdzgejiaosha = 1; linkLabelsdzss2.Text += "隔角-"; 隔角煞真假 = 1;
                             }
                         }
                         if (rdz == chen)
                         {
                             if (sdz == wuma)
                             {
-                                sdzgejiaosha = 1;linkLabelsdzss2.Text += "隔角-"; 隔角煞真假 = 1;
+                                sdzgejiaosha = 1; linkLabelsdzss2.Text += "隔角-"; 隔角煞真假 = 1;
                             }
                         }
                         if (rdz == sii)
                         {
                             if (sdz == wei)
                             {
-                                sdzgejiaosha = 1;linkLabelsdzss2.Text += "隔角-"; 隔角煞真假 = 1;
+                                sdzgejiaosha = 1; linkLabelsdzss2.Text += "隔角-"; 隔角煞真假 = 1;
                             }
                         }
                         if (rdz == wuma)
                         {
                             if (sdz == shen)
                             {
-                                sdzgejiaosha = 1;linkLabelsdzss2.Text += "隔角-"; 隔角煞真假 = 1;
+                                sdzgejiaosha = 1; linkLabelsdzss2.Text += "隔角-"; 隔角煞真假 = 1;
                             }
                         }
                         if (rdz == wei)
                         {
                             if (sdz == you)
                             {
-                                sdzgejiaosha = 1;linkLabelsdzss2.Text += "隔角-"; 隔角煞真假 = 1;
+                                sdzgejiaosha = 1; linkLabelsdzss2.Text += "隔角-"; 隔角煞真假 = 1;
                             }
                         }
                         if (rdz == shen)
                         {
                             if (sdz == xuu)
                             {
-                                sdzgejiaosha = 1;linkLabelsdzss2.Text += "隔角-"; 隔角煞真假 = 1;
+                                sdzgejiaosha = 1; linkLabelsdzss2.Text += "隔角-"; 隔角煞真假 = 1;
                             }
                         }
                         if (rdz == you)
                         {
                             if (sdz == hai)
                             {
-                                sdzgejiaosha = 1;linkLabelsdzss2.Text += "隔角-"; 隔角煞真假 = 1;
+                                sdzgejiaosha = 1; linkLabelsdzss2.Text += "隔角-"; 隔角煞真假 = 1;
                             }
                         }
                         if (rdz == xuu)
                         {
                             if (sdz == zii)
                             {
-                                sdzgejiaosha = 1;linkLabelsdzss2.Text += "隔角-"; 隔角煞真假 = 1;
+                                sdzgejiaosha = 1; linkLabelsdzss2.Text += "隔角-"; 隔角煞真假 = 1;
                             }
                         }
                         if (rdz == hai)
                         {
                             if (sdz == chou)
                             {
-                                sdzgejiaosha = 1;linkLabelsdzss2.Text += "隔角-"; 隔角煞真假 = 1;
+                                sdzgejiaosha = 1; linkLabelsdzss2.Text += "隔角-"; 隔角煞真假 = 1;
                             }
                         }
 
@@ -26753,7 +26753,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 隔角煞;
                         }
                     }
-                    
+
                     //天罗地网
                     if (jia == jia)
                     {
@@ -26762,29 +26762,29 @@ namespace BaZiFuZuGongJu
                         {
                             if (rdz == xuu || rdz == hai)
                             {
-                                rdztianluodiwang = 1;linkLabelndzss2.Text += "天罗-"; 天罗地网真假 = 1;
+                                rdztianluodiwang = 1; linkLabelndzss2.Text += "天罗-"; 天罗地网真假 = 1;
                             }
                         }
                         if (wuxingguilei == 2 || wuxingguilei == 5)
                         {
                             if (rdz == chen || rdz == sii)
                             {
-                                rdztianluodiwang = 1;linkLabelndzss2.Text += "地网-"; 天罗地网真假 = 1;
+                                rdztianluodiwang = 1; linkLabelndzss2.Text += "地网-"; 天罗地网真假 = 1;
                             }
                         }
                         if (rdz == xuu)
                         {
                             if (ydz == hai)
                             {
-                                ydztianluodiwang = 1;linkLabelydzss1.Text += "天罗-"; 天罗地网真假 = 1;
+                                ydztianluodiwang = 1; linkLabelydzss1.Text += "天罗-"; 天罗地网真假 = 1;
                             }
                             if (ndz == hai)
                             {
-                                ndztianluodiwang = 1;linkLabelrdzss1.Text += "天罗-"; 天罗地网真假 = 1;
+                                ndztianluodiwang = 1; linkLabelrdzss1.Text += "天罗-"; 天罗地网真假 = 1;
                             }
                             if (sdz == hai)
                             {
-                                sdztianluodiwang = 1;linkLabelsdzss1.Text += "天罗-"; 天罗地网真假 = 1;
+                                sdztianluodiwang = 1; linkLabelsdzss1.Text += "天罗-"; 天罗地网真假 = 1;
                             }
 
                         }
@@ -26792,15 +26792,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == sii)
                             {
-                                ydztianluodiwang = 1;linkLabelydzss1.Text += "地网-"; 天罗地网真假 = 1;
+                                ydztianluodiwang = 1; linkLabelydzss1.Text += "地网-"; 天罗地网真假 = 1;
                             }
                             if (ndz == sii)
                             {
-                                ndztianluodiwang = 1;linkLabelrdzss1.Text += "地网-"; 天罗地网真假 = 1;
+                                ndztianluodiwang = 1; linkLabelrdzss1.Text += "地网-"; 天罗地网真假 = 1;
                             }
                             if (sdz == sii)
                             {
-                                sdztianluodiwang = 1;linkLabelsdzss1.Text += "地网-"; 天罗地网真假 = 1;
+                                sdztianluodiwang = 1; linkLabelsdzss1.Text += "地网-"; 天罗地网真假 = 1;
                             }
 
                         }
@@ -26812,7 +26812,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 天罗地网;
                         }
                     }
-                    
+
                     //灾煞
                     if (jia == jia)
                     {
@@ -26821,15 +26821,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == wuma)
                             {
-                                ydzzaisha = 1;linkLabelydzss1.Text += "灾煞-"; 灾煞真假 = 1;
+                                ydzzaisha = 1; linkLabelydzss1.Text += "灾煞-"; 灾煞真假 = 1;
                             }
                             if (rdz == wuma)
                             {
-                                rdzzaisha = 1;linkLabelrdzss1.Text += "灾煞-"; 灾煞真假 = 1;
+                                rdzzaisha = 1; linkLabelrdzss1.Text += "灾煞-"; 灾煞真假 = 1;
                             }
                             if (sdz == wuma)
                             {
-                                sdzzaisha = 1;linkLabelsdzss1.Text += "灾煞-"; 灾煞真假 = 1;
+                                sdzzaisha = 1; linkLabelsdzss1.Text += "灾煞-"; 灾煞真假 = 1;
                             }
 
                         }
@@ -26837,15 +26837,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == you)
                             {
-                                ydzzaisha = 1;linkLabelydzss1.Text += "灾煞-"; 灾煞真假 = 1;
+                                ydzzaisha = 1; linkLabelydzss1.Text += "灾煞-"; 灾煞真假 = 1;
                             }
                             if (rdz == you)
                             {
-                                rdzzaisha = 1;linkLabelrdzss1.Text += "灾煞-"; 灾煞真假 = 1;
+                                rdzzaisha = 1; linkLabelrdzss1.Text += "灾煞-"; 灾煞真假 = 1;
                             }
                             if (sdz == you)
                             {
-                                sdzzaisha = 1;linkLabelsdzss1.Text += "灾煞-"; 灾煞真假 = 1;
+                                sdzzaisha = 1; linkLabelsdzss1.Text += "灾煞-"; 灾煞真假 = 1;
                             }
 
                         }
@@ -26853,15 +26853,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == zii)
                             {
-                                ydzzaisha = 1;linkLabelydzss1.Text += "灾煞-"; 灾煞真假 = 1;
+                                ydzzaisha = 1; linkLabelydzss1.Text += "灾煞-"; 灾煞真假 = 1;
                             }
                             if (rdz == zii)
                             {
-                                rdzzaisha = 1;linkLabelrdzss1.Text += "灾煞-"; 灾煞真假 = 1;
+                                rdzzaisha = 1; linkLabelrdzss1.Text += "灾煞-"; 灾煞真假 = 1;
                             }
                             if (sdz == zii)
                             {
-                                sdzzaisha = 1;linkLabelsdzss1.Text += "灾煞-"; 灾煞真假 = 1;
+                                sdzzaisha = 1; linkLabelsdzss1.Text += "灾煞-"; 灾煞真假 = 1;
                             }
 
                         }
@@ -26869,15 +26869,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == mao)
                             {
-                                ydzzaisha = 1;linkLabelydzss1.Text += "灾煞-"; 灾煞真假 = 1;
+                                ydzzaisha = 1; linkLabelydzss1.Text += "灾煞-"; 灾煞真假 = 1;
                             }
                             if (rdz == mao)
                             {
-                                rdzzaisha = 1;linkLabelrdzss1.Text += "灾煞-"; 灾煞真假 = 1;
+                                rdzzaisha = 1; linkLabelrdzss1.Text += "灾煞-"; 灾煞真假 = 1;
                             }
                             if (sdz == mao)
                             {
-                                sdzzaisha = 1;linkLabelsdzss1.Text += "灾煞-"; 灾煞真假 = 1;
+                                sdzzaisha = 1; linkLabelsdzss1.Text += "灾煞-"; 灾煞真假 = 1;
                             }
 
                         }
@@ -26889,7 +26889,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 灾煞;
                         }
                     }
-                    
+
                     //铁扫
                     if (jia == jia)
                     {
@@ -26900,7 +26900,7 @@ namespace BaZiFuZuGongJu
                             {
                                 if (ydz == yin)
                                 {
-                                    bazipingfen -= 40;linkLabelydzss2.Text += "铁扫-"; 铁扫真假 = 1;
+                                    bazipingfen -= 40; linkLabelydzss2.Text += "铁扫-"; 铁扫真假 = 1;
                                 }
                             }
                         }
@@ -26910,7 +26910,7 @@ namespace BaZiFuZuGongJu
                             {
                                 if (ydz == chou)
                                 {
-                                    bazipingfen -= 40;linkLabelydzss2.Text += "铁扫-"; 铁扫真假 = 1;
+                                    bazipingfen -= 40; linkLabelydzss2.Text += "铁扫-"; 铁扫真假 = 1;
                                 }
                             }
                         }
@@ -26920,7 +26920,7 @@ namespace BaZiFuZuGongJu
                             {
                                 if (ydz == mao)
                                 {
-                                    bazipingfen -= 40;linkLabelydzss2.Text += "铁扫-"; 铁扫真假 = 1;
+                                    bazipingfen -= 40; linkLabelydzss2.Text += "铁扫-"; 铁扫真假 = 1;
                                 }
                             }
                         }
@@ -26930,7 +26930,7 @@ namespace BaZiFuZuGongJu
                             {
                                 if (ydz == you)
                                 {
-                                    bazipingfen -= 40;linkLabelydzss2.Text += "铁扫-"; 铁扫真假 = 1;
+                                    bazipingfen -= 40; linkLabelydzss2.Text += "铁扫-"; 铁扫真假 = 1;
                                 }
                             }
                         }
@@ -26940,7 +26940,7 @@ namespace BaZiFuZuGongJu
                             {
                                 if (ydz == sii)
                                 {
-                                    bazipingfen -= 40;linkLabelydzss2.Text += "铁扫-"; 铁扫真假 = 1;
+                                    bazipingfen -= 40; linkLabelydzss2.Text += "铁扫-"; 铁扫真假 = 1;
                                 }
                             }
                         }
@@ -26950,7 +26950,7 @@ namespace BaZiFuZuGongJu
                             {
                                 if (ydz == shen)
                                 {
-                                    bazipingfen -= 40;linkLabelydzss2.Text += "铁扫-"; 铁扫真假 = 1;
+                                    bazipingfen -= 40; linkLabelydzss2.Text += "铁扫-"; 铁扫真假 = 1;
                                 }
                             }
                         }
@@ -26960,7 +26960,7 @@ namespace BaZiFuZuGongJu
                             {
                                 if (ydz == wei)
                                 {
-                                    bazipingfen -= 40;linkLabelydzss2.Text += "铁扫-"; 铁扫真假 = 1;
+                                    bazipingfen -= 40; linkLabelydzss2.Text += "铁扫-"; 铁扫真假 = 1;
                                 }
                             }
                         }
@@ -26970,7 +26970,7 @@ namespace BaZiFuZuGongJu
                             {
                                 if (ydz == xuu)
                                 {
-                                    bazipingfen -= 40;linkLabelydzss2.Text += "铁扫-"; 铁扫真假 = 1;
+                                    bazipingfen -= 40; linkLabelydzss2.Text += "铁扫-"; 铁扫真假 = 1;
                                 }
                             }
                         }
@@ -26982,7 +26982,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 铁扫;
                         }
                     }
-                    
+
                     //学堂
                     if (jia == jia)
                     {
@@ -26992,75 +26992,75 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == sii)
                             {
-                                ydzxuetang = 1;linkLabelydzss1.Text += "学堂-"; 学堂真假 = 1;
+                                ydzxuetang = 1; linkLabelydzss1.Text += "学堂-"; 学堂真假 = 1;
                             }
                             if (rdz == sii)
                             {
-                                rdzxuetang = 1;linkLabelrdzss1.Text += "学堂-"; 学堂真假 = 1;
+                                rdzxuetang = 1; linkLabelrdzss1.Text += "学堂-"; 学堂真假 = 1;
                             }
                             if (sdz == sii)
                             {
-                                sdzxuetang = 1;linkLabelsdzss1.Text += "学堂-"; 学堂真假 = 1;
+                                sdzxuetang = 1; linkLabelsdzss1.Text += "学堂-"; 学堂真假 = 1;
                             }
                         }
                         if (wuxingguilei == 2)
                         {
                             if (ydz == shen)
                             {
-                                ydzxuetang = 1;linkLabelydzss1.Text += "学堂-"; 学堂真假 = 1;
+                                ydzxuetang = 1; linkLabelydzss1.Text += "学堂-"; 学堂真假 = 1;
                             }
                             if (rdz == shen)
                             {
-                                rdzxuetang = 1;linkLabelrdzss1.Text += "学堂-"; 学堂真假 = 1;
+                                rdzxuetang = 1; linkLabelrdzss1.Text += "学堂-"; 学堂真假 = 1;
                             }
                             if (sdz == shen)
                             {
-                                sdzxuetang = 1;linkLabelsdzss1.Text += "学堂-"; 学堂真假 = 1;
+                                sdzxuetang = 1; linkLabelsdzss1.Text += "学堂-"; 学堂真假 = 1;
                             }
                         }
                         if (wuxingguilei == 3)
                         {
                             if (ydz == hai)
                             {
-                                ydzxuetang = 1;linkLabelydzss1.Text += "学堂-"; 学堂真假 = 1;
+                                ydzxuetang = 1; linkLabelydzss1.Text += "学堂-"; 学堂真假 = 1;
                             }
                             if (rdz == hai)
                             {
-                                rdzxuetang = 1;linkLabelrdzss1.Text += "学堂-"; 学堂真假 = 1;
+                                rdzxuetang = 1; linkLabelrdzss1.Text += "学堂-"; 学堂真假 = 1;
                             }
                             if (sdz == hai)
                             {
-                                sdzxuetang = 1;linkLabelsdzss1.Text += "学堂-"; 学堂真假 = 1;
+                                sdzxuetang = 1; linkLabelsdzss1.Text += "学堂-"; 学堂真假 = 1;
                             }
                         }
                         if (wuxingguilei == 4)
                         {
                             if (ydz == yin)
                             {
-                                ydzxuetang = 1;linkLabelydzss1.Text += "学堂-"; 学堂真假 = 1;
+                                ydzxuetang = 1; linkLabelydzss1.Text += "学堂-"; 学堂真假 = 1;
                             }
                             if (rdz == yin)
                             {
-                                rdzxuetang = 1;linkLabelrdzss1.Text += "学堂-"; 学堂真假 = 1;
+                                rdzxuetang = 1; linkLabelrdzss1.Text += "学堂-"; 学堂真假 = 1;
                             }
                             if (sdz == yin)
                             {
-                                sdzxuetang = 1;linkLabelsdzss1.Text += "学堂-"; 学堂真假 = 1;
+                                sdzxuetang = 1; linkLabelsdzss1.Text += "学堂-"; 学堂真假 = 1;
                             }
                         }
                         if (wuxingguilei == 5)
                         {
                             if (ydz == shen)
                             {
-                                ydzxuetang = 1;linkLabelydzss1.Text += "学堂-"; 学堂真假 = 1;
+                                ydzxuetang = 1; linkLabelydzss1.Text += "学堂-"; 学堂真假 = 1;
                             }
                             if (rdz == shen)
                             {
-                                rdzxuetang = 1;linkLabelrdzss1.Text += "学堂-"; 学堂真假 = 1;
+                                rdzxuetang = 1; linkLabelrdzss1.Text += "学堂-"; 学堂真假 = 1;
                             }
                             if (sdz == shen)
                             {
-                                sdzxuetang = 1;linkLabelsdzss1.Text += "学堂-"; 学堂真假 = 1;
+                                sdzxuetang = 1; linkLabelsdzss1.Text += "学堂-"; 学堂真假 = 1;
                             }
                         }
 
@@ -27071,7 +27071,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 学堂;
                         }
                     }
-                    
+
                     //桃花煞
                     if (jia == jia)
                     {
@@ -27283,7 +27283,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 红艳煞;
                         }
                     }
-                    
+
                     //文昌星
                     if (jia == jia)
                     {
@@ -27292,19 +27292,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == sii)
                             {
-                                ndzwenchangxing = 1;linkLabelndzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                ndzwenchangxing = 1; linkLabelndzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
                             if (ydz == sii)
                             {
-                                ydzwenchangxing = 1;linkLabelydzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                ydzwenchangxing = 1; linkLabelydzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
                             if (rdz == sii)
                             {
-                                rdzwenchangxing = 1;linkLabelrdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                rdzwenchangxing = 1; linkLabelrdzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
                             if (sdz == sii)
                             {
-                                sdzwenchangxing = 1;linkLabelsdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                sdzwenchangxing = 1; linkLabelsdzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
 
                         }
@@ -27312,19 +27312,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wuma)
                             {
-                                ndzwenchangxing = 1;linkLabelndzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                ndzwenchangxing = 1; linkLabelndzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
                             if (ydz == wuma)
                             {
-                                ydzwenchangxing = 1;linkLabelydzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                ydzwenchangxing = 1; linkLabelydzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
                             if (rdz == wuma)
                             {
-                                rdzwenchangxing = 1;linkLabelrdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                rdzwenchangxing = 1; linkLabelrdzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
                             if (sdz == wuma)
                             {
-                                sdzwenchangxing = 1;linkLabelsdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                sdzwenchangxing = 1; linkLabelsdzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
 
                         }
@@ -27332,19 +27332,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen)
                             {
-                                ndzwenchangxing = 1;linkLabelndzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                ndzwenchangxing = 1; linkLabelndzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
                             if (ydz == shen)
                             {
-                                ydzwenchangxing = 1;linkLabelydzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                ydzwenchangxing = 1; linkLabelydzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
                             if (rdz == shen)
                             {
-                                rdzwenchangxing = 1;linkLabelrdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                rdzwenchangxing = 1; linkLabelrdzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
                             if (sdz == shen)
                             {
-                                sdzwenchangxing = 1;linkLabelsdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                sdzwenchangxing = 1; linkLabelsdzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
 
                         }
@@ -27352,19 +27352,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == you)
                             {
-                                ndzwenchangxing = 1;linkLabelndzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                ndzwenchangxing = 1; linkLabelndzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
                             if (ydz == you)
                             {
-                                ydzwenchangxing = 1;linkLabelydzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                ydzwenchangxing = 1; linkLabelydzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
                             if (rdz == you)
                             {
-                                rdzwenchangxing = 1;linkLabelrdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                rdzwenchangxing = 1; linkLabelrdzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
                             if (sdz == you)
                             {
-                                sdzwenchangxing = 1;linkLabelsdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                sdzwenchangxing = 1; linkLabelsdzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
 
                         }
@@ -27372,19 +27372,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == hai)
                             {
-                                ndzwenchangxing = 1;linkLabelndzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                ndzwenchangxing = 1; linkLabelndzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
                             if (ydz == hai)
                             {
-                                ydzwenchangxing = 1;linkLabelydzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                ydzwenchangxing = 1; linkLabelydzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
                             if (rdz == hai)
                             {
-                                rdzwenchangxing = 1;linkLabelrdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                rdzwenchangxing = 1; linkLabelrdzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
                             if (sdz == hai)
                             {
-                                sdzwenchangxing = 1;linkLabelsdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                sdzwenchangxing = 1; linkLabelsdzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
 
                         }
@@ -27392,19 +27392,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == zii)
                             {
-                                ndzwenchangxing = 1;linkLabelndzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                ndzwenchangxing = 1; linkLabelndzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
                             if (ydz == zii)
                             {
-                                ydzwenchangxing = 1;linkLabelydzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                ydzwenchangxing = 1; linkLabelydzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
                             if (rdz == zii)
                             {
-                                rdzwenchangxing = 1;linkLabelrdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                rdzwenchangxing = 1; linkLabelrdzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
                             if (sdz == zii)
                             {
-                                sdzwenchangxing = 1;linkLabelsdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                sdzwenchangxing = 1; linkLabelsdzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
 
                         }
@@ -27412,19 +27412,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin)
                             {
-                                ndzwenchangxing = 1;linkLabelndzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                ndzwenchangxing = 1; linkLabelndzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
                             if (ydz == yin)
                             {
-                                ydzwenchangxing = 1;linkLabelydzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                ydzwenchangxing = 1; linkLabelydzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
                             if (rdz == yin)
                             {
-                                rdzwenchangxing = 1;linkLabelrdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                rdzwenchangxing = 1; linkLabelrdzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
                             if (sdz == yin)
                             {
-                                sdzwenchangxing = 1;linkLabelsdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                sdzwenchangxing = 1; linkLabelsdzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
 
                         }
@@ -27432,19 +27432,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == mao)
                             {
-                                ndzwenchangxing = 1;linkLabelndzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                ndzwenchangxing = 1; linkLabelndzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
                             if (ydz == mao)
                             {
-                                ydzwenchangxing = 1;linkLabelydzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                ydzwenchangxing = 1; linkLabelydzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
                             if (rdz == mao)
                             {
-                                rdzwenchangxing = 1;linkLabelrdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                rdzwenchangxing = 1; linkLabelrdzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
                             if (sdz == mao)
                             {
-                                sdzwenchangxing = 1;linkLabelsdzss2.Text += "文昌-"; 文昌星真假 = 1;
+                                sdzwenchangxing = 1; linkLabelsdzss2.Text += "文昌-"; 文昌星真假 = 1;
                             }
 
                         }
@@ -27456,7 +27456,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 文昌星;
                         }
                     }
-                    
+
                     //驿马
                     if (jia == jia)
                     {
@@ -27467,19 +27467,19 @@ namespace BaZiFuZuGongJu
                             {
                                 if (ndz == shen)
                                 {
-                                    ndztianma = 1;linkLabelndzss2.Text += "天马-"; 驿马真假 = 1;
+                                    ndztianma = 1; linkLabelndzss2.Text += "天马-"; 驿马真假 = 1;
                                 }
                                 if (ydz == shen)
                                 {
-                                    ydztianma = 1;linkLabelydzss2.Text += "天马-"; 驿马真假 = 1;
+                                    ydztianma = 1; linkLabelydzss2.Text += "天马-"; 驿马真假 = 1;
                                 }
                                 if (rdz == shen)
                                 {
-                                    rdztianma = 1;linkLabelrdzss2.Text += "天马-"; 驿马真假 = 1;
+                                    rdztianma = 1; linkLabelrdzss2.Text += "天马-"; 驿马真假 = 1;
                                 }
                                 if (sdz == shen)
                                 {
-                                    sdztianma = 1;linkLabelsdzss2.Text += "天马-"; 驿马真假 = 1;
+                                    sdztianma = 1; linkLabelsdzss2.Text += "天马-"; 驿马真假 = 1;
                                 }
 
                             }
@@ -27491,19 +27491,19 @@ namespace BaZiFuZuGongJu
                             {
                                 if (ndz == shen)
                                 {
-                                    ndztianma = 1;linkLabelndzss2.Text += "驿马-"; 驿马真假 = 1;
+                                    ndztianma = 1; linkLabelndzss2.Text += "驿马-"; 驿马真假 = 1;
                                 }
                                 if (ydz == shen)
                                 {
-                                    ydztianma = 1;linkLabelydzss2.Text += "驿马-"; 驿马真假 = 1;
+                                    ydztianma = 1; linkLabelydzss2.Text += "驿马-"; 驿马真假 = 1;
                                 }
                                 if (rdz == shen)
                                 {
-                                    rdztianma = 1;linkLabelrdzss2.Text += "驿马-"; 驿马真假 = 1;
+                                    rdztianma = 1; linkLabelrdzss2.Text += "驿马-"; 驿马真假 = 1;
                                 }
                                 if (sdz == shen)
                                 {
-                                    sdztianma = 1;linkLabelsdzss2.Text += "驿马-"; 驿马真假 = 1;
+                                    sdztianma = 1; linkLabelsdzss2.Text += "驿马-"; 驿马真假 = 1;
                                 }
                             }
                         }
@@ -27513,19 +27513,19 @@ namespace BaZiFuZuGongJu
                             {
                                 if (ndz == yin)
                                 {
-                                    ndztianma = 1;linkLabelndzss2.Text += "天马-"; 驿马真假 = 1;
+                                    ndztianma = 1; linkLabelndzss2.Text += "天马-"; 驿马真假 = 1;
                                 }
                                 if (ydz == yin)
                                 {
-                                    ydztianma = 1;linkLabelydzss2.Text += "天马-"; 驿马真假 = 1;
+                                    ydztianma = 1; linkLabelydzss2.Text += "天马-"; 驿马真假 = 1;
                                 }
                                 if (rdz == yin)
                                 {
-                                    rdztianma = 1;linkLabelrdzss2.Text += "天马-"; 驿马真假 = 1;
+                                    rdztianma = 1; linkLabelrdzss2.Text += "天马-"; 驿马真假 = 1;
                                 }
                                 if (sdz == yin)
                                 {
-                                    sdztianma = 1;linkLabelsdzss2.Text += "天马-"; 驿马真假 = 1;
+                                    sdztianma = 1; linkLabelsdzss2.Text += "天马-"; 驿马真假 = 1;
                                 }
 
                             }
@@ -27537,19 +27537,19 @@ namespace BaZiFuZuGongJu
                             {
                                 if (ndz == yin)
                                 {
-                                    ndzyima = 1;linkLabelndzss2.Text += "驿马-"; 驿马真假 = 1;
+                                    ndzyima = 1; linkLabelndzss2.Text += "驿马-"; 驿马真假 = 1;
                                 }
                                 if (ydz == yin)
                                 {
-                                    ydzyima = 1;linkLabelydzss2.Text += "驿马-"; 驿马真假 = 1;
+                                    ydzyima = 1; linkLabelydzss2.Text += "驿马-"; 驿马真假 = 1;
                                 }
                                 if (rdz == yin)
                                 {
-                                    rdzyima = 1;linkLabelrdzss2.Text += "驿马-"; 驿马真假 = 1;
+                                    rdzyima = 1; linkLabelrdzss2.Text += "驿马-"; 驿马真假 = 1;
                                 }
                                 if (sdz == yin)
                                 {
-                                    sdzyima = 1;linkLabelsdzss2.Text += "驿马-"; 驿马真假 = 1;
+                                    sdzyima = 1; linkLabelsdzss2.Text += "驿马-"; 驿马真假 = 1;
                                 }
 
                             }
@@ -27561,19 +27561,19 @@ namespace BaZiFuZuGongJu
                             {
                                 if (ndz == hai)
                                 {
-                                    ndztianma = 1;linkLabelndzss2.Text += "天马-"; 驿马真假 = 1;
+                                    ndztianma = 1; linkLabelndzss2.Text += "天马-"; 驿马真假 = 1;
                                 }
                                 if (ydz == hai)
                                 {
-                                    ydztianma = 1;linkLabelydzss2.Text += "天马-"; 驿马真假 = 1;
+                                    ydztianma = 1; linkLabelydzss2.Text += "天马-"; 驿马真假 = 1;
                                 }
                                 if (rdz == hai)
                                 {
-                                    rdztianma = 1;linkLabelrdzss2.Text += "天马-"; 驿马真假 = 1;
+                                    rdztianma = 1; linkLabelrdzss2.Text += "天马-"; 驿马真假 = 1;
                                 }
                                 if (sdz == hai)
                                 {
-                                    sdztianma = 1;linkLabelsdzss2.Text += "天马-"; 驿马真假 = 1;
+                                    sdztianma = 1; linkLabelsdzss2.Text += "天马-"; 驿马真假 = 1;
                                 }
 
                             }
@@ -27585,19 +27585,19 @@ namespace BaZiFuZuGongJu
                             {
                                 if (ndz == hai)
                                 {
-                                    ndzyima = 1;linkLabelndzss2.Text += "驿马-"; 驿马真假 = 1;
+                                    ndzyima = 1; linkLabelndzss2.Text += "驿马-"; 驿马真假 = 1;
                                 }
                                 if (ydz == hai)
                                 {
-                                    ydzyima = 1;linkLabelydzss2.Text += "驿马-"; 驿马真假 = 1;
+                                    ydzyima = 1; linkLabelydzss2.Text += "驿马-"; 驿马真假 = 1;
                                 }
                                 if (rdz == hai)
                                 {
-                                    rdzyima = 1;linkLabelrdzss2.Text += "驿马-"; 驿马真假 = 1;
+                                    rdzyima = 1; linkLabelrdzss2.Text += "驿马-"; 驿马真假 = 1;
                                 }
                                 if (sdz == hai)
                                 {
-                                    sdzyima = 1;linkLabelsdzss2.Text += "驿马-"; 驿马真假 = 1;
+                                    sdzyima = 1; linkLabelsdzss2.Text += "驿马-"; 驿马真假 = 1;
                                 }
 
                             }
@@ -27609,19 +27609,19 @@ namespace BaZiFuZuGongJu
                             {
                                 if (ndz == sii)
                                 {
-                                    ndztianma = 1;linkLabelndzss2.Text += "天马-"; 驿马真假 = 1;
+                                    ndztianma = 1; linkLabelndzss2.Text += "天马-"; 驿马真假 = 1;
                                 }
                                 if (ydz == sii)
                                 {
-                                    ydztianma = 1;linkLabelydzss2.Text += "天马-"; 驿马真假 = 1;
+                                    ydztianma = 1; linkLabelydzss2.Text += "天马-"; 驿马真假 = 1;
                                 }
                                 if (rdz == sii)
                                 {
-                                    rdztianma = 1;linkLabelrdzss2.Text += "天马-"; 驿马真假 = 1;
+                                    rdztianma = 1; linkLabelrdzss2.Text += "天马-"; 驿马真假 = 1;
                                 }
                                 if (sdz == sii)
                                 {
-                                    sdztianma = 1;linkLabelsdzss2.Text += "天马-"; 驿马真假 = 1;
+                                    sdztianma = 1; linkLabelsdzss2.Text += "天马-"; 驿马真假 = 1;
                                 }
 
                             }
@@ -27633,19 +27633,19 @@ namespace BaZiFuZuGongJu
                             {
                                 if (ndz == sii)
                                 {
-                                    ndzyima = 1;linkLabelndzss2.Text += "驿马-"; 驿马真假 = 1;
+                                    ndzyima = 1; linkLabelndzss2.Text += "驿马-"; 驿马真假 = 1;
                                 }
                                 if (ydz == sii)
                                 {
-                                    ydzyima = 1;linkLabelydzss2.Text += "驿马-"; 驿马真假 = 1;
+                                    ydzyima = 1; linkLabelydzss2.Text += "驿马-"; 驿马真假 = 1;
                                 }
                                 if (rdz == sii)
                                 {
-                                    rdzyima = 1;linkLabelrdzss2.Text += "驿马-"; 驿马真假 = 1;
+                                    rdzyima = 1; linkLabelrdzss2.Text += "驿马-"; 驿马真假 = 1;
                                 }
                                 if (sdz == sii)
                                 {
-                                    sdzyima = 1;linkLabelsdzss2.Text += "驿马-"; 驿马真假 = 1;
+                                    sdzyima = 1; linkLabelsdzss2.Text += "驿马-"; 驿马真假 = 1;
                                 }
 
                             }
@@ -27659,7 +27659,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 驿马;
                         }
                     }
-                    
+
                     //五鬼
                     if (jia == jia)
                     {
@@ -27668,15 +27668,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chen)
                             {
-                                ndz5gui = 1;linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                ndz5gui = 1; linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
                             if (rdz == chen)
                             {
-                                rdz5gui = 1;linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                rdz5gui = 1; linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
                             if (sdz == chen)
                             {
-                                sdz5gui = 1;linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                sdz5gui = 1; linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
 
                         }
@@ -27684,15 +27684,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == sii)
                             {
-                                ndz5gui = 1;linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                ndz5gui = 1; linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
                             if (rdz == sii)
                             {
-                                rdz5gui = 1;linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                rdz5gui = 1; linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
                             if (sdz == sii)
                             {
-                                sdz5gui = 1;linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                sdz5gui = 1; linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
 
                         }
@@ -27700,15 +27700,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wuma)
                             {
-                                ndz5gui = 1;linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                ndz5gui = 1; linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
                             if (rdz == wuma)
                             {
-                                rdz5gui = 1;linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                rdz5gui = 1; linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
                             if (sdz == wuma)
                             {
-                                sdz5gui = 1;linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                sdz5gui = 1; linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
 
                         }
@@ -27716,15 +27716,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wei)
                             {
-                                ndz5gui = 1;linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                ndz5gui = 1; linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
                             if (rdz == wei)
                             {
-                                rdz5gui = 1;linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                rdz5gui = 1; linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
                             if (sdz == wei)
                             {
-                                sdz5gui = 1;linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                sdz5gui = 1; linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
 
                         }
@@ -27732,15 +27732,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen)
                             {
-                                ndz5gui = 1;linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                ndz5gui = 1; linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
                             if (rdz == shen)
                             {
-                                rdz5gui = 1;linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                rdz5gui = 1; linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
                             if (sdz == shen)
                             {
-                                sdz5gui = 1;linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                sdz5gui = 1; linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
 
                         }
@@ -27748,15 +27748,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == you)
                             {
-                                ndz5gui = 1;linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                ndz5gui = 1; linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
                             if (rdz == you)
                             {
-                                rdz5gui = 1;linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                rdz5gui = 1; linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
                             if (sdz == you)
                             {
-                                sdz5gui = 1;linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                sdz5gui = 1; linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
 
                         }
@@ -27764,15 +27764,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == xuu)
                             {
-                                ndz5gui = 1;linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                ndz5gui = 1; linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
                             if (rdz == xuu)
                             {
-                                rdz5gui = 1;linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                rdz5gui = 1; linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
                             if (sdz == xuu)
                             {
-                                sdz5gui = 1;linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                sdz5gui = 1; linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
 
                         }
@@ -27780,15 +27780,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == hai)
                             {
-                                ndz5gui = 1;linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                ndz5gui = 1; linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
                             if (rdz == hai)
                             {
-                                rdz5gui = 1;linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                rdz5gui = 1; linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
                             if (sdz == hai)
                             {
-                                sdz5gui = 1;linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                sdz5gui = 1; linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
 
                         }
@@ -27796,15 +27796,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == zii)
                             {
-                                ndz5gui = 1;linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                ndz5gui = 1; linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
                             if (rdz == zii)
                             {
-                                rdz5gui = 1;linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                rdz5gui = 1; linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
                             if (sdz == zii)
                             {
-                                sdz5gui = 1;linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                sdz5gui = 1; linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
 
                         }
@@ -27812,15 +27812,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chou)
                             {
-                                ndz5gui = 1;linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                ndz5gui = 1; linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
                             if (rdz == chou)
                             {
-                                rdz5gui = 1;linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                rdz5gui = 1; linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
                             if (sdz == chou)
                             {
-                                sdz5gui = 1;linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                sdz5gui = 1; linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
 
                         }
@@ -27828,15 +27828,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin)
                             {
-                                ndz5gui = 1;linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                ndz5gui = 1; linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
                             if (rdz == yin)
                             {
-                                rdz5gui = 1;linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                rdz5gui = 1; linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
                             if (sdz == yin)
                             {
-                                sdz5gui = 1;linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                sdz5gui = 1; linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
 
                         }
@@ -27844,15 +27844,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == mao)
                             {
-                                ndz5gui = 1;linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                ndz5gui = 1; linkLabelndzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
                             if (rdz == mao)
                             {
-                                rdz5gui = 1;linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                rdz5gui = 1; linkLabelrdzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
                             if (sdz == mao)
                             {
-                                sdz5gui = 1;linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
+                                sdz5gui = 1; linkLabelsdzss2.Text += "五鬼-"; 五鬼真假 = 1;
                             }
 
                         }
@@ -27864,7 +27864,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 五鬼;
                         }
                     }
-                    
+
                     //词馆
                     if (jia == jia)
                     {
@@ -27873,15 +27873,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ytg == geng && ydz == yin)
                             {
-                                ydzciguan = 1;linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
+                                ydzciguan = 1; linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (rtg == geng && rdz == yin)
                             {
-                                rdzciguan = 1;linkLabelrtgss.Text += "词馆-"; 词馆真假 = 1;
+                                rdzciguan = 1; linkLabelrtgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (stg == geng && sdz == yin)
                             {
-                                sdzciguan = 1;linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
+                                sdzciguan = 1; linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
                             }
 
                         }
@@ -27889,15 +27889,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ytg == xin && ydz == mao)
                             {
-                                ydzciguan = 1;linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
+                                ydzciguan = 1; linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (rtg == xin && rdz == mao)
                             {
-                                rdzciguan = 1;linkLabelrtgss.Text += "词馆-"; 词馆真假 = 1;
+                                rdzciguan = 1; linkLabelrtgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (stg == xin && sdz == mao)
                             {
-                                sdzciguan = 1;linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
+                                sdzciguan = 1; linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
                             }
 
                         }
@@ -27905,15 +27905,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ytg == yii && ydz == sii)
                             {
-                                ydzciguan = 1;linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
+                                ydzciguan = 1; linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (rtg == yii && rdz == sii)
                             {
-                                rdzciguan = 1;linkLabelrtgss.Text += "词馆-"; 词馆真假 = 1;
+                                rdzciguan = 1; linkLabelrtgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (stg == yii && sdz == sii)
                             {
-                                sdzciguan = 1;linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
+                                sdzciguan = 1; linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
                             }
 
                         }
@@ -27921,15 +27921,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ytg == wuu && ydz == wuma)
                             {
-                                ydzciguan = 1;linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
+                                ydzciguan = 1; linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (rtg == wuu && rdz == wuma)
                             {
-                                rdzciguan = 1;linkLabelrtgss.Text += "词馆-"; 词馆真假 = 1;
+                                rdzciguan = 1; linkLabelrtgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (stg == wuu && sdz == wuma)
                             {
-                                sdzciguan = 1;linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
+                                sdzciguan = 1; linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
                             }
 
                         }
@@ -27937,15 +27937,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ytg == ding && ydz == sii)
                             {
-                                ydzciguan = 1;linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
+                                ydzciguan = 1; linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (rtg == ding && rdz == sii)
                             {
-                                rdzciguan = 1;linkLabelrtgss.Text += "词馆-"; 词馆真假 = 1;
+                                rdzciguan = 1; linkLabelrtgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (stg == ding && sdz == sii)
                             {
-                                sdzciguan = 1;linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
+                                sdzciguan = 1; linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
                             }
 
                         }
@@ -27953,15 +27953,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ytg == geng && ydz == wuma)
                             {
-                                ydzciguan = 1;linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
+                                ydzciguan = 1; linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (rtg == geng && rdz == wuma)
                             {
-                                rdzciguan = 1;linkLabelrtgss.Text += "词馆-"; 词馆真假 = 1;
+                                rdzciguan = 1; linkLabelrtgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (stg == geng && sdz == wuma)
                             {
-                                sdzciguan = 1;linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
+                                sdzciguan = 1; linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
                             }
 
                         }
@@ -27969,15 +27969,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ytg == ren && ydz == shen)
                             {
-                                ydzciguan = 1;linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
+                                ydzciguan = 1; linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (rtg == ren && rdz == shen)
                             {
-                                rdzciguan = 1;linkLabelrtgss.Text += "词馆-"; 词馆真假 = 1;
+                                rdzciguan = 1; linkLabelrtgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (stg == ren && sdz == shen)
                             {
-                                sdzciguan = 1;linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
+                                sdzciguan = 1; linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
                             }
 
                         }
@@ -27985,15 +27985,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ytg == gui && ydz == you)
                             {
-                                ydzciguan = 1;linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
+                                ydzciguan = 1; linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (rtg == gui && rdz == you)
                             {
-                                rdzciguan = 1;linkLabelrtgss.Text += "词馆-"; 词馆真假 = 1;
+                                rdzciguan = 1; linkLabelrtgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (stg == gui && sdz == you)
                             {
-                                sdzciguan = 1;linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
+                                sdzciguan = 1; linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
                             }
 
                         }
@@ -28001,15 +28001,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ytg == gui && ydz == hai)
                             {
-                                ydzciguan = 1;linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
+                                ydzciguan = 1; linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (rtg == gui && rdz == hai)
                             {
-                                rdzciguan = 1;linkLabelrtgss.Text += "词馆-"; 词馆真假 = 1;
+                                rdzciguan = 1; linkLabelrtgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (stg == gui && sdz == hai)
                             {
-                                sdzciguan = 1;linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
+                                sdzciguan = 1; linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
                             }
 
                         }
@@ -28017,15 +28017,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ytg == ren && ydz == xuu)
                             {
-                                ydzciguan = 1;linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
+                                ydzciguan = 1; linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (rtg == ren && rdz == xuu)
                             {
-                                rdzciguan = 1;linkLabelrtgss.Text += "词馆-"; 词馆真假 = 1;
+                                rdzciguan = 1; linkLabelrtgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (stg == ren && sdz == xuu)
                             {
-                                sdzciguan = 1;linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
+                                sdzciguan = 1; linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
                             }
 
                         }
@@ -28034,15 +28034,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ytg == geng && ydz == yin)
                             {
-                                ydzciguan = 1;linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
+                                ydzciguan = 1; linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (stg == geng && sdz == yin)
                             {
-                                sdzciguan = 1;linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
+                                sdzciguan = 1; linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (ntg == geng && ndz == yin)
                             {
-                                ndzciguan = 1;linkLabelntgss.Text += "词馆-"; 词馆真假 = 1;
+                                ndzciguan = 1; linkLabelntgss.Text += "词馆-"; 词馆真假 = 1;
                             }
 
                         }
@@ -28050,15 +28050,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ytg == xin && ydz == mao)
                             {
-                                ydzciguan = 1;linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
+                                ydzciguan = 1; linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (stg == xin && sdz == mao)
                             {
-                                sdzciguan = 1;linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
+                                sdzciguan = 1; linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (ntg == xin && ndz == mao)
                             {
-                                ndzciguan = 1;linkLabelntgss.Text += "词馆-"; 词馆真假 = 1;
+                                ndzciguan = 1; linkLabelntgss.Text += "词馆-"; 词馆真假 = 1;
                             }
 
                         }
@@ -28066,15 +28066,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ytg == yii && ydz == sii)
                             {
-                                ydzciguan = 1;linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
+                                ydzciguan = 1; linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (stg == yii && sdz == sii)
                             {
-                                sdzciguan = 1;linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
+                                sdzciguan = 1; linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (ntg == yii && ndz == sii)
                             {
-                                ndzciguan = 1;linkLabelntgss.Text += "词馆-"; 词馆真假 = 1;
+                                ndzciguan = 1; linkLabelntgss.Text += "词馆-"; 词馆真假 = 1;
                             }
 
                         }
@@ -28082,15 +28082,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ytg == wuu && ydz == wuma)
                             {
-                                ydzciguan = 1;linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
+                                ydzciguan = 1; linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (stg == wuu && sdz == wuma)
                             {
-                                sdzciguan = 1;linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
+                                sdzciguan = 1; linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (ntg == wuu && ndz == wuma)
                             {
-                                ndzciguan = 1;linkLabelntgss.Text += "词馆-"; 词馆真假 = 1;
+                                ndzciguan = 1; linkLabelntgss.Text += "词馆-"; 词馆真假 = 1;
                             }
 
                         }
@@ -28098,15 +28098,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ytg == ding && ydz == sii)
                             {
-                                ydzciguan = 1;linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
+                                ydzciguan = 1; linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (stg == ding && sdz == sii)
                             {
-                                sdzciguan = 1;linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
+                                sdzciguan = 1; linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (ntg == ding && ndz == sii)
                             {
-                                ndzciguan = 1;linkLabelntgss.Text += "词馆-"; 词馆真假 = 1;
+                                ndzciguan = 1; linkLabelntgss.Text += "词馆-"; 词馆真假 = 1;
                             }
 
                         }
@@ -28114,15 +28114,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ytg == geng && ydz == wuma)
                             {
-                                ydzciguan = 1;linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
+                                ydzciguan = 1; linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (stg == geng && sdz == wuma)
                             {
-                                sdzciguan = 1;linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
+                                sdzciguan = 1; linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (ntg == geng && ndz == wuma)
                             {
-                                ndzciguan = 1;linkLabelntgss.Text += "词馆-"; 词馆真假 = 1;
+                                ndzciguan = 1; linkLabelntgss.Text += "词馆-"; 词馆真假 = 1;
                             }
 
                         }
@@ -28130,15 +28130,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ytg == ren && ydz == shen)
                             {
-                                ydzciguan = 1;linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
+                                ydzciguan = 1; linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (stg == ren && sdz == shen)
                             {
-                                sdzciguan = 1;linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
+                                sdzciguan = 1; linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (ntg == ren && ndz == shen)
                             {
-                                ndzciguan = 1;linkLabelntgss.Text += "词馆-"; 词馆真假 = 1;
+                                ndzciguan = 1; linkLabelntgss.Text += "词馆-"; 词馆真假 = 1;
                             }
 
                         }
@@ -28146,15 +28146,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ytg == gui && ydz == you)
                             {
-                                ydzciguan = 1;linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
+                                ydzciguan = 1; linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (stg == gui && sdz == you)
                             {
-                                sdzciguan = 1;linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
+                                sdzciguan = 1; linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (ntg == gui && ndz == you)
                             {
-                                ndzciguan = 1;linkLabelntgss.Text += "词馆-"; 词馆真假 = 1;
+                                ndzciguan = 1; linkLabelntgss.Text += "词馆-"; 词馆真假 = 1;
                             }
 
                         }
@@ -28162,15 +28162,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ytg == gui && ydz == hai)
                             {
-                                ydzciguan = 1;linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
+                                ydzciguan = 1; linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (stg == gui && sdz == hai)
                             {
-                                sdzciguan = 1;linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
+                                sdzciguan = 1; linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (ntg == gui && ndz == hai)
                             {
-                                ndzciguan = 1;linkLabelntgss.Text += "词馆-"; 词馆真假 = 1;
+                                ndzciguan = 1; linkLabelntgss.Text += "词馆-"; 词馆真假 = 1;
                             }
 
                         }
@@ -28178,15 +28178,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ytg == ren && ydz == xuu)
                             {
-                                ydzciguan = 1;linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
+                                ydzciguan = 1; linkLabelytgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (stg == ren && sdz == xuu)
                             {
-                                sdzciguan = 1;linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
+                                sdzciguan = 1; linkLabelstgss.Text += "词馆-"; 词馆真假 = 1;
                             }
                             if (ntg == ren && ndz == xuu)
                             {
-                                ndzciguan = 1;linkLabelntgss.Text += "词馆-"; 词馆真假 = 1;
+                                ndzciguan = 1; linkLabelntgss.Text += "词馆-"; 词馆真假 = 1;
                             }
 
                         }
@@ -28198,7 +28198,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 词馆;
                         }
                     }
-                    
+
                     //流霞煞
                     if (jia == jia)
                     {
@@ -28207,19 +28207,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == you)
                             {
-                                ndzliuxiasha = 1;linkLabelndzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                ndzliuxiasha = 1; linkLabelndzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (ydz == you)
                             {
-                                ydzliuxiasha = 1;linkLabelydzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                ydzliuxiasha = 1; linkLabelydzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (rdz == you)
                             {
-                                rdzliuxiasha = 1;linkLabelrdzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                rdzliuxiasha = 1; linkLabelrdzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (sdz == you)
                             {
-                                sdzliuxiasha = 1;linkLabelsdzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                sdzliuxiasha = 1; linkLabelsdzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
 
                         }
@@ -28227,19 +28227,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == xuu)
                             {
-                                ndzliuxiasha = 1;linkLabelndzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                ndzliuxiasha = 1; linkLabelndzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (ydz == xuu)
                             {
-                                ydzliuxiasha = 1;linkLabelydzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                ydzliuxiasha = 1; linkLabelydzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (rdz == xuu)
                             {
-                                rdzliuxiasha = 1;linkLabelrdzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                rdzliuxiasha = 1; linkLabelrdzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (sdz == xuu)
                             {
-                                sdzliuxiasha = 1;linkLabelsdzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                sdzliuxiasha = 1; linkLabelsdzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
 
                         }
@@ -28247,19 +28247,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wei)
                             {
-                                ndzliuxiasha = 1;linkLabelndzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                ndzliuxiasha = 1; linkLabelndzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (ydz == wei)
                             {
-                                ydzliuxiasha = 1;linkLabelydzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                ydzliuxiasha = 1; linkLabelydzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (rdz == wei)
                             {
-                                rdzliuxiasha = 1;linkLabelrdzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                rdzliuxiasha = 1; linkLabelrdzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (sdz == wei)
                             {
-                                sdzliuxiasha = 1;linkLabelsdzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                sdzliuxiasha = 1; linkLabelsdzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
 
                         }
@@ -28267,19 +28267,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen)
                             {
-                                ndzliuxiasha = 1;linkLabelndzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                ndzliuxiasha = 1; linkLabelndzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (ydz == shen)
                             {
-                                ydzliuxiasha = 1;linkLabelydzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                ydzliuxiasha = 1; linkLabelydzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (rdz == shen)
                             {
-                                rdzliuxiasha = 1;linkLabelrdzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                rdzliuxiasha = 1; linkLabelrdzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (sdz == shen)
                             {
-                                sdzliuxiasha = 1;linkLabelsdzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                sdzliuxiasha = 1; linkLabelsdzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
 
                         }
@@ -28287,19 +28287,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == sii)
                             {
-                                ndzliuxiasha = 1;linkLabelndzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                ndzliuxiasha = 1; linkLabelndzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (ydz == sii)
                             {
-                                ydzliuxiasha = 1;linkLabelydzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                ydzliuxiasha = 1; linkLabelydzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (rdz == sii)
                             {
-                                rdzliuxiasha = 1;linkLabelrdzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                rdzliuxiasha = 1; linkLabelrdzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (sdz == sii)
                             {
-                                sdzliuxiasha = 1;linkLabelsdzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                sdzliuxiasha = 1; linkLabelsdzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
 
                         }
@@ -28307,19 +28307,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wuma)
                             {
-                                ndzliuxiasha = 1;linkLabelndzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                ndzliuxiasha = 1; linkLabelndzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (ydz == wuma)
                             {
-                                ydzliuxiasha = 1;linkLabelydzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                ydzliuxiasha = 1; linkLabelydzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (rdz == wuma)
                             {
-                                rdzliuxiasha = 1;linkLabelrdzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                rdzliuxiasha = 1; linkLabelrdzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (sdz == wuma)
                             {
-                                sdzliuxiasha = 1;linkLabelsdzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                sdzliuxiasha = 1; linkLabelsdzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
 
                         }
@@ -28327,19 +28327,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chen)
                             {
-                                ndzliuxiasha = 1;linkLabelndzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                ndzliuxiasha = 1; linkLabelndzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (ydz == chen)
                             {
-                                ydzliuxiasha = 1;linkLabelydzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                ydzliuxiasha = 1; linkLabelydzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (rdz == chen)
                             {
-                                rdzliuxiasha = 1;linkLabelrdzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                rdzliuxiasha = 1; linkLabelrdzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (sdz == chen)
                             {
-                                sdzliuxiasha = 1;linkLabelsdzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                sdzliuxiasha = 1; linkLabelsdzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
 
                         }
@@ -28347,19 +28347,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == mao)
                             {
-                                ndzliuxiasha = 1;linkLabelndzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                ndzliuxiasha = 1; linkLabelndzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (ydz == mao)
                             {
-                                ydzliuxiasha = 1;linkLabelydzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                ydzliuxiasha = 1; linkLabelydzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (rdz == mao)
                             {
-                                rdzliuxiasha = 1;linkLabelrdzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                rdzliuxiasha = 1; linkLabelrdzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (sdz == mao)
                             {
-                                sdzliuxiasha = 1;linkLabelsdzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                sdzliuxiasha = 1; linkLabelsdzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
 
                         }
@@ -28367,19 +28367,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == hai)
                             {
-                                ndzliuxiasha = 1;linkLabelndzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                ndzliuxiasha = 1; linkLabelndzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (ydz == hai)
                             {
-                                ydzliuxiasha = 1;linkLabelydzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                ydzliuxiasha = 1; linkLabelydzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (rdz == hai)
                             {
-                                rdzliuxiasha = 1;linkLabelrdzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                rdzliuxiasha = 1; linkLabelrdzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (sdz == hai)
                             {
-                                sdzliuxiasha = 1;linkLabelsdzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                sdzliuxiasha = 1; linkLabelsdzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
 
                         }
@@ -28387,19 +28387,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin)
                             {
-                                ndzliuxiasha = 1;linkLabelndzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                ndzliuxiasha = 1; linkLabelndzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (ydz == yin)
                             {
-                                ydzliuxiasha = 1;linkLabelydzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                ydzliuxiasha = 1; linkLabelydzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (rdz == yin)
                             {
-                                rdzliuxiasha = 1;linkLabelrdzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                rdzliuxiasha = 1; linkLabelrdzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
                             if (sdz == yin)
                             {
-                                sdzliuxiasha = 1;linkLabelsdzss1.Text += "流霞-"; 流霞煞真假 = 1;
+                                sdzliuxiasha = 1; linkLabelsdzss1.Text += "流霞-"; 流霞煞真假 = 1;
                             }
 
                         }
@@ -28411,50 +28411,50 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 流霞煞;
                         }
                     }
-                    
+
                     //十灵日
                     if (jia == jia)
                     {
                         int 十灵日真假 = 0;
                         if (rtg == jia && rdz == chen)
                         {
-                            bazipingfen += 100;linkLabelrtgss.Text += "十灵-"; 十灵日真假 = 1;
+                            bazipingfen += 100; linkLabelrtgss.Text += "十灵-"; 十灵日真假 = 1;
                         }
                         if (rtg == yii && rdz == hai)
                         {
-                            bazipingfen += 100;linkLabelrtgss.Text += "十灵-"; 十灵日真假 = 1;
+                            bazipingfen += 100; linkLabelrtgss.Text += "十灵-"; 十灵日真假 = 1;
                         }
                         if (rtg == bing && rdz == chen)
                         {
-                            bazipingfen += 100;linkLabelrtgss.Text += "十灵-"; 十灵日真假 = 1;
+                            bazipingfen += 100; linkLabelrtgss.Text += "十灵-"; 十灵日真假 = 1;
                         }
                         if (rtg == ding && rdz == you)
                         {
-                            bazipingfen += 100;linkLabelrtgss.Text += "十灵-"; 十灵日真假 = 1;
+                            bazipingfen += 100; linkLabelrtgss.Text += "十灵-"; 十灵日真假 = 1;
                         }
                         if (rtg == wuu && rdz == wuma)
                         {
-                            bazipingfen += 100;linkLabelrtgss.Text += "十灵-"; 十灵日真假 = 1;
+                            bazipingfen += 100; linkLabelrtgss.Text += "十灵-"; 十灵日真假 = 1;
                         }
                         if (rtg == geng && rdz == xuu)
                         {
-                            bazipingfen += 100;linkLabelrtgss.Text += "十灵-"; 十灵日真假 = 1;
+                            bazipingfen += 100; linkLabelrtgss.Text += "十灵-"; 十灵日真假 = 1;
                         }
                         if (rtg == geng && rdz == yin)
                         {
-                            bazipingfen += 100;linkLabelrtgss.Text += "十灵-"; 十灵日真假 = 1;
+                            bazipingfen += 100; linkLabelrtgss.Text += "十灵-"; 十灵日真假 = 1;
                         }
                         if (rtg == xin && rdz == hai)
                         {
-                            bazipingfen += 100;linkLabelrtgss.Text += "十灵-"; 十灵日真假 = 1;
+                            bazipingfen += 100; linkLabelrtgss.Text += "十灵-"; 十灵日真假 = 1;
                         }
                         if (rtg == ren && rdz == yin)
                         {
-                            bazipingfen += 100;linkLabelrtgss.Text += "十灵-"; 十灵日真假 = 1;
+                            bazipingfen += 100; linkLabelrtgss.Text += "十灵-"; 十灵日真假 = 1;
                         }
                         if (rtg == gui && rdz == wei)
                         {
-                            bazipingfen += 100;linkLabelrtgss.Text += "十灵-"; 十灵日真假 = 1;
+                            bazipingfen += 100; linkLabelrtgss.Text += "十灵-"; 十灵日真假 = 1;
                         }
 
 
@@ -28465,7 +28465,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 十灵日;
                         }
                     }
-                    
+
                     //禄神
                     if (jia == jia)
                     {
@@ -28474,19 +28474,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin)
                             {
-                                ndzlushen = 1;linkLabelndzss1.Text += "禄神-"; 禄神真假 = 1;
+                                ndzlushen = 1; linkLabelndzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
                             if (ydz == yin)
                             {
-                                ydzlushen = 1;linkLabelydzss1.Text += "禄神-"; 禄神真假 = 1;
+                                ydzlushen = 1; linkLabelydzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
                             if (rdz == yin)
                             {
-                                rdzlushen = 1;linkLabelrdzss1.Text += "禄神-"; 禄神真假 = 1;
+                                rdzlushen = 1; linkLabelrdzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
                             if (sdz == yin)
                             {
-                                sdzlushen = 1;linkLabelsdzss1.Text += "禄神-"; 禄神真假 = 1;
+                                sdzlushen = 1; linkLabelsdzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
 
                         }
@@ -28494,19 +28494,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == mao)
                             {
-                                ndzlushen = 1;linkLabelndzss1.Text += "禄神-"; 禄神真假 = 1;
+                                ndzlushen = 1; linkLabelndzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
                             if (ydz == mao)
                             {
-                                ydzlushen = 1;linkLabelydzss1.Text += "禄神-"; 禄神真假 = 1;
+                                ydzlushen = 1; linkLabelydzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
                             if (rdz == mao)
                             {
-                                rdzlushen = 1;linkLabelrdzss1.Text += "禄神-"; 禄神真假 = 1;
+                                rdzlushen = 1; linkLabelrdzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
                             if (sdz == mao)
                             {
-                                sdzlushen = 1;linkLabelsdzss1.Text += "禄神-"; 禄神真假 = 1;
+                                sdzlushen = 1; linkLabelsdzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
 
                         }
@@ -28514,19 +28514,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == sii)
                             {
-                                ndzlushen = 1;linkLabelndzss1.Text += "禄神-"; 禄神真假 = 1;
+                                ndzlushen = 1; linkLabelndzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
                             if (ydz == sii)
                             {
-                                ydzlushen = 1;linkLabelydzss1.Text += "禄神-"; 禄神真假 = 1;
+                                ydzlushen = 1; linkLabelydzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
                             if (rdz == sii)
                             {
-                                rdzlushen = 1;linkLabelrdzss1.Text += "禄神-"; 禄神真假 = 1;
+                                rdzlushen = 1; linkLabelrdzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
                             if (sdz == sii)
                             {
-                                sdzlushen = 1;linkLabelsdzss1.Text += "禄神-"; 禄神真假 = 1;
+                                sdzlushen = 1; linkLabelsdzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
 
                         }
@@ -28534,19 +28534,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wuma)
                             {
-                                ndzlushen = 1;linkLabelndzss1.Text += "禄神-"; 禄神真假 = 1;
+                                ndzlushen = 1; linkLabelndzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
                             if (ydz == wuma)
                             {
-                                ydzlushen = 1;linkLabelydzss1.Text += "禄神-"; 禄神真假 = 1;
+                                ydzlushen = 1; linkLabelydzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
                             if (rdz == wuma)
                             {
-                                rdzlushen = 1;linkLabelrdzss1.Text += "禄神-"; 禄神真假 = 1;
+                                rdzlushen = 1; linkLabelrdzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
                             if (sdz == wuma)
                             {
-                                sdzlushen = 1;linkLabelsdzss1.Text += "禄神-"; 禄神真假 = 1;
+                                sdzlushen = 1; linkLabelsdzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
 
                         }
@@ -28554,19 +28554,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen)
                             {
-                                ndzlushen = 1;linkLabelndzss1.Text += "禄神-"; 禄神真假 = 1;
+                                ndzlushen = 1; linkLabelndzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
                             if (ydz == shen)
                             {
-                                ydzlushen = 1;linkLabelydzss1.Text += "禄神-"; 禄神真假 = 1;
+                                ydzlushen = 1; linkLabelydzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
                             if (rdz == shen)
                             {
-                                rdzlushen = 1;linkLabelrdzss1.Text += "禄神-"; 禄神真假 = 1;
+                                rdzlushen = 1; linkLabelrdzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
                             if (sdz == shen)
                             {
-                                sdzlushen = 1;linkLabelsdzss1.Text += "禄神-"; 禄神真假 = 1;
+                                sdzlushen = 1; linkLabelsdzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
 
                         }
@@ -28574,19 +28574,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == you)
                             {
-                                ndzlushen = 1;linkLabelndzss1.Text += "禄神-"; 禄神真假 = 1;
+                                ndzlushen = 1; linkLabelndzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
                             if (ydz == you)
                             {
-                                ydzlushen = 1;linkLabelydzss1.Text += "禄神-"; 禄神真假 = 1;
+                                ydzlushen = 1; linkLabelydzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
                             if (rdz == you)
                             {
-                                rdzlushen = 1;linkLabelrdzss1.Text += "禄神-"; 禄神真假 = 1;
+                                rdzlushen = 1; linkLabelrdzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
                             if (sdz == you)
                             {
-                                sdzlushen = 1;linkLabelsdzss1.Text += "禄神-"; 禄神真假 = 1;
+                                sdzlushen = 1; linkLabelsdzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
 
                         }
@@ -28594,19 +28594,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == hai)
                             {
-                                ndzlushen = 1;linkLabelndzss1.Text += "禄神-"; 禄神真假 = 1;
+                                ndzlushen = 1; linkLabelndzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
                             if (ydz == hai)
                             {
-                                ydzlushen = 1;linkLabelydzss1.Text += "禄神-"; 禄神真假 = 1;
+                                ydzlushen = 1; linkLabelydzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
                             if (rdz == hai)
                             {
-                                rdzlushen = 1;linkLabelrdzss1.Text += "禄神-"; 禄神真假 = 1;
+                                rdzlushen = 1; linkLabelrdzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
                             if (sdz == hai)
                             {
-                                sdzlushen = 1;linkLabelsdzss1.Text += "禄神-"; 禄神真假 = 1;
+                                sdzlushen = 1; linkLabelsdzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
 
                         }
@@ -28614,19 +28614,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == zii)
                             {
-                                ndzlushen = 1;linkLabelndzss1.Text += "禄神-"; 禄神真假 = 1;
+                                ndzlushen = 1; linkLabelndzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
                             if (ydz == zii)
                             {
-                                ydzlushen = 1;linkLabelydzss1.Text += "禄神-"; 禄神真假 = 1;
+                                ydzlushen = 1; linkLabelydzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
                             if (rdz == zii)
                             {
-                                rdzlushen = 1;linkLabelrdzss1.Text += "禄神-"; 禄神真假 = 1;
+                                rdzlushen = 1; linkLabelrdzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
                             if (sdz == zii)
                             {
-                                sdzlushen = 1;linkLabelsdzss1.Text += "禄神-"; 禄神真假 = 1;
+                                sdzlushen = 1; linkLabelsdzss1.Text += "禄神-"; 禄神真假 = 1;
                             }
 
                         }
@@ -28637,7 +28637,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 禄神;
                         }
                     }
-                    
+
                     //劫煞
                     if (jia == jia)
                     {
@@ -28646,15 +28646,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == hai)
                             {
-                                ydzjiesha = 1;linkLabelydzss1.Text += "劫煞-"; 劫煞真假 = 1;
+                                ydzjiesha = 1; linkLabelydzss1.Text += "劫煞-"; 劫煞真假 = 1;
                             }
                             if (ndz == hai)
                             {
-                                ndzjiesha = 1;linkLabelndzss1.Text += "劫煞-"; 劫煞真假 = 1;
+                                ndzjiesha = 1; linkLabelndzss1.Text += "劫煞-"; 劫煞真假 = 1;
                             }
                             if (sdz == hai)
                             {
-                                sdzjiesha = 1;linkLabelsdzss1.Text += "劫煞-"; 劫煞真假 = 1;
+                                sdzjiesha = 1; linkLabelsdzss1.Text += "劫煞-"; 劫煞真假 = 1;
                             }
 
                         }
@@ -28662,15 +28662,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == yin)
                             {
-                                ydzjiesha = 1;linkLabelydzss1.Text += "劫煞-"; 劫煞真假 = 1;
+                                ydzjiesha = 1; linkLabelydzss1.Text += "劫煞-"; 劫煞真假 = 1;
                             }
                             if (ndz == yin)
                             {
-                                ndzjiesha = 1;linkLabelndzss1.Text += "劫煞-"; 劫煞真假 = 1;
+                                ndzjiesha = 1; linkLabelndzss1.Text += "劫煞-"; 劫煞真假 = 1;
                             }
                             if (sdz == yin)
                             {
-                                sdzjiesha = 1;linkLabelsdzss1.Text += "劫煞-"; 劫煞真假 = 1;
+                                sdzjiesha = 1; linkLabelsdzss1.Text += "劫煞-"; 劫煞真假 = 1;
                             }
 
                         }
@@ -28678,15 +28678,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == sii)
                             {
-                                ydzjiesha = 1;linkLabelydzss1.Text += "劫煞-"; 劫煞真假 = 1;
+                                ydzjiesha = 1; linkLabelydzss1.Text += "劫煞-"; 劫煞真假 = 1;
                             }
                             if (ndz == sii)
                             {
-                                ndzjiesha = 1;linkLabelndzss1.Text += "劫煞-"; 劫煞真假 = 1;
+                                ndzjiesha = 1; linkLabelndzss1.Text += "劫煞-"; 劫煞真假 = 1;
                             }
                             if (sdz == sii)
                             {
-                                sdzjiesha = 1;linkLabelsdzss1.Text += "劫煞-"; 劫煞真假 = 1;
+                                sdzjiesha = 1; linkLabelsdzss1.Text += "劫煞-"; 劫煞真假 = 1;
                             }
 
                         }
@@ -28694,15 +28694,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == shen)
                             {
-                                ydzjiesha = 1;linkLabelydzss1.Text += "劫煞-"; 劫煞真假 = 1;
+                                ydzjiesha = 1; linkLabelydzss1.Text += "劫煞-"; 劫煞真假 = 1;
                             }
                             if (ndz == shen)
                             {
-                                ndzjiesha = 1;linkLabelndzss1.Text += "劫煞-"; 劫煞真假 = 1;
+                                ndzjiesha = 1; linkLabelndzss1.Text += "劫煞-"; 劫煞真假 = 1;
                             }
                             if (sdz == shen)
                             {
-                                sdzjiesha = 1;linkLabelsdzss1.Text += "劫煞-"; 劫煞真假 = 1;
+                                sdzjiesha = 1; linkLabelsdzss1.Text += "劫煞-"; 劫煞真假 = 1;
                             }
 
                         }
@@ -28715,7 +28715,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 劫煞;
                         }
                     }
-                    
+
                     //亡神
                     if (jia == jia)
                     {
@@ -28724,15 +28724,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == sii)
                             {
-                                ydzwangshen += 1;linkLabelydzss1.Text += "亡神-"; 亡神真假 = 1;
+                                ydzwangshen += 1; linkLabelydzss1.Text += "亡神-"; 亡神真假 = 1;
                             }
                             if (ndz == sii)
                             {
-                                ndzwangshen += 1;linkLabelndzss1.Text += "亡神-"; 亡神真假 = 1;
+                                ndzwangshen += 1; linkLabelndzss1.Text += "亡神-"; 亡神真假 = 1;
                             }
                             if (sdz == sii)
                             {
-                                sdzwangshen += 1;linkLabelsdzss1.Text += "亡神-"; 亡神真假 = 1;
+                                sdzwangshen += 1; linkLabelsdzss1.Text += "亡神-"; 亡神真假 = 1;
                             }
 
                         }
@@ -28740,15 +28740,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == shen)
                             {
-                                ydzwangshen += 1;linkLabelydzss1.Text += "亡神-"; 亡神真假 = 1;
+                                ydzwangshen += 1; linkLabelydzss1.Text += "亡神-"; 亡神真假 = 1;
                             }
                             if (ndz == shen)
                             {
-                                ndzwangshen += 1;linkLabelndzss1.Text += "亡神-"; 亡神真假 = 1;
+                                ndzwangshen += 1; linkLabelndzss1.Text += "亡神-"; 亡神真假 = 1;
                             }
                             if (sdz == shen)
                             {
-                                sdzwangshen += 1;linkLabelsdzss1.Text += "亡神-"; 亡神真假 = 1;
+                                sdzwangshen += 1; linkLabelsdzss1.Text += "亡神-"; 亡神真假 = 1;
                             }
 
                         }
@@ -28756,15 +28756,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == hai)
                             {
-                                ydzwangshen += 1;linkLabelydzss1.Text += "亡神-"; 亡神真假 = 1;
+                                ydzwangshen += 1; linkLabelydzss1.Text += "亡神-"; 亡神真假 = 1;
                             }
                             if (ndz == hai)
                             {
-                                ndzwangshen += 1;linkLabelndzss1.Text += "亡神-"; 亡神真假 = 1;
+                                ndzwangshen += 1; linkLabelndzss1.Text += "亡神-"; 亡神真假 = 1;
                             }
                             if (sdz == hai)
                             {
-                                sdzwangshen += 1;linkLabelsdzss1.Text += "亡神-"; 亡神真假 = 1;
+                                sdzwangshen += 1; linkLabelsdzss1.Text += "亡神-"; 亡神真假 = 1;
                             }
 
                         }
@@ -28772,15 +28772,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == yin)
                             {
-                                ydzwangshen += 1;linkLabelydzss1.Text += "亡神-"; 亡神真假 = 1;
+                                ydzwangshen += 1; linkLabelydzss1.Text += "亡神-"; 亡神真假 = 1;
                             }
                             if (ndz == yin)
                             {
-                                ndzwangshen += 1;linkLabelndzss1.Text += "亡神-"; 亡神真假 = 1;
+                                ndzwangshen += 1; linkLabelndzss1.Text += "亡神-"; 亡神真假 = 1;
                             }
                             if (sdz == yin)
                             {
-                                sdzwangshen += 1;linkLabelsdzss1.Text += "亡神-"; 亡神真假 = 1;
+                                sdzwangshen += 1; linkLabelsdzss1.Text += "亡神-"; 亡神真假 = 1;
                             }
 
                         }
@@ -28788,15 +28788,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == sii)
                             {
-                                ydzwangshen += 1;linkLabelydzss2.Text += "亡神-"; 亡神真假 = 1;
+                                ydzwangshen += 1; linkLabelydzss2.Text += "亡神-"; 亡神真假 = 1;
                             }
                             if (rdz == sii)
                             {
-                                rdzwangshen += 1;linkLabelrdzss2.Text += "亡神-"; 亡神真假 = 1;
+                                rdzwangshen += 1; linkLabelrdzss2.Text += "亡神-"; 亡神真假 = 1;
                             }
                             if (sdz == sii)
                             {
-                                sdzwangshen += 1;linkLabelsdzss2.Text += "亡神-"; 亡神真假 = 1;
+                                sdzwangshen += 1; linkLabelsdzss2.Text += "亡神-"; 亡神真假 = 1;
                             }
 
                         }
@@ -28804,15 +28804,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == shen)
                             {
-                                ydzwangshen += 1;linkLabelydzss2.Text += "亡神-"; 亡神真假 = 1;
+                                ydzwangshen += 1; linkLabelydzss2.Text += "亡神-"; 亡神真假 = 1;
                             }
                             if (rdz == shen)
                             {
-                                rdzwangshen += 1;linkLabelrdzss2.Text += "亡神-"; 亡神真假 = 1;
+                                rdzwangshen += 1; linkLabelrdzss2.Text += "亡神-"; 亡神真假 = 1;
                             }
                             if (sdz == shen)
                             {
-                                sdzwangshen += 1;linkLabelsdzss2.Text += "亡神-"; 亡神真假 = 1;
+                                sdzwangshen += 1; linkLabelsdzss2.Text += "亡神-"; 亡神真假 = 1;
                             }
 
                         }
@@ -28820,15 +28820,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == hai)
                             {
-                                ydzwangshen += 1;linkLabelydzss2.Text += "亡神-"; 亡神真假 = 1;
+                                ydzwangshen += 1; linkLabelydzss2.Text += "亡神-"; 亡神真假 = 1;
                             }
                             if (rdz == hai)
                             {
-                                rdzwangshen += 1;linkLabelrdzss2.Text += "亡神-"; 亡神真假 = 1;
+                                rdzwangshen += 1; linkLabelrdzss2.Text += "亡神-"; 亡神真假 = 1;
                             }
                             if (sdz == hai)
                             {
-                                sdzwangshen += 1;linkLabelsdzss2.Text += "亡神-"; 亡神真假 = 1;
+                                sdzwangshen += 1; linkLabelsdzss2.Text += "亡神-"; 亡神真假 = 1;
                             }
 
                         }
@@ -28836,15 +28836,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == yin)
                             {
-                                ydzwangshen += 1;linkLabelydzss2.Text += "亡神-"; 亡神真假 = 1;
+                                ydzwangshen += 1; linkLabelydzss2.Text += "亡神-"; 亡神真假 = 1;
                             }
                             if (rdz == yin)
                             {
-                                rdzwangshen += 1;linkLabelrdzss2.Text += "亡神-"; 亡神真假 = 1;
+                                rdzwangshen += 1; linkLabelrdzss2.Text += "亡神-"; 亡神真假 = 1;
                             }
                             if (sdz == yin)
                             {
-                                sdzwangshen += 1;linkLabelsdzss2.Text += "亡神-"; 亡神真假 = 1;
+                                sdzwangshen += 1; linkLabelsdzss2.Text += "亡神-"; 亡神真假 = 1;
                             }
 
                         }
@@ -28857,7 +28857,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 亡神;
                         }
                     }
-                    
+
                     //将星
                     if (jia == jia)
                     {
@@ -28866,15 +28866,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == wuma)
                             {
-                                ydzjiangxing += 1;linkLabelydzss1.Text += "将星-"; 将星真假 = 1;
+                                ydzjiangxing += 1; linkLabelydzss1.Text += "将星-"; 将星真假 = 1;
                             }
                             if (ndz == wuma)
                             {
-                                ndzjiangxing += 1;linkLabelndzss1.Text += "将星-"; 将星真假 = 1;
+                                ndzjiangxing += 1; linkLabelndzss1.Text += "将星-"; 将星真假 = 1;
                             }
                             if (sdz == wuma)
                             {
-                                sdzjiangxing += 1;linkLabelsdzss1.Text += "将星-"; 将星真假 = 1;
+                                sdzjiangxing += 1; linkLabelsdzss1.Text += "将星-"; 将星真假 = 1;
                             }
 
                         }
@@ -28882,15 +28882,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == you)
                             {
-                                ydzjiangxing += 1;linkLabelydzss1.Text += "将星-"; 将星真假 = 1;
+                                ydzjiangxing += 1; linkLabelydzss1.Text += "将星-"; 将星真假 = 1;
                             }
                             if (ndz == you)
                             {
-                                ndzjiangxing += 1;linkLabelndzss1.Text += "将星-"; 将星真假 = 1;
+                                ndzjiangxing += 1; linkLabelndzss1.Text += "将星-"; 将星真假 = 1;
                             }
                             if (sdz == you)
                             {
-                                sdzjiangxing += 1;linkLabelsdzss1.Text += "将星-"; 将星真假 = 1;
+                                sdzjiangxing += 1; linkLabelsdzss1.Text += "将星-"; 将星真假 = 1;
                             }
 
                         }
@@ -28898,15 +28898,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == zii)
                             {
-                                ydzjiangxing += 1;linkLabelydzss1.Text += "将星-"; 将星真假 = 1;
+                                ydzjiangxing += 1; linkLabelydzss1.Text += "将星-"; 将星真假 = 1;
                             }
                             if (ndz == zii)
                             {
-                                ndzjiangxing += 1;linkLabelndzss1.Text += "将星-"; 将星真假 = 1;
+                                ndzjiangxing += 1; linkLabelndzss1.Text += "将星-"; 将星真假 = 1;
                             }
                             if (sdz == zii)
                             {
-                                sdzjiangxing += 1;linkLabelsdzss1.Text += "将星-"; 将星真假 = 1;
+                                sdzjiangxing += 1; linkLabelsdzss1.Text += "将星-"; 将星真假 = 1;
                             }
 
                         }
@@ -28914,15 +28914,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == mao)
                             {
-                                ydzjiangxing += 1;linkLabelydzss1.Text += "将星-"; 将星真假 = 1;
+                                ydzjiangxing += 1; linkLabelydzss1.Text += "将星-"; 将星真假 = 1;
                             }
                             if (ndz == mao)
                             {
-                                ndzjiangxing += 1;linkLabelndzss1.Text += "将星-"; 将星真假 = 1;
+                                ndzjiangxing += 1; linkLabelndzss1.Text += "将星-"; 将星真假 = 1;
                             }
                             if (sdz == mao)
                             {
-                                sdzjiangxing += 1;linkLabelsdzss1.Text += "将星-"; 将星真假 = 1;
+                                sdzjiangxing += 1; linkLabelsdzss1.Text += "将星-"; 将星真假 = 1;
                             }
 
                         }
@@ -28930,15 +28930,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == wuma)
                             {
-                                ydzjiangxing += 1;linkLabelydzss2.Text += "将星-"; 将星真假 = 1;
+                                ydzjiangxing += 1; linkLabelydzss2.Text += "将星-"; 将星真假 = 1;
                             }
                             if (rdz == wuma)
                             {
-                                rdzjiangxing += 1;linkLabelrdzss2.Text += "将星-"; 将星真假 = 1;
+                                rdzjiangxing += 1; linkLabelrdzss2.Text += "将星-"; 将星真假 = 1;
                             }
                             if (sdz == wuma)
                             {
-                                sdzjiangxing += 1;linkLabelsdzss2.Text += "将星-"; 将星真假 = 1;
+                                sdzjiangxing += 1; linkLabelsdzss2.Text += "将星-"; 将星真假 = 1;
                             }
 
                         }
@@ -28946,15 +28946,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == you)
                             {
-                                ydzjiangxing += 1;linkLabelydzss2.Text += "将星-"; 将星真假 = 1;
+                                ydzjiangxing += 1; linkLabelydzss2.Text += "将星-"; 将星真假 = 1;
                             }
                             if (rdz == you)
                             {
-                                rdzjiangxing += 1;linkLabelrdzss2.Text += "将星-"; 将星真假 = 1;
+                                rdzjiangxing += 1; linkLabelrdzss2.Text += "将星-"; 将星真假 = 1;
                             }
                             if (sdz == you)
                             {
-                                sdzjiangxing += 1;linkLabelsdzss2.Text += "将星-"; 将星真假 = 1;
+                                sdzjiangxing += 1; linkLabelsdzss2.Text += "将星-"; 将星真假 = 1;
                             }
 
                         }
@@ -28962,15 +28962,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == zii)
                             {
-                                ydzjiangxing += 1;linkLabelydzss2.Text += "将星-"; 将星真假 = 1;
+                                ydzjiangxing += 1; linkLabelydzss2.Text += "将星-"; 将星真假 = 1;
                             }
                             if (rdz == zii)
                             {
-                                rdzjiangxing += 1;linkLabelrdzss2.Text += "将星-"; 将星真假 = 1;
+                                rdzjiangxing += 1; linkLabelrdzss2.Text += "将星-"; 将星真假 = 1;
                             }
                             if (sdz == zii)
                             {
-                                sdzjiangxing += 1;linkLabelsdzss2.Text += "将星-"; 将星真假 = 1;
+                                sdzjiangxing += 1; linkLabelsdzss2.Text += "将星-"; 将星真假 = 1;
                             }
 
                         }
@@ -28978,15 +28978,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == mao)
                             {
-                                ydzjiangxing += 1;linkLabelydzss2.Text += "将星-"; 将星真假 = 1;
+                                ydzjiangxing += 1; linkLabelydzss2.Text += "将星-"; 将星真假 = 1;
                             }
                             if (rdz == mao)
                             {
-                                rdzjiangxing += 1;linkLabelrdzss2.Text += "将星-"; 将星真假 = 1;
+                                rdzjiangxing += 1; linkLabelrdzss2.Text += "将星-"; 将星真假 = 1;
                             }
                             if (sdz == mao)
                             {
-                                sdzjiangxing += 1;linkLabelsdzss2.Text += "将星-"; 将星真假 = 1;
+                                sdzjiangxing += 1; linkLabelsdzss2.Text += "将星-"; 将星真假 = 1;
                             }
 
                         }
@@ -28999,7 +28999,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 将星;
                         }
                     }
-                    
+
                     //三奇贵人
                     if (jia == jia)
                     {
@@ -29078,27 +29078,27 @@ namespace BaZiFuZuGongJu
                         int 金神真假 = 0;
                         if (rtg == yii && rdz == chou)
                         {
-                            rdzjinshen = 1;linkLabelrtgss.Text += "金神-"; 金神真假 = 1;
+                            rdzjinshen = 1; linkLabelrtgss.Text += "金神-"; 金神真假 = 1;
                         }
                         if (stg == yii && sdz == chou)
                         {
-                            sdzjinshen = 1;linkLabelstgss.Text += "金神-"; 金神真假 = 1;
+                            sdzjinshen = 1; linkLabelstgss.Text += "金神-"; 金神真假 = 1;
                         }
                         if (rtg == jii && rdz == sii)
                         {
-                            rdzjinshen = 1;linkLabelrtgss.Text += "金神-"; 金神真假 = 1;
+                            rdzjinshen = 1; linkLabelrtgss.Text += "金神-"; 金神真假 = 1;
                         }
                         if (stg == jii && sdz == sii)
                         {
-                            sdzjinshen = 1;linkLabelstgss.Text += "金神-"; 金神真假 = 1;
+                            sdzjinshen = 1; linkLabelstgss.Text += "金神-"; 金神真假 = 1;
                         }
                         if (rtg == gui && rdz == you)
                         {
-                            rdzjinshen = 1;linkLabelrtgss.Text += "金神-"; 金神真假 = 1;
+                            rdzjinshen = 1; linkLabelrtgss.Text += "金神-"; 金神真假 = 1;
                         }
                         if (stg == gui && sdz == you)
                         {
-                            sdzjinshen = 1;linkLabelstgss.Text += "金神-"; 金神真假 = 1;
+                            sdzjinshen = 1; linkLabelstgss.Text += "金神-"; 金神真假 = 1;
                         }
 
                         if (金神真假 == 1)
@@ -29108,7 +29108,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 金神;
                         }
                     }
-                    
+
                     //魁罡
                     if (jia == jia)
                     {
@@ -29145,19 +29145,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin || ndz == zii)
                             {
-                                ndzfuxing += 1;linkLabelndzss1.Text += "福星-"; 福星真假 = 1;
+                                ndzfuxing += 1; linkLabelndzss1.Text += "福星-"; 福星真假 = 1;
                             }
                             if (ydz == yin || ydz == zii)
                             {
-                                ydzfuxing += 1;linkLabelydzss1.Text += "福星-"; 福星真假 = 1;
+                                ydzfuxing += 1; linkLabelydzss1.Text += "福星-"; 福星真假 = 1;
                             }
                             if (rdz == yin || rdz == zii)
                             {
-                                rdzfuxing += 1;linkLabelrdzss1.Text += "福星-"; 福星真假 = 1;
+                                rdzfuxing += 1; linkLabelrdzss1.Text += "福星-"; 福星真假 = 1;
                             }
                             if (sdz == yin || sdz == zii)
                             {
-                                sdzfuxing += 1;linkLabelsdzss1.Text += "福星-"; 福星真假 = 1;
+                                sdzfuxing += 1; linkLabelsdzss1.Text += "福星-"; 福星真假 = 1;
                             }
 
                         }
@@ -29165,19 +29165,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == mao || ndz == chou)
                             {
-                                ndzfuxing += 1;linkLabelndzss1.Text += "福星-"; 福星真假 = 1;
+                                ndzfuxing += 1; linkLabelndzss1.Text += "福星-"; 福星真假 = 1;
                             }
                             if (ydz == mao || ydz == chou)
                             {
-                                ydzfuxing += 1;linkLabelydzss1.Text += "福星-"; 福星真假 = 1;
+                                ydzfuxing += 1; linkLabelydzss1.Text += "福星-"; 福星真假 = 1;
                             }
                             if (rdz == mao || rdz == chou)
                             {
-                                rdzfuxing += 1;linkLabelrdzss1.Text += "福星-"; 福星真假 = 1;
+                                rdzfuxing += 1; linkLabelrdzss1.Text += "福星-"; 福星真假 = 1;
                             }
                             if (sdz == mao || sdz == chou)
                             {
-                                sdzfuxing += 1;linkLabelsdzss1.Text += "福星-"; 福星真假 = 1;
+                                sdzfuxing += 1; linkLabelsdzss1.Text += "福星-"; 福星真假 = 1;
                             }
 
                         }
@@ -29185,19 +29185,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen)
                             {
-                                ndzfuxing += 1;linkLabelndzss1.Text += "福星-"; 福星真假 = 1;
+                                ndzfuxing += 1; linkLabelndzss1.Text += "福星-"; 福星真假 = 1;
                             }
                             if (ydz == shen)
                             {
-                                ydzfuxing += 1;linkLabelydzss1.Text += "福星-"; 福星真假 = 1;
+                                ydzfuxing += 1; linkLabelydzss1.Text += "福星-"; 福星真假 = 1;
                             }
                             if (rdz == shen)
                             {
-                                rdzfuxing += 1;linkLabelrdzss1.Text += "福星-"; 福星真假 = 1;
+                                rdzfuxing += 1; linkLabelrdzss1.Text += "福星-"; 福星真假 = 1;
                             }
                             if (sdz == shen)
                             {
-                                sdzfuxing += 1;linkLabelsdzss1.Text += "福星-"; 福星真假 = 1;
+                                sdzfuxing += 1; linkLabelsdzss1.Text += "福星-"; 福星真假 = 1;
                             }
 
                         }
@@ -29205,19 +29205,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wei)
                             {
-                                ndzfuxing += 1;linkLabelndzss1.Text += "福星-"; 福星真假 = 1;
+                                ndzfuxing += 1; linkLabelndzss1.Text += "福星-"; 福星真假 = 1;
                             }
                             if (ydz == wei)
                             {
-                                ydzfuxing += 1;linkLabelydzss1.Text += "福星-"; 福星真假 = 1;
+                                ydzfuxing += 1; linkLabelydzss1.Text += "福星-"; 福星真假 = 1;
                             }
                             if (rdz == wei)
                             {
-                                rdzfuxing += 1;linkLabelrdzss1.Text += "福星-"; 福星真假 = 1;
+                                rdzfuxing += 1; linkLabelrdzss1.Text += "福星-"; 福星真假 = 1;
                             }
                             if (sdz == wei)
                             {
-                                sdzfuxing += 1;linkLabelsdzss1.Text += "福星-"; 福星真假 = 1;
+                                sdzfuxing += 1; linkLabelsdzss1.Text += "福星-"; 福星真假 = 1;
                             }
 
                         }
@@ -29225,19 +29225,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wuma)
                             {
-                                ndzfuxing += 1;linkLabelndzss1.Text += "福星-"; 福星真假 = 1;
+                                ndzfuxing += 1; linkLabelndzss1.Text += "福星-"; 福星真假 = 1;
                             }
                             if (ydz == wuma)
                             {
-                                ydzfuxing += 1;linkLabelydzss1.Text += "福星-"; 福星真假 = 1;
+                                ydzfuxing += 1; linkLabelydzss1.Text += "福星-"; 福星真假 = 1;
                             }
                             if (rdz == wuma)
                             {
-                                rdzfuxing += 1;linkLabelrdzss1.Text += "福星-"; 福星真假 = 1;
+                                rdzfuxing += 1; linkLabelrdzss1.Text += "福星-"; 福星真假 = 1;
                             }
                             if (sdz == wuma)
                             {
-                                sdzfuxing += 1;linkLabelsdzss1.Text += "福星-"; 福星真假 = 1;
+                                sdzfuxing += 1; linkLabelsdzss1.Text += "福星-"; 福星真假 = 1;
                             }
 
                         }
@@ -29245,19 +29245,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == sii)
                             {
-                                ndzfuxing += 1;linkLabelndzss1.Text += "福星-"; 福星真假 = 1;
+                                ndzfuxing += 1; linkLabelndzss1.Text += "福星-"; 福星真假 = 1;
                             }
                             if (ydz == sii)
                             {
-                                ydzfuxing += 1;linkLabelydzss1.Text += "福星-"; 福星真假 = 1;
+                                ydzfuxing += 1; linkLabelydzss1.Text += "福星-"; 福星真假 = 1;
                             }
                             if (rdz == sii)
                             {
-                                rdzfuxing += 1;linkLabelrdzss1.Text += "福星-"; 福星真假 = 1;
+                                rdzfuxing += 1; linkLabelrdzss1.Text += "福星-"; 福星真假 = 1;
                             }
                             if (sdz == sii)
                             {
-                                sdzfuxing += 1;linkLabelsdzss1.Text += "福星-"; 福星真假 = 1;
+                                sdzfuxing += 1; linkLabelsdzss1.Text += "福星-"; 福星真假 = 1;
                             }
 
                         }
@@ -29265,19 +29265,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == hai)
                             {
-                                ndzfuxing += 1;linkLabelndzss1.Text += "福星-"; 福星真假 = 1;
+                                ndzfuxing += 1; linkLabelndzss1.Text += "福星-"; 福星真假 = 1;
                             }
                             if (ydz == hai)
                             {
-                                ydzfuxing += 1;linkLabelydzss1.Text += "福星-"; 福星真假 = 1;
+                                ydzfuxing += 1; linkLabelydzss1.Text += "福星-"; 福星真假 = 1;
                             }
                             if (rdz == hai)
                             {
-                                rdzfuxing += 1;linkLabelrdzss1.Text += "福星-"; 福星真假 = 1;
+                                rdzfuxing += 1; linkLabelrdzss1.Text += "福星-"; 福星真假 = 1;
                             }
                             if (sdz == hai)
                             {
-                                sdzfuxing += 1;linkLabelsdzss1.Text += "福星-"; 福星真假 = 1;
+                                sdzfuxing += 1; linkLabelsdzss1.Text += "福星-"; 福星真假 = 1;
                             }
 
                         }
@@ -29285,19 +29285,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chen)
                             {
-                                ndzfuxing += 1;linkLabelndzss1.Text += "福星-"; 福星真假 = 1;
+                                ndzfuxing += 1; linkLabelndzss1.Text += "福星-"; 福星真假 = 1;
                             }
                             if (ydz == chen)
                             {
-                                ydzfuxing += 1;linkLabelydzss1.Text += "福星-"; 福星真假 = 1;
+                                ydzfuxing += 1; linkLabelydzss1.Text += "福星-"; 福星真假 = 1;
                             }
                             if (rdz == chen)
                             {
-                                rdzfuxing += 1;linkLabelrdzss1.Text += "福星-"; 福星真假 = 1;
+                                rdzfuxing += 1; linkLabelrdzss1.Text += "福星-"; 福星真假 = 1;
                             }
                             if (sdz == chen)
                             {
-                                sdzfuxing += 1;linkLabelsdzss1.Text += "福星-"; 福星真假 = 1;
+                                sdzfuxing += 1; linkLabelsdzss1.Text += "福星-"; 福星真假 = 1;
                             }
 
                         }
@@ -29305,19 +29305,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin || ndz == zii)
                             {
-                                ndzfuxing += 1;linkLabelndzss2.Text += "福星-"; 福星真假 = 1;
+                                ndzfuxing += 1; linkLabelndzss2.Text += "福星-"; 福星真假 = 1;
                             }
                             if (ydz == yin || ydz == zii)
                             {
-                                ydzfuxing += 1;linkLabelydzss2.Text += "福星-"; 福星真假 = 1;
+                                ydzfuxing += 1; linkLabelydzss2.Text += "福星-"; 福星真假 = 1;
                             }
                             if (rdz == yin || rdz == zii)
                             {
-                                rdzfuxing += 1;linkLabelrdzss2.Text += "福星-"; 福星真假 = 1;
+                                rdzfuxing += 1; linkLabelrdzss2.Text += "福星-"; 福星真假 = 1;
                             }
                             if (sdz == yin || sdz == zii)
                             {
-                                sdzfuxing += 1;linkLabelsdzss2.Text += "福星-"; 福星真假 = 1;
+                                sdzfuxing += 1; linkLabelsdzss2.Text += "福星-"; 福星真假 = 1;
                             }
 
                         }
@@ -29325,19 +29325,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == mao || ndz == chou)
                             {
-                                ndzfuxing += 1;linkLabelndzss2.Text += "福星-"; 福星真假 = 1;
+                                ndzfuxing += 1; linkLabelndzss2.Text += "福星-"; 福星真假 = 1;
                             }
                             if (ydz == mao || ydz == chou)
                             {
-                                ydzfuxing += 1;linkLabelydzss2.Text += "福星-"; 福星真假 = 1;
+                                ydzfuxing += 1; linkLabelydzss2.Text += "福星-"; 福星真假 = 1;
                             }
                             if (rdz == mao || rdz == chou)
                             {
-                                rdzfuxing += 1;linkLabelrdzss2.Text += "福星-"; 福星真假 = 1;
+                                rdzfuxing += 1; linkLabelrdzss2.Text += "福星-"; 福星真假 = 1;
                             }
                             if (sdz == mao || sdz == chou)
                             {
-                                sdzfuxing += 1;linkLabelsdzss2.Text += "福星-"; 福星真假 = 1;
+                                sdzfuxing += 1; linkLabelsdzss2.Text += "福星-"; 福星真假 = 1;
                             }
 
                         }
@@ -29345,19 +29345,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen)
                             {
-                                ndzfuxing += 1;linkLabelndzss2.Text += "福星-"; 福星真假 = 1;
+                                ndzfuxing += 1; linkLabelndzss2.Text += "福星-"; 福星真假 = 1;
                             }
                             if (ydz == shen)
                             {
-                                ydzfuxing += 1;linkLabelydzss2.Text += "福星-"; 福星真假 = 1;
+                                ydzfuxing += 1; linkLabelydzss2.Text += "福星-"; 福星真假 = 1;
                             }
                             if (rdz == shen)
                             {
-                                rdzfuxing += 1;linkLabelrdzss2.Text += "福星-"; 福星真假 = 1;
+                                rdzfuxing += 1; linkLabelrdzss2.Text += "福星-"; 福星真假 = 1;
                             }
                             if (sdz == shen)
                             {
-                                sdzfuxing += 1;linkLabelsdzss2.Text += "福星-"; 福星真假 = 1;
+                                sdzfuxing += 1; linkLabelsdzss2.Text += "福星-"; 福星真假 = 1;
                             }
 
                         }
@@ -29365,19 +29365,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wei)
                             {
-                                ndzfuxing += 1;linkLabelndzss2.Text += "福星-"; 福星真假 = 1;
+                                ndzfuxing += 1; linkLabelndzss2.Text += "福星-"; 福星真假 = 1;
                             }
                             if (ydz == wei)
                             {
-                                ydzfuxing += 1;linkLabelydzss2.Text += "福星-"; 福星真假 = 1;
+                                ydzfuxing += 1; linkLabelydzss2.Text += "福星-"; 福星真假 = 1;
                             }
                             if (rdz == wei)
                             {
-                                rdzfuxing += 1;linkLabelrdzss2.Text += "福星-"; 福星真假 = 1;
+                                rdzfuxing += 1; linkLabelrdzss2.Text += "福星-"; 福星真假 = 1;
                             }
                             if (sdz == wei)
                             {
-                                sdzfuxing += 1;linkLabelsdzss2.Text += "福星-"; 福星真假 = 1;
+                                sdzfuxing += 1; linkLabelsdzss2.Text += "福星-"; 福星真假 = 1;
                             }
 
                         }
@@ -29385,19 +29385,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wuma)
                             {
-                                ndzfuxing += 1;linkLabelndzss2.Text += "福星-"; 福星真假 = 1;
+                                ndzfuxing += 1; linkLabelndzss2.Text += "福星-"; 福星真假 = 1;
                             }
                             if (ydz == wuma)
                             {
-                                ydzfuxing += 1;linkLabelydzss2.Text += "福星-"; 福星真假 = 1;
+                                ydzfuxing += 1; linkLabelydzss2.Text += "福星-"; 福星真假 = 1;
                             }
                             if (rdz == wuma)
                             {
-                                rdzfuxing += 1;linkLabelrdzss2.Text += "福星-"; 福星真假 = 1;
+                                rdzfuxing += 1; linkLabelrdzss2.Text += "福星-"; 福星真假 = 1;
                             }
                             if (sdz == wuma)
                             {
-                                sdzfuxing += 1;linkLabelsdzss2.Text += "福星-"; 福星真假 = 1;
+                                sdzfuxing += 1; linkLabelsdzss2.Text += "福星-"; 福星真假 = 1;
                             }
 
                         }
@@ -29405,19 +29405,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == sii)
                             {
-                                ndzfuxing += 1;linkLabelndzss2.Text += "福星-"; 福星真假 = 1;
+                                ndzfuxing += 1; linkLabelndzss2.Text += "福星-"; 福星真假 = 1;
                             }
                             if (ydz == sii)
                             {
-                                ydzfuxing += 1;linkLabelydzss2.Text += "福星-"; 福星真假 = 1;
+                                ydzfuxing += 1; linkLabelydzss2.Text += "福星-"; 福星真假 = 1;
                             }
                             if (rdz == sii)
                             {
-                                rdzfuxing += 1;linkLabelrdzss2.Text += "福星-"; 福星真假 = 1;
+                                rdzfuxing += 1; linkLabelrdzss2.Text += "福星-"; 福星真假 = 1;
                             }
                             if (sdz == sii)
                             {
-                                sdzfuxing += 1;linkLabelsdzss2.Text += "福星-"; 福星真假 = 1;
+                                sdzfuxing += 1; linkLabelsdzss2.Text += "福星-"; 福星真假 = 1;
                             }
 
                         }
@@ -29425,19 +29425,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == hai)
                             {
-                                ndzfuxing += 1;linkLabelndzss2.Text += "福星-"; 福星真假 = 1;
+                                ndzfuxing += 1; linkLabelndzss2.Text += "福星-"; 福星真假 = 1;
                             }
                             if (ydz == hai)
                             {
-                                ydzfuxing += 1;linkLabelydzss2.Text += "福星-"; 福星真假 = 1;
+                                ydzfuxing += 1; linkLabelydzss2.Text += "福星-"; 福星真假 = 1;
                             }
                             if (rdz == hai)
                             {
-                                rdzfuxing += 1;linkLabelrdzss2.Text += "福星-"; 福星真假 = 1;
+                                rdzfuxing += 1; linkLabelrdzss2.Text += "福星-"; 福星真假 = 1;
                             }
                             if (sdz == hai)
                             {
-                                sdzfuxing += 1;linkLabelsdzss2.Text += "福星-"; 福星真假 = 1;
+                                sdzfuxing += 1; linkLabelsdzss2.Text += "福星-"; 福星真假 = 1;
                             }
 
                         }
@@ -29445,19 +29445,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chen)
                             {
-                                ndzfuxing += 1;linkLabelndzss2.Text += "福星-"; 福星真假 = 1;
+                                ndzfuxing += 1; linkLabelndzss2.Text += "福星-"; 福星真假 = 1;
                             }
                             if (ydz == chen)
                             {
-                                ydzfuxing += 1;linkLabelydzss2.Text += "福星-"; 福星真假 = 1;
+                                ydzfuxing += 1; linkLabelydzss2.Text += "福星-"; 福星真假 = 1;
                             }
                             if (rdz == chen)
                             {
-                                rdzfuxing += 1;linkLabelrdzss2.Text += "福星-"; 福星真假 = 1;
+                                rdzfuxing += 1; linkLabelrdzss2.Text += "福星-"; 福星真假 = 1;
                             }
                             if (sdz == chen)
                             {
-                                sdzfuxing += 1;linkLabelsdzss2.Text += "福星-"; 福星真假 = 1;
+                                sdzfuxing += 1; linkLabelsdzss2.Text += "福星-"; 福星真假 = 1;
                             }
 
                         }
@@ -29469,7 +29469,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 福星;
                         }
                     }
-                    
+
                     //天赦
                     if (jia == jia)
                     {
@@ -29630,19 +29630,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == xuu)
                             {
-                                ndzguoyin += 1;linkLabelndzss1.Text += "国印-"; 国印真假 = 1;
+                                ndzguoyin += 1; linkLabelndzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (ydz == xuu)
                             {
-                                ydzguoyin += 1;linkLabelydzss1.Text += "国印-"; 国印真假 = 1;
+                                ydzguoyin += 1; linkLabelydzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (rdz == xuu)
                             {
-                                rdzguoyin += 1;linkLabelrdzss1.Text += "国印-"; 国印真假 = 1;
+                                rdzguoyin += 1; linkLabelrdzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (sdz == xuu)
                             {
-                                sdzguoyin += 1;linkLabelsdzss1.Text += "国印-"; 国印真假 = 1;
+                                sdzguoyin += 1; linkLabelsdzss1.Text += "国印-"; 国印真假 = 1;
                             }
 
                         }
@@ -29650,19 +29650,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == hai)
                             {
-                                ndzguoyin += 1;linkLabelndzss1.Text += "国印-"; 国印真假 = 1;
+                                ndzguoyin += 1; linkLabelndzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (ydz == hai)
                             {
-                                ydzguoyin += 1;linkLabelydzss1.Text += "国印-"; 国印真假 = 1;
+                                ydzguoyin += 1; linkLabelydzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (rdz == hai)
                             {
-                                rdzguoyin += 1;linkLabelrdzss1.Text += "国印-"; 国印真假 = 1;
+                                rdzguoyin += 1; linkLabelrdzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (sdz == hai)
                             {
-                                sdzguoyin += 1;linkLabelsdzss1.Text += "国印-"; 国印真假 = 1;
+                                sdzguoyin += 1; linkLabelsdzss1.Text += "国印-"; 国印真假 = 1;
                             }
 
                         }
@@ -29670,19 +29670,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chou)
                             {
-                                ndzguoyin += 1;linkLabelndzss1.Text += "国印-"; 国印真假 = 1;
+                                ndzguoyin += 1; linkLabelndzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (ydz == chou)
                             {
-                                ydzguoyin += 1;linkLabelydzss1.Text += "国印-"; 国印真假 = 1;
+                                ydzguoyin += 1; linkLabelydzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (rdz == chou)
                             {
-                                rdzguoyin += 1;linkLabelrdzss1.Text += "国印-"; 国印真假 = 1;
+                                rdzguoyin += 1; linkLabelrdzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (sdz == chou)
                             {
-                                sdzguoyin += 1;linkLabelsdzss1.Text += "国印-"; 国印真假 = 1;
+                                sdzguoyin += 1; linkLabelsdzss1.Text += "国印-"; 国印真假 = 1;
                             }
 
                         }
@@ -29690,19 +29690,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin)
                             {
-                                ndzguoyin += 1;linkLabelndzss1.Text += "国印-"; 国印真假 = 1;
+                                ndzguoyin += 1; linkLabelndzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (ydz == yin)
                             {
-                                ydzguoyin += 1;linkLabelydzss1.Text += "国印-"; 国印真假 = 1;
+                                ydzguoyin += 1; linkLabelydzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (rdz == yin)
                             {
-                                rdzguoyin += 1;linkLabelrdzss1.Text += "国印-"; 国印真假 = 1;
+                                rdzguoyin += 1; linkLabelrdzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (sdz == yin)
                             {
-                                sdzguoyin += 1;linkLabelsdzss1.Text += "国印-"; 国印真假 = 1;
+                                sdzguoyin += 1; linkLabelsdzss1.Text += "国印-"; 国印真假 = 1;
                             }
 
                         }
@@ -29710,19 +29710,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chou)
                             {
-                                ndzguoyin += 1;linkLabelndzss1.Text += "国印-"; 国印真假 = 1;
+                                ndzguoyin += 1; linkLabelndzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (ydz == chou)
                             {
-                                ydzguoyin += 1;linkLabelydzss1.Text += "国印-"; 国印真假 = 1;
+                                ydzguoyin += 1; linkLabelydzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (rdz == chou)
                             {
-                                rdzguoyin += 1;linkLabelrdzss1.Text += "国印-"; 国印真假 = 1;
+                                rdzguoyin += 1; linkLabelrdzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (sdz == chou)
                             {
-                                sdzguoyin += 1;linkLabelsdzss1.Text += "国印-"; 国印真假 = 1;
+                                sdzguoyin += 1; linkLabelsdzss1.Text += "国印-"; 国印真假 = 1;
                             }
 
                         }
@@ -29730,19 +29730,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin)
                             {
-                                ndzguoyin += 1;linkLabelndzss1.Text += "国印-"; 国印真假 = 1;
+                                ndzguoyin += 1; linkLabelndzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (ydz == yin)
                             {
-                                ydzguoyin += 1;linkLabelydzss1.Text += "国印-"; 国印真假 = 1;
+                                ydzguoyin += 1; linkLabelydzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (rdz == yin)
                             {
-                                rdzguoyin += 1;linkLabelrdzss1.Text += "国印-"; 国印真假 = 1;
+                                rdzguoyin += 1; linkLabelrdzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (sdz == yin)
                             {
-                                sdzguoyin += 1;linkLabelsdzss1.Text += "国印-"; 国印真假 = 1;
+                                sdzguoyin += 1; linkLabelsdzss1.Text += "国印-"; 国印真假 = 1;
                             }
 
                         }
@@ -29750,19 +29750,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chen)
                             {
-                                ndzguoyin += 1;linkLabelndzss1.Text += "国印-"; 国印真假 = 1;
+                                ndzguoyin += 1; linkLabelndzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (ydz == chen)
                             {
-                                ydzguoyin += 1;linkLabelydzss1.Text += "国印-"; 国印真假 = 1;
+                                ydzguoyin += 1; linkLabelydzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (rdz == chen)
                             {
-                                rdzguoyin += 1;linkLabelrdzss1.Text += "国印-"; 国印真假 = 1;
+                                rdzguoyin += 1; linkLabelrdzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (sdz == chen)
                             {
-                                sdzguoyin += 1;linkLabelsdzss1.Text += "国印-"; 国印真假 = 1;
+                                sdzguoyin += 1; linkLabelsdzss1.Text += "国印-"; 国印真假 = 1;
                             }
 
                         }
@@ -29770,19 +29770,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == sii)
                             {
-                                ndzguoyin += 1;linkLabelndzss1.Text += "国印-"; 国印真假 = 1;
+                                ndzguoyin += 1; linkLabelndzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (ydz == sii)
                             {
-                                ydzguoyin += 1;linkLabelydzss1.Text += "国印-"; 国印真假 = 1;
+                                ydzguoyin += 1; linkLabelydzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (rdz == sii)
                             {
-                                rdzguoyin += 1;linkLabelrdzss1.Text += "国印-"; 国印真假 = 1;
+                                rdzguoyin += 1; linkLabelrdzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (sdz == sii)
                             {
-                                sdzguoyin += 1;linkLabelsdzss1.Text += "国印-"; 国印真假 = 1;
+                                sdzguoyin += 1; linkLabelsdzss1.Text += "国印-"; 国印真假 = 1;
                             }
 
                         }
@@ -29790,19 +29790,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wei)
                             {
-                                ndzguoyin += 1;linkLabelndzss1.Text += "国印-"; 国印真假 = 1;
+                                ndzguoyin += 1; linkLabelndzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (ydz == wei)
                             {
-                                ydzguoyin += 1;linkLabelydzss1.Text += "国印-"; 国印真假 = 1;
+                                ydzguoyin += 1; linkLabelydzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (rdz == wei)
                             {
-                                rdzguoyin += 1;linkLabelrdzss1.Text += "国印-"; 国印真假 = 1;
+                                rdzguoyin += 1; linkLabelrdzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (sdz == wei)
                             {
-                                sdzguoyin += 1;linkLabelsdzss1.Text += "国印-"; 国印真假 = 1;
+                                sdzguoyin += 1; linkLabelsdzss1.Text += "国印-"; 国印真假 = 1;
                             }
 
                         }
@@ -29810,19 +29810,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen)
                             {
-                                ndzguoyin += 1;linkLabelndzss1.Text += "国印-"; 国印真假 = 1;
+                                ndzguoyin += 1; linkLabelndzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (ydz == shen)
                             {
-                                ydzguoyin += 1;linkLabelydzss1.Text += "国印-"; 国印真假 = 1;
+                                ydzguoyin += 1; linkLabelydzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (rdz == shen)
                             {
-                                rdzguoyin += 1;linkLabelrdzss1.Text += "国印-"; 国印真假 = 1;
+                                rdzguoyin += 1; linkLabelrdzss1.Text += "国印-"; 国印真假 = 1;
                             }
                             if (sdz == shen)
                             {
-                                sdzguoyin += 1;linkLabelsdzss1.Text += "国印-"; 国印真假 = 1;
+                                sdzguoyin += 1; linkLabelsdzss1.Text += "国印-"; 国印真假 = 1;
                             }
 
                         }
@@ -29834,7 +29834,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 国印;
                         }
                     }
-                    
+
                     //天官贵人
                     if (jia == jia)
                     {
@@ -29843,19 +29843,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wei)
                             {
-                                ndzguoyin += 1;linkLabelndzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                ndzguoyin += 1; linkLabelndzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (ydz == wei)
                             {
-                                ydzguoyin += 1;linkLabelydzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                ydzguoyin += 1; linkLabelydzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (rdz == wei)
                             {
-                                rdzguoyin += 1;linkLabelrdzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                rdzguoyin += 1; linkLabelrdzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (sdz == wei)
                             {
-                                sdzguoyin += 1;linkLabelsdzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                sdzguoyin += 1; linkLabelsdzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
 
                         }
@@ -29863,19 +29863,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chen)
                             {
-                                ndzguoyin += 1;linkLabelndzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                ndzguoyin += 1; linkLabelndzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (ydz == chen)
                             {
-                                ydzguoyin += 1;linkLabelydzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                ydzguoyin += 1; linkLabelydzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (rdz == chen)
                             {
-                                rdzguoyin += 1;linkLabelrdzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                rdzguoyin += 1; linkLabelrdzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (sdz == chen)
                             {
-                                sdzguoyin += 1;linkLabelsdzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                sdzguoyin += 1; linkLabelsdzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
 
                         }
@@ -29883,19 +29883,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == sii)
                             {
-                                ndzguoyin += 1;linkLabelndzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                ndzguoyin += 1; linkLabelndzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (ydz == sii)
                             {
-                                ydzguoyin += 1;linkLabelydzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                ydzguoyin += 1; linkLabelydzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (rdz == sii)
                             {
-                                rdzguoyin += 1;linkLabelrdzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                rdzguoyin += 1; linkLabelrdzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (sdz == sii)
                             {
-                                sdzguoyin += 1;linkLabelsdzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                sdzguoyin += 1; linkLabelsdzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
 
                         }
@@ -29903,19 +29903,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == you)
                             {
-                                ndzguoyin += 1;linkLabelndzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                ndzguoyin += 1; linkLabelndzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (ydz == you)
                             {
-                                ydzguoyin += 1;linkLabelydzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                ydzguoyin += 1; linkLabelydzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (rdz == you)
                             {
-                                rdzguoyin += 1;linkLabelrdzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                rdzguoyin += 1; linkLabelrdzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (sdz == you)
                             {
-                                sdzguoyin += 1;linkLabelsdzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                sdzguoyin += 1; linkLabelsdzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
 
                         }
@@ -29923,19 +29923,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == xuu)
                             {
-                                ndzguoyin += 1;linkLabelndzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                ndzguoyin += 1; linkLabelndzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (ydz == xuu)
                             {
-                                ydzguoyin += 1;linkLabelydzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                ydzguoyin += 1; linkLabelydzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (rdz == xuu)
                             {
-                                rdzguoyin += 1;linkLabelrdzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                rdzguoyin += 1; linkLabelrdzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (sdz == xuu)
                             {
-                                sdzguoyin += 1;linkLabelsdzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                sdzguoyin += 1; linkLabelsdzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
 
                         }
@@ -29943,19 +29943,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == mao)
                             {
-                                ndzguoyin += 1;linkLabelndzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                ndzguoyin += 1; linkLabelndzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (ydz == mao)
                             {
-                                ydzguoyin += 1;linkLabelydzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                ydzguoyin += 1; linkLabelydzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (rdz == mao)
                             {
-                                rdzguoyin += 1;linkLabelrdzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                rdzguoyin += 1; linkLabelrdzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (sdz == mao)
                             {
-                                sdzguoyin += 1;linkLabelsdzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                sdzguoyin += 1; linkLabelsdzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
 
                         }
@@ -29963,19 +29963,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chou)
                             {
-                                ndzguoyin += 1;linkLabelndzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                ndzguoyin += 1; linkLabelndzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (ydz == chou)
                             {
-                                ydzguoyin += 1;linkLabelydzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                ydzguoyin += 1; linkLabelydzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (rdz == chou)
                             {
-                                rdzguoyin += 1;linkLabelrdzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                rdzguoyin += 1; linkLabelrdzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (sdz == chou)
                             {
-                                sdzguoyin += 1;linkLabelsdzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                sdzguoyin += 1; linkLabelsdzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
 
                         }
@@ -29983,19 +29983,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen)
                             {
-                                ndzguoyin += 1;linkLabelndzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                ndzguoyin += 1; linkLabelndzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (ydz == shen)
                             {
-                                ydzguoyin += 1;linkLabelydzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                ydzguoyin += 1; linkLabelydzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (rdz == shen)
                             {
-                                rdzguoyin += 1;linkLabelrdzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                rdzguoyin += 1; linkLabelrdzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (sdz == shen)
                             {
-                                sdzguoyin += 1;linkLabelsdzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                sdzguoyin += 1; linkLabelsdzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
 
                         }
@@ -30003,19 +30003,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin)
                             {
-                                ndzguoyin += 1;linkLabelndzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                ndzguoyin += 1; linkLabelndzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (ydz == yin)
                             {
-                                ydzguoyin += 1;linkLabelydzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                ydzguoyin += 1; linkLabelydzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (rdz == yin)
                             {
-                                rdzguoyin += 1;linkLabelrdzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                rdzguoyin += 1; linkLabelrdzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (sdz == yin)
                             {
-                                sdzguoyin += 1;linkLabelsdzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                sdzguoyin += 1; linkLabelsdzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
 
                         }
@@ -30023,19 +30023,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wuma)
                             {
-                                ndzguoyin += 1;linkLabelndzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                ndzguoyin += 1; linkLabelndzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (ydz == wuma)
                             {
-                                ydzguoyin += 1;linkLabelydzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                ydzguoyin += 1; linkLabelydzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (rdz == wuma)
                             {
-                                rdzguoyin += 1;linkLabelrdzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                rdzguoyin += 1; linkLabelrdzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
                             if (sdz == wuma)
                             {
-                                sdzguoyin += 1;linkLabelsdzss1.Text += "天官-"; 天官贵人真假 = 1;
+                                sdzguoyin += 1; linkLabelsdzss1.Text += "天官-"; 天官贵人真假 = 1;
                             }
 
                         }
@@ -30047,7 +30047,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 天官贵人;
                         }
                     }
-                    
+
                     //天德贵人
                     if (jia == jia)
                     {
@@ -30056,19 +30056,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ntg == ding)
                             {
-                                ndztiandeguiren += 1;linkLabelntgss.Text += "天德-"; 天德贵人真假 = 1;
+                                ndztiandeguiren += 1; linkLabelntgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (ytg == ding)
                             {
-                                ydztiandeguiren += 1;linkLabelytgss.Text += "天德-"; 天德贵人真假 = 1;
+                                ydztiandeguiren += 1; linkLabelytgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (rtg == ding)
                             {
-                                rdztiandeguiren += 1;linkLabelrtgss.Text += "天德-"; 天德贵人真假 = 1;
+                                rdztiandeguiren += 1; linkLabelrtgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (stg == ding)
                             {
-                                sdztiandeguiren += 1;linkLabelstgss.Text += "天德-"; 天德贵人真假 = 1;
+                                sdztiandeguiren += 1; linkLabelstgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
 
                         }
@@ -30076,19 +30076,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ntg == xin)
                             {
-                                ndztiandeguiren += 1;linkLabelntgss.Text += "天德-"; 天德贵人真假 = 1;
+                                ndztiandeguiren += 1; linkLabelntgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (ytg == xin)
                             {
-                                ydztiandeguiren += 1;linkLabelytgss.Text += "天德-"; 天德贵人真假 = 1;
+                                ydztiandeguiren += 1; linkLabelytgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (rtg == xin)
                             {
-                                rdztiandeguiren += 1;linkLabelrtgss.Text += "天德-"; 天德贵人真假 = 1;
+                                rdztiandeguiren += 1; linkLabelrtgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (stg == xin)
                             {
-                                sdztiandeguiren += 1;linkLabelstgss.Text += "天德-"; 天德贵人真假 = 1;
+                                sdztiandeguiren += 1; linkLabelstgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
 
                         }
@@ -30096,19 +30096,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ntg == gui)
                             {
-                                ndztiandeguiren += 1;linkLabelntgss.Text += "天德-"; 天德贵人真假 = 1;
+                                ndztiandeguiren += 1; linkLabelntgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (ytg == gui)
                             {
-                                ydztiandeguiren += 1;linkLabelytgss.Text += "天德-"; 天德贵人真假 = 1;
+                                ydztiandeguiren += 1; linkLabelytgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (rtg == gui)
                             {
-                                rdztiandeguiren += 1;linkLabelrtgss.Text += "天德-"; 天德贵人真假 = 1;
+                                rdztiandeguiren += 1; linkLabelrtgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (stg == gui)
                             {
-                                sdztiandeguiren += 1;linkLabelstgss.Text += "天德-"; 天德贵人真假 = 1;
+                                sdztiandeguiren += 1; linkLabelstgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
 
                         }
@@ -30116,19 +30116,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ntg == yii)
                             {
-                                ndztiandeguiren += 1;linkLabelntgss.Text += "天德-"; 天德贵人真假 = 1;
+                                ndztiandeguiren += 1; linkLabelntgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (ytg == yii)
                             {
-                                ydztiandeguiren += 1;linkLabelytgss.Text += "天德-"; 天德贵人真假 = 1;
+                                ydztiandeguiren += 1; linkLabelytgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (rtg == yii)
                             {
-                                rdztiandeguiren += 1;linkLabelrtgss.Text += "天德-"; 天德贵人真假 = 1;
+                                rdztiandeguiren += 1; linkLabelrtgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (stg == yii)
                             {
-                                sdztiandeguiren += 1;linkLabelstgss.Text += "天德-"; 天德贵人真假 = 1;
+                                sdztiandeguiren += 1; linkLabelstgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
 
                         }
@@ -30136,19 +30136,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ntg == ren)
                             {
-                                ndztiandeguiren += 1;linkLabelntgss.Text += "天德-"; 天德贵人真假 = 1;
+                                ndztiandeguiren += 1; linkLabelntgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (ytg == ren)
                             {
-                                ydztiandeguiren += 1;linkLabelytgss.Text += "天德-"; 天德贵人真假 = 1;
+                                ydztiandeguiren += 1; linkLabelytgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (rtg == ren)
                             {
-                                rdztiandeguiren += 1;linkLabelrtgss.Text += "天德-"; 天德贵人真假 = 1;
+                                rdztiandeguiren += 1; linkLabelrtgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (stg == ren)
                             {
-                                sdztiandeguiren += 1;linkLabelstgss.Text += "天德-"; 天德贵人真假 = 1;
+                                sdztiandeguiren += 1; linkLabelstgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
 
                         }
@@ -30156,19 +30156,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ntg == jia)
                             {
-                                ndztiandeguiren += 1;linkLabelntgss.Text += "天德-"; 天德贵人真假 = 1;
+                                ndztiandeguiren += 1; linkLabelntgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (ytg == jia)
                             {
-                                ydztiandeguiren += 1;linkLabelytgss.Text += "天德-"; 天德贵人真假 = 1;
+                                ydztiandeguiren += 1; linkLabelytgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (rtg == jia)
                             {
-                                rdztiandeguiren += 1;linkLabelrtgss.Text += "天德-"; 天德贵人真假 = 1;
+                                rdztiandeguiren += 1; linkLabelrtgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (stg == jia)
                             {
-                                sdztiandeguiren += 1;linkLabelstgss.Text += "天德-"; 天德贵人真假 = 1;
+                                sdztiandeguiren += 1; linkLabelstgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
 
                         }
@@ -30176,19 +30176,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ntg == bing)
                             {
-                                ndztiandeguiren += 1;linkLabelntgss.Text += "天德-"; 天德贵人真假 = 1;
+                                ndztiandeguiren += 1; linkLabelntgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (ytg == bing)
                             {
-                                ydztiandeguiren += 1;linkLabelytgss.Text += "天德-"; 天德贵人真假 = 1;
+                                ydztiandeguiren += 1; linkLabelytgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (rtg == bing)
                             {
-                                rdztiandeguiren += 1;linkLabelrtgss.Text += "天德-"; 天德贵人真假 = 1;
+                                rdztiandeguiren += 1; linkLabelrtgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (stg == bing)
                             {
-                                sdztiandeguiren += 1;linkLabelstgss.Text += "天德-"; 天德贵人真假 = 1;
+                                sdztiandeguiren += 1; linkLabelstgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
 
                         }
@@ -30196,19 +30196,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ntg == geng)
                             {
-                                ndztiandeguiren += 1;linkLabelntgss.Text += "天德-"; 天德贵人真假 = 1;
+                                ndztiandeguiren += 1; linkLabelntgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (ytg == geng)
                             {
-                                ydztiandeguiren += 1;linkLabelytgss.Text += "天德-"; 天德贵人真假 = 1;
+                                ydztiandeguiren += 1; linkLabelytgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (rtg == geng)
                             {
-                                rdztiandeguiren += 1;linkLabelrtgss.Text += "天德-"; 天德贵人真假 = 1;
+                                rdztiandeguiren += 1; linkLabelrtgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (stg == geng)
                             {
-                                sdztiandeguiren += 1;linkLabelstgss.Text += "天德-"; 天德贵人真假 = 1;
+                                sdztiandeguiren += 1; linkLabelstgss.Text += "天德-"; 天德贵人真假 = 1;
                             }
 
                         }
@@ -30216,15 +30216,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen)
                             {
-                                ndztiandeguiren += 1;linkLabelndzss2.Text += "天德-"; 天德贵人真假 = 1;
+                                ndztiandeguiren += 1; linkLabelndzss2.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (rdz == shen)
                             {
-                                rdztiandeguiren += 1;linkLabelrdzss2.Text += "天德-"; 天德贵人真假 = 1;
+                                rdztiandeguiren += 1; linkLabelrdzss2.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (sdz == shen)
                             {
-                                sdztiandeguiren += 1;linkLabelsdzss2.Text += "天德-"; 天德贵人真假 = 1;
+                                sdztiandeguiren += 1; linkLabelsdzss2.Text += "天德-"; 天德贵人真假 = 1;
                             }
 
                         }
@@ -30232,16 +30232,16 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == hai)
                             {
-                                ndztiandeguiren += 1;linkLabelndzss2.Text += "天德-"; 天德贵人真假 = 1;
+                                ndztiandeguiren += 1; linkLabelndzss2.Text += "天德-"; 天德贵人真假 = 1;
                             }
 
                             if (rdz == hai)
                             {
-                                rdztiandeguiren += 1;linkLabelrdzss2.Text += "天德-"; 天德贵人真假 = 1;
+                                rdztiandeguiren += 1; linkLabelrdzss2.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (sdz == hai)
                             {
-                                sdztiandeguiren += 1;linkLabelsdzss2.Text += "天德-"; 天德贵人真假 = 1;
+                                sdztiandeguiren += 1; linkLabelsdzss2.Text += "天德-"; 天德贵人真假 = 1;
                             }
 
                         }
@@ -30249,16 +30249,16 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin)
                             {
-                                ndztiandeguiren += 1;linkLabelndzss2.Text += "天德-"; 天德贵人真假 = 1;
+                                ndztiandeguiren += 1; linkLabelndzss2.Text += "天德-"; 天德贵人真假 = 1;
                             }
 
                             if (rdz == yin)
                             {
-                                rdztiandeguiren += 1;linkLabelrdzss2.Text += "天德-"; 天德贵人真假 = 1;
+                                rdztiandeguiren += 1; linkLabelrdzss2.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (sdz == yin)
                             {
-                                sdztiandeguiren += 1;linkLabelsdzss2.Text += "天德-"; 天德贵人真假 = 1;
+                                sdztiandeguiren += 1; linkLabelsdzss2.Text += "天德-"; 天德贵人真假 = 1;
                             }
 
                         }
@@ -30266,16 +30266,16 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == sii)
                             {
-                                ndztiandeguiren += 1;linkLabelndzss2.Text += "天德-"; 天德贵人真假 = 1;
+                                ndztiandeguiren += 1; linkLabelndzss2.Text += "天德-"; 天德贵人真假 = 1;
                             }
 
                             if (rdz == sii)
                             {
-                                rdztiandeguiren += 1;linkLabelrdzss2.Text += "天德-"; 天德贵人真假 = 1;
+                                rdztiandeguiren += 1; linkLabelrdzss2.Text += "天德-"; 天德贵人真假 = 1;
                             }
                             if (sdz == sii)
                             {
-                                sdztiandeguiren += 1;linkLabelsdzss2.Text += "天德-"; 天德贵人真假 = 1;
+                                sdztiandeguiren += 1; linkLabelsdzss2.Text += "天德-"; 天德贵人真假 = 1;
                             }
 
                         }
@@ -30287,7 +30287,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 天德贵人;
                         }
                     }
-                    
+
                     //月德贵人
                     if (jia == jia)
                     {
@@ -30296,19 +30296,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ntg == bing)
                             {
-                                ndzyuedeguiren += 1;linkLabelntgss.Text += "月德-"; 月德贵人真假 = 1;
+                                ndzyuedeguiren += 1; linkLabelntgss.Text += "月德-"; 月德贵人真假 = 1;
                             }
                             if (ytg == bing)
                             {
-                                ydzyuedeguiren += 1;linkLabelytgss.Text += "月德-"; 月德贵人真假 = 1;
+                                ydzyuedeguiren += 1; linkLabelytgss.Text += "月德-"; 月德贵人真假 = 1;
                             }
                             if (rtg == bing)
                             {
-                                rdzyuedeguiren += 1;linkLabelrtgss.Text += "月德-"; 月德贵人真假 = 1;
+                                rdzyuedeguiren += 1; linkLabelrtgss.Text += "月德-"; 月德贵人真假 = 1;
                             }
                             if (stg == bing)
                             {
-                                sdzyuedeguiren += 1;linkLabelstgss.Text += "月德-"; 月德贵人真假 = 1;
+                                sdzyuedeguiren += 1; linkLabelstgss.Text += "月德-"; 月德贵人真假 = 1;
                             }
 
                         }
@@ -30316,19 +30316,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ntg == ren)
                             {
-                                ndzyuedeguiren += 1;linkLabelntgss.Text += "月德-"; 月德贵人真假 = 1;
+                                ndzyuedeguiren += 1; linkLabelntgss.Text += "月德-"; 月德贵人真假 = 1;
                             }
                             if (ytg == ren)
                             {
-                                ydzyuedeguiren += 1;linkLabelytgss.Text += "月德-"; 月德贵人真假 = 1;
+                                ydzyuedeguiren += 1; linkLabelytgss.Text += "月德-"; 月德贵人真假 = 1;
                             }
                             if (rtg == ren)
                             {
-                                rdzyuedeguiren += 1;linkLabelrtgss.Text += "月德-"; 月德贵人真假 = 1;
+                                rdzyuedeguiren += 1; linkLabelrtgss.Text += "月德-"; 月德贵人真假 = 1;
                             }
                             if (stg == ren)
                             {
-                                sdzyuedeguiren += 1;linkLabelstgss.Text += "月德-"; 月德贵人真假 = 1;
+                                sdzyuedeguiren += 1; linkLabelstgss.Text += "月德-"; 月德贵人真假 = 1;
                             }
 
                         }
@@ -30336,19 +30336,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ntg == jia)
                             {
-                                ndzyuedeguiren += 1;linkLabelntgss.Text += "月德-"; 月德贵人真假 = 1;
+                                ndzyuedeguiren += 1; linkLabelntgss.Text += "月德-"; 月德贵人真假 = 1;
                             }
                             if (ytg == jia)
                             {
-                                ydzyuedeguiren += 1;linkLabelytgss.Text += "月德-"; 月德贵人真假 = 1;
+                                ydzyuedeguiren += 1; linkLabelytgss.Text += "月德-"; 月德贵人真假 = 1;
                             }
                             if (rtg == jia)
                             {
-                                rdzyuedeguiren += 1;linkLabelrtgss.Text += "月德-"; 月德贵人真假 = 1;
+                                rdzyuedeguiren += 1; linkLabelrtgss.Text += "月德-"; 月德贵人真假 = 1;
                             }
                             if (stg == jia)
                             {
-                                sdzyuedeguiren += 1;linkLabelstgss.Text += "月德-"; 月德贵人真假 = 1;
+                                sdzyuedeguiren += 1; linkLabelstgss.Text += "月德-"; 月德贵人真假 = 1;
                             }
 
                         }
@@ -30356,19 +30356,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ntg == geng)
                             {
-                                ndzyuedeguiren += 1;linkLabelntgss.Text += "月德-"; 月德贵人真假 = 1;
+                                ndzyuedeguiren += 1; linkLabelntgss.Text += "月德-"; 月德贵人真假 = 1;
                             }
                             if (ytg == geng)
                             {
-                                ydzyuedeguiren += 1;linkLabelytgss.Text += "月德-"; 月德贵人真假 = 1;
+                                ydzyuedeguiren += 1; linkLabelytgss.Text += "月德-"; 月德贵人真假 = 1;
                             }
                             if (rtg == geng)
                             {
-                                rdzyuedeguiren += 1;linkLabelrtgss.Text += "月德-"; 月德贵人真假 = 1;
+                                rdzyuedeguiren += 1; linkLabelrtgss.Text += "月德-"; 月德贵人真假 = 1;
                             }
                             if (stg == geng)
                             {
-                                sdzyuedeguiren += 1;linkLabelstgss.Text += "月德-"; 月德贵人真假 = 1;
+                                sdzyuedeguiren += 1; linkLabelstgss.Text += "月德-"; 月德贵人真假 = 1;
                             }
 
                         }
@@ -30380,7 +30380,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 月德贵人;
                         }
                     }
-                    
+
                     //大耗
                     if (jia == jia)
                     {
@@ -30393,15 +30393,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == wei)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == wei)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == wei)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30409,15 +30409,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == shen)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == shen)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == shen)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30425,15 +30425,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == you)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == you)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == you)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30441,15 +30441,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == xuu)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == xuu)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == xuu)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30457,15 +30457,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == hai)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == hai)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == hai)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30473,15 +30473,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == zii)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == zii)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == zii)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30489,15 +30489,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == chou)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == chou)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == chou)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30505,15 +30505,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == yin)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == yin)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == yin)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30521,15 +30521,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == mao)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == mao)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == mao)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30537,15 +30537,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == chen)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == chen)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == chen)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30553,15 +30553,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == sii)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == sii)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == sii)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30569,15 +30569,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == wuma)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == wuma)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == wuma)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30593,15 +30593,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == wei)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == wei)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == wei)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30609,15 +30609,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == shen)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == shen)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == shen)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30625,15 +30625,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == you)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == you)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == you)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30641,15 +30641,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == xuu)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == xuu)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == xuu)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30657,15 +30657,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == hai)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == hai)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == hai)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30673,15 +30673,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == zii)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == zii)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == zii)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30689,15 +30689,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == chou)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == chou)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == chou)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30705,15 +30705,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == yin)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == yin)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == yin)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30721,15 +30721,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == mao)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == mao)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == mao)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30737,15 +30737,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == chen)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == chen)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == chen)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30753,15 +30753,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == sii)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == sii)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == sii)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30769,15 +30769,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == wuma)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == wuma)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == wuma)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30793,15 +30793,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == sii)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == sii)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == sii)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30809,15 +30809,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == wuma)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == wuma)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == wuma)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30825,15 +30825,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == wei)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == wei)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == wei)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30841,15 +30841,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == shen)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == shen)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == shen)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30857,15 +30857,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == you)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == you)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == you)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30873,15 +30873,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == xuu)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == xuu)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == xuu)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30889,15 +30889,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == hai)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == hai)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == hai)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30905,15 +30905,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == zii)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == zii)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == zii)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30921,15 +30921,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == chou)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == chou)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == chou)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30937,15 +30937,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == yin)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == yin)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == yin)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30953,15 +30953,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == mao)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == mao)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == mao)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30969,15 +30969,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == chen)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == chen)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == chen)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -30993,15 +30993,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == sii)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == sii)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == sii)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -31009,15 +31009,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == wuma)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == wuma)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == wuma)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -31025,15 +31025,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == wei)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == wei)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == wei)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -31041,15 +31041,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == shen)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == shen)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == shen)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -31057,15 +31057,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == you)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == you)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == you)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -31073,15 +31073,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == xuu)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == xuu)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == xuu)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -31089,15 +31089,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == hai)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == hai)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == hai)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -31105,15 +31105,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == zii)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == zii)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == zii)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -31121,15 +31121,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == chou)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == chou)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == chou)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -31137,15 +31137,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == yin)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == yin)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == yin)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -31153,15 +31153,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == mao)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == mao)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == mao)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -31169,15 +31169,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == chen)
                                     {
-                                        ydzdahao += 1;linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        ydzdahao += 1; linkLabelydzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (rdz == chen)
                                     {
-                                        rdzdahao += 1;linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        rdzdahao += 1; linkLabelrdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
                                     if (sdz == chen)
                                     {
-                                        sdzdahao += 1;linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
+                                        sdzdahao += 1; linkLabelsdzss1.Text += "大耗-"; 大耗真假 = 1;
                                     }
 
                                 }
@@ -31193,7 +31193,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 大耗;
                         }
                     }
-                    
+
                     //破碎
                     if (jia == jia)
                     {
@@ -31202,15 +31202,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == you)
                             {
-                                ndzpuosui += 1;linkLabelndzss1.Text += "破碎-"; 破碎真假 = 1;
+                                ndzpuosui += 1; linkLabelndzss1.Text += "破碎-"; 破碎真假 = 1;
                             }
                             if (rdz == you)
                             {
-                                rdzpuosui += 1;linkLabelrdzss1.Text += "破碎-"; 破碎真假 = 1;
+                                rdzpuosui += 1; linkLabelrdzss1.Text += "破碎-"; 破碎真假 = 1;
                             }
                             if (sdz == you)
                             {
-                                sdzpuosui += 1;linkLabelsdzss1.Text += "破碎-"; 破碎真假 = 1;
+                                sdzpuosui += 1; linkLabelsdzss1.Text += "破碎-"; 破碎真假 = 1;
                             }
 
                         }
@@ -31218,15 +31218,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == sii)
                             {
-                                ndzpuosui += 1;linkLabelndzss1.Text += "破碎-"; 破碎真假 = 1;
+                                ndzpuosui += 1; linkLabelndzss1.Text += "破碎-"; 破碎真假 = 1;
                             }
                             if (rdz == sii)
                             {
-                                rdzpuosui += 1;linkLabelrdzss1.Text += "破碎-"; 破碎真假 = 1;
+                                rdzpuosui += 1; linkLabelrdzss1.Text += "破碎-"; 破碎真假 = 1;
                             }
                             if (sdz == sii)
                             {
-                                sdzpuosui += 1;linkLabelsdzss1.Text += "破碎-"; 破碎真假 = 1;
+                                sdzpuosui += 1; linkLabelsdzss1.Text += "破碎-"; 破碎真假 = 1;
                             }
 
                         }
@@ -31234,15 +31234,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chou)
                             {
-                                ndzpuosui += 1;linkLabelndzss1.Text += "破碎-"; 破碎真假 = 1;
+                                ndzpuosui += 1; linkLabelndzss1.Text += "破碎-"; 破碎真假 = 1;
                             }
                             if (rdz == chou)
                             {
-                                rdzpuosui += 1;linkLabelrdzss1.Text += "破碎-"; 破碎真假 = 1;
+                                rdzpuosui += 1; linkLabelrdzss1.Text += "破碎-"; 破碎真假 = 1;
                             }
                             if (sdz == chou)
                             {
-                                sdzpuosui += 1;linkLabelsdzss1.Text += "破碎-"; 破碎真假 = 1;
+                                sdzpuosui += 1; linkLabelsdzss1.Text += "破碎-"; 破碎真假 = 1;
                             }
 
                         }
@@ -31254,7 +31254,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 破碎;
                         }
                     }
-                    
+
                     //勾绞煞
                     if (jia == jia)
                     {
@@ -31267,15 +31267,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == mao)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == mao)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == mao)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31283,15 +31283,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == chen)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == chen)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == chen)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31299,15 +31299,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == sii)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == sii)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == sii)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31315,15 +31315,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == wuma)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == wuma)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == wuma)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31331,15 +31331,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == wei)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == wei)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == wei)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31347,15 +31347,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == shen)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == shen)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == shen)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31363,15 +31363,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == you)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == you)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == you)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31379,15 +31379,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == xuu)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == xuu)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == xuu)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31395,15 +31395,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == hai)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == hai)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == hai)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31411,15 +31411,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == zii)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == zii)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == zii)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31427,15 +31427,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == chou)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == chou)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == chou)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31443,15 +31443,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == yin)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == yin)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == yin)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31466,15 +31466,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == mao)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == mao)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == mao)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31482,15 +31482,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == chen)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == chen)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == chen)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31498,15 +31498,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == sii)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == sii)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == sii)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31514,15 +31514,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == wuma)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == wuma)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == wuma)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31530,15 +31530,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == wei)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == wei)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == wei)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31546,15 +31546,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == shen)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == shen)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == shen)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31562,15 +31562,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == you)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == you)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == you)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31578,15 +31578,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == xuu)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == xuu)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == xuu)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31594,15 +31594,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == hai)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == hai)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == hai)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31610,15 +31610,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == zii)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == zii)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == zii)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31626,15 +31626,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == chou)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == chou)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == chou)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31642,15 +31642,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == yin)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == yin)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == yin)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31666,15 +31666,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == mao)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == mao)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == mao)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31682,15 +31682,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == chen)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == chen)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == chen)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31698,15 +31698,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == sii)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == sii)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == sii)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31714,15 +31714,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == wuma)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == wuma)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == wuma)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31730,15 +31730,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == wei)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == wei)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == wei)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31746,15 +31746,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == shen)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == shen)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == shen)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31762,15 +31762,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == you)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == you)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == you)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31778,15 +31778,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == xuu)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == xuu)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == xuu)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31794,15 +31794,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == hai)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == hai)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == hai)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31810,15 +31810,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == zii)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == zii)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == zii)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31826,15 +31826,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == chou)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == chou)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == chou)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31842,15 +31842,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == yin)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == yin)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == yin)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31865,15 +31865,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == mao)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == mao)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == mao)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31881,15 +31881,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == chen)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == chen)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == chen)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31897,15 +31897,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == sii)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == sii)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == sii)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31913,15 +31913,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == wuma)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == wuma)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == wuma)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31929,15 +31929,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == wei)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == wei)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == wei)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31945,15 +31945,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == shen)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == shen)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == shen)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31961,15 +31961,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == you)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == you)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == you)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31977,15 +31977,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == xuu)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == xuu)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == xuu)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -31993,15 +31993,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == hai)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == hai)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == hai)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32009,15 +32009,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == zii)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == zii)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == zii)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32025,15 +32025,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == chou)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == chou)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == chou)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32041,15 +32041,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == yin)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == yin)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == yin)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32065,15 +32065,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == you)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == you)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == you)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32081,15 +32081,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == xuu)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == xuu)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == xuu)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32097,15 +32097,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == hai)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == hai)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == hai)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32113,15 +32113,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == zii)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == zii)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == zii)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32129,15 +32129,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == chou)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == chou)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == chou)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32145,15 +32145,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == yin)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == yin)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == yin)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32161,15 +32161,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == mao)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == mao)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == mao)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32177,15 +32177,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == chen)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == chen)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == chen)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32193,15 +32193,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == sii)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == sii)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == sii)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32209,15 +32209,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == wuma)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == wuma)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == wuma)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32225,15 +32225,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == wei)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == wei)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == wei)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32241,15 +32241,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == shen)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == shen)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == shen)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32264,15 +32264,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == you)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == you)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == you)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32280,15 +32280,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == xuu)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == xuu)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == xuu)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32296,15 +32296,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == hai)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == hai)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == hai)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32312,15 +32312,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == zii)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == zii)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == zii)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32328,15 +32328,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == chou)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == chou)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == chou)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32344,15 +32344,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == yin)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == yin)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == yin)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32360,15 +32360,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == mao)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == mao)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == mao)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32376,15 +32376,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == chen)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == chen)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == chen)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32392,15 +32392,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == sii)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == sii)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == sii)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32408,15 +32408,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == wuma)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == wuma)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == wuma)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32424,15 +32424,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == wei)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == wei)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == wei)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32440,15 +32440,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == shen)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == shen)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == shen)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "勾煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32464,15 +32464,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == you)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == you)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == you)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32480,15 +32480,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == xuu)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == xuu)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == xuu)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32496,15 +32496,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == hai)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == hai)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == hai)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32512,15 +32512,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == zii)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == zii)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == zii)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32528,15 +32528,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == chou)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == chou)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == chou)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32544,15 +32544,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == yin)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == yin)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == yin)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32560,15 +32560,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == mao)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == mao)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == mao)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32576,15 +32576,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == chen)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == chen)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == chen)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32592,15 +32592,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == sii)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == sii)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == sii)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32608,15 +32608,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == wuma)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == wuma)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == wuma)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32624,15 +32624,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == wei)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == wei)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == wei)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32640,15 +32640,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == shen)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == shen)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == shen)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32663,15 +32663,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == you)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == you)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == you)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32679,15 +32679,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == xuu)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == xuu)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == xuu)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32695,15 +32695,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == hai)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == hai)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == hai)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32711,15 +32711,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == zii)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == zii)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == zii)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32727,15 +32727,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == chou)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == chou)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == chou)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32743,15 +32743,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == yin)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == yin)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == yin)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32759,15 +32759,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == mao)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == mao)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == mao)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32775,15 +32775,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == chen)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == chen)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == chen)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32791,15 +32791,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == sii)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == sii)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == sii)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32807,15 +32807,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == wuma)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == wuma)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == wuma)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32823,15 +32823,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == wei)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == wei)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == wei)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32839,15 +32839,15 @@ namespace BaZiFuZuGongJu
                                 {
                                     if (ydz == shen)
                                     {
-                                        ydzgoujiaosha += 1;linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        ydzgoujiaosha += 1; linkLabelydzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (rdz == shen)
                                     {
-                                        rdzgoujiaosha += 1;linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        rdzgoujiaosha += 1; linkLabelrdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
                                     if (sdz == shen)
                                     {
-                                        sdzgoujiaosha += 1;linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
+                                        sdzgoujiaosha += 1; linkLabelsdzss1.Text += "绞煞-"; 勾绞煞真假 = 1;
                                     }
 
                                 }
@@ -32862,7 +32862,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 勾绞煞;
                         }
                     }
-                    
+
                     //天狗
                     if (jia == jia)
                     {
@@ -32871,15 +32871,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == xuu)
                             {
-                                ydztiangou += 1;linkLabelydzss1.Text += "天狗-"; 天狗真假 = 1;
+                                ydztiangou += 1; linkLabelydzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
                             if (rdz == xuu)
                             {
-                                rdztiangou += 1;linkLabelrdzss1.Text += "天狗-"; 天狗真假 = 1;
+                                rdztiangou += 1; linkLabelrdzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
                             if (sdz == xuu)
                             {
-                                sdztiangou += 1;linkLabelsdzss1.Text += "天狗-"; 天狗真假 = 1;
+                                sdztiangou += 1; linkLabelsdzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
 
                         }
@@ -32887,15 +32887,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == hai)
                             {
-                                ydztiangou += 1;linkLabelydzss1.Text += "天狗-"; 天狗真假 = 1;
+                                ydztiangou += 1; linkLabelydzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
                             if (rdz == hai)
                             {
-                                rdztiangou += 1;linkLabelrdzss1.Text += "天狗-"; 天狗真假 = 1;
+                                rdztiangou += 1; linkLabelrdzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
                             if (sdz == hai)
                             {
-                                sdztiangou += 1;linkLabelsdzss1.Text += "天狗-"; 天狗真假 = 1;
+                                sdztiangou += 1; linkLabelsdzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
 
                         }
@@ -32903,15 +32903,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == zii)
                             {
-                                ydztiangou += 1;linkLabelydzss1.Text += "天狗-"; 天狗真假 = 1;
+                                ydztiangou += 1; linkLabelydzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
                             if (rdz == zii)
                             {
-                                rdztiangou += 1;linkLabelrdzss1.Text += "天狗-"; 天狗真假 = 1;
+                                rdztiangou += 1; linkLabelrdzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
                             if (sdz == zii)
                             {
-                                sdztiangou += 1;linkLabelsdzss1.Text += "天狗-"; 天狗真假 = 1;
+                                sdztiangou += 1; linkLabelsdzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
 
                         }
@@ -32919,15 +32919,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == chou)
                             {
-                                ydztiangou += 1;linkLabelydzss1.Text += "天狗-"; 天狗真假 = 1;
+                                ydztiangou += 1; linkLabelydzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
                             if (rdz == chou)
                             {
-                                rdztiangou += 1;linkLabelrdzss1.Text += "天狗-"; 天狗真假 = 1;
+                                rdztiangou += 1; linkLabelrdzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
                             if (sdz == chou)
                             {
-                                sdztiangou += 1;linkLabelsdzss1.Text += "天狗-"; 天狗真假 = 1;
+                                sdztiangou += 1; linkLabelsdzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
 
                         }
@@ -32935,15 +32935,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == yin)
                             {
-                                ydztiangou += 1;linkLabelydzss1.Text += "天狗-"; 天狗真假 = 1;
+                                ydztiangou += 1; linkLabelydzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
                             if (rdz == yin)
                             {
-                                rdztiangou += 1;linkLabelrdzss1.Text += "天狗-"; 天狗真假 = 1;
+                                rdztiangou += 1; linkLabelrdzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
                             if (sdz == yin)
                             {
-                                sdztiangou += 1;linkLabelsdzss1.Text += "天狗-"; 天狗真假 = 1;
+                                sdztiangou += 1; linkLabelsdzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
 
                         }
@@ -32951,15 +32951,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == mao)
                             {
-                                ydztiangou += 1;linkLabelydzss1.Text += "天狗-"; 天狗真假 = 1;
+                                ydztiangou += 1; linkLabelydzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
                             if (rdz == mao)
                             {
-                                rdztiangou += 1;linkLabelrdzss1.Text += "天狗-"; 天狗真假 = 1;
+                                rdztiangou += 1; linkLabelrdzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
                             if (sdz == mao)
                             {
-                                sdztiangou += 1;linkLabelsdzss1.Text += "天狗-"; 天狗真假 = 1;
+                                sdztiangou += 1; linkLabelsdzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
 
                         }
@@ -32968,15 +32968,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == chen)
                             {
-                                ydztiangou += 1;linkLabelydzss1.Text += "天狗-"; 天狗真假 = 1;
+                                ydztiangou += 1; linkLabelydzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
                             if (rdz == chen)
                             {
-                                rdztiangou += 1;linkLabelrdzss1.Text += "天狗-"; 天狗真假 = 1;
+                                rdztiangou += 1; linkLabelrdzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
                             if (sdz == chen)
                             {
-                                sdztiangou += 1;linkLabelsdzss1.Text += "天狗-"; 天狗真假 = 1;
+                                sdztiangou += 1; linkLabelsdzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
 
                         }
@@ -32984,15 +32984,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == sii)
                             {
-                                ydztiangou += 1;linkLabelydzss1.Text += "天狗-"; 天狗真假 = 1;
+                                ydztiangou += 1; linkLabelydzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
                             if (rdz == sii)
                             {
-                                rdztiangou += 1;linkLabelrdzss1.Text += "天狗-"; 天狗真假 = 1;
+                                rdztiangou += 1; linkLabelrdzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
                             if (sdz == sii)
                             {
-                                sdztiangou += 1;linkLabelsdzss1.Text += "天狗-"; 天狗真假 = 1;
+                                sdztiangou += 1; linkLabelsdzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
 
                         }
@@ -33000,15 +33000,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == wuma)
                             {
-                                ydztiangou += 1;linkLabelydzss1.Text += "天狗-"; 天狗真假 = 1;
+                                ydztiangou += 1; linkLabelydzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
                             if (rdz == wuma)
                             {
-                                rdztiangou += 1;linkLabelrdzss1.Text += "天狗-"; 天狗真假 = 1;
+                                rdztiangou += 1; linkLabelrdzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
                             if (sdz == wuma)
                             {
-                                sdztiangou += 1;linkLabelsdzss1.Text += "天狗-"; 天狗真假 = 1;
+                                sdztiangou += 1; linkLabelsdzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
 
                         }
@@ -33016,15 +33016,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == wei)
                             {
-                                ydztiangou += 1;linkLabelydzss1.Text += "天狗-"; 天狗真假 = 1;
+                                ydztiangou += 1; linkLabelydzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
                             if (rdz == wei)
                             {
-                                rdztiangou += 1;linkLabelrdzss1.Text += "天狗-"; 天狗真假 = 1;
+                                rdztiangou += 1; linkLabelrdzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
                             if (sdz == wei)
                             {
-                                sdztiangou += 1;linkLabelsdzss1.Text += "天狗-"; 天狗真假 = 1;
+                                sdztiangou += 1; linkLabelsdzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
 
                         }
@@ -33032,15 +33032,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == shen)
                             {
-                                ydztiangou += 1;linkLabelydzss1.Text += "天狗-"; 天狗真假 = 1;
+                                ydztiangou += 1; linkLabelydzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
                             if (rdz == shen)
                             {
-                                rdztiangou += 1;linkLabelrdzss1.Text += "天狗-"; 天狗真假 = 1;
+                                rdztiangou += 1; linkLabelrdzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
                             if (sdz == shen)
                             {
-                                sdztiangou += 1;linkLabelsdzss1.Text += "天狗-"; 天狗真假 = 1;
+                                sdztiangou += 1; linkLabelsdzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
 
                         }
@@ -33048,15 +33048,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == you)
                             {
-                                ydztiangou += 1;linkLabelydzss1.Text += "天狗-"; 天狗真假 = 1;
+                                ydztiangou += 1; linkLabelydzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
                             if (rdz == you)
                             {
-                                rdztiangou += 1;linkLabelrdzss1.Text += "天狗-"; 天狗真假 = 1;
+                                rdztiangou += 1; linkLabelrdzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
                             if (sdz == you)
                             {
-                                sdztiangou += 1;linkLabelsdzss1.Text += "天狗-"; 天狗真假 = 1;
+                                sdztiangou += 1; linkLabelsdzss1.Text += "天狗-"; 天狗真假 = 1;
                             }
 
                         }
@@ -33067,7 +33067,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 天狗;
                         }
                     }
-                    
+
                     //白虎
                     if (jia == jia)
                     {
@@ -33076,15 +33076,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == zii)
                             {
-                                ydzbaihu += 1;linkLabelydzss1.Text += "白虎-"; 白虎真假 = 1;
+                                ydzbaihu += 1; linkLabelydzss1.Text += "白虎-"; 白虎真假 = 1;
                             }
                             if (rdz == zii)
                             {
-                                rdzbaihu += 1;linkLabelrdzss1.Text += "白虎-"; 白虎真假 = 1;
+                                rdzbaihu += 1; linkLabelrdzss1.Text += "白虎-"; 白虎真假 = 1;
                             }
                             if (sdz == zii)
                             {
-                                sdzbaihu += 1;linkLabelsdzss1.Text += "白虎-"; 白虎真假 = 1;
+                                sdzbaihu += 1; linkLabelsdzss1.Text += "白虎-"; 白虎真假 = 1;
                             }
 
                         }
@@ -33092,15 +33092,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == wuma)
                             {
-                                ydzbaihu += 1;linkLabelydzss1.Text += "白虎-"; 白虎真假 = 1;
+                                ydzbaihu += 1; linkLabelydzss1.Text += "白虎-"; 白虎真假 = 1;
                             }
                             if (rdz == wuma)
                             {
-                                rdzbaihu += 1;linkLabelrdzss1.Text += "白虎-"; 白虎真假 = 1;
+                                rdzbaihu += 1; linkLabelrdzss1.Text += "白虎-"; 白虎真假 = 1;
                             }
                             if (sdz == wuma)
                             {
-                                sdzbaihu += 1;linkLabelsdzss1.Text += "白虎-"; 白虎真假 = 1;
+                                sdzbaihu += 1; linkLabelsdzss1.Text += "白虎-"; 白虎真假 = 1;
                             }
 
                         }
@@ -33108,15 +33108,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == you)
                             {
-                                ydzbaihu += 1;linkLabelydzss1.Text += "白虎-"; 白虎真假 = 1;
+                                ydzbaihu += 1; linkLabelydzss1.Text += "白虎-"; 白虎真假 = 1;
                             }
                             if (rdz == you)
                             {
-                                rdzbaihu += 1;linkLabelrdzss1.Text += "白虎-"; 白虎真假 = 1;
+                                rdzbaihu += 1; linkLabelrdzss1.Text += "白虎-"; 白虎真假 = 1;
                             }
                             if (sdz == you)
                             {
-                                sdzbaihu += 1;linkLabelsdzss1.Text += "白虎-"; 白虎真假 = 1;
+                                sdzbaihu += 1; linkLabelsdzss1.Text += "白虎-"; 白虎真假 = 1;
                             }
 
                         }
@@ -33124,15 +33124,15 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == mao)
                             {
-                                ydzbaihu += 1;linkLabelydzss1.Text += "白虎-"; 白虎真假 = 1;
+                                ydzbaihu += 1; linkLabelydzss1.Text += "白虎-"; 白虎真假 = 1;
                             }
                             if (rdz == mao)
                             {
-                                rdzbaihu += 1;linkLabelrdzss1.Text += "白虎-"; 白虎真假 = 1;
+                                rdzbaihu += 1; linkLabelrdzss1.Text += "白虎-"; 白虎真假 = 1;
                             }
                             if (sdz == mao)
                             {
-                                sdzbaihu += 1;linkLabelsdzss1.Text += "白虎-"; 白虎真假 = 1;
+                                sdzbaihu += 1; linkLabelsdzss1.Text += "白虎-"; 白虎真假 = 1;
                             }
 
                         }
@@ -33144,7 +33144,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 白虎;
                         }
                     }
-                    
+
                     //天医
                     if (jia == jia)
                     {
@@ -33349,7 +33349,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 天医;
                         }
                     }
-                    
+
                     //孤辰寡宿
                     if (jia == jia)
                     {
@@ -33358,27 +33358,27 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == yin)
                             {
-                                ydzguchenguasu += 1;linkLabelydzss1.Text += "孤辰-"; 孤辰寡宿真假 = 1;
+                                ydzguchenguasu += 1; linkLabelydzss1.Text += "孤辰-"; 孤辰寡宿真假 = 1;
                             }
                             if (ydz == xuu)
                             {
-                                ydzguchenguasu += 1;linkLabelydzss1.Text += "寡宿-"; 孤辰寡宿真假 = 1;
+                                ydzguchenguasu += 1; linkLabelydzss1.Text += "寡宿-"; 孤辰寡宿真假 = 1;
                             }
                             if (rdz == yin)
                             {
-                                rdzguchenguasu += 1;linkLabelrdzss1.Text += "孤辰-"; 孤辰寡宿真假 = 1;
+                                rdzguchenguasu += 1; linkLabelrdzss1.Text += "孤辰-"; 孤辰寡宿真假 = 1;
                             }
                             if (rdz == xuu)
                             {
-                                rdzguchenguasu += 1;linkLabelrdzss1.Text += "寡宿-"; 孤辰寡宿真假 = 1;
+                                rdzguchenguasu += 1; linkLabelrdzss1.Text += "寡宿-"; 孤辰寡宿真假 = 1;
                             }
                             if (sdz == yin)
                             {
-                                sdzguchenguasu += 1;linkLabelsdzss1.Text += "孤辰-"; 孤辰寡宿真假 = 1;
+                                sdzguchenguasu += 1; linkLabelsdzss1.Text += "孤辰-"; 孤辰寡宿真假 = 1;
                             }
                             if (sdz == xuu)
                             {
-                                sdzguchenguasu += 1;linkLabelsdzss1.Text += "寡宿-"; 孤辰寡宿真假 = 1;
+                                sdzguchenguasu += 1; linkLabelsdzss1.Text += "寡宿-"; 孤辰寡宿真假 = 1;
                             }
 
                         }
@@ -33386,27 +33386,27 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == sii)
                             {
-                                ydzguchenguasu += 1;linkLabelydzss1.Text += "孤辰-"; 孤辰寡宿真假 = 1;
+                                ydzguchenguasu += 1; linkLabelydzss1.Text += "孤辰-"; 孤辰寡宿真假 = 1;
                             }
                             if (ydz == chou)
                             {
-                                ydzguchenguasu += 1;linkLabelydzss1.Text += "寡宿-"; 孤辰寡宿真假 = 1;
+                                ydzguchenguasu += 1; linkLabelydzss1.Text += "寡宿-"; 孤辰寡宿真假 = 1;
                             }
                             if (rdz == sii)
                             {
-                                rdzguchenguasu += 1;linkLabelrdzss1.Text += "孤辰-"; 孤辰寡宿真假 = 1;
+                                rdzguchenguasu += 1; linkLabelrdzss1.Text += "孤辰-"; 孤辰寡宿真假 = 1;
                             }
                             if (rdz == chou)
                             {
-                                rdzguchenguasu += 1;linkLabelrdzss1.Text += "寡宿-"; 孤辰寡宿真假 = 1;
+                                rdzguchenguasu += 1; linkLabelrdzss1.Text += "寡宿-"; 孤辰寡宿真假 = 1;
                             }
                             if (sdz == sii)
                             {
-                                sdzguchenguasu += 1;linkLabelsdzss1.Text += "孤辰-"; 孤辰寡宿真假 = 1;
+                                sdzguchenguasu += 1; linkLabelsdzss1.Text += "孤辰-"; 孤辰寡宿真假 = 1;
                             }
                             if (sdz == chou)
                             {
-                                sdzguchenguasu += 1;linkLabelsdzss1.Text += "寡宿-"; 孤辰寡宿真假 = 1;
+                                sdzguchenguasu += 1; linkLabelsdzss1.Text += "寡宿-"; 孤辰寡宿真假 = 1;
                             }
 
                         }
@@ -33414,27 +33414,27 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == shen)
                             {
-                                ydzguchenguasu += 1;linkLabelydzss1.Text += "孤辰-"; 孤辰寡宿真假 = 1;
+                                ydzguchenguasu += 1; linkLabelydzss1.Text += "孤辰-"; 孤辰寡宿真假 = 1;
                             }
                             if (ydz == chen)
                             {
-                                ydzguchenguasu += 1;linkLabelydzss1.Text += "寡宿-"; 孤辰寡宿真假 = 1;
+                                ydzguchenguasu += 1; linkLabelydzss1.Text += "寡宿-"; 孤辰寡宿真假 = 1;
                             }
                             if (rdz == shen)
                             {
-                                rdzguchenguasu += 1;linkLabelrdzss1.Text += "孤辰-"; 孤辰寡宿真假 = 1;
+                                rdzguchenguasu += 1; linkLabelrdzss1.Text += "孤辰-"; 孤辰寡宿真假 = 1;
                             }
                             if (rdz == chen)
                             {
-                                rdzguchenguasu += 1;linkLabelrdzss1.Text += "寡宿-"; 孤辰寡宿真假 = 1;
+                                rdzguchenguasu += 1; linkLabelrdzss1.Text += "寡宿-"; 孤辰寡宿真假 = 1;
                             }
                             if (sdz == shen)
                             {
-                                sdzguchenguasu += 1;linkLabelsdzss1.Text += "孤辰-"; 孤辰寡宿真假 = 1;
+                                sdzguchenguasu += 1; linkLabelsdzss1.Text += "孤辰-"; 孤辰寡宿真假 = 1;
                             }
                             if (sdz == chen)
                             {
-                                sdzguchenguasu += 1;linkLabelsdzss1.Text += "寡宿-"; 孤辰寡宿真假 = 1;
+                                sdzguchenguasu += 1; linkLabelsdzss1.Text += "寡宿-"; 孤辰寡宿真假 = 1;
                             }
 
                         }
@@ -33442,27 +33442,27 @@ namespace BaZiFuZuGongJu
                         {
                             if (ydz == hai)
                             {
-                                ydzguchenguasu += 1;linkLabelydzss1.Text += "孤辰-"; 孤辰寡宿真假 = 1;
+                                ydzguchenguasu += 1; linkLabelydzss1.Text += "孤辰-"; 孤辰寡宿真假 = 1;
                             }
                             if (ydz == wei)
                             {
-                                ydzguchenguasu += 1;linkLabelydzss1.Text += "寡宿-"; 孤辰寡宿真假 = 1;
+                                ydzguchenguasu += 1; linkLabelydzss1.Text += "寡宿-"; 孤辰寡宿真假 = 1;
                             }
                             if (rdz == hai)
                             {
-                                rdzguchenguasu += 1;linkLabelrdzss1.Text += "孤辰-"; 孤辰寡宿真假 = 1;
+                                rdzguchenguasu += 1; linkLabelrdzss1.Text += "孤辰-"; 孤辰寡宿真假 = 1;
                             }
                             if (rdz == wei)
                             {
-                                rdzguchenguasu += 1;linkLabelrdzss1.Text += "寡宿-"; 孤辰寡宿真假 = 1;
+                                rdzguchenguasu += 1; linkLabelrdzss1.Text += "寡宿-"; 孤辰寡宿真假 = 1;
                             }
                             if (sdz == hai)
                             {
-                                sdzguchenguasu += 1;linkLabelsdzss1.Text += "孤辰-"; 孤辰寡宿真假 = 1;
+                                sdzguchenguasu += 1; linkLabelsdzss1.Text += "孤辰-"; 孤辰寡宿真假 = 1;
                             }
                             if (sdz == wei)
                             {
-                                sdzguchenguasu += 1;linkLabelsdzss1.Text += "寡宿-"; 孤辰寡宿真假 = 1;
+                                sdzguchenguasu += 1; linkLabelsdzss1.Text += "寡宿-"; 孤辰寡宿真假 = 1;
                             }
 
                         }
@@ -33474,50 +33474,50 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 孤辰寡宿;
                         }
                     }
-                    
+
                     //十恶大败
                     if (jia == jia)
                     {
                         int 十恶大败真假 = 0;
                         if (rtg == jia && rdz == chen)
                         {
-                            bazipingfen -= 100;linkLabelrtgss.Text += "十恶大败-"; 十恶大败真假 = 1;
+                            bazipingfen -= 100; linkLabelrtgss.Text += "十恶大败-"; 十恶大败真假 = 1;
                         }
                         if (rtg == yii && rdz == sii)
                         {
-                            bazipingfen -= 100;linkLabelrtgss.Text += "十恶大败-"; 十恶大败真假 = 1;
+                            bazipingfen -= 100; linkLabelrtgss.Text += "十恶大败-"; 十恶大败真假 = 1;
                         }
                         if (rtg == bing && rdz == shen)
                         {
-                            bazipingfen -= 100;linkLabelrtgss.Text += "十恶大败-"; 十恶大败真假 = 1;
+                            bazipingfen -= 100; linkLabelrtgss.Text += "十恶大败-"; 十恶大败真假 = 1;
                         }
                         if (rtg == ding && rdz == hai)
                         {
-                            bazipingfen -= 100;linkLabelrtgss.Text += "十恶大败-"; 十恶大败真假 = 1;
+                            bazipingfen -= 100; linkLabelrtgss.Text += "十恶大败-"; 十恶大败真假 = 1;
                         }
                         if (rtg == wuu && rdz == xuu)
                         {
-                            bazipingfen -= 100;linkLabelrtgss.Text += "十恶大败-"; 十恶大败真假 = 1;
+                            bazipingfen -= 100; linkLabelrtgss.Text += "十恶大败-"; 十恶大败真假 = 1;
                         }
                         if (rtg == jii && rdz == chou)
                         {
-                            bazipingfen -= 100;linkLabelrtgss.Text += "十恶大败-"; 十恶大败真假 = 1;
+                            bazipingfen -= 100; linkLabelrtgss.Text += "十恶大败-"; 十恶大败真假 = 1;
                         }
                         if (rtg == geng && rdz == chen)
                         {
-                            bazipingfen -= 100;linkLabelrtgss.Text += "十恶大败-"; 十恶大败真假 = 1;
+                            bazipingfen -= 100; linkLabelrtgss.Text += "十恶大败-"; 十恶大败真假 = 1;
                         }
                         if (rtg == xin && rdz == sii)
                         {
-                            bazipingfen -= 100;linkLabelrtgss.Text += "十恶大败-"; 十恶大败真假 = 1;
+                            bazipingfen -= 100; linkLabelrtgss.Text += "十恶大败-"; 十恶大败真假 = 1;
                         }
                         if (rtg == ren && rdz == shen)
                         {
-                            bazipingfen -= 100;linkLabelrtgss.Text += "十恶大败-"; 十恶大败真假 = 1;
+                            bazipingfen -= 100; linkLabelrtgss.Text += "十恶大败-"; 十恶大败真假 = 1;
                         }
                         if (rtg == gui && rdz == hai)
                         {
-                            bazipingfen -= 100;linkLabelrtgss.Text += "十恶大败-"; 十恶大败真假 = 1;
+                            bazipingfen -= 100; linkLabelrtgss.Text += "十恶大败-"; 十恶大败真假 = 1;
                         }
 
                         if (十恶大败真假 == 1)
@@ -33527,58 +33527,58 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 十恶大败;
                         }
                     }
-                    
+
                     //阴阳差错
                     if (jia == jia)
                     {
                         int 阴阳差错真假 = 0;
                         if (rtg == bing && rdz == zii)
                         {
-                            bazipingfen -= 100;linkLabelrtgss.Text += "差错-"; 阴阳差错真假 = 1;
+                            bazipingfen -= 100; linkLabelrtgss.Text += "差错-"; 阴阳差错真假 = 1;
                         }
                         if (rtg == ding && rdz == chou)
                         {
-                            bazipingfen -= 100;linkLabelrtgss.Text += "差错-"; 阴阳差错真假 = 1;
+                            bazipingfen -= 100; linkLabelrtgss.Text += "差错-"; 阴阳差错真假 = 1;
                         }
                         if (rtg == wuu && rdz == yin)
                         {
-                            bazipingfen -= 100;linkLabelrtgss.Text += "差错-"; 阴阳差错真假 = 1;
+                            bazipingfen -= 100; linkLabelrtgss.Text += "差错-"; 阴阳差错真假 = 1;
                         }
                         if (rtg == xin && rdz == mao)
                         {
-                            bazipingfen -= 100;linkLabelrtgss.Text += "差错-"; 阴阳差错真假 = 1;
+                            bazipingfen -= 100; linkLabelrtgss.Text += "差错-"; 阴阳差错真假 = 1;
                         }
                         if (rtg == ren && rdz == chen)
                         {
-                            bazipingfen -= 100;linkLabelrtgss.Text += "差错-"; 阴阳差错真假 = 1;
+                            bazipingfen -= 100; linkLabelrtgss.Text += "差错-"; 阴阳差错真假 = 1;
                         }
                         if (rtg == gui && rdz == sii)
                         {
-                            bazipingfen -= 100;linkLabelrtgss.Text += "差错-"; 阴阳差错真假 = 1;
+                            bazipingfen -= 100; linkLabelrtgss.Text += "差错-"; 阴阳差错真假 = 1;
                         }
                         if (rtg == bing && rdz == wuma)
                         {
-                            bazipingfen -= 100;linkLabelrtgss.Text += "差错-"; 阴阳差错真假 = 1;
+                            bazipingfen -= 100; linkLabelrtgss.Text += "差错-"; 阴阳差错真假 = 1;
                         }
                         if (rtg == ding && rdz == wei)
                         {
-                            bazipingfen -= 100;linkLabelrtgss.Text += "差错-"; 阴阳差错真假 = 1;
+                            bazipingfen -= 100; linkLabelrtgss.Text += "差错-"; 阴阳差错真假 = 1;
                         }
                         if (rtg == wuu && rdz == shen)
                         {
-                            bazipingfen -= 100;linkLabelrtgss.Text += "差错-"; 阴阳差错真假 = 1;
+                            bazipingfen -= 100; linkLabelrtgss.Text += "差错-"; 阴阳差错真假 = 1;
                         }
                         if (rtg == xin && rdz == you)
                         {
-                            bazipingfen -= 100;linkLabelrtgss.Text += "差错-"; 阴阳差错真假 = 1;
+                            bazipingfen -= 100; linkLabelrtgss.Text += "差错-"; 阴阳差错真假 = 1;
                         }
                         if (rtg == ren && rdz == xuu)
                         {
-                            bazipingfen -= 100;linkLabelrtgss.Text += "差错-"; 阴阳差错真假 = 1;
+                            bazipingfen -= 100; linkLabelrtgss.Text += "差错-"; 阴阳差错真假 = 1;
                         }
                         if (rtg == gui && rdz == hai)
                         {
-                            bazipingfen -= 100;linkLabelrtgss.Text += "差错-"; 阴阳差错真假 = 1;
+                            bazipingfen -= 100; linkLabelrtgss.Text += "差错-"; 阴阳差错真假 = 1;
                         }
 
 
@@ -33589,7 +33589,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 阴阳差错;
                         }
                     }
-                    
+
                     //孤鸾煞
                     if (jia == jia)
                     {
@@ -33598,35 +33598,35 @@ namespace BaZiFuZuGongJu
                         {
                             if (rtg == yii && rdz == sii)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == ding && rdz == sii)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == xin && rdz == hai)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == wuu && rdz == shen)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == ren && rdz == yin)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == wuu && rdz == wuma)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == ren && rdz == zii)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == bing && rdz == wuma)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
 
                         }
@@ -33634,35 +33634,35 @@ namespace BaZiFuZuGongJu
                         {
                             if (rtg == yii && rdz == sii)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == ding && rdz == sii)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == xin && rdz == hai)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == wuu && rdz == shen)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == ren && rdz == yin)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == wuu && rdz == wuma)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == ren && rdz == zii)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == bing && rdz == wuma)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
 
                         }
@@ -33670,35 +33670,35 @@ namespace BaZiFuZuGongJu
                         {
                             if (rtg == yii && rdz == sii)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == ding && rdz == sii)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == xin && rdz == hai)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == wuu && rdz == shen)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == ren && rdz == yin)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == wuu && rdz == wuma)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == ren && rdz == zii)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == bing && rdz == wuma)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
 
                         }
@@ -33706,35 +33706,35 @@ namespace BaZiFuZuGongJu
                         {
                             if (rtg == yii && rdz == sii)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == ding && rdz == sii)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == xin && rdz == hai)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == wuu && rdz == shen)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == ren && rdz == yin)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == wuu && rdz == wuma)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == ren && rdz == zii)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == bing && rdz == wuma)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
 
                         }
@@ -33742,35 +33742,35 @@ namespace BaZiFuZuGongJu
                         {
                             if (rtg == yii && rdz == sii)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == ding && rdz == sii)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == xin && rdz == hai)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == wuu && rdz == shen)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == ren && rdz == yin)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == wuu && rdz == wuma)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == ren && rdz == zii)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == bing && rdz == wuma)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
 
                         }
@@ -33778,35 +33778,35 @@ namespace BaZiFuZuGongJu
                         {
                             if (rtg == yii && rdz == sii)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == ding && rdz == sii)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == xin && rdz == hai)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == wuu && rdz == shen)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == ren && rdz == yin)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == wuu && rdz == wuma)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == ren && rdz == zii)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == bing && rdz == wuma)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
 
                         }
@@ -33814,35 +33814,35 @@ namespace BaZiFuZuGongJu
                         {
                             if (rtg == yii && rdz == sii)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == ding && rdz == sii)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == xin && rdz == hai)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == wuu && rdz == shen)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == ren && rdz == yin)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == wuu && rdz == wuma)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == ren && rdz == zii)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == bing && rdz == wuma)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
 
                         }
@@ -33850,35 +33850,35 @@ namespace BaZiFuZuGongJu
                         {
                             if (rtg == yii && rdz == sii)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == ding && rdz == sii)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == xin && rdz == hai)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == wuu && rdz == shen)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == ren && rdz == yin)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == wuu && rdz == wuma)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == ren && rdz == zii)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
                             if (rtg == bing && rdz == wuma)
                             {
-                                bazipingfen -= 35;linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
+                                bazipingfen -= 35; linkLabelstgss.Text += "孤鸾-"; 孤鸾煞真假 = 1;
                             }
 
                         }
@@ -33890,7 +33890,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 孤鸾煞;
                         }
                     }
-                    
+
                     //福德贵人
                     if (jia == jia)
                     {
@@ -33899,19 +33899,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin)
                             {
-                                ndzfudeguiren += 1;linkLabelndzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                ndzfudeguiren += 1; linkLabelndzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (ydz == yin)
                             {
-                                ydzfudeguiren += 1;linkLabelydzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                ydzfudeguiren += 1; linkLabelydzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (rdz == yin)
                             {
-                                rdzfudeguiren += 1;linkLabelrdzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                rdzfudeguiren += 1; linkLabelrdzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (sdz == yin)
                             {
-                                sdzfudeguiren += 1;linkLabelsdzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                sdzfudeguiren += 1; linkLabelsdzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
 
                         }
@@ -33919,19 +33919,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chou)
                             {
-                                ndzfudeguiren += 1;linkLabelndzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                ndzfudeguiren += 1; linkLabelndzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (ydz == chou)
                             {
-                                ydzfudeguiren += 1;linkLabelydzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                ydzfudeguiren += 1; linkLabelydzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (rdz == chou)
                             {
-                                rdzfudeguiren += 1;linkLabelrdzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                rdzfudeguiren += 1; linkLabelrdzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (sdz == chou)
                             {
-                                sdzfudeguiren += 1;linkLabelsdzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                sdzfudeguiren += 1; linkLabelsdzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
 
                         }
@@ -33939,19 +33939,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == zii)
                             {
-                                ndzfudeguiren += 1;linkLabelndzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                ndzfudeguiren += 1; linkLabelndzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (ydz == zii)
                             {
-                                ydzfudeguiren += 1;linkLabelydzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                ydzfudeguiren += 1; linkLabelydzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (rdz == zii)
                             {
-                                rdzfudeguiren += 1;linkLabelrdzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                rdzfudeguiren += 1; linkLabelrdzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (sdz == zii)
                             {
-                                sdzfudeguiren += 1;linkLabelsdzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                sdzfudeguiren += 1; linkLabelsdzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
 
                         }
@@ -33959,19 +33959,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == you)
                             {
-                                ndzfudeguiren += 1;linkLabelndzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                ndzfudeguiren += 1; linkLabelndzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (ydz == you)
                             {
-                                ydzfudeguiren += 1;linkLabelydzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                ydzfudeguiren += 1; linkLabelydzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (rdz == you)
                             {
-                                rdzfudeguiren += 1;linkLabelrdzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                rdzfudeguiren += 1; linkLabelrdzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (sdz == you)
                             {
-                                sdzfudeguiren += 1;linkLabelsdzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                sdzfudeguiren += 1; linkLabelsdzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
 
                         }
@@ -33979,19 +33979,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen)
                             {
-                                ndzfudeguiren += 1;linkLabelndzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                ndzfudeguiren += 1; linkLabelndzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (ydz == shen)
                             {
-                                ydzfudeguiren += 1;linkLabelydzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                ydzfudeguiren += 1; linkLabelydzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (rdz == shen)
                             {
-                                rdzfudeguiren += 1;linkLabelrdzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                rdzfudeguiren += 1; linkLabelrdzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (sdz == shen)
                             {
-                                sdzfudeguiren += 1;linkLabelsdzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                sdzfudeguiren += 1; linkLabelsdzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
 
                         }
@@ -33999,19 +33999,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wei)
                             {
-                                ndzfudeguiren += 1;linkLabelndzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                ndzfudeguiren += 1; linkLabelndzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (ydz == wei)
                             {
-                                ydzfudeguiren += 1;linkLabelydzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                ydzfudeguiren += 1; linkLabelydzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (rdz == wei)
                             {
-                                rdzfudeguiren += 1;linkLabelrdzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                rdzfudeguiren += 1; linkLabelrdzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (sdz == wei)
                             {
-                                sdzfudeguiren += 1;linkLabelsdzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                sdzfudeguiren += 1; linkLabelsdzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
 
                         }
@@ -34019,19 +34019,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wuma)
                             {
-                                ndzfudeguiren += 1;linkLabelndzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                ndzfudeguiren += 1; linkLabelndzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (ydz == wuma)
                             {
-                                ydzfudeguiren += 1;linkLabelydzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                ydzfudeguiren += 1; linkLabelydzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (rdz == wuma)
                             {
-                                rdzfudeguiren += 1;linkLabelrdzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                rdzfudeguiren += 1; linkLabelrdzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (sdz == wuma)
                             {
-                                sdzfudeguiren += 1;linkLabelsdzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                sdzfudeguiren += 1; linkLabelsdzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
 
                         }
@@ -34039,19 +34039,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == sii)
                             {
-                                ndzfudeguiren += 1;linkLabelndzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                ndzfudeguiren += 1; linkLabelndzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (ydz == sii)
                             {
-                                ydzfudeguiren += 1;linkLabelydzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                ydzfudeguiren += 1; linkLabelydzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (rdz == sii)
                             {
-                                rdzfudeguiren += 1;linkLabelrdzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                rdzfudeguiren += 1; linkLabelrdzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (sdz == sii)
                             {
-                                sdzfudeguiren += 1;linkLabelsdzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                sdzfudeguiren += 1; linkLabelsdzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
 
                         }
@@ -34059,19 +34059,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == chen)
                             {
-                                ndzfudeguiren += 1;linkLabelndzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                ndzfudeguiren += 1; linkLabelndzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (ydz == chen)
                             {
-                                ydzfudeguiren += 1;linkLabelydzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                ydzfudeguiren += 1; linkLabelydzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (rdz == chen)
                             {
-                                rdzfudeguiren += 1;linkLabelrdzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                rdzfudeguiren += 1; linkLabelrdzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (sdz == chen)
                             {
-                                sdzfudeguiren += 1;linkLabelsdzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                sdzfudeguiren += 1; linkLabelsdzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
 
                         }
@@ -34079,19 +34079,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == mao)
                             {
-                                ndzfudeguiren += 1;linkLabelndzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                ndzfudeguiren += 1; linkLabelndzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (ydz == mao)
                             {
-                                ydzfudeguiren += 1;linkLabelydzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                ydzfudeguiren += 1; linkLabelydzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (rdz == mao)
                             {
-                                rdzfudeguiren += 1;linkLabelrdzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                rdzfudeguiren += 1; linkLabelrdzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
                             if (sdz == mao)
                             {
-                                sdzfudeguiren += 1;linkLabelsdzss1.Text += "福德-"; 福德贵人真假 = 1;
+                                sdzfudeguiren += 1; linkLabelsdzss1.Text += "福德-"; 福德贵人真假 = 1;
                             }
 
                         }
@@ -34103,7 +34103,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 福德贵人;
                         }
                     }
-                    
+
                     //伏吟
                     if (jia == jia)
                     {
@@ -34163,7 +34163,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 伏吟;
                         }
                     }
-                    
+
                     //文曲星
                     if (jia == jia)
                     {
@@ -34172,19 +34172,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == hai)
                             {
-                                ndzwenqvxing += 1;linkLabelndzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                ndzwenqvxing += 1; linkLabelndzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
                             if (ydz == hai)
                             {
-                                ydzwenqvxing += 1;linkLabelydzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                ydzwenqvxing += 1; linkLabelydzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
                             if (rdz == hai)
                             {
-                                rdzwenqvxing += 1;linkLabelrdzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                rdzwenqvxing += 1; linkLabelrdzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
                             if (sdz == hai)
                             {
-                                sdzwenqvxing += 1;linkLabelsdzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                sdzwenqvxing += 1; linkLabelsdzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
 
                         }
@@ -34192,19 +34192,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == zii)
                             {
-                                ndzwenqvxing += 1;linkLabelndzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                ndzwenqvxing += 1; linkLabelndzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
                             if (ydz == zii)
                             {
-                                ydzwenqvxing += 1;linkLabelydzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                ydzwenqvxing += 1; linkLabelydzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
                             if (rdz == zii)
                             {
-                                rdzwenqvxing += 1;linkLabelrdzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                rdzwenqvxing += 1; linkLabelrdzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
                             if (sdz == zii)
                             {
-                                sdzwenqvxing += 1;linkLabelsdzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                sdzwenqvxing += 1; linkLabelsdzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
 
                         }
@@ -34212,19 +34212,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == yin)
                             {
-                                ndzwenqvxing += 1;linkLabelndzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                ndzwenqvxing += 1; linkLabelndzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
                             if (ydz == yin)
                             {
-                                ydzwenqvxing += 1;linkLabelydzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                ydzwenqvxing += 1; linkLabelydzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
                             if (rdz == yin)
                             {
-                                rdzwenqvxing += 1;linkLabelrdzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                rdzwenqvxing += 1; linkLabelrdzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
                             if (sdz == yin)
                             {
-                                sdzwenqvxing += 1;linkLabelsdzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                sdzwenqvxing += 1; linkLabelsdzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
 
                         }
@@ -34232,19 +34232,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == mao)
                             {
-                                ndzwenqvxing += 1;linkLabelndzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                ndzwenqvxing += 1; linkLabelndzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
                             if (ydz == mao)
                             {
-                                ydzwenqvxing += 1;linkLabelydzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                ydzwenqvxing += 1; linkLabelydzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
                             if (rdz == mao)
                             {
-                                rdzwenqvxing += 1;linkLabelrdzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                rdzwenqvxing += 1; linkLabelrdzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
                             if (sdz == mao)
                             {
-                                sdzwenqvxing += 1;linkLabelsdzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                sdzwenqvxing += 1; linkLabelsdzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
 
                         }
@@ -34252,19 +34252,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == sii)
                             {
-                                ndzwenqvxing += 1;linkLabelndzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                ndzwenqvxing += 1; linkLabelndzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
                             if (ydz == sii)
                             {
-                                ydzwenqvxing += 1;linkLabelydzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                ydzwenqvxing += 1; linkLabelydzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
                             if (rdz == sii)
                             {
-                                rdzwenqvxing += 1;linkLabelrdzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                rdzwenqvxing += 1; linkLabelrdzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
                             if (sdz == sii)
                             {
-                                sdzwenqvxing += 1;linkLabelsdzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                sdzwenqvxing += 1; linkLabelsdzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
 
                         }
@@ -34272,19 +34272,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == wuma)
                             {
-                                ndzwenqvxing += 1;linkLabelndzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                ndzwenqvxing += 1; linkLabelndzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
                             if (ydz == wuma)
                             {
-                                ydzwenqvxing += 1;linkLabelydzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                ydzwenqvxing += 1; linkLabelydzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
                             if (rdz == wuma)
                             {
-                                rdzwenqvxing += 1;linkLabelrdzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                rdzwenqvxing += 1; linkLabelrdzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
                             if (sdz == wuma)
                             {
-                                sdzwenqvxing += 1;linkLabelsdzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                sdzwenqvxing += 1; linkLabelsdzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
 
                         }
@@ -34292,19 +34292,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == shen)
                             {
-                                ndzwenqvxing += 1;linkLabelndzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                ndzwenqvxing += 1; linkLabelndzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
                             if (ydz == shen)
                             {
-                                ydzwenqvxing += 1;linkLabelydzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                ydzwenqvxing += 1; linkLabelydzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
                             if (rdz == shen)
                             {
-                                rdzwenqvxing += 1;linkLabelrdzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                rdzwenqvxing += 1; linkLabelrdzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
                             if (sdz == shen)
                             {
-                                sdzwenqvxing += 1;linkLabelsdzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                sdzwenqvxing += 1; linkLabelsdzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
 
                         }
@@ -34312,19 +34312,19 @@ namespace BaZiFuZuGongJu
                         {
                             if (ndz == you)
                             {
-                                ndzwenqvxing += 1;linkLabelndzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                ndzwenqvxing += 1; linkLabelndzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
                             if (ydz == you)
                             {
-                                ydzwenqvxing += 1;linkLabelydzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                ydzwenqvxing += 1; linkLabelydzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
                             if (rdz == you)
                             {
-                                rdzwenqvxing += 1;linkLabelrdzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                rdzwenqvxing += 1; linkLabelrdzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
                             if (sdz == you)
                             {
-                                sdzwenqvxing += 1;linkLabelsdzss1.Text += "文曲-"; 文曲星真假 = 1;
+                                sdzwenqvxing += 1; linkLabelsdzss1.Text += "文曲-"; 文曲星真假 = 1;
                             }
 
                         }
@@ -34336,7 +34336,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 文曲星;
                         }
                     }
-                    
+
                     //德秀
                     if (jia == jia)
                     {
@@ -34352,19 +34352,19 @@ namespace BaZiFuZuGongJu
 
                                         if (ntg == geng || ntg == xin)
                                         {
-                                            ndzdexiu += 1;linkLabelntgss.Text += "德秀-"; 德秀真假 = 1;
+                                            ndzdexiu += 1; linkLabelntgss.Text += "德秀-"; 德秀真假 = 1;
                                         }
                                         if (ytg == geng || ytg == xin)
                                         {
-                                            ydzdexiu += 1;linkLabelytgss.Text += "德秀-"; 德秀真假 = 1;
+                                            ydzdexiu += 1; linkLabelytgss.Text += "德秀-"; 德秀真假 = 1;
                                         }
                                         if (rtg == geng || rtg == xin)
                                         {
-                                            rdzdexiu += 1;linkLabelrtgss.Text += "德秀-"; 德秀真假 = 1;
+                                            rdzdexiu += 1; linkLabelrtgss.Text += "德秀-"; 德秀真假 = 1;
                                         }
                                         if (stg == geng || stg == xin)
                                         {
-                                            sdzdexiu += 1;linkLabelstgss.Text += "德秀-"; 德秀真假 = 1;
+                                            sdzdexiu += 1; linkLabelstgss.Text += "德秀-"; 德秀真假 = 1;
                                         }
 
                                     }
@@ -34381,19 +34381,19 @@ namespace BaZiFuZuGongJu
                                     {
                                         if (ntg == ren || ntg == gui || ntg == wuu || ntg == jii)
                                         {
-                                            ndzdexiu += 1;linkLabelntgss.Text += "德秀-"; 德秀真假 = 1;
+                                            ndzdexiu += 1; linkLabelntgss.Text += "德秀-"; 德秀真假 = 1;
                                         }
                                         if (ytg == ren || ytg == gui || ytg == wuu || ytg == jii)
                                         {
-                                            ydzdexiu += 1;linkLabelytgss.Text += "德秀-"; 德秀真假 = 1;
+                                            ydzdexiu += 1; linkLabelytgss.Text += "德秀-"; 德秀真假 = 1;
                                         }
                                         if (rtg == ren || rtg == gui || rtg == wuu || rtg == jii)
                                         {
-                                            rdzdexiu += 1;linkLabelrtgss.Text += "德秀-"; 德秀真假 = 1;
+                                            rdzdexiu += 1; linkLabelrtgss.Text += "德秀-"; 德秀真假 = 1;
                                         }
                                         if (stg == ren || stg == gui || stg == wuu || stg == jii)
                                         {
-                                            sdzdexiu += 1;linkLabelstgss.Text += "德秀-"; 德秀真假 = 1;
+                                            sdzdexiu += 1; linkLabelstgss.Text += "德秀-"; 德秀真假 = 1;
                                         }
                                     }
                                 }
@@ -34409,19 +34409,19 @@ namespace BaZiFuZuGongJu
                                     {
                                         if (ntg == jia || ntg == yii)
                                         {
-                                            ndzdexiu += 1;linkLabelntgss.Text += "德秀-"; 德秀真假 = 1;
+                                            ndzdexiu += 1; linkLabelntgss.Text += "德秀-"; 德秀真假 = 1;
                                         }
                                         if (ytg == jia || ytg == yii)
                                         {
-                                            ydzdexiu += 1;linkLabelytgss.Text += "德秀-"; 德秀真假 = 1;
+                                            ydzdexiu += 1; linkLabelytgss.Text += "德秀-"; 德秀真假 = 1;
                                         }
                                         if (rtg == jia || rtg == yii)
                                         {
-                                            rdzdexiu += 1;linkLabelrtgss.Text += "德秀-"; 德秀真假 = 1;
+                                            rdzdexiu += 1; linkLabelrtgss.Text += "德秀-"; 德秀真假 = 1;
                                         }
                                         if (stg == jia || stg == yii)
                                         {
-                                            sdzdexiu += 1;linkLabelstgss.Text += "德秀-"; 德秀真假 = 1;
+                                            sdzdexiu += 1; linkLabelstgss.Text += "德秀-"; 德秀真假 = 1;
                                         }
 
                                     }
@@ -34438,19 +34438,19 @@ namespace BaZiFuZuGongJu
                                     {
                                         if (ntg == bing || ntg == ding)
                                         {
-                                            ndzdexiu += 1;linkLabelntgss.Text += "德秀-"; 德秀真假 = 1;
+                                            ndzdexiu += 1; linkLabelntgss.Text += "德秀-"; 德秀真假 = 1;
                                         }
                                         if (ytg == bing || ytg == ding)
                                         {
-                                            ydzdexiu += 1;linkLabelytgss.Text += "德秀-"; 德秀真假 = 1;
+                                            ydzdexiu += 1; linkLabelytgss.Text += "德秀-"; 德秀真假 = 1;
                                         }
                                         if (rtg == bing || rtg == ding)
                                         {
-                                            rdzdexiu += 1;linkLabelrtgss.Text += "德秀-"; 德秀真假 = 1;
+                                            rdzdexiu += 1; linkLabelrtgss.Text += "德秀-"; 德秀真假 = 1;
                                         }
                                         if (stg == bing || stg == ding)
                                         {
-                                            sdzdexiu += 1;linkLabelstgss.Text += "德秀-"; 德秀真假 = 1;
+                                            sdzdexiu += 1; linkLabelstgss.Text += "德秀-"; 德秀真假 = 1;
                                         }
                                     }
                                 }
@@ -34463,7 +34463,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 德秀;
                         }
                     }
-                    
+
                     //四废日
                     if (jia == jia)
                     {
@@ -34472,11 +34472,11 @@ namespace BaZiFuZuGongJu
                         {
                             if (rtg == geng && rdz == shen)
                             {
-                                bazipingfen -= 150;linkLabelrtgss.Text += "四废-"; 四废日真假 = 1;
+                                bazipingfen -= 150; linkLabelrtgss.Text += "四废-"; 四废日真假 = 1;
                             }
                             if (rtg == xin && rdz == you)
                             {
-                                bazipingfen -= 150;linkLabelrtgss.Text += "四废-"; 四废日真假 = 1;
+                                bazipingfen -= 150; linkLabelrtgss.Text += "四废-"; 四废日真假 = 1;
                             }
 
                         }
@@ -34484,11 +34484,11 @@ namespace BaZiFuZuGongJu
                         {
                             if (rtg == ren && rdz == zii)
                             {
-                                bazipingfen -= 150;linkLabelrtgss.Text += "四废-"; 四废日真假 = 1;
+                                bazipingfen -= 150; linkLabelrtgss.Text += "四废-"; 四废日真假 = 1;
                             }
                             if (rtg == gui && rdz == hai)
                             {
-                                bazipingfen -= 150;linkLabelrtgss.Text += "四废-"; 四废日真假 = 1;
+                                bazipingfen -= 150; linkLabelrtgss.Text += "四废-"; 四废日真假 = 1;
                             }
 
                         }
@@ -34496,11 +34496,11 @@ namespace BaZiFuZuGongJu
                         {
                             if (rtg == jia && rdz == yin)
                             {
-                                bazipingfen -= 150;linkLabelrtgss.Text += "四废-"; 四废日真假 = 1;
+                                bazipingfen -= 150; linkLabelrtgss.Text += "四废-"; 四废日真假 = 1;
                             }
                             if (rtg == yii && rdz == mao)
                             {
-                                bazipingfen -= 150;linkLabelrtgss.Text += "四废-"; 四废日真假 = 1;
+                                bazipingfen -= 150; linkLabelrtgss.Text += "四废-"; 四废日真假 = 1;
                             }
 
                         }
@@ -34508,11 +34508,11 @@ namespace BaZiFuZuGongJu
                         {
                             if (rtg == bing && rdz == wuma)
                             {
-                                bazipingfen -= 150;linkLabelrtgss.Text += "四废-"; 四废日真假 = 1;
+                                bazipingfen -= 150; linkLabelrtgss.Text += "四废-"; 四废日真假 = 1;
                             }
                             if (rtg == ding && rdz == sii)
                             {
-                                bazipingfen -= 150;linkLabelrtgss.Text += "四废-"; 四废日真假 = 1;
+                                bazipingfen -= 150; linkLabelrtgss.Text += "四废-"; 四废日真假 = 1;
                             }
 
                         }
@@ -34524,7 +34524,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 四废日;
                         }
                     }
-                    
+
                     //童子煞
                     if (jia == jia)
                     {
@@ -34533,11 +34533,11 @@ namespace BaZiFuZuGongJu
                         {
                             if (rdz == yin || rdz == zii)
                             {
-                                bazipingfen -= 120;linkLabelrdzss2.Text += "童子-"; 童子煞真假 = 1;
+                                bazipingfen -= 120; linkLabelrdzss2.Text += "童子-"; 童子煞真假 = 1;
                             }
                             if (sdz == yin || sdz == zii)
                             {
-                                bazipingfen -= 100;linkLabelsdzss2.Text += "童子-"; 童子煞真假 = 1;
+                                bazipingfen -= 100; linkLabelsdzss2.Text += "童子-"; 童子煞真假 = 1;
                             }
 
                         }
@@ -34545,11 +34545,11 @@ namespace BaZiFuZuGongJu
                         {
                             if (rdz == mao || rdz == wei || rdz == chen)
                             {
-                                bazipingfen -= 120;linkLabelrdzss2.Text += "童子-"; 童子煞真假 = 1;
+                                bazipingfen -= 120; linkLabelrdzss2.Text += "童子-"; 童子煞真假 = 1;
                             }
                             if (sdz == mao || sdz == wei || sdz == chen)
                             {
-                                bazipingfen -= 100;linkLabelsdzss2.Text += "童子-"; 童子煞真假 = 1;
+                                bazipingfen -= 100; linkLabelsdzss2.Text += "童子-"; 童子煞真假 = 1;
                             }
 
                         }
@@ -34557,11 +34557,11 @@ namespace BaZiFuZuGongJu
                         {
                             if (rdz == wuma || rdz == mao)
                             {
-                                bazipingfen -= 120;linkLabelrdzss2.Text += "童子-"; 童子煞真假 = 1;
+                                bazipingfen -= 120; linkLabelrdzss2.Text += "童子-"; 童子煞真假 = 1;
                             }
                             if (sdz == wuma || sdz == mao)
                             {
-                                bazipingfen -= 100;linkLabelsdzss2.Text += "童子-"; 童子煞真假 = 1;
+                                bazipingfen -= 100; linkLabelsdzss2.Text += "童子-"; 童子煞真假 = 1;
                             }
 
                         }
@@ -34569,11 +34569,11 @@ namespace BaZiFuZuGongJu
                         {
                             if (rdz == you || rdz == xuu)
                             {
-                                bazipingfen -= 120;linkLabelrdzss2.Text += "童子-"; 童子煞真假 = 1;
+                                bazipingfen -= 120; linkLabelrdzss2.Text += "童子-"; 童子煞真假 = 1;
                             }
                             if (sdz == you || sdz == xuu)
                             {
-                                bazipingfen -= 100;linkLabelsdzss2.Text += "童子-"; 童子煞真假 = 1;
+                                bazipingfen -= 100; linkLabelsdzss2.Text += "童子-"; 童子煞真假 = 1;
                             }
 
                         }
@@ -34581,11 +34581,11 @@ namespace BaZiFuZuGongJu
                         {
                             if (rdz == chen || rdz == sii)
                             {
-                                bazipingfen -= 120;linkLabelrdzss2.Text += "童子-"; 童子煞真假 = 1;
+                                bazipingfen -= 120; linkLabelrdzss2.Text += "童子-"; 童子煞真假 = 1;
                             }
                             if (sdz == chen || sdz == sii)
                             {
-                                bazipingfen -= 100;linkLabelsdzss2.Text += "童子-"; 童子煞真假 = 1;
+                                bazipingfen -= 100; linkLabelsdzss2.Text += "童子-"; 童子煞真假 = 1;
                             }
 
                         }
@@ -34597,7 +34597,7 @@ namespace BaZiFuZuGongJu
                             命局神煞 += 童子煞;
                         }
                     }
-                
+
                 }
                 //四柱纳音
                 if (jia == jia)
@@ -39091,7 +39091,7 @@ namespace BaZiFuZuGongJu
 
                     }
                     //输出
-                    if(bazipingfen < 0)
+                    if (bazipingfen < 0)
                     {
                         richTextBox1.Text = "当前八字评分为 负" + bazipingfen + "分\r\n\r\n此评分参考了：旺衰，阴阳，五行，季节，日干冲，神煞。";
                     }
@@ -52500,7 +52500,7 @@ namespace BaZiFuZuGongJu
                 richTextBox1.Location = new Point(3, 39); richTextBox1.Text = "";
                 richTextBox1.Height = 191; richTextBox1.Width = 1545;
                 buttongj.Text = "关于软件";
-                
+
             }
             else if (wenben == 0)
             {
@@ -55552,7 +55552,7 @@ namespace BaZiFuZuGongJu
             linkLabel25.Visible = false; checkBoxln.Visible = false; radioButtonll.Visible = false; radioButtonvv.Visible = false;
             button65.Visible = false; button61.Visible = false; button58.Visible = false;
             button57.Visible = false; button63.Visible = false; button55.Visible = false;
-            button62.Visible = false; button52.Visible = false; 
+            button62.Visible = false; button52.Visible = false;
 
             button10.Visible = false; button11.Visible = false; button12.Visible = false; button25.Visible = false;
             linkLabel7hff.Visible = false;
@@ -55574,7 +55574,7 @@ namespace BaZiFuZuGongJu
             linkLabelndzss2.Visible = true; linkLabelydzss2.Visible = true; linkLabelrdzss2.Visible = true; linkLabelsdzss2.Visible = true;
             buttonp.Visible = true; buttonjin.Visible = true; buttonshui.Visible = true;
             buttonmu.Visible = true; buttonhuo.Visible = true; buttontu.Visible = true;
-            dateTimePicker1.Visible = true; 
+            dateTimePicker1.Visible = true;
             linkLabel25.Visible = true; checkBoxln.Visible = true; radioButtonll.Visible = true; radioButtonvv.Visible = true;
             button10.Visible = true; button11.Visible = true; button12.Visible = true; button25.Visible = true;
             linkLabel7hff.Visible = true;
