@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vO9hayLh+T9/cU1dXovvMI9G/Utih5/HMoYtDQdcsdKLsmDv7uhhxNUSnJk2HW+EUWIzBzHYVTM09z7ElcFSXg==",
+  "success": true,
+  "projectFilePath": "D:\\BaZiFuZuGongJu\\BaZiFuZuGongJu.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.31\\microsoft.windows.sdk.net.ref.10.0.22621.31.nupkg.sha512"
+  ],
+  "logs": []
+}
